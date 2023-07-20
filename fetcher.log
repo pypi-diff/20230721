@@ -880,3 +880,111 @@
 [2023-07-21 00:19:17] INFO root fetch - processPackages [hist]: Remove: archive file [/home/abi/fetcher/tmp/hist-2.7.1.tar.gz]
 [2023-07-21 00:19:17] INFO root fetch - main [MainThread]: End processing [hist]: success
 [2023-07-21 00:19:17] INFO root fetch - main [MainThread]: Store serial: [18973751]
+[2023-07-21 00:24:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18973751]
+[2023-07-21 00:24:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diskannpy
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maggma
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepcellpredictor
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vegafusion-python-embed
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vegafusion
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vegafusion-jupyter
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelbit
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-07-21 00:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: secrets-vault
+[2023-07-21 00:24:26] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.8] Old Version: [0.7]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [vegafusion]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [diskannpy]: New version: [0.5.0rc4] Old Version: [0.5.0rc2]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [kfish]: New version: [99.0.202307202222] Old Version: [99.0.202307201812]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [kcli]: New version: [99.0.202307202219] Old Version: [99.0.202307201809]
+[2023-07-21 00:24:26] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/28/304ea7c1773b3a2c555f7eac7d50b882db7cdc3f773dd268583bbabf7d9a/kfish-99.0.202307201812-py3-none-any.whl
+[2023-07-21 00:24:26] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2023-07-21 00:24:26] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/54/ee/814dc1f377b465fbb98e67796fb73e1555957c0565729ea21613b25d5ecb/secrets-vault-0.1.4.tar.gz
+[2023-07-21 00:24:26] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/86/13/2f9bbf4d604fec65cae3794152577bd4b4c36fc002ee64d43bd42ae4a571/deepcellpredictor-0.7.tar.gz
+[2023-07-21 00:24:26] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/de/5f/b1066851eb1bb57d96875b829b5cd04d14d94b820ae4f9ed9d507f570ff3/vegafusion-1.4.0rc2.tar.gz
+[2023-07-21 00:24:26] INFO root fetch - processPackages [diskannpy]: Downloading https://files.pythonhosted.org/packages/cf/b8/c8ec94d2bde11c987143c86d36b815fd1e69fd389d4050fb386383c1430c/diskannpy-0.5.0rc2-cp39-cp39-win_amd64.whl
+[2023-07-21 00:24:26] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/80/c8/d0b505d04c634965de8d44361ec2cfc243f7e2c5abff4ac5a3fee812e923/vegafusion-jupyter-1.4.0rc2.tar.gz
+[2023-07-21 00:24:26] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/0d/85/7085b8c1e8f503954d1206f17575ae2503054a290db3cdde91a1a68abb63/vegafusion_python_embed-1.4.0rc2-cp38-abi3-win_amd64.whl
+[2023-07-21 00:24:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/70/cc/2bd1ae25c588887198eebdf37218169f834a9a99f796954422d0f3136bfe/kcli-99.0.202307201809-py3-none-any.whl
+[2023-07-21 00:24:26] WARNING root fetch - processPackages [vegafusion-python-embed]: Skipping package: exceeds size limit 17335825>=10485760
+[2023-07-21 00:24:26] INFO root fetch - processPackages [vegafusion-python-embed]: Start processing: roblox-pyc
+[2023-07-21 00:24:26] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed] error
+[2023-07-21 00:24:26] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-07-21 00:24:26] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230721/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-21 00:24:26] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2023-07-21 00:24:26] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 00:24:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/08/b7/4452f29bbaa3043fa4cd304dedca579537705d1d8f8aa9d76fb08061d62d/kfish-99.0.202307202222-py3-none-any.whl
+[2023-07-21 00:24:27] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/26/f9/5d2c47d45b55b344904f5a21137740d130b23e3472e02206beccfdcc4bea/secrets-vault-0.1.5.tar.gz
+[2023-07-21 00:24:27] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 00:24:27] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/77/63/7014d4ae6f94408fff85a195c82461cc9c454ce89288f3178bb521a4443f/deepcellpredictor-0.8.tar.gz
+[2023-07-21 00:24:27] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/3f/e0/959f4812b8743ef86e2ed097540fb4c5e9d3305d74dd40e7239144c637cd/vegafusion-1.4.0rc3.tar.gz
+[2023-07-21 00:24:27] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-07-21 00:24:27] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230721/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 00:24:27] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-21 00:24:27] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.4.tar.gz tmp/secrets-vault-0.1.5.tar.gz --markdown 20230721/s/secrets-vault/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 00:24:27] INFO root fetch - processPackages [vegafusion]: executing diffoscope
+[2023-07-21 00:24:27] INFO root fetch - processPackages [vegafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-1.4.0rc2.tar.gz tmp/vegafusion-1.4.0rc3.tar.gz --markdown 20230721/v/vegafusion/1.4.0rc2-1.4.0rc3/diff.md --exclude *.pyd
+[2023-07-21 00:24:27] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e2/3f/16e8a59031d6ba121eaf1d6a25353cec7438f54021ac922b287f26f50a63/kcli-99.0.202307202219-py3-none-any.whl
+[2023-07-21 00:24:27] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 00:24:27] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307201812-py3-none-any.whl.zip tmp/kfish-99.0.202307202222-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307201812-99.0.202307202222/diff.md --exclude *.pyd
+[2023-07-21 00:24:27] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 00:24:27] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-21 00:24:27] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.7.tar.gz tmp/deepcellpredictor-0.8.tar.gz --markdown 20230721/d/deepcellpredictor/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-21 00:24:27] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/81/58/92ddafb806e96a6e7312aa1d061eded1aa87b35d0b4de667cab10d7d9bd0/vegafusion-jupyter-1.4.0rc3.tar.gz
+[2023-07-21 00:24:27] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 00:24:27] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 00:24:27] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2023-07-21 00:24:27] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.4.0rc2.tar.gz tmp/vegafusion-jupyter-1.4.0rc3.tar.gz --markdown 20230721/v/vegafusion-jupyter/1.4.0rc2-1.4.0rc3/diff.md --exclude *.pyd
+[2023-07-21 00:24:27] INFO root fetch - processPackages [diskannpy]: Downloading https://files.pythonhosted.org/packages/b0/fa/8a8d6e6fc3642fa1de59513916075801059b30f9e80388c1a4db37ba8766/diskannpy-0.5.0rc4-cp39-cp39-win_amd64.whl
+[2023-07-21 00:24:27] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-07-21 00:24:27] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-07-21 00:24:27] INFO root fetch - processPackages [modelbit]: Start processing: isogrids
+[2023-07-21 00:24:27] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-07-21 00:24:28] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 00:24:28] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307201809-py3-none-any.whl.zip tmp/kcli-99.0.202307202219-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307201809-99.0.202307202219/diff.md --exclude *.pyd
+[2023-07-21 00:24:28] WARNING root fetch - processPackages [isogrids]: Skipping, unable to determine old version
+[2023-07-21 00:24:28] INFO root fetch - processPackages [isogrids]: Start processing: mine
+[2023-07-21 00:24:28] INFO root fetch - main [MainThread]: End processing [isogrids] error
+[2023-07-21 00:24:28] INFO root fetch - processPackages [mine]: New version: [4.0a3] Old Version: [4.0a2]
+[2023-07-21 00:24:28] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/3c/b1/5972feeff273852198e4699bef3231f69be4cd079452960af8deff3d163d/mine-4.0a2.tar.gz
+[2023-07-21 00:24:28] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.4.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.5.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-21 00:24:28] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/57/c8/e4ff88f352b785883b3a9dc26798a04bcf556917a8572ad9046c2593c320/mine-4.0a3.tar.gz
+[2023-07-21 00:24:28] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307201812-py3-none-any.whl.zip]
+[2023-07-21 00:24:28] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202222-py3-none-any.whl.zip]
+[2023-07-21 00:24:28] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 00:24:28] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-07-21 00:24:28] INFO root fetch - processPackages [mine]: executing diffoscope
+[2023-07-21 00:24:28] INFO root fetch - processPackages [mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mine-4.0a2.tar.gz tmp/mine-4.0a3.tar.gz --markdown 20230721/m/mine/4.0a2-4.0a3/diff.md --exclude *.pyd
+[2023-07-21 00:24:28] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.7.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.8.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-21 00:24:28] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.4.0rc2.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.4.0rc3.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - main [MainThread]: End processing [vegafusion]: success
+[2023-07-21 00:24:28] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 00:24:28] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 00:24:28] INFO root fetch - processPackages [diskannpy]: executing diffoscope
+[2023-07-21 00:24:28] INFO root fetch - processPackages [diskannpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diskannpy-0.5.0rc2-cp39-cp39-win_amd64.whl.zip tmp/diskannpy-0.5.0rc4-cp39-cp39-win_amd64.whl.zip --markdown 20230721/d/diskannpy/0.5.0rc2-0.5.0rc4/diff.md --exclude *.pyd
+[2023-07-21 00:24:29] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.0a2.tar.gz]
+[2023-07-21 00:24:29] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.0a3.tar.gz]
+[2023-07-21 00:24:29] INFO root fetch - main [MainThread]: End processing [mine]: success
+[2023-07-21 00:24:31] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307201809-py3-none-any.whl.zip]
+[2023-07-21 00:24:31] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202219-py3-none-any.whl.zip]
+[2023-07-21 00:24:31] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 00:24:51] INFO root fetch - processPackages [diskannpy]: Remove: archive file [/home/abi/fetcher/tmp/diskannpy-0.5.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 00:24:51] INFO root fetch - processPackages [diskannpy]: Remove: archive file [/home/abi/fetcher/tmp/diskannpy-0.5.0rc4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 00:24:51] INFO root fetch - main [MainThread]: End processing [diskannpy]: success
+[2023-07-21 00:26:10] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc2.tar.gz]
+[2023-07-21 00:26:10] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc3.tar.gz]
+[2023-07-21 00:26:10] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2023-07-21 00:26:10] INFO root fetch - main [MainThread]: Store serial: [18973797]
