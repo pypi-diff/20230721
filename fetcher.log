@@ -2406,3 +2406,96 @@
 [2023-07-21 01:46:31] INFO root fetch - processPackages [umapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/umapi_cli-2.1.0.tar.gz]
 [2023-07-21 01:46:31] INFO root fetch - main [MainThread]: End processing [umapi-cli]: success
 [2023-07-21 01:46:31] INFO root fetch - main [MainThread]: Store serial: [18974484]
+[2023-07-21 01:51:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974484]
+[2023-07-21 01:51:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-service-client
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyline-service-server
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-ui
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-v4-service
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-core
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plemmy
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adsbcot
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyPatchMatch
+[2023-07-21 01:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bojaxns
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [plemmy]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [bojaxns]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [adsbcot]: New version: [6.2.0b4] Old Version: [6.2.0b3]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [PyPatchMatch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-21 01:51:40] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/ab/44/4c657453028205c7534879b26b63cd244d4a0fa357d2baa6bdb5097f585c/adsbcot-6.2.0b3.tar.gz
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-21 01:51:40] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-21 01:51:41] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/55/a9/4899a35806640dbf679bd445829fdac56d7c822dcf624f946acdde628977/plemmy-0.3.1.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [bojaxns]: Downloading https://files.pythonhosted.org/packages/0e/27/2e8dc914613eb8c094a077f08586752b6f3dac1a7e5cdb578d401453c631/bojaxns-1.0.0.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-21 01:51:41] INFO root fetch - processPackages [PyPatchMatch]: Downloading https://files.pythonhosted.org/packages/a0/ca/b2a1a4756e69a3fa0685e7142897f0d57eb0aecd2fb81fcf3366ea99e109/PyPatchMatch-1.0.0.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-21 01:51:41] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/a3/35/60396aa34fc67310fc6b925dce359bd7239ea3d926d6c5b48eb5ebc89f3e/adsbcot-6.2.0b4.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [bojaxns]: Downloading https://files.pythonhosted.org/packages/ec/8b/fbf03af0ec9d6ac04d607643f6d64973c79f9bb3525afb957c2e4f7ff25f/bojaxns-1.0.1.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/ad/e4/2a730610db6ae02bdc61fc4ca7109d54bd77a25496b66e0319c6f36a9583/plemmy-0.3.2.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230721/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230721/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230721/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [PyPatchMatch]: Downloading https://files.pythonhosted.org/packages/c5/5b/e5ef402b5b0e4da987db3f34d4d64ba9a050d5e1353068b3dccdabe887d0/PyPatchMatch-1.0.1.tar.gz
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [adsbcot]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230721/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [adsbcot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsbcot-6.2.0b3.tar.gz tmp/adsbcot-6.2.0b4.tar.gz --markdown 20230721/a/adsbcot/6.2.0b3-6.2.0b4/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [bojaxns]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [bojaxns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bojaxns-1.0.0.tar.gz tmp/bojaxns-1.0.1.tar.gz --markdown 20230721/b/bojaxns/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230721/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [plemmy]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [plemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plemmy-0.3.1.tar.gz tmp/plemmy-0.3.2.tar.gz --markdown 20230721/p/plemmy/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230721/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-21 01:51:41] INFO root fetch - processPackages [PyPatchMatch]: executing diffoscope
+[2023-07-21 01:51:41] INFO root fetch - processPackages [PyPatchMatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPatchMatch-1.0.0.tar.gz tmp/PyPatchMatch-1.0.1.tar.gz --markdown 20230721/P/PyPatchMatch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-21 01:51:43] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.2.0b3.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.2.0b4.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [adsbcot]: success
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-21 01:51:43] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.3.1.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.3.2.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [plemmy]: success
+[2023-07-21 01:51:43] INFO root fetch - processPackages [PyPatchMatch]: Remove: archive file [/home/abi/fetcher/tmp/PyPatchMatch-1.0.0.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [PyPatchMatch]: Remove: archive file [/home/abi/fetcher/tmp/PyPatchMatch-1.0.1.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [PyPatchMatch]: success
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-21 01:51:43] INFO root fetch - processPackages [bojaxns]: Remove: archive file [/home/abi/fetcher/tmp/bojaxns-1.0.0.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - processPackages [bojaxns]: Remove: archive file [/home/abi/fetcher/tmp/bojaxns-1.0.1.tar.gz]
+[2023-07-21 01:51:43] INFO root fetch - main [MainThread]: End processing [bojaxns]: success
+[2023-07-21 01:51:44] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-21 01:51:44] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-21 01:51:44] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-21 01:51:44] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-21 01:51:44] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-21 01:51:44] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-21 01:51:44] INFO root fetch - main [MainThread]: Store serial: [18974508]
