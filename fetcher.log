@@ -2301,3 +2301,108 @@
 [2023-07-21 01:41:19] INFO root fetch - processPackages [rapidfuzz]: Remove: archive file [/home/abi/fetcher/tmp/rapidfuzz-3.1.2.tar.gz]
 [2023-07-21 01:41:19] INFO root fetch - main [MainThread]: End processing [rapidfuzz]: success
 [2023-07-21 01:41:19] INFO root fetch - main [MainThread]: Store serial: [18974446]
+[2023-07-21 01:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974446]
+[2023-07-21 01:46:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapdata
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trame-vtk
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adsbcot
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: execsql
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-url-tokenizer
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfsd
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fosslight-yocto
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyplane-nightly
+[2023-07-21 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trame
+[2023-07-21 01:46:27] INFO root fetch - processPackages [mapdata]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [adsbcot]: New version: [6.2.0b3] Old Version: [6.2.0b2]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [fosslight-yocto]: New version: [3.1.21] Old Version: [3.1.20]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [trame-vtk]: New version: [2.5.8] Old Version: [2.5.7]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [execsql]: New version: [1.98.0] Old Version: [1.97.0]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [trame]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [kfish]: New version: [99.0.202307202344] Old Version: [99.0.202307202317]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/4b/cc/c756eadcdc180fe0bcc028a42850da53dd6e7622407823a6a9b98f23ab73/adsbcot-6.2.0b2.tar.gz
+[2023-07-21 01:46:27] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230720] Old Version: [0.3.2.dev20230719]
+[2023-07-21 01:46:27] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/78/171b9d831b1fba5b37e855c9b75e785fabab27ccb0e9f34d3bfc1c8f9d05/kfish-99.0.202307202317-py3-none-any.whl
+[2023-07-21 01:46:28] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/e6/de/e9bfa9212ed10d75a7840b44654dd4a56a4d7135e6d25006e7440098b6d8/trame-3.0.1.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/85/12/d1df24c7802fde5678a8bcbb8cb25144f02cf2bcc899a6eabd29c5ab1bad/mapdata-2.9.0.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/91/8e/51da00d0618e95a78d658b8ba5ca02e29543fb296784ecffc9c3e13a9aff/execsql-1.97.0.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/b9/7b/82defd52f16410f9519856b4972262b608594e6ef6c64c11d37abf102fd9/fosslight_yocto-3.1.20.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [trame-vtk]: Downloading https://files.pythonhosted.org/packages/a5/72/7825dd9ffa64ef0877777be9775e5f59b6a11baf76003d1630721da53077/trame-vtk-2.5.7.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/91/a6/e910b14f0bc481f0bd94bb4f702e26fbf9a4bf35493ebe279796995b69de/skyplane_nightly-0.3.2.dev20230719.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-21 01:46:28] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230721/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 01:46:28] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/57/ba/41dce661b74ac79f4e8637de7499438805895f48197ec0f12e73595f96c2/trame-3.0.2.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/26/92/1f908da7d63daa27b0f14572342f72ddbd3f15a90604cdc645c6a00690a6/kfish-99.0.202307202344-py3-none-any.whl
+[2023-07-21 01:46:28] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/ab/44/4c657453028205c7534879b26b63cd244d4a0fa357d2baa6bdb5097f585c/adsbcot-6.2.0b3.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/de/8a/b574a3e4b382ab9e42bec4ec6b5c1f5c60b6bdc9f6df8bcaa9b13c35dd53/fosslight_yocto-3.1.21.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/11/11/9b2ae2274aca626552678c6d4132a0ded9cb038ec6df69a68794fca1e988/mapdata-2.9.1.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/af/c4/14198e9e025b1207415fad1d39bc1e6ebcc8fb846e1ba1b4e22742316993/execsql-1.98.0.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [trame-vtk]: Downloading https://files.pythonhosted.org/packages/0c/0d/aa927d82533326852649897f8e55b7598955d432f541363c7d72bc3cbc9b/trame-vtk-2.5.8.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 01:46:28] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307202317-py3-none-any.whl.zip tmp/kfish-99.0.202307202344-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307202317-99.0.202307202344/diff.md --exclude *.pyd
+[2023-07-21 01:46:28] INFO root fetch - processPackages [trame]: executing diffoscope
+[2023-07-21 01:46:28] INFO root fetch - processPackages [trame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-3.0.1.tar.gz tmp/trame-3.0.2.tar.gz --markdown 20230721/t/trame/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-21 01:46:28] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/8a/31/952d8dd20f7efaf463cfa17e85ce4f5f9bbb428260a239eb00bbd27d437f/skyplane_nightly-0.3.2.dev20230720.tar.gz
+[2023-07-21 01:46:28] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-21 01:46:28] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230721/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 01:46:28] INFO root fetch - processPackages [adsbcot]: executing diffoscope
+[2023-07-21 01:46:28] INFO root fetch - processPackages [adsbcot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsbcot-6.2.0b2.tar.gz tmp/adsbcot-6.2.0b3.tar.gz --markdown 20230721/a/adsbcot/6.2.0b2-6.2.0b3/diff.md --exclude *.pyd
+[2023-07-21 01:46:28] INFO root fetch - processPackages [fosslight-yocto]: executing diffoscope
+[2023-07-21 01:46:28] INFO root fetch - processPackages [fosslight-yocto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_yocto-3.1.20.tar.gz tmp/fosslight_yocto-3.1.21.tar.gz --markdown 20230721/f/fosslight-yocto/3.1.20-3.1.21/diff.md --exclude *.pyd
+[2023-07-21 01:46:28] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-07-21 01:46:28] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-2.9.0.tar.gz tmp/mapdata-2.9.1.tar.gz --markdown 20230721/m/mapdata/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-21 01:46:29] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-21 01:46:29] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230719.tar.gz tmp/skyplane_nightly-0.3.2.dev20230720.tar.gz --markdown 20230721/s/skyplane-nightly/0.3.2.dev20230719-0.3.2.dev20230720/diff.md --exclude *.pyd
+[2023-07-21 01:46:29] INFO root fetch - processPackages [execsql]: executing diffoscope
+[2023-07-21 01:46:29] INFO root fetch - processPackages [execsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execsql-1.97.0.tar.gz tmp/execsql-1.98.0.tar.gz --markdown 20230721/e/execsql/1.97.0-1.98.0/diff.md --exclude *.pyd
+[2023-07-21 01:46:29] INFO root fetch - processPackages [trame-vtk]: executing diffoscope
+[2023-07-21 01:46:29] INFO root fetch - processPackages [trame-vtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-vtk-2.5.7.tar.gz tmp/trame-vtk-2.5.8.tar.gz --markdown 20230721/t/trame-vtk/2.5.7-2.5.8/diff.md --exclude *.pyd
+[2023-07-21 01:46:30] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202317-py3-none-any.whl.zip]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202344-py3-none-any.whl.zip]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [kfish]: Start processing: st-circular-progress
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 01:46:30] WARNING root fetch - processPackages [st-circular-progress]: Skipping, unable to determine old version
+[2023-07-21 01:46:30] INFO root fetch - processPackages [st-circular-progress]: Start processing: umapi-cli
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [st-circular-progress] error
+[2023-07-21 01:46:30] INFO root fetch - processPackages [umapi-cli]: New version: [2.1.0] Old Version: [2.0.0a2]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.2.0b2.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.2.0b3.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [adsbcot]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [umapi-cli]: Downloading https://files.pythonhosted.org/packages/53/63/312753a101af9abb53e9ae3c67d97c9790b681ab1090797d2ddc47b9eaf1/umapi_cli-2.0.0a2.tar.gz
+[2023-07-21 01:46:30] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.20.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.21.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [fosslight-yocto]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.97.0.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.98.0.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [execsql]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.0.1.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.0.2.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [trame]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.9.0.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.9.1.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230719.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230720.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-21 01:46:30] INFO root fetch - processPackages [trame-vtk]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtk-2.5.7.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - processPackages [trame-vtk]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtk-2.5.8.tar.gz]
+[2023-07-21 01:46:30] INFO root fetch - main [MainThread]: End processing [trame-vtk]: success
+[2023-07-21 01:46:31] INFO root fetch - processPackages [umapi-cli]: Downloading https://files.pythonhosted.org/packages/ea/62/9f29558ccdf865d739df92ea6a78135c704b46d1adc5728ec05827a17340/umapi_cli-2.1.0.tar.gz
+[2023-07-21 01:46:31] INFO root fetch - processPackages [umapi-cli]: executing diffoscope
+[2023-07-21 01:46:31] INFO root fetch - processPackages [umapi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umapi_cli-2.0.0a2.tar.gz tmp/umapi_cli-2.1.0.tar.gz --markdown 20230721/u/umapi-cli/2.0.0a2-2.1.0/diff.md --exclude *.pyd
+[2023-07-21 01:46:31] INFO root fetch - processPackages [umapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/umapi_cli-2.0.0a2.tar.gz]
+[2023-07-21 01:46:31] INFO root fetch - processPackages [umapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/umapi_cli-2.1.0.tar.gz]
+[2023-07-21 01:46:31] INFO root fetch - main [MainThread]: End processing [umapi-cli]: success
+[2023-07-21 01:46:31] INFO root fetch - main [MainThread]: Store serial: [18974484]
