@@ -2499,3 +2499,89 @@
 [2023-07-21 01:51:44] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
 [2023-07-21 01:51:44] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
 [2023-07-21 01:51:44] INFO root fetch - main [MainThread]: Store serial: [18974508]
+[2023-07-21 01:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974508]
+[2023-07-21 01:56:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-base-extras
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ensemble-networkx
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: femto-admin
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hassle
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyscript
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AquaNutriOpt
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Dooders
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threemystic-cloud-client
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: threemystic-cloud-data-client
+[2023-07-21 01:56:54] INFO root fetch - processPackages [femto-admin]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-21 01:56:54] WARNING root fetch - processPackages [AquaNutriOpt]: Skipping, unable to determine old version
+[2023-07-21 01:56:54] INFO root fetch - processPackages [AquaNutriOpt]: Start processing: ladybug-vectorworks
+[2023-07-21 01:56:54] INFO root fetch - main [MainThread]: End processing [AquaNutriOpt] error
+[2023-07-21 01:56:54] INFO root fetch - processPackages [ensemble-networkx]: New version: [2023.7.20] Old Version: [2023.7.18]
+[2023-07-21 01:56:54] INFO root fetch - processPackages [hassle]: New version: [2.8.5] Old Version: [2.8.4]
+[2023-07-21 01:56:54] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-07-21 01:56:54] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 01:56:54] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.21] Old Version: [0.1.20]
+[2023-07-21 01:56:54] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 01:56:54] WARNING root fetch - processPackages [Dooders]: Skipping, unable to determine old version
+[2023-07-21 01:56:54] INFO root fetch - main [MainThread]: End processing [Dooders] error
+[2023-07-21 01:56:54] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-21 01:56:55] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/e6/76/3bb77f9e715935e44b4f107ec22afef43bc5cd63b0ee49408fc295d9abb6/femto-admin-0.0.8.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/3a/27/5ebcc256ed09c14d570044a691c9717825951c4d41bfbef5e695319e0322/threemystic_cloud_client-0.1.38.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/80/3d/ef7af27f9178002f7f64b84c6a88d91a7ae7fe6167023d4d8969a400dc3c/threemystic_cloud_data_client-0.1.20.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [ladybug-vectorworks]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 01:56:55] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [ensemble-networkx]: Downloading https://files.pythonhosted.org/packages/11/eb/f76ddcfbfaa2b0d101e0306067e2fae21eed7c7a007131bf3b43bb7da686/ensemble_networkx-2023.7.18.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/6b/7f/7787ad12761c114e4ab0cfb7c5b8fa72f79f02ccc7f5e6721f399e8a483d/hassle-2.8.4.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [ladybug-vectorworks]: Downloading https://files.pythonhosted.org/packages/6c/f4/13d610761c59a26b3c4e59ca8fe9d77dea38924788064f6659a27be4e2c7/ladybug_vectorworks-0.2.8.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 01:56:55] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping package: exceeds size limit 51980201>=10485760
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/ff/2a/84f8daa80c57a443e7b96f0353c88a370cc04e07889ddaaef6562bfe5f9d/threemystic_cloud_client-0.1.39.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/26/92/ce75b27f42d6ac2961c6a8941a50a5e03533ef9f9630052fd1a6e15710e2/threemystic_cloud_data_client-0.1.21.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/19/fe/cd359b9f8904b399d01166d8a1e8b752582ccde91d192f9bf59dabe751a2/femto-admin-0.1.0.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 01:56:55] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 01:56:55] INFO root fetch - processPackages [ensemble-networkx]: Downloading https://files.pythonhosted.org/packages/b6/a2/78ad3227bcc08e02de666d54bdd07f48d494c1451e06673ebfd25d4041d1/ensemble_networkx-2023.7.20.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.38.tar.gz tmp/threemystic_cloud_client-0.1.39.tar.gz --markdown 20230721/t/threemystic-cloud-client/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-21 01:56:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.20.tar.gz tmp/threemystic_cloud_data_client-0.1.21.tar.gz --markdown 20230721/t/threemystic-cloud-data-client/0.1.20-0.1.21/diff.md --exclude *.pyd
+[2023-07-21 01:56:55] INFO root fetch - processPackages [femto-admin]: executing diffoscope
+[2023-07-21 01:56:55] INFO root fetch - processPackages [femto-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femto-admin-0.0.8.tar.gz tmp/femto-admin-0.1.0.tar.gz --markdown 20230721/f/femto-admin/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 01:56:55] INFO root fetch - processPackages [ensemble-networkx]: executing diffoscope
+[2023-07-21 01:56:55] INFO root fetch - processPackages [ensemble-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensemble_networkx-2023.7.18.tar.gz tmp/ensemble_networkx-2023.7.20.tar.gz --markdown 20230721/e/ensemble-networkx/2023.7.18-2023.7.20/diff.md --exclude *.pyd
+[2023-07-21 01:56:55] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/86/fe/a374d0bbedc5b3037088374892183e8b396166bc41d0103a109b7bb1f068/hassle-2.8.5.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-07-21 01:56:55] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-07-21 01:56:56] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-07-21 01:56:56] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.8.4.tar.gz tmp/hassle-2.8.5.tar.gz --markdown 20230721/h/hassle/2.8.4-2.8.5/diff.md --exclude *.pyd
+[2023-07-21 01:56:56] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-07-21 01:56:56] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230721/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 01:56:56] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-07-21 01:56:56] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230721/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-21 01:56:57] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 01:56:57] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.38.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [ensemble-networkx]: Remove: archive file [/home/abi/fetcher/tmp/ensemble_networkx-2023.7.18.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.39.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [ensemble-networkx]: Remove: archive file [/home/abi/fetcher/tmp/ensemble_networkx-2023.7.20.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [ensemble-networkx]: success
+[2023-07-21 01:56:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.20.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.21.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-21 01:56:57] INFO root fetch - processPackages [hassle]: Remove: archive file [/home/abi/fetcher/tmp/hassle-2.8.4.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [hassle]: Remove: archive file [/home/abi/fetcher/tmp/hassle-2.8.5.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-07-21 01:56:57] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.0.8.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.1.0.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [femto-admin]: success
+[2023-07-21 01:56:57] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.4.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.5.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-07-21 01:56:57] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-07-21 01:56:57] INFO root fetch - main [MainThread]: Store serial: [18974542]
