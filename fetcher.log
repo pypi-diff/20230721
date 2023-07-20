@@ -1549,3 +1549,90 @@
 [2023-07-21 00:58:13] INFO root fetch - processPackages [nebari-workflow-controller]: Remove: archive file [/home/abi/fetcher/tmp/nebari_workflow_controller-2023.7.1rc1.tar.gz]
 [2023-07-21 00:58:13] INFO root fetch - main [MainThread]: End processing [nebari-workflow-controller]: success
 [2023-07-21 00:58:13] INFO root fetch - main [MainThread]: Store serial: [18974045]
+[2023-07-21 01:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974045]
+[2023-07-21 01:03:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: responsecurve
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yea-wandb
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: respx
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt-cu101
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argo-jupyter-scheduler
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Dragonflyz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt
+[2023-07-21 01:03:22] INFO root fetch - processPackages [responsecurve]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [respx]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [argo-jupyter-scheduler]: New version: [2023.7.1rc1] Old Version: [0.1.0.dev1]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [yea-wandb]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230720] Old Version: [0.7.0b20230719]
+[2023-07-21 01:03:22] WARNING root fetch - processPackages [Dragonflyz]: Skipping, unable to determine old version
+[2023-07-21 01:03:22] INFO root fetch - main [MainThread]: End processing [Dragonflyz] error
+[2023-07-21 01:03:22] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230720] Old Version: [1.5.0.dev20230719]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/1e/72/7da2fe5433375f37c5c0c0da017f1b857f29be428796f754162edd34e50a/responsecurve-0.0.7.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [argo-jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/16/f4/2f14fd0386a57735d5d861f3694c0a71708fe1e0e9cc6e1f9b1380eabf71/argo_jupyter_scheduler-0.1.0.dev1.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [respx]: Downloading https://files.pythonhosted.org/packages/61/9d/3b785998dab04cfcaa8372e0a3009c3be628a16575be31413d93dd7757a3/respx-0.8.3.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/14/49/c03112842d213fef3ba63206cf910dd99241cffe6add303cfcd12a15be0e/tmnt-cu101-0.7.0b20230719.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [yea-wandb]: Downloading https://files.pythonhosted.org/packages/a5/59/c565e112781e00e020cf837de4ff85e8d70081811d4a91dabc47ba527028/yea-wandb-0.9.8.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230720] Old Version: [0.7.0b20230719]
+[2023-07-21 01:03:22] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/89/53/23ac4e9ce5778f33b57646a3c22648066264e2f2628cb864306566dde356/flwr_nightly-1.5.0.dev20230719.tar.gz
+[2023-07-21 01:03:22] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-21 01:03:22] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230721/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 01:03:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-21 01:03:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230721/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-21 01:03:23] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/83/af/76281c1d8b9b386e8ca09984bd38c68b9d3f5d6afe3b5aeedf2337f0fb68/responsecurve-0.0.8.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [argo-jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/d9/36/d479716cee6f22ba3df717ae89027da303bbf3fed99acb034cb38567e5ee/argo_jupyter_scheduler-2023.7.1rc1.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/b9/a7/17aaf4097658a6b4421aafb9e4f5bebbb7b67d92fb944a028419d0f18da2/tmnt-0.7.0b20230719.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/e7/6c/a64cbce597e22fd0402783a1698ad99a733fc2ba2b6dd9f813653f407ca8/tmnt-cu101-0.7.0b20230720.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [responsecurve]: executing diffoscope
+[2023-07-21 01:03:23] INFO root fetch - processPackages [responsecurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsecurve-0.0.7.tar.gz tmp/responsecurve-0.0.8.tar.gz --markdown 20230721/r/responsecurve/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-21 01:03:23] INFO root fetch - processPackages [respx]: Downloading https://files.pythonhosted.org/packages/db/4a/d7e4bf37f7843c5071ffe84271f9353454ea84b028884834060bdbef2a5d/respx-0.9.0.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [yea-wandb]: Downloading https://files.pythonhosted.org/packages/91/66/c56ccf3e1c3196994bd1aa81fc78d09cc428628791a95a71c968d2dc4329/yea-wandb-0.9.9.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [argo-jupyter-scheduler]: executing diffoscope
+[2023-07-21 01:03:23] INFO root fetch - processPackages [argo-jupyter-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argo_jupyter_scheduler-0.1.0.dev1.tar.gz tmp/argo_jupyter_scheduler-2023.7.1rc1.tar.gz --markdown 20230721/a/argo-jupyter-scheduler/0.1.0.dev1-2023.7.1rc1/diff.md --exclude *.pyd
+[2023-07-21 01:03:23] INFO root fetch - processPackages [respx]: executing diffoscope
+[2023-07-21 01:03:23] INFO root fetch - processPackages [respx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/respx-0.8.3.tar.gz tmp/respx-0.9.0.tar.gz --markdown 20230721/r/respx/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 01:03:23] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/c1/6b/94860acfa7b5e8503edc8e7aa1e36777a816e951a0f8c123f1191faa6928/flwr_nightly-1.5.0.dev20230720.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [yea-wandb]: executing diffoscope
+[2023-07-21 01:03:23] INFO root fetch - processPackages [yea-wandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yea-wandb-0.9.8.tar.gz tmp/yea-wandb-0.9.9.tar.gz --markdown 20230721/y/yea-wandb/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-21 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230719.tar.gz tmp/tmnt-cu101-0.7.0b20230720.tar.gz --markdown 20230721/t/tmnt-cu101/0.7.0b20230719-0.7.0b20230720/diff.md --exclude *.pyd
+[2023-07-21 01:03:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/03/fb/8d2cf47f2f954f22d259b53fd8216977a1104d1b40dbf42d7fbe2a5a9aab/tmnt-0.7.0b20230720.tar.gz
+[2023-07-21 01:03:23] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-21 01:03:23] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230719.tar.gz tmp/flwr_nightly-1.5.0.dev20230720.tar.gz --markdown 20230721/f/flwr-nightly/1.5.0.dev20230719-1.5.0.dev20230720/diff.md --exclude *.pyd
+[2023-07-21 01:03:24] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-21 01:03:24] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230719.tar.gz tmp/tmnt-0.7.0b20230720.tar.gz --markdown 20230721/t/tmnt/0.7.0b20230719-0.7.0b20230720/diff.md --exclude *.pyd
+[2023-07-21 01:03:24] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.7.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.8.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - main [MainThread]: End processing [responsecurve]: success
+[2023-07-21 01:03:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-21 01:03:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-21 01:03:24] INFO root fetch - processPackages [argo-jupyter-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/argo_jupyter_scheduler-0.1.0.dev1.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - processPackages [argo-jupyter-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/argo_jupyter_scheduler-2023.7.1rc1.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - main [MainThread]: End processing [argo-jupyter-scheduler]: success
+[2023-07-21 01:03:24] INFO root fetch - processPackages [respx]: Remove: archive file [/home/abi/fetcher/tmp/respx-0.8.3.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - processPackages [respx]: Remove: archive file [/home/abi/fetcher/tmp/respx-0.9.0.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - main [MainThread]: End processing [respx]: success
+[2023-07-21 01:03:24] INFO root fetch - processPackages [yea-wandb]: Remove: archive file [/home/abi/fetcher/tmp/yea-wandb-0.9.8.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - processPackages [yea-wandb]: Remove: archive file [/home/abi/fetcher/tmp/yea-wandb-0.9.9.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - main [MainThread]: End processing [yea-wandb]: success
+[2023-07-21 01:03:24] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230719.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230720.tar.gz]
+[2023-07-21 01:03:24] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-21 01:03:25] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230719.tar.gz]
+[2023-07-21 01:03:25] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230720.tar.gz]
+[2023-07-21 01:03:25] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-21 01:03:25] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230719.tar.gz]
+[2023-07-21 01:03:25] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230720.tar.gz]
+[2023-07-21 01:03:25] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-21 01:03:25] INFO root fetch - main [MainThread]: Store serial: [18974081]
