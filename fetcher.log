@@ -321,3 +321,362 @@
 [2023-07-21 00:03:17] INFO root fetch - processPackages [dagster-webserver]: Remove: archive file [/home/abi/fetcher/tmp/dagster_webserver-1.4.0.tar.gz]
 [2023-07-21 00:03:17] INFO root fetch - main [MainThread]: End processing [dagster-webserver]: success
 [2023-07-21 00:03:17] INFO root fetch - main [MainThread]: Store serial: [18973561]
+[2023-07-21 00:08:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18973561]
+[2023-07-21 00:08:33] INFO root fetch - main [MainThread]: Found 40 changed packages
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagster-celery-docker
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagster-papertrail
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagster-duckdb-pandas
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-license-toolkit
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagster-mysql
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagster-mlflow
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagster-aws
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagster-snowflake-pyspark
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dagster-spark
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dagster-celery-k8s
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-mysql]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [ros-license-toolkit]: New version: [1.1.3] Old Version: [1.1.0]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-snowflake-pyspark]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-aws]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-spark]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-celery-k8s]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-celery-docker]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-mlflow]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-papertrail]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:33] INFO root fetch - processPackages [dagster-duckdb-pandas]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:34] INFO root fetch - processPackages [ros-license-toolkit]: Downloading https://files.pythonhosted.org/packages/70/e3/329bd0447735f8e7a31e089494fa860d31ef73860f0ad01341aae8693342/ros_license_toolkit-1.1.0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mysql]: Downloading https://files.pythonhosted.org/packages/e1/64/1bedc7de284df53bdd4dc46ef17db725bf36cb6957adc631ec7848f83929/dagster-mysql-0.19.9rc0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Downloading https://files.pythonhosted.org/packages/cf/84/e2eaecafbe7f568fa5a243a1f2cebb3ac590a440f500f7e6061b49edbaac/dagster-snowflake-pyspark-0.19.9rc0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-celery-docker]: Downloading https://files.pythonhosted.org/packages/24/5d/68b8bdb9cf37c6327e1b7b124a28fd35b7ecac0dea84662017d29cec74ab/dagster-celery-docker-0.9.9.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-spark]: Downloading https://files.pythonhosted.org/packages/5c/b8/8e306e4f5d833bf3b799ffe7114b36c5bd4a85bfc6b22a30dd6378f2dbfd/dagster-spark-0.9.9.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-celery-k8s]: Downloading https://files.pythonhosted.org/packages/7e/15/c87dbde529f6d5bb8b08e7592da748a3b3617fae24ed1ac2f95d4b28a39b/dagster-celery-k8s-0.9.9.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-papertrail]: Downloading https://files.pythonhosted.org/packages/f4/e6/c01115c248299153d876d90ab5f8a765ff3a93921b9e976e0b4097ed6da9/dagster-papertrail-0.9.9.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-aws]: Downloading https://files.pythonhosted.org/packages/5c/fb/795100ab029c5e8067e2891e422f8e37ff9ae149e58a6e7cf9ee5e79fc62/dagster-aws-0.9.9.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-duckdb-pandas]: Downloading https://files.pythonhosted.org/packages/3c/74/be6abc5787ad32422c9ca1d9a88584d1bde5650f3e31b4a0e7937888e6cf/dagster-duckdb-pandas-0.19.9rc0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mlflow]: Downloading https://files.pythonhosted.org/packages/dc/36/baecb517b62f30a939f234730fee70e5b4b0f375abd343b6cc3d7e794c49/dagster-mlflow-0.19.9rc0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [ros-license-toolkit]: Downloading https://files.pythonhosted.org/packages/4d/41/8a893694334946ba24f213a99e91d9e1d349e9330929e83dbf2b9f594773/ros_license_toolkit-1.1.3.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Downloading https://files.pythonhosted.org/packages/77/fb/6592e3ee5f439071d62d5653f63476bbf694ffe838df85162b914ae2a4db/dagster-snowflake-pyspark-0.20.0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mysql]: Downloading https://files.pythonhosted.org/packages/18/ac/16c5e8094067e91f92826d986941fb5c4fb39c30d8f170bc25debafa8e2c/dagster-mysql-0.20.0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [ros-license-toolkit]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [ros-license-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros_license_toolkit-1.1.0.tar.gz tmp/ros_license_toolkit-1.1.3.tar.gz --markdown 20230721/r/ros-license-toolkit/1.1.0-1.1.3/diff.md --exclude *.pyd
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-papertrail]: Downloading https://files.pythonhosted.org/packages/7a/e9/25fc2d2045979e2638a60777dc2684624e70979fb1e945c3a8b5a2fd0a7b/dagster-papertrail-0.9.9rc1.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-spark]: Downloading https://files.pythonhosted.org/packages/35/b5/3e3150c102e7a7b9b97795213b2be915bed9e409e1d1e20929184d0f65ca/dagster-spark-0.9.9rc1.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-snowflake-pyspark]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-snowflake-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-snowflake-pyspark-0.19.9rc0.tar.gz tmp/dagster-snowflake-pyspark-0.20.0.tar.gz --markdown 20230721/d/dagster-snowflake-pyspark/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mlflow]: Downloading https://files.pythonhosted.org/packages/11/12/fe6d3cba334f8c398621eab5a6a9df1a455bdc1885188929c14817619599/dagster-mlflow-0.20.0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-aws]: Downloading https://files.pythonhosted.org/packages/e2/27/76e0a6ed801c5fa8620a94686a6212cf4726819cd6c831f1202b6b7888fd/dagster-aws-0.9.9rc1.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-duckdb-pandas]: Downloading https://files.pythonhosted.org/packages/a7/94/b0e92d6133b1caabcb3efb9d33ac39fcc243835ea6fcc5c96d1fd479ee00/dagster-duckdb-pandas-0.20.0.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mysql]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-mysql-0.19.9rc0.tar.gz tmp/dagster-mysql-0.20.0.tar.gz --markdown 20230721/d/dagster-mysql/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-celery-k8s]: Downloading https://files.pythonhosted.org/packages/d8/73/c7b203e9f1063a19c32c9a6a4d55384e68288c007b742aedade69d40c5c4/dagster-celery-k8s-0.9.9rc1.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-spark]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-spark-0.9.9.tar.gz tmp/dagster-spark-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-spark/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mlflow]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-mlflow-0.19.9rc0.tar.gz tmp/dagster-mlflow-0.20.0.tar.gz --markdown 20230721/d/dagster-mlflow/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-duckdb-pandas]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-duckdb-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-duckdb-pandas-0.19.9rc0.tar.gz tmp/dagster-duckdb-pandas-0.20.0.tar.gz --markdown 20230721/d/dagster-duckdb-pandas/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-celery-docker]: Downloading https://files.pythonhosted.org/packages/b6/f1/217f008ce62d57396e2fda40eca516e257abdc1090ef68fb3a1a3b9ab0a2/dagster-celery-docker-0.9.9rc1.tar.gz
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-aws]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-aws-0.9.9.tar.gz tmp/dagster-aws-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-aws/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-celery-k8s]: executing diffoscope
+[2023-07-21 00:08:34] INFO root fetch - processPackages [dagster-celery-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-celery-k8s-0.9.9.tar.gz tmp/dagster-celery-k8s-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-celery-k8s/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:35] INFO root fetch - processPackages [dagster-celery-docker]: executing diffoscope
+[2023-07-21 00:08:35] INFO root fetch - processPackages [dagster-celery-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-celery-docker-0.9.9.tar.gz tmp/dagster-celery-docker-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-celery-docker/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:35] INFO root fetch - processPackages [dagster-papertrail]: executing diffoscope
+[2023-07-21 00:08:35] INFO root fetch - processPackages [dagster-papertrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-papertrail-0.9.9.tar.gz tmp/dagster-papertrail-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-papertrail/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-pyspark-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-pyspark-0.20.0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Start processing: roblox-pyc
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-snowflake-pyspark]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-mysql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-mysql-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-mysql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-mysql-0.20.0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-mysql]: Start processing: dagster-duckdb
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-mysql]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-duckdb]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [ros-license-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ros_license_toolkit-1.1.0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [ros-license-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ros_license_toolkit-1.1.3.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [ros-license-toolkit]: Start processing: dagster-azure
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [ros-license-toolkit]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-spark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-spark-0.9.9.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-spark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-spark-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-spark]: Start processing: dagster-dbt
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-spark]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/dagster-mlflow-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/dagster-mlflow-0.20.0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-mlflow]: Start processing: dagster-shell
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-mlflow]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-dbt]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-shell]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-azure]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-duckdb-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pandas-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-duckdb]: Downloading https://files.pythonhosted.org/packages/cf/dd/e314568cb5ff4b67d9bf9a202fedebfe2526f0e910539ee2801d01c38866/dagster-duckdb-0.19.9rc0.tar.gz
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-duckdb-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pandas-0.20.0.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-duckdb-pandas]: Start processing: dagster-msteams
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-duckdb-pandas]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-msteams]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-dbt]: Downloading https://files.pythonhosted.org/packages/cc/9c/386562d1a064f715501e0e3788db3e71a77760d176315bc05e96021a26ad/dagster-dbt-0.9.9.tar.gz
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-celery-k8s]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-k8s-0.9.9.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-celery-k8s]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-k8s-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-celery-k8s]: Start processing: dagster-airflow
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-celery-k8s]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-papertrail]: Remove: archive file [/home/abi/fetcher/tmp/dagster-papertrail-0.9.9.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-papertrail]: Remove: archive file [/home/abi/fetcher/tmp/dagster-papertrail-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-papertrail]: Start processing: dagster-celery
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-papertrail]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-aws]: Remove: archive file [/home/abi/fetcher/tmp/dagster-aws-0.9.9.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-aws]: Remove: archive file [/home/abi/fetcher/tmp/dagster-aws-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-aws]: Start processing: dagster-datadog
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-aws]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-airflow]: New version: [1.4.0] Old Version: [1.3.9rc0]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-celery-docker]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-docker-0.9.9.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-celery-docker]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-docker-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-celery-docker]: Start processing: dagster-duckdb-pyspark
+[2023-07-21 00:08:36] INFO root fetch - main [MainThread]: End processing [dagster-celery-docker]: success
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-azure]: Downloading https://files.pythonhosted.org/packages/ae/94/b77a8d4d1aea09bff70b2fb49424f569d714af0d6008690bdce3560916ce/dagster-azure-0.9.9.tar.gz
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-datadog]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-duckdb]: Downloading https://files.pythonhosted.org/packages/72/77/34e5dfa9501c544d9488ad590cf46753204a715dd4fea9e33cbf6220725b/dagster-duckdb-0.20.0.tar.gz
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-duckdb-pyspark]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-msteams]: Downloading https://files.pythonhosted.org/packages/ba/82/4748f43f175241af98d43a556a13432e60c6e5b4b4e8b733f41e31f051b5/dagster-msteams-0.19.9rc0.tar.gz
+[2023-07-21 00:08:36] INFO root fetch - processPackages [dagster-celery]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:36] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-airflow]: Downloading https://files.pythonhosted.org/packages/5c/7a/111fa8a0f21a16c52d70455d752d34fb3a58982048306924d5b5d23edb81/dagster-airflow-1.3.9rc0.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-shell]: Downloading https://files.pythonhosted.org/packages/ab/6f/9c6dad2aa131229f7e421df3ba3f4fd069f254c7244e006953fbbd9ba64b/dagster-shell-0.9.9.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-duckdb-0.19.9rc0.tar.gz tmp/dagster-duckdb-0.20.0.tar.gz --markdown 20230721/d/dagster-duckdb/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-datadog]: Downloading https://files.pythonhosted.org/packages/b6/ea/4f9ae3340f336de27a0f6856f2bf910d360174ce89d418a58fe71af8c87f/dagster-datadog-0.9.9.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Downloading https://files.pythonhosted.org/packages/03/10/d891a97c7da329980a47bbec3cccc2a3f54d52c3e939a27f8c64a168bfd6/dagster-duckdb-pyspark-0.19.9rc0.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-celery]: Downloading https://files.pythonhosted.org/packages/81/f0/18386e6d3ee760c403c91eca0bb5cc5ebcc265bfc06f6fe3278262647ff3/dagster-celery-0.9.9.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-azure]: Downloading https://files.pythonhosted.org/packages/26/2d/4e9812173be87e7428bacc609d4b59707a57ce597123dd28333ed7d3a81c/dagster-azure-0.9.9rc1.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-msteams]: Downloading https://files.pythonhosted.org/packages/df/e9/497fce43bc9a40b64c7c6f144a8bec93aa3ea2e8f51ef00743078a09036f/dagster-msteams-0.20.0.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-msteams]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-msteams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-msteams-0.19.9rc0.tar.gz tmp/dagster-msteams-0.20.0.tar.gz --markdown 20230721/d/dagster-msteams/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-shell]: Downloading https://files.pythonhosted.org/packages/c8/4e/a761ebcb62fdcbdeb499b817360870686daadfe6f743a546171ccf5218cc/dagster-shell-0.9.9rc1.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-azure]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-azure-0.9.9.tar.gz tmp/dagster-azure-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-azure/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-datadog]: Downloading https://files.pythonhosted.org/packages/47/d7/aa2a6dfa20b4593eeb42978089792cf00840776481fa0babb2bcb2092f93/dagster-datadog-0.9.9rc1.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-dbt]: Downloading https://files.pythonhosted.org/packages/58/14/f93191ec64a4f86b18d883da7912744c130f34af0fe31c9b2824e7582984/dagster-dbt-0.9.9rc1.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Downloading https://files.pythonhosted.org/packages/a8/c3/30caf97817fd229e2560f8dd3ef047ecad7412c3fc16a359b01893e0e62d/dagster-duckdb-pyspark-0.20.0.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-datadog]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-datadog-0.9.9.tar.gz tmp/dagster-datadog-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-datadog/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-dbt]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-dbt-0.9.9.tar.gz tmp/dagster-dbt-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-dbt/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-airflow]: Downloading https://files.pythonhosted.org/packages/e6/1e/87d0de357e0faccbafa3e61019ca67c47e2dbb9b4a2c20f6f311ee9ec0f2/dagster-airflow-1.4.0.tar.gz
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb-pyspark]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-duckdb-pyspark-0.19.9rc0.tar.gz tmp/dagster-duckdb-pyspark-0.20.0.tar.gz --markdown 20230721/d/dagster-duckdb-pyspark/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-airflow]: executing diffoscope
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-airflow-1.3.9rc0.tar.gz tmp/dagster-airflow-1.4.0.tar.gz --markdown 20230721/d/dagster-airflow/1.3.9rc0-1.4.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-0.20.0.tar.gz]
+[2023-07-21 00:08:37] INFO root fetch - processPackages [dagster-duckdb]: Start processing: dagster-slack
+[2023-07-21 00:08:37] INFO root fetch - main [MainThread]: End processing [dagster-duckdb]: success
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-shell]: executing diffoscope
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-shell-0.9.9.tar.gz tmp/dagster-shell-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-shell/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-slack]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [roblox-pyc]: Start processing: dagster-pandas
+[2023-07-21 00:08:38] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-pandas]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-slack]: Downloading https://files.pythonhosted.org/packages/a4/13/f2f1f97519c3431107b45dcba76580492033e62a444f94ecc2480ac7bd8a/dagster-slack-0.9.9.tar.gz
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-pandas]: Downloading https://files.pythonhosted.org/packages/00/be/7293540d4b17397f6562183aeb0128741c949a6069b397dddf52fe8d0670/dagster-pandas-0.9.9.tar.gz
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-msteams]: Remove: archive file [/home/abi/fetcher/tmp/dagster-msteams-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-msteams]: Remove: archive file [/home/abi/fetcher/tmp/dagster-msteams-0.20.0.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-msteams]: Start processing: dagster-wandb
+[2023-07-21 00:08:38] INFO root fetch - main [MainThread]: End processing [dagster-msteams]: success
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-azure]: Remove: archive file [/home/abi/fetcher/tmp/dagster-azure-0.9.9.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-azure]: Remove: archive file [/home/abi/fetcher/tmp/dagster-azure-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-azure]: Start processing: dagster-snowflake
+[2023-07-21 00:08:38] INFO root fetch - main [MainThread]: End processing [dagster-azure]: success
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-wandb]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-snowflake]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-celery]: Downloading https://files.pythonhosted.org/packages/0d/b1/82b5994eab41a407ca62827723989dd026c883653b8b7848c93fd44f4166/dagster-celery-0.9.9rc1.tar.gz
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-dbt]: Remove: archive file [/home/abi/fetcher/tmp/dagster-dbt-0.9.9.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-dbt]: Remove: archive file [/home/abi/fetcher/tmp/dagster-dbt-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-dbt]: Start processing: dagster-gcp-pyspark
+[2023-07-21 00:08:38] INFO root fetch - main [MainThread]: End processing [dagster-dbt]: success
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-wandb]: Downloading https://files.pythonhosted.org/packages/e3/d8/38a6165e5be5a9c8250096de6a018e12c8758fb919d5d569884217466553/dagster-wandb-0.19.9rc0.tar.gz
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-celery]: executing diffoscope
+[2023-07-21 00:08:38] INFO root fetch - processPackages [dagster-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-celery-0.9.9.tar.gz tmp/dagster-celery-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-celery/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-snowflake]: Downloading https://files.pythonhosted.org/packages/e1/86/a99a4f69e19c98a0c498059beaed0b39acc2e699e24c1eb69639d201e6ce/dagster-snowflake-0.9.9.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-gcp-pyspark]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-datadog]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datadog-0.9.9.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-datadog]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datadog-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-datadog]: Start processing: dagster-duckdb-polars
+[2023-07-21 00:08:39] INFO root fetch - main [MainThread]: End processing [dagster-datadog]: success
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-pandas]: Downloading https://files.pythonhosted.org/packages/44/ec/e6a9fa17710c16909008b6d9ed8f5122025479b4c52f974d4c1454f7f4c3/dagster-pandas-0.9.9rc1.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-slack]: Downloading https://files.pythonhosted.org/packages/1a/a3/5f2506dc9a1180a999e354706161051dd6084fa6108273bc7fa05d795949/dagster-slack-0.9.9rc1.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-polars]: New version: [0.20.0] Old Version: [0.19.9rc0]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pyspark-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pyspark-0.20.0.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Start processing: dagster-cloud
+[2023-07-21 00:08:39] INFO root fetch - main [MainThread]: End processing [dagster-duckdb-pyspark]: success
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-slack]: executing diffoscope
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-slack-0.9.9.tar.gz tmp/dagster-slack-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-slack/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dagster-airflow-1.3.9rc0.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dagster-airflow-1.4.0.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-airflow]: Start processing: dagster-cloud-cli
+[2023-07-21 00:08:39] INFO root fetch - main [MainThread]: End processing [dagster-airflow]: success
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-cloud]: New version: [1.4.0] Old Version: [1.3.9rc0]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-gcp-pyspark]: Downloading https://files.pythonhosted.org/packages/53/8d/44867846e1e05654f346bf14132585c434bd1126c25f99a7ceb53bbd27e1/dagster_gcp_pyspark-0.19.9rc0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-pandas]: executing diffoscope
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-pandas-0.9.9.tar.gz tmp/dagster-pandas-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-pandas/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-cloud-cli]: New version: [1.4.0] Old Version: [1.3.9rc0]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-shell]: Remove: archive file [/home/abi/fetcher/tmp/dagster-shell-0.9.9.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-shell]: Remove: archive file [/home/abi/fetcher/tmp/dagster-shell-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-shell]: Start processing: dagster-cloud-examples
+[2023-07-21 00:08:39] INFO root fetch - main [MainThread]: End processing [dagster-shell]: success
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-polars]: Downloading https://files.pythonhosted.org/packages/e3/53/7f4cdc3aa4852a4722bb28b4125ad472d13372cf7a358778be205784445d/dagster-duckdb-polars-0.19.9rc0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-cloud-examples]: New version: [1.4.0] Old Version: [1.3.9rc0]
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-wandb]: Downloading https://files.pythonhosted.org/packages/c2/a4/d3ba910bf338b622bedf31c094780f6409dbd94fd326536c95831af909f1/dagster-wandb-0.20.0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-snowflake]: Downloading https://files.pythonhosted.org/packages/fe/56/cd72a389118ea8d1382c341ae850bb376ea9662a8897473ffaec2be23ebb/dagster-snowflake-0.9.9rc1.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-cloud]: Downloading https://files.pythonhosted.org/packages/b6/1e/22f40239c7b59fe6af2438980c5ab8f471120ca4e687be474dc6f7d683ce/dagster_cloud-1.3.9rc0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-cloud-cli]: Downloading https://files.pythonhosted.org/packages/76/22/1bbd685b8a664478513febd444fe703433e6042f326de0b0a5c420dd469a/dagster_cloud_cli-1.3.9rc0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-wandb]: executing diffoscope
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-wandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-wandb-0.19.9rc0.tar.gz tmp/dagster-wandb-0.20.0.tar.gz --markdown 20230721/d/dagster-wandb/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-cloud-examples]: Downloading https://files.pythonhosted.org/packages/86/80/fd838c526fd82e96f2b698e66832a98b2b9716fd303d5e7fde183f836589/dagster_cloud_examples-1.3.9rc0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-gcp-pyspark]: Downloading https://files.pythonhosted.org/packages/aa/e7/7478006569a051a4fc61bdc472290f6fa3efe8bc3cf664ad029aa2d0cf73/dagster_gcp_pyspark-0.20.0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-snowflake]: executing diffoscope
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-snowflake-0.9.9.tar.gz tmp/dagster-snowflake-0.9.9rc1.tar.gz --markdown 20230721/d/dagster-snowflake/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-gcp-pyspark]: executing diffoscope
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-gcp-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_gcp_pyspark-0.19.9rc0.tar.gz tmp/dagster_gcp_pyspark-0.20.0.tar.gz --markdown 20230721/d/dagster-gcp-pyspark/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-polars]: Downloading https://files.pythonhosted.org/packages/02/95/0fe1747dc6b12c0901fbf26a4414c8f2e726ab753964be0b753f41da7d3f/dagster-duckdb-polars-0.20.0.tar.gz
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-polars]: executing diffoscope
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-duckdb-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-duckdb-polars-0.19.9rc0.tar.gz tmp/dagster-duckdb-polars-0.20.0.tar.gz --markdown 20230721/d/dagster-duckdb-polars/0.19.9rc0-0.20.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:39] INFO root fetch - processPackages [dagster-cloud]: Downloading https://files.pythonhosted.org/packages/12/d7/b3b4acb3005f01c8924f08b9fe09b80824381c5c478705203af33e1dbb04/dagster_cloud-1.4.0.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud-cli]: Downloading https://files.pythonhosted.org/packages/b0/78/8ee8b89c0c7edc7a45dba329a52e88e82ee91abff4b8956d36081138f69a/dagster_cloud_cli-1.4.0.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud-examples]: Downloading https://files.pythonhosted.org/packages/1b/b7/5f982fca309fc94bb17bc5d7533329e834dab2ee94482ab70858759fcc1d/dagster_cloud_examples-1.4.0.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud]: executing diffoscope
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_cloud-1.3.9rc0.tar.gz tmp/dagster_cloud-1.4.0.tar.gz --markdown 20230721/d/dagster-cloud/1.3.9rc0-1.4.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-celery]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-0.9.9.tar.gz]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-celery]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-celery]: Start processing: collective.iframe
+[2023-07-21 00:08:40] INFO root fetch - main [MainThread]: End processing [dagster-celery]: success
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud-cli]: executing diffoscope
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_cloud_cli-1.3.9rc0.tar.gz tmp/dagster_cloud_cli-1.4.0.tar.gz --markdown 20230721/d/dagster-cloud-cli/1.3.9rc0-1.4.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud-examples]: executing diffoscope
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-cloud-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_cloud_examples-1.3.9rc0.tar.gz tmp/dagster_cloud_examples-1.4.0.tar.gz --markdown 20230721/d/dagster-cloud-examples/1.3.9rc0-1.4.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:40] INFO root fetch - processPackages [collective.iframe]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-slack]: Remove: archive file [/home/abi/fetcher/tmp/dagster-slack-0.9.9.tar.gz]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-slack]: Remove: archive file [/home/abi/fetcher/tmp/dagster-slack-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-slack]: Start processing: mrseql
+[2023-07-21 00:08:40] INFO root fetch - main [MainThread]: End processing [dagster-slack]: success
+[2023-07-21 00:08:40] INFO root fetch - processPackages [mrseql]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-pandas-0.9.9.tar.gz]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-pandas-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [dagster-pandas]: Start processing: great-expectations-experimental
+[2023-07-21 00:08:40] INFO root fetch - main [MainThread]: End processing [dagster-pandas]: success
+[2023-07-21 00:08:40] INFO root fetch - processPackages [collective.iframe]: Downloading https://files.pythonhosted.org/packages/e4/4d/0f2e960a44cf6b731159b06f557927087b42c568ffde45b1f2a8e22001b7/collective.iframe-1.0.0a1.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230720119] Old Version: [0.1.20230720088]
+[2023-07-21 00:08:40] INFO root fetch - processPackages [mrseql]: Downloading https://files.pythonhosted.org/packages/09/2e/d5e86b4894ed13cffc57ec9f3d1a4823d3a9a674d6ecd7a1fbec2e6ea7e9/mrseql-0.0.1.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/44/7a/cf88f6cd4d4aeb643fe4d1a715616694d2165afbf8f00e8e79a504a65e14/great_expectations_experimental-0.1.20230720088.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [mrseql]: Downloading https://files.pythonhosted.org/packages/a4/b1/8657632565d1c3a2131dad9026a8f5f81283e05232e7665de3a4a908e9aa/mrseql-0.0.2.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [collective.iframe]: Downloading https://files.pythonhosted.org/packages/6b/36/38ad0ede244f9f9a9ba0044ad17eedcb5dc991b135c0e8b61e4615a672af/collective.iframe-1.0.0a2.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/f3/52/ebe0474660bef8c91e7ca9d182d30df4d67c576a0ca0d3b25ae796062df3/great_expectations_experimental-0.1.20230720119.tar.gz
+[2023-07-21 00:08:40] INFO root fetch - processPackages [mrseql]: executing diffoscope
+[2023-07-21 00:08:40] INFO root fetch - processPackages [mrseql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrseql-0.0.1.tar.gz tmp/mrseql-0.0.2.tar.gz --markdown 20230721/m/mrseql/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-wandb]: Remove: archive file [/home/abi/fetcher/tmp/dagster-wandb-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-wandb]: Remove: archive file [/home/abi/fetcher/tmp/dagster-wandb-0.20.0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-wandb]: Start processing: glocalx
+[2023-07-21 00:08:41] INFO root fetch - main [MainThread]: End processing [dagster-wandb]: success
+[2023-07-21 00:08:41] INFO root fetch - processPackages [glocalx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-07-21 00:08:41] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230720088.tar.gz tmp/great_expectations_experimental-0.1.20230720119.tar.gz --markdown 20230721/g/great-expectations-experimental/0.1.20230720088-0.1.20230720119/diff.md --exclude *.pyd
+[2023-07-21 00:08:41] INFO root fetch - processPackages [collective.iframe]: executing diffoscope
+[2023-07-21 00:08:41] INFO root fetch - processPackages [collective.iframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.iframe-1.0.0a1.tar.gz tmp/collective.iframe-1.0.0a2.tar.gz --markdown 20230721/c/collective.iframe/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-21 00:08:41] INFO root fetch - processPackages [glocalx]: Downloading https://files.pythonhosted.org/packages/b4/e7/09b4fb72bb7df27983c77faec52e502de958a14e4dd8f613d035ae502188/glocalx-0.0.8.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-gcp-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster_gcp_pyspark-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-gcp-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster_gcp_pyspark-0.20.0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-gcp-pyspark]: Start processing: dbt-rockset
+[2023-07-21 00:08:41] INFO root fetch - main [MainThread]: End processing [dagster-gcp-pyspark]: success
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-0.9.9.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-0.9.9rc1.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-snowflake]: Start processing: deepcellpredictor
+[2023-07-21 00:08:41] INFO root fetch - main [MainThread]: End processing [dagster-snowflake]: success
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dbt-rockset]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.6] Old Version: [0.5]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud-examples]: Remove: archive file [/home/abi/fetcher/tmp/dagster_cloud_examples-1.3.9rc0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud-examples]: Remove: archive file [/home/abi/fetcher/tmp/dagster_cloud_examples-1.4.0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud-examples]: Start processing: lightweight-charts
+[2023-07-21 00:08:41] INFO root fetch - main [MainThread]: End processing [dagster-cloud-examples]: success
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-duckdb-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-polars-0.19.9rc0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-duckdb-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-polars-0.20.0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-duckdb-polars]: Start processing: maestro-music
+[2023-07-21 00:08:41] INFO root fetch - main [MainThread]: End processing [dagster-duckdb-polars]: success
+[2023-07-21 00:08:41] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [maestro-music]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/6b/12/b89e68a50cc41e3c6b76001c19daa8561411ae62edbcd1ac6f45dcc2fe02/deepcellpredictor-0.5.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [glocalx]: Downloading https://files.pythonhosted.org/packages/94/9a/7603b80d01d54cbf355458cad1ab6f59c25b22ecec25f551438885103179/glocalx-0.0.9.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/89/47/c4ba1db5b863a175467d66e743b117aff7b293975b8c1494abdafb760b45/lightweight_charts-1.0.8.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dbt-rockset]: Downloading https://files.pythonhosted.org/packages/76/80/6026d1cc812c6b824d9453c7bdc19eac85bdc2509fbdd093ea91bda7f845/dbt-rockset-0.1.6.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [glocalx]: executing diffoscope
+[2023-07-21 00:08:41] INFO root fetch - processPackages [glocalx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glocalx-0.0.8.tar.gz tmp/glocalx-0.0.9.tar.gz --markdown 20230721/g/glocalx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 00:08:41] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/7c/6e/db74158828452c9fcb6147f6d0c9f037b1929104c79c7ea61325fc67f009/maestro-music-1.0.7.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/cf/d4/9663fbc09e849ab1b6fd51555de471f4d107dde6cb568043398b7376aeee/lightweight_charts-1.0.9.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/dagster_cloud_cli-1.3.9rc0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/dagster_cloud_cli-1.4.0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud-cli]: Start processing: streamlit
+[2023-07-21 00:08:41] INFO root fetch - main [MainThread]: End processing [dagster-cloud-cli]: success
+[2023-07-21 00:08:41] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/47/fe/0cc32b32dc7fa30a82275936810e9297bc7a21f00f2bf026079687135b4a/deepcellpredictor-0.6.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2023-07-21 00:08:41] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.8.tar.gz tmp/lightweight_charts-1.0.9.tar.gz --markdown 20230721/l/lightweight-charts/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 00:08:41] INFO root fetch - processPackages [streamlit]: New version: [1.9.2rc1] Old Version: [1.9.2]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dbt-rockset]: Downloading https://files.pythonhosted.org/packages/8b/a3/4ab7d3656b042e14ab3eab5a7be405b9153799fdcbc189564fa0e973537c/dbt-rockset-0.2.0.tar.gz
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dagster_cloud-1.3.9rc0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dagster_cloud-1.4.0.tar.gz]
+[2023-07-21 00:08:41] INFO root fetch - processPackages [dagster-cloud]: Start processing: deepcellpredictor
+[2023-07-21 00:08:41] INFO root fetch - main [MainThread]: End processing [dagster-cloud]: success
+[2023-07-21 00:08:42] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-21 00:08:42] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.5.tar.gz tmp/deepcellpredictor-0.6.tar.gz --markdown 20230721/d/deepcellpredictor/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-21 00:08:42] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.6] Old Version: [0.5]
+[2023-07-21 00:08:42] INFO root fetch - processPackages [dbt-rockset]: executing diffoscope
+[2023-07-21 00:08:42] INFO root fetch - processPackages [dbt-rockset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-rockset-0.1.6.tar.gz tmp/dbt-rockset-0.2.0.tar.gz --markdown 20230721/d/dbt-rockset/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-21 00:08:42] INFO root fetch - processPackages [streamlit]: Downloading https://files.pythonhosted.org/packages/0b/bb/1626aee82f9d586f084e252cf9388e7d1fe60b0523dfe39436a64185b55a/streamlit-1.9.2.tar.gz
+[2023-07-21 00:08:42] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/9d/b7/8eb28778a6f824aa5f3e411bc2991e439a71f7d126288cda0261d2413a3c/maestro-music-1.0.8.tar.gz
+[2023-07-21 00:08:42] INFO root fetch - processPackages [maestro-music]: executing diffoscope
+[2023-07-21 00:08:42] INFO root fetch - processPackages [maestro-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro-music-1.0.7.tar.gz tmp/maestro-music-1.0.8.tar.gz --markdown 20230721/m/maestro-music/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-21 00:08:42] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-21 00:08:42] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.5.tar.gz tmp/deepcellpredictor-0.6.tar.gz --markdown 20230721/d/deepcellpredictor/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-21 00:08:42] INFO root fetch - processPackages [mrseql]: Remove: archive file [/home/abi/fetcher/tmp/mrseql-0.0.1.tar.gz]
+[2023-07-21 00:08:42] INFO root fetch - processPackages [mrseql]: Remove: archive file [/home/abi/fetcher/tmp/mrseql-0.0.2.tar.gz]
+[2023-07-21 00:08:42] INFO root fetch - processPackages [mrseql]: Start processing: marshmallow
+[2023-07-21 00:08:42] INFO root fetch - main [MainThread]: End processing [mrseql]: success
+[2023-07-21 00:08:42] INFO root fetch - processPackages [marshmallow]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 00:08:42] INFO root fetch - processPackages [marshmallow]: Downloading https://files.pythonhosted.org/packages/78/46/d4d59981e8d0eeb21aba431cf140269777d118574d0789df6ea7fcdc2b82/marshmallow-3.9.0.tar.gz
+[2023-07-21 00:08:42] INFO root fetch - processPackages [collective.iframe]: Remove: archive file [/home/abi/fetcher/tmp/collective.iframe-1.0.0a1.tar.gz]
+[2023-07-21 00:08:42] INFO root fetch - processPackages [collective.iframe]: Remove: archive file [/home/abi/fetcher/tmp/collective.iframe-1.0.0a2.tar.gz]
+[2023-07-21 00:08:42] INFO root fetch - main [MainThread]: End processing [collective.iframe]: success
+[2023-07-21 00:08:42] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230720088.tar.gz]
+[2023-07-21 00:08:42] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230720119.tar.gz]
+[2023-07-21 00:08:42] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-07-21 00:08:42] INFO root fetch - processPackages [marshmallow]: Downloading https://files.pythonhosted.org/packages/ea/ac/dc6ed04439ddfb58414a0587cfaa0a2f36b53caf8fadc41b3b4211647434/marshmallow-3.9.1.tar.gz
+[2023-07-21 00:08:43] INFO root fetch - processPackages [marshmallow]: executing diffoscope
+[2023-07-21 00:08:43] INFO root fetch - processPackages [marshmallow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marshmallow-3.9.0.tar.gz tmp/marshmallow-3.9.1.tar.gz --markdown 20230721/m/marshmallow/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 00:08:43] INFO root fetch - processPackages [glocalx]: Remove: archive file [/home/abi/fetcher/tmp/glocalx-0.0.8.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - processPackages [glocalx]: Remove: archive file [/home/abi/fetcher/tmp/glocalx-0.0.9.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - main [MainThread]: End processing [glocalx]: success
+[2023-07-21 00:08:43] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.5.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.6.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-21 00:08:43] INFO root fetch - processPackages [dbt-rockset]: Remove: archive file [/home/abi/fetcher/tmp/dbt-rockset-0.1.6.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - processPackages [dbt-rockset]: Remove: archive file [/home/abi/fetcher/tmp/dbt-rockset-0.2.0.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - main [MainThread]: End processing [dbt-rockset]: success
+[2023-07-21 00:08:43] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.8.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.9.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2023-07-21 00:08:43] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-21 00:08:43] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.7.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.8.tar.gz]
+[2023-07-21 00:08:43] INFO root fetch - main [MainThread]: End processing [maestro-music]: success
+[2023-07-21 00:08:44] INFO root fetch - processPackages [marshmallow]: Remove: archive file [/home/abi/fetcher/tmp/marshmallow-3.9.0.tar.gz]
+[2023-07-21 00:08:44] INFO root fetch - processPackages [marshmallow]: Remove: archive file [/home/abi/fetcher/tmp/marshmallow-3.9.1.tar.gz]
+[2023-07-21 00:08:44] INFO root fetch - main [MainThread]: End processing [marshmallow]: success
+[2023-07-21 00:08:44] INFO root fetch - processPackages [streamlit]: Downloading https://files.pythonhosted.org/packages/4a/3d/ce73b44c79b555c97dc07e64d990118e5e4121d5489a8151da741e8d72a0/streamlit-1.9.2rc1.tar.gz
+[2023-07-21 00:08:46] INFO root fetch - processPackages [streamlit]: executing diffoscope
+[2023-07-21 00:08:46] INFO root fetch - processPackages [streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-1.9.2.tar.gz tmp/streamlit-1.9.2rc1.tar.gz --markdown 20230721/s/streamlit/1.9.2-1.9.2rc1/diff.md --exclude *.pyd
+[2023-07-21 00:08:50] INFO root fetch - processPackages [streamlit]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-1.9.2.tar.gz]
+[2023-07-21 00:08:50] INFO root fetch - processPackages [streamlit]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-1.9.2rc1.tar.gz]
+[2023-07-21 00:08:50] INFO root fetch - main [MainThread]: End processing [streamlit]: success
+[2023-07-21 00:08:50] INFO root fetch - main [MainThread]: Store serial: [18973688]
