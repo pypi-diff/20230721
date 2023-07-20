@@ -988,3 +988,89 @@
 [2023-07-21 00:26:10] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc3.tar.gz]
 [2023-07-21 00:26:10] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2023-07-21 00:26:10] INFO root fetch - main [MainThread]: Store serial: [18973797]
+[2023-07-21 00:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18973797]
+[2023-07-21 00:31:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 00:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dotscanner
+[2023-07-21 00:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-otp-twilio
+[2023-07-21 00:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inscodegpt
+[2023-07-21 00:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-21 00:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reflex
+[2023-07-21 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WkquBsXEkbXn
+[2023-07-21 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepcellpredictor
+[2023-07-21 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fshelper
+[2023-07-21 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-07-21 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: element-miniscope
+[2023-07-21 00:31:39] INFO root fetch - processPackages [django-otp-twilio]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [inscodegpt]: New version: [1.3] Old Version: [1.2]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [fshelper]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-07-21 00:31:39] WARNING root fetch - processPackages [WkquBsXEkbXn]: Skipping, unable to determine old version
+[2023-07-21 00:31:39] INFO root fetch - main [MainThread]: End processing [WkquBsXEkbXn] error
+[2023-07-21 00:31:39] INFO root fetch - processPackages [reflex]: New version: [0.2.2a1] Old Version: [0.2.2]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [dotscanner]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [kcli]: New version: [99.0.202307202227] Old Version: [99.0.202307202219]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [kfish]: New version: [99.0.202307202230] Old Version: [99.0.202307202222]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [element-miniscope]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-21 00:31:39] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/77/63/7014d4ae6f94408fff85a195c82461cc9c454ce89288f3178bb521a4443f/deepcellpredictor-0.8.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/08/b7/4452f29bbaa3043fa4cd304dedca579537705d1d8f8aa9d76fb08061d62d/kfish-99.0.202307202222-py3-none-any.whl
+[2023-07-21 00:31:39] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e2/3f/16e8a59031d6ba121eaf1d6a25353cec7438f54021ac922b287f26f50a63/kcli-99.0.202307202219-py3-none-any.whl
+[2023-07-21 00:31:39] INFO root fetch - processPackages [django-otp-twilio]: Downloading https://files.pythonhosted.org/packages/cb/bd/a316aabed82d7f65136e92e1fe896c1daf35b34fbd91c9bac47a2c5c5c97/django-otp-twilio-1.0.3.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [fshelper]: Downloading https://files.pythonhosted.org/packages/a4/5e/bd8260e014d2bb18ce134cea75a277583b9dd629650365b973de653d00b7/fshelper-0.2.7.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/43/45/23f5e7c04aac0eba25a8faf5f9b93e37e524407cfc4b952c175b08a47f30/reflex-0.2.2.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/78/84/ed27a9bcd9913fab7356813405b889be3ca0ca54efca2c5f9dff9bfdfe54/dotscanner-1.3.4.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [element-miniscope]: Downloading https://files.pythonhosted.org/packages/06/4c/6c7469878af0f8bcfb2d0916f2c9d468f40307d07c5236ef54a17437e1c8/element-miniscope-0.3.1.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [inscodegpt]: Downloading https://files.pythonhosted.org/packages/20/5b/64e7a6c38948aa9bd3cbc8b6eb536a2e03f96e53c310ee9ad59189f96741/inscodegpt-1.3.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [inscodegpt]: executing diffoscope
+[2023-07-21 00:31:39] INFO root fetch - processPackages [inscodegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inscodegpt-1.2.tar.gz tmp/inscodegpt-1.3.tar.gz --markdown 20230721/i/inscodegpt/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-21 00:31:39] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/5b/79/b772e5d283c4f3b8a34cc3817076616b4c9bb7e58fe0bd00fb4decb9ba13/deepcellpredictor-0.9.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/07/35/414647ec29512d6230f6a059d2836dd276fffd7a69b6941c83a8ca532769/reflex-0.2.2a1.tar.gz
+[2023-07-21 00:31:39] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/e4/d0c6d25b5c3e0dc0afe044ad144c9ea2a0fded81ed4f1f5d05681f3419e5/kfish-99.0.202307202230-py3-none-any.whl
+[2023-07-21 00:31:40] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.8.tar.gz tmp/deepcellpredictor-0.9.tar.gz --markdown 20230721/d/deepcellpredictor/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 00:31:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a6/0e/b6abfdb34d07bba45d865713e5ffb475de10afbadbe09437061286a8b5f9/kcli-99.0.202307202227-py3-none-any.whl
+[2023-07-21 00:31:40] INFO root fetch - processPackages [django-otp-twilio]: Downloading https://files.pythonhosted.org/packages/a0/45/8d6f220d91150dc5c65938f5868e5282bacb5d0e709c44afa02292026979/django_otp_twilio-1.0.4.tar.gz
+[2023-07-21 00:31:40] INFO root fetch - processPackages [fshelper]: Downloading https://files.pythonhosted.org/packages/d9/a9/b9528c4e32d3baf7063b9d7a5a168b1ca4dda07353bdf68fcf6eb63c7371/fshelper-0.3.0.tar.gz
+[2023-07-21 00:31:40] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307202222-py3-none-any.whl.zip tmp/kfish-99.0.202307202230-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307202222-99.0.202307202230/diff.md --exclude *.pyd
+[2023-07-21 00:31:40] INFO root fetch - processPackages [element-miniscope]: Downloading https://files.pythonhosted.org/packages/c5/43/a7400fcdb62e01052c6a98832a8cedd00c0a0cbafff989d09c6349138db3/element-miniscope-0.3.2.tar.gz
+[2023-07-21 00:31:40] INFO root fetch - processPackages [django-otp-twilio]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [django-otp-twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-otp-twilio-1.0.3.tar.gz tmp/django_otp_twilio-1.0.4.tar.gz --markdown 20230721/d/django-otp-twilio/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-21 00:31:40] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/35/4a/7dbcfad7b6582702469ef0d9d216b70cb5f33f16408ce013625370afe06c/dotscanner-1.3.5.tar.gz
+[2023-07-21 00:31:40] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307202219-py3-none-any.whl.zip tmp/kcli-99.0.202307202227-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307202219-99.0.202307202227/diff.md --exclude *.pyd
+[2023-07-21 00:31:40] INFO root fetch - processPackages [fshelper]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [fshelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fshelper-0.2.7.tar.gz tmp/fshelper-0.3.0.tar.gz --markdown 20230721/f/fshelper/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-21 00:31:40] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.2.tar.gz tmp/reflex-0.2.2a1.tar.gz --markdown 20230721/r/reflex/0.2.2-0.2.2a1/diff.md --exclude *.pyd
+[2023-07-21 00:31:40] INFO root fetch - processPackages [dotscanner]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [dotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotscanner-1.3.4.tar.gz tmp/dotscanner-1.3.5.tar.gz --markdown 20230721/d/dotscanner/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-21 00:31:40] INFO root fetch - processPackages [element-miniscope]: executing diffoscope
+[2023-07-21 00:31:40] INFO root fetch - processPackages [element-miniscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-miniscope-0.3.1.tar.gz tmp/element-miniscope-0.3.2.tar.gz --markdown 20230721/e/element-miniscope/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-21 00:31:41] INFO root fetch - processPackages [inscodegpt]: Remove: archive file [/home/abi/fetcher/tmp/inscodegpt-1.2.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - processPackages [inscodegpt]: Remove: archive file [/home/abi/fetcher/tmp/inscodegpt-1.3.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - main [MainThread]: End processing [inscodegpt]: success
+[2023-07-21 00:31:41] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.8.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.9.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-21 00:31:41] INFO root fetch - processPackages [django-otp-twilio]: Remove: archive file [/home/abi/fetcher/tmp/django-otp-twilio-1.0.3.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - processPackages [django-otp-twilio]: Remove: archive file [/home/abi/fetcher/tmp/django_otp_twilio-1.0.4.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - main [MainThread]: End processing [django-otp-twilio]: success
+[2023-07-21 00:31:41] INFO root fetch - processPackages [fshelper]: Remove: archive file [/home/abi/fetcher/tmp/fshelper-0.2.7.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - processPackages [fshelper]: Remove: archive file [/home/abi/fetcher/tmp/fshelper-0.3.0.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - main [MainThread]: End processing [fshelper]: success
+[2023-07-21 00:31:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202222-py3-none-any.whl.zip]
+[2023-07-21 00:31:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202230-py3-none-any.whl.zip]
+[2023-07-21 00:31:41] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 00:31:41] INFO root fetch - processPackages [element-miniscope]: Remove: archive file [/home/abi/fetcher/tmp/element-miniscope-0.3.1.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - processPackages [element-miniscope]: Remove: archive file [/home/abi/fetcher/tmp/element-miniscope-0.3.2.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - main [MainThread]: End processing [element-miniscope]: success
+[2023-07-21 00:31:41] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.4.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.5.tar.gz]
+[2023-07-21 00:31:41] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
+[2023-07-21 00:31:42] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.2.tar.gz]
+[2023-07-21 00:31:42] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.2a1.tar.gz]
+[2023-07-21 00:31:42] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-21 00:31:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202219-py3-none-any.whl.zip]
+[2023-07-21 00:31:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202227-py3-none-any.whl.zip]
+[2023-07-21 00:31:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 00:31:43] INFO root fetch - main [MainThread]: Store serial: [18973838]
