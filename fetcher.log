@@ -680,3 +680,119 @@
 [2023-07-21 00:08:50] INFO root fetch - processPackages [streamlit]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-1.9.2rc1.tar.gz]
 [2023-07-21 00:08:50] INFO root fetch - main [MainThread]: End processing [streamlit]: success
 [2023-07-21 00:08:50] INFO root fetch - main [MainThread]: Store serial: [18973688]
+[2023-07-21 00:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18973688]
+[2023-07-21 00:14:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compositional
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stlib-plugins
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reasoner-validator
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ldimbenchmark
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamorph-airflow
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chilife
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threads-api
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robit
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: advanced-ta
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gecs
+[2023-07-21 00:14:01] INFO root fetch - processPackages [threads-api]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [stlib-plugins]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [advanced-ta]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [robit]: New version: [0.3.2.2] Old Version: [0.3.2.1]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [gecs]: New version: [0.30.0] Old Version: [0.29.0]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [reasoner-validator]: New version: [3.7.5] Old Version: [3.7.4]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [compositional]: New version: [2023.7.20] Old Version: [2022.8.31]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [chilife]: New version: [0.1.9] Old Version: [0.1.8.1]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 00:14:01] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/4a/83/a1171ccd19df47257e86ea3599079ea1050bd0adeac3d42f01f75c93e8b1/advanced-ta-0.1.1.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [robit]: Downloading https://files.pythonhosted.org/packages/26/b1/92835f448ad619245067b388594b6a12787051fd7e655a1ff459a577ece1/robit-0.3.2.1.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [stlib-plugins]: Downloading https://files.pythonhosted.org/packages/d7/e1/79485ff6de13942d581cd58189f3159668f60e06b28a57aa059ca2512e13/stlib-plugins-1.2.2.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/85/23/ee0d1c9967b678f8a86817ad842a1577939edc7b5469bb1e5d6d237402b7/threads-api-1.1.9.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [chilife]: Downloading https://files.pythonhosted.org/packages/ad/27/b42ebee81bdb08e2e13264289ebef39c8dd20c2b56f02ae9e18ea4612d37/chilife-0.1.8.1.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [compositional]: Downloading https://files.pythonhosted.org/packages/79/3f/9dc1269c439382ac28f6bb19ad1267eeba4e396572f923d61a9a41ffb342/compositional-2022.8.31.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/f7/38/de04e86c9c8cc59bf5ebdd4a75369e5f3e53ebafd772d79b9b240c6a1616/reasoner_validator-3.7.4.tar.gz
+[2023-07-21 00:14:01] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/85/4d/de25eb798d58e545d928c48d5d3d0045509ef73806e79a937f94d7a28c62/gecs-0.29.0.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/4d/52/1713c5773742cdd1d74d900b5f896a9045c860be9706280601164c604a75/advanced-ta-0.1.2.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/1c/de/d97d334fd393cf4572d5aed1fb99aeb9c3962aaf4f59e1ac30e263fd10c4/threads-api-1.2.0.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [robit]: Downloading https://files.pythonhosted.org/packages/67/70/df671e0f5ce8e47dfbe2f685b4b0c39ea0d3ae853f5deee097662552168a/robit-0.3.2.2.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [stlib-plugins]: Downloading https://files.pythonhosted.org/packages/28/0a/7b9044f55336f2a0382ebbaa8e4512690de09977c37dc118e5f2c6c4bd92/stlib-plugins-1.2.3.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [advanced-ta]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [advanced-ta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced-ta-0.1.1.tar.gz tmp/advanced-ta-0.1.2.tar.gz --markdown 20230721/a/advanced-ta/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [compositional]: Downloading https://files.pythonhosted.org/packages/ac/a8/103833e396d145558dfc32df221d8aab6f37fcd5e71e1b06f3115c20f65b/compositional-2023.7.20.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230721/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230721/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [robit]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [robit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robit-0.3.2.1.tar.gz tmp/robit-0.3.2.2.tar.gz --markdown 20230721/r/robit/0.3.2.1-0.3.2.2/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.1.9.tar.gz tmp/threads-api-1.2.0.tar.gz --markdown 20230721/t/threads-api/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [stlib-plugins]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/6d/14/d156451bd33674b766685c88cf082be2ec55387e932333ae963726063914/gecs-0.30.0.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [stlib-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stlib-plugins-1.2.2.tar.gz tmp/stlib-plugins-1.2.3.tar.gz --markdown 20230721/s/stlib-plugins/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/a5/d3/a4166a7956f1dae8e35562042db48bcc4d42116df0357b7369971707407e/reasoner_validator-3.7.5.tar.gz
+[2023-07-21 00:14:02] INFO root fetch - processPackages [compositional]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [compositional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compositional-2022.8.31.tar.gz tmp/compositional-2023.7.20.tar.gz --markdown 20230721/c/compositional/2022.8.31-2023.7.20/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [gecs]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [gecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gecs-0.29.0.tar.gz tmp/gecs-0.30.0.tar.gz --markdown 20230721/g/gecs/0.29.0-0.30.0/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-07-21 00:14:02] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.7.4.tar.gz tmp/reasoner_validator-3.7.5.tar.gz --markdown 20230721/r/reasoner-validator/3.7.4-3.7.5/diff.md --exclude *.pyd
+[2023-07-21 00:14:02] WARNING root fetch - processPackages [chilife]: Skipping package: exceeds size limit 17725464>=10485760
+[2023-07-21 00:14:02] INFO root fetch - processPackages [chilife]: Start processing: roblox-pyc
+[2023-07-21 00:14:02] INFO root fetch - main [MainThread]: End processing [chilife] error
+[2023-07-21 00:14:02] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 00:14:02] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 00:14:03] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 00:14:03] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 00:14:03] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 00:14:03] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.1.tar.gz]
+[2023-07-21 00:14:03] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.2.tar.gz]
+[2023-07-21 00:14:03] INFO root fetch - processPackages [advanced-ta]: Start processing: iqmotion
+[2023-07-21 00:14:03] INFO root fetch - main [MainThread]: End processing [advanced-ta]: success
+[2023-07-21 00:14:03] INFO root fetch - processPackages [iqmotion]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-21 00:14:03] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/ea/98/6064b454685dafe6c4e5e7122a44adfbbab5d132bc349ac3424198208b3e/iqmotion-0.9.2.tar.gz
+[2023-07-21 00:14:03] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-07-21 00:14:03] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-07-21 00:14:03] INFO root fetch - processPackages [datamorph-airflow]: Start processing: suinspy
+[2023-07-21 00:14:03] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-07-21 00:14:03] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.29.0.tar.gz]
+[2023-07-21 00:14:03] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.30.0.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [gecs]: success
+[2023-07-21 00:14:04] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.9.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.2.0.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-21 00:14:04] INFO root fetch - processPackages [suinspy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-21 00:14:04] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/c5/bd/e0e822fe29eca6852ed05652e150c11b8dc57f4352ccdb66a34640b3b3d3/iqmotion-0.9.3.tar.gz
+[2023-07-21 00:14:04] INFO root fetch - processPackages [stlib-plugins]: Remove: archive file [/home/abi/fetcher/tmp/stlib-plugins-1.2.2.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [stlib-plugins]: Remove: archive file [/home/abi/fetcher/tmp/stlib-plugins-1.2.3.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [stlib-plugins]: success
+[2023-07-21 00:14:04] INFO root fetch - processPackages [suinspy]: Downloading https://files.pythonhosted.org/packages/a2/43/5c21f2dfdf9fa83b22eb11738fd51f57515265ce5a09f07d16b6e41849e0/suinspy-0.1.0.tar.gz
+[2023-07-21 00:14:04] INFO root fetch - processPackages [iqmotion]: executing diffoscope
+[2023-07-21 00:14:04] INFO root fetch - processPackages [iqmotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqmotion-0.9.2.tar.gz tmp/iqmotion-0.9.3.tar.gz --markdown 20230721/i/iqmotion/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-21 00:14:04] INFO root fetch - processPackages [compositional]: Remove: archive file [/home/abi/fetcher/tmp/compositional-2022.8.31.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [compositional]: Remove: archive file [/home/abi/fetcher/tmp/compositional-2023.7.20.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [compositional]: success
+[2023-07-21 00:14:04] INFO root fetch - processPackages [robit]: Remove: archive file [/home/abi/fetcher/tmp/robit-0.3.2.1.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [robit]: Remove: archive file [/home/abi/fetcher/tmp/robit-0.3.2.2.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [robit]: success
+[2023-07-21 00:14:04] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.4.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.5.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-07-21 00:14:04] INFO root fetch - processPackages [suinspy]: Downloading https://files.pythonhosted.org/packages/63/67/83dbba12c35a7b1f29345c20b9591a08aebeeeb5328a7258e3f02167a30c/suinspy-0.1.1.tar.gz
+[2023-07-21 00:14:04] INFO root fetch - processPackages [suinspy]: executing diffoscope
+[2023-07-21 00:14:04] INFO root fetch - processPackages [suinspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suinspy-0.1.0.tar.gz tmp/suinspy-0.1.1.tar.gz --markdown 20230721/s/suinspy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 00:14:04] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 00:14:04] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 00:14:05] INFO root fetch - processPackages [iqmotion]: Remove: archive file [/home/abi/fetcher/tmp/iqmotion-0.9.2.tar.gz]
+[2023-07-21 00:14:05] INFO root fetch - processPackages [iqmotion]: Remove: archive file [/home/abi/fetcher/tmp/iqmotion-0.9.3.tar.gz]
+[2023-07-21 00:14:05] INFO root fetch - main [MainThread]: End processing [iqmotion]: success
+[2023-07-21 00:14:05] INFO root fetch - processPackages [suinspy]: Remove: archive file [/home/abi/fetcher/tmp/suinspy-0.1.0.tar.gz]
+[2023-07-21 00:14:05] INFO root fetch - processPackages [suinspy]: Remove: archive file [/home/abi/fetcher/tmp/suinspy-0.1.1.tar.gz]
+[2023-07-21 00:14:05] INFO root fetch - main [MainThread]: End processing [suinspy]: success
+[2023-07-21 00:14:05] INFO root fetch - main [MainThread]: Store serial: [18973725]
