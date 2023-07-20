@@ -2220,3 +2220,51 @@
 [2023-07-21 01:30:51] INFO root fetch - processPackages [isogrids]: Remove: archive file [/home/abi/fetcher/tmp/isogrids-0.0.3.tar.gz]
 [2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [isogrids]: success
 [2023-07-21 01:30:51] INFO root fetch - main [MainThread]: Store serial: [18974317]
+[2023-07-21 01:35:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974317]
+[2023-07-21 01:36:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-21 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eleuther-elk
+[2023-07-21 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edgeimpulse-api
+[2023-07-21 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argify
+[2023-07-21 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-prime-rando
+[2023-07-21 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypx
+[2023-07-21 01:36:00] INFO root fetch - processPackages [open-prime-rando]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 01:36:00] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.25.32] Old Version: [1.25.31]
+[2023-07-21 01:36:00] INFO root fetch - processPackages [eleuther-elk]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-21 01:36:00] INFO root fetch - processPackages [argify]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 01:36:00] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/76/d7/d085cd3954e6bcc4eb56aa44f8b5d46f22976e1bfb1795ded10d61d15f77/edgeimpulse_api-1.25.31.tar.gz
+[2023-07-21 01:36:00] INFO root fetch - processPackages [pypx]: New version: [3.8.2] Old Version: [3.8.0]
+[2023-07-21 01:36:00] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/ca/89/c6795227920800583336b431d56f334ffec173f273098dfc1aaabc306d91/open-prime-rando-0.8.0.tar.gz
+[2023-07-21 01:36:00] INFO root fetch - processPackages [argify]: Downloading https://files.pythonhosted.org/packages/a2/95/d1de79ba08f898b82aa2c509748368393567a33ee1fc60403b2b72bce73f/argify-0.0.1.tar.gz
+[2023-07-21 01:36:00] INFO root fetch - processPackages [eleuther-elk]: Downloading https://files.pythonhosted.org/packages/d8/a8/48ff0208c1164705f61cecd41a0e3727e310ae81cb1bd3050eb469e9fd16/eleuther-elk-0.1.tar.gz
+[2023-07-21 01:36:01] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/4c/d6/d340ead9f438d5429a22a977b6390d5209ac9dba3615e15802f11cda6658/pypx-3.8.0.tar.gz
+[2023-07-21 01:36:01] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/05/c5a2a6b9549f84e021ca9f9663a0321c5590e11aa3033d7e9e2484d8e21e/edgeimpulse_api-1.25.32.tar.gz
+[2023-07-21 01:36:01] INFO root fetch - processPackages [argify]: Downloading https://files.pythonhosted.org/packages/60/80/e53975133b1e50f47eba17e852f8c33f41a9618279bb2978c3817b86bd49/argify-0.0.2-py3-none-any.whl
+[2023-07-21 01:36:01] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/64/be/beea015395813d331a23438897e7943331f1b12dfd3bf866fef192a50211/open-prime-rando-0.9.0.tar.gz
+[2023-07-21 01:36:01] INFO root fetch - processPackages [eleuther-elk]: Downloading https://files.pythonhosted.org/packages/68/ff/241a0ba4bd2bd8f7c18830f6105c1ce4106ecb50061970cd1be1387537bf/eleuther-elk-0.1.1.tar.gz
+[2023-07-21 01:36:01] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-07-21 01:36:01] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.25.31.tar.gz tmp/edgeimpulse_api-1.25.32.tar.gz --markdown 20230721/e/edgeimpulse-api/1.25.31-1.25.32/diff.md --exclude *.pyd
+[2023-07-21 01:36:01] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/3c/0f/5b720034cfe7f06a283ec364228424818820441848ea1cb88b9b66c57564/pypx-3.8.2.tar.gz
+[2023-07-21 01:36:01] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-07-21 01:36:01] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.8.0.tar.gz tmp/open-prime-rando-0.9.0.tar.gz --markdown 20230721/o/open-prime-rando/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 01:36:01] INFO root fetch - processPackages [argify]: executing diffoscope
+[2023-07-21 01:36:01] INFO root fetch - processPackages [argify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argify-0.0.1.tar.gz tmp/argify-0.0.2-py3-none-any.whl.zip --markdown 20230721/a/argify/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 01:36:01] INFO root fetch - processPackages [eleuther-elk]: executing diffoscope
+[2023-07-21 01:36:01] INFO root fetch - processPackages [eleuther-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eleuther-elk-0.1.tar.gz tmp/eleuther-elk-0.1.1.tar.gz --markdown 20230721/e/eleuther-elk/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 01:36:01] INFO root fetch - processPackages [pypx]: executing diffoscope
+[2023-07-21 01:36:01] INFO root fetch - processPackages [pypx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypx-3.8.0.tar.gz tmp/pypx-3.8.2.tar.gz --markdown 20230721/p/pypx/3.8.0-3.8.2/diff.md --exclude *.pyd
+[2023-07-21 01:36:02] INFO root fetch - processPackages [argify]: Remove: archive file [/home/abi/fetcher/tmp/argify-0.0.1.tar.gz]
+[2023-07-21 01:36:02] INFO root fetch - processPackages [argify]: Remove: archive file [/home/abi/fetcher/tmp/argify-0.0.2-py3-none-any.whl.zip]
+[2023-07-21 01:36:02] INFO root fetch - main [MainThread]: End processing [argify]: success
+[2023-07-21 01:36:02] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.0.tar.gz]
+[2023-07-21 01:36:02] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.2.tar.gz]
+[2023-07-21 01:36:02] INFO root fetch - main [MainThread]: End processing [pypx]: success
+[2023-07-21 01:36:02] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.8.0.tar.gz]
+[2023-07-21 01:36:02] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.9.0.tar.gz]
+[2023-07-21 01:36:02] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-07-21 01:36:02] INFO root fetch - processPackages [eleuther-elk]: Remove: archive file [/home/abi/fetcher/tmp/eleuther-elk-0.1.tar.gz]
+[2023-07-21 01:36:02] INFO root fetch - processPackages [eleuther-elk]: Remove: archive file [/home/abi/fetcher/tmp/eleuther-elk-0.1.1.tar.gz]
+[2023-07-21 01:36:02] INFO root fetch - main [MainThread]: End processing [eleuther-elk]: success
+[2023-07-21 01:36:06] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.31.tar.gz]
+[2023-07-21 01:36:06] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.32.tar.gz]
+[2023-07-21 01:36:06] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-07-21 01:36:06] INFO root fetch - main [MainThread]: Store serial: [18974333]
