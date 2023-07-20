@@ -2062,3 +2062,89 @@
 [2023-07-21 01:20:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202314-py3-none-any.whl.zip]
 [2023-07-21 01:20:26] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-21 01:20:26] INFO root fetch - main [MainThread]: Store serial: [18974250]
+[2023-07-21 01:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974250]
+[2023-07-21 01:25:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iceprod
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyagent
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bokehmol
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtlpy
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: umapi-client
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metar2bufr
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whylogs
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-Limit
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nginx-ldap-auth-service
+[2023-07-21 01:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antifragility-schema
+[2023-07-21 01:25:35] INFO root fetch - processPackages [iceprod]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [metar2bufr]: New version: [0.0.2.23] Old Version: [0.0.2.22]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [umapi-client]: New version: [3.0.1] Old Version: [3.0]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [Flask-Limit]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [bokehmol]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [antifragility-schema]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-21 01:25:35] WARNING root fetch - processPackages [pyagent]: Skipping, unable to determine old version
+[2023-07-21 01:25:35] INFO root fetch - main [MainThread]: End processing [pyagent] error
+[2023-07-21 01:25:35] INFO root fetch - processPackages [dtlpy]: New version: [1.81.4] Old Version: [1.80.7]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [whylogs]: New version: [1.2.6.dev2] Old Version: [1.2.6.dev0]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [nginx-ldap-auth-service]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-21 01:25:35] INFO root fetch - processPackages [bokehmol]: Downloading https://files.pythonhosted.org/packages/da/9d/e92fe745c3353894d808b99495c71b6aa1a7432e8c2748b92f6f32178cfb/bokehmol-0.1.0a2.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [antifragility-schema]: Downloading https://files.pythonhosted.org/packages/a6/f4/26066e56536b962c3d6106d6b3b71c5950c3b60bcc495f79c28bc45f8e27/antifragility-schema-0.0.7.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [iceprod]: Downloading https://files.pythonhosted.org/packages/1f/e8/fddce558de9fb70db08f66e8226f9bfc1e0367fa62a048181b831d321cbd/iceprod-2.7.1.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [Flask-Limit]: Downloading https://files.pythonhosted.org/packages/65/52/4e6f4f2b3a905d5660744967ec19791033654229d510aae23a73e54f04b5/Flask_Limit-2.0.1.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/08/f5/6d1858f1fbbb9da09d9795e36dd6cdf80ba142b61a1d544d58b795699ee9/dtlpy-1.80.7-py3-none-any.whl
+[2023-07-21 01:25:36] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/53/b6/c51cf00c185bf643a1c0b6409023eb52802850b59dbffecea973b4695e47/metar2bufr-0.0.2.22.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [umapi-client]: Downloading https://files.pythonhosted.org/packages/17/d3/e3d1eb009d0bcb7921fb18a2f3a786596cd9fbc617d693c0563c71088421/umapi_client-3.0.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [nginx-ldap-auth-service]: Downloading https://files.pythonhosted.org/packages/c4/0f/fc05ae7985bb0b0272941b9f466a11e1164ef3395854f19ec24be74d2cda/nginx-ldap-auth-service-2.0.4.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/a3/a3/16250dd43933609ffb0bb4da8809429c4cec76b607c55863c3565b4e92d2/whylogs-1.2.6.dev0.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [antifragility-schema]: Downloading https://files.pythonhosted.org/packages/02/91/77b30f72aa3a3c7cd7420cc3c3f62c75d8122e3feaa7984db381427071ab/antifragility-schema-0.0.8.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [antifragility-schema]: executing diffoscope
+[2023-07-21 01:25:36] INFO root fetch - processPackages [antifragility-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antifragility-schema-0.0.7.tar.gz tmp/antifragility-schema-0.0.8.tar.gz --markdown 20230721/a/antifragility-schema/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-21 01:25:36] INFO root fetch - processPackages [bokehmol]: Downloading https://files.pythonhosted.org/packages/8a/ab/32bc15e03b8d008d29f18ea7b642c1bbe366a37e58c2976efdce579914d6/bokehmol-0.1.0a3.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [Flask-Limit]: Downloading https://files.pythonhosted.org/packages/1f/b4/01203aafefed1d0ecd6648784a2244a9e61c2831333f5f7cf9a1f826b432/Flask_Limit-2.0.2.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [iceprod]: Downloading https://files.pythonhosted.org/packages/5e/83/30c42019c867ede74e21583f4f7f0219eca92b5ecb37f4f53540f7f6f01b/iceprod-2.7.2.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [nginx-ldap-auth-service]: Downloading https://files.pythonhosted.org/packages/83/ad/deb4231092dbcde98f3865e2a710459163b5c20e1139d6649a0fb38350a1/nginx-ldap-auth-service-2.0.5.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [Flask-Limit]: executing diffoscope
+[2023-07-21 01:25:36] INFO root fetch - processPackages [Flask-Limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask_Limit-2.0.1.tar.gz tmp/Flask_Limit-2.0.2.tar.gz --markdown 20230721/F/Flask-Limit/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-21 01:25:36] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/bb/ce/8bbadd4c2b9885d81f9175627aeda80d6a26bb0214bd28b308c660560092/dtlpy-1.81.4-py3-none-any.whl
+[2023-07-21 01:25:36] INFO root fetch - processPackages [umapi-client]: Downloading https://files.pythonhosted.org/packages/43/01/c951e1d2c44a5fc9ee28460476956f1e22c1cf57dc4789f97ee40f66887f/umapi_client-3.0.1.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [iceprod]: executing diffoscope
+[2023-07-21 01:25:36] INFO root fetch - processPackages [iceprod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceprod-2.7.1.tar.gz tmp/iceprod-2.7.2.tar.gz --markdown 20230721/i/iceprod/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-07-21 01:25:36] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/36/b4/13db4d28d84a372342a7019d49b259e72fea2ff27eb08fc9fcd5e8f19d68/metar2bufr-0.0.2.23.tar.gz
+[2023-07-21 01:25:36] INFO root fetch - processPackages [bokehmol]: executing diffoscope
+[2023-07-21 01:25:36] INFO root fetch - processPackages [bokehmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokehmol-0.1.0a2.tar.gz tmp/bokehmol-0.1.0a3.tar.gz --markdown 20230721/b/bokehmol/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-07-21 01:25:36] INFO root fetch - processPackages [nginx-ldap-auth-service]: executing diffoscope
+[2023-07-21 01:25:36] INFO root fetch - processPackages [nginx-ldap-auth-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-ldap-auth-service-2.0.4.tar.gz tmp/nginx-ldap-auth-service-2.0.5.tar.gz --markdown 20230721/n/nginx-ldap-auth-service/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-21 01:25:36] INFO root fetch - processPackages [dtlpy]: executing diffoscope
+[2023-07-21 01:25:36] INFO root fetch - processPackages [dtlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtlpy-1.80.7-py3-none-any.whl.zip tmp/dtlpy-1.81.4-py3-none-any.whl.zip --markdown 20230721/d/dtlpy/1.80.7-1.81.4/diff.md --exclude *.pyd
+[2023-07-21 01:25:36] INFO root fetch - processPackages [metar2bufr]: executing diffoscope
+[2023-07-21 01:25:36] INFO root fetch - processPackages [metar2bufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar2bufr-0.0.2.22.tar.gz tmp/metar2bufr-0.0.2.23.tar.gz --markdown 20230721/m/metar2bufr/0.0.2.22-0.0.2.23/diff.md --exclude *.pyd
+[2023-07-21 01:25:37] INFO root fetch - processPackages [umapi-client]: executing diffoscope
+[2023-07-21 01:25:37] INFO root fetch - processPackages [umapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umapi_client-3.0.tar.gz tmp/umapi_client-3.0.1.tar.gz --markdown 20230721/u/umapi-client/3.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-21 01:25:37] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-07-21 01:25:37] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.2.6.dev0.tar.gz tmp/whylogs-1.2.6.dev2.tar.gz --markdown 20230721/w/whylogs/1.2.6.dev0-1.2.6.dev2/diff.md --exclude *.pyd
+[2023-07-21 01:25:37] INFO root fetch - processPackages [antifragility-schema]: Remove: archive file [/home/abi/fetcher/tmp/antifragility-schema-0.0.7.tar.gz]
+[2023-07-21 01:25:37] INFO root fetch - processPackages [antifragility-schema]: Remove: archive file [/home/abi/fetcher/tmp/antifragility-schema-0.0.8.tar.gz]
+[2023-07-21 01:25:37] INFO root fetch - main [MainThread]: End processing [antifragility-schema]: success
+[2023-07-21 01:25:38] INFO root fetch - processPackages [bokehmol]: Remove: archive file [/home/abi/fetcher/tmp/bokehmol-0.1.0a2.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - processPackages [bokehmol]: Remove: archive file [/home/abi/fetcher/tmp/bokehmol-0.1.0a3.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - main [MainThread]: End processing [bokehmol]: success
+[2023-07-21 01:25:38] INFO root fetch - processPackages [Flask-Limit]: Remove: archive file [/home/abi/fetcher/tmp/Flask_Limit-2.0.1.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - processPackages [Flask-Limit]: Remove: archive file [/home/abi/fetcher/tmp/Flask_Limit-2.0.2.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - main [MainThread]: End processing [Flask-Limit]: success
+[2023-07-21 01:25:38] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.22.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.23.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - main [MainThread]: End processing [metar2bufr]: success
+[2023-07-21 01:25:38] INFO root fetch - processPackages [nginx-ldap-auth-service]: Remove: archive file [/home/abi/fetcher/tmp/nginx-ldap-auth-service-2.0.4.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - processPackages [nginx-ldap-auth-service]: Remove: archive file [/home/abi/fetcher/tmp/nginx-ldap-auth-service-2.0.5.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - main [MainThread]: End processing [nginx-ldap-auth-service]: success
+[2023-07-21 01:25:38] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.2.6.dev0.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.2.6.dev2.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-07-21 01:25:38] INFO root fetch - processPackages [umapi-client]: Remove: archive file [/home/abi/fetcher/tmp/umapi_client-3.0.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - processPackages [umapi-client]: Remove: archive file [/home/abi/fetcher/tmp/umapi_client-3.0.1.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - main [MainThread]: End processing [umapi-client]: success
+[2023-07-21 01:25:38] INFO root fetch - processPackages [iceprod]: Remove: archive file [/home/abi/fetcher/tmp/iceprod-2.7.1.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - processPackages [iceprod]: Remove: archive file [/home/abi/fetcher/tmp/iceprod-2.7.2.tar.gz]
+[2023-07-21 01:25:38] INFO root fetch - main [MainThread]: End processing [iceprod]: success
+[2023-07-21 01:25:39] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.80.7-py3-none-any.whl.zip]
+[2023-07-21 01:25:39] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.81.4-py3-none-any.whl.zip]
+[2023-07-21 01:25:39] INFO root fetch - main [MainThread]: End processing [dtlpy]: success
+[2023-07-21 01:25:39] INFO root fetch - main [MainThread]: Store serial: [18974287]
