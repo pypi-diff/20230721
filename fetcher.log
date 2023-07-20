@@ -1797,3 +1797,161 @@
 [2023-07-21 01:09:19] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
 [2023-07-21 01:09:19] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
 [2023-07-21 01:09:19] INFO root fetch - main [MainThread]: Store serial: [18974132]
+[2023-07-21 01:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974132]
+[2023-07-21 01:14:28] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipfs-stac
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aicodebot
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pollination-dragonfly-annual-energy-use
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strongmind-deployment
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfn-lint
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: banditcoot
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-code-ui
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Dragonflyz
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: liburlparser
+[2023-07-21 01:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lftools
+[2023-07-21 01:14:29] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [ipfs-stac]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [banditcoot]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [liburlparser]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [Dragonflyz]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [lftools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [cfn-lint]: New version: [1.1.0a2] Old Version: [1.1.0a1]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/1b/16/56dff599afaa6d8111b19339f9a0981a6bd2b74597ef50db0b02d7d6624b/gpt_code_ui-0.42.8.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [banditcoot]: Downloading https://files.pythonhosted.org/packages/73/b5/6af664c42a9c1f3fa610e01cf8535591409da9700942bd1b016979ea4123/banditcoot-0.1.7.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: Downloading https://files.pythonhosted.org/packages/ad/39/dc321d4b69df74445ed847a6b3028e0b330a7fe3bc64183bce1752b05175/pollination-dragonfly-annual-energy-use-0.3.3.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/99/7b/9bc5de4fee3d2727d2c9d47326f3654ec80148e690ab1ac77939b5b1b3ad/liburlparser-0.3.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 01:14:29] ERROR root fetch - processPackages [Dragonflyz]: Unable to fetch info: No such project/version 'Dragonflyz' 2.0.1
+[2023-07-21 01:14:29] INFO root fetch - processPackages [Dragonflyz]: Start processing: talc
+[2023-07-21 01:14:29] INFO root fetch - main [MainThread]: End processing [Dragonflyz] error
+[2023-07-21 01:14:29] INFO root fetch - processPackages [ipfs-stac]: Downloading https://files.pythonhosted.org/packages/ad/e1/9ae820baa39e5138fcb352e42270a6d85bd0e841ba140b8caba19d6d39fd/ipfs_stac-0.1.4-py3-none-any.whl
+[2023-07-21 01:14:29] INFO root fetch - processPackages [talc]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-21 01:14:29] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/cc/82/8e5878f2dc160f465b60eda352d6e25e359d812a7577801c851448963c7c/cfn-lint-1.1.0a1.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/44/37/1fa9e511059e9286981228d061a848835373aa0d2564f1817d7e1cb50c09/strongmind_deployment-1.0.8-py3-none-any.whl
+[2023-07-21 01:14:29] INFO root fetch - processPackages [lftools]: Downloading https://files.pythonhosted.org/packages/2e/5c/00600514e263231e6642b26faf2b67cb60fdc77e76767c68368f2bc06f9f/lftools-0.9.0.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [talc]: Downloading https://files.pythonhosted.org/packages/a9/1b/19a64b09ef8195315b78e990e4a41fbe74850b14b5522115179621d2cbf8/talc-0.0.3.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [banditcoot]: Downloading https://files.pythonhosted.org/packages/69/a6/5480de9e7332f28ce38b2c353331e212374829e2a8d13b4de233f36ca294/banditcoot-0.1.8.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/15/cb/776d616d575589143b3d91acbd1d7e649055f85a8e1cd2c321c0514c1cfa/gpt_code_ui-0.42.9.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-21 01:14:29] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: Downloading https://files.pythonhosted.org/packages/cc/24/e0de8cf370c61b49575c77e477357cc56f748315d69cc8cba70425a26dd5/pollination-dragonfly-annual-energy-use-0.3.4.tar.gz
+[2023-07-21 01:14:30] INFO root fetch - processPackages [ipfs-stac]: Downloading https://files.pythonhosted.org/packages/16/e6/197f3e13d66043aa935ba74ca2cb8d04bfc2bbaeeb62084766a14faa13c8/ipfs_stac-0.1.5.tar.gz
+[2023-07-21 01:14:30] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/6a/1b/90068fc2357bb338535372b0a54aaf7542de3c94754f32c7d29dfd0aa361/strongmind_deployment-1.0.9-py3-none-any.whl
+[2023-07-21 01:14:30] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/dc/82/8202c280bd1387b4971e7c3cc0bbf6cc1c0ac8861ce39e190c6fae5a0b41/liburlparser-1.0.0.tar.gz
+[2023-07-21 01:14:30] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-dragonfly-annual-energy-use-0.3.3.tar.gz tmp/pollination-dragonfly-annual-energy-use-0.3.4.tar.gz --markdown 20230721/p/pollination-dragonfly-annual-energy-use/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [lftools]: Downloading https://files.pythonhosted.org/packages/f1/36/316e07418f07156a3129aac70ad38bbe19aaeed4d334b15e771f53055a04/lftools-0.9.1.tar.gz
+[2023-07-21 01:14:30] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230721/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [talc]: Downloading https://files.pythonhosted.org/packages/2c/33/3aaaacfe48ed9b5c3b2acb4089d3239349be4d57b79b04aaa6d0325d3fa3/talc-0.0.5.tar.gz
+[2023-07-21 01:14:30] INFO root fetch - processPackages [banditcoot]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [banditcoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banditcoot-0.1.7.tar.gz tmp/banditcoot-0.1.8.tar.gz --markdown 20230721/b/banditcoot/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [ipfs-stac]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [ipfs-stac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_stac-0.1.4-py3-none-any.whl.zip tmp/ipfs_stac-0.1.5.tar.gz --markdown 20230721/i/ipfs-stac/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip --markdown 20230721/s/strongmind-deployment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [liburlparser]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [liburlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liburlparser-0.3.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/liburlparser-1.0.0.tar.gz --markdown 20230721/l/liburlparser/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230721/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [lftools]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [lftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lftools-0.9.0.tar.gz tmp/lftools-0.9.1.tar.gz --markdown 20230721/l/lftools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 01:14:30] INFO root fetch - processPackages [talc]: executing diffoscope
+[2023-07-21 01:14:30] INFO root fetch - processPackages [talc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talc-0.0.3.tar.gz tmp/talc-0.0.5.tar.gz --markdown 20230721/t/talc/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-21 01:14:31] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/01/de/82027adbd7bec202bd23d6b0fe4e642bf49f92ba58608839a6c3777da111/cfn-lint-1.1.0a2.tar.gz
+[2023-07-21 01:14:31] INFO root fetch - processPackages [cfn-lint]: executing diffoscope
+[2023-07-21 01:14:31] INFO root fetch - processPackages [cfn-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-lint-1.1.0a1.tar.gz tmp/cfn-lint-1.1.0a2.tar.gz --markdown 20230721/c/cfn-lint/1.1.0a1-1.1.0a2/diff.md --exclude *.pyd
+[2023-07-21 01:14:31] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: Remove: archive file [/home/abi/fetcher/tmp/pollination-dragonfly-annual-energy-use-0.3.3.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: Remove: archive file [/home/abi/fetcher/tmp/pollination-dragonfly-annual-energy-use-0.3.4.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [pollination-dragonfly-annual-energy-use]: Start processing: bokehmol
+[2023-07-21 01:14:31] INFO root fetch - main [MainThread]: End processing [pollination-dragonfly-annual-energy-use]: success
+[2023-07-21 01:14:31] INFO root fetch - processPackages [bokehmol]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-0.3.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.0.0.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [liburlparser]: Start processing: vmngclient
+[2023-07-21 01:14:31] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
+[2023-07-21 01:14:31] INFO root fetch - processPackages [banditcoot]: Remove: archive file [/home/abi/fetcher/tmp/banditcoot-0.1.7.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [banditcoot]: Remove: archive file [/home/abi/fetcher/tmp/banditcoot-0.1.8.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [banditcoot]: Start processing: Dragonflyz
+[2023-07-21 01:14:31] INFO root fetch - main [MainThread]: End processing [banditcoot]: success
+[2023-07-21 01:14:31] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [ipfs-stac]: Remove: archive file [/home/abi/fetcher/tmp/ipfs_stac-0.1.4-py3-none-any.whl.zip]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [ipfs-stac]: Remove: archive file [/home/abi/fetcher/tmp/ipfs_stac-0.1.5.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [ipfs-stac]: Start processing: crowdstrike-falconpy-dev
+[2023-07-21 01:14:31] INFO root fetch - main [MainThread]: End processing [ipfs-stac]: success
+[2023-07-21 01:14:31] INFO root fetch - processPackages [Dragonflyz]: New version: [2.0.3] Old Version: [2.0.0]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: New version: [1.3.0.dev7] Old Version: [1.3.0.dev6]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [talc]: Remove: archive file [/home/abi/fetcher/tmp/talc-0.0.3.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [talc]: Remove: archive file [/home/abi/fetcher/tmp/talc-0.0.5.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [talc]: Start processing: Dragonflyz
+[2023-07-21 01:14:31] INFO root fetch - main [MainThread]: End processing [talc]: success
+[2023-07-21 01:14:31] INFO root fetch - processPackages [bokehmol]: Downloading https://files.pythonhosted.org/packages/93/0f/6cca29a9534fb9a5ddb059b24ab2ddd05d4323d18318dbbd288bb0128d15/bokehmol-0.1.0a1.tar.gz
+[2023-07-21 01:14:31] INFO root fetch - processPackages [Dragonflyz]: New version: [2.0.3] Old Version: [2.0.0]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.8.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.9.tar.gz]
+[2023-07-21 01:14:31] INFO root fetch - processPackages [gpt-code-ui]: Start processing: crowdstrike-falconpy
+[2023-07-21 01:14:31] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-07-21 01:14:32] INFO root fetch - processPackages [lftools]: Remove: archive file [/home/abi/fetcher/tmp/lftools-0.9.0.tar.gz]
+[2023-07-21 01:14:32] INFO root fetch - processPackages [lftools]: Remove: archive file [/home/abi/fetcher/tmp/lftools-0.9.1.tar.gz]
+[2023-07-21 01:14:32] INFO root fetch - processPackages [lftools]: Start processing: kcli
+[2023-07-21 01:14:32] INFO root fetch - main [MainThread]: End processing [lftools]: success
+[2023-07-21 01:14:32] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/16/cf/796cdd5acea067c083c005dc1c73beadef4898b8cc0b719eee71099c66aa/vmngclient-0.9.3.tar.gz
+[2023-07-21 01:14:32] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-21 01:14:32] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-21 01:14:32] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: Downloading https://files.pythonhosted.org/packages/e5/0c/0f446793a060f4f6583ee97fdea55c50eea97204a881a3e8ad92ede0ef5e/Dragonflyz-2.0.0-py3-none-any.whl
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: Downloading https://files.pythonhosted.org/packages/e5/0c/0f446793a060f4f6583ee97fdea55c50eea97204a881a3e8ad92ede0ef5e/Dragonflyz-2.0.0-py3-none-any.whl
+[2023-07-21 01:14:32] INFO root fetch - processPackages [kcli]: New version: [99.0.202307202244] Old Version: [99.0.202307202227]
+[2023-07-21 01:14:32] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.3.0.dev7] Old Version: [1.3.0.dev6]
+[2023-07-21 01:14:32] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip]
+[2023-07-21 01:14:32] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip]
+[2023-07-21 01:14:32] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-07-21 01:14:32] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/db/fb/bad0d9e4ac087215a4b790b28d28ec5451031392538195d5e0b4f7a98fe8/crowdstrike-falconpy-dev-1.3.0.dev6.tar.gz
+[2023-07-21 01:14:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a6/0e/b6abfdb34d07bba45d865713e5ffb475de10afbadbe09437061286a8b5f9/kcli-99.0.202307202227-py3-none-any.whl
+[2023-07-21 01:14:32] INFO root fetch - processPackages [bokehmol]: Downloading https://files.pythonhosted.org/packages/da/9d/e92fe745c3353894d808b99495c71b6aa1a7432e8c2748b92f6f32178cfb/bokehmol-0.1.0a2.tar.gz
+[2023-07-21 01:14:32] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/7e/32/816cc23497068b32c56ebc929ce06c06dd37bd1d859927d484dc25c4e54b/crowdstrike-falconpy-1.3.0.dev6.tar.gz
+[2023-07-21 01:14:32] INFO root fetch - processPackages [bokehmol]: executing diffoscope
+[2023-07-21 01:14:32] INFO root fetch - processPackages [bokehmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokehmol-0.1.0a1.tar.gz tmp/bokehmol-0.1.0a2.tar.gz --markdown 20230721/b/bokehmol/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-21 01:14:32] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/60/1e/8fa022286e95c6d7b916fc4fa00fcef64cbcdf053911a9e7189fff6403b8/vmngclient-0.9.4.tar.gz
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: Downloading https://files.pythonhosted.org/packages/93/8f/fb23db75ec360084b3ecc4310faaea78bad97779814bcec0bce1675869f8/Dragonflyz-2.0.3-py3-none-any.whl
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: Downloading https://files.pythonhosted.org/packages/93/8f/fb23db75ec360084b3ecc4310faaea78bad97779814bcec0bce1675869f8/Dragonflyz-2.0.3-py3-none-any.whl
+[2023-07-21 01:14:32] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/eb/34/0b9f757350e3991d076f04485f70481c1fc393938ae893dcc9dd452f1976/crowdstrike-falconpy-dev-1.3.0.dev7.tar.gz
+[2023-07-21 01:14:32] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-07-21 01:14:32] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230721/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-21 01:14:32] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: executing diffoscope
+[2023-07-21 01:14:32] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-dev-1.3.0.dev6.tar.gz tmp/crowdstrike-falconpy-dev-1.3.0.dev7.tar.gz --markdown 20230721/c/crowdstrike-falconpy-dev/1.3.0.dev6-1.3.0.dev7/diff.md --exclude *.pyd
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: executing diffoscope
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: executing diffoscope
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dragonflyz-2.0.0-py3-none-any.whl.zip tmp/Dragonflyz-2.0.3-py3-none-any.whl.zip --markdown 20230721/D/Dragonflyz/2.0.0-2.0.3/diff.md --exclude *.pyd
+[2023-07-21 01:14:32] INFO root fetch - processPackages [Dragonflyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dragonflyz-2.0.0-py3-none-any.whl.zip tmp/Dragonflyz-2.0.3-py3-none-any.whl.zip --markdown 20230721/D/Dragonflyz/2.0.0-2.0.3/diff.md --exclude *.pyd
+[2023-07-21 01:14:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b3/99/46ed01ed22634abc2133b29f311549b37633696e817721df3a7a8bbca629/kcli-99.0.202307202244-py3-none-any.whl
+[2023-07-21 01:14:32] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/c2/32/d3b38ef862af0334170b8af99ac792248967271a51e719d0fa2aa825f11f/crowdstrike-falconpy-1.3.0.dev7.tar.gz
+[2023-07-21 01:14:33] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-07-21 01:14:33] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.3.0.dev6.tar.gz tmp/crowdstrike-falconpy-1.3.0.dev7.tar.gz --markdown 20230721/c/crowdstrike-falconpy/1.3.0.dev6-1.3.0.dev7/diff.md --exclude *.pyd
+[2023-07-21 01:14:33] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 01:14:33] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307202227-py3-none-any.whl.zip tmp/kcli-99.0.202307202244-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307202227-99.0.202307202244/diff.md --exclude *.pyd
+[2023-07-21 01:14:33] INFO root fetch - processPackages [bokehmol]: Remove: archive file [/home/abi/fetcher/tmp/bokehmol-0.1.0a1.tar.gz]
+[2023-07-21 01:14:33] INFO root fetch - processPackages [bokehmol]: Remove: archive file [/home/abi/fetcher/tmp/bokehmol-0.1.0a2.tar.gz]
+[2023-07-21 01:14:33] INFO root fetch - main [MainThread]: End processing [bokehmol]: success
+[2023-07-21 01:14:34] INFO root fetch - processPackages [Dragonflyz]: Remove: archive file [/home/abi/fetcher/tmp/Dragonflyz-2.0.0-py3-none-any.whl.zip]
+[2023-07-21 01:14:34] INFO root fetch - processPackages [Dragonflyz]: Remove: archive file [/home/abi/fetcher/tmp/Dragonflyz-2.0.3-py3-none-any.whl.zip]
+[2023-07-21 01:14:34] INFO root fetch - main [MainThread]: End processing [Dragonflyz]: success
+[2023-07-21 01:14:34] INFO root fetch - main [MainThread]: End processing [Dragonflyz]: success
+[2023-07-21 01:14:34] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.3.tar.gz]
+[2023-07-21 01:14:34] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.4.tar.gz]
+[2023-07-21 01:14:34] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-07-21 01:14:35] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.3.0.dev6.tar.gz]
+[2023-07-21 01:14:35] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.3.0.dev7.tar.gz]
+[2023-07-21 01:14:35] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy-dev]: success
+[2023-07-21 01:14:35] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev6.tar.gz]
+[2023-07-21 01:14:35] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev7.tar.gz]
+[2023-07-21 01:14:35] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-07-21 01:14:36] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202227-py3-none-any.whl.zip]
+[2023-07-21 01:14:36] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202244-py3-none-any.whl.zip]
+[2023-07-21 01:14:36] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 01:15:12] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.1.0a1.tar.gz]
+[2023-07-21 01:15:12] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.1.0a2.tar.gz]
+[2023-07-21 01:15:12] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
+[2023-07-21 01:15:12] INFO root fetch - main [MainThread]: Store serial: [18974206]
