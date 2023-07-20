@@ -1955,3 +1955,110 @@
 [2023-07-21 01:15:12] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.1.0a2.tar.gz]
 [2023-07-21 01:15:12] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-07-21 01:15:12] INFO root fetch - main [MainThread]: Store serial: [18974206]
+[2023-07-21 01:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974206]
+[2023-07-21 01:20:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trame
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipfs-stac
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adsbcot
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DeeptransTool
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-code-ui
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Dragonflyz
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bojaxns
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-license-toolkit
+[2023-07-21 01:20:21] WARNING root fetch - processPackages [bojaxns]: Skipping, unable to determine old version
+[2023-07-21 01:20:21] INFO root fetch - processPackages [bojaxns]: Start processing: ignition-gemini
+[2023-07-21 01:20:21] INFO root fetch - main [MainThread]: End processing [bojaxns] error
+[2023-07-21 01:20:21] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [adsbcot]: New version: [6.2.0b2] Old Version: [6.1.1]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ipfs-stac]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [DeeptransTool]: New version: [1.4] Old Version: [1.3]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ros-license-toolkit]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [Dragonflyz]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [kfish]: New version: [99.0.202307202317] Old Version: [99.0.202307202248]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [trame]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ignition-gemini]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [kcli]: New version: [99.0.202307202314] Old Version: [99.0.202307202244]
+[2023-07-21 01:20:21] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/1b/16/56dff599afaa6d8111b19339f9a0981a6bd2b74597ef50db0b02d7d6624b/gpt_code_ui-0.42.8.tar.gz
+[2023-07-21 01:20:21] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/da/2d/c0151f2a7cd6abade111dfeaf292565489c559b4b16f2895006a2601a982/adsbcot-6.1.1.tar.gz
+[2023-07-21 01:20:21] INFO root fetch - processPackages [ipfs-stac]: Downloading https://files.pythonhosted.org/packages/16/e6/197f3e13d66043aa935ba74ca2cb8d04bfc2bbaeeb62084766a14faa13c8/ipfs_stac-0.1.5.tar.gz
+[2023-07-21 01:20:21] ERROR root fetch - processPackages [Dragonflyz]: Unable to fetch info: No such project/version 'Dragonflyz' 2.0.3
+[2023-07-21 01:20:21] INFO root fetch - processPackages [Dragonflyz]: Start processing: ros-license-toolkit
+[2023-07-21 01:20:21] INFO root fetch - main [MainThread]: End processing [Dragonflyz] error
+[2023-07-21 01:20:21] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/fc/0d/7f4a039a1d02a4e48fa59829a066d211276e1592484ef4914cfd13c482ec/kfish-99.0.202307202248-py3-none-any.whl
+[2023-07-21 01:20:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b3/99/46ed01ed22634abc2133b29f311549b37633696e817721df3a7a8bbca629/kcli-99.0.202307202244-py3-none-any.whl
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-21 01:20:22] INFO root fetch - processPackages [DeeptransTool]: Downloading https://files.pythonhosted.org/packages/82/81/2b1e824b97ec4fccb9c06547bf9c4e694871e9b9ffe4179a7f4e0ac23d73/DeeptransTool-1.3.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/6a/b4/f599c9c91d674f1cd0004c193acc53d7f790f8d134fecef6a2927d210045/trame-3.0.0.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: Downloading https://files.pythonhosted.org/packages/24/54/e2da3ee78f78e5bc7bb79a2dafc363d11333b7716e46bbb36f25c5af9687/ros_license_toolkit-1.1.4.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ignition-gemini]: Downloading https://files.pythonhosted.org/packages/94/91/3e7df91da41d922bbbf07545818ea7d297284cc178def202bf4ea2034d87/ignition-gemini-0.1.8.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: Downloading https://files.pythonhosted.org/packages/24/54/e2da3ee78f78e5bc7bb79a2dafc363d11333b7716e46bbb36f25c5af9687/ros_license_toolkit-1.1.4.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/15/cb/776d616d575589143b3d91acbd1d7e649055f85a8e1cd2c321c0514c1cfa/gpt_code_ui-0.42.9.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/4b/cc/c756eadcdc180fe0bcc028a42850da53dd6e7622407823a6a9b98f23ab73/adsbcot-6.2.0b2.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ipfs-stac]: Downloading https://files.pythonhosted.org/packages/7d/51/eb1606d8bdc3cd1059d58d7cbc09dcced5801935a888d32e9c15e476b4fb/ipfs_stac-0.1.6.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/78/171b9d831b1fba5b37e855c9b75e785fabab27ccb0e9f34d3bfc1c8f9d05/kfish-99.0.202307202317-py3-none-any.whl
+[2023-07-21 01:20:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/62/28/2af1b515a38c1841a0acbd24d6b75f8ac093b6cd42f7b3b7d826f01cec98/kcli-99.0.202307202314-py3-none-any.whl
+[2023-07-21 01:20:22] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230721/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/e6/de/e9bfa9212ed10d75a7840b44654dd4a56a4d7135e6d25006e7440098b6d8/trame-3.0.1.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ipfs-stac]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ipfs-stac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_stac-0.1.5.tar.gz tmp/ipfs_stac-0.1.6.tar.gz --markdown 20230721/i/ipfs-stac/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307202248-py3-none-any.whl.zip tmp/kfish-99.0.202307202317-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307202248-99.0.202307202317/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: Downloading https://files.pythonhosted.org/packages/5e/ab/8b866b4c2046fda5f2f2cbff38c36dca6fb12bae0e763574782770e77e12/ros_license_toolkit-1.1.5.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: Downloading https://files.pythonhosted.org/packages/5e/ab/8b866b4c2046fda5f2f2cbff38c36dca6fb12bae0e763574782770e77e12/ros_license_toolkit-1.1.5.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [DeeptransTool]: Downloading https://files.pythonhosted.org/packages/ab/df/bd0b87a5455d6578823dae7f458ed5b6e52e2940dcb31f7f6ac2042a3be4/DeeptransTool-1.4.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [adsbcot]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [adsbcot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsbcot-6.1.1.tar.gz tmp/adsbcot-6.2.0b2.tar.gz --markdown 20230721/a/adsbcot/6.1.1-6.2.0b2/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ignition-gemini]: Downloading https://files.pythonhosted.org/packages/91/12/8ae1335f9432c1358c4e98094f9635e612309d7a0637815748436be9574e/ignition_gemini-0.2.0.tar.gz
+[2023-07-21 01:20:22] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307202244-py3-none-any.whl.zip tmp/kcli-99.0.202307202314-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307202244-99.0.202307202314/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [trame]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [trame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-3.0.0.tar.gz tmp/trame-3.0.1.tar.gz --markdown 20230721/t/trame/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros_license_toolkit-1.1.4.tar.gz tmp/ros_license_toolkit-1.1.5.tar.gz --markdown 20230721/r/ros-license-toolkit/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ros-license-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros_license_toolkit-1.1.4.tar.gz tmp/ros_license_toolkit-1.1.5.tar.gz --markdown 20230721/r/ros-license-toolkit/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [DeeptransTool]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [DeeptransTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeeptransTool-1.3.tar.gz tmp/DeeptransTool-1.4.tar.gz --markdown 20230721/D/DeeptransTool/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ignition-gemini]: executing diffoscope
+[2023-07-21 01:20:22] INFO root fetch - processPackages [ignition-gemini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition-gemini-0.1.8.tar.gz tmp/ignition_gemini-0.2.0.tar.gz --markdown 20230721/i/ignition-gemini/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-21 01:20:24] INFO root fetch - processPackages [ipfs-stac]: Remove: archive file [/home/abi/fetcher/tmp/ipfs_stac-0.1.5.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [ipfs-stac]: Remove: archive file [/home/abi/fetcher/tmp/ipfs_stac-0.1.6.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [ipfs-stac]: Start processing: discovery-core
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [ipfs-stac]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [discovery-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.1.1.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.2.0b2.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [adsbcot]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202248-py3-none-any.whl.zip]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202317-py3-none-any.whl.zip]
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [DeeptransTool]: Remove: archive file [/home/abi/fetcher/tmp/DeeptransTool-1.3.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [DeeptransTool]: Remove: archive file [/home/abi/fetcher/tmp/DeeptransTool-1.4.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [DeeptransTool]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.8.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.9.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/bd/81/c706d7a2a4cbf76d5f418906b3709c7a1739a66b636f07a7444790e474ed/discovery-core-0.2.8.tar.gz
+[2023-07-21 01:20:24] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.0.0.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.0.1.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [trame]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [ros-license-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ros_license_toolkit-1.1.4.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [ros-license-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ros_license_toolkit-1.1.5.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [ros-license-toolkit]: success
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [ros-license-toolkit]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [ignition-gemini]: Remove: archive file [/home/abi/fetcher/tmp/ignition-gemini-0.1.8.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - processPackages [ignition-gemini]: Remove: archive file [/home/abi/fetcher/tmp/ignition_gemini-0.2.0.tar.gz]
+[2023-07-21 01:20:24] INFO root fetch - main [MainThread]: End processing [ignition-gemini]: success
+[2023-07-21 01:20:24] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/45/88/f4d669c0a62d57bcc0678a9c41c8db1adfbb026cdc2047e64e45c7134fdf/discovery-core-0.2.9.tar.gz
+[2023-07-21 01:20:25] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-21 01:20:25] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.8.tar.gz tmp/discovery-core-0.2.9.tar.gz --markdown 20230721/d/discovery-core/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 01:20:25] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.8.tar.gz]
+[2023-07-21 01:20:25] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.9.tar.gz]
+[2023-07-21 01:20:25] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-21 01:20:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202244-py3-none-any.whl.zip]
+[2023-07-21 01:20:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202314-py3-none-any.whl.zip]
+[2023-07-21 01:20:26] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 01:20:26] INFO root fetch - main [MainThread]: Store serial: [18974250]
