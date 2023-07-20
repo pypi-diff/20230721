@@ -2148,3 +2148,75 @@
 [2023-07-21 01:25:39] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.81.4-py3-none-any.whl.zip]
 [2023-07-21 01:25:39] INFO root fetch - main [MainThread]: End processing [dtlpy]: success
 [2023-07-21 01:25:39] INFO root fetch - main [MainThread]: Store serial: [18974287]
+[2023-07-21 01:30:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974287]
+[2023-07-21 01:30:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymoises
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secrets-vault
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-basin3d
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tortoise-api
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isogrids
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-circular-progress
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fondat
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gigagan-pytorch
+[2023-07-21 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rubiran
+[2023-07-21 01:30:49] WARNING root fetch - processPackages [pymoises]: Skipping, unable to determine old version
+[2023-07-21 01:30:49] INFO root fetch - main [MainThread]: End processing [pymoises] error
+[2023-07-21 01:30:49] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-21 01:30:49] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 01:30:49] INFO root fetch - processPackages [rubiran]: New version: [2.1.0] Old Version: [2.0.7]
+[2023-07-21 01:30:49] INFO root fetch - processPackages [django-basin3d]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 01:30:49] WARNING root fetch - processPackages [st-circular-progress]: Skipping, unable to determine old version
+[2023-07-21 01:30:49] INFO root fetch - processPackages [isogrids]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-21 01:30:49] INFO root fetch - processPackages [tortoise-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 01:30:49] INFO root fetch - main [MainThread]: End processing [st-circular-progress] error
+[2023-07-21 01:30:49] INFO root fetch - processPackages [fondat]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-21 01:30:49] INFO root fetch - processPackages [isogrids]: Downloading https://files.pythonhosted.org/packages/12/74/3152059f771768a595ab37c07a26fc356fb8c547753d53a682a75778ab31/isogrids-0.0.2.tar.gz
+[2023-07-21 01:30:49] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/fb/7c/8fa7a1097c25a8435a704028779ec9d069d9c621f31e139d60c442e5cbbf/secrets-vault-0.1.7.tar.gz
+[2023-07-21 01:30:49] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/e0/b2934610f827a6e16444d91655fb41306e808620e7da2b2472801cfe1cfc/gigagan-pytorch-0.1.8.tar.gz
+[2023-07-21 01:30:49] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/66/2a/caed2bff038edcaa5f1de52c39f707251e6e591853334338b2f1ae669ffb/tortoise-api-0.1.0.tar.gz
+[2023-07-21 01:30:49] INFO root fetch - processPackages [rubiran]: Downloading https://files.pythonhosted.org/packages/09/85/49c78d8fb11eb257cb0bdb5551ba90478a617bc6a7b5369664bc13d6066d/rubiran-2.0.7.tar.gz
+[2023-07-21 01:30:49] INFO root fetch - processPackages [django-basin3d]: Downloading https://files.pythonhosted.org/packages/88/0b/9945a39348cce911985fe944f5ff544278b4012463e99087c4e4d624b921/django-basin3d-1.0.1.tar.gz
+[2023-07-21 01:30:49] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/d9/d9/1c7369f929cd457b6d1bbfb270bb1778b772f9034803f63dd034ca47323b/fondat-4.1.8.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/be/b0/4d464405e8b805823829907ca5b9cc50aac0dca80644c3147d4146d45ecb/gigagan-pytorch-0.1.9.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [isogrids]: Downloading https://files.pythonhosted.org/packages/38/3a/64a52ed75692e50b9d31e054b407aeee99f0fb4afeb3f3969f3a9c5546f3/isogrids-0.0.3.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/1b/07/005c94bfdfabc48bbaaa2801c7f25dc77cdf45647db42c4b6d7d0560fdbf/tortoise-api-0.1.1.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/44/aa/4a5d2ca64a6d79c980853ede4e669938583170de17f4c192bcf92500ff1f/secrets-vault-0.1.8.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [rubiran]: Downloading https://files.pythonhosted.org/packages/e1/b6/ff5083c78653dd18464ad216a8ed0494e1fcc097e8e5331286e9b9d7d82d/rubiran-2.1.0.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [isogrids]: executing diffoscope
+[2023-07-21 01:30:50] INFO root fetch - processPackages [isogrids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isogrids-0.0.2.tar.gz tmp/isogrids-0.0.3.tar.gz --markdown 20230721/i/isogrids/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 01:30:50] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-21 01:30:50] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.8.tar.gz tmp/gigagan-pytorch-0.1.9.tar.gz --markdown 20230721/g/gigagan-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 01:30:50] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-21 01:30:50] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.1.0.tar.gz tmp/tortoise-api-0.1.1.tar.gz --markdown 20230721/t/tortoise-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 01:30:50] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-21 01:30:50] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.7.tar.gz tmp/secrets-vault-0.1.8.tar.gz --markdown 20230721/s/secrets-vault/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-21 01:30:50] INFO root fetch - processPackages [rubiran]: executing diffoscope
+[2023-07-21 01:30:50] INFO root fetch - processPackages [rubiran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubiran-2.0.7.tar.gz tmp/rubiran-2.1.0.tar.gz --markdown 20230721/r/rubiran/2.0.7-2.1.0/diff.md --exclude *.pyd
+[2023-07-21 01:30:50] INFO root fetch - processPackages [django-basin3d]: Downloading https://files.pythonhosted.org/packages/31/c3/066a481d34a9d30f5d64277490815fb18fad2b7edaf74ba663898e1d51e0/django-basin3d-1.0.2.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/8b/cd/e85fe0854a6dfc1ca8c3c483e420d7c69033ea4a6ede4caa5131bd5463da/fondat-4.1.9.tar.gz
+[2023-07-21 01:30:50] INFO root fetch - processPackages [django-basin3d]: executing diffoscope
+[2023-07-21 01:30:50] INFO root fetch - processPackages [django-basin3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-basin3d-1.0.1.tar.gz tmp/django-basin3d-1.0.2.tar.gz --markdown 20230721/d/django-basin3d/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 01:30:50] INFO root fetch - processPackages [fondat]: executing diffoscope
+[2023-07-21 01:30:50] INFO root fetch - processPackages [fondat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondat-4.1.8.tar.gz tmp/fondat-4.1.9.tar.gz --markdown 20230721/f/fondat/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-21 01:30:51] INFO root fetch - processPackages [rubiran]: Remove: archive file [/home/abi/fetcher/tmp/rubiran-2.0.7.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - processPackages [rubiran]: Remove: archive file [/home/abi/fetcher/tmp/rubiran-2.1.0.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [rubiran]: success
+[2023-07-21 01:30:51] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.1.0.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.1.1.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-21 01:30:51] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.8.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.9.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-21 01:30:51] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.7.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.8.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-21 01:30:51] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.8.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.9.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [fondat]: success
+[2023-07-21 01:30:51] INFO root fetch - processPackages [django-basin3d]: Remove: archive file [/home/abi/fetcher/tmp/django-basin3d-1.0.1.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - processPackages [django-basin3d]: Remove: archive file [/home/abi/fetcher/tmp/django-basin3d-1.0.2.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [django-basin3d]: success
+[2023-07-21 01:30:51] INFO root fetch - processPackages [isogrids]: Remove: archive file [/home/abi/fetcher/tmp/isogrids-0.0.2.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - processPackages [isogrids]: Remove: archive file [/home/abi/fetcher/tmp/isogrids-0.0.3.tar.gz]
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: End processing [isogrids]: success
+[2023-07-21 01:30:51] INFO root fetch - main [MainThread]: Store serial: [18974317]
