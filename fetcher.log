@@ -1341,3 +1341,136 @@
 [2023-07-21 00:47:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202244-py3-none-any.whl.zip]
 [2023-07-21 00:47:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-21 00:47:25] INFO root fetch - main [MainThread]: Store serial: [18973962]
+[2023-07-21 00:52:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18973962]
+[2023-07-21 00:52:35] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamorph-airflow
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: general-superstaq
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qiskit-superstaq
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-superstaq
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Supermarq
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klip-nav
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aind-data-transfer
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grafana-wtf
+[2023-07-21 00:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openllm
+[2023-07-21 00:52:35] INFO root fetch - processPackages [kfish]: New version: [99.0.202307202248] Old Version: [99.0.202307202230]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [general-superstaq]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [Supermarq]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [grafana-wtf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-21 00:52:35] WARNING root fetch - processPackages [klip-nav]: Skipping, unable to determine old version
+[2023-07-21 00:52:35] INFO root fetch - processPackages [klip-nav]: Start processing: now-lms
+[2023-07-21 00:52:35] INFO root fetch - main [MainThread]: End processing [klip-nav] error
+[2023-07-21 00:52:35] INFO root fetch - processPackages [openllm]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [aind-data-transfer]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [now-lms]: New version: [0.0.1a9.post20230720] Old Version: [0.0.1a8.post20230707]
+[2023-07-21 00:52:35] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/e4/d0c6d25b5c3e0dc0afe044ad144c9ea2a0fded81ed4f1f5d05681f3419e5/kfish-99.0.202307202230-py3-none-any.whl
+[2023-07-21 00:52:35] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/ac/bd/7296f25c499ce7defe383c52562a013c8556e18e37e351346fada95d87c9/openllm-0.2.0.tar.gz
+[2023-07-21 00:52:36] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/e9/91/c2052bc272be4435d34348eac195cce0207c6c0f904f2bce2fd1ac9fad8d/general_superstaq-0.4.5-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/72/ee/30ac24e841194a1898f81fedf65213b45d7faa4d4d4e93476579eb54733c/cirq_superstaq-0.4.5-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/dc/80/eafa6e2bda1ceed21284ee36f4dfd373ad208d30a559836f759550cff03d/qiskit_superstaq-0.4.5-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/9a/09/b0373573b028c7433af76f174fd2f6e85bf40a3bf792343469f4fb52b9f1/Supermarq-0.4.5-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-07-21 00:52:36] INFO root fetch - processPackages [now-lms]: Downloading https://files.pythonhosted.org/packages/74/b4/83ce778a2eb8eb790b693a0192f9982bb3337f4657a18e682da142948f43/now_lms-0.0.1a8.post20230707.tar.gz
+[2023-07-21 00:52:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/fc/0d/7f4a039a1d02a4e48fa59829a066d211276e1592484ef4914cfd13c482ec/kfish-99.0.202307202248-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [grafana-wtf]: Downloading https://files.pythonhosted.org/packages/03/46/3c2947587455a09e6fc9e6a00491c38dc3d038127d142314029a921d4c82/grafana-wtf-0.8.1.tar.gz
+[2023-07-21 00:52:36] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/66/c7/ca02e5b23387d13adbac67b975a9e3950b8abd6547c09e2607e874a899df/openllm-0.2.1.tar.gz
+[2023-07-21 00:52:36] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307202230-py3-none-any.whl.zip tmp/kfish-99.0.202307202248-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307202230-99.0.202307202248/diff.md --exclude *.pyd
+[2023-07-21 00:52:36] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-07-21 00:52:36] INFO root fetch - processPackages [aind-data-transfer]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [aind-data-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-transfer-0.9.2.tar.gz tmp/aind-data-transfer-0.9.3.tar.gz --markdown 20230721/a/aind-data-transfer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-21 00:52:36] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/dc/af/dcfc7e276c219968c31cba644567e71b91b5369012dc7d6d2d60da698732/general_superstaq-0.4.6-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230721/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 00:52:36] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.0.tar.gz tmp/openllm-0.2.1.tar.gz --markdown 20230721/o/openllm/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-21 00:52:36] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.4.5-py3-none-any.whl.zip tmp/general_superstaq-0.4.6-py3-none-any.whl.zip --markdown 20230721/g/general-superstaq/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-21 00:52:36] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/e5/e2/a46e7cb632b23af76767750b9f396c661c40d42ad71f67bece9933dc391c/Supermarq-0.4.6-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/0f/64/0bd6e8592c192398891358ea4572da3b0de2b2dba85ec0dd24c25db0c286/qiskit_superstaq-0.4.6-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/29/75/537c2688b9067c3d767af9512b200076c35582d6c9734e193a838a0d1f6e/cirq_superstaq-0.4.6-py3-none-any.whl
+[2023-07-21 00:52:36] INFO root fetch - processPackages [Supermarq]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [Supermarq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supermarq-0.4.5-py3-none-any.whl.zip tmp/Supermarq-0.4.6-py3-none-any.whl.zip --markdown 20230721/S/Supermarq/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-21 00:52:36] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.4.5-py3-none-any.whl.zip tmp/qiskit_superstaq-0.4.6-py3-none-any.whl.zip --markdown 20230721/q/qiskit-superstaq/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-21 00:52:36] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-07-21 00:52:36] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.4.5-py3-none-any.whl.zip tmp/cirq_superstaq-0.4.6-py3-none-any.whl.zip --markdown 20230721/c/cirq-superstaq/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-21 00:52:37] INFO root fetch - processPackages [grafana-wtf]: Downloading https://files.pythonhosted.org/packages/8f/df/038fd6635aab21eb312317cc01fbe2e36c7e666f23cd7e40960bc2373f4e/grafana-wtf-0.9.0.tar.gz
+[2023-07-21 00:52:37] INFO root fetch - processPackages [grafana-wtf]: executing diffoscope
+[2023-07-21 00:52:37] INFO root fetch - processPackages [grafana-wtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana-wtf-0.8.1.tar.gz tmp/grafana-wtf-0.9.0.tar.gz --markdown 20230721/g/grafana-wtf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 00:52:37] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.2.tar.gz]
+[2023-07-21 00:52:37] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
+[2023-07-21 00:52:37] INFO root fetch - processPackages [aind-data-transfer]: Start processing: btrdb
+[2023-07-21 00:52:37] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
+[2023-07-21 00:52:37] INFO root fetch - processPackages [btrdb]: New version: [5.8.1] Old Version: [5.8]
+[2023-07-21 00:52:37] INFO root fetch - processPackages [btrdb]: Downloading https://files.pythonhosted.org/packages/1c/c0/8f356fce607f44bce6c1ffaa39d0357d448f6622e640655b023805a7e85e/btrdb-5.8.tar.gz
+[2023-07-21 00:52:37] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-07-21 00:52:37] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-07-21 00:52:37] INFO root fetch - processPackages [datamorph-airflow]: Start processing: lorcanrae-de-toolkit
+[2023-07-21 00:52:37] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-07-21 00:52:37] INFO root fetch - processPackages [now-lms]: Downloading https://files.pythonhosted.org/packages/4a/54/efeed1ce4d9e37a96a6f6f501351fc4d4200118927a85640ecac6c78bb39/now_lms-0.0.1a9.post20230720.tar.gz
+[2023-07-21 00:52:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202230-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202248-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [kfish]: Start processing: deepcellpredictor
+[2023-07-21 00:52:38] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 00:52:38] WARNING root fetch - processPackages [lorcanrae-de-toolkit]: Skipping, unable to determine old version
+[2023-07-21 00:52:38] INFO root fetch - processPackages [lorcanrae-de-toolkit]: Start processing: pollination-dragonfly-energy
+[2023-07-21 00:52:38] INFO root fetch - main [MainThread]: End processing [lorcanrae-de-toolkit] error
+[2023-07-21 00:52:38] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [pollination-dragonfly-energy]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [now-lms]: executing diffoscope
+[2023-07-21 00:52:38] INFO root fetch - processPackages [now-lms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/now_lms-0.0.1a8.post20230707.tar.gz tmp/now_lms-0.0.1a9.post20230720.tar.gz --markdown 20230721/n/now-lms/0.0.1a8.post20230707-0.0.1a9.post20230720/diff.md --exclude *.pyd
+[2023-07-21 00:52:38] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.5-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.6-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [general-superstaq]: Start processing: pulumi
+[2023-07-21 00:52:38] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-07-21 00:52:38] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/95/85/93f5fdbdbb12a2e7fe709bac1bc62ae771969e0cb3960e77a87f8fc5ad49/deepcellpredictor-0.9.2.tar.gz
+[2023-07-21 00:52:38] INFO root fetch - processPackages [pollination-dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/b5/36/92800a3932b6924394cdbbed4d3d807eb81ac66424007db16d2dc48ea96c/pollination-dragonfly-energy-0.2.7.tar.gz
+[2023-07-21 00:52:38] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.5-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.6-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - main [MainThread]: End processing [Supermarq]: success
+[2023-07-21 00:52:38] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.5-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.6-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-07-21 00:52:38] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.5-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.6-py3-none-any.whl.zip]
+[2023-07-21 00:52:38] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-07-21 00:52:38] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/bf/43/5a96245fa4da4d0c12efa0bf2b8a072fc82cfb6bbb3a8ebc38c5ef335c18/deepcellpredictor-0.9.3.tar.gz
+[2023-07-21 00:52:38] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-07-21 00:52:38] INFO root fetch - processPackages [grafana-wtf]: Remove: archive file [/home/abi/fetcher/tmp/grafana-wtf-0.8.1.tar.gz]
+[2023-07-21 00:52:38] INFO root fetch - processPackages [grafana-wtf]: Remove: archive file [/home/abi/fetcher/tmp/grafana-wtf-0.9.0.tar.gz]
+[2023-07-21 00:52:38] INFO root fetch - main [MainThread]: End processing [grafana-wtf]: success
+[2023-07-21 00:52:38] INFO root fetch - processPackages [btrdb]: Downloading https://files.pythonhosted.org/packages/65/ad/c23dba47e1c140b74df7d98ce095bae48dd69ad339244edac3a737c0ae41/btrdb-5.8.1.tar.gz
+[2023-07-21 00:52:38] INFO root fetch - processPackages [pollination-dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/6a/8f/10781f222419169d1988d166276005f592f7cad7664a444156091e22e82d/pollination-dragonfly-energy-0.2.8.tar.gz
+[2023-07-21 00:52:38] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-21 00:52:38] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.9.2.tar.gz tmp/deepcellpredictor-0.9.3.tar.gz --markdown 20230721/d/deepcellpredictor/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-21 00:52:39] INFO root fetch - processPackages [pollination-dragonfly-energy]: executing diffoscope
+[2023-07-21 00:52:39] INFO root fetch - processPackages [pollination-dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-dragonfly-energy-0.2.7.tar.gz tmp/pollination-dragonfly-energy-0.2.8.tar.gz --markdown 20230721/p/pollination-dragonfly-energy/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-21 00:52:39] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.0.tar.gz]
+[2023-07-21 00:52:39] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.1.tar.gz]
+[2023-07-21 00:52:39] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-07-21 00:52:39] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-07-21 00:52:39] INFO root fetch - processPackages [btrdb]: executing diffoscope
+[2023-07-21 00:52:39] INFO root fetch - processPackages [btrdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrdb-5.8.tar.gz tmp/btrdb-5.8.1.tar.gz --markdown 20230721/b/btrdb/5.8-5.8.1/diff.md --exclude *.pyd
+[2023-07-21 00:52:39] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.9.2.tar.gz]
+[2023-07-21 00:52:39] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.9.3.tar.gz]
+[2023-07-21 00:52:39] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-21 00:52:39] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-07-21 00:52:39] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 00:52:39] INFO root fetch - processPackages [pollination-dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/pollination-dragonfly-energy-0.2.7.tar.gz]
+[2023-07-21 00:52:39] INFO root fetch - processPackages [pollination-dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/pollination-dragonfly-energy-0.2.8.tar.gz]
+[2023-07-21 00:52:39] INFO root fetch - main [MainThread]: End processing [pollination-dragonfly-energy]: success
+[2023-07-21 00:52:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip]
+[2023-07-21 00:52:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 00:52:40] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-07-21 00:52:41] INFO root fetch - processPackages [btrdb]: Remove: archive file [/home/abi/fetcher/tmp/btrdb-5.8.tar.gz]
+[2023-07-21 00:52:41] INFO root fetch - processPackages [btrdb]: Remove: archive file [/home/abi/fetcher/tmp/btrdb-5.8.1.tar.gz]
+[2023-07-21 00:52:41] INFO root fetch - main [MainThread]: End processing [btrdb]: success
+[2023-07-21 00:53:01] INFO root fetch - processPackages [now-lms]: Remove: archive file [/home/abi/fetcher/tmp/now_lms-0.0.1a8.post20230707.tar.gz]
+[2023-07-21 00:53:01] INFO root fetch - processPackages [now-lms]: Remove: archive file [/home/abi/fetcher/tmp/now_lms-0.0.1a9.post20230720.tar.gz]
+[2023-07-21 00:53:01] INFO root fetch - main [MainThread]: End processing [now-lms]: success
+[2023-07-21 00:53:01] INFO root fetch - main [MainThread]: Store serial: [18974012]
