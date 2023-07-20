@@ -2268,3 +2268,36 @@
 [2023-07-21 01:36:06] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.32.tar.gz]
 [2023-07-21 01:36:06] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2023-07-21 01:36:06] INFO root fetch - main [MainThread]: Store serial: [18974333]
+[2023-07-21 01:41:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974333]
+[2023-07-21 01:41:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-21 01:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgeimpulse
+[2023-07-21 01:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidfuzz
+[2023-07-21 01:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-circular-progress
+[2023-07-21 01:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-21 01:41:14] INFO root fetch - processPackages [edgeimpulse]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-21 01:41:14] WARNING root fetch - processPackages [st-circular-progress]: Skipping, unable to determine old version
+[2023-07-21 01:41:14] INFO root fetch - main [MainThread]: End processing [st-circular-progress] error
+[2023-07-21 01:41:14] INFO root fetch - processPackages [kcli]: New version: [99.0.202307202314] Old Version: [99.0.202307202244]
+[2023-07-21 01:41:14] INFO root fetch - processPackages [rapidfuzz]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-21 01:41:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b3/99/46ed01ed22634abc2133b29f311549b37633696e817721df3a7a8bbca629/kcli-99.0.202307202244-py3-none-any.whl
+[2023-07-21 01:41:15] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/f3/a9/6931f8d488249f4a654b69b98f7c3102d4020b3d02992f5e01fdf08155bc/edgeimpulse-1.0.4.tar.gz
+[2023-07-21 01:41:15] INFO root fetch - processPackages [rapidfuzz]: Downloading https://files.pythonhosted.org/packages/85/b8/30109278e342bd1ce335aacafa8b295dbd34adc1a2b862a191f377cbba05/rapidfuzz-3.1.1.tar.gz
+[2023-07-21 01:41:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/62/28/2af1b515a38c1841a0acbd24d6b75f8ac093b6cd42f7b3b7d826f01cec98/kcli-99.0.202307202314-py3-none-any.whl
+[2023-07-21 01:41:15] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 01:41:15] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307202244-py3-none-any.whl.zip tmp/kcli-99.0.202307202314-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307202244-99.0.202307202314/diff.md --exclude *.pyd
+[2023-07-21 01:41:15] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/c9/5a/fcd0c81869db9905392b322b44983c3313884f4ae5b8bdc2124e49952e0b/edgeimpulse-1.0.5.tar.gz
+[2023-07-21 01:41:15] INFO root fetch - processPackages [edgeimpulse]: executing diffoscope
+[2023-07-21 01:41:15] INFO root fetch - processPackages [edgeimpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse-1.0.4.tar.gz tmp/edgeimpulse-1.0.5.tar.gz --markdown 20230721/e/edgeimpulse/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-21 01:41:15] INFO root fetch - processPackages [rapidfuzz]: Downloading https://files.pythonhosted.org/packages/29/73/b41cac4dcb1c8fde87fe6f1ce6e4e08de688305d48b99e8bfbba2654a57b/rapidfuzz-3.1.2.tar.gz
+[2023-07-21 01:41:15] INFO root fetch - processPackages [rapidfuzz]: executing diffoscope
+[2023-07-21 01:41:15] INFO root fetch - processPackages [rapidfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidfuzz-3.1.1.tar.gz tmp/rapidfuzz-3.1.2.tar.gz --markdown 20230721/r/rapidfuzz/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-21 01:41:16] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.4.tar.gz]
+[2023-07-21 01:41:16] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.5.tar.gz]
+[2023-07-21 01:41:16] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
+[2023-07-21 01:41:18] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202244-py3-none-any.whl.zip]
+[2023-07-21 01:41:18] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202314-py3-none-any.whl.zip]
+[2023-07-21 01:41:18] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 01:41:19] INFO root fetch - processPackages [rapidfuzz]: Remove: archive file [/home/abi/fetcher/tmp/rapidfuzz-3.1.1.tar.gz]
+[2023-07-21 01:41:19] INFO root fetch - processPackages [rapidfuzz]: Remove: archive file [/home/abi/fetcher/tmp/rapidfuzz-3.1.2.tar.gz]
+[2023-07-21 01:41:19] INFO root fetch - main [MainThread]: End processing [rapidfuzz]: success
+[2023-07-21 01:41:19] INFO root fetch - main [MainThread]: Store serial: [18974446]
