@@ -1636,3 +1636,164 @@
 [2023-07-21 01:03:25] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230720.tar.gz]
 [2023-07-21 01:03:25] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-07-21 01:03:25] INFO root fetch - main [MainThread]: Store serial: [18974081]
+[2023-07-21 01:08:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974081]
+[2023-07-21 01:08:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sage-conf
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sage-docbuild
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sage-setup
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sage-sws2rst
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sagemath-categories
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemath-environment
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sagemath-objects
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemath-repl
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sagemath-standard
+[2023-07-21 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llama-cpp-python
+[2023-07-21 01:08:34] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-sws2rst]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-categories]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-docbuild]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-standard]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-environment]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-repl]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-objects]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-setup]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-conf]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/bb/16/bd3221dd969ef83cdb78698299f6e3cfa8be59d749daa81b4dc97f6d24ed/sage-setup-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/fe/5b4220d8485b9b1ea1e00d27d4033da6b77ab9bb3d90f96c2b0f69915cd9/sagemath-categories-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/68/e5/530ac4d218aa81bb055436ab8553554b883e0e460c773cbd530d7442463a/sage-docbuild-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/c7/9a/24d44916ef366f957e246ba99527efc0b4893673067aa991646a73886e88/sage-sws2rst-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/a4/e3/3abe6fb13b6aec05d433260a637c57426bc40016a26515ce1de2f6ccb547/sagemath-repl-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/63/7d/1a322711621a03371daf041779f473d569145e98561ddd9039e79a30255e/sagemath-environment-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-standard]: Downloading https://files.pythonhosted.org/packages/ca/44/3341aa128d2058989dc35be67a94f004ad9873fc2cece58881abf81f3091/sagemath-standard-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/4c/41/42559ab77e0184ee4c3cc7719ba4348e5aa1307506fab7a306aa4a483214/sagemath-objects-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/87/21/012f950f98f90bb49afff7f0aa106a1d0f3f83f7686b6c7639257300de07/sage-conf-9.8b7.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/aa/ea/ed314950f3374f03b1417e552a4f31d8618f2811e6eacf3fe3332268f07c/sage-setup-9.8rc0.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/83/bc/944e941625ce0a283b49b178d1b3dc9b9c8af78512a7f2fd8ec2c617e1eb/sage-docbuild-9.8rc0.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/dd/0daa405ce2567bb39e004c123601d2ec55ede2bc549eb306d07ba35eb456/sagemath-categories-9.8rc0.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/fb/3c/6493d3c2a0f3a5c6276a510bac2fc348d682e8e826d3565dfc4f047ed8a2/sagemath-repl-9.8rc0.tar.gz
+[2023-07-21 01:08:34] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-07-21 01:08:34] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230721/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/25/81/ca7c2bcc4784c3075bcbf1849d48cee85027d56bdb107f8a0bf943b919ad/sagemath-environment-9.8rc0.tar.gz
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sage-setup]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sage-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-setup-9.8b7.tar.gz tmp/sage-setup-9.8rc0.tar.gz --markdown 20230721/s/sage-setup/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/3e/ec/de38e0fcc76454c395321b4d2989ffe5f56e6334e310d1d9c6ad53f991f4/sagemath-objects-9.8rc0.tar.gz
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sage-docbuild]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sage-docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-docbuild-9.8b7.tar.gz tmp/sage-docbuild-9.8rc0.tar.gz --markdown 20230721/s/sage-docbuild/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] WARNING root fetch - processPackages [sagemath-standard]: Skipping package: exceeds size limit 18194906>=10485760
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-standard]: Start processing: volare
+[2023-07-21 01:08:35] INFO root fetch - main [MainThread]: End processing [sagemath-standard] error
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/e2/13/be8c4c1c6ddab4fd81239014b8596bd4a65576cb4ec8fd36b8295e719cd8/sage-sws2rst-9.8rc0.tar.gz
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-categories]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-categories-9.8b7.tar.gz tmp/sagemath-categories-9.8rc0.tar.gz --markdown 20230721/s/sagemath-categories/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] INFO root fetch - processPackages [volare]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-repl]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-repl-9.8b7.tar.gz tmp/sagemath-repl-9.8rc0.tar.gz --markdown 20230721/s/sagemath-repl/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-environment]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-environment-9.8b7.tar.gz tmp/sagemath-environment-9.8rc0.tar.gz --markdown 20230721/s/sagemath-environment/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-objects]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sagemath-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-objects-9.8b7.tar.gz tmp/sagemath-objects-9.8rc0.tar.gz --markdown 20230721/s/sagemath-objects/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sage-sws2rst]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [sage-sws2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-sws2rst-9.8b7.tar.gz tmp/sage-sws2rst-9.8rc0.tar.gz --markdown 20230721/s/sage-sws2rst/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:35] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/1e/29/12ee7bde392b4fc4cbbc6d85cdaf8b2a1107a971b0eb3a31eabb6aab468c/volare-0.9.0.tar.gz
+[2023-07-21 01:08:35] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/a8/5f/ba19e9f0c65f8565afd4a4a4e5cf3db5acdd78484b791767f4d09b59c9e9/volare-0.9.1.tar.gz
+[2023-07-21 01:08:35] INFO root fetch - processPackages [volare]: executing diffoscope
+[2023-07-21 01:08:35] INFO root fetch - processPackages [volare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volare-0.9.0.tar.gz tmp/volare-0.9.1.tar.gz --markdown 20230721/v/volare/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/e9/96/cd18c202ff97cf2010773c4ddf2e91c5e8ec79bf2dd6466b16139b499233/sage-conf-9.8rc0.tar.gz
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8b7.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8rc0.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-docbuild]: Start processing: tensorboard-plugin-profile
+[2023-07-21 01:08:36] INFO root fetch - main [MainThread]: End processing [sage-docbuild]: success
+[2023-07-21 01:08:36] INFO root fetch - processPackages [tensorboard-plugin-profile]: New version: [2.8.0] Old Version: [2.5.0]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [llama-cpp-python]: Start processing: secrets-vault
+[2023-07-21 01:08:36] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8b7.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8rc0.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-setup]: Start processing: roblox-pyc
+[2023-07-21 01:08:36] INFO root fetch - main [MainThread]: End processing [sage-setup]: success
+[2023-07-21 01:08:36] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8b7.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8rc0.tar.gz]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [sage-sws2rst]: Start processing: nsj-gcf-utils
+[2023-07-21 01:08:36] INFO root fetch - main [MainThread]: End processing [sage-sws2rst]: success
+[2023-07-21 01:08:36] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 01:08:36] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/c5/ee/c550776aae25f55a550da8557a86d5b41ca736b788ef1844a7613ddfd3fc/secrets-vault-0.1.6.tar.gz
+[2023-07-21 01:08:36] INFO root fetch - processPackages [nsj-gcf-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 01:08:36] INFO root fetch - processPackages [tensorboard-plugin-profile]: Downloading https://files.pythonhosted.org/packages/20/ee/5dd6895c54e442e3e3ecab16ed2d7a62f51f7396456c6aaf2710fda11f5a/tensorboard_plugin_profile-2.5.0.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8b7.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8rc0.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-environment]: Start processing: datahtml
+[2023-07-21 01:08:37] INFO root fetch - main [MainThread]: End processing [sagemath-environment]: success
+[2023-07-21 01:08:37] INFO root fetch - processPackages [nsj-gcf-utils]: Downloading https://files.pythonhosted.org/packages/cd/56/1474ea19fb90c1e05108cd230f30a99b7811aa965c24870dbdca0ae70984/nsj_gcf_utils-1.0.8.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [volare]: Remove: archive file [/home/abi/fetcher/tmp/volare-0.9.0.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [datahtml]: New version: [0.4.0rc9] Old Version: [0.4.0rc8]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [volare]: Remove: archive file [/home/abi/fetcher/tmp/volare-0.9.1.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [volare]: Start processing: gpt-code-ui
+[2023-07-21 01:08:37] INFO root fetch - main [MainThread]: End processing [volare]: success
+[2023-07-21 01:08:37] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/fb/7c/8fa7a1097c25a8435a704028779ec9d069d9c621f31e139d60c442e5cbbf/secrets-vault-0.1.7.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 01:08:37] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 01:08:37] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-21 01:08:37] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.6.tar.gz tmp/secrets-vault-0.1.7.tar.gz --markdown 20230721/s/secrets-vault/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8b7.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8rc0.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-repl]: Start processing: mine
+[2023-07-21 01:08:37] INFO root fetch - main [MainThread]: End processing [sagemath-repl]: success
+[2023-07-21 01:08:37] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/3d/56/22ada13e1f8e72a448cb7c9efd2b8f7755ba2b45cdc9f986193471bd3b4f/datahtml-0.4.0rc8.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [mine]: New version: [4.0a3] Old Version: [4.0a2]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/1b/16/56dff599afaa6d8111b19339f9a0981a6bd2b74597ef50db0b02d7d6624b/gpt_code_ui-0.42.8.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/3c/b1/5972feeff273852198e4699bef3231f69be4cd079452960af8deff3d163d/mine-4.0a2.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [nsj-gcf-utils]: Downloading https://files.pythonhosted.org/packages/d7/f8/41447127b0a9ca38b7a771547c4690dd7eb7a6390f04714a50eb07e2a113/nsj_gcf_utils-1.0.9.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/57/c8/e4ff88f352b785883b3a9dc26798a04bcf556917a8572ad9046c2593c320/mine-4.0a3.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [nsj-gcf-utils]: executing diffoscope
+[2023-07-21 01:08:37] INFO root fetch - processPackages [nsj-gcf-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_gcf_utils-1.0.8.tar.gz tmp/nsj_gcf_utils-1.0.9.tar.gz --markdown 20230721/n/nsj-gcf-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 01:08:37] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/61/32/9dae453c5476be7de2ed987aaa37d0fbb7aa0f4035a0b0537963b2f2e50f/datahtml-0.4.0rc9.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [tensorboard-plugin-profile]: Downloading https://files.pythonhosted.org/packages/50/3b/ded2adca097713fc47cf7541573405bbc454c0fbb7ce36939f75b8c534ab/tensorboard_plugin_profile-2.8.0.tar.gz
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8b7.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8rc0.tar.gz]
+[2023-07-21 01:08:37] INFO root fetch - main [MainThread]: End processing [sagemath-objects]: success
+[2023-07-21 01:08:38] INFO root fetch - processPackages [mine]: executing diffoscope
+[2023-07-21 01:08:38] INFO root fetch - processPackages [mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mine-4.0a2.tar.gz tmp/mine-4.0a3.tar.gz --markdown 20230721/m/mine/4.0a2-4.0a3/diff.md --exclude *.pyd
+[2023-07-21 01:08:38] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8b7.tar.gz]
+[2023-07-21 01:08:38] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8rc0.tar.gz]
+[2023-07-21 01:08:38] INFO root fetch - main [MainThread]: End processing [sagemath-categories]: success
+[2023-07-21 01:08:38] INFO root fetch - processPackages [datahtml]: executing diffoscope
+[2023-07-21 01:08:38] INFO root fetch - processPackages [datahtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahtml-0.4.0rc8.tar.gz tmp/datahtml-0.4.0rc9.tar.gz --markdown 20230721/d/datahtml/0.4.0rc8-0.4.0rc9/diff.md --exclude *.pyd
+[2023-07-21 01:08:38] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.6.tar.gz]
+[2023-07-21 01:08:38] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.7.tar.gz]
+[2023-07-21 01:08:38] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-21 01:08:38] INFO root fetch - processPackages [sage-conf]: executing diffoscope
+[2023-07-21 01:08:38] INFO root fetch - processPackages [sage-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-conf-9.8b7.tar.gz tmp/sage-conf-9.8rc0.tar.gz --markdown 20230721/s/sage-conf/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-21 01:08:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 01:08:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 01:08:38] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 01:08:38] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/15/cb/776d616d575589143b3d91acbd1d7e649055f85a8e1cd2c321c0514c1cfa/gpt_code_ui-0.42.9.tar.gz
+[2023-07-21 01:08:38] INFO root fetch - processPackages [tensorboard-plugin-profile]: executing diffoscope
+[2023-07-21 01:08:38] INFO root fetch - processPackages [tensorboard-plugin-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorboard_plugin_profile-2.5.0.tar.gz tmp/tensorboard_plugin_profile-2.8.0.tar.gz --markdown 20230721/t/tensorboard-plugin-profile/2.5.0-2.8.0/diff.md --exclude *.pyd
+[2023-07-21 01:08:38] INFO root fetch - processPackages [nsj-gcf-utils]: Remove: archive file [/home/abi/fetcher/tmp/nsj_gcf_utils-1.0.8.tar.gz]
+[2023-07-21 01:08:38] INFO root fetch - processPackages [nsj-gcf-utils]: Remove: archive file [/home/abi/fetcher/tmp/nsj_gcf_utils-1.0.9.tar.gz]
+[2023-07-21 01:08:39] INFO root fetch - main [MainThread]: End processing [nsj-gcf-utils]: success
+[2023-07-21 01:08:39] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.0a2.tar.gz]
+[2023-07-21 01:08:39] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.0a3.tar.gz]
+[2023-07-21 01:08:39] INFO root fetch - main [MainThread]: End processing [mine]: success
+[2023-07-21 01:08:39] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc8.tar.gz]
+[2023-07-21 01:08:39] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc9.tar.gz]
+[2023-07-21 01:08:39] INFO root fetch - main [MainThread]: End processing [datahtml]: success
+[2023-07-21 01:08:39] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-07-21 01:08:39] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230721/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-07-21 01:08:40] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.8.tar.gz]
+[2023-07-21 01:08:40] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.9.tar.gz]
+[2023-07-21 01:08:40] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-07-21 01:08:56] INFO root fetch - processPackages [tensorboard-plugin-profile]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard_plugin_profile-2.5.0.tar.gz]
+[2023-07-21 01:08:56] INFO root fetch - processPackages [tensorboard-plugin-profile]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard_plugin_profile-2.8.0.tar.gz]
+[2023-07-21 01:08:56] INFO root fetch - main [MainThread]: End processing [tensorboard-plugin-profile]: success
+[2023-07-21 01:09:19] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8b7.tar.gz]
+[2023-07-21 01:09:19] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
+[2023-07-21 01:09:19] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
+[2023-07-21 01:09:19] INFO root fetch - main [MainThread]: Store serial: [18974132]
