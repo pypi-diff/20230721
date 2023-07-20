@@ -796,3 +796,87 @@
 [2023-07-21 00:14:05] INFO root fetch - processPackages [suinspy]: Remove: archive file [/home/abi/fetcher/tmp/suinspy-0.1.1.tar.gz]
 [2023-07-21 00:14:05] INFO root fetch - main [MainThread]: End processing [suinspy]: success
 [2023-07-21 00:14:05] INFO root fetch - main [MainThread]: Store serial: [18973725]
+[2023-07-21 00:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18973725]
+[2023-07-21 00:19:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collective.mosaicpage
+[2023-07-21 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncoinpayments
+[2023-07-21 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepcellpredictor
+[2023-07-21 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyBoNett
+[2023-07-21 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maggma
+[2023-07-21 00:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imagevaluec01
+[2023-07-21 00:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hist
+[2023-07-21 00:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybuc
+[2023-07-21 00:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cz-emoticon
+[2023-07-21 00:19:14] INFO root fetch - processPackages [anyBoNett]: New version: [0.0.8] Old Version: [0.0.4]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [pybuc]: New version: [0.9.10] Old Version: [0.8.10]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [imagevaluec01]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [collective.mosaicpage]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [asyncoinpayments]: New version: [0.0.3a0] Old Version: [0.0.2a0]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.7] Old Version: [0.6]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [hist]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [cz-emoticon]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 00:19:14] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/ff/a6/647d6e38a6519bf2966722e1789589d0e50eea7a6376967ab7afbc093f70/pybuc-0.8.10.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [imagevaluec01]: Downloading https://files.pythonhosted.org/packages/91/b3/1e583d4d5c72d998fb43ea2d1c5f74364321e64d5812489f8d21614a35ae/imagevaluec01-0.0.2.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/47/fe/0cc32b32dc7fa30a82275936810e9297bc7a21f00f2bf026079687135b4a/deepcellpredictor-0.6.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [anyBoNett]: Downloading https://files.pythonhosted.org/packages/90/f4/974e3e1e75c73ca7bd5ebec75936cc999eaa1624c5e1755b76777a22eec9/anyBoNett-0.0.4.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [collective.mosaicpage]: Downloading https://files.pythonhosted.org/packages/b9/1b/3b8f3196efb100608972808f1cbb90587500b29c612541959c8d437bbbd7/collective.mosaicpage-1.0.0a1.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [hist]: Downloading https://files.pythonhosted.org/packages/2e/1e/7e111aca8b91b368fb508909ecc12ff4d5ce556cb5f5fd2230db1af145f5/hist-2.7.0.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/0f/26/940c1f343af3e76d0a19b5a33ff4d39e15590ebfc5d1e2a155c64788ea58/asyncoinpayments-0.0.2a0.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [cz-emoticon]: Downloading https://files.pythonhosted.org/packages/d2/38/ddeb8eecf8154e250873f6e9882d7534522ed86a5b06f1cadec4bad7dbfb/cz_emoticon-0.1.2.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/36/ff/435775953f489894dbc63700890c9984ecc56774ee84cef35a35acadf8b2/pybuc-0.9.10.tar.gz
+[2023-07-21 00:19:14] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/86/13/2f9bbf4d604fec65cae3794152577bd4b4c36fc002ee64d43bd42ae4a571/deepcellpredictor-0.7.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [anyBoNett]: Downloading https://files.pythonhosted.org/packages/62/22/24f914e2c7678b23da5b71345af0ea143ba0e5bde053d69b823c8cac7a85/anyBoNett-0.0.8.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [imagevaluec01]: Downloading https://files.pythonhosted.org/packages/c1/ec/4a9c20de0047fabf99b526ad01ceaeb861a34265cf40047db05e758aa650/imagevaluec01-0.0.3.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [collective.mosaicpage]: Downloading https://files.pythonhosted.org/packages/a6/b2/84724f7d3c7b824cb32ccef07ef8315b7fa0c1ba6a07c171282079d5b76d/collective.mosaicpage-1.0.0a2.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [cz-emoticon]: Downloading https://files.pythonhosted.org/packages/e2/a2/b099cc8f75f9fe0e2b676ecf1923709f9c1b6a0dccab0eb43383b2f8b5fb/cz_emoticon-0.1.3.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.6.tar.gz tmp/deepcellpredictor-0.7.tar.gz --markdown 20230721/d/deepcellpredictor/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/1f/9d/4f2c8284a5e6d86dc771a4c5bef7dae6d196648ad305c700ce54298f4273/asyncoinpayments-0.0.3a0.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [collective.mosaicpage]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [collective.mosaicpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.mosaicpage-1.0.0a1.tar.gz tmp/collective.mosaicpage-1.0.0a2.tar.gz --markdown 20230721/c/collective.mosaicpage/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [anyBoNett]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [anyBoNett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyBoNett-0.0.4.tar.gz tmp/anyBoNett-0.0.8.tar.gz --markdown 20230721/a/anyBoNett/0.0.4-0.0.8/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [imagevaluec01]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [imagevaluec01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagevaluec01-0.0.2.tar.gz tmp/imagevaluec01-0.0.3.tar.gz --markdown 20230721/i/imagevaluec01/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [cz-emoticon]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [cz-emoticon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_emoticon-0.1.2.tar.gz tmp/cz_emoticon-0.1.3.tar.gz --markdown 20230721/c/cz-emoticon/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [hist]: Downloading https://files.pythonhosted.org/packages/fc/4f/021321fa6ae55a7736eec6ba15948a260905418657d7885f54c44c3d0c07/hist-2.7.1.tar.gz
+[2023-07-21 00:19:15] INFO root fetch - processPackages [asyncoinpayments]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [asyncoinpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncoinpayments-0.0.2a0.tar.gz tmp/asyncoinpayments-0.0.3a0.tar.gz --markdown 20230721/a/asyncoinpayments/0.0.2a0-0.0.3a0/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [pybuc]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [pybuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuc-0.8.10.tar.gz tmp/pybuc-0.9.10.tar.gz --markdown 20230721/p/pybuc/0.8.10-0.9.10/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230721/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 00:19:15] INFO root fetch - processPackages [hist]: executing diffoscope
+[2023-07-21 00:19:15] INFO root fetch - processPackages [hist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hist-2.7.0.tar.gz tmp/hist-2.7.1.tar.gz --markdown 20230721/h/hist/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-07-21 00:19:16] INFO root fetch - processPackages [anyBoNett]: Remove: archive file [/home/abi/fetcher/tmp/anyBoNett-0.0.4.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - processPackages [anyBoNett]: Remove: archive file [/home/abi/fetcher/tmp/anyBoNett-0.0.8.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - main [MainThread]: End processing [anyBoNett]: success
+[2023-07-21 00:19:16] INFO root fetch - processPackages [collective.mosaicpage]: Remove: archive file [/home/abi/fetcher/tmp/collective.mosaicpage-1.0.0a1.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - processPackages [collective.mosaicpage]: Remove: archive file [/home/abi/fetcher/tmp/collective.mosaicpage-1.0.0a2.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - main [MainThread]: End processing [collective.mosaicpage]: success
+[2023-07-21 00:19:16] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.2a0.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.3a0.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - main [MainThread]: End processing [asyncoinpayments]: success
+[2023-07-21 00:19:16] INFO root fetch - processPackages [imagevaluec01]: Remove: archive file [/home/abi/fetcher/tmp/imagevaluec01-0.0.2.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - processPackages [imagevaluec01]: Remove: archive file [/home/abi/fetcher/tmp/imagevaluec01-0.0.3.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - main [MainThread]: End processing [imagevaluec01]: success
+[2023-07-21 00:19:16] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.6.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.7.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-21 00:19:16] INFO root fetch - processPackages [cz-emoticon]: Remove: archive file [/home/abi/fetcher/tmp/cz_emoticon-0.1.2.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - processPackages [cz-emoticon]: Remove: archive file [/home/abi/fetcher/tmp/cz_emoticon-0.1.3.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - main [MainThread]: End processing [cz-emoticon]: success
+[2023-07-21 00:19:16] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2023-07-21 00:19:16] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-07-21 00:19:17] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.8.10.tar.gz]
+[2023-07-21 00:19:17] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.9.10.tar.gz]
+[2023-07-21 00:19:17] INFO root fetch - main [MainThread]: End processing [pybuc]: success
+[2023-07-21 00:19:17] INFO root fetch - processPackages [hist]: Remove: archive file [/home/abi/fetcher/tmp/hist-2.7.0.tar.gz]
+[2023-07-21 00:19:17] INFO root fetch - processPackages [hist]: Remove: archive file [/home/abi/fetcher/tmp/hist-2.7.1.tar.gz]
+[2023-07-21 00:19:17] INFO root fetch - main [MainThread]: End processing [hist]: success
+[2023-07-21 00:19:17] INFO root fetch - main [MainThread]: Store serial: [18973751]
