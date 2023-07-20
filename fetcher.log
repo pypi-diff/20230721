@@ -1161,3 +1161,90 @@
 [2023-07-21 00:36:56] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2685-py3-none-any.whl.zip]
 [2023-07-21 00:36:56] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-07-21 00:36:56] INFO root fetch - main [MainThread]: Store serial: [18973873]
+[2023-07-21 00:42:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18973873]
+[2023-07-21 00:42:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m23
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isogrids
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hf-deepali
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyai
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: x1-icl
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moabdb
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bokehmol
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlflow-by-johnsnowlabs
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zenroom
+[2023-07-21 00:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-sam-cli
+[2023-07-21 00:42:06] INFO root fetch - processPackages [hf-deepali]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-21 00:42:06] WARNING root fetch - processPackages [bokehmol]: Skipping, unable to determine old version
+[2023-07-21 00:42:06] INFO root fetch - processPackages [bokehmol]: Start processing: deepcellpredictor
+[2023-07-21 00:42:06] INFO root fetch - main [MainThread]: End processing [bokehmol] error
+[2023-07-21 00:42:06] INFO root fetch - processPackages [assemblyai]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-21 00:42:06] INFO root fetch - processPackages [isogrids]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 00:42:06] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 00:42:06] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-21 00:42:06] WARNING root fetch - processPackages [x1-icl]: Skipping, unable to determine old version
+[2023-07-21 00:42:06] INFO root fetch - processPackages [x1-icl]: Start processing: responsecurve
+[2023-07-21 00:42:06] INFO root fetch - main [MainThread]: End processing [x1-icl] error
+[2023-07-21 00:42:06] WARNING root fetch - processPackages [mlflow-by-johnsnowlabs]: Skipping, unable to determine old version
+[2023-07-21 00:42:06] INFO root fetch - main [MainThread]: End processing [mlflow-by-johnsnowlabs] error
+[2023-07-21 00:42:06] INFO root fetch - processPackages [zenroom]: New version: [3.9.1] Old Version: [3.8.0]
+[2023-07-21 00:42:06] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-21 00:42:06] INFO root fetch - processPackages [responsecurve]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-21 00:42:06] INFO root fetch - processPackages [aws-sam-cli]: New version: [1.93.0] Old Version: [1.92.0]
+[2023-07-21 00:42:06] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/95/cf/b9bf0100a3007933f923f810e0f26d224768a841043f6ffdd83d1f150176/responsecurve-0.0.5.tar.gz
+[2023-07-21 00:42:06] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/5b/79/b772e5d283c4f3b8a34cc3817076616b4c9bb7e58fe0bd00fb4decb9ba13/deepcellpredictor-0.9.tar.gz
+[2023-07-21 00:42:06] INFO root fetch - processPackages [hf-deepali]: Downloading https://files.pythonhosted.org/packages/8e/da/ed7d4096d7b7e03f47010d7919a202da3c6647e135326109ac2694534407/hf-deepali-0.4.0.tar.gz
+[2023-07-21 00:42:06] INFO root fetch - processPackages [isogrids]: Downloading https://files.pythonhosted.org/packages/f8/95/8e195b8a5cf4553fc69dc61bd29aaf032e58630f25efd07e2dbdfcc8c3c0/isogrids-0.0.1.tar.gz
+[2023-07-21 00:42:06] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/f3/9a/338abeb4a3c4ac5e251366dea7d38d8c492fee014147c2239dc1fe4f21fa/zenroom-3.8.0.tar.gz
+[2023-07-21 00:42:06] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-21 00:42:06] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/7b/55/a6d0f59e51e905a5e5417e92ec8ae21b89ea6d6499807b180f4011ceadbc/assemblyai-0.8.1.tar.gz
+[2023-07-21 00:42:06] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/49/72/6fcc852ded772f47e17dd4905c6f3fd3781b65e9be2efef5847630523926/aws-sam-cli-1.92.0.tar.gz
+[2023-07-21 00:42:06] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25654205>=10485760
+[2023-07-21 00:42:06] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-07-21 00:42:06] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/fc/06/97cbb27fde1b63f906264a959677ca72612758b3496e780a6a4199a538d4/responsecurve-0.0.6.tar.gz
+[2023-07-21 00:42:07] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/07/d4/5dc06bebd3ec2b44889d2ff8e18f70a196a6fb8ce5aa0600940fef37afa1/deepcellpredictor-0.9.1.tar.gz
+[2023-07-21 00:42:07] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-21 00:42:07] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230721/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 00:42:07] INFO root fetch - processPackages [responsecurve]: executing diffoscope
+[2023-07-21 00:42:07] INFO root fetch - processPackages [responsecurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsecurve-0.0.5.tar.gz tmp/responsecurve-0.0.6.tar.gz --markdown 20230721/r/responsecurve/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-21 00:42:07] INFO root fetch - processPackages [isogrids]: Downloading https://files.pythonhosted.org/packages/12/74/3152059f771768a595ab37c07a26fc356fb8c547753d53a682a75778ab31/isogrids-0.0.2.tar.gz
+[2023-07-21 00:42:07] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-21 00:42:07] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.9.tar.gz tmp/deepcellpredictor-0.9.1.tar.gz --markdown 20230721/d/deepcellpredictor/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 00:42:07] INFO root fetch - processPackages [hf-deepali]: Downloading https://files.pythonhosted.org/packages/08/e8/9a35543dc6c336fd53e1dde514d47b4843c3ec7fb123cf22b87ce2f152fe/hf-deepali-0.4.1.tar.gz
+[2023-07-21 00:42:07] INFO root fetch - processPackages [isogrids]: executing diffoscope
+[2023-07-21 00:42:07] INFO root fetch - processPackages [isogrids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isogrids-0.0.1.tar.gz tmp/isogrids-0.0.2.tar.gz --markdown 20230721/i/isogrids/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 00:42:07] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/c6/f0/4abff3cb2af3f5a220945783c4d77b44f567affffb79dd2d316988c45f0b/assemblyai-0.9.0.tar.gz
+[2023-07-21 00:42:07] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-21 00:42:07] INFO root fetch - processPackages [hf-deepali]: executing diffoscope
+[2023-07-21 00:42:07] INFO root fetch - processPackages [hf-deepali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf-deepali-0.4.0.tar.gz tmp/hf-deepali-0.4.1.tar.gz --markdown 20230721/h/hf-deepali/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-21 00:42:07] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/0f/f7/a04fbb764f421b359314bf1eb3e3006e48e4651ae2c2df3838ac3b8c8a9e/aws-sam-cli-1.93.0.tar.gz
+[2023-07-21 00:42:07] INFO root fetch - processPackages [assemblyai]: executing diffoscope
+[2023-07-21 00:42:07] INFO root fetch - processPackages [assemblyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyai-0.8.1.tar.gz tmp/assemblyai-0.9.0.tar.gz --markdown 20230721/a/assemblyai/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 00:42:07] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-21 00:42:07] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230721/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-21 00:42:08] INFO root fetch - processPackages [aws-sam-cli]: executing diffoscope
+[2023-07-21 00:42:08] INFO root fetch - processPackages [aws-sam-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-sam-cli-1.92.0.tar.gz tmp/aws-sam-cli-1.93.0.tar.gz --markdown 20230721/a/aws-sam-cli/1.92.0-1.93.0/diff.md --exclude *.pyd
+[2023-07-21 00:42:08] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-21 00:42:08] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.5.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.6.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - main [MainThread]: End processing [responsecurve]: success
+[2023-07-21 00:42:08] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.9.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.9.1.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-21 00:42:08] INFO root fetch - processPackages [isogrids]: Remove: archive file [/home/abi/fetcher/tmp/isogrids-0.0.1.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - processPackages [isogrids]: Remove: archive file [/home/abi/fetcher/tmp/isogrids-0.0.2.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - main [MainThread]: End processing [isogrids]: success
+[2023-07-21 00:42:08] INFO root fetch - processPackages [assemblyai]: Remove: archive file [/home/abi/fetcher/tmp/assemblyai-0.8.1.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - processPackages [assemblyai]: Remove: archive file [/home/abi/fetcher/tmp/assemblyai-0.9.0.tar.gz]
+[2023-07-21 00:42:08] INFO root fetch - main [MainThread]: End processing [assemblyai]: success
+[2023-07-21 00:42:09] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-21 00:42:09] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-21 00:42:09] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-21 00:42:09] INFO root fetch - processPackages [hf-deepali]: Remove: archive file [/home/abi/fetcher/tmp/hf-deepali-0.4.0.tar.gz]
+[2023-07-21 00:42:09] INFO root fetch - processPackages [hf-deepali]: Remove: archive file [/home/abi/fetcher/tmp/hf-deepali-0.4.1.tar.gz]
+[2023-07-21 00:42:09] INFO root fetch - main [MainThread]: End processing [hf-deepali]: success
+[2023-07-21 00:42:12] INFO root fetch - processPackages [aws-sam-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-sam-cli-1.92.0.tar.gz]
+[2023-07-21 00:42:12] INFO root fetch - processPackages [aws-sam-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-sam-cli-1.93.0.tar.gz]
+[2023-07-21 00:42:12] INFO root fetch - main [MainThread]: End processing [aws-sam-cli]: success
+[2023-07-21 00:42:12] INFO root fetch - main [MainThread]: Store serial: [18973936]
