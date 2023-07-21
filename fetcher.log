@@ -18858,3 +18858,161 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:24:58] INFO root fetch - processPackages [ndtorch]: Remove: archive file [/home/abi/fetcher/tmp/ndtorch-0.1.6.tar.gz]
 [2023-07-21 11:24:58] INFO root fetch - main [MainThread]: End processing [ndtorch]: success
 [2023-07-21 11:24:58] INFO root fetch - main [MainThread]: Store serial: [18980850]
+[2023-07-21 11:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980850]
+[2023-07-21 11:30:07] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irc-api
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semversioner
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-contributor-assets
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exabel-data-sdk
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuclia
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telebot-constructor
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xtb-broker
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pystencils
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nowcasting-datamodel
+[2023-07-21 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: location-local
+[2023-07-21 11:30:07] INFO root fetch - processPackages [nuclia]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-21 11:30:07] INFO root fetch - processPackages [pystencils]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-21 11:30:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post901] Old Version: [1.0.0.post900]
+[2023-07-21 11:30:07] INFO root fetch - processPackages [irc-api]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-07-21 11:30:07] WARNING root fetch - processPackages [telebot-constructor]: Skipping, unable to determine old version
+[2023-07-21 11:30:07] INFO root fetch - processPackages [telebot-constructor]: Start processing: mintpdf
+[2023-07-21 11:30:07] INFO root fetch - main [MainThread]: End processing [telebot-constructor] error
+[2023-07-21 11:30:07] INFO root fetch - processPackages [location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:30:07] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-21 11:30:07] INFO root fetch - processPackages [xtb-broker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-21 11:30:07] INFO root fetch - processPackages [semversioner]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-21 11:30:08] INFO root fetch - processPackages [exabel-data-sdk]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-07-21 11:30:08] WARNING root fetch - processPackages [mintpdf]: Skipping, unable to determine old version
+[2023-07-21 11:30:08] INFO root fetch - processPackages [mintpdf]: Start processing: lbmpy
+[2023-07-21 11:30:08] INFO root fetch - main [MainThread]: End processing [mintpdf] error
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/48/bb/f81ab8f41e3fa872b0929ebfff3194b177bbcd10c183e7642835f1c1393b/nuclia-1.1.3.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/27/01/8d7742c91736582b6d64160f5c616451a96c7cd40b7982e952e8d7d9c534/nucliadb_contributor_assets-1.0.0.post900-py3-none-any.whl
+[2023-07-21 11:30:08] INFO root fetch - processPackages [lbmpy]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-21 11:30:08] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/6d/cb/4f9cf6ceeea5b094804c76a025ff71045e7480fc2b55dfa9d5790635d306/location-local-0.0.8.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/a7/f9/3bbe62f0c1fd2aa13e618e7aa5b74536c5d1ec2d3fca582ddecf834957d7/nowcasting_datamodel-1.5.3.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [xtb-broker]: Downloading https://files.pythonhosted.org/packages/a4/fe/2277d52dbb4b5cda55f661d60249492acb953b90898f790a4d3a7bcc17f6/xtb_broker-0.0.6.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [pystencils]: Downloading https://files.pythonhosted.org/packages/b0/b5/831877d8b7de906615f99e5d89ff51fb607e208a927d6325c653a587f05c/pystencils-1.3.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/8e/26/88cc76da419715299b090e4959aafcca9a01c064df6f8bbbc3b61e1d16dc/irc_api-1.0.4.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [exabel-data-sdk]: Downloading https://files.pythonhosted.org/packages/97/92/f34d82117432156382f42fe241482d3d5150c2eeb1295481f6b77733cac1/exabel-data-sdk-4.4.0.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [semversioner]: Downloading https://files.pythonhosted.org/packages/b4/d7/b29dfc9d9889a7c7a7ff554452a9222a8c4108e0ba0d2157782446b6c988/semversioner-1.6.0.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [lbmpy]: Downloading https://files.pythonhosted.org/packages/d1/03/ad782439730b326cd803487bbd6dddd8632e86cf14f36136eaabc51c317f/lbmpy-1.3.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/34/2a/fb42e220a0e2df4585b42e32e07079cfefac11c203461bffdb813267c647/location-local-0.0.9.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/d9/f0/dfb89d4a5a09162014bad0a886ea8538540b9ea5a8bb25d5fad0602b93ef/nuclia-1.1.4.tar.gz
+[2023-07-21 11:30:08] WARNING root fetch - processPackages [lbmpy]: Skipping package: exceeds size limit 16273146>=10485760
+[2023-07-21 11:30:08] INFO root fetch - processPackages [lbmpy]: Start processing: atproto
+[2023-07-21 11:30:08] INFO root fetch - main [MainThread]: End processing [lbmpy] error
+[2023-07-21 11:30:08] INFO root fetch - processPackages [xtb-broker]: Downloading https://files.pythonhosted.org/packages/26/dc/26d5fe67bc2ada98cbf2937ed72f3af20d51f575ce63b3b5d2b256223438/xtb_broker-0.0.7.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/de/bb/05b30c2b9fb00d41de60fb4f611a6bd1deb215898c13a481b0b4bd4af0ba/nucliadb_contributor_assets-1.0.0.post901-py3-none-any.whl
+[2023-07-21 11:30:08] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-21 11:30:08] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.8.tar.gz tmp/location-local-0.0.9.tar.gz --markdown 20230721/l/location-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:30:08] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/c7/d5/64ae8333a3094bd25155774c91151499600e71a014d71bfa54179f8998f0/nowcasting_datamodel-1.5.4.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/35/b6/c3ffbbc4de4d8d2a82e7097e4e726933cbaa5c623cc6fb934487b5914750/irc_api-1.0.6.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-1.1.3.tar.gz tmp/nuclia-1.1.4.tar.gz --markdown 20230721/n/nuclia/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-21 11:30:08] INFO root fetch - processPackages [xtb-broker]: executing diffoscope
+[2023-07-21 11:30:08] INFO root fetch - processPackages [xtb-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtb_broker-0.0.6.tar.gz tmp/xtb_broker-0.0.7.tar.gz --markdown 20230721/x/xtb-broker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-21 11:30:08] INFO root fetch - processPackages [semversioner]: Downloading https://files.pythonhosted.org/packages/8c/e0/205c0df58c8a49aef4a44b515b52bfe327b3382ee42e1b3f42d311e113d6/semversioner-1.7.0.tar.gz
+[2023-07-21 11:30:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post900-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post901-py3-none-any.whl.zip --markdown 20230721/n/nucliadb-contributor-assets/1.0.0.post900-1.0.0.post901/diff.md --exclude *.pyd
+[2023-07-21 11:30:09] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-21 11:30:09] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.5.3.tar.gz tmp/nowcasting_datamodel-1.5.4.tar.gz --markdown 20230721/n/nowcasting-datamodel/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-21 11:30:09] INFO root fetch - processPackages [exabel-data-sdk]: Downloading https://files.pythonhosted.org/packages/cd/4d/1e04e4d44a9604a927596f07ff57803a25ff454c95ca4fe79562cafc308c/exabel-data-sdk-4.5.0.tar.gz
+[2023-07-21 11:30:09] INFO root fetch - processPackages [semversioner]: executing diffoscope
+[2023-07-21 11:30:09] INFO root fetch - processPackages [semversioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semversioner-1.6.0.tar.gz tmp/semversioner-1.7.0.tar.gz --markdown 20230721/s/semversioner/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-21 11:30:09] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-07-21 11:30:09] INFO root fetch - processPackages [exabel-data-sdk]: executing diffoscope
+[2023-07-21 11:30:09] INFO root fetch - processPackages [exabel-data-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exabel-data-sdk-4.4.0.tar.gz tmp/exabel-data-sdk-4.5.0.tar.gz --markdown 20230721/e/exabel-data-sdk/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-07-21 11:30:09] INFO root fetch - processPackages [pystencils]: Downloading https://files.pythonhosted.org/packages/69/89/ac49cc8092d2951f20ad9f906fc0c42899a07f014adefb2c441013ddd7e2/pystencils-1.3.1.tar.gz
+[2023-07-21 11:30:09] INFO root fetch - processPackages [pystencils]: executing diffoscope
+[2023-07-21 11:30:09] INFO root fetch - processPackages [pystencils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystencils-1.3.tar.gz tmp/pystencils-1.3.1.tar.gz --markdown 20230721/p/pystencils/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-21 11:30:09] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-21 11:30:09] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-1.0.4.tar.gz tmp/irc_api-1.0.6.tar.gz --markdown 20230721/i/irc-api/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-07-21 11:30:09] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-07-21 11:30:09] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-07-21 11:30:09] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230721/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:30:10] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.8.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.9.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [location-local]: Start processing: waffle-box
+[2023-07-21 11:30:10] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-21 11:30:10] INFO root fetch - processPackages [waffle-box]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [waffle-box]: Downloading https://files.pythonhosted.org/packages/55/4d/450eb0a37fc4885a7966eea1e54ad228efbb32420f5737c8be6ce05d5595/waffle_box-0.0.1.tar.gz
+[2023-07-21 11:30:10] INFO root fetch - processPackages [xtb-broker]: Remove: archive file [/home/abi/fetcher/tmp/xtb_broker-0.0.6.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [xtb-broker]: Remove: archive file [/home/abi/fetcher/tmp/xtb_broker-0.0.7.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [xtb-broker]: Start processing: sd-meh
+[2023-07-21 11:30:10] INFO root fetch - main [MainThread]: End processing [xtb-broker]: success
+[2023-07-21 11:30:10] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.3.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.4.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [nuclia]: Start processing: plotnine
+[2023-07-21 11:30:10] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2023-07-21 11:30:10] INFO root fetch - processPackages [sd-meh]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [plotnine]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [semversioner]: Remove: archive file [/home/abi/fetcher/tmp/semversioner-1.6.0.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [semversioner]: Remove: archive file [/home/abi/fetcher/tmp/semversioner-1.7.0.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [semversioner]: Start processing: BioTEMPy
+[2023-07-21 11:30:10] INFO root fetch - main [MainThread]: End processing [semversioner]: success
+[2023-07-21 11:30:10] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.3.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.4.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [nowcasting-datamodel]: Start processing: french-cities
+[2023-07-21 11:30:10] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-21 11:30:10] INFO root fetch - processPackages [BioTEMPy]: New version: [2.1.0a0] Old Version: [2.1.0]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/24/bc/81ab5f3a088c6ae225fdee363d049c2a5da3f553983eb7628efa0f0c7ff8/sd_meh-0.8.0.tar.gz
+[2023-07-21 11:30:10] INFO root fetch - processPackages [waffle-box]: Downloading https://files.pythonhosted.org/packages/f9/4b/90cf343c3205953ae2109d4ac420aff2f9e60f78c2656c455f96f003df4c/waffle_box-0.0.2.tar.gz
+[2023-07-21 11:30:10] INFO root fetch - processPackages [french-cities]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [plotnine]: Downloading https://files.pythonhosted.org/packages/03/30/358ad9133542f35888c3d20c064f4b19bfc6f3fb481cdc9b1018f8c36295/plotnine-0.8.0.tar.gz
+[2023-07-21 11:30:10] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.4.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.6.tar.gz]
+[2023-07-21 11:30:10] INFO root fetch - processPackages [irc-api]: Start processing: ophyd-devices
+[2023-07-21 11:30:10] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-21 11:30:10] INFO root fetch - processPackages [BioTEMPy]: Downloading https://files.pythonhosted.org/packages/e2/66/6399d7aa399a40421712667d272c3a6e553db0de751536225d18856c4b54/BioTEMPy-2.1.0.tar.gz
+[2023-07-21 11:30:10] INFO root fetch - processPackages [waffle-box]: executing diffoscope
+[2023-07-21 11:30:10] INFO root fetch - processPackages [waffle-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_box-0.0.1.tar.gz tmp/waffle_box-0.0.2.tar.gz --markdown 20230721/w/waffle-box/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 11:30:10] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/d3/41/816cb9baf19e966fc5325df99086e402a5f0db39a7df31f0dacf87915771/french_cities-0.1.0a4.tar.gz
+[2023-07-21 11:30:11] INFO root fetch - processPackages [ophyd-devices]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-21 11:30:11] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/a1/56/d0c984cd3eb54c0ee62a93a27a8e0af0cf389eb85ac4cd936b97c0d3efb8/sd_meh-0.9.0.tar.gz
+[2023-07-21 11:30:11] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/49/bf/b360a94ecdc89dcd06088ceee1a9195b8c525f374bd76a4333858c9f627f/ophyd_devices-0.2.0.tar.gz
+[2023-07-21 11:30:11] INFO root fetch - processPackages [BioTEMPy]: Downloading https://files.pythonhosted.org/packages/c4/a5/980f6878900df3ce31eb7a4938d855e8bf62641ed8c2d14c24a6dc857065/BioTEMPy-2.1.0a0.tar.gz
+[2023-07-21 11:30:11] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-07-21 11:30:11] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.8.0.tar.gz tmp/sd_meh-0.9.0.tar.gz --markdown 20230721/s/sd-meh/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 11:30:11] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/db/cb/fa3e629880e3b7c718f54e0d63ea379578a02133f8746df74ded23e915ed/french_cities-0.1.0a5.tar.gz
+[2023-07-21 11:30:11] INFO root fetch - processPackages [BioTEMPy]: executing diffoscope
+[2023-07-21 11:30:11] INFO root fetch - processPackages [BioTEMPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioTEMPy-2.1.0.tar.gz tmp/BioTEMPy-2.1.0a0.tar.gz --markdown 20230721/B/BioTEMPy/2.1.0-2.1.0a0/diff.md --exclude *.pyd
+[2023-07-21 11:30:11] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2023-07-21 11:30:11] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.0a4.tar.gz tmp/french_cities-0.1.0a5.tar.gz --markdown 20230721/f/french-cities/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-21 11:30:11] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/cf/96/1fce5e25214156206054838fb2816f7f55cd75925d6a9d003a995f71c536/ophyd_devices-0.2.1.tar.gz
+[2023-07-21 11:30:11] INFO root fetch - processPackages [waffle-box]: Remove: archive file [/home/abi/fetcher/tmp/waffle_box-0.0.1.tar.gz]
+[2023-07-21 11:30:11] INFO root fetch - processPackages [waffle-box]: Remove: archive file [/home/abi/fetcher/tmp/waffle_box-0.0.2.tar.gz]
+[2023-07-21 11:30:11] INFO root fetch - main [MainThread]: End processing [waffle-box]: success
+[2023-07-21 11:30:11] INFO root fetch - processPackages [ophyd-devices]: executing diffoscope
+[2023-07-21 11:30:11] INFO root fetch - processPackages [ophyd-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_devices-0.2.0.tar.gz tmp/ophyd_devices-0.2.1.tar.gz --markdown 20230721/o/ophyd-devices/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-21 11:30:12] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.8.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-07-21 11:30:12] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.8.0.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.9.0.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-07-21 11:30:12] INFO root fetch - processPackages [exabel-data-sdk]: Remove: archive file [/home/abi/fetcher/tmp/exabel-data-sdk-4.4.0.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - processPackages [exabel-data-sdk]: Remove: archive file [/home/abi/fetcher/tmp/exabel-data-sdk-4.5.0.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - main [MainThread]: End processing [exabel-data-sdk]: success
+[2023-07-21 11:30:12] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a4.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a5.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2023-07-21 11:30:12] INFO root fetch - processPackages [BioTEMPy]: Remove: archive file [/home/abi/fetcher/tmp/BioTEMPy-2.1.0.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - processPackages [BioTEMPy]: Remove: archive file [/home/abi/fetcher/tmp/BioTEMPy-2.1.0a0.tar.gz]
+[2023-07-21 11:30:12] INFO root fetch - main [MainThread]: End processing [BioTEMPy]: success
+[2023-07-21 11:30:12] INFO root fetch - processPackages [plotnine]: Downloading https://files.pythonhosted.org/packages/59/55/73deed34f0c58eafd563f95b0dfa990f0c4a4e05bb6b0ee781f4f722726d/plotnine-0.9.0.tar.gz
+[2023-07-21 11:30:13] INFO root fetch - processPackages [pystencils]: Remove: archive file [/home/abi/fetcher/tmp/pystencils-1.3.tar.gz]
+[2023-07-21 11:30:13] INFO root fetch - processPackages [pystencils]: Remove: archive file [/home/abi/fetcher/tmp/pystencils-1.3.1.tar.gz]
+[2023-07-21 11:30:13] INFO root fetch - main [MainThread]: End processing [pystencils]: success
+[2023-07-21 11:30:13] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.2.0.tar.gz]
+[2023-07-21 11:30:13] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.2.1.tar.gz]
+[2023-07-21 11:30:13] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
+[2023-07-21 11:30:14] INFO root fetch - processPackages [plotnine]: executing diffoscope
+[2023-07-21 11:30:14] INFO root fetch - processPackages [plotnine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotnine-0.8.0.tar.gz tmp/plotnine-0.9.0.tar.gz --markdown 20230721/p/plotnine/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 11:30:17] INFO root fetch - processPackages [plotnine]: Remove: archive file [/home/abi/fetcher/tmp/plotnine-0.8.0.tar.gz]
+[2023-07-21 11:30:17] INFO root fetch - processPackages [plotnine]: Remove: archive file [/home/abi/fetcher/tmp/plotnine-0.9.0.tar.gz]
+[2023-07-21 11:30:17] INFO root fetch - main [MainThread]: End processing [plotnine]: success
+[2023-07-21 11:30:22] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post900-py3-none-any.whl.zip]
+[2023-07-21 11:30:22] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post901-py3-none-any.whl.zip]
+[2023-07-21 11:30:22] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-21 11:30:22] INFO root fetch - main [MainThread]: Store serial: [18980909]
