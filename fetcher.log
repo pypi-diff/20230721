@@ -13131,3 +13131,110 @@
 [2023-07-21 06:16:54] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.5.5.tar.gz]
 [2023-07-21 06:16:54] INFO root fetch - main [MainThread]: End processing [plothist]: success
 [2023-07-21 06:16:54] INFO root fetch - main [MainThread]: Store serial: [18978504]
+[2023-07-21 06:21:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978504]
+[2023-07-21 06:22:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcloud-storage-manager
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mgmtsystem-audit
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsrs4anki-optimizer
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyrebird
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thelogger
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo11-addon-mrp-multi-level
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-mrp-multi-level
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: garth
+[2023-07-21 06:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oloren
+[2023-07-21 06:22:04] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [9.0.4] Old Version: [9.0.3]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [thelogger]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo-addon-mgmtsystem-audit]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [gcloud-storage-manager]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo11-addon-mrp-multi-level]: New version: [11.0.3.3.0.99.dev2] Old Version: [11.0.3.3.0.99.dev1]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.3.0] Old Version: [4.2.1]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [lyrebird]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [garth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: New version: [13.0.1.9.0] Old Version: [13.0.1.8.4.dev1]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [gcloud-storage-manager]: Downloading https://files.pythonhosted.org/packages/8c/be/55e5c1d33d9eddd97cd6687893e4c71f6760b1bb70811dc2e8df75662261/gcloud-storage-manager-0.1.1.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/dd/98/e22205c9551682216f09cf05f7b8fe77fc73bff3c572ba9cebe364c5e44a/fsrs4anki_optimizer-4.2.1.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/f3/0b/618a584059ca2c0e36474633c849e51206f8f3c63e684ec0e29f6e6bea60/thelogger-0.3.1-py3-none-any.whl
+[2023-07-21 06:22:04] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/59/1f/ccec48bb8e425440fcadcfe49deb6fe79e9247fbab536db5fa11af2784b2/cdktf-cdktf-provider-azurerm-9.0.3.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo11-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/70/46/241077aec8b458dadaed86fe5b65b18a77165de40e8c12fca1f2a4f9510f/odoo11_addon_mrp_multi_level-11.0.3.3.0.99.dev1-py2.py3-none-any.whl
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo-addon-mgmtsystem-audit]: Downloading https://files.pythonhosted.org/packages/87/48/b3894bbad8b75bac0d8b36eaed78df27075059bac4e4b2a33f16c2d2734f/odoo_addon_mgmtsystem_audit-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-21 06:22:04] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/41/e4/5c761d7438ab1ac76dfbdcf8829323f3aff92edb58871f556db61c125a2c/garth-0.1.8.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/06/13/4ab9bba5638766ee4616a2f79ef2b14a6cc420f30ee45746325841de3068/lyrebird-2.9.1.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/35/f8/e462fdad5e63aa086fadee3b812248651b5d07607a33a3f305f6829e9e8e/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl
+[2023-07-21 06:22:04] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 31056295>=10485760
+[2023-07-21 06:22:04] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Start processing: odoo14-addon-mrp-multi-level
+[2023-07-21 06:22:04] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-07-21 06:22:04] INFO root fetch - processPackages [gcloud-storage-manager]: Downloading https://files.pythonhosted.org/packages/38/fb/5e1c3fcca879cdcb7cb21d26d5fa967d7db75eea070daebe00f9752d940c/gcloud-storage-manager-0.1.2.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1]
+[2023-07-21 06:22:04] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/a8/48/b00f70f9aff0374bb892e12e0f8443bdf4652caed22aab723f0a6d60cbba/fsrs4anki_optimizer-4.3.0.tar.gz
+[2023-07-21 06:22:04] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/0d/5a/9ac2edf6ded6fe6cf1a7323f3787efd26e8574e91c3d2d5f9390530c6889/thelogger-0.3.2-py3-none-any.whl
+[2023-07-21 06:22:04] INFO root fetch - processPackages [gcloud-storage-manager]: executing diffoscope
+[2023-07-21 06:22:04] INFO root fetch - processPackages [gcloud-storage-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud-storage-manager-0.1.1.tar.gz tmp/gcloud-storage-manager-0.1.2.tar.gz --markdown 20230721/g/gcloud-storage-manager/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 06:22:04] INFO root fetch - processPackages [odoo11-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/2f/c8/52ea6a95802b0370f1db6d3da63dc9cdb57f70b52c5d3b1d9bde49aa849f/odoo11_addon_mrp_multi_level-11.0.3.3.0.99.dev2-py2.py3-none-any.whl
+[2023-07-21 06:22:05] INFO root fetch - processPackages [thelogger]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [thelogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thelogger-0.3.1-py3-none-any.whl.zip tmp/thelogger-0.3.2-py3-none-any.whl.zip --markdown 20230721/t/thelogger/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo-addon-mgmtsystem-audit]: Downloading https://files.pythonhosted.org/packages/0d/4b/5ea74486d67ae6c7aec8104dc153e72ff1d9e88be1285b220568b429f7b1/odoo_addon_mgmtsystem_audit-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-21 06:22:05] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-4.2.1.tar.gz tmp/fsrs4anki_optimizer-4.3.0.tar.gz --markdown 20230721/f/fsrs4anki-optimizer/4.2.1-4.3.0/diff.md --exclude *.pyd
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/27/03/4310ba971dc95afc05e2f77cb8939920e7a20bea4534f297c5d6d9acbce2/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl
+[2023-07-21 06:22:05] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/c4/87/dd51ac50e07f0c6aa28dd3c6a1612f7faeaa7c63d8ce1ae0dcc0efbd1fd0/garth-0.1.9.tar.gz
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/d2/f7/a360bfb9fe4a2408e779d47fa013cd4b2def0c1085c115f2c9b7433fc592/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo11-addon-mrp-multi-level]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo11-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_mrp_multi_level-11.0.3.3.0.99.dev1-py2.py3-none-any.whl.zip tmp/odoo11_addon_mrp_multi_level-11.0.3.3.0.99.dev2-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-mrp-multi-level/11.0.3.3.0.99.dev1-11.0.3.3.0.99.dev2/diff.md --exclude *.pyd
+[2023-07-21 06:22:05] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230721/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo-addon-mgmtsystem-audit]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo-addon-mgmtsystem-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_audit-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_audit-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-mgmtsystem-audit/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-21 06:22:05] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.1.8.tar.gz tmp/garth-0.1.9.tar.gz --markdown 20230721/g/garth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl.zip tmp/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl.zip --markdown 20230721/o/odoo13-addon-mrp-multi-level/13.0.1.8.4.dev1-13.0.1.9.0/diff.md --exclude *.pyd
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/73/c1/ef9e846f2158c75b1453aca3e9412c8844732f43768791438fd14ad4a409/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: executing diffoscope
+[2023-07-21 06:22:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-mrp-multi-level/14.0.1.8.1-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-07-21 06:22:06] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.3.1-py3-none-any.whl.zip]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.3.2-py3-none-any.whl.zip]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [thelogger]: Start processing: odoo-addon-mrp-multi-level
+[2023-07-21 06:22:06] INFO root fetch - main [MainThread]: End processing [thelogger]: success
+[2023-07-21 06:22:06] INFO root fetch - processPackages [gcloud-storage-manager]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-storage-manager-0.1.1.tar.gz]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [gcloud-storage-manager]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-storage-manager-0.1.2.tar.gz]
+[2023-07-21 06:22:06] INFO root fetch - main [MainThread]: End processing [gcloud-storage-manager]: success
+[2023-07-21 06:22:06] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.2.1.tar.gz]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.3.0.tar.gz]
+[2023-07-21 06:22:06] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-21 06:22:06] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.5] Old Version: [16.0.1.2.0.4]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2023-07-21 06:22:06] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.8.tar.gz]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.9.tar.gz]
+[2023-07-21 06:22:06] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-21 06:22:06] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/3e/0c/d0669197f1df5e7a333fb762b26a621836cffd55e4945b83c2023ac83e3d/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl
+[2023-07-21 06:22:06] INFO root fetch - processPackages [odoo-addon-mgmtsystem-audit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_audit-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [odoo-addon-mgmtsystem-audit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_audit-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-21 06:22:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-audit]: success
+[2023-07-21 06:22:06] INFO root fetch - processPackages [odoo11-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_mrp_multi_level-11.0.3.3.0.99.dev1-py2.py3-none-any.whl.zip]
+[2023-07-21 06:22:06] INFO root fetch - processPackages [odoo11-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_mrp_multi_level-11.0.3.3.0.99.dev2-py2.py3-none-any.whl.zip]
+[2023-07-21 06:22:06] INFO root fetch - main [MainThread]: End processing [odoo11-addon-mrp-multi-level]: success
+[2023-07-21 06:22:07] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl.zip]
+[2023-07-21 06:22:07] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-21 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mrp-multi-level]: success
+[2023-07-21 06:22:07] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/86/f7/eb566aca489fbb817f3bcb186ce1b7b0369b3b9701dd5c221102b321ac3f/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl
+[2023-07-21 06:22:07] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip]
+[2023-07-21 06:22:07] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-21 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-multi-level]: success
+[2023-07-21 06:22:07] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-07-21 06:22:07] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-mrp-multi-level/16.0.1.2.0.4-16.0.1.2.0.5/diff.md --exclude *.pyd
+[2023-07-21 06:22:08] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2023-07-21 06:22:08] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip]
+[2023-07-21 06:22:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-07-21 06:22:08] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2023-07-21 06:22:08] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.1.tar.gz tmp/lyrebird-2.9.2.tar.gz --markdown 20230721/l/lyrebird/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-21 06:22:10] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-21 06:22:10] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-21 06:22:10] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-21 06:22:10] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.1.tar.gz]
+[2023-07-21 06:22:10] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
+[2023-07-21 06:22:10] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2023-07-21 06:22:10] INFO root fetch - main [MainThread]: Store serial: [18978540]
