@@ -14950,3 +14950,122 @@
 [2023-07-21 08:17:22] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc4.tar.gz]
 [2023-07-21 08:17:22] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-07-21 08:17:22] INFO root fetch - main [MainThread]: Store serial: [18979224]
+[2023-07-21 08:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979224]
+[2023-07-21 08:22:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pz7z8
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CodeToCAD
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cookiecutter-pypackage-instance
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ant1Interface
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyttee
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argus-rico
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-dogu-sdk
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sshoot
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: megfile
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pso2keras
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pz7z8]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1689920227]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [megfile]: New version: [2.1.4] Old Version: [2.1.3.post1]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [argus-rico]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pso2keras]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pytest-dogu-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pyttee]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [sshoot]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pz7z8]: Downloading https://files.pythonhosted.org/packages/87/e3/861a3c9ac47bfa6c632b133e4395000ac0c5a85de3fa8fe0cad86b7806bb/pz7z8-0.1.2.tar.gz
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pytest-dogu-sdk]: Downloading https://files.pythonhosted.org/packages/c1/32/6e10aed874b52e16952f9d105b258977dbfb939684cfd4943bb55f45a89c/pytest_dogu_sdk-1.0.1.tar.gz
+[2023-07-21 08:22:33] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Downloading https://files.pythonhosted.org/packages/96/dc/7c72ff7fedc4f497280a474805f32061bdb2352f66cc3d992f1092e49c7f/cookiecutter_pypackage_instance-1.0.2.tar.gz
+[2023-07-21 08:22:33] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/c7/67/b2d3f03bf8aeda856b0e7e1e1e866457cadfa4656e988d672e01b5ce3c60/CodeToCAD-0.2.1689920227.tar.gz
+[2023-07-21 08:22:33] INFO root fetch - processPackages [sshoot]: Downloading https://files.pythonhosted.org/packages/f4/0a/2814e1f0d3eaafc752d587dcc09868af29cbc469e4bbd9a4118b2e02ab0a/sshoot-1.5.1.tar.gz
+[2023-07-21 08:22:33] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/13/45/9b77a866b31777b12a56676a7e74a2c35cadf0b2d082af5122716ef9eb14/megfile-2.1.3.post1-py3-none-any.whl
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pyttee]: Downloading https://files.pythonhosted.org/packages/b0/ca/9b851064b0e065397a0d7043000c08613b3ac10294db623e88e5d5c02614/pyttee-0.1.1.tar.gz
+[2023-07-21 08:22:33] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-07-21 08:22:33] INFO root fetch - processPackages [pso2keras]: Downloading https://files.pythonhosted.org/packages/98/34/41cd27feb5afd97c19a49aad3234b580b3e378b5fbf410df86e869390ed9/pso2keras-0.1.3-py3-none-any.whl
+[2023-07-21 08:22:34] INFO root fetch - processPackages [argus-rico]: Downloading https://files.pythonhosted.org/packages/e6/d8/eb6229a897c589ba6c0c0e52c46de59addc64ceff33745df2c8883e71b7c/argus_rico-0.1.0.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [argus-rico]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [argus-rico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_rico-0.0.6.tar.gz tmp/argus_rico-0.1.0.tar.gz --markdown 20230721/a/argus-rico/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pz7z8]: Downloading https://files.pythonhosted.org/packages/e6/22/b873078f873d766b056b12f98972f25a6b866c21ad18da1584582bdd7355/pz7z8-0.1.3.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pytest-dogu-sdk]: Downloading https://files.pythonhosted.org/packages/54/e5/054d170d7ca73bce862f9ab8c5dfbc90b4e100ef3550952d6d3d132c8280/pytest_dogu_sdk-1.0.2.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Downloading https://files.pythonhosted.org/packages/8e/9d/ade6e85028398ae9562d66083c1bb1b3e81e71619675d3f822fe4e184a17/cookiecutter_pypackage_instance-1.1.0.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pyttee]: Downloading https://files.pythonhosted.org/packages/b5/a1/a2c3fc680f3c6461db6c9f1d97031231466099fb32ad0ed68516038928ae/pyttee-0.1.2.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pz7z8]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pz7z8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz7z8-0.1.2.tar.gz tmp/pz7z8-0.1.3.tar.gz --markdown 20230721/p/pz7z8/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pso2keras]: Downloading https://files.pythonhosted.org/packages/0f/44/5f82672b91b2e2cbdf6bc090ddee34ff3cb0ed04d6ea77915630272fa7f5/pso2keras-0.1.4.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/85/13/0d015a5372d381040db2690be5234fb52eeddcc05ca29763760f165d71ef/megfile-2.1.4-py3-none-any.whl
+[2023-07-21 08:22:34] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1689920227.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230721/C/CodeToCAD/0.2.1689920227-0.2.6/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [sshoot]: Downloading https://files.pythonhosted.org/packages/13/6f/3bfd59898c1de719561673658eac85ea9e01354129b507fbc69ecbee5588/sshoot-1.6.0.tar.gz
+[2023-07-21 08:22:34] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pytest-dogu-sdk]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pytest-dogu-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dogu_sdk-1.0.1.tar.gz tmp/pytest_dogu_sdk-1.0.2.tar.gz --markdown 20230721/p/pytest-dogu-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookiecutter_pypackage_instance-1.0.2.tar.gz tmp/cookiecutter_pypackage_instance-1.1.0.tar.gz --markdown 20230721/c/cookiecutter-pypackage-instance/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pyttee]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pyttee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyttee-0.1.1.tar.gz tmp/pyttee-0.1.2.tar.gz --markdown 20230721/p/pyttee/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.1.3.post1-py3-none-any.whl.zip tmp/megfile-2.1.4-py3-none-any.whl.zip --markdown 20230721/m/megfile/2.1.3.post1-2.1.4/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [sshoot]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [sshoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshoot-1.5.1.tar.gz tmp/sshoot-1.6.0.tar.gz --markdown 20230721/s/sshoot/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pso2keras]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [pso2keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pso2keras-0.1.3-py3-none-any.whl.zip tmp/pso2keras-0.1.4.tar.gz --markdown 20230721/p/pso2keras/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-21 08:22:34] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-07-21 08:22:34] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230721/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 08:22:35] INFO root fetch - processPackages [argus-rico]: Remove: archive file [/home/abi/fetcher/tmp/argus_rico-0.0.6.tar.gz]
+[2023-07-21 08:22:35] INFO root fetch - processPackages [argus-rico]: Remove: archive file [/home/abi/fetcher/tmp/argus_rico-0.1.0.tar.gz]
+[2023-07-21 08:22:35] INFO root fetch - processPackages [argus-rico]: Start processing: customdbcred
+[2023-07-21 08:22:35] INFO root fetch - main [MainThread]: End processing [argus-rico]: success
+[2023-07-21 08:22:35] INFO root fetch - processPackages [customdbcred]: New version: [0.5] Old Version: [0.4]
+[2023-07-21 08:22:35] INFO root fetch - processPackages [pz7z8]: Remove: archive file [/home/abi/fetcher/tmp/pz7z8-0.1.2.tar.gz]
+[2023-07-21 08:22:35] INFO root fetch - processPackages [pz7z8]: Remove: archive file [/home/abi/fetcher/tmp/pz7z8-0.1.3.tar.gz]
+[2023-07-21 08:22:35] INFO root fetch - processPackages [pz7z8]: Start processing: lbsnstructure
+[2023-07-21 08:22:35] INFO root fetch - main [MainThread]: End processing [pz7z8]: success
+[2023-07-21 08:22:35] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/7a/ab/fd11558ab7d344008776cea9f0747d4fd102f59a7670935bcb1cc1f7de24/customdbcred-0.4.tar.gz
+[2023-07-21 08:22:36] INFO root fetch - processPackages [lbsnstructure]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pytest-dogu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_sdk-1.0.1.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pytest-dogu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_sdk-1.0.2.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pytest-dogu-sdk]: Start processing: pyquafu
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [pytest-dogu-sdk]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/3b/e1/9b59af9f89b67a923155952603401ff5a23b75561973b60a2a52ba5a83de/customdbcred-0.5.tar.gz
+[2023-07-21 08:22:36] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Remove: archive file [/home/abi/fetcher/tmp/cookiecutter_pypackage_instance-1.0.2.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Remove: archive file [/home/abi/fetcher/tmp/cookiecutter_pypackage_instance-1.1.0.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [cookiecutter-pypackage-instance]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [lbsnstructure]: Downloading https://files.pythonhosted.org/packages/17/63/84e8958f95ae672cb012aaeaa89ff3b44c1cf98600d899b45566bec4d93b/lbsnstructure-1.2.0.tar.gz
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pyquafu]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pso2keras]: Remove: archive file [/home/abi/fetcher/tmp/pso2keras-0.1.3-py3-none-any.whl.zip]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pso2keras]: Remove: archive file [/home/abi/fetcher/tmp/pso2keras-0.1.4.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [pso2keras]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pyttee]: Remove: archive file [/home/abi/fetcher/tmp/pyttee-0.1.1.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pyttee]: Remove: archive file [/home/abi/fetcher/tmp/pyttee-0.1.2.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [pyttee]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1689920227.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [customdbcred]: executing diffoscope
+[2023-07-21 08:22:36] INFO root fetch - processPackages [customdbcred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customdbcred-0.4.tar.gz tmp/customdbcred-0.5.tar.gz --markdown 20230721/c/customdbcred/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-21 08:22:36] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/54/54/c50213a7845f4e2d33bcb0344d17e4f688d47981ca05c323f614f3f68742/pyquafu-0.2.9-cp39-cp39-win_amd64.whl
+[2023-07-21 08:22:36] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.3.post1-py3-none-any.whl.zip]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.4-py3-none-any.whl.zip]
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [sshoot]: Remove: archive file [/home/abi/fetcher/tmp/sshoot-1.5.1.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [sshoot]: Remove: archive file [/home/abi/fetcher/tmp/sshoot-1.6.0.tar.gz]
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [sshoot]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [lbsnstructure]: Downloading https://files.pythonhosted.org/packages/2f/64/fb770bee74bc2a7777bf4ee935c3006dd2edec833b73709016037d662a6c/lbsnstructure-1.3.0.tar.gz
+[2023-07-21 08:22:36] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.7-py3-none-any.whl.zip]
+[2023-07-21 08:22:36] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.9-py3-none-any.whl.zip]
+[2023-07-21 08:22:36] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-07-21 08:22:36] INFO root fetch - processPackages [lbsnstructure]: executing diffoscope
+[2023-07-21 08:22:36] INFO root fetch - processPackages [lbsnstructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbsnstructure-1.2.0.tar.gz tmp/lbsnstructure-1.3.0.tar.gz --markdown 20230721/l/lbsnstructure/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-21 08:22:37] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/05/c0/792bcd9912b01f463291f9ab1d17e484e2896601daf5e2c3a525b85d496c/pyquafu-0.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 08:22:37] INFO root fetch - processPackages [customdbcred]: Remove: archive file [/home/abi/fetcher/tmp/customdbcred-0.4.tar.gz]
+[2023-07-21 08:22:37] INFO root fetch - processPackages [customdbcred]: Remove: archive file [/home/abi/fetcher/tmp/customdbcred-0.5.tar.gz]
+[2023-07-21 08:22:37] INFO root fetch - main [MainThread]: End processing [customdbcred]: success
+[2023-07-21 08:22:37] INFO root fetch - processPackages [pyquafu]: executing diffoscope
+[2023-07-21 08:22:37] INFO root fetch - processPackages [pyquafu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquafu-0.2.9-cp39-cp39-win_amd64.whl.zip tmp/pyquafu-0.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230721/p/pyquafu/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-21 08:22:37] INFO root fetch - processPackages [lbsnstructure]: Remove: archive file [/home/abi/fetcher/tmp/lbsnstructure-1.2.0.tar.gz]
+[2023-07-21 08:22:37] INFO root fetch - processPackages [lbsnstructure]: Remove: archive file [/home/abi/fetcher/tmp/lbsnstructure-1.3.0.tar.gz]
+[2023-07-21 08:22:37] INFO root fetch - main [MainThread]: End processing [lbsnstructure]: success
+[2023-07-21 08:22:38] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 08:22:38] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-21 08:22:38] INFO root fetch - main [MainThread]: End processing [pyquafu]: success
+[2023-07-21 08:22:38] INFO root fetch - main [MainThread]: Store serial: [18979261]
