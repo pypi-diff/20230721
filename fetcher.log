@@ -13073,3 +13073,61 @@
 [2023-07-21 06:11:43] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.1.dev20230720.tar.gz]
 [2023-07-21 06:11:43] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-07-21 06:11:43] INFO root fetch - main [MainThread]: Store serial: [18978483]
+[2023-07-21 06:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978483]
+[2023-07-21 06:16:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 06:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AllyInvestPy
+[2023-07-21 06:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiderx
+[2023-07-21 06:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-ecs-fargate-task-termination-detection-event-rule
+[2023-07-21 06:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-maintenance-equipment-status
+[2023-07-21 06:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plothist
+[2023-07-21 06:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-maintenance-equipment-status
+[2023-07-21 06:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-maintenance-equipment-status
+[2023-07-21 06:16:52] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-07-21 06:16:52] INFO root fetch - processPackages [AllyInvestPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 06:16:52] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-07-21 06:16:52] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-07-21 06:16:52] INFO root fetch - processPackages [plothist]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-21 06:16:52] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-status]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev4]
+[2023-07-21 06:16:52] WARNING root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Skipping, unable to determine old version
+[2023-07-21 06:16:52] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ecs-fargate-task-termination-detection-event-rule] error
+[2023-07-21 06:16:52] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/6f/da/24ca742749446672cda5b228a1c3001a5793751290e0d1b7f0f51714c53b/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-21 06:16:52] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/6f/da/24ca742749446672cda5b228a1c3001a5793751290e0d1b7f0f51714c53b/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-21 06:16:52] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/67/1f/da8d0e1549000d866adf647d3d57b09b0c01fc3ff6fed99c8af2461b7d7f/AllyInvestPy-1.0.8.tar.gz
+[2023-07-21 06:16:52] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/ac/64/bc710c664575780376e0d3466c32c9b5c08be94ad813ebe60d9042f61f3e/plothist-0.5.4.tar.gz
+[2023-07-21 06:16:52] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-07-21 06:16:52] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/99/e8/619542196bed187a38e288c8fd20e20865091879190fc33a55d213a4646f/odoo14_addon_maintenance_equipment_status-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/87/01/ac29034d2a8dec3116d5362707f7ac6c1b1b15ecd81d65b4cf9d01e01c59/odoo_addon_maintenance_equipment_status-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/87/01/ac29034d2a8dec3116d5362707f7ac6c1b1b15ecd81d65b4cf9d01e01c59/odoo_addon_maintenance_equipment_status-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-21 06:16:53] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/d4/c9/0e5229dbc3dee942e41c231c49691c86c84144823f12cf43c1fe77f2a0db/AllyInvestPy-1.0.9.tar.gz
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: executing diffoscope
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-maintenance-equipment-status/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: executing diffoscope
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-maintenance-equipment-status/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-21 06:16:53] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/9a/f4/981aaf59e2d0a18cebb54a9c72eca436c6a0489fa3987fd75a1f5a9faee4/plothist-0.5.5.tar.gz
+[2023-07-21 06:16:53] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/bc/63/8a6f2030d3e92b651b2d7aadebf2156df8445be9843299f6c1e1de3926bb/odoo14_addon_maintenance_equipment_status-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-21 06:16:53] INFO root fetch - processPackages [AllyInvestPy]: executing diffoscope
+[2023-07-21 06:16:53] INFO root fetch - processPackages [AllyInvestPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AllyInvestPy-1.0.8.tar.gz tmp/AllyInvestPy-1.0.9.tar.gz --markdown 20230721/A/AllyInvestPy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 06:16:53] INFO root fetch - processPackages [plothist]: executing diffoscope
+[2023-07-21 06:16:53] INFO root fetch - processPackages [plothist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plothist-0.5.4.tar.gz tmp/plothist-0.5.5.tar.gz --markdown 20230721/p/plothist/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-21 06:16:53] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-07-21 06:16:53] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230721/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-status]: executing diffoscope
+[2023-07-21 06:16:53] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_maintenance_equipment_status-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_maintenance_equipment_status-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-maintenance-equipment-status/14.0.1.1.1.dev4-14.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-07-21 06:16:54] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-21 06:16:54] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-21 06:16:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-status]: success
+[2023-07-21 06:16:54] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.8.tar.gz]
+[2023-07-21 06:16:54] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.9.tar.gz]
+[2023-07-21 06:16:54] INFO root fetch - main [MainThread]: End processing [AllyInvestPy]: success
+[2023-07-21 06:16:54] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-07-21 06:16:54] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-07-21 06:16:54] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-07-21 06:16:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-status]: success
+[2023-07-21 06:16:54] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_maintenance_equipment_status-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-07-21 06:16:54] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_maintenance_equipment_status-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-21 06:16:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-maintenance-equipment-status]: success
+[2023-07-21 06:16:54] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.5.4.tar.gz]
+[2023-07-21 06:16:54] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.5.5.tar.gz]
+[2023-07-21 06:16:54] INFO root fetch - main [MainThread]: End processing [plothist]: success
+[2023-07-21 06:16:54] INFO root fetch - main [MainThread]: Store serial: [18978504]
