@@ -13298,3 +13298,51 @@
 [2023-07-21 06:27:22] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.6-py3-none-any.whl.zip]
 [2023-07-21 06:27:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
 [2023-07-21 06:27:22] INFO root fetch - main [MainThread]: Store serial: [18978566]
+[2023-07-21 06:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978566]
+[2023-07-21 06:32:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiveviewer
+[2023-07-21 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caqui
+[2023-07-21 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cbquant
+[2023-07-21 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxcoder
+[2023-07-21 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-url-tokenizer
+[2023-07-21 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Flask-SQL-Pro
+[2023-07-21 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genius-chatbot
+[2023-07-21 06:32:31] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 06:32:31] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 06:32:31] WARNING root fetch - processPackages [cbquant]: Skipping, unable to determine old version
+[2023-07-21 06:32:31] INFO root fetch - main [MainThread]: End processing [cbquant] error
+[2023-07-21 06:32:31] INFO root fetch - processPackages [hiveviewer]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-21 06:32:31] INFO root fetch - processPackages [caqui]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-07-21 06:32:31] WARNING root fetch - processPackages [pyxcoder]: Skipping, unable to determine old version
+[2023-07-21 06:32:31] INFO root fetch - main [MainThread]: End processing [pyxcoder] error
+[2023-07-21 06:32:31] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 06:32:31] INFO root fetch - processPackages [genius-chatbot]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-07-21 06:32:31] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-21 06:32:31] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/53/b0/f0a920e140303ee652c2fa836c47f1842ac608dc089c7de97ffe8f7376d4/caqui-2.0.0rc1.tar.gz
+[2023-07-21 06:32:31] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/3d/b9/5f96440b7d4f0745736bba8f10f6130db974720c8a19ca7f5ffc886d6731/hiveviewer-0.0.2.tar.gz
+[2023-07-21 06:32:31] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/ae/8b/6e2f4ceaf650b897adfbf0fabe8864860c4b03fe535fd4c9dcdcdfbd7a13/genius_chatbot-0.6.0-py2.py3-none-any.whl
+[2023-07-21 06:32:31] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-21 06:32:32] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-21 06:32:32] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230721/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 06:32:32] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/9f/f7/32995933525bf72c991eee8381f612c171ea811301928d81c03efd179463/hiveviewer-0.1.0.tar.gz
+[2023-07-21 06:32:32] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/c2/39/97ec9478781d9254d97752c28a8fd7481f38a0199b21f82d320010250887/genius_chatbot-0.9.0-py2.py3-none-any.whl
+[2023-07-21 06:32:32] INFO root fetch - processPackages [hiveviewer]: executing diffoscope
+[2023-07-21 06:32:32] INFO root fetch - processPackages [hiveviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiveviewer-0.0.2.tar.gz tmp/hiveviewer-0.1.0.tar.gz --markdown 20230721/h/hiveviewer/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 06:32:32] INFO root fetch - processPackages [genius-chatbot]: executing diffoscope
+[2023-07-21 06:32:32] INFO root fetch - processPackages [genius-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230721/g/genius-chatbot/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 06:32:32] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/fe/ef/4af8dd5a7e86364bfbe3f5a322b13c3e284fef45f34db5f8dba7422bef23/caqui-2.0.0rc2.tar.gz
+[2023-07-21 06:32:32] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-21 06:32:32] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-21 06:32:32] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-21 06:32:33] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip]
+[2023-07-21 06:32:33] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 06:32:33] INFO root fetch - main [MainThread]: End processing [genius-chatbot]: success
+[2023-07-21 06:32:33] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.0.2.tar.gz]
+[2023-07-21 06:32:33] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.1.0.tar.gz]
+[2023-07-21 06:32:33] INFO root fetch - main [MainThread]: End processing [hiveviewer]: success
+[2023-07-21 06:32:34] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-07-21 06:32:34] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-2.0.0rc1.tar.gz tmp/caqui-2.0.0rc2.tar.gz --markdown 20230721/c/caqui/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-07-21 06:32:35] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc1.tar.gz]
+[2023-07-21 06:32:35] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc2.tar.gz]
+[2023-07-21 06:32:35] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-07-21 06:32:35] INFO root fetch - main [MainThread]: Store serial: [18978601]
