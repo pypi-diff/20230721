@@ -2642,3 +2642,121 @@
 [2023-07-21 02:02:16] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-21 02:02:16] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-21 02:02:16] INFO root fetch - main [MainThread]: Store serial: [18974560]
+[2023-07-21 02:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974560]
+[2023-07-21 02:07:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-circular-progress
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycti
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchdatasets-nightly
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultralytics
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-github
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zrouter
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxkern-nightly
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roblox-pyc
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gigagan-pytorch
+[2023-07-21 02:07:25] INFO root fetch - processPackages [st-circular-progress]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [zrouter]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [pycti]: New version: [5.9.5] Old Version: [5.9.4]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230721.post351] Old Version: [1.9.0.20230720.post412]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 02:07:25] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689897798] Old Version: [1689811397]
+[2023-07-21 02:07:25] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/27/28/8f6d0e1b4f7d6bf50ac35fca0705699f0920ba847787d46749a5467cf1bd/st_circular_progress-0.0.3.tar.gz
+[2023-07-21 02:07:25] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/05/18/c833dca24fc8cf3fcc327e2de0a43633a9e3b2255e2ef5dfb9f320f13dca/zrouter-0.3.6.tar.gz
+[2023-07-21 02:07:25] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/c8/14/9ed7fce19072503c9db9f47d70a871548f4959bcd9e3aa459de43e717951/pycti-5.9.4.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/e0/b2934610f827a6e16444d91655fb41306e808620e7da2b2472801cfe1cfc/gigagan-pytorch-0.1.8.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/06/c4/cf5eb64d14d365f3cd7de0103b19ead1990bf937e483fc66c83e2d712275/mct-nightly-1.9.0.20230720.post412.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/0d/95/a3b976889abaf61eeef93bd07b24226a8e7715f59758a44bae78e273e4de/torchdatasets-nightly-1689811397.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/64/52/de37c70380efeb6a740ec5d5e793a276c40dbd64696b49135948b1fcac38/st_circular_progress-0.0.4.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/70/b4/46447a98f3cb006818ee7f113c854a34d045c04863a8f8e930387e5fc74f/zrouter-0.3.7.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/d9/58/bd16b5eea34261870a46bc286dcddffdaf9f47394815d0910bf9b405f70e/pycti-5.9.5.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/be/b0/4d464405e8b805823829907ca5b9cc50aac0dca80644c3147d4146d45ecb/gigagan-pytorch-0.1.9.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.0.3.tar.gz tmp/st_circular_progress-0.0.4.tar.gz --markdown 20230721/s/st-circular-progress/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.3.6.tar.gz tmp/zrouter-0.3.7.tar.gz --markdown 20230721/z/zrouter/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/41/b5/6c7f5c3787f162a2489fe9f0293cc8426cb1aaa23c730d723471929d486a/torchdatasets-nightly-1689897798.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/cb/57/75af22a1a40e40d226fb62f6b6b10e7496b0f5be021196c04ea5ad18e9ce/mct-nightly-1.9.0.20230721.post351.tar.gz
+[2023-07-21 02:07:26] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.9.4.tar.gz tmp/pycti-5.9.5.tar.gz --markdown 20230721/p/pycti/5.9.4-5.9.5/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.8.tar.gz tmp/gigagan-pytorch-0.1.9.tar.gz --markdown 20230721/g/gigagan-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230721/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689811397.tar.gz tmp/torchdatasets-nightly-1689897798.tar.gz --markdown 20230721/t/torchdatasets-nightly/1689811397-1689897798/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-21 02:07:26] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230721/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 02:07:26] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-21 02:07:27] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-21 02:07:27] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230720.post412.tar.gz tmp/mct-nightly-1.9.0.20230721.post351.tar.gz --markdown 20230721/m/mct-nightly/1.9.0.20230720.post412-1.9.0.20230721.post351/diff.md --exclude *.pyd
+[2023-07-21 02:07:27] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-21 02:07:27] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230721/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-21 02:07:27] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 02:07:27] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 02:07:27] INFO root fetch - processPackages [roblox-pyc]: Start processing: jaxutils-nightly
+[2023-07-21 02:07:27] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 02:07:27] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.0.3.tar.gz]
+[2023-07-21 02:07:27] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.0.4.tar.gz]
+[2023-07-21 02:07:27] INFO root fetch - processPackages [st-circular-progress]: Start processing: ml-compiler-opt
+[2023-07-21 02:07:27] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230721] Old Version: [0.0.8.dev20230720]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.6.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.7.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [zrouter]: Start processing: ml-compiler-opt
+[2023-07-21 02:07:28] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307210007] Old Version: [0.0.1.dev202307210006]
+[2023-07-21 02:07:28] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-07-21 02:07:28] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307210007] Old Version: [0.0.1.dev202307210006]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/39/f8/5817cf5dfaa5a3444e4996e0fec3967bcde37522c2a264f6bfb4bf1de834/ml-compiler-opt-0.0.1.dev202307210006.tar.gz
+[2023-07-21 02:07:28] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/39/f8/5817cf5dfaa5a3444e4996e0fec3967bcde37522c2a264f6bfb4bf1de834/ml-compiler-opt-0.0.1.dev202307210006.tar.gz
+[2023-07-21 02:07:28] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-21 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c4/94/8f8b0b6a6440d9562699763b8fb863e15c66e15a0ce688ecab7d6694080d/jaxutils-nightly-0.0.8.dev20230720.tar.gz
+[2023-07-21 02:07:28] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.8.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.9.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-21 02:07:28] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-21 02:07:28] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689811397.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689897798.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-21 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/8f/1b/6071fb51e3b0b267381c71ad537647ddded7a25e4c61bd6acb9fa1776f1d/jaxutils-nightly-0.0.8.dev20230721.tar.gz
+[2023-07-21 02:07:28] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/51/57/3eaaae8d6da5908be28af3fc896d6991f6948165084cc664788d6ffa148b/ml_compiler_opt-0.0.1.dev202307210007-py3-none-any.whl
+[2023-07-21 02:07:28] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/51/57/3eaaae8d6da5908be28af3fc896d6991f6948165084cc664788d6ffa148b/ml_compiler_opt-0.0.1.dev202307210007-py3-none-any.whl
+[2023-07-21 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-21 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230720.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230721.tar.gz --markdown 20230721/j/jaxutils-nightly/0.0.8.dev20230720-0.0.8.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 02:07:28] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.9.4.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.9.5.tar.gz]
+[2023-07-21 02:07:28] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307210006.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307210007-py3-none-any.whl.zip --markdown 20230721/m/ml-compiler-opt/0.0.1.dev202307210006-0.0.1.dev202307210007/diff.md --exclude *.pyd
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307210006.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307210007-py3-none-any.whl.zip --markdown 20230721/m/ml-compiler-opt/0.0.1.dev202307210006-0.0.1.dev202307210007/diff.md --exclude *.pyd
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-21 02:07:29] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-21 02:07:29] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230720.tar.gz]
+[2023-07-21 02:07:29] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230721.tar.gz]
+[2023-07-21 02:07:29] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307210006.tar.gz]
+[2023-07-21 02:07:29] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202307210007-py3-none-any.whl.zip]
+[2023-07-21 02:07:29] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-21 02:07:29] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-21 02:07:30] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230720.post412.tar.gz]
+[2023-07-21 02:07:30] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230721.post351.tar.gz]
+[2023-07-21 02:07:30] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-21 02:07:30] INFO root fetch - main [MainThread]: Store serial: [18974600]
