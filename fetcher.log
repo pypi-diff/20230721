@@ -15563,3 +15563,69 @@
 [2023-07-21 08:54:41] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.7.tar.gz]
 [2023-07-21 08:54:41] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-07-21 08:54:41] INFO root fetch - main [MainThread]: Store serial: [18979466]
+[2023-07-21 08:59:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979466]
+[2023-07-21 08:59:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amfiprot
+[2023-07-21 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-21 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cookiecutter-pypackage-instance
+[2023-07-21 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elhub-python-sdk
+[2023-07-21 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-spanner
+[2023-07-21 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botoful
+[2023-07-21 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exonviz
+[2023-07-21 08:59:50] INFO root fetch - processPackages [botoful]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-21 08:59:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-21 08:59:50] INFO root fetch - processPackages [amfiprot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 08:59:50] INFO root fetch - processPackages [elhub-python-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 08:59:50] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-21 08:59:50] INFO root fetch - processPackages [exonviz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 08:59:50] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-21 08:59:50] INFO root fetch - processPackages [botoful]: Downloading https://files.pythonhosted.org/packages/61/5c/a2f09d9a580969992019394a9d11fae293680879b7396d362a518a6658f3/botoful-0.4.0.tar.gz
+[2023-07-21 08:59:50] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Downloading https://files.pythonhosted.org/packages/8e/9d/ade6e85028398ae9562d66083c1bb1b3e81e71619675d3f822fe4e184a17/cookiecutter_pypackage_instance-1.1.0.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/c0/2d/9383b183858aaf9f33a19f695d5db62abbd3750f41e5461f5d4dd68d2da2/google-cloud-spanner-3.8.0.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [amfiprot]: Downloading https://files.pythonhosted.org/packages/ae/ab/1a7cf8c7bf6467bed4683fbd6b3fe9c11886ba660359d7764591dbc3e1f0/amfiprot-0.1.1.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [elhub-python-sdk]: Downloading https://files.pythonhosted.org/packages/e4/b0/698dccaeba6ad54898809d33fe18eb1058be5a263a9d74d15f2b64c0998b/elhub_python_sdk-0.1.4.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [exonviz]: Downloading https://files.pythonhosted.org/packages/a6/e6/e910c0dcd205a13ff034f8a413a299426a21b03151a8a998fa3fd9694d0a/exonviz-0.1.0.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [botoful]: Downloading https://files.pythonhosted.org/packages/88/42/c32a5e5d17f0b6ce63dd3bbcbef04296fe40d21a1bf82cc591be45b7c33d/botoful-0.4.1.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Downloading https://files.pythonhosted.org/packages/ad/35/66547042d953b56148efc83e7c4e0875f5801a4be848376370e83679dcf7/cookiecutter_pypackage_instance-1.1.1.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [elhub-python-sdk]: Downloading https://files.pythonhosted.org/packages/36/9a/48eaf6cecac278131451542f31caffb25da1f576aa14c3549ec01c6e7ff9/elhub_python_sdk-0.1.5.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [exonviz]: Downloading https://files.pythonhosted.org/packages/97/81/d6b9a5ab0e22a6fa823e7915d9986e40a7069f0fbaa6308e20b1f5579faf/exonviz-0.1.1.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [botoful]: executing diffoscope
+[2023-07-21 08:59:51] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: executing diffoscope
+[2023-07-21 08:59:51] INFO root fetch - processPackages [botoful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botoful-0.4.0.tar.gz tmp/botoful-0.4.1.tar.gz --markdown 20230721/b/botoful/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-21 08:59:51] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookiecutter_pypackage_instance-1.1.0.tar.gz tmp/cookiecutter_pypackage_instance-1.1.1.tar.gz --markdown 20230721/c/cookiecutter-pypackage-instance/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-21 08:59:51] INFO root fetch - processPackages [amfiprot]: Downloading https://files.pythonhosted.org/packages/be/35/e35c91b922e5b983b09f12cf823046fa12a0388f5eb68f60f57f8011edfd/amfiprot-0.1.2.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/7f/af/852f011a0e2347701621b19205ec8b0037c7a76ce4c0705f0ee8e7788671/google-cloud-spanner-3.9.0.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [elhub-python-sdk]: executing diffoscope
+[2023-07-21 08:59:51] INFO root fetch - processPackages [elhub-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elhub_python_sdk-0.1.4.tar.gz tmp/elhub_python_sdk-0.1.5.tar.gz --markdown 20230721/e/elhub-python-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 08:59:51] INFO root fetch - processPackages [amfiprot]: executing diffoscope
+[2023-07-21 08:59:51] INFO root fetch - processPackages [amfiprot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amfiprot-0.1.1.tar.gz tmp/amfiprot-0.1.2.tar.gz --markdown 20230721/a/amfiprot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 08:59:51] INFO root fetch - processPackages [exonviz]: executing diffoscope
+[2023-07-21 08:59:51] INFO root fetch - processPackages [exonviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exonviz-0.1.0.tar.gz tmp/exonviz-0.1.1.tar.gz --markdown 20230721/e/exonviz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 08:59:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-21 08:59:51] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2023-07-21 08:59:51] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20230721/g/google-cloud-spanner/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-21 08:59:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-21 08:59:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230721/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 08:59:52] INFO root fetch - processPackages [botoful]: Remove: archive file [/home/abi/fetcher/tmp/botoful-0.4.0.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - processPackages [botoful]: Remove: archive file [/home/abi/fetcher/tmp/botoful-0.4.1.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - main [MainThread]: End processing [botoful]: success
+[2023-07-21 08:59:52] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Remove: archive file [/home/abi/fetcher/tmp/cookiecutter_pypackage_instance-1.1.0.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - processPackages [cookiecutter-pypackage-instance]: Remove: archive file [/home/abi/fetcher/tmp/cookiecutter_pypackage_instance-1.1.1.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - main [MainThread]: End processing [cookiecutter-pypackage-instance]: success
+[2023-07-21 08:59:52] INFO root fetch - processPackages [exonviz]: Remove: archive file [/home/abi/fetcher/tmp/exonviz-0.1.0.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - processPackages [exonviz]: Remove: archive file [/home/abi/fetcher/tmp/exonviz-0.1.1.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - main [MainThread]: End processing [exonviz]: success
+[2023-07-21 08:59:52] INFO root fetch - processPackages [amfiprot]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot-0.1.1.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - processPackages [amfiprot]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot-0.1.2.tar.gz]
+[2023-07-21 08:59:52] INFO root fetch - main [MainThread]: End processing [amfiprot]: success
+[2023-07-21 08:59:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-21 08:59:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-21 08:59:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-21 08:59:53] INFO root fetch - processPackages [elhub-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/elhub_python_sdk-0.1.4.tar.gz]
+[2023-07-21 08:59:53] INFO root fetch - processPackages [elhub-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/elhub_python_sdk-0.1.5.tar.gz]
+[2023-07-21 08:59:53] INFO root fetch - main [MainThread]: End processing [elhub-python-sdk]: success
+[2023-07-21 08:59:53] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.8.0.tar.gz]
+[2023-07-21 08:59:53] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.9.0.tar.gz]
+[2023-07-21 08:59:53] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2023-07-21 08:59:53] INFO root fetch - main [MainThread]: Store serial: [18979488]
