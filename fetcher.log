@@ -10394,3 +10394,303 @@
 [2023-07-21 04:11:57] INFO root fetch - processPackages [core-dashboard-common-app]: Remove: archive file [/home/abi/fetcher/tmp/core_dashboard_common_app-2.4.0.tar.gz]
 [2023-07-21 04:11:57] INFO root fetch - main [MainThread]: End processing [core-dashboard-common-app]: success
 [2023-07-21 04:11:57] INFO root fetch - main [MainThread]: Store serial: [18977580]
+[2023-07-21 04:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977580]
+[2023-07-21 04:17:06] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-explore-keyword-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-explore-keyword-registry-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-explore-oaipmh-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-explore-periodic-table-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: core-exporters-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: core-federated-search-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-file-preview-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: core-linked-records-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: core-main-app
+[2023-07-21 04:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: evo-prot-grad
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-keyword-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-linked-records-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-keyword-registry-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-file-preview-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-oaipmh-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-exporters-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-federated-search-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-periodic-table-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-main-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [evo-prot-grad]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-keyword-registry-app]: Downloading https://files.pythonhosted.org/packages/0f/bb/a4aba641addd701ebc36e693c1ad59f738d9a1980fe1c88ccf54df3f7aa3/core_explore_keyword_registry_app-2.3.0.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-oaipmh-app]: Downloading https://files.pythonhosted.org/packages/9e/b3/4dd2d34ac4514a966e9d7c3dfb2422b4ea4d1572d047cf7292eecbd7a361/core_explore_oaipmh_app-2.3.0.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-keyword-app]: Downloading https://files.pythonhosted.org/packages/c0/3c/ad5a01b6239e63ff2cd04afe1d159222135285a2f905473a0b239148bed0/core_explore_keyword_app-2.3.0.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-linked-records-app]: Downloading https://files.pythonhosted.org/packages/eb/7b/773af0da465fbd42256b07ae7c07400e7664072d85067f642236d5777374/core_linked_records_app-2.3.0.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-federated-search-app]: Downloading https://files.pythonhosted.org/packages/c9/95/0fded0105a06530ee84ae8e9e25cd30704f2713f50275558bea316c75207/core_federated_search_app-2.3.0.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-explore-periodic-table-app]: Downloading https://files.pythonhosted.org/packages/d8/5c/df9c61ba01096045c2a82a32c0aa20bfa8d3c7ce3ea9df27bc0704a723dd/core_explore_periodic_table_app-2.3.0.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [evo-prot-grad]: Downloading https://files.pythonhosted.org/packages/45/df/1609e10198505c7e574acd22686b827114843eeba99002f6f9d90a358cc8/evo_prot_grad-0.1.2.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-main-app]: Downloading https://files.pythonhosted.org/packages/a4/f4/ed44606144dc6f96ef5bc94abeb8b87bac3ac884a51a25da1ca252fd5c34/core_main_app-2.3.0.tar.gz
+[2023-07-21 04:17:06] INFO root fetch - processPackages [core-file-preview-app]: Downloading https://files.pythonhosted.org/packages/fd/3b/1293298f859c50582896ae83fb8f3e2240a0001f212df8c29905ecc383f6/core_file_preview_app-2.3.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-exporters-app]: Downloading https://files.pythonhosted.org/packages/0e/65/36a3f31822b65374c39f741131857647bf6232c99e7af3a4ca7745ba92d5/core_exporters_app-2.3.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-oaipmh-app]: Downloading https://files.pythonhosted.org/packages/48/f4/8603b6fca26805d11e808e1e2acc3bce106e3963d1ff940414720e3aebbe/core_explore_oaipmh_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-keyword-registry-app]: Downloading https://files.pythonhosted.org/packages/e2/27/df05d86a367a5f3f78d9d4a9f30d45f48f29a49ae55e540d60a4238c6c28/core_explore_keyword_registry_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [evo-prot-grad]: Downloading https://files.pythonhosted.org/packages/75/c0/7f59fcc2af0a0796221cd9a33be00b496f2f5fe5fd102dfd388bf79ec978/evo_prot_grad-0.1.3.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-keyword-app]: Downloading https://files.pythonhosted.org/packages/e6/47/be5c7b603d96dc019835b430c5dd202b9519f13186a04a268aa83260d86e/core_explore_keyword_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-linked-records-app]: Downloading https://files.pythonhosted.org/packages/5b/df/f2aea1b23b81272506b4fef2a4e11d82b3149e0c53d301084932be147763/core_linked_records_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-federated-search-app]: Downloading https://files.pythonhosted.org/packages/57/38/703e5b956069a88f8a62c053640567050df06d98fcf61cf6506192e69573/core_federated_search_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-file-preview-app]: Downloading https://files.pythonhosted.org/packages/ec/cd/e63237677f7e74de2f07420f60db966248ee332e1217c415e4531ae41e56/core_file_preview_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-periodic-table-app]: Downloading https://files.pythonhosted.org/packages/9f/12/431863f1b26eeed6bf86f98464c3f7a48edbb9c27a2902dd4a47467b3ac6/core_explore_periodic_table_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-oaipmh-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-oaipmh-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_explore_oaipmh_app-2.3.0.tar.gz tmp/core_explore_oaipmh_app-2.4.0.tar.gz --markdown 20230721/c/core-explore-oaipmh-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-keyword-registry-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-keyword-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_explore_keyword_registry_app-2.3.0.tar.gz tmp/core_explore_keyword_registry_app-2.4.0.tar.gz --markdown 20230721/c/core-explore-keyword-registry-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [evo-prot-grad]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [evo-prot-grad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_prot_grad-0.1.2.tar.gz tmp/evo_prot_grad-0.1.3.tar.gz --markdown 20230721/e/evo-prot-grad/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-exporters-app]: Downloading https://files.pythonhosted.org/packages/27/07/e33fdf7b1d169091c992133b37fce49c27c6c76f629f327574193eceb8ef/core_exporters_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-main-app]: Downloading https://files.pythonhosted.org/packages/43/72/911d5521ea413563be2ce6e57fc92c5f6c641ebff117ec49d7c1f3c5f406/core_main_app-2.4.0.tar.gz
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-keyword-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-keyword-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_explore_keyword_app-2.3.0.tar.gz tmp/core_explore_keyword_app-2.4.0.tar.gz --markdown 20230721/c/core-explore-keyword-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-federated-search-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-federated-search-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_federated_search_app-2.3.0.tar.gz tmp/core_federated_search_app-2.4.0.tar.gz --markdown 20230721/c/core-federated-search-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-file-preview-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-file-preview-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_file_preview_app-2.3.0.tar.gz tmp/core_file_preview_app-2.4.0.tar.gz --markdown 20230721/c/core-file-preview-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-linked-records-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-periodic-table-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-linked-records-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_linked_records_app-2.3.0.tar.gz tmp/core_linked_records_app-2.4.0.tar.gz --markdown 20230721/c/core-linked-records-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-explore-periodic-table-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_explore_periodic_table_app-2.3.0.tar.gz tmp/core_explore_periodic_table_app-2.4.0.tar.gz --markdown 20230721/c/core-explore-periodic-table-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-exporters-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-exporters-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_exporters_app-2.3.0.tar.gz tmp/core_exporters_app-2.4.0.tar.gz --markdown 20230721/c/core-exporters-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-main-app]: executing diffoscope
+[2023-07-21 04:17:07] INFO root fetch - processPackages [core-main-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_main_app-2.3.0.tar.gz tmp/core_main_app-2.4.0.tar.gz --markdown 20230721/c/core-main-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-oaipmh-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_oaipmh_app-2.3.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-oaipmh-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_oaipmh_app-2.4.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-oaipmh-app]: Start processing: core-main-registry-app
+[2023-07-21 04:17:09] INFO root fetch - main [MainThread]: End processing [core-explore-oaipmh-app]: success
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-keyword-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_keyword_registry_app-2.3.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-keyword-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_keyword_registry_app-2.4.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-keyword-registry-app]: Start processing: core-module-advanced-blob-host-app
+[2023-07-21 04:17:09] INFO root fetch - main [MainThread]: End processing [core-explore-keyword-registry-app]: success
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-main-registry-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [evo-prot-grad]: Remove: archive file [/home/abi/fetcher/tmp/evo_prot_grad-0.1.2.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [evo-prot-grad]: Remove: archive file [/home/abi/fetcher/tmp/evo_prot_grad-0.1.3.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [evo-prot-grad]: Start processing: core-module-blob-host-app
+[2023-07-21 04:17:09] INFO root fetch - main [MainThread]: End processing [evo-prot-grad]: success
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-file-preview-app]: Remove: archive file [/home/abi/fetcher/tmp/core_file_preview_app-2.3.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-file-preview-app]: Remove: archive file [/home/abi/fetcher/tmp/core_file_preview_app-2.4.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-file-preview-app]: Start processing: core-module-chemical-composition-app
+[2023-07-21 04:17:09] INFO root fetch - main [MainThread]: End processing [core-file-preview-app]: success
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-blob-host-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-chemical-composition-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-federated-search-app]: Remove: archive file [/home/abi/fetcher/tmp/core_federated_search_app-2.3.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-federated-search-app]: Remove: archive file [/home/abi/fetcher/tmp/core_federated_search_app-2.4.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-federated-search-app]: Start processing: core-module-chemical-composition-simple-app
+[2023-07-21 04:17:09] INFO root fetch - main [MainThread]: End processing [core-federated-search-app]: success
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Downloading https://files.pythonhosted.org/packages/23/fe/81d2c28c178c1791637448f3663c4dfc67e05ae7f009933d5bf918234d23/core_module_advanced_blob_host_app-2.3.0.tar.gz
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-main-registry-app]: Downloading https://files.pythonhosted.org/packages/4d/a7/fd98e0e36b236eb88df69caf06993a4fc986ef93392b545040847afb221c/core_main_registry_app-2.3.0.tar.gz
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-periodic-table-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_periodic_table_app-2.3.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-periodic-table-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_periodic_table_app-2.4.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-periodic-table-app]: Start processing: toRST
+[2023-07-21 04:17:09] INFO root fetch - main [MainThread]: End processing [core-explore-periodic-table-app]: success
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-blob-host-app]: Downloading https://files.pythonhosted.org/packages/12/15/0fe388e08c1680c777c1ac4bf4cdfc2176e88b4ba599a6db415c50f152fb/core_module_blob_host_app-2.3.0.tar.gz
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-chemical-composition-app]: Downloading https://files.pythonhosted.org/packages/6d/a8/350841297368a630ab4b5d625290236a3eea0d9e00266273b2f6a869466a/core_module_chemical_composition_app-2.3.0.tar.gz
+[2023-07-21 04:17:09] INFO root fetch - processPackages [toRST]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-keyword-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_keyword_app-2.3.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-keyword-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_keyword_app-2.4.0.tar.gz]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-explore-keyword-app]: Start processing: centralcli
+[2023-07-21 04:17:09] INFO root fetch - main [MainThread]: End processing [core-explore-keyword-app]: success
+[2023-07-21 04:17:09] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/39/75/6ded5fcc300a7d1ee7621af3a83dca4bb604bef5ce1c7e087903ccb91da4/toRST-0.0.5.tar.gz
+[2023-07-21 04:17:09] INFO root fetch - processPackages [centralcli]: New version: [1.9] Old Version: [1.8]
+[2023-07-21 04:17:09] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Downloading https://files.pythonhosted.org/packages/94/b0/9f2c8a27056279665465310d936e6b6f124ab518b00e881ff25314a4f959/core_module_chemical_composition_simple_app-2.3.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Downloading https://files.pythonhosted.org/packages/2b/b5/136fd56797bf549d07d3d3afaa37abb074e05a8251dcd9e0afa43b1bc517/core_module_advanced_blob_host_app-2.4.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-exporters-app]: Remove: archive file [/home/abi/fetcher/tmp/core_exporters_app-2.3.0.tar.gz]
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-exporters-app]: Remove: archive file [/home/abi/fetcher/tmp/core_exporters_app-2.4.0.tar.gz]
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-exporters-app]: Start processing: core-module-excel-uploader-app
+[2023-07-21 04:17:10] INFO root fetch - main [MainThread]: End processing [core-exporters-app]: success
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-main-registry-app]: Downloading https://files.pythonhosted.org/packages/49/91/3d41a4e77d92a2462dcf45cd8832cfda4bc1440c8fc5473e3cfde816bdb5/core_main_registry_app-2.4.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-excel-uploader-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_advanced_blob_host_app-2.3.0.tar.gz tmp/core_module_advanced_blob_host_app-2.4.0.tar.gz --markdown 20230721/c/core-module-advanced-blob-host-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:10] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/ac/2c/8971ad083c228473dee1b89729468b3aec1908d2a673f6a1c7ae247bc697/centralcli-1.8.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/35/08/0fed70631f839fe7d41e3763499fb4c6713bcaa5c5729461c5c0d4944242/toRST-0.0.6.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-main-registry-app]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-main-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_main_registry_app-2.3.0.tar.gz tmp/core_main_registry_app-2.4.0.tar.gz --markdown 20230721/c/core-main-registry-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:10] INFO root fetch - processPackages [toRST]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [toRST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toRST-0.0.5.tar.gz tmp/toRST-0.0.6.tar.gz --markdown 20230721/t/toRST/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-linked-records-app]: Remove: archive file [/home/abi/fetcher/tmp/core_linked_records_app-2.3.0.tar.gz]
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-linked-records-app]: Remove: archive file [/home/abi/fetcher/tmp/core_linked_records_app-2.4.0.tar.gz]
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-linked-records-app]: Start processing: core-module-fancy-tree-registry-app
+[2023-07-21 04:17:10] INFO root fetch - main [MainThread]: End processing [core-linked-records-app]: success
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Downloading https://files.pythonhosted.org/packages/9e/e0/1fa8cf919ae44677165bdf66c364cf308588fb281a463f758e1cd3f65d4e/core_module_chemical_composition_simple_app-2.4.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-blob-host-app]: Downloading https://files.pythonhosted.org/packages/13/f0/a7a9ce2208e157d5dc568376804b94d3aabd484873bfcf2441bac7719fd6/core_module_blob_host_app-2.4.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-excel-uploader-app]: Downloading https://files.pythonhosted.org/packages/2a/b6/f217ad50208e2ea1e4d3da9bc33a1f2b75aec9a4a2567ff86db5cc949dab/core_module_excel_uploader_app-2.3.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-chemical-composition-app]: Downloading https://files.pythonhosted.org/packages/28/df/6b4ed0945b2377251295e6b3e6b17af05babacf24840baffb8ecc5ab1d7e/core_module_chemical_composition_app-2.4.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_chemical_composition_simple_app-2.3.0.tar.gz tmp/core_module_chemical_composition_simple_app-2.4.0.tar.gz --markdown 20230721/c/core-module-chemical-composition-simple-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-blob-host-app]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-blob-host-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_blob_host_app-2.3.0.tar.gz tmp/core_module_blob_host_app-2.4.0.tar.gz --markdown 20230721/c/core-module-blob-host-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-chemical-composition-app]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-chemical-composition-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_chemical_composition_app-2.3.0.tar.gz tmp/core_module_chemical_composition_app-2.4.0.tar.gz --markdown 20230721/c/core-module-chemical-composition-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:10] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/44/28/a40ea20815bee95db9b68238b92b40a3eaa4da3bb83bca0cfba0869c3406/centralcli-1.9.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Downloading https://files.pythonhosted.org/packages/bc/3c/833ece71084390b3a4fda446a76134fc0beb8f5b3fa23e9fabeb50f278d8/core_module_fancy_tree_registry_app-2.3.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-1.8.tar.gz tmp/centralcli-1.9.tar.gz --markdown 20230721/c/centralcli/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-excel-uploader-app]: Downloading https://files.pythonhosted.org/packages/07/5d/2a704962eb3db65a60acd0259fa9949ce13a4c9d2254416798792c0e1c3d/core_module_excel_uploader_app-2.4.0.tar.gz
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-excel-uploader-app]: executing diffoscope
+[2023-07-21 04:17:10] INFO root fetch - processPackages [core-module-excel-uploader-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_excel_uploader_app-2.3.0.tar.gz tmp/core_module_excel_uploader_app-2.4.0.tar.gz --markdown 20230721/c/core-module-excel-uploader-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Downloading https://files.pythonhosted.org/packages/c0/70/e214ae2d3aa39b89ba8c47bfa830fcfaa1e1d6f8a29d9c4f51f37cc24411/core_module_fancy_tree_registry_app-2.4.0.tar.gz
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: executing diffoscope
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_fancy_tree_registry_app-2.3.0.tar.gz tmp/core_module_fancy_tree_registry_app-2.4.0.tar.gz --markdown 20230721/c/core-module-fancy-tree-registry-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:11] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.5.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.6.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [toRST]: Start processing: core-module-local-id-registry-app
+[2023-07-21 04:17:11] INFO root fetch - main [MainThread]: End processing [toRST]: success
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_advanced_blob_host_app-2.3.0.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_advanced_blob_host_app-2.4.0.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Start processing: seven-cloudapp-frame
+[2023-07-21 04:17:11] INFO root fetch - main [MainThread]: End processing [core-module-advanced-blob-host-app]: success
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-local-id-registry-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.90] Old Version: [1.0.9.9]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-local-id-registry-app]: Downloading https://files.pythonhosted.org/packages/30/f5/7bf22b5ad4b4a48e8002dd8bacd527dd8a0f774b07a84105ce3202d880a4/core_module_local_id_registry_app-2.3.0.tar.gz
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_chemical_composition_simple_app-2.3.0.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_chemical_composition_simple_app-2.4.0.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Start processing: core-module-periodic-table-app
+[2023-07-21 04:17:11] INFO root fetch - main [MainThread]: End processing [core-module-chemical-composition-simple-app]: success
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-blob-host-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_blob_host_app-2.3.0.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-blob-host-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_blob_host_app-2.4.0.tar.gz]
+[2023-07-21 04:17:11] INFO root fetch - processPackages [core-module-blob-host-app]: Start processing: core-module-raw-xml-app
+[2023-07-21 04:17:11] INFO root fetch - main [MainThread]: End processing [core-module-blob-host-app]: success
+[2023-07-21 04:17:12] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-periodic-table-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-chemical-composition-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_chemical_composition_app-2.3.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-chemical-composition-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_chemical_composition_app-2.4.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-raw-xml-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-chemical-composition-app]: Start processing: core-module-remote-blob-host-app
+[2023-07-21 04:17:12] INFO root fetch - main [MainThread]: End processing [core-module-chemical-composition-app]: success
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-remote-blob-host-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-periodic-table-app]: Downloading https://files.pythonhosted.org/packages/4a/26/d94ca8e7388dfead875d98450c39d533ffac41685f45f331887bae46ba7f/core_module_periodic_table_app-2.3.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-raw-xml-app]: Downloading https://files.pythonhosted.org/packages/d7/4d/f27ec86a36823ebce51e82520e3d4cb0f1cf89ce7ad26506b5eb3f3e88f7/core_module_raw_xml_app-2.3.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-main-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_main_registry_app-2.3.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-main-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_main_registry_app-2.4.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-main-registry-app]: Start processing: core-module-status-registry-app
+[2023-07-21 04:17:12] INFO root fetch - main [MainThread]: End processing [core-main-registry-app]: success
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-remote-blob-host-app]: Downloading https://files.pythonhosted.org/packages/4c/2b/8271285593334f05be6f665011cdd57fc1ecbf8b6f834d34cb5d6e30998b/core_module_remote_blob_host_app-2.3.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-excel-uploader-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_excel_uploader_app-2.3.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-excel-uploader-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_excel_uploader_app-2.4.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-excel-uploader-app]: Start processing: core-module-text-area-app
+[2023-07-21 04:17:12] INFO root fetch - main [MainThread]: End processing [core-module-excel-uploader-app]: success
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-local-id-registry-app]: Downloading https://files.pythonhosted.org/packages/3e/45/bf02cccb68ae0c967735fb908266d01cffab9c82db6810ff7571875a4de3/core_module_local_id_registry_app-2.4.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-status-registry-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_fancy_tree_registry_app-2.3.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_fancy_tree_registry_app-2.4.0.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Start processing: st-circular-progress
+[2023-07-21 04:17:12] INFO root fetch - main [MainThread]: End processing [core-module-fancy-tree-registry-app]: success
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-text-area-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [st-circular-progress]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-local-id-registry-app]: executing diffoscope
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-local-id-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_local_id_registry_app-2.3.0.tar.gz tmp/core_module_local_id_registry_app-2.4.0.tar.gz --markdown 20230721/c/core-module-local-id-registry-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:12] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/db/d2/1807a27e022f01a3f9281c8ee7cfc5a33cf1d6d5db9d61f9693743c4003b/seven_cloudapp_frame-1.0.90.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-status-registry-app]: Downloading https://files.pythonhosted.org/packages/27/ee/8934a7a615b0b28b12ab24f3fa5805a808412e5fea2ab46e7534c5f585e1/core_module_status_registry_app-2.3.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-text-area-app]: Downloading https://files.pythonhosted.org/packages/30/f5/444f82fca1e587ebd2b9cfb9df9b9e8dd9a8dcf69a499b719ed1ced2f32f/core_module_text_area_app-2.3.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/a8/24/d72b9a7ff1d9367601be80ad45b41017421dd6029e190197522ad3131b82/st_circular_progress-0.2.1.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-periodic-table-app]: Downloading https://files.pythonhosted.org/packages/70/1c/1c2879bda5b3e363d1b48bd1591ab7a4bf0a23cab50ad1490a815b271a2b/core_module_periodic_table_app-2.4.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-21 04:17:12] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.9.tar.gz tmp/seven_cloudapp_frame-1.0.90.tar.gz --markdown 20230721/s/seven-cloudapp-frame/1.0.9.9-1.0.90/diff.md --exclude *.pyd
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-raw-xml-app]: Downloading https://files.pythonhosted.org/packages/51/e1/048a676a8b7c1ae4f017a31903580ef195fc252422b29a5dca881c770725/core_module_raw_xml_app-2.4.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-remote-blob-host-app]: Downloading https://files.pythonhosted.org/packages/37/06/dae81631a33c653df68d6b8fd1c47d8abdcb5ef285533f106e5b8bb1075e/core_module_remote_blob_host_app-2.4.0.tar.gz
+[2023-07-21 04:17:12] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.8.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.9.tar.gz]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [centralcli]: Start processing: core-oaipmh-common-app
+[2023-07-21 04:17:12] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-periodic-table-app]: executing diffoscope
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-periodic-table-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_periodic_table_app-2.3.0.tar.gz tmp/core_module_periodic_table_app-2.4.0.tar.gz --markdown 20230721/c/core-module-periodic-table-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-oaipmh-common-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-raw-xml-app]: executing diffoscope
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-raw-xml-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_raw_xml_app-2.3.0.tar.gz tmp/core_module_raw_xml_app-2.4.0.tar.gz --markdown 20230721/c/core-module-raw-xml-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-remote-blob-host-app]: executing diffoscope
+[2023-07-21 04:17:12] INFO root fetch - processPackages [core-module-remote-blob-host-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_remote_blob_host_app-2.3.0.tar.gz tmp/core_module_remote_blob_host_app-2.4.0.tar.gz --markdown 20230721/c/core-module-remote-blob-host-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-status-registry-app]: Downloading https://files.pythonhosted.org/packages/fa/57/c5a34bd71a7de616a04a65a52a6b982da4ed76fba56cecac96e1f6c4592a/core_module_status_registry_app-2.4.0.tar.gz
+[2023-07-21 04:17:13] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/82/d4/94fa434c48a48052b0bebfb6280fbd93ee406f0063e54be9fce4d0cb8f56/st_circular_progress-0.2.2.tar.gz
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-text-area-app]: Downloading https://files.pythonhosted.org/packages/b9/0e/c54c45ff5de021538eb8e84a90d1acd0ca328c552bd42714c6e29b35b215/core_module_text_area_app-2.4.0.tar.gz
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-oaipmh-common-app]: Downloading https://files.pythonhosted.org/packages/14/db/e09ef894d1d9d07026a1c5c3cf7d30fa211d2fbdc8985cd8c574f67fe2bc/core_oaipmh_common_app-2.3.0.tar.gz
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-status-registry-app]: executing diffoscope
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-status-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_status_registry_app-2.3.0.tar.gz tmp/core_module_status_registry_app-2.4.0.tar.gz --markdown 20230721/c/core-module-status-registry-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:13] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 04:17:13] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.2.1.tar.gz tmp/st_circular_progress-0.2.2.tar.gz --markdown 20230721/s/st-circular-progress/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-text-area-app]: executing diffoscope
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-text-area-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_text_area_app-2.3.0.tar.gz tmp/core_module_text_area_app-2.4.0.tar.gz --markdown 20230721/c/core-module-text-area-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-oaipmh-common-app]: Downloading https://files.pythonhosted.org/packages/78/d8/27cc6180b497cdffb2b0de9bf291f782970a52f71d34c004a5f80088f303/core_oaipmh_common_app-2.4.0.tar.gz
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-oaipmh-common-app]: executing diffoscope
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-oaipmh-common-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_oaipmh_common_app-2.3.0.tar.gz tmp/core_oaipmh_common_app-2.4.0.tar.gz --markdown 20230721/c/core-oaipmh-common-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-local-id-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_local_id_registry_app-2.3.0.tar.gz]
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-local-id-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_local_id_registry_app-2.4.0.tar.gz]
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-module-local-id-registry-app]: Start processing: core-oaipmh-harvester-app
+[2023-07-21 04:17:13] INFO root fetch - main [MainThread]: End processing [core-module-local-id-registry-app]: success
+[2023-07-21 04:17:13] INFO root fetch - processPackages [core-oaipmh-harvester-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: Downloading https://files.pythonhosted.org/packages/4a/0a/a42068a6895b754a70910bb453b678cec1f92ebaab059f32f323f0bfbc6e/core_oaipmh_harvester_app-2.3.0.tar.gz
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-periodic-table-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_periodic_table_app-2.3.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-periodic-table-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_periodic_table_app-2.4.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-periodic-table-app]: Start processing: chrislab
+[2023-07-21 04:17:14] INFO root fetch - main [MainThread]: End processing [core-module-periodic-table-app]: success
+[2023-07-21 04:17:14] INFO root fetch - processPackages [chrislab]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-remote-blob-host-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_remote_blob_host_app-2.3.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-remote-blob-host-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_remote_blob_host_app-2.4.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-remote-blob-host-app]: Start processing: core-oaipmh-provider-app
+[2023-07-21 04:17:14] INFO root fetch - main [MainThread]: End processing [core-module-remote-blob-host-app]: success
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-raw-xml-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_raw_xml_app-2.3.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-raw-xml-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_raw_xml_app-2.4.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-raw-xml-app]: Start processing: pxgpt
+[2023-07-21 04:17:14] INFO root fetch - main [MainThread]: End processing [core-module-raw-xml-app]: success
+[2023-07-21 04:17:14] INFO root fetch - processPackages [pxgpt]: New version: [0.0.0rc1] Old Version: [0.0.0rc0]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/1f/2b/63f50650c6b1a1188a5d0bd6f4b17e7451289e1a74dab1e6df0698cf951e/chrislab-0.5.6.tar.gz
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: Downloading https://files.pythonhosted.org/packages/dd/31/4299632b7708b607ac353e5f454215c40a521dbd0ada912c2a8a415d2daf/core_oaipmh_harvester_app-2.4.0.tar.gz
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-oaipmh-provider-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [pxgpt]: Downloading https://files.pythonhosted.org/packages/5f/20/3741489892b25ff6d3a8f1cda927dd7e6be652d050e99951e8308a719b04/pxgpt-0.0.0rc0.tar.gz
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: executing diffoscope
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_oaipmh_harvester_app-2.3.0.tar.gz tmp/core_oaipmh_harvester_app-2.4.0.tar.gz --markdown 20230721/c/core-oaipmh-harvester-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-oaipmh-provider-app]: Downloading https://files.pythonhosted.org/packages/5e/69/95827d90f75e05f0e1ad2faea4ac6f4f1d3934be0cacde7fa5c4aa39208c/core_oaipmh_provider_app-2.3.0.tar.gz
+[2023-07-21 04:17:14] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.1.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.2.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [st-circular-progress]: Start processing: core-parser-app
+[2023-07-21 04:17:14] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-text-area-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_text_area_app-2.3.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-text-area-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_text_area_app-2.4.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - main [MainThread]: End processing [core-module-text-area-app]: success
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-status-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_status_registry_app-2.3.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - processPackages [core-module-status-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_module_status_registry_app-2.4.0.tar.gz]
+[2023-07-21 04:17:14] INFO root fetch - main [MainThread]: End processing [core-module-status-registry-app]: success
+[2023-07-21 04:17:14] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/9b/8b/2acee7276b846900010c7c96e8446757678ddbde9645c6e81f5d0329148c/chrislab-0.5.7.tar.gz
+[2023-07-21 04:17:14] INFO root fetch - processPackages [pxgpt]: Downloading https://files.pythonhosted.org/packages/58/4b/d9b1d035e3feda956ba4dbd03f1155919b88ddfa6af0235694e99bf332d6/pxgpt-0.0.0rc1.tar.gz
+[2023-07-21 04:17:15] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-07-21 04:17:15] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.5.6.tar.gz tmp/chrislab-0.5.7.tar.gz --markdown 20230721/c/chrislab/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-oaipmh-common-app]: Remove: archive file [/home/abi/fetcher/tmp/core_oaipmh_common_app-2.3.0.tar.gz]
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-oaipmh-common-app]: Remove: archive file [/home/abi/fetcher/tmp/core_oaipmh_common_app-2.4.0.tar.gz]
+[2023-07-21 04:17:15] INFO root fetch - main [MainThread]: End processing [core-oaipmh-common-app]: success
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-parser-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:17:15] INFO root fetch - processPackages [pxgpt]: executing diffoscope
+[2023-07-21 04:17:15] INFO root fetch - processPackages [pxgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxgpt-0.0.0rc0.tar.gz tmp/pxgpt-0.0.0rc1.tar.gz --markdown 20230721/p/pxgpt/0.0.0rc0-0.0.0rc1/diff.md --exclude *.pyd
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-oaipmh-provider-app]: Downloading https://files.pythonhosted.org/packages/ac/7c/171b1911fe15637c030f599bcb8bcd9961d0c47ad10b782ad87f86c68ebc/core_oaipmh_provider_app-2.4.0.tar.gz
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-parser-app]: Downloading https://files.pythonhosted.org/packages/21/f2/f3e053db995ff59438a3948fe9d77483df57be4691202add00924e3014b2/core_parser_app-2.3.0.tar.gz
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-oaipmh-provider-app]: executing diffoscope
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-oaipmh-provider-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_oaipmh_provider_app-2.3.0.tar.gz tmp/core_oaipmh_provider_app-2.4.0.tar.gz --markdown 20230721/c/core-oaipmh-provider-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:15] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-21 04:17:15] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.90.tar.gz]
+[2023-07-21 04:17:15] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-main-app]: Remove: archive file [/home/abi/fetcher/tmp/core_main_app-2.3.0.tar.gz]
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-main-app]: Remove: archive file [/home/abi/fetcher/tmp/core_main_app-2.4.0.tar.gz]
+[2023-07-21 04:17:15] INFO root fetch - main [MainThread]: End processing [core-main-app]: success
+[2023-07-21 04:17:15] INFO root fetch - processPackages [core-parser-app]: Downloading https://files.pythonhosted.org/packages/1c/65/0a39c7cd922d57e4c6eb14c195bb25db2971c096f3d630a300ad03be7a01/core_parser_app-2.4.0.tar.gz
+[2023-07-21 04:17:16] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.6.tar.gz]
+[2023-07-21 04:17:16] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.7.tar.gz]
+[2023-07-21 04:17:16] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-07-21 04:17:16] INFO root fetch - processPackages [core-oaipmh-harvester-app]: Remove: archive file [/home/abi/fetcher/tmp/core_oaipmh_harvester_app-2.3.0.tar.gz]
+[2023-07-21 04:17:16] INFO root fetch - processPackages [core-oaipmh-harvester-app]: Remove: archive file [/home/abi/fetcher/tmp/core_oaipmh_harvester_app-2.4.0.tar.gz]
+[2023-07-21 04:17:16] INFO root fetch - main [MainThread]: End processing [core-oaipmh-harvester-app]: success
+[2023-07-21 04:17:16] INFO root fetch - processPackages [core-parser-app]: executing diffoscope
+[2023-07-21 04:17:16] INFO root fetch - processPackages [core-parser-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_parser_app-2.3.0.tar.gz tmp/core_parser_app-2.4.0.tar.gz --markdown 20230721/c/core-parser-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:17:16] INFO root fetch - processPackages [core-oaipmh-provider-app]: Remove: archive file [/home/abi/fetcher/tmp/core_oaipmh_provider_app-2.3.0.tar.gz]
+[2023-07-21 04:17:16] INFO root fetch - processPackages [core-oaipmh-provider-app]: Remove: archive file [/home/abi/fetcher/tmp/core_oaipmh_provider_app-2.4.0.tar.gz]
+[2023-07-21 04:17:16] INFO root fetch - main [MainThread]: End processing [core-oaipmh-provider-app]: success
+[2023-07-21 04:17:17] INFO root fetch - processPackages [core-parser-app]: Remove: archive file [/home/abi/fetcher/tmp/core_parser_app-2.3.0.tar.gz]
+[2023-07-21 04:17:17] INFO root fetch - processPackages [core-parser-app]: Remove: archive file [/home/abi/fetcher/tmp/core_parser_app-2.4.0.tar.gz]
+[2023-07-21 04:17:17] INFO root fetch - main [MainThread]: End processing [core-parser-app]: success
+[2023-07-21 04:17:18] INFO root fetch - processPackages [pxgpt]: Remove: archive file [/home/abi/fetcher/tmp/pxgpt-0.0.0rc0.tar.gz]
+[2023-07-21 04:17:18] INFO root fetch - processPackages [pxgpt]: Remove: archive file [/home/abi/fetcher/tmp/pxgpt-0.0.0rc1.tar.gz]
+[2023-07-21 04:17:18] INFO root fetch - main [MainThread]: End processing [pxgpt]: success
+[2023-07-21 04:17:18] INFO root fetch - main [MainThread]: Store serial: [18977658]
