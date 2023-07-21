@@ -18406,3 +18406,108 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:07:38] INFO root fetch - processPackages [mimosa]: Remove: archive file [/home/abi/fetcher/tmp/mimosa-0.1.2.tar.gz]
 [2023-07-21 11:07:38] INFO root fetch - main [MainThread]: End processing [mimosa]: success
 [2023-07-21 11:07:38] INFO root fetch - main [MainThread]: Store serial: [18980691]
+[2023-07-21 11:12:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980691]
+[2023-07-21 11:12:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isystem.connect
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iparapheur-utils
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmlab-lightning
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmask
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hotpot-zzy
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easypcd
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-power-ops
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irc-api
+[2023-07-21 11:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-07-21 11:12:48] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.1.0] Old Version: [0.3.0.9]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [easypcd]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [iparapheur-utils]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [xmask]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.804] Old Version: [0.0.801]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [irc-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [mmlab-lightning]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cg]: New version: [40.1.0] Old Version: [40.0.1]
+[2023-07-21 11:12:48] INFO root fetch - processPackages [iparapheur-utils]: Downloading https://files.pythonhosted.org/packages/84/f9/3c1e05172ca455548c46b1a34be074cb3315542bd6b4a7d3862f3bd02051/iparapheur-utils-0.9.8.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/04/01/c2deba20d120eb1ce43ad12030a5f1698984c5297982318274b1facbc410/cg-40.0.1.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/f1/1e/aa693ba4cd5bcab3f2ee63ce3843b0d619f1bf719bbaaddab0e5416cd138/irc_api-1.0.3.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/28/a5/509ae2ad6f35cc7532d7b2e918155cd5a36d397e21f052053a3b3eb4bc3d/hotpot-zzy-0.3.0.9.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/47/52/18da9374fe5e41173e3141eb495605af97b59cee324e101756063dad466b/easypcd-0.0.21-py3-none-any.whl
+[2023-07-21 11:12:48] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/42/52/5c533cfec8cf5bd3d328e2a30e3da80c5588f7b4ec5ec18e00e8df8d2b07/xmask-0.3.2.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-07-21 11:12:48] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a9/93/e924c69f2392fc3217874f7ef4c39bae570f67571caae6b2634cffb97a45/lusid-scheduler-sdk-preview-0.0.801.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [mmlab-lightning]: Downloading https://files.pythonhosted.org/packages/b1/d6/3afa4693bc263992ff6c804a8ea5a083b6b7fd606a226e5604f28cc5cb2c/mmlab-lightning-1.0.7.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/8e/26/88cc76da419715299b090e4959aafcca9a01c064df6f8bbbc3b61e1d16dc/irc_api-1.0.4.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/31/5b/8a82606e9c95ba87e3848c77c3867df7696426781aa46ae275e352a3100d/cg-40.1.0.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [iparapheur-utils]: Downloading https://files.pythonhosted.org/packages/c8/57/2d1e92223e51806a9a5393f544b05ca17fa5393a71527a1345468cfa380e/iparapheur-utils-0.9.9.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/27/2b/b2b11f508bc82f91d9ce7f5b243df2394e14cf4c4a49b22b4ab1fd0e8afd/hotpot-zzy-0.3.1.0.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/91/41/3d56b17dbb45eb3612fbd83da0b040caf3281199e49bc4d9a6156138fb22/easypcd-0.0.22-py3-none-any.whl
+[2023-07-21 11:12:48] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-21 11:12:48] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-1.0.3.tar.gz tmp/irc_api-1.0.4.tar.gz --markdown 20230721/i/irc-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-21 11:12:48] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/c2/96/5d4bd49c8afc90f71aa28c0f421232bcbbfef6fc9d1380c6c539746bb096/xmask-0.3.3.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/12/4e/9a814c3814eee05bfef51ddf9fd81f4ef0ff78648d7a27c7c28cd59668df/lusid-scheduler-sdk-preview-0.0.804.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-21 11:12:48] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.0.1.tar.gz tmp/cg-40.1.0.tar.gz --markdown 20230721/c/cg/40.0.1-40.1.0/diff.md --exclude *.pyd
+[2023-07-21 11:12:48] INFO root fetch - processPackages [mmlab-lightning]: Downloading https://files.pythonhosted.org/packages/4d/39/2511c6e898668d44d19a20c672600602abcb68e881652fc3d603b51cd0f0/mmlab-lightning-1.1.0.tar.gz
+[2023-07-21 11:12:48] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-21 11:12:48] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.21-py3-none-any.whl.zip tmp/easypcd-0.0.22-py3-none-any.whl.zip --markdown 20230721/e/easypcd/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-21 11:12:49] INFO root fetch - processPackages [iparapheur-utils]: executing diffoscope
+[2023-07-21 11:12:49] INFO root fetch - processPackages [iparapheur-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-utils-0.9.8.tar.gz tmp/iparapheur-utils-0.9.9.tar.gz --markdown 20230721/i/iparapheur-utils/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-21 11:12:49] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-21 11:12:49] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.801.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.804.tar.gz --markdown 20230721/l/lusid-scheduler-sdk-preview/0.0.801-0.0.804/diff.md --exclude *.pyd
+[2023-07-21 11:12:49] INFO root fetch - processPackages [mmlab-lightning]: executing diffoscope
+[2023-07-21 11:12:49] INFO root fetch - processPackages [mmlab-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmlab-lightning-1.0.7.tar.gz tmp/mmlab-lightning-1.1.0.tar.gz --markdown 20230721/m/mmlab-lightning/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 11:12:49] INFO root fetch - processPackages [xmask]: executing diffoscope
+[2023-07-21 11:12:49] INFO root fetch - processPackages [xmask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmask-0.3.2.tar.gz tmp/xmask-0.3.3.tar.gz --markdown 20230721/x/xmask/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-21 11:12:49] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-07-21 11:12:49] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.0.9.tar.gz tmp/hotpot-zzy-0.3.1.0.tar.gz --markdown 20230721/h/hotpot-zzy/0.3.0.9-0.3.1.0/diff.md --exclude *.pyd
+[2023-07-21 11:12:49] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-21 11:12:49] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230721/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 11:12:50] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.3.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.4.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [irc-api]: Start processing: easypcd
+[2023-07-21 11:12:50] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-21 11:12:50] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-07-21 11:12:50] INFO root fetch - processPackages [easypcd]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.21-py3-none-any.whl.zip]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.22-py3-none-any.whl.zip]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [easypcd]: Start processing: exoml
+[2023-07-21 11:12:50] INFO root fetch - main [MainThread]: End processing [easypcd]: success
+[2023-07-21 11:12:50] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/91/41/3d56b17dbb45eb3612fbd83da0b040caf3281199e49bc4d9a6156138fb22/easypcd-0.0.22-py3-none-any.whl
+[2023-07-21 11:12:50] WARNING root fetch - processPackages [exoml]: Skipping, unable to determine old version
+[2023-07-21 11:12:50] INFO root fetch - main [MainThread]: End processing [exoml] error
+[2023-07-21 11:12:50] INFO root fetch - processPackages [xmask]: Remove: archive file [/home/abi/fetcher/tmp/xmask-0.3.2.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [xmask]: Remove: archive file [/home/abi/fetcher/tmp/xmask-0.3.3.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - main [MainThread]: End processing [xmask]: success
+[2023-07-21 11:12:50] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-21 11:12:50] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.21-py3-none-any.whl.zip tmp/easypcd-0.0.22-py3-none-any.whl.zip --markdown 20230721/e/easypcd/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-21 11:12:50] INFO root fetch - processPackages [mmlab-lightning]: Remove: archive file [/home/abi/fetcher/tmp/mmlab-lightning-1.0.7.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [mmlab-lightning]: Remove: archive file [/home/abi/fetcher/tmp/mmlab-lightning-1.1.0.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - main [MainThread]: End processing [mmlab-lightning]: success
+[2023-07-21 11:12:50] INFO root fetch - processPackages [iparapheur-utils]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-utils-0.9.8.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - processPackages [iparapheur-utils]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-utils-0.9.9.tar.gz]
+[2023-07-21 11:12:50] INFO root fetch - main [MainThread]: End processing [iparapheur-utils]: success
+[2023-07-21 11:12:51] ERROR root fetch - processPackages [easypcd]: Diffoscope failed: time="2023-07-21T11:12:50+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/easypcd-0.0.21-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-21 11:12:51] INFO root fetch - main [MainThread]: End processing [easypcd] error
+[2023-07-21 11:12:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.801.tar.gz]
+[2023-07-21 11:12:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.804.tar.gz]
+[2023-07-21 11:12:51] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-21 11:12:51] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-21 11:12:51] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-21 11:12:51] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-21 11:12:51] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-07-21 11:12:51] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230721/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-07-21 11:12:51] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.9.tar.gz]
+[2023-07-21 11:12:51] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.1.0.tar.gz]
+[2023-07-21 11:12:51] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-07-21 11:12:52] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2023-07-21 11:12:52] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2023-07-21 11:12:52] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-07-21 11:12:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.0.1.tar.gz]
+[2023-07-21 11:12:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.0.tar.gz]
+[2023-07-21 11:12:55] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-21 11:12:55] INFO root fetch - main [MainThread]: Store serial: [18980730]
