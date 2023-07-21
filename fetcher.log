@@ -19574,3 +19574,156 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:57:38] INFO root fetch - processPackages [vaex-core]: Remove: archive file [/home/abi/fetcher/tmp/vaex-core-5.0.0a1.tar.gz]
 [2023-07-21 11:57:38] INFO root fetch - main [MainThread]: End processing [vaex-core]: success
 [2023-07-21 11:57:38] INFO root fetch - main [MainThread]: Store serial: [18981130]
+[2023-07-21 12:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981130]
+[2023-07-21 12:02:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vaex-core
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openfoodfacts
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ingenannot
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buscador
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: importer-local
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huhk
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-bmc
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontengine-dev
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: customdbcred
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlx-exec
+[2023-07-21 12:02:50] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [streamlit-bmc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [sqlx-exec]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ingenannot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [vaex-core]: New version: [5.0.0a1] Old Version: [4.9.2]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [huhk]: New version: [1.7.1] Old Version: [1.6.9]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [buscador]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [customdbcred]: New version: [0.6] Old Version: [0.5]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [openfoodfacts]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 12:02:50] INFO root fetch - processPackages [streamlit-bmc]: Downloading https://files.pythonhosted.org/packages/d7/5e/9b14864b4d509b710166ee4d4e8d053648a34d5cb944cd546d924649f689/streamlit_bmc-0.0.3.tar.gz
+[2023-07-21 12:02:50] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/52/a3/0a007f1ed9c64160cdced3619d40a2056d7cb63172eaa6f031b0f78adba9/huhk-1.6.9.tar.gz
+[2023-07-21 12:02:50] INFO root fetch - processPackages [ingenannot]: Downloading https://files.pythonhosted.org/packages/ac/9f/539d4f1e629ab10909e2b7210cb536f4cc16a1dbd3700231449748752209/ingenannot-0.0.8.tar.gz
+[2023-07-21 12:02:50] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/3b/e1/9b59af9f89b67a923155952603401ff5a23b75561973b60a2a52ba5a83de/customdbcred-0.5.tar.gz
+[2023-07-21 12:02:50] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/60/9e/7afb05d47b6f9312c44273343faac00022a5e481f731d32fbbbb252080fe/buscador-0.8.tar.gz
+[2023-07-21 12:02:50] INFO root fetch - processPackages [openfoodfacts]: Downloading https://files.pythonhosted.org/packages/64/fe/803a9835100ad1e24e7e1f35575c051000d93b28b84e754da8237bdf97f0/openfoodfacts-0.1.4.tar.gz
+[2023-07-21 12:02:50] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/6a/95/8cfe13bcd3345fb9330787fedf5761abd93c99c8124953397759ac5e38d7/sqlx-exec-1.0.5.tar.gz
+[2023-07-21 12:02:50] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [vaex-core]: Downloading https://files.pythonhosted.org/packages/41/51/1bca0fa9b69c746e5f49565f8bd73b0495c061b06aeb7fcc9c5fc3a702b1/vaex-core-4.9.2.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230721/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [streamlit-bmc]: Downloading https://files.pythonhosted.org/packages/c3/cd/75033c57a276846aea17e8a51c99c383464c695a37bbb63eff3e3b99f19d/streamlit_bmc-0.0.4.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/b4/78/994083643dead69cecbeb3b922620d52fd6c59623acabc4587abe2673fea/huhk-1.7.1.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/d8/6e/5d2f06fc7eeb66f574a3f2b39930d5190613a0915147bde9c7b6f18018e8/customdbcred-0.6.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [streamlit-bmc]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [streamlit-bmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_bmc-0.0.3.tar.gz tmp/streamlit_bmc-0.0.4.tar.gz --markdown 20230721/s/streamlit-bmc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [openfoodfacts]: Downloading https://files.pythonhosted.org/packages/3e/1e/28315e62f2458c893c00986f72b6313235820162fb58aaa9d7a8e3d4ef1a/openfoodfacts-0.1.5.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/b5/62/eb5bd505c711ca5eeea0f356eec0ba144109aa5de06831a07b99dcd04845/buscador-0.9.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [ingenannot]: Downloading https://files.pythonhosted.org/packages/78/10/c72e895c118b4d487335ac259849cec600b82267ae8de39df505d52b7a64/ingenannot-0.0.9.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.6.9.tar.gz tmp/huhk-1.7.1.tar.gz --markdown 20230721/h/huhk/1.6.9-1.7.1/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/cb/68/a2882bad98dec1a9bd100a3e2dd4840e202f44a6a243d15a1079ab592267/sqlx-exec-1.0.6.tar.gz
+[2023-07-21 12:02:51] INFO root fetch - processPackages [customdbcred]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [customdbcred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customdbcred-0.5.tar.gz tmp/customdbcred-0.6.tar.gz --markdown 20230721/c/customdbcred/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [openfoodfacts]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [openfoodfacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfoodfacts-0.1.4.tar.gz tmp/openfoodfacts-0.1.5.tar.gz --markdown 20230721/o/openfoodfacts/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.8.tar.gz tmp/buscador-0.9.tar.gz --markdown 20230721/b/buscador/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.5.tar.gz tmp/sqlx-exec-1.0.6.tar.gz --markdown 20230721/s/sqlx-exec/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [ingenannot]: executing diffoscope
+[2023-07-21 12:02:51] INFO root fetch - processPackages [ingenannot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingenannot-0.0.8.tar.gz tmp/ingenannot-0.0.9.tar.gz --markdown 20230721/i/ingenannot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:02:51] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-07-21 12:02:52] INFO root fetch - processPackages [vaex-core]: Downloading https://files.pythonhosted.org/packages/6c/35/227e20ae1ffb82d7de451cfbf6ddee4f15ca2aa1d9cfd252e093ee9a554e/vaex-core-5.0.0a1.tar.gz
+[2023-07-21 12:02:52] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-07-21 12:02:52] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230721/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:02:52] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [importer-local]: Start processing: pdfcrowd
+[2023-07-21 12:02:52] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-07-21 12:02:52] INFO root fetch - processPackages [pdfcrowd]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [vaex-core]: executing diffoscope
+[2023-07-21 12:02:52] INFO root fetch - processPackages [vaex-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaex-core-4.9.2.tar.gz tmp/vaex-core-5.0.0a1.tar.gz --markdown 20230721/v/vaex-core/4.9.2-5.0.0a1/diff.md --exclude *.pyd
+[2023-07-21 12:02:52] INFO root fetch - processPackages [pdfcrowd]: Downloading https://files.pythonhosted.org/packages/62/6b/1413806fad7ab3bf337298d87f95c57003ae9b325a158f411d273e87fc2f/pdfcrowd-5.8.0.tar.gz
+[2023-07-21 12:02:52] INFO root fetch - processPackages [openfoodfacts]: Remove: archive file [/home/abi/fetcher/tmp/openfoodfacts-0.1.4.tar.gz]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [openfoodfacts]: Remove: archive file [/home/abi/fetcher/tmp/openfoodfacts-0.1.5.tar.gz]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [openfoodfacts]: Start processing: sqlx-exec
+[2023-07-21 12:02:52] INFO root fetch - main [MainThread]: End processing [openfoodfacts]: success
+[2023-07-21 12:02:52] INFO root fetch - processPackages [customdbcred]: Remove: archive file [/home/abi/fetcher/tmp/customdbcred-0.5.tar.gz]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [customdbcred]: Remove: archive file [/home/abi/fetcher/tmp/customdbcred-0.6.tar.gz]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [customdbcred]: Start processing: gmltools
+[2023-07-21 12:02:52] INFO root fetch - main [MainThread]: End processing [customdbcred]: success
+[2023-07-21 12:02:52] INFO root fetch - processPackages [sqlx-exec]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-21 12:02:52] INFO root fetch - processPackages [gmltools]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.8.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.9.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.5.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.6.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [buscador]: Start processing: TDCRPy
+[2023-07-21 12:02:53] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: Start processing: sqlx-exec
+[2023-07-21 12:02:53] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/cb/68/a2882bad98dec1a9bd100a3e2dd4840e202f44a6a243d15a1079ab592267/sqlx-exec-1.0.6.tar.gz
+[2023-07-21 12:02:53] INFO root fetch - processPackages [streamlit-bmc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bmc-0.0.3.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [streamlit-bmc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bmc-0.0.4.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - main [MainThread]: End processing [streamlit-bmc]: success
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [pdfcrowd]: Downloading https://files.pythonhosted.org/packages/36/16/1049de3da76c35915c1c381d699f52446c8bddfd0ac16ffe8349b38135be/pdfcrowd-5.9.0.tar.gz
+[2023-07-21 12:02:53] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/ef/70/c3c8b690bc88b2d149909c5186b9572e4477ceecce57e1487b912279c108/gmltools-0.0.91.tar.gz
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.5.tar.gz tmp/sqlx-exec-1.0.6.tar.gz --markdown 20230721/s/sqlx-exec/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-21 12:02:53] INFO root fetch - processPackages [ingenannot]: Remove: archive file [/home/abi/fetcher/tmp/ingenannot-0.0.8.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [ingenannot]: Remove: archive file [/home/abi/fetcher/tmp/ingenannot-0.0.9.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - main [MainThread]: End processing [ingenannot]: success
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/6a/95/8cfe13bcd3345fb9330787fedf5761abd93c99c8124953397759ac5e38d7/sqlx-exec-1.0.5.tar.gz
+[2023-07-21 12:02:53] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-21 12:02:53] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.9.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.1.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-21 12:02:53] INFO root fetch - processPackages [pdfcrowd]: executing diffoscope
+[2023-07-21 12:02:53] INFO root fetch - processPackages [pdfcrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfcrowd-5.8.0.tar.gz tmp/pdfcrowd-5.9.0.tar.gz --markdown 20230721/p/pdfcrowd/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-07-21 12:02:53] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-21 12:02:53] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.5.tar.gz tmp/sqlx-exec-1.0.6.tar.gz --markdown 20230721/s/sqlx-exec/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-21 12:02:53] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/1e/43/5dc3c47160fa20ff12d420118cd2c497d4241c6e71d7a0d1a9598a4d996e/gmltools-0.0.92.tar.gz
+[2023-07-21 12:02:53] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-21 12:02:53] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230721/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:02:53] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-07-21 12:02:53] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.91.tar.gz tmp/gmltools-0.0.92.tar.gz --markdown 20230721/g/gmltools/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-21 12:02:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-07-21 12:02:53] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-07-21 12:02:54] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.5.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.6.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-21 12:02:54] ERROR root fetch - processPackages [sqlx-exec]: Diffoscope failed: time="2023-07-21T12:02:53+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
+
+[2023-07-21 12:02:54] INFO root fetch - main [MainThread]: End processing [sqlx-exec] error
+[2023-07-21 12:02:54] INFO root fetch - processPackages [pdfcrowd]: Remove: archive file [/home/abi/fetcher/tmp/pdfcrowd-5.8.0.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - processPackages [pdfcrowd]: Remove: archive file [/home/abi/fetcher/tmp/pdfcrowd-5.9.0.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - main [MainThread]: End processing [pdfcrowd]: success
+[2023-07-21 12:02:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-21 12:02:54] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.91.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.92.tar.gz]
+[2023-07-21 12:02:54] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-07-21 12:03:33] INFO root fetch - processPackages [vaex-core]: Remove: archive file [/home/abi/fetcher/tmp/vaex-core-4.9.2.tar.gz]
+[2023-07-21 12:03:33] INFO root fetch - processPackages [vaex-core]: Remove: archive file [/home/abi/fetcher/tmp/vaex-core-5.0.0a1.tar.gz]
+[2023-07-21 12:03:33] INFO root fetch - main [MainThread]: End processing [vaex-core]: success
+[2023-07-21 12:03:33] INFO root fetch - main [MainThread]: Store serial: [18981174]
