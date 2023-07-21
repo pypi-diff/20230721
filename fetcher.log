@@ -19188,3 +19188,153 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:40:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202340-py3-none-any.whl.zip]
 [2023-07-21 11:40:49] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-21 11:40:49] INFO root fetch - main [MainThread]: Store serial: [18980984]
+[2023-07-21 11:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980984]
+[2023-07-21 11:45:57] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testit-adapter-behave
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testit-adapter-pytest
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testit-adapter-robotframework
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testit-adapter-nose
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testit-python-commons
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cell-value
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huhk
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dev-assistant-client
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ohyes
+[2023-07-21 11:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenFisca-France
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-robotframework]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 11:45:58] WARNING root fetch - processPackages [ohyes]: Skipping, unable to determine old version
+[2023-07-21 11:45:58] INFO root fetch - processPackages [ohyes]: Start processing: sinabs-dynapcnn
+[2023-07-21 11:45:58] INFO root fetch - main [MainThread]: End processing [ohyes] error
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-python-commons]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-behave]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [cell-value]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-nose]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-pytest]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [huhk]: New version: [1.6.8] Old Version: [1.6.6]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/64/f7/3597f2f25ff4cb5a1ba4561dc7e8d0e3b63b55bc9da2c16420cf158216c1/testit-adapter-behave-2.2.2.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/80/4d/94f158290a3fa632c2e42900e422a634823f6827833acc993794b73eeb38/testit-adapter-robotframework-2.2.2.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/40/24/eba4a6d89c40eac8edba09ff0530be76a03b837ea725475f46053a59f1d6/dev-assistant-client-0.1.8.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/ba/4c/62b92d98b9a0b8952875e9a9e85f583156553a1e2bc2d8521b1fe7c1ce4d/testit-python-commons-2.2.2.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/25/0b/fe4e08822ebeba565d21422749776acf68399ae3410b55e5b31b5bd5ef98/testit-adapter-pytest-2.2.2.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/53/72/fa5b99a579a84664c82dd6a62a920e5c7bb3b49789c48a6ecdb6a90444f3/testit-adapter-nose-2.2.2.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/bd/47/5ed78393f5281312dfd9ed0cd8bfb82b7533dfd4af7a1de48c4f76851dff/huhk-1.6.6.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [cell-value]: Downloading https://files.pythonhosted.org/packages/10/97/f405446e7f466825e675702f42572943f36d497856e3e752ae26459d461b/cell_value-1.1.2.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-07-21 11:45:58] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-07-21 11:45:58] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/d3/cc/cbe92d8512162618cae26f647373bade01e98ab18986c994bf9810bc9d0e/testit-adapter-robotframework-2.2.3.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/8d/db/705b7dd55c598044e3a330b1bad38f36ca4c6121073b6b4c56ceb4fe5bec/testit-python-commons-2.2.3.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/9f/d3/5738da900e567e5746c486b7f6743f08e04ea85bbeafafd8aad374167b6d/testit-adapter-behave-2.2.3.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/36/c8/d7c2127bd8e27cf7b15943d0c37af2862794406560be76bf5f3d7714d07e/testit-adapter-pytest-2.2.3.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e2/63/da63c28da3956aa0b16a816ebd0f700014c4b542f8233ad78aff853dec8a/dev-assistant-client-0.1.9.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/c2/a2/39d87759ebe4462ab1c50a06f5dced91b4697246efeb75a7627f2a8464ce/testit-adapter-nose-2.2.3.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [cell-value]: Downloading https://files.pythonhosted.org/packages/78/b4/85b598ae96c749cf70e6f7c4705d837d2e3a2fcbaf5bfb3ff3220bbaa443/cell_value-1.1.3.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/cb/59/5ffc95f6d87598a8bee31676193160bdc067bb5db9d0c6e6a8073f22d9df/huhk-1.6.8.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-robotframework]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-robotframework-2.2.2.tar.gz tmp/testit-adapter-robotframework-2.2.3.tar.gz --markdown 20230721/t/testit-adapter-robotframework/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-python-commons]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-python-commons-2.2.2.tar.gz tmp/testit-python-commons-2.2.3.tar.gz --markdown 20230721/t/testit-python-commons/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-behave]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-behave-2.2.2.tar.gz tmp/testit-adapter-behave-2.2.3.tar.gz --markdown 20230721/t/testit-adapter-behave/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-pytest]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-pytest-2.2.2.tar.gz tmp/testit-adapter-pytest-2.2.3.tar.gz --markdown 20230721/t/testit-adapter-pytest/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-07-21 11:45:59] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.8.tar.gz tmp/dev-assistant-client-0.1.9.tar.gz --markdown 20230721/d/dev-assistant-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-nose]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [testit-adapter-nose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-nose-2.2.2.tar.gz tmp/testit-adapter-nose-2.2.3.tar.gz --markdown 20230721/t/testit-adapter-nose/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.6.6.tar.gz tmp/huhk-1.6.8.tar.gz --markdown 20230721/h/huhk/1.6.6-1.6.8/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [cell-value]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [cell-value]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cell_value-1.1.2.tar.gz tmp/cell_value-1.1.3.tar.gz --markdown 20230721/c/cell-value/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-21 11:45:59] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-07-21 11:45:59] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-07-21 11:45:59] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230721/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-07-21 11:46:00] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-07-21 11:46:00] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230721/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-robotframework-2.2.2.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-robotframework-2.2.3.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-robotframework]: Start processing: kfish
+[2023-07-21 11:46:00] INFO root fetch - main [MainThread]: End processing [testit-adapter-robotframework]: success
+[2023-07-21 11:46:00] INFO root fetch - processPackages [kfish]: New version: [99.0.202307210943] Old Version: [99.0.202307202344]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/26/92/1f908da7d63daa27b0f14572342f72ddbd3f15a90604cdc645c6a00690a6/kfish-99.0.202307202344-py3-none-any.whl
+[2023-07-21 11:46:00] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.8.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.9.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [dev-assistant-client]: Start processing: coconut-develop
+[2023-07-21 11:46:00] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-behave-2.2.2.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-behave-2.2.3.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-behave]: Start processing: my-email-parser
+[2023-07-21 11:46:00] INFO root fetch - main [MainThread]: End processing [testit-adapter-behave]: success
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-nose-2.2.2.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-nose-2.2.3.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [testit-adapter-nose]: Start processing: location-local
+[2023-07-21 11:46:00] INFO root fetch - main [MainThread]: End processing [testit-adapter-nose]: success
+[2023-07-21 11:46:00] INFO root fetch - processPackages [cell-value]: Remove: archive file [/home/abi/fetcher/tmp/cell_value-1.1.2.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [cell-value]: Remove: archive file [/home/abi/fetcher/tmp/cell_value-1.1.3.tar.gz]
+[2023-07-21 11:46:00] INFO root fetch - processPackages [cell-value]: Start processing: buscador
+[2023-07-21 11:46:00] INFO root fetch - main [MainThread]: End processing [cell-value]: success
+[2023-07-21 11:46:01] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-pytest-2.2.2.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-pytest-2.2.3.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [testit-adapter-pytest]: Start processing: ops-scenario
+[2023-07-21 11:46:01] INFO root fetch - main [MainThread]: End processing [testit-adapter-pytest]: success
+[2023-07-21 11:46:01] INFO root fetch - processPackages [my-email-parser]: New version: [1.1] Old Version: [1.0]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [buscador]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.6.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.8.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-21 11:46:01] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit-python-commons-2.2.2.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit-python-commons-2.2.3.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - main [MainThread]: End processing [testit-python-commons]: success
+[2023-07-21 11:46:01] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/6d/cb/4f9cf6ceeea5b094804c76a025ff71045e7480fc2b55dfa9d5790635d306/location-local-0.0.8.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/97/70/65016ceea1d3fe197438d01bc2796a941fac3b4c88cd719cf47665e3b3bc/kfish-99.0.202307210943-py3-none-any.whl
+[2023-07-21 11:46:01] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/60/9e/7afb05d47b6f9312c44273343faac00022a5e481f731d32fbbbb252080fe/buscador-0.8.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [ops-scenario]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [my-email-parser]: Downloading https://files.pythonhosted.org/packages/bf/f1/ea713a0f1e9b9970f946b33cbe3e7e45c0032eb9453c1c4094d150604617/my_email_parser-1.0.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/34/2a/fb42e220a0e2df4585b42e32e07079cfefac11c203461bffdb813267c647/location-local-0.0.9.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 11:46:01] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307202344-py3-none-any.whl.zip tmp/kfish-99.0.202307210943-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307202344-99.0.202307210943/diff.md --exclude *.pyd
+[2023-07-21 11:46:01] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-21 11:46:01] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.8.tar.gz tmp/location-local-0.0.9.tar.gz --markdown 20230721/l/location-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:46:01] INFO root fetch - processPackages [ops-scenario]: Downloading https://files.pythonhosted.org/packages/3b/fa/27d8c084abd6186766f341b30bd7f357d14fbbd675a2b35250fe5181427e/ops-scenario-4.0.2.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/b5/62/eb5bd505c711ca5eeea0f356eec0ba144109aa5de06831a07b99dcd04845/buscador-0.9.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [my-email-parser]: Downloading https://files.pythonhosted.org/packages/e9/b1/9b71150bfee35dbfc9639d21a9f54a49a4cc17617d9b6e8b2c6ecc9e92b2/my_email_parser-1.1.tar.gz
+[2023-07-21 11:46:01] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-21 11:46:01] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230721/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-21 11:46:01] INFO root fetch - processPackages [my-email-parser]: executing diffoscope
+[2023-07-21 11:46:01] INFO root fetch - processPackages [my-email-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_email_parser-1.0.tar.gz tmp/my_email_parser-1.1.tar.gz --markdown 20230721/m/my-email-parser/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-21 11:46:01] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-21 11:46:01] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.8.tar.gz tmp/buscador-0.9.tar.gz --markdown 20230721/b/buscador/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 11:46:01] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-07-21 11:46:01] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-07-21 11:46:01] INFO root fetch - processPackages [ops-scenario]: Downloading https://files.pythonhosted.org/packages/24/a7/b6232626d8fb645614fb6548954e78132574f8ebf721618e5d745b754b0c/ops-scenario-4.0.3.tar.gz
+[2023-07-21 11:46:02] INFO root fetch - processPackages [ops-scenario]: executing diffoscope
+[2023-07-21 11:46:02] INFO root fetch - processPackages [ops-scenario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-scenario-4.0.2.tar.gz tmp/ops-scenario-4.0.3.tar.gz --markdown 20230721/o/ops-scenario/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-21 11:46:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307202344-py3-none-any.whl.zip]
+[2023-07-21 11:46:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307210943-py3-none-any.whl.zip]
+[2023-07-21 11:46:02] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 11:46:02] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.8.tar.gz]
+[2023-07-21 11:46:02] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.9.tar.gz]
+[2023-07-21 11:46:02] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-21 11:46:02] INFO root fetch - processPackages [my-email-parser]: Remove: archive file [/home/abi/fetcher/tmp/my_email_parser-1.0.tar.gz]
+[2023-07-21 11:46:02] INFO root fetch - processPackages [my-email-parser]: Remove: archive file [/home/abi/fetcher/tmp/my_email_parser-1.1.tar.gz]
+[2023-07-21 11:46:02] INFO root fetch - main [MainThread]: End processing [my-email-parser]: success
+[2023-07-21 11:46:02] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.8.tar.gz]
+[2023-07-21 11:46:02] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.9.tar.gz]
+[2023-07-21 11:46:02] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-21 11:46:03] INFO root fetch - processPackages [ops-scenario]: Remove: archive file [/home/abi/fetcher/tmp/ops-scenario-4.0.2.tar.gz]
+[2023-07-21 11:46:03] INFO root fetch - processPackages [ops-scenario]: Remove: archive file [/home/abi/fetcher/tmp/ops-scenario-4.0.3.tar.gz]
+[2023-07-21 11:46:03] INFO root fetch - main [MainThread]: End processing [ops-scenario]: success
+[2023-07-21 11:46:03] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-21 11:46:03] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-21 11:46:03] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-21 11:46:21] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2023-07-21 11:46:21] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2023-07-21 11:46:21] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-07-21 11:46:21] INFO root fetch - main [MainThread]: Store serial: [18981038]
