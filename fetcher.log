@@ -2872,3 +2872,120 @@
 [2023-07-21 02:12:44] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
 [2023-07-21 02:12:44] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-07-21 02:12:44] INFO root fetch - main [MainThread]: Store serial: [18974661]
+[2023-07-21 02:17:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974661]
+[2023-07-21 02:17:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptquality
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-url-tokenizer
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchmultimodal-nightly
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-gitlab-runner
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-events-notify
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytorch-ignite
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-skylight
+[2023-07-21 02:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-amazon-chime-resources
+[2023-07-21 02:17:53] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [promptquality]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230721] Old Version: [0.5.0.dev20230720]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [torchmultimodal-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/37/15/f98223da8ccb868be46e447af149613c399321cba7aff08df283e21973b2/promptquality-0.2.0.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/0c/3e/52e0dce5b3c2a33e049cc1760bfeca9d143c3354f478cdaf726137eaf5ac/torchmultimodal_nightly-2023.7.8-py39-none-any.whl
+[2023-07-21 02:17:53] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/56/ed/7ba1ee629eb9d5e67afa40c0e4a4604f68f3c5f570ff4ec96cbf47259b83/pytorch-ignite-0.5.0.dev20230720.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-07-21 02:17:53] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-07-21 02:17:53] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-07-21 02:17:53] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-21 02:17:53] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-21 02:17:53] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230721/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 02:17:53] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-21 02:17:53] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230721/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230721/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-21 02:17:53] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/d4/44/01a31468023f89ca72e0d1b17827dd9ccb35f678bd36121d6fa054fb8340/promptquality-0.2.1.tar.gz
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230721/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-21 02:17:53] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-07-21 02:17:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2023-07-21 02:17:54] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/f7/d0/0257956da5f1b214325565fc9be08365e4109082c6ab17d8fa74c091a89b/pytorch-ignite-0.5.0.dev20230721.tar.gz
+[2023-07-21 02:17:54] INFO root fetch - processPackages [promptquality]: executing diffoscope
+[2023-07-21 02:17:54] INFO root fetch - processPackages [promptquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptquality-0.2.0.tar.gz tmp/promptquality-0.2.1.tar.gz --markdown 20230721/p/promptquality/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-21 02:17:54] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-07-21 02:17:54] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-07-21 02:17:54] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230721/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 02:17:54] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/77/18/5a5a06b580f657f8ec1e6928c56391d49853e8c7cae646e4368b066d931f/torchmultimodal_nightly-2023.7.9-py39-none-any.whl
+[2023-07-21 02:17:54] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-07-21 02:17:54] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230721/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-21 02:17:54] INFO root fetch - processPackages [torchmultimodal-nightly]: executing diffoscope
+[2023-07-21 02:17:54] INFO root fetch - processPackages [torchmultimodal-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmultimodal_nightly-2023.7.8-py39-none-any.whl.zip tmp/torchmultimodal_nightly-2023.7.9-py39-none-any.whl.zip --markdown 20230721/t/torchmultimodal-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-21 02:17:54] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-07-21 02:17:54] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230720.tar.gz tmp/pytorch-ignite-0.5.0.dev20230721.tar.gz --markdown 20230721/p/pytorch-ignite/0.5.0.dev20230720-0.5.0.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 02:17:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2023-07-21 02:17:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-07-21 02:17:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230721/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-21 02:17:55] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [django-url-tokenizer]: Start processing: chilife
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-21 02:17:55] INFO root fetch - processPackages [chilife]: New version: [0.1.9] Old Version: [0.1.8.1]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Start processing: mac-cleanup
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-21 02:17:55] INFO root fetch - processPackages [chilife]: Downloading https://files.pythonhosted.org/packages/ad/27/b42ebee81bdb08e2e13264289ebef39c8dd20c2b56f02ae9e18ea4612d37/chilife-0.1.8.1.tar.gz
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Start processing: qctrl-commons
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-21 02:17:55] WARNING root fetch - processPackages [chilife]: Skipping package: exceeds size limit 17725464>=10485760
+[2023-07-21 02:17:55] INFO root fetch - processPackages [mac-cleanup]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [chilife] error
+[2023-07-21 02:17:55] INFO root fetch - processPackages [qctrl-commons]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.2.0.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.2.1.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [promptquality]: success
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-07-21 02:17:55] INFO root fetch - processPackages [mac-cleanup]: Downloading https://files.pythonhosted.org/packages/74/d5/e057bc4bb9b21c4b1786ec5bbbeeb4ba55ed35638bbff28ffc542d9db7fb/mac_cleanup-3.0.3.tar.gz
+[2023-07-21 02:17:55] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-07-21 02:17:55] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/46/db/d0de42840a30f78ba5260811263005b4cdbad033c1657ac8496e03ef08e2/qctrl-commons-8.1.0.tar.gz
+[2023-07-21 02:17:55] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
+[2023-07-21 02:17:55] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-07-21 02:17:56] INFO root fetch - processPackages [torchmultimodal-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchmultimodal_nightly-2023.7.8-py39-none-any.whl.zip]
+[2023-07-21 02:17:56] INFO root fetch - processPackages [torchmultimodal-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchmultimodal_nightly-2023.7.9-py39-none-any.whl.zip]
+[2023-07-21 02:17:56] INFO root fetch - main [MainThread]: End processing [torchmultimodal-nightly]: success
+[2023-07-21 02:17:56] INFO root fetch - processPackages [mac-cleanup]: Downloading https://files.pythonhosted.org/packages/57/98/d606698374019b8d1de30d7464136bcf16f9c6a0d8d835e3b5245c819514/mac_cleanup-3.0.4.tar.gz
+[2023-07-21 02:17:56] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230720.tar.gz]
+[2023-07-21 02:17:56] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230721.tar.gz]
+[2023-07-21 02:17:56] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-07-21 02:17:56] INFO root fetch - processPackages [mac-cleanup]: executing diffoscope
+[2023-07-21 02:17:56] INFO root fetch - processPackages [mac-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mac_cleanup-3.0.3.tar.gz tmp/mac_cleanup-3.0.4.tar.gz --markdown 20230721/m/mac-cleanup/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-21 02:17:56] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/52/e6/108f3806637d0e22c3ca08e15d9dd71a4b256080e9616b42a0fdf859a5c6/qctrl-commons-9.0.0.tar.gz
+[2023-07-21 02:17:56] INFO root fetch - processPackages [qctrl-commons]: executing diffoscope
+[2023-07-21 02:17:56] INFO root fetch - processPackages [qctrl-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-commons-8.1.0.tar.gz tmp/qctrl-commons-9.0.0.tar.gz --markdown 20230721/q/qctrl-commons/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-21 02:17:57] INFO root fetch - processPackages [mac-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/mac_cleanup-3.0.3.tar.gz]
+[2023-07-21 02:17:57] INFO root fetch - processPackages [mac-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/mac_cleanup-3.0.4.tar.gz]
+[2023-07-21 02:17:57] INFO root fetch - main [MainThread]: End processing [mac-cleanup]: success
+[2023-07-21 02:17:57] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-8.1.0.tar.gz]
+[2023-07-21 02:17:57] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-9.0.0.tar.gz]
+[2023-07-21 02:17:57] INFO root fetch - main [MainThread]: End processing [qctrl-commons]: success
+[2023-07-21 02:17:57] INFO root fetch - main [MainThread]: Store serial: [18974706]
