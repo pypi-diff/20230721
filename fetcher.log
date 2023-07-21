@@ -10228,3 +10228,169 @@
 [2023-07-21 04:06:41] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
 [2023-07-21 04:06:41] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
 [2023-07-21 04:06:41] INFO root fetch - main [MainThread]: Store serial: [18977528]
+[2023-07-21 04:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977528]
+[2023-07-21 04:11:50] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-circular-progress
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chrisbase
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dingtalk-stream
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kilter.protocol
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iflytekspark
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-circular-progress
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-composer-app
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: core-curate-app
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: core-curate-registry-app
+[2023-07-21 04:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PlistParser
+[2023-07-21 04:11:51] INFO root fetch - processPackages [iflytekspark]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [st-circular-progress]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [chrisbase]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [st-circular-progress]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [core-curate-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [core-composer-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [core-curate-registry-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [kilter.protocol]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [PlistParser]: New version: [2023.7.21.0] Old Version: [2023.7.20.1]
+[2023-07-21 04:11:51] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/0e/aa/2b0a60c165cf33c899517a9f2ec75351406e2d47cd8fe86b6aed8a55c307/dingtalk-stream-0.7.3.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [iflytekspark]: Downloading https://files.pythonhosted.org/packages/4c/09/c76c2f03ca688ab05be336a8705edaa69356f60141599231274839f774f4/iflytekspark-0.0.3.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/a6/66/d909f45cade062cba805748f01273328fd8bd055633c77ac9a5397720f25/st_circular_progress-0.2.0.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/a6/66/d909f45cade062cba805748f01273328fd8bd055633c77ac9a5397720f25/st_circular_progress-0.2.0.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [core-curate-app]: Downloading https://files.pythonhosted.org/packages/4b/ef/e81b3ba71173a9ce5294ebc8cf5f32233218aa86023fccb528d88874437c/core_curate_app-2.3.0.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [core-curate-registry-app]: Downloading https://files.pythonhosted.org/packages/b8/8d/1ed4a7f74cadb0ea69ebf42963bd038482fbce03f01cfc57fe849f85a0bd/core_curate_registry_app-2.3.0.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [core-composer-app]: Downloading https://files.pythonhosted.org/packages/5c/7b/a095c59a72ced2f3b78c3a26830a651a93488c438515d74a626e9d3eeb16/core_composer_app-2.3.0.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/d5/ed/28288c7c085d503fb09a88291a5c40619c59840274a1859aa278caced86a/chrisbase-0.4.1.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [kilter.protocol]: Downloading https://files.pythonhosted.org/packages/38/28/7aee452205452bd976a6a6bfb6df8374eb7f09ff47d15ae7772eaeaae37a/kilter.protocol-0.2.1.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [PlistParser]: Downloading https://files.pythonhosted.org/packages/28/48/65229c26794cc0e6bc014d958d26f08901fbb24fefeca8abb90884f77a07/PlistParser-2023.7.20.1.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/cc/d2/885b98247daf72de6caa76d8a294f550b8ce0298303e90605071b44505a0/dingtalk-stream-0.7.4.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [iflytekspark]: Downloading https://files.pythonhosted.org/packages/f6/fd/9134668d55b329595209ab17acd3237776cc00957d47e272ea20c3f5216f/iflytekspark-0.0.4.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/a8/24/d72b9a7ff1d9367601be80ad45b41017421dd6029e190197522ad3131b82/st_circular_progress-0.2.1.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/a8/24/d72b9a7ff1d9367601be80ad45b41017421dd6029e190197522ad3131b82/st_circular_progress-0.2.1.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [core-curate-registry-app]: Downloading https://files.pythonhosted.org/packages/e6/db/f93ef6e5421da42c14780c9b0a26214f13f25ec4e48b1baf45ce6fdb5b72/core_curate_registry_app-2.4.0.tar.gz
+[2023-07-21 04:11:51] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/98/78/7cdee04ae734c4cb06c65bd2e1e9b89a8e6de650ce1fdd86a5b4463002c8/chrisbase-0.4.2.tar.gz
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-curate-app]: Downloading https://files.pythonhosted.org/packages/cd/56/0a73fcb40fd515d5fdacc197431e4d580cbe69009169b53399f85ccde645/core_curate_app-2.4.0.tar.gz
+[2023-07-21 04:11:52] INFO root fetch - processPackages [PlistParser]: Downloading https://files.pythonhosted.org/packages/ff/9e/6d9c029819853cbd0c9f081d1d1d191ce7e1631ba54e5141f54d49dfce5e/PlistParser-2023.7.21.0.tar.gz
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-composer-app]: Downloading https://files.pythonhosted.org/packages/5a/68/63c8a438b41d8800c753285097fc776025696bd217698ea9571276e71bc6/core_composer_app-2.4.0.tar.gz
+[2023-07-21 04:11:52] INFO root fetch - processPackages [kilter.protocol]: Downloading https://files.pythonhosted.org/packages/be/cb/3d5a254cc1c741722e0e4219236b8df6c6c565adcc7504dbb1098773db0d/kilter_protocol-0.3.0.tar.gz
+[2023-07-21 04:11:52] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.7.3.tar.gz tmp/dingtalk-stream-0.7.4.tar.gz --markdown 20230721/d/dingtalk-stream/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-curate-registry-app]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-curate-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_curate_registry_app-2.3.0.tar.gz tmp/core_curate_registry_app-2.4.0.tar.gz --markdown 20230721/c/core-curate-registry-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [iflytekspark]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [iflytekspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iflytekspark-0.0.3.tar.gz tmp/iflytekspark-0.0.4.tar.gz --markdown 20230721/i/iflytekspark/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.2.0.tar.gz tmp/st_circular_progress-0.2.1.tar.gz --markdown 20230721/s/st-circular-progress/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.2.0.tar.gz tmp/st_circular_progress-0.2.1.tar.gz --markdown 20230721/s/st-circular-progress/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [chrisbase]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [chrisbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrisbase-0.4.1.tar.gz tmp/chrisbase-0.4.2.tar.gz --markdown 20230721/c/chrisbase/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [PlistParser]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [PlistParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlistParser-2023.7.20.1.tar.gz tmp/PlistParser-2023.7.21.0.tar.gz --markdown 20230721/P/PlistParser/2023.7.20.1-2023.7.21.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-composer-app]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-composer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_composer_app-2.3.0.tar.gz tmp/core_composer_app-2.4.0.tar.gz --markdown 20230721/c/core-composer-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-curate-app]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [core-curate-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_curate_app-2.3.0.tar.gz tmp/core_curate_app-2.4.0.tar.gz --markdown 20230721/c/core-curate-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:52] INFO root fetch - processPackages [kilter.protocol]: executing diffoscope
+[2023-07-21 04:11:52] INFO root fetch - processPackages [kilter.protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilter.protocol-0.2.1.tar.gz tmp/kilter_protocol-0.3.0.tar.gz --markdown 20230721/k/kilter.protocol/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:53] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.0.tar.gz]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.1.tar.gz]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [st-circular-progress]: Start processing: core-dashboard-app
+[2023-07-21 04:11:53] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 04:11:53] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.3.tar.gz]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.4.tar.gz]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [dingtalk-stream]: Start processing: core-dashboard-common-app
+[2023-07-21 04:11:53] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-07-21 04:11:53] INFO root fetch - processPackages [core-dashboard-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [core-dashboard-common-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [PlistParser]: Remove: archive file [/home/abi/fetcher/tmp/PlistParser-2023.7.20.1.tar.gz]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [PlistParser]: Remove: archive file [/home/abi/fetcher/tmp/PlistParser-2023.7.21.0.tar.gz]
+[2023-07-21 04:11:53] INFO root fetch - processPackages [PlistParser]: Start processing: core-dashboard-registry-app
+[2023-07-21 04:11:53] INFO root fetch - main [MainThread]: End processing [PlistParser]: success
+[2023-07-21 04:11:53] INFO root fetch - processPackages [st-circular-progress]: Start processing: core-elasticsearch-app
+[2023-07-21 04:11:53] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 04:11:53] INFO root fetch - processPackages [core-dashboard-registry-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-elasticsearch-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-app]: Downloading https://files.pythonhosted.org/packages/74/05/67fcfb47adc66c7a4897dc260dffc9378c8a0601070d4fb0bcf0a8c9f678/core_dashboard_app-2.3.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-common-app]: Downloading https://files.pythonhosted.org/packages/b1/50/cc16ad772d65c4b579f6d7bf2429577d6cf7e46ee064ca5369dadc82264a/core_dashboard_common_app-2.3.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [iflytekspark]: Remove: archive file [/home/abi/fetcher/tmp/iflytekspark-0.0.3.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [iflytekspark]: Remove: archive file [/home/abi/fetcher/tmp/iflytekspark-0.0.4.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [iflytekspark]: Start processing: core-explore-common-app
+[2023-07-21 04:11:54] INFO root fetch - main [MainThread]: End processing [iflytekspark]: success
+[2023-07-21 04:11:54] INFO root fetch - processPackages [kilter.protocol]: Remove: archive file [/home/abi/fetcher/tmp/kilter.protocol-0.2.1.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [kilter.protocol]: Remove: archive file [/home/abi/fetcher/tmp/kilter_protocol-0.3.0.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [kilter.protocol]: Start processing: nonebot-plugin-sayoroll
+[2023-07-21 04:11:54] INFO root fetch - main [MainThread]: End processing [kilter.protocol]: success
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-common-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.4.1.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.4.2.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [chrisbase]: Start processing: core-explore-example-app
+[2023-07-21 04:11:54] INFO root fetch - main [MainThread]: End processing [chrisbase]: success
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-registry-app]: Downloading https://files.pythonhosted.org/packages/96/2e/a0643852a2ed120f9aabd71d30e062c9d7dafa7d70aad970746989f98c84/core_dashboard_registry_app-2.3.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-elasticsearch-app]: Downloading https://files.pythonhosted.org/packages/81/4a/0599a81f4bcda4632f0e62edca3606b651b044fdab91437cea34407dede1/core_elasticsearch_app-2.3.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-example-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-common-app]: Downloading https://files.pythonhosted.org/packages/26/a6/256dc9b59d6d60388b68a50ae20c74581a5028508452f5abf35b2f419495/core_explore_common_app-2.3.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-curate-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_curate_registry_app-2.3.0.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-curate-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_curate_registry_app-2.4.0.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-curate-registry-app]: Start processing: infoind
+[2023-07-21 04:11:54] INFO root fetch - main [MainThread]: End processing [core-curate-registry-app]: success
+[2023-07-21 04:11:54] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/38/fb/ac7023d8b329f3af2d14b9794441581034f6c6401274918dab95b1594d89/nonebot-plugin-sayoroll-0.4.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-registry-app]: Downloading https://files.pythonhosted.org/packages/93/f7/0b4d00b9ef66dcbb64743e5e4ec14e98038179ace4aa96624e5f5809447b/core_dashboard_registry_app-2.4.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-app]: Downloading https://files.pythonhosted.org/packages/3a/a4/635dd4e5266a32fefdc4fa9aa9450c9cf6614d077e1ea341eca87681538b/core_dashboard_app-2.4.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-common-app]: Downloading https://files.pythonhosted.org/packages/7e/92/fccd043c4bed95832e1e19f2bd75b341b0d4e0b2eef586e1256a439d0238/core_dashboard_common_app-2.4.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-example-app]: Downloading https://files.pythonhosted.org/packages/58/9d/503cd3521c7bbb34882a240b18da3fbc506b1d229c5e778ed76a6d1704c9/core_explore_example_app-2.3.0.tar.gz
+[2023-07-21 04:11:54] WARNING root fetch - processPackages [infoind]: Skipping, unable to determine old version
+[2023-07-21 04:11:54] INFO root fetch - processPackages [infoind]: Start processing: core-explore-federated-search-app
+[2023-07-21 04:11:54] INFO root fetch - main [MainThread]: End processing [infoind] error
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-composer-app]: Remove: archive file [/home/abi/fetcher/tmp/core_composer_app-2.3.0.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-composer-app]: Remove: archive file [/home/abi/fetcher/tmp/core_composer_app-2.4.0.tar.gz]
+[2023-07-21 04:11:54] INFO root fetch - main [MainThread]: End processing [core-composer-app]: success
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-elasticsearch-app]: Downloading https://files.pythonhosted.org/packages/e6/ad/960772e57088226e858ad9a82ad27027289b7431e24ae9909f123f322f50/core_elasticsearch_app-2.4.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-registry-app]: executing diffoscope
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_dashboard_registry_app-2.3.0.tar.gz tmp/core_dashboard_registry_app-2.4.0.tar.gz --markdown 20230721/c/core-dashboard-registry-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-app]: executing diffoscope
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_dashboard_app-2.3.0.tar.gz tmp/core_dashboard_app-2.4.0.tar.gz --markdown 20230721/c/core-dashboard-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-common-app]: Downloading https://files.pythonhosted.org/packages/07/7b/bc1c0e9c007e6d0dfb435f6bedde9d1da1bdd1464f6b814af52ac03527e4/core_explore_common_app-2.4.0.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-common-app]: executing diffoscope
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-dashboard-common-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_dashboard_common_app-2.3.0.tar.gz tmp/core_dashboard_common_app-2.4.0.tar.gz --markdown 20230721/c/core-dashboard-common-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-federated-search-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-elasticsearch-app]: executing diffoscope
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-elasticsearch-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_elasticsearch_app-2.3.0.tar.gz tmp/core_elasticsearch_app-2.4.0.tar.gz --markdown 20230721/c/core-elasticsearch-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:54] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/6c/41/efea5deddd23fd332b67b69dd075c9d8755ba9631662012d36b2f2cb10e9/nonebot-plugin-sayoroll-0.4.1.tar.gz
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-common-app]: executing diffoscope
+[2023-07-21 04:11:54] INFO root fetch - processPackages [core-explore-common-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_explore_common_app-2.3.0.tar.gz tmp/core_explore_common_app-2.4.0.tar.gz --markdown 20230721/c/core-explore-common-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:54] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-21 04:11:54] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.4.0.tar.gz tmp/nonebot-plugin-sayoroll-0.4.1.tar.gz --markdown 20230721/n/nonebot-plugin-sayoroll/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-explore-federated-search-app]: Downloading https://files.pythonhosted.org/packages/6d/87/7b5fb5e1cdd60b67c63f33bc0d7d311b7e6fec6d965e18719564371c8cb5/core_explore_federated_search_app-2.3.0.tar.gz
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-curate-app]: Remove: archive file [/home/abi/fetcher/tmp/core_curate_app-2.3.0.tar.gz]
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-curate-app]: Remove: archive file [/home/abi/fetcher/tmp/core_curate_app-2.4.0.tar.gz]
+[2023-07-21 04:11:55] INFO root fetch - main [MainThread]: End processing [core-curate-app]: success
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-explore-example-app]: Downloading https://files.pythonhosted.org/packages/e6/9c/c9faa820b1dd417cc2ab55c132c39ed63a0a21a91bf6819de69ed43e91bb/core_explore_example_app-2.4.0.tar.gz
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-explore-example-app]: executing diffoscope
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-explore-example-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_explore_example_app-2.3.0.tar.gz tmp/core_explore_example_app-2.4.0.tar.gz --markdown 20230721/c/core-explore-example-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-explore-federated-search-app]: Downloading https://files.pythonhosted.org/packages/29/50/d1e3483b3c70906848c5f2c05480f7ff73598bf31623adea0634db95e541/core_explore_federated_search_app-2.4.0.tar.gz
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-explore-federated-search-app]: executing diffoscope
+[2023-07-21 04:11:55] INFO root fetch - processPackages [core-explore-federated-search-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_explore_federated_search_app-2.3.0.tar.gz tmp/core_explore_federated_search_app-2.4.0.tar.gz --markdown 20230721/c/core-explore-federated-search-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:11:56] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.4.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.4.1.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-dashboard-app]: Remove: archive file [/home/abi/fetcher/tmp/core_dashboard_app-2.3.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-dashboard-app]: Remove: archive file [/home/abi/fetcher/tmp/core_dashboard_app-2.4.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - main [MainThread]: End processing [core-dashboard-app]: success
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-elasticsearch-app]: Remove: archive file [/home/abi/fetcher/tmp/core_elasticsearch_app-2.3.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-elasticsearch-app]: Remove: archive file [/home/abi/fetcher/tmp/core_elasticsearch_app-2.4.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - main [MainThread]: End processing [core-elasticsearch-app]: success
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-dashboard-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_dashboard_registry_app-2.3.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-dashboard-registry-app]: Remove: archive file [/home/abi/fetcher/tmp/core_dashboard_registry_app-2.4.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - main [MainThread]: End processing [core-dashboard-registry-app]: success
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-explore-common-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_common_app-2.3.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-explore-common-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_common_app-2.4.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - main [MainThread]: End processing [core-explore-common-app]: success
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-explore-federated-search-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_federated_search_app-2.3.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-explore-federated-search-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_federated_search_app-2.4.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - main [MainThread]: End processing [core-explore-federated-search-app]: success
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-explore-example-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_example_app-2.3.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - processPackages [core-explore-example-app]: Remove: archive file [/home/abi/fetcher/tmp/core_explore_example_app-2.4.0.tar.gz]
+[2023-07-21 04:11:56] INFO root fetch - main [MainThread]: End processing [core-explore-example-app]: success
+[2023-07-21 04:11:57] INFO root fetch - processPackages [core-dashboard-common-app]: Remove: archive file [/home/abi/fetcher/tmp/core_dashboard_common_app-2.3.0.tar.gz]
+[2023-07-21 04:11:57] INFO root fetch - processPackages [core-dashboard-common-app]: Remove: archive file [/home/abi/fetcher/tmp/core_dashboard_common_app-2.4.0.tar.gz]
+[2023-07-21 04:11:57] INFO root fetch - main [MainThread]: End processing [core-dashboard-common-app]: success
+[2023-07-21 04:11:57] INFO root fetch - main [MainThread]: Store serial: [18977580]
