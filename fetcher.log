@@ -21505,3 +21505,113 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 13:28:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.1.tar.gz]
 [2023-07-21 13:28:57] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-21 13:28:57] INFO root fetch - main [MainThread]: Store serial: [18981932]
+[2023-07-21 13:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981932]
+[2023-07-21 13:34:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrec-nightly
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qtmetabolabpy
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metabolabpytools
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nhs-number
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bpp-iplweb
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oep-client
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junifer
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Katayoun-email-utils
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hotpot-zzy
+[2023-07-21 13:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dingtalk-stream
+[2023-07-21 13:34:06] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.1.1] Old Version: [0.3.1.0]
+[2023-07-21 13:34:06] INFO root fetch - processPackages [metabolabpytools]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [oep-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [nhs-number]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev89] Old Version: [0.0.3.dev75]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [qtmetabolabpy]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-07-21 13:34:07] WARNING root fetch - processPackages [Katayoun-email-utils]: Skipping, unable to determine old version
+[2023-07-21 13:34:07] INFO root fetch - processPackages [Katayoun-email-utils]: Start processing: nrobo
+[2023-07-21 13:34:07] INFO root fetch - main [MainThread]: End processing [Katayoun-email-utils] error
+[2023-07-21 13:34:07] INFO root fetch - processPackages [bpp-iplweb]: New version: [202307.1108] Old Version: [202307.1107]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.21] Old Version: [2023.7.19]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/27/2b/b2b11f508bc82f91d9ce7f5b243df2394e14cf4c4a49b22b4ab1fd0e8afd/hotpot-zzy-0.3.1.0.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [nrobo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/cc/d2/885b98247daf72de6caa76d8a294f550b8ce0298303e90605071b44505a0/dingtalk-stream-0.7.4.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/79/81/0b7ded9a2efdc9d5a90985cf1670d7d1447b8afc49c4c0cf5d2b840e985f/bpp_iplweb-202307.1107-py3-none-any.whl
+[2023-07-21 13:34:07] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/31/30/1a006bb7ff316b90c8b31bd4eb1d6349dc6ad762068c9a8059fec42b076f/metabolabpytools-0.9.2.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [nhs-number]: Downloading https://files.pythonhosted.org/packages/51/8b/8b7a583eb223b5749faa832fc586ace9621f487daca894a9efda06cb273c/nhs_number-1.3.3.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/d2/2d/d1e97cafe701ab1c5fc58a49d963658dac96596936a4c305a8736384adee/oep-client-0.9.0.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/e2/37/cf27e4080eb02de4e7f58b8c0b15732bf87688af6f5506afe1fd495b564d/qtmetabolabpy-0.9.2.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/d6/47/d74516e31bf550bd413557bf2fe84012ad1c21b2a4e390624ea24404d47d/junifer-0.0.3.dev75.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/9f/b0/1aa4fb4810ddcf0e8a53d30630414330f64befaa9d132c45b16870edbd93/torchrec_nightly-2023.7.19-py39-none-any.whl
+[2023-07-21 13:34:07] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/85/01/55b435abcb1fac7d6b65be649216d8d0e940f6f90b40034379b3be7119cc/nrobo-2.0.8.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/d3/6f/f3eb4deccbffe30758468fd435953d9db8073efe6a2ba4983d64f3d64b66/dingtalk-stream-0.7.5.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [nhs-number]: Downloading https://files.pythonhosted.org/packages/b5/99/c270a4f45df4427bb099e90887839be223758bb6a11cfb40f95d1db9bf37/nhs_number-1.3.4.tar.gz
+[2023-07-21 13:34:07] WARNING root fetch - processPackages [nrobo]: Skipping package: exceeds size limit 56550856>=10485760
+[2023-07-21 13:34:07] INFO root fetch - processPackages [nrobo]: Start processing: buscador
+[2023-07-21 13:34:07] INFO root fetch - main [MainThread]: End processing [nrobo] error
+[2023-07-21 13:34:07] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/6e/0d/c0e0626cda19096dbe0c08f4ea0503579d0394ff4a440c3302e8807e0f7f/oep-client-0.9.1.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/b6/f9/90dd357df4fa5ad8362704b755e17bf586ecd87dd0f39877823ed972a1dd/qtmetabolabpy-0.9.4.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/c5/06/255ca570d014f3a3b61dbfd6930918954915fcbb78b788d99fd027969a15/junifer-0.0.3.dev89.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/f5/08/59304108efb3d84fcd371ed56e7451598b06ecb341e91ad817d068f0ef79/hotpot-zzy-0.3.1.1.tar.gz
+[2023-07-21 13:34:07] INFO root fetch - processPackages [buscador]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 13:34:07] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-07-21 13:34:07] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.7.4.tar.gz tmp/dingtalk-stream-0.7.5.tar.gz --markdown 20230721/d/dingtalk-stream/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/63/92/d62106c2525a0f199c72ade08c20b1b36fe49d7260a84aa3a44bde992aaf/torchrec_nightly-2023.7.21-py39-none-any.whl
+[2023-07-21 13:34:08] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/24/b4/22ef169bb205f923161f8c86720f4fc5768c45e1e34407d2e31b5e81e540/metabolabpytools-0.9.4.tar.gz
+[2023-07-21 13:34:08] INFO root fetch - processPackages [nhs-number]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [nhs-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhs_number-1.3.3.tar.gz tmp/nhs_number-1.3.4.tar.gz --markdown 20230721/n/nhs-number/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/60/9e/7afb05d47b6f9312c44273343faac00022a5e481f731d32fbbbb252080fe/buscador-0.8.tar.gz
+[2023-07-21 13:34:08] INFO root fetch - processPackages [qtmetabolabpy]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [qtmetabolabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmetabolabpy-0.9.2.tar.gz tmp/qtmetabolabpy-0.9.4.tar.gz --markdown 20230721/q/qtmetabolabpy/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/53/d9/14eeb82a7486ece83b8f47d4ad61406097664ac32f28d35752a05bc9572e/bpp_iplweb-202307.1108-py3-none-any.whl
+[2023-07-21 13:34:08] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev75.tar.gz tmp/junifer-0.0.3.dev89.tar.gz --markdown 20230721/j/junifer/0.0.3.dev75-0.0.3.dev89/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [metabolabpytools]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [metabolabpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolabpytools-0.9.2.tar.gz tmp/metabolabpytools-0.9.4.tar.gz --markdown 20230721/m/metabolabpytools/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/b5/62/eb5bd505c711ca5eeea0f356eec0ba144109aa5de06831a07b99dcd04845/buscador-0.9.tar.gz
+[2023-07-21 13:34:08] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.1.0.tar.gz tmp/hotpot-zzy-0.3.1.1.tar.gz --markdown 20230721/h/hotpot-zzy/0.3.1.0-0.3.1.1/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.8.tar.gz tmp/buscador-0.9.tar.gz --markdown 20230721/b/buscador/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [oep-client]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [oep-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oep-client-0.9.0.tar.gz tmp/oep-client-0.9.1.tar.gz --markdown 20230721/o/oep-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [bpp-iplweb]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [bpp-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpp_iplweb-202307.1107-py3-none-any.whl.zip tmp/bpp_iplweb-202307.1108-py3-none-any.whl.zip --markdown 20230721/b/bpp-iplweb/202307.1107-202307.1108/diff.md --exclude *.pyd
+[2023-07-21 13:34:08] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-21 13:34:08] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.19-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.21-py39-none-any.whl.zip --markdown 20230721/t/torchrec-nightly/2023.7.19-2023.7.21/diff.md --exclude *.pyd
+[2023-07-21 13:34:09] INFO root fetch - processPackages [nhs-number]: Remove: archive file [/home/abi/fetcher/tmp/nhs_number-1.3.3.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - processPackages [nhs-number]: Remove: archive file [/home/abi/fetcher/tmp/nhs_number-1.3.4.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - processPackages [nhs-number]: Start processing: TEST-TC
+[2023-07-21 13:34:09] INFO root fetch - main [MainThread]: End processing [nhs-number]: success
+[2023-07-21 13:34:09] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-21 13:34:09] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.4.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.5.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-07-21 13:34:09] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.9.2.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.9.4.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - main [MainThread]: End processing [metabolabpytools]: success
+[2023-07-21 13:34:09] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-07-21 13:34:09] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.9.2.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.9.4.tar.gz]
+[2023-07-21 13:34:09] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
+[2023-07-21 13:34:09] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/a9/ae/cc48e0c4dee179e9893205f7e7ae1dce1d5bc0d6d49c7cb06cbf58db540e/TEST_TC-1.1.5.tar.gz
+[2023-07-21 13:34:10] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.0.tar.gz]
+[2023-07-21 13:34:10] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.1.tar.gz]
+[2023-07-21 13:34:10] INFO root fetch - main [MainThread]: End processing [oep-client]: success
+[2023-07-21 13:34:10] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.8.tar.gz]
+[2023-07-21 13:34:10] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.9.tar.gz]
+[2023-07-21 13:34:10] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-21 13:34:10] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-21 13:34:10] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.4.tar.gz tmp/TEST_TC-1.1.5.tar.gz --markdown 20230721/T/TEST-TC/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-21 13:34:10] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.19-py39-none-any.whl.zip]
+[2023-07-21 13:34:10] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.21-py39-none-any.whl.zip]
+[2023-07-21 13:34:10] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-21 13:34:10] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.1.0.tar.gz]
+[2023-07-21 13:34:10] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.1.1.tar.gz]
+[2023-07-21 13:34:10] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-07-21 13:34:11] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-07-21 13:34:11] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.5.tar.gz]
+[2023-07-21 13:34:11] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-21 13:34:11] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
+[2023-07-21 13:34:11] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev89.tar.gz]
+[2023-07-21 13:34:11] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-07-21 13:34:26] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1107-py3-none-any.whl.zip]
+[2023-07-21 13:34:26] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1108-py3-none-any.whl.zip]
+[2023-07-21 13:34:26] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
+[2023-07-21 13:34:26] INFO root fetch - main [MainThread]: Store serial: [18981973]
