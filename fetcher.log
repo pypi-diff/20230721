@@ -13238,3 +13238,63 @@
 [2023-07-21 06:22:10] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
 [2023-07-21 06:22:10] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2023-07-21 06:22:10] INFO root fetch - main [MainThread]: Store serial: [18978540]
+[2023-07-21 06:27:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978540]
+[2023-07-21 06:27:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 06:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mrp-multi-level
+[2023-07-21 06:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiera-transformer
+[2023-07-21 06:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-client
+[2023-07-21 06:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-data-client
+[2023-07-21 06:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mrp-bom-structure-xlsx
+[2023-07-21 06:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-manufacture-reporting
+[2023-07-21 06:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-SQL-Pro
+[2023-07-21 06:27:20] INFO root fetch - processPackages [hiera-transformer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-21 06:27:20] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 06:27:20] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.6] Old Version: [16.0.1.2.0.5]
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx]: New version: [15.0.1.1.0.3] Old Version: [15.0.1.1.0.2]
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: New version: [15.0.20230720.0] Old Version: [15.0.20220113.0]
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/26/92/ce75b27f42d6ac2961c6a8941a50a5e03533ef9f9630052fd1a6e15710e2/threemystic_cloud_data_client-0.1.21.tar.gz
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/ff/2a/84f8daa80c57a443e7b96f0353c88a370cc04e07889ddaaef6562bfe5f9d/threemystic_cloud_client-0.1.39.tar.gz
+[2023-07-21 06:27:20] INFO root fetch - processPackages [hiera-transformer]: Downloading https://files.pythonhosted.org/packages/f5/d0/e0527c67f78d23e0649d1d1407c1b95d80583f6b631a03b8dd95e34bdc80/hiera-transformer-0.1.1.tar.gz
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/86/f7/eb566aca489fbb817f3bcb186ce1b7b0369b3b9701dd5c221102b321ac3f/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Downloading https://files.pythonhosted.org/packages/6e/0c/f266193464ddf6779d6ce65da4086f0488f26f4675bd805e98c465b85026/odoo_addons_oca_manufacture_reporting-15.0.20220113.0-py3-none-any.whl
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx]: Downloading https://files.pythonhosted.org/packages/62/94/c0f22fe30cc753fa15be5f392b8e548ad3d2117e0168158778bb1ae15292/odoo_addon_mrp_bom_structure_xlsx-15.0.1.1.0.2-py3-none-any.whl
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/33/bc/0949109460bc3079989ed1790b0bce46acbff2b9bd814d9a0b3b0117911d/threemystic_cloud_client-0.1.40.tar.gz
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/95/81/1fde44f23afa716e574e504ea4c0ad83ae916482ccc69a6df1f249229264/threemystic_cloud_data_client-0.1.22.tar.gz
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/ed/d4/177fae5daf14c8660f92d920da84c76b81ed8f981c5ae1d31d1c29a666ef/odoo_addon_mrp_multi_level-16.0.1.2.0.6-py3-none-any.whl
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Downloading https://files.pythonhosted.org/packages/31/d6/150b56eaaffc716e313e620825297b1611f6a2e7846d7803d5be1068d853/odoo_addons_oca_manufacture_reporting-15.0.20230720.0-py3-none-any.whl
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx]: Downloading https://files.pythonhosted.org/packages/bb/aa/a8ea1ce3da1dd1dcddb3851d9ffadeb1af0f19521b9fb7b2f17d3f2856cb/odoo_addon_mrp_bom_structure_xlsx-15.0.1.1.0.3-py3-none-any.whl
+[2023-07-21 06:27:20] INFO root fetch - processPackages [hiera-transformer]: Downloading https://files.pythonhosted.org/packages/be/73/80b92992ecbe6c9538defc0a40f2cf0734c916fe207e61327f20864d41b3/hiera-transformer-0.1.2.tar.gz
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.39.tar.gz tmp/threemystic_cloud_client-0.1.40.tar.gz --markdown 20230721/t/threemystic-cloud-client/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-21 06:27:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.21.tar.gz tmp/threemystic_cloud_data_client-0.1.22.tar.gz --markdown 20230721/t/threemystic-cloud-data-client/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: executing diffoscope
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture_reporting-15.0.20220113.0-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture_reporting-15.0.20230720.0-py3-none-any.whl.zip --markdown 20230721/o/odoo-addons-oca-manufacture-reporting/15.0.20220113.0-15.0.20230720.0/diff.md --exclude *.pyd
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx]: executing diffoscope
+[2023-07-21 06:27:20] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_structure_xlsx-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_structure_xlsx-15.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-mrp-bom-structure-xlsx/15.0.1.1.0.2-15.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-07-21 06:27:21] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-07-21 06:27:21] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.6-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-mrp-multi-level/16.0.1.2.0.5-16.0.1.2.0.6/diff.md --exclude *.pyd
+[2023-07-21 06:27:21] INFO root fetch - processPackages [hiera-transformer]: executing diffoscope
+[2023-07-21 06:27:21] INFO root fetch - processPackages [hiera-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiera-transformer-0.1.1.tar.gz tmp/hiera-transformer-0.1.2.tar.gz --markdown 20230721/h/hiera-transformer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 06:27:21] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture_reporting-15.0.20220113.0-py3-none-any.whl.zip]
+[2023-07-21 06:27:21] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture_reporting-15.0.20230720.0-py3-none-any.whl.zip]
+[2023-07-21 06:27:21] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture-reporting]: success
+[2023-07-21 06:27:22] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_structure_xlsx-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-21 06:27:22] INFO root fetch - processPackages [odoo-addon-mrp-bom-structure-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_structure_xlsx-15.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-21 06:27:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-structure-xlsx]: success
+[2023-07-21 06:27:22] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.39.tar.gz]
+[2023-07-21 06:27:22] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.40.tar.gz]
+[2023-07-21 06:27:22] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-21 06:27:22] INFO root fetch - processPackages [hiera-transformer]: Remove: archive file [/home/abi/fetcher/tmp/hiera-transformer-0.1.1.tar.gz]
+[2023-07-21 06:27:22] INFO root fetch - processPackages [hiera-transformer]: Remove: archive file [/home/abi/fetcher/tmp/hiera-transformer-0.1.2.tar.gz]
+[2023-07-21 06:27:22] INFO root fetch - main [MainThread]: End processing [hiera-transformer]: success
+[2023-07-21 06:27:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.21.tar.gz]
+[2023-07-21 06:27:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.22.tar.gz]
+[2023-07-21 06:27:22] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-21 06:27:22] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip]
+[2023-07-21 06:27:22] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.6-py3-none-any.whl.zip]
+[2023-07-21 06:27:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-07-21 06:27:22] INFO root fetch - main [MainThread]: Store serial: [18978566]
