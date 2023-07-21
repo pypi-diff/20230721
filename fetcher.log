@@ -18511,3 +18511,169 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:12:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.0.tar.gz]
 [2023-07-21 11:12:55] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-21 11:12:55] INFO root fetch - main [MainThread]: Store serial: [18980730]
+[2023-07-21 11:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980730]
+[2023-07-21 11:18:03] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holoviews
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3seed
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skale-contracts
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hifibgc
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-express-components
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easypcd
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skale-contracts
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nuclia
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aeromaps
+[2023-07-21 11:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycti
+[2023-07-21 11:18:04] WARNING root fetch - processPackages [hifibgc]: Skipping, unable to determine old version
+[2023-07-21 11:18:04] INFO root fetch - processPackages [hifibgc]: Start processing: geyserworx_api
+[2023-07-21 11:18:04] INFO root fetch - main [MainThread]: End processing [hifibgc] error
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [nuclia]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [aeromaps]: New version: [0.2.0b0] Old Version: [0.1.1b0]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [easypcd]: New version: [0.0.23] Old Version: [0.0.2]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [holoviews]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [geyserworx_api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [pycti]: New version: [5.9.6] Old Version: [5.9.5]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [py3seed]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/83/35/baba2e36c73688a0fb161834598f3fe7068425cf5c00462e3232bce2ce7f/easypcd-0.0.2-py3-none-any.whl
+[2023-07-21 11:18:04] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/45/7b/61b1675fed3cbd68bd3fe066763b3fc63536dbbc20acaef0ef22906a792b/dash_express_components-0.0.8.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/93/12/aa21f57c21c71ea627e6e78dc596152d585f603dc1343fc9ee35808c8551/nuclia-1.1.2.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [aeromaps]: Downloading https://files.pythonhosted.org/packages/a8/bb/1f06336e84b0ee4cacd8760b8baff7f11439e0ae7679c8349d7c4ec0470c/aeromaps-0.1.1b0.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [geyserworx_api]: Downloading https://files.pythonhosted.org/packages/2e/86/c4c1d6dbc8ec2c9d8a99448afa10d241f8feac7ed97f8974fc8606e0510c/geyserworx_api-1.0.1.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/59/1c/f3bab15afa70d6424f04ba98eacf877b469d4196177d1fda90c0870823d6/holoviews-1.9.4.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/ed/ae/8ef80091d40354df214522a1813a94d5d6e986c94c5c3462a067aa2c21d3/py3seed-0.2.1.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/d9/58/bd16b5eea34261870a46bc286dcddffdaf9f47394815d0910bf9b405f70e/pycti-5.9.5.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/66/0d/dc0adfaa5fdd6130f89cd1424b654098ff03a31b3b7faf85ee62a0a14322/skale-contracts-0.0.1.dev978114706300915430.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/0a/d8/c401e2a1418c6391c8838cbcdfb73780650cb5b3d5f958f06d427ffc8843/easypcd-0.0.23-py3-none-any.whl
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/66/0d/dc0adfaa5fdd6130f89cd1424b654098ff03a31b3b7faf85ee62a0a14322/skale-contracts-0.0.1.dev978114706300915430.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/d1/15/d5c1be53b3f190ff1d937fd73fb055bf4ab65e3ad343e84ac1443896d23c/py3seed-0.2.2.tar.gz
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230721/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-21 11:18:04] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230721/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-21 11:18:05] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/71/0c/ed8f88017216cc33a4b8ea83026df6d2fce78542f47390615a2650c4b035/pycti-5.9.6.tar.gz
+[2023-07-21 11:18:05] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/48/bb/f81ab8f41e3fa872b0929ebfff3194b177bbcd10c183e7642835f1c1393b/nuclia-1.1.3.tar.gz
+[2023-07-21 11:18:05] INFO root fetch - processPackages [geyserworx_api]: Downloading https://files.pythonhosted.org/packages/08/f3/2f34a6fda4485b1ae6fb64f5209bacab2ed97d479d32e554eabaaa154af1/geyserworx_api-1.0.2.tar.gz
+[2023-07-21 11:18:05] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-21 11:18:05] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.2-py3-none-any.whl.zip tmp/easypcd-0.0.23-py3-none-any.whl.zip --markdown 20230721/e/easypcd/0.0.2-0.0.23/diff.md --exclude *.pyd
+[2023-07-21 11:18:05] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-21 11:18:05] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.1.tar.gz tmp/py3seed-0.2.2.tar.gz --markdown 20230721/p/py3seed/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-21 11:18:05] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-07-21 11:18:05] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.9.5.tar.gz tmp/pycti-5.9.6.tar.gz --markdown 20230721/p/pycti/5.9.5-5.9.6/diff.md --exclude *.pyd
+[2023-07-21 11:18:05] INFO root fetch - processPackages [geyserworx_api]: executing diffoscope
+[2023-07-21 11:18:05] INFO root fetch - processPackages [geyserworx_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geyserworx_api-1.0.1.tar.gz tmp/geyserworx_api-1.0.2.tar.gz --markdown 20230721/g/geyserworx_api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 11:18:05] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2023-07-21 11:18:05] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-1.1.2.tar.gz tmp/nuclia-1.1.3.tar.gz --markdown 20230721/n/nuclia/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-21 11:18:05] INFO root fetch - processPackages [aeromaps]: Downloading https://files.pythonhosted.org/packages/71/af/ad740af7956df1e0380be11def12dcf610933e076e4485ddfbe982460b48/aeromaps-0.2.0b0.tar.gz
+[2023-07-21 11:18:05] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/19/bd/a24d847266cd35ecf1681d41420a9be0331b22fb730bef223ef869483a72/dash_express_components-0.0.9.tar.gz
+[2023-07-21 11:18:05] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/ef/d1/fbb719d25a5118f76229625ecbbf1505259ad1c95a309fdd184fcfbce7ef/holoviews-1.9.5.tar.gz
+[2023-07-21 11:18:05] INFO root fetch - processPackages [aeromaps]: executing diffoscope
+[2023-07-21 11:18:05] INFO root fetch - processPackages [aeromaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeromaps-0.1.1b0.tar.gz tmp/aeromaps-0.2.0b0.tar.gz --markdown 20230721/a/aeromaps/0.1.1b0-0.2.0b0/diff.md --exclude *.pyd
+[2023-07-21 11:18:06] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [skale-contracts]: Start processing: odoo11-addon-crm-timesheet
+[2023-07-21 11:18:06] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: New version: [11.0.1.0.1] Old Version: [11.0.1.0.0.99.dev9]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [skale-contracts]: Start processing: odoo11-addon-hr-timesheet-task-required
+[2023-07-21 11:18:06] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-task-required]: New version: [11.0.1.0.2] Old Version: [11.0.1.0.1.99.dev7]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [geyserworx_api]: Remove: archive file [/home/abi/fetcher/tmp/geyserworx_api-1.0.1.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [geyserworx_api]: Remove: archive file [/home/abi/fetcher/tmp/geyserworx_api-1.0.2.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [geyserworx_api]: Start processing: xtb-broker
+[2023-07-21 11:18:06] INFO root fetch - main [MainThread]: End processing [geyserworx_api]: success
+[2023-07-21 11:18:06] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.2-py3-none-any.whl.zip]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.23-py3-none-any.whl.zip]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [easypcd]: Start processing: odoo11-addon-hr-timesheet-sheet
+[2023-07-21 11:18:06] INFO root fetch - main [MainThread]: End processing [easypcd]: success
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/7d/0a/5af6d119ec96e3012093c5b0cb58f67e9c977c18cdf6c35934e2da337fde/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-07-21 11:18:06] INFO root fetch - processPackages [xtb-broker]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: New version: [11.0.2.0.2] Old Version: [11.0.2.0.1.99.dev9]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.1.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.2.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [py3seed]: Start processing: odoo11-addon-project-task-stage-allow-timesheet
+[2023-07-21 11:18:06] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-project-task-stage-allow-timesheet]: New version: [11.0.1.0.1] Old Version: [11.0.1.0.0.99.dev8]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [xtb-broker]: Downloading https://files.pythonhosted.org/packages/c7/66/251a123573b76d35aa161926b34046869fea79e6654f049416f6360806fc/xtb_broker-0.0.5.tar.gz
+[2023-07-21 11:18:06] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.2.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.3.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [nuclia]: Start processing: odoo11-addon-hr-timesheet-sheet-attendance
+[2023-07-21 11:18:06] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-task-required]: Downloading https://files.pythonhosted.org/packages/35/f0/e0e062e0f5a228cd67ce0f5550e30133bcfcd0cb10b0bbad312c122d9fd6/odoo11_addon_hr_timesheet_task_required-11.0.1.0.1.99.dev7-py2.py3-none-any.whl
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet-attendance]: New version: [11.0.0.0.2] Old Version: [11.0.0.0.1]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/f0/7a/cd22f8bed77fba30ed868fb9be7a30ecd39540c43b11311a904af0e507c8/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl
+[2023-07-21 11:18:06] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.9.5.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.9.6.tar.gz]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [pycti]: Start processing: locura-iotlab-bridge
+[2023-07-21 11:18:06] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-project-task-stage-allow-timesheet]: Downloading https://files.pythonhosted.org/packages/0d/f3/ab56ab7af45a49142bcda65d6d04f89e6741ceb890d999d537467f3c8458/odoo11_addon_project_task_stage_allow_timesheet-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-07-21 11:18:06] INFO root fetch - processPackages [locura-iotlab-bridge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 11:18:06] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/00/2c/0b3bffdea19d22c800d4fd71164c9d26a68cab62fa12a6104a94ab30c1f5/odoo11_addon_crm_timesheet-11.0.1.0.1-py2.py3-none-any.whl
+[2023-07-21 11:18:06] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2023-07-21 11:18:06] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.8.tar.gz tmp/dash_express_components-0.0.9.tar.gz --markdown 20230721/d/dash-express-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:18:06] INFO root fetch - processPackages [xtb-broker]: Downloading https://files.pythonhosted.org/packages/a4/fe/2277d52dbb4b5cda55f661d60249492acb953b90898f790a4d3a7bcc17f6/xtb_broker-0.0.6.tar.gz
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-task-required]: Downloading https://files.pythonhosted.org/packages/5a/87/824e11d18f1298cc732582b9b8999f82c23aaf3fd64f3dfbfd462f9f1e83/odoo11_addon_hr_timesheet_task_required-11.0.1.0.2-py2.py3-none-any.whl
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip tmp/odoo11_addon_crm_timesheet-11.0.1.0.1-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-crm-timesheet/11.0.1.0.0.99.dev9-11.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [xtb-broker]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [xtb-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtb_broker-0.0.5.tar.gz tmp/xtb_broker-0.0.6.tar.gz --markdown 20230721/x/xtb-broker/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [locura-iotlab-bridge]: Downloading https://files.pythonhosted.org/packages/cd/59/99a2bf4b4e766a0f75df1b126ba85a3c1717c34e51bd0914e1c2936cf7a6/locura_iotlab_bridge-0.1.8.tar.gz
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/e5/02/9432e5910b83e88364f4e3d0ab829eca50bb2363d9a2102eaa02a0ecd391/odoo11_addon_hr_timesheet_sheet_attendance-11.0.0.0.1-py2.py3-none-any.whl
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/e5/6a/412332bf0c748493d3f5be2247581404fb5b3ff87dd5fd1f8611b11d6632/odoo11_addon_hr_timesheet_sheet-11.0.2.0.2-py2.py3-none-any.whl
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-project-task-stage-allow-timesheet]: Downloading https://files.pythonhosted.org/packages/cc/98/bbc4eae45792dcb7e2fce75db1efe23f1c30327a7f9aa2cd2b6681c8b42f/odoo11_addon_project_task_stage_allow_timesheet-11.0.1.0.1-py2.py3-none-any.whl
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-task-required]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-task-required]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_hr_timesheet_task_required-11.0.1.0.1.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_hr_timesheet_task_required-11.0.1.0.2-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-hr-timesheet-task-required/11.0.1.0.1.99.dev7-11.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [holoviews]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [holoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holoviews-1.9.4.tar.gz tmp/holoviews-1.9.5.tar.gz --markdown 20230721/h/holoviews/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-project-task-stage-allow-timesheet]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-project-task-stage-allow-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_project_task_stage_allow_timesheet-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_project_task_stage_allow_timesheet-11.0.1.0.1-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-project-task-stage-allow-timesheet/11.0.1.0.0.99.dev8-11.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/ed/59/60a96b1e2e1af3e71ba1cc1ef7431bfe077b28faa14ece4090a160b8687b/odoo11_addon_hr_timesheet_sheet_attendance-11.0.0.0.2-py2.py3-none-any.whl
+[2023-07-21 11:18:07] INFO root fetch - processPackages [locura-iotlab-bridge]: Downloading https://files.pythonhosted.org/packages/b9/1b/96be261eba8bd365b368bdf0a5a0c9d1287e636be25cb0ed12034102e5cd/locura_iotlab_bridge-0.1.9.tar.gz
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl.zip tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.2-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-hr-timesheet-sheet/11.0.2.0.1.99.dev9-11.0.2.0.2/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [aeromaps]: Remove: archive file [/home/abi/fetcher/tmp/aeromaps-0.1.1b0.tar.gz]
+[2023-07-21 11:18:07] INFO root fetch - processPackages [aeromaps]: Remove: archive file [/home/abi/fetcher/tmp/aeromaps-0.2.0b0.tar.gz]
+[2023-07-21 11:18:07] INFO root fetch - processPackages [aeromaps]: Start processing: asyncoinpayments
+[2023-07-21 11:18:07] INFO root fetch - main [MainThread]: End processing [aeromaps]: success
+[2023-07-21 11:18:07] INFO root fetch - processPackages [asyncoinpayments]: New version: [0.0.4a0] Old Version: [0.0.3a0]
+[2023-07-21 11:18:07] INFO root fetch - processPackages [locura-iotlab-bridge]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [locura-iotlab-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locura_iotlab_bridge-0.1.8.tar.gz tmp/locura_iotlab_bridge-0.1.9.tar.gz --markdown 20230721/l/locura-iotlab-bridge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet-attendance]: executing diffoscope
+[2023-07-21 11:18:07] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet-attendance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_hr_timesheet_sheet_attendance-11.0.0.0.1-py2.py3-none-any.whl.zip tmp/odoo11_addon_hr_timesheet_sheet_attendance-11.0.0.0.2-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-hr-timesheet-sheet-attendance/11.0.0.0.1-11.0.0.0.2/diff.md --exclude *.pyd
+[2023-07-21 11:18:07] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/1f/9d/4f2c8284a5e6d86dc771a4c5bef7dae6d196648ad305c700ce54298f4273/asyncoinpayments-0.0.3a0.tar.gz
+[2023-07-21 11:18:08] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/be/34/4e4a6eab00ac53298162fa5f89fc8672b7b95a30038be7bcf493ed023ab6/asyncoinpayments-0.0.4a0.tar.gz
+[2023-07-21 11:18:08] INFO root fetch - processPackages [xtb-broker]: Remove: archive file [/home/abi/fetcher/tmp/xtb_broker-0.0.5.tar.gz]
+[2023-07-21 11:18:08] INFO root fetch - processPackages [xtb-broker]: Remove: archive file [/home/abi/fetcher/tmp/xtb_broker-0.0.6.tar.gz]
+[2023-07-21 11:18:08] INFO root fetch - main [MainThread]: End processing [xtb-broker]: success
+[2023-07-21 11:18:08] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:08] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_crm_timesheet-11.0.1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:08] INFO root fetch - main [MainThread]: End processing [odoo11-addon-crm-timesheet]: success
+[2023-07-21 11:18:08] INFO root fetch - processPackages [asyncoinpayments]: executing diffoscope
+[2023-07-21 11:18:08] INFO root fetch - processPackages [asyncoinpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncoinpayments-0.0.3a0.tar.gz tmp/asyncoinpayments-0.0.4a0.tar.gz --markdown 20230721/a/asyncoinpayments/0.0.3a0-0.0.4a0/diff.md --exclude *.pyd
+[2023-07-21 11:18:08] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-task-required]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_task_required-11.0.1.0.1.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:08] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-task-required]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_task_required-11.0.1.0.2-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:08] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-timesheet-task-required]: success
+[2023-07-21 11:18:08] INFO root fetch - processPackages [odoo11-addon-project-task-stage-allow-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_project_task_stage_allow_timesheet-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:08] INFO root fetch - processPackages [odoo11-addon-project-task-stage-allow-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_project_task_stage_allow_timesheet-11.0.1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:08] INFO root fetch - main [MainThread]: End processing [odoo11-addon-project-task-stage-allow-timesheet]: success
+[2023-07-21 11:18:09] INFO root fetch - processPackages [locura-iotlab-bridge]: Remove: archive file [/home/abi/fetcher/tmp/locura_iotlab_bridge-0.1.8.tar.gz]
+[2023-07-21 11:18:09] INFO root fetch - processPackages [locura-iotlab-bridge]: Remove: archive file [/home/abi/fetcher/tmp/locura_iotlab_bridge-0.1.9.tar.gz]
+[2023-07-21 11:18:09] INFO root fetch - main [MainThread]: End processing [locura-iotlab-bridge]: success
+[2023-07-21 11:18:09] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet-attendance]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_sheet_attendance-11.0.0.0.1-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:09] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet-attendance]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_sheet_attendance-11.0.0.0.2-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:09] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-timesheet-sheet-attendance]: success
+[2023-07-21 11:18:09] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:09] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.2-py2.py3-none-any.whl.zip]
+[2023-07-21 11:18:09] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-timesheet-sheet]: success
+[2023-07-21 11:18:09] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.3a0.tar.gz]
+[2023-07-21 11:18:09] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.4a0.tar.gz]
+[2023-07-21 11:18:09] INFO root fetch - main [MainThread]: End processing [asyncoinpayments]: success
+[2023-07-21 11:18:12] INFO root fetch - processPackages [holoviews]: Remove: archive file [/home/abi/fetcher/tmp/holoviews-1.9.4.tar.gz]
+[2023-07-21 11:18:12] INFO root fetch - processPackages [holoviews]: Remove: archive file [/home/abi/fetcher/tmp/holoviews-1.9.5.tar.gz]
+[2023-07-21 11:18:12] INFO root fetch - main [MainThread]: End processing [holoviews]: success
+[2023-07-21 11:18:39] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.8.tar.gz]
+[2023-07-21 11:18:39] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
+[2023-07-21 11:18:39] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2023-07-21 11:18:39] INFO root fetch - main [MainThread]: Store serial: [18980794]
