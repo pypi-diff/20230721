@@ -15483,3 +15483,83 @@
 [2023-07-21 08:49:18] INFO root fetch - processPackages [kudio]: Remove: archive file [/home/abi/fetcher/tmp/kudio-1.1.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-21 08:49:18] INFO root fetch - main [MainThread]: End processing [kudio]: success
 [2023-07-21 08:49:18] INFO root fetch - main [MainThread]: Store serial: [18979421]
+[2023-07-21 08:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979421]
+[2023-07-21 08:54:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meta-core
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pvipy
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insights-core
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwbwidgets
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx-readme
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: theos-ai
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uframe
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudfront-signed-cookies
+[2023-07-21 08:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sn-test
+[2023-07-21 08:54:30] INFO root fetch - processPackages [sn-test]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [meta-core]: New version: [3.7.22] Old Version: [3.7.21]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [sphinx-readme]: New version: [0.0.2] Old Version: [0.0.1b6]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [cloudfront-signed-cookies]: New version: [1.2] Old Version: [1.0]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [uframe]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [insights-core]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [pvipy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [theos-ai]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-21 08:54:30] INFO root fetch - processPackages [nwbwidgets]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/20/23/e6ef50efcd2da632d3293a28ca2d38b90483d551588972439b49f47975c1/sn_test-1.0.3-py3-none-any.whl
+[2023-07-21 08:54:31] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/8d/25/d023f9cb0d1d45ffeeafbd39e6a75a8c60b373dffbd47824a1915ac997ef/uframe-0.0.5.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/51/8f/eee53c9d3adf62c4590eb91d9c6f43f8250c978812e799c298fdbb33f5c8/meta-core-3.7.21.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [cloudfront-signed-cookies]: Downloading https://files.pythonhosted.org/packages/27/3d/d65b1e6726512acc3379bc742f04ffac143c9766fa6fc17c3a19c7383d0a/cloudfront_signed_cookies-1.0.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/bb/e2/19a557f4c54dd2ecb599a438b74f453df4f747c5a70e980e5fc1402ffd52/sphinx-readme-0.0.1b6.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [pvipy]: Downloading https://files.pythonhosted.org/packages/44/d6/432a9986d0dcb60c6ccc3628f196cc07b26c2a56491ee4c1070f26463eb0/pvipy-0.3.0.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [theos-ai]: Downloading https://files.pythonhosted.org/packages/ec/f7/0a0662f9172ed9adeb1e94581b5692c921cd1144b33d63ca89e3e59970c0/theos_ai-0.0.30-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-07-21 08:54:31] INFO root fetch - processPackages [nwbwidgets]: Downloading https://files.pythonhosted.org/packages/dc/59/9ec1fa735ef9665b199f69926a571294dabc9cc6e039a9c236a5e086c79a/nwbwidgets-0.9.0.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/87/4d/5022c539ef449e625c69fe9c962f9e8cb3984016412f926f9bf7b9735db3/insights-core-3.2.6.tar.gz
+[2023-07-21 08:54:31] WARNING root fetch - processPackages [theos-ai]: Skipping package: exceeds size limit 11983751>=10485760
+[2023-07-21 08:54:31] INFO root fetch - main [MainThread]: End processing [theos-ai] error
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/5e/ef/977eb784d975e5ce254c96d39659736627b2f56a866b9a6a1c0fbbbf5e18/sn_test-1.0.4.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/5e/d3/faf950a362606dd7cff711835ec0a40d9af407b9997d6714879d9c781452/uframe-0.0.6.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/a1/53/be644b0d2abbf84262644fd7ee5dfb5ae4eb9daf87eef82c3d181adb3d61/meta-core-3.7.22.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-1.0.3-py3-none-any.whl.zip tmp/sn_test-1.0.4.tar.gz --markdown 20230721/s/sn-test/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-21 08:54:31] INFO root fetch - processPackages [uframe]: executing diffoscope
+[2023-07-21 08:54:31] INFO root fetch - processPackages [uframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uframe-0.0.5.tar.gz tmp/uframe-0.0.6.tar.gz --markdown 20230721/u/uframe/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-21 08:54:31] INFO root fetch - processPackages [cloudfront-signed-cookies]: Downloading https://files.pythonhosted.org/packages/08/f5/9bf8528e65bd92aaa25bcee9fde70c70296634d2d7744759a73f3ec90e59/cloudfront_signed_cookies-1.2.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/a2/a5/7ca532389c6b7640735bbd6f31a1f7d2b616fb00272ccd3de6481163e604/sphinx-readme-0.0.2.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [pvipy]: Downloading https://files.pythonhosted.org/packages/ed/3e/aef1a40d37bb075d9cd5b5bc328694fe612130146b1209fb8a30239c8548/pvipy-0.4.0.tar.gz
+[2023-07-21 08:54:31] INFO root fetch - processPackages [meta-core]: executing diffoscope
+[2023-07-21 08:54:31] INFO root fetch - processPackages [meta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-core-3.7.21.tar.gz tmp/meta-core-3.7.22.tar.gz --markdown 20230721/m/meta-core/3.7.21-3.7.22/diff.md --exclude *.pyd
+[2023-07-21 08:54:31] INFO root fetch - processPackages [cloudfront-signed-cookies]: executing diffoscope
+[2023-07-21 08:54:31] INFO root fetch - processPackages [cloudfront-signed-cookies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudfront_signed_cookies-1.0.tar.gz tmp/cloudfront_signed_cookies-1.2.tar.gz --markdown 20230721/c/cloudfront-signed-cookies/1.0-1.2/diff.md --exclude *.pyd
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-21 08:54:31] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.0.1b6.tar.gz tmp/sphinx-readme-0.0.2.tar.gz --markdown 20230721/s/sphinx-readme/0.0.1b6-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 08:54:31] INFO root fetch - processPackages [pvipy]: executing diffoscope
+[2023-07-21 08:54:31] INFO root fetch - processPackages [pvipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvipy-0.3.0.tar.gz tmp/pvipy-0.4.0.tar.gz --markdown 20230721/p/pvipy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-21 08:54:31] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/56/95/cb20286876719f1bb47dbf6d65a5e068d101e43ac053425a5f13999d2e2b/insights-core-3.2.7.tar.gz
+[2023-07-21 08:54:32] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-07-21 08:54:32] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.2.6.tar.gz tmp/insights-core-3.2.7.tar.gz --markdown 20230721/i/insights-core/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-07-21 08:54:32] INFO root fetch - processPackages [nwbwidgets]: Downloading https://files.pythonhosted.org/packages/8a/60/03c410964cd32d78ca6bedb7c5ee60f43600fd8372ca8682dc121560aa95/nwbwidgets-0.9.1.tar.gz
+[2023-07-21 08:54:32] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.3-py3-none-any.whl.zip]
+[2023-07-21 08:54:32] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.4.tar.gz]
+[2023-07-21 08:54:32] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-21 08:54:32] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.5.tar.gz]
+[2023-07-21 08:54:32] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.6.tar.gz]
+[2023-07-21 08:54:32] INFO root fetch - main [MainThread]: End processing [uframe]: success
+[2023-07-21 08:54:32] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b6.tar.gz]
+[2023-07-21 08:54:32] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.2.tar.gz]
+[2023-07-21 08:54:32] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-21 08:54:33] INFO root fetch - processPackages [cloudfront-signed-cookies]: Remove: archive file [/home/abi/fetcher/tmp/cloudfront_signed_cookies-1.0.tar.gz]
+[2023-07-21 08:54:33] INFO root fetch - processPackages [cloudfront-signed-cookies]: Remove: archive file [/home/abi/fetcher/tmp/cloudfront_signed_cookies-1.2.tar.gz]
+[2023-07-21 08:54:33] INFO root fetch - main [MainThread]: End processing [cloudfront-signed-cookies]: success
+[2023-07-21 08:54:33] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.21.tar.gz]
+[2023-07-21 08:54:33] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.22.tar.gz]
+[2023-07-21 08:54:33] INFO root fetch - main [MainThread]: End processing [meta-core]: success
+[2023-07-21 08:54:33] INFO root fetch - processPackages [pvipy]: Remove: archive file [/home/abi/fetcher/tmp/pvipy-0.3.0.tar.gz]
+[2023-07-21 08:54:33] INFO root fetch - processPackages [pvipy]: Remove: archive file [/home/abi/fetcher/tmp/pvipy-0.4.0.tar.gz]
+[2023-07-21 08:54:33] INFO root fetch - main [MainThread]: End processing [pvipy]: success
+[2023-07-21 08:54:33] INFO root fetch - processPackages [nwbwidgets]: executing diffoscope
+[2023-07-21 08:54:33] INFO root fetch - processPackages [nwbwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwbwidgets-0.9.0.tar.gz tmp/nwbwidgets-0.9.1.tar.gz --markdown 20230721/n/nwbwidgets/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 08:54:34] INFO root fetch - processPackages [nwbwidgets]: Remove: archive file [/home/abi/fetcher/tmp/nwbwidgets-0.9.0.tar.gz]
+[2023-07-21 08:54:34] INFO root fetch - processPackages [nwbwidgets]: Remove: archive file [/home/abi/fetcher/tmp/nwbwidgets-0.9.1.tar.gz]
+[2023-07-21 08:54:34] INFO root fetch - main [MainThread]: End processing [nwbwidgets]: success
+[2023-07-21 08:54:41] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.6.tar.gz]
+[2023-07-21 08:54:41] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.7.tar.gz]
+[2023-07-21 08:54:41] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-07-21 08:54:41] INFO root fetch - main [MainThread]: Store serial: [18979466]
