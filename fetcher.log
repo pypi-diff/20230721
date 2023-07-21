@@ -11539,3 +11539,94 @@
 [2023-07-21 04:59:26] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
 [2023-07-21 04:59:26] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-07-21 04:59:26] INFO root fetch - main [MainThread]: Store serial: [18977946]
+[2023-07-21 05:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977946]
+[2023-07-21 05:04:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-pyc
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyc-package
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pandora-Cloud
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyc-package
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lycoris-lora
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stringcalc
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nanoprep-ffm
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miniagent
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-connector-prestashop
+[2023-07-21 05:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aliyun-python-sdk-polardb
+[2023-07-21 05:04:35] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: New version: [14.0.2.0.3.dev9] Old Version: [14.0.2.0.3.dev8]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [dyc-package]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [miniagent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [stringcalc]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [dyc-package]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.1.dev1] Old Version: [1.8.0.dev9]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 05:04:35] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/72/7b/0e71664e17b4419378d33a8b363bf19c8d40f73c2c8fb7e0ab815da606c0/Pandora-Cloud-0.5.0.tar.gz
+[2023-07-21 05:04:35] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/3e/c8/87950bac6afe6bf10b7823a67445e6ee853e88a4ccc5c5feafa45d8d5111/odoo14_addon_connector_prestashop-14.0.2.0.3.dev8-py3-none-any.whl
+[2023-07-21 05:04:35] INFO root fetch - processPackages [dyc-package]: Downloading https://files.pythonhosted.org/packages/11/f6/20b33beb0643ca7ebd16241e6b15eafdf3dc0392f29b82c32a87fafa1697/dyc_package-1.0.1.tar.gz
+[2023-07-21 05:04:35] INFO root fetch - processPackages [dyc-package]: Downloading https://files.pythonhosted.org/packages/11/f6/20b33beb0643ca7ebd16241e6b15eafdf3dc0392f29b82c32a87fafa1697/dyc_package-1.0.1.tar.gz
+[2023-07-21 05:04:35] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/61/fe/ddee9f7a8915f85ae86d21e121b9930e76846662b7905185edc01f253eaa/miniagent-0.0.8-py3-none-any.whl
+[2023-07-21 05:04:35] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/41/14/7e8071666d416049e6ba639840e5d0889e22a4fdd85ef4e7fe82361f9507/nanoprep-ffm-0.0.8.tar.gz
+[2023-07-21 05:04:35] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/33/f8/dbedfb5d14ce42cc250e4b1bd8edc9b569669b04696eeb887792654467d4/lycoris_lora-1.8.0.dev9.tar.gz
+[2023-07-21 05:04:35] INFO root fetch - processPackages [stringcalc]: Downloading https://files.pythonhosted.org/packages/88/fc/df5769fa4c45f57823d38b94a49f1c1af674f5959f0eef40898603512586/stringcalc-0.1.0.dev8.tar.gz
+[2023-07-21 05:04:35] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-07-21 05:04:35] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/5a/6c/734e5c8186b517a7271f1ff49825ba55570b96dd92bd1317ceb2d7ccbab1/odoo14_addon_connector_prestashop-14.0.2.0.3.dev9-py3-none-any.whl
+[2023-07-21 05:04:36] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/92/e5/684583b07fce6c155c48f3ef92f5aade89cf5a39088f833b45de3c073fdf/miniagent-0.0.9-py3-none-any.whl
+[2023-07-21 05:04:36] INFO root fetch - processPackages [dyc-package]: Downloading https://files.pythonhosted.org/packages/df/71/2f262e4cb0a111aa9ae6a2370fa036c535c873dc786542a9f1ecb80f7030/dyc_package-1.0.2.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [dyc-package]: Downloading https://files.pythonhosted.org/packages/df/71/2f262e4cb0a111aa9ae6a2370fa036c535c873dc786542a9f1ecb80f7030/dyc_package-1.0.2.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/ae/ff/77b52e3a3053f71a1dd19f67e6d1f098bcc05008c42645a36373d7d036b0/lycoris_lora-1.8.1.dev1.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/71/1b/5a14f347204a8b3ec41bd9b2e1e1461738205ecdcf806a2413c23e6986e4/Pandora-Cloud-0.5.1.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/39/b5/ffdc4b6a746556d4e5b3f4d2b834a5a8b74bb23852f492280c37d2a0c30e/nanoprep-ffm-0.0.9.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.8-py3-none-any.whl.zip tmp/miniagent-0.0.9-py3-none-any.whl.zip --markdown 20230721/m/miniagent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-07-21 05:04:36] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev9-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-connector-prestashop/14.0.2.0.3.dev8-14.0.2.0.3.dev9/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [dyc-package]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [dyc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyc_package-1.0.1.tar.gz tmp/dyc_package-1.0.2.tar.gz --markdown 20230721/d/dyc-package/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [dyc-package]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [dyc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyc_package-1.0.1.tar.gz tmp/dyc_package-1.0.2.tar.gz --markdown 20230721/d/dyc-package/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.5.0.tar.gz tmp/Pandora-Cloud-0.5.1.tar.gz --markdown 20230721/P/Pandora-Cloud/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev9.tar.gz tmp/lycoris_lora-1.8.1.dev1.tar.gz --markdown 20230721/l/lycoris-lora/1.8.0.dev9-1.8.1.dev1/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep-ffm-0.0.8.tar.gz tmp/nanoprep-ffm-0.0.9.tar.gz --markdown 20230721/n/nanoprep-ffm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 05:04:36] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-07-21 05:04:36] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230721/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-21 05:04:37] INFO root fetch - processPackages [stringcalc]: Downloading https://files.pythonhosted.org/packages/d6/bc/b77f11804bd0d94b0b1a5c38e143d29c7d9d5e4f1b6e67d37c03ba9ec8e2/stringcalc-0.1.0.dev9.tar.gz
+[2023-07-21 05:04:37] INFO root fetch - processPackages [stringcalc]: executing diffoscope
+[2023-07-21 05:04:37] INFO root fetch - processPackages [stringcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringcalc-0.1.0.dev8.tar.gz tmp/stringcalc-0.1.0.dev9.tar.gz --markdown 20230721/s/stringcalc/0.1.0.dev8-0.1.0.dev9/diff.md --exclude *.pyd
+[2023-07-21 05:04:37] INFO root fetch - processPackages [dyc-package]: Remove: archive file [/home/abi/fetcher/tmp/dyc_package-1.0.1.tar.gz]
+[2023-07-21 05:04:37] INFO root fetch - processPackages [dyc-package]: Remove: archive file [/home/abi/fetcher/tmp/dyc_package-1.0.2.tar.gz]
+[2023-07-21 05:04:37] INFO root fetch - main [MainThread]: End processing [dyc-package]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.8-py3-none-any.whl.zip]
+[2023-07-21 05:04:38] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.9-py3-none-any.whl.zip]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [dyc-package]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [nanoprep-ffm]: Remove: archive file [/home/abi/fetcher/tmp/nanoprep-ffm-0.0.8.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - processPackages [nanoprep-ffm]: Remove: archive file [/home/abi/fetcher/tmp/nanoprep-ffm-0.0.9.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev9.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.1.dev1.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [stringcalc]: Remove: archive file [/home/abi/fetcher/tmp/stringcalc-0.1.0.dev8.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - processPackages [stringcalc]: Remove: archive file [/home/abi/fetcher/tmp/stringcalc-0.1.0.dev9.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [stringcalc]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev8-py3-none-any.whl.zip]
+[2023-07-21 05:04:38] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev9-py3-none-any.whl.zip]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-prestashop]: success
+[2023-07-21 05:04:38] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.5.0.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.5.1.tar.gz]
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-07-21 05:04:38] INFO root fetch - main [MainThread]: Store serial: [18977976]
