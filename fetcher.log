@@ -13999,3 +13999,126 @@
 [2023-07-21 07:03:53] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.0.0.tar.gz]
 [2023-07-21 07:03:53] INFO root fetch - main [MainThread]: End processing [marqo]: success
 [2023-07-21 07:03:53] INFO root fetch - main [MainThread]: Store serial: [18978850]
+[2023-07-21 07:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978850]
+[2023-07-21 07:09:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marqo
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: operatorio
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-client
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-data-client
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: controlpool
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyperopt-prophet
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-cuda
+[2023-07-21 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metarace-roadmeet
+[2023-07-21 07:09:02] INFO root fetch - processPackages [metarace-roadmeet]: New version: [1.13.2] Old Version: [1.13.1]
+[2023-07-21 07:09:02] WARNING root fetch - processPackages [operatorio]: Skipping, unable to determine old version
+[2023-07-21 07:09:02] INFO root fetch - processPackages [operatorio]: Start processing: geniusbot
+[2023-07-21 07:09:02] INFO root fetch - main [MainThread]: End processing [operatorio] error
+[2023-07-21 07:09:02] WARNING root fetch - processPackages [controlpool]: Skipping, unable to determine old version
+[2023-07-21 07:09:02] INFO root fetch - processPackages [controlpool]: Start processing: odoo9-addon-sale-procurement-group-by-requested-date
+[2023-07-21 07:09:02] INFO root fetch - main [MainThread]: End processing [controlpool] error
+[2023-07-21 07:09:02] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-07-21 07:09:02] WARNING root fetch - processPackages [hyperopt-prophet]: Skipping, unable to determine old version
+[2023-07-21 07:09:02] INFO root fetch - processPackages [hyperopt-prophet]: Start processing: ciscopykit
+[2023-07-21 07:09:02] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet] error
+[2023-07-21 07:09:02] INFO root fetch - processPackages [marqo]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230721] Old Version: [0.1.1.dev20230720]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [odoo9-addon-sale-procurement-group-by-requested-date]: New version: [9.0.1.0.0.99.dev7] Old Version: [9.0.1.0.0.99.dev6]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230721] Old Version: [23.8.0a230720]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [ciscopykit]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-21 07:09:02] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/33/bc/0949109460bc3079989ed1790b0bce46acbff2b9bd814d9a0b3b0117911d/threemystic_cloud_client-0.1.40.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/95/81/1fde44f23afa716e574e504ea4c0ad83ae916482ccc69a6df1f249229264/threemystic_cloud_data_client-0.1.22.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [metarace-roadmeet]: Downloading https://files.pythonhosted.org/packages/64/c8/7d0a0867b0b432d0045d1f64d3fed796d73ac2a75ce2732d23c36bd71e0c/metarace-roadmeet-1.13.1.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/6e/5f/468c1114853169e8e5a4d273e056e0d17494aac437444bf83d3212a00f80/dask-cuda-23.8.0a230720.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/24/59/a9750b050ef7a981da7edb721589de7c5cf43c07a3ed4b5f5ddcc4da9f87/ciscopykit-2.1.0.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/f7/82/999dd0035a5acf765ac6ee2d29f6c771832fbf1efe18f4d13d09fc6c1cbf/marqo-0.9.6.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/65/f9/7d8579afc9ffa6f2dc4dab401351206c7138c68a7f04ed09e3ad87a1e175/rapid_pe-0.1.1.dev20230720.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [odoo9-addon-sale-procurement-group-by-requested-date]: Downloading https://files.pythonhosted.org/packages/bd/a0/2fde4a46987b2198abe4e1b365f34f243dbb1bb0a63c09450e83cfb23cd5/odoo9_addon_sale_procurement_group_by_requested_date-9.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-07-21 07:09:02] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2023-07-21 07:09:02] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/62/7a/5fe164bc0421999814e40f55996a73fb7ee4cf8a03ea1eb69a5919b18ff0/threemystic_cloud_data_client-0.1.23.tar.gz
+[2023-07-21 07:09:02] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/dd/3e/52363e4c11174fbefe85e3a9f5adb64f6e8ee5ad19b85ac1aecdfd249aa3/threemystic_cloud_client-0.1.41.tar.gz
+[2023-07-21 07:09:03] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/68/0f/48ff711e6c57135f481b9d3b5a34275d31cc3750236a2e7ad9f9ffb53e3a/ciscopykit-2.1.1.tar.gz
+[2023-07-21 07:09:03] INFO root fetch - processPackages [metarace-roadmeet]: Downloading https://files.pythonhosted.org/packages/87/47/d0c13ca29aa04d40267ff1f6cd7e73ecb531766a7c0e042e55fee4c21184/metarace-roadmeet-1.13.2.tar.gz
+[2023-07-21 07:09:03] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-21 07:09:03] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/a9/4f/52470408280525c909720ecfb47956f6aea81474442228a4ad8c454ea132/marqo-1.0.0.tar.gz
+[2023-07-21 07:09:03] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/01/22/00fbc960e1b81f725d37c8c9a0e2765c4d34068306fe9a7dbc99508196d8/dask-cuda-23.8.0a230721.tar.gz
+[2023-07-21 07:09:03] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.22.tar.gz tmp/threemystic_cloud_data_client-0.1.23.tar.gz --markdown 20230721/t/threemystic-cloud-data-client/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.40.tar.gz tmp/threemystic_cloud_client-0.1.41.tar.gz --markdown 20230721/t/threemystic-cloud-client/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/7d/a0/09d1ddae915070f459b534568ced3fbd1ed74e083745603fcb42b3bc1af1/rapid_pe-0.1.1.dev20230721.tar.gz
+[2023-07-21 07:09:03] INFO root fetch - processPackages [ciscopykit]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [ciscopykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscopykit-2.1.0.tar.gz tmp/ciscopykit-2.1.1.tar.gz --markdown 20230721/c/ciscopykit/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [metarace-roadmeet]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [metarace-roadmeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metarace-roadmeet-1.13.1.tar.gz tmp/metarace-roadmeet-1.13.2.tar.gz --markdown 20230721/m/metarace-roadmeet/1.13.1-1.13.2/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2023-07-21 07:09:03] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-0.9.6.tar.gz tmp/marqo-1.0.0.tar.gz --markdown 20230721/m/marqo/0.9.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230721/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230720.tar.gz tmp/dask-cuda-23.8.0a230721.tar.gz --markdown 20230721/d/dask-cuda/23.8.0a230720-23.8.0a230721/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [odoo9-addon-sale-procurement-group-by-requested-date]: Downloading https://files.pythonhosted.org/packages/72/98/516c0542d67c773e63d1a0663a343c670882f3e0aae79e12996895331a3e/odoo9_addon_sale_procurement_group_by_requested_date-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-07-21 07:09:03] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230720.tar.gz tmp/rapid_pe-0.1.1.dev20230721.tar.gz --markdown 20230721/r/rapid-pe/0.1.1.dev20230720-0.1.1.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/g/geniusbot/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 07:09:03] INFO root fetch - processPackages [odoo9-addon-sale-procurement-group-by-requested-date]: executing diffoscope
+[2023-07-21 07:09:03] INFO root fetch - processPackages [odoo9-addon-sale-procurement-group-by-requested-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_procurement_group_by_requested_date-9.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo9_addon_sale_procurement_group_by_requested_date-9.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230721/o/odoo9-addon-sale-procurement-group-by-requested-date/9.0.1.0.0.99.dev6-9.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-21 07:09:04] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.40.tar.gz]
+[2023-07-21 07:09:04] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.41.tar.gz]
+[2023-07-21 07:09:04] INFO root fetch - processPackages [threemystic-cloud-client]: Start processing: odoo9-addon-sale-sourced-by-line
+[2023-07-21 07:09:04] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-21 07:09:04] INFO root fetch - processPackages [odoo9-addon-sale-sourced-by-line]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-07-21 07:09:04] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.22.tar.gz]
+[2023-07-21 07:09:04] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.23.tar.gz]
+[2023-07-21 07:09:04] INFO root fetch - processPackages [threemystic-cloud-data-client]: Start processing: Flask-SQL-Pro
+[2023-07-21 07:09:04] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-21 07:09:04] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-2.1.0.tar.gz]
+[2023-07-21 07:09:04] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-2.1.1.tar.gz]
+[2023-07-21 07:09:04] INFO root fetch - processPackages [ciscopykit]: Start processing: odoo8-addon-sale-payment-term-interest
+[2023-07-21 07:09:04] INFO root fetch - main [MainThread]: End processing [ciscopykit]: success
+[2023-07-21 07:09:05] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo8-addon-sale-payment-term-interest]: New version: [8.0.1.0.0.99.dev29] Old Version: [8.0.1.0.0.99.dev28]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo9-addon-sale-sourced-by-line]: Downloading https://files.pythonhosted.org/packages/ff/1e/65cff0f3cae06bb8e9037a509418f5c8ba7aaf4fbe2e93377121ed3035c6/odoo9_addon_sale_sourced_by_line-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-07-21 07:09:05] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-0.9.6.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.0.0.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-07-21 07:09:05] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230720.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230721.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-21 07:09:05] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230720.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230721.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo8-addon-sale-payment-term-interest]: Downloading https://files.pythonhosted.org/packages/31/ef/c85cf4e8f72ae415434d16e47b1dfe15af1b67458cb7f8b5f35f6a4d3b9a/odoo8_addon_sale_payment_term_interest-8.0.1.0.0.99.dev28-py2-none-any.whl
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo9-addon-sale-procurement-group-by-requested-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_procurement_group_by_requested_date-9.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo9-addon-sale-procurement-group-by-requested-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_procurement_group_by_requested_date-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-procurement-group-by-requested-date]: success
+[2023-07-21 07:09:05] INFO root fetch - processPackages [metarace-roadmeet]: Remove: archive file [/home/abi/fetcher/tmp/metarace-roadmeet-1.13.1.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [metarace-roadmeet]: Remove: archive file [/home/abi/fetcher/tmp/metarace-roadmeet-1.13.2.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [metarace-roadmeet]: success
+[2023-07-21 07:09:05] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-21 07:09:05] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo9-addon-sale-sourced-by-line]: Downloading https://files.pythonhosted.org/packages/8d/d1/c6427f3975c8c8e1961788e22add8bd3b1efe1e2e7b0a419d097084c6c04/odoo9_addon_sale_sourced_by_line-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo9-addon-sale-sourced-by-line]: executing diffoscope
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo9-addon-sale-sourced-by-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_sourced_by_line-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_sale_sourced_by_line-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230721/o/odoo9-addon-sale-sourced-by-line/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo8-addon-sale-payment-term-interest]: Downloading https://files.pythonhosted.org/packages/bc/9c/f634a32dd5b9063f919e0b92aea246ef8c549425c65545766bdb4bf8ead7/odoo8_addon_sale_payment_term_interest-8.0.1.0.0.99.dev29-py2-none-any.whl
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo8-addon-sale-payment-term-interest]: executing diffoscope
+[2023-07-21 07:09:05] INFO root fetch - processPackages [odoo8-addon-sale-payment-term-interest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_payment_term_interest-8.0.1.0.0.99.dev28-py2-none-any.whl.zip tmp/odoo8_addon_sale_payment_term_interest-8.0.1.0.0.99.dev29-py2-none-any.whl.zip --markdown 20230721/o/odoo8-addon-sale-payment-term-interest/8.0.1.0.0.99.dev28-8.0.1.0.0.99.dev29/diff.md --exclude *.pyd
+[2023-07-21 07:09:06] INFO root fetch - processPackages [odoo9-addon-sale-sourced-by-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_sourced_by_line-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-07-21 07:09:06] INFO root fetch - processPackages [odoo9-addon-sale-sourced-by-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_sourced_by_line-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-21 07:09:06] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-sourced-by-line]: success
+[2023-07-21 07:09:06] INFO root fetch - processPackages [odoo8-addon-sale-payment-term-interest]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_payment_term_interest-8.0.1.0.0.99.dev28-py2-none-any.whl.zip]
+[2023-07-21 07:09:06] INFO root fetch - processPackages [odoo8-addon-sale-payment-term-interest]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_payment_term_interest-8.0.1.0.0.99.dev29-py2-none-any.whl.zip]
+[2023-07-21 07:09:06] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-payment-term-interest]: success
+[2023-07-21 07:09:06] INFO root fetch - main [MainThread]: Store serial: [18978898]
