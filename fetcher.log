@@ -17417,3 +17417,69 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 10:20:24] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2023-07-21 10:20:24] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-07-21 10:20:24] INFO root fetch - main [MainThread]: Store serial: [18980237]
+[2023-07-21 10:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980237]
+[2023-07-21 10:25:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 10:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydflow
+[2023-07-21 10:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htscf
+[2023-07-21 10:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mse-lib-sgx
+[2023-07-21 10:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrsal
+[2023-07-21 10:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: segments-ai
+[2023-07-21 10:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-base-search-mail-content
+[2023-07-21 10:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: D47crunch
+[2023-07-21 10:25:32] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:25:32] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-21 10:25:33] INFO root fetch - processPackages [segments-ai]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 10:25:33] INFO root fetch - processPackages [D47crunch]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.1] Old Version: [2.0a9]
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mrsal]: New version: [0.6.3a0] Old Version: [0.6.2a0]
+[2023-07-21 10:25:33] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [odoo14-addon-base-search-mail-content]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2023-07-21 10:25:33] INFO root fetch - processPackages [D47crunch]: Downloading https://files.pythonhosted.org/packages/74/4f/078bb09f682d3ad6231ba66a306e6c60632e0a3700d1f3972e77938fe33f/D47crunch-2.2.0.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [segments-ai]: Downloading https://files.pythonhosted.org/packages/1f/17/b48d29b7f27b9b4a7c09f879c7424a7edb55128ccca2ba4164ec20ce7b33/segments-ai-1.0.8.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/f6/22/297aa86a4c3f1384f7602876312cb0a0f3666d8f3872f4b4ece923e0e22c/mrsal-0.6.2a0.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/47/cf/5acc67c27010feec14dd5dcda3ba9a95e01e2ee3c6d0c32c519969e88a83/mse_lib_sgx-2.0a9.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [odoo14-addon-base-search-mail-content]: Downloading https://files.pythonhosted.org/packages/50/b2/9afe7ce95bd564e1ac7de7febcd676b8983712802da97d63006916f7d988/odoo14_addon_base_search_mail_content-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-21 10:25:33] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-21 10:25:33] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230721/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:25:33] INFO root fetch - processPackages [D47crunch]: Downloading https://files.pythonhosted.org/packages/08/8d/879a5e90db6202a263613f7c3d05ad0712e56028d79807e0db366c10d19d/D47crunch-2.2.1.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/b2/ae/22b97a1cf947edc72bbf2614453dc644c06b9741c7152f2b8be9ffcf91d9/mrsal-0.6.3a0.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [segments-ai]: Downloading https://files.pythonhosted.org/packages/9b/04/02b1397e920bd399a4c8afa356511604a82857ae0d3baf6e68fc73516192/segments-ai-1.0.9.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [D47crunch]: executing diffoscope
+[2023-07-21 10:25:33] INFO root fetch - processPackages [D47crunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/D47crunch-2.2.0.tar.gz tmp/D47crunch-2.2.1.tar.gz --markdown 20230721/D/D47crunch/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/2e/fd/01ff9eb409ce8f1124a24d5e739803c12b0cd26da59c5c8df10e535cbcf8/mse_lib_sgx-2.1.tar.gz
+[2023-07-21 10:25:33] INFO root fetch - processPackages [odoo14-addon-base-search-mail-content]: Downloading https://files.pythonhosted.org/packages/79/99/37a0532d4752bd29c9254fdecb77e01310ac3a37160bf8fee5bf1727f40e/odoo14_addon_base_search_mail_content-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-2.0a9.tar.gz tmp/mse_lib_sgx-2.1.tar.gz --markdown 20230721/m/mse-lib-sgx/2.0a9-2.1/diff.md --exclude *.pyd
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mrsal]: executing diffoscope
+[2023-07-21 10:25:33] INFO root fetch - processPackages [mrsal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrsal-0.6.2a0.tar.gz tmp/mrsal-0.6.3a0.tar.gz --markdown 20230721/m/mrsal/0.6.2a0-0.6.3a0/diff.md --exclude *.pyd
+[2023-07-21 10:25:33] INFO root fetch - processPackages [segments-ai]: executing diffoscope
+[2023-07-21 10:25:33] INFO root fetch - processPackages [segments-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segments-ai-1.0.8.tar.gz tmp/segments-ai-1.0.9.tar.gz --markdown 20230721/s/segments-ai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:25:34] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-21 10:25:34] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230721/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-21 10:25:34] INFO root fetch - processPackages [odoo14-addon-base-search-mail-content]: executing diffoscope
+[2023-07-21 10:25:34] INFO root fetch - processPackages [odoo14-addon-base-search-mail-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_search_mail_content-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_base_search_mail_content-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-base-search-mail-content/14.0.1.0.1.dev6-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-07-21 10:25:34] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-21 10:25:34] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-21 10:25:34] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-21 10:25:35] INFO root fetch - processPackages [mrsal]: Remove: archive file [/home/abi/fetcher/tmp/mrsal-0.6.2a0.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - processPackages [mrsal]: Remove: archive file [/home/abi/fetcher/tmp/mrsal-0.6.3a0.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - main [MainThread]: End processing [mrsal]: success
+[2023-07-21 10:25:35] INFO root fetch - processPackages [mse-lib-sgx]: Remove: archive file [/home/abi/fetcher/tmp/mse_lib_sgx-2.0a9.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - processPackages [mse-lib-sgx]: Remove: archive file [/home/abi/fetcher/tmp/mse_lib_sgx-2.1.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-07-21 10:25:35] INFO root fetch - processPackages [segments-ai]: Remove: archive file [/home/abi/fetcher/tmp/segments-ai-1.0.8.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - processPackages [segments-ai]: Remove: archive file [/home/abi/fetcher/tmp/segments-ai-1.0.9.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - main [MainThread]: End processing [segments-ai]: success
+[2023-07-21 10:25:35] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-21 10:25:35] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-21 10:25:35] INFO root fetch - processPackages [odoo14-addon-base-search-mail-content]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_search_mail_content-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-21 10:25:35] INFO root fetch - processPackages [odoo14-addon-base-search-mail-content]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_search_mail_content-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-21 10:25:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-search-mail-content]: success
+[2023-07-21 10:25:36] INFO root fetch - processPackages [D47crunch]: Remove: archive file [/home/abi/fetcher/tmp/D47crunch-2.2.0.tar.gz]
+[2023-07-21 10:25:36] INFO root fetch - processPackages [D47crunch]: Remove: archive file [/home/abi/fetcher/tmp/D47crunch-2.2.1.tar.gz]
+[2023-07-21 10:25:36] INFO root fetch - main [MainThread]: End processing [D47crunch]: success
+[2023-07-21 10:25:36] INFO root fetch - main [MainThread]: Store serial: [18980258]
