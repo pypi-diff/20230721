@@ -11903,3 +11903,142 @@
 [2023-07-21 05:15:35] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.378.0.tar.gz]
 [2023-07-21 05:15:35] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-21 05:15:35] INFO root fetch - main [MainThread]: Store serial: [18978075]
+[2023-07-21 05:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978075]
+[2023-07-21 05:20:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djgraphql
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-services
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nids-datasets
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-remote-stack
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-dms
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-dms
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-tds
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-dms
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-dms
+[2023-07-21 05:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toRST
+[2023-07-21 05:20:45] INFO root fetch - processPackages [python-tds]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [nids-datasets]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [djgraphql]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo13-addon-dms]: New version: [13.0.8.5.3.dev3] Old Version: [13.0.8.5.3.dev2]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [toRST]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo12-addon-dms]: New version: [12.0.8.0.3.99.dev1] Old Version: [12.0.8.0.3]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo-addon-dms]: New version: [15.0.1.8.2.1] Old Version: [15.0.1.8.2]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo14-addon-dms]: New version: [14.0.4.7.2.dev1] Old Version: [14.0.4.7.1]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.5] Old Version: [202307.0.4]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/a1/f4/b480f389a4b7a10cf833c3a588684cd6f3572b1bc2b1de297ebc5026d055/nids_datasets-0.1.1.tar.gz
+[2023-07-21 05:20:45] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/2a/a4/b88d6f659c4356c7fb51d256933cb0b5f03051bf25865f03ceb887ff7526/toRST-0.0.7.tar.gz
+[2023-07-21 05:20:45] INFO root fetch - processPackages [python-tds]: Downloading https://files.pythonhosted.org/packages/4a/97/4197c587f91f6f1973bdc7be0372032e3e631cc92a72bce50912a5c77057/python-tds-1.9.0.tar.gz
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/5b/65/4371b2027d39adafa79fa9fd33bf85dcb681b4f52db37dca1723ce8a2940/odoo_addon_dms-15.0.1.8.2-py3-none-any.whl
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo14-addon-dms]: Downloading https://files.pythonhosted.org/packages/e8/2a/fba62f646f3d580d95cfb249810016ac618dfb6a1e1b3438529191f19fca/odoo14_addon_dms-14.0.4.7.1-py3-none-any.whl
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo13-addon-dms]: Downloading https://files.pythonhosted.org/packages/96/44/5a9d85766b6855a195c47d4e18013688bea855b374dcdc22f346a7f7f6cd/odoo13_addon_dms-13.0.8.5.3.dev2-py3-none-any.whl
+[2023-07-21 05:20:45] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/0d/fe/2ffde7f25361ff86fd0b17926382d436edb33e3d0cce513d85efbfeba595/djgraphql-1.0.3.tar.gz
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo12-addon-dms]: Downloading https://files.pythonhosted.org/packages/50/3e/f208271226261f7c4e9735c65fb3ac1f9106a4d7f8e420d116391306559d/odoo12_addon_dms-12.0.8.0.3-py3-none-any.whl
+[2023-07-21 05:20:45] WARNING root fetch - processPackages [odoo14-addon-dms]: Skipping package: exceeds size limit 15630802>=10485760
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo14-addon-dms]: Start processing: certify4py
+[2023-07-21 05:20:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-dms] error
+[2023-07-21 05:20:45] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/7a/ec/aa9c128bd1eca09eff87aa49b76fb54f12d81aa3ef4fb5c1799a4483f955/data_ecosystem_services-202307.0.4.tar.gz
+[2023-07-21 05:20:45] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-07-21 05:20:45] WARNING root fetch - processPackages [odoo12-addon-dms]: Skipping package: exceeds size limit 16468606>=10485760
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo12-addon-dms]: Start processing: work-helper
+[2023-07-21 05:20:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-dms] error
+[2023-07-21 05:20:45] INFO root fetch - processPackages [certify4py]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-21 05:20:45] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15617339>=10485760
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo-addon-dms]: Start processing: langful
+[2023-07-21 05:20:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2023-07-21 05:20:45] WARNING root fetch - processPackages [odoo13-addon-dms]: Skipping package: exceeds size limit 15629197>=10485760
+[2023-07-21 05:20:45] INFO root fetch - processPackages [odoo13-addon-dms]: Start processing: alibabacloud-bailian20230601
+[2023-07-21 05:20:45] INFO root fetch - main [MainThread]: End processing [odoo13-addon-dms] error
+[2023-07-21 05:20:45] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/05/68/74bebcab6f623b2d9bf5e09ee6f88569bda4ca2a8b0d06dd9794fb447727/nids_datasets-0.1.2.tar.gz
+[2023-07-21 05:20:45] INFO root fetch - processPackages [work-helper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/92/7b/54adba7b52b95e2fa647ae8638b4c7f8b0c099becd71a60fa292889e6ea8/toRST-0.0.8.tar.gz
+[2023-07-21 05:20:45] INFO root fetch - processPackages [langful]: New version: [0.38] Old Version: [0.37]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [alibabacloud-bailian20230601]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-21 05:20:45] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/29/52/2ec894cb74a65b8aed8898b732738d2a6b8abf58c201e8f082722a2acde7/langful-0.37-py3-none-any.whl
+[2023-07-21 05:20:45] INFO root fetch - processPackages [toRST]: executing diffoscope
+[2023-07-21 05:20:45] INFO root fetch - processPackages [toRST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toRST-0.0.7.tar.gz tmp/toRST-0.0.8.tar.gz --markdown 20230721/t/toRST/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-21 05:20:45] INFO root fetch - processPackages [nids-datasets]: executing diffoscope
+[2023-07-21 05:20:45] INFO root fetch - processPackages [nids-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_datasets-0.1.1.tar.gz tmp/nids_datasets-0.1.2.tar.gz --markdown 20230721/n/nids-datasets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 05:20:45] INFO root fetch - processPackages [python-tds]: Downloading https://files.pythonhosted.org/packages/5a/8a/d2f56210011f76616ff1673f3a4d77b80f4092de0c7e6207e66ad7fe124d/python-tds-1.9.1.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/0a/46/e5aa30072bebc17678da8b35173ddb415e5d9267defc2a1e2a86ec9341e0/djgraphql-1.0.4.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [certify4py]: Downloading https://files.pythonhosted.org/packages/37/9f/f9f33c30b330c9daad2ef38eaf01107106fbdc4a6fa5a5ff35b73181d799/certify4py-0.1.5.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [work-helper]: Downloading https://files.pythonhosted.org/packages/9e/d5/d468177775a61929ab670372ba20c364233a426274f02a0e0e2b464f4ad1/work_helper-0.1.4.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/6d/ee/5ed63bed5dee38c1a492e365b5dacae12d68e5734bffbd533e3f945ff5c1/data_ecosystem_services-202307.0.5.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Downloading https://files.pythonhosted.org/packages/c0/bc/4396c4becfbcb43589e3374620da090a49be26174c754dd5cc60aae83338/alibabacloud_bailian20230601-1.1.0.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [djgraphql]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [djgraphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgraphql-1.0.3.tar.gz tmp/djgraphql-1.0.4.tar.gz --markdown 20230721/d/djgraphql/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-21 05:20:46] INFO root fetch - processPackages [python-tds]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [python-tds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-tds-1.9.0.tar.gz tmp/python-tds-1.9.1.tar.gz --markdown 20230721/p/python-tds/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-21 05:20:46] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.4.tar.gz tmp/data_ecosystem_services-202307.0.5.tar.gz --markdown 20230721/d/data-ecosystem-services/202307.0.4-202307.0.5/diff.md --exclude *.pyd
+[2023-07-21 05:20:46] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/c7/6b/d215c29a6792e134081403d64de5e166cd573fba4b79dbf03dfb079ed98d/langful-0.38-py3-none-any.whl
+[2023-07-21 05:20:46] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.37-py3-none-any.whl.zip tmp/langful-0.38-py3-none-any.whl.zip --markdown 20230721/l/langful/0.37-0.38/diff.md --exclude *.pyd
+[2023-07-21 05:20:46] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [work-helper]: Downloading https://files.pythonhosted.org/packages/ba/87/4159dc54736d6825c801defa97c75fbfe45fee47772e8d059dfd6dc1732d/work_helper-0.1.5.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Downloading https://files.pythonhosted.org/packages/04/68/6232daf9b0c0f393bd465caa7372d1329d1cd2940a2aecea11dd01a9ce41/alibabacloud_bailian20230601-1.1.1.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [certify4py]: Downloading https://files.pythonhosted.org/packages/05/e8/883345be53b3f2dd5d716347732aab4f198a3f9ec3a1cd0e934eef3b0f88/certify4py-0.1.6.tar.gz
+[2023-07-21 05:20:46] INFO root fetch - processPackages [work-helper]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [work-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work_helper-0.1.4.tar.gz tmp/work_helper-0.1.5.tar.gz --markdown 20230721/w/work-helper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 05:20:46] INFO root fetch - processPackages [certify4py]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [certify4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certify4py-0.1.5.tar.gz tmp/certify4py-0.1.6.tar.gz --markdown 20230721/c/certify4py/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-21 05:20:46] INFO root fetch - processPackages [alibabacloud-bailian20230601]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [alibabacloud-bailian20230601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bailian20230601-1.1.0.tar.gz tmp/alibabacloud_bailian20230601-1.1.1.tar.gz --markdown 20230721/a/alibabacloud-bailian20230601/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-21 05:20:46] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-07-21 05:20:46] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230721/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-21 05:20:47] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.1.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.2.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [nids-datasets]: Start processing: cdktf-cdktf-provider-datadog
+[2023-07-21 05:20:47] INFO root fetch - main [MainThread]: End processing [nids-datasets]: success
+[2023-07-21 05:20:47] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.7.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.8.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [toRST]: Start processing: policyengine-us
+[2023-07-21 05:20:47] INFO root fetch - main [MainThread]: End processing [toRST]: success
+[2023-07-21 05:20:47] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [policyengine-us]: New version: [0.378.0] Old Version: [0.377.1]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.3.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.4.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [djgraphql]: Start processing: JAAEC
+[2023-07-21 05:20:47] INFO root fetch - main [MainThread]: End processing [djgraphql]: success
+[2023-07-21 05:20:47] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/12/64/594d2b107423f7afe4293438bf679236cce4351c647462cb4388391ef3db/policyengine-us-0.377.1.tar.gz
+[2023-07-21 05:20:47] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/ee/96/fd253d1d025c349327a0af93a72a8149891ebb6fa8219f8ba1175d292adf/cdktf-cdktf-provider-datadog-8.0.0.tar.gz
+[2023-07-21 05:20:47] INFO root fetch - processPackages [JAAEC]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/11/8d/cdf8abc41960acc167ae00990a49a63ef612d71c80924e9813c82a5f7180/policyengine-us-0.378.0.tar.gz
+[2023-07-21 05:20:47] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.37-py3-none-any.whl.zip]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.38-py3-none-any.whl.zip]
+[2023-07-21 05:20:47] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-21 05:20:47] INFO root fetch - processPackages [python-tds]: Remove: archive file [/home/abi/fetcher/tmp/python-tds-1.9.0.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - processPackages [python-tds]: Remove: archive file [/home/abi/fetcher/tmp/python-tds-1.9.1.tar.gz]
+[2023-07-21 05:20:47] INFO root fetch - main [MainThread]: End processing [python-tds]: success
+[2023-07-21 05:20:47] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-21 05:20:47] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.377.1.tar.gz tmp/policyengine-us-0.378.0.tar.gz --markdown 20230721/p/policyengine-us/0.377.1-0.378.0/diff.md --exclude *.pyd
+[2023-07-21 05:20:48] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.4.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.5.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-21 05:20:48] INFO root fetch - processPackages [JAAEC]: Downloading https://files.pythonhosted.org/packages/b9/cb/f858e82b7536dcd56ffe4b37b1e6cc93a3fa39c81a01c52711a1add36b2f/JAAEC-0.1.2.tar.gz
+[2023-07-21 05:20:48] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bailian20230601-1.1.0.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bailian20230601-1.1.1.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-bailian20230601]: success
+[2023-07-21 05:20:48] INFO root fetch - processPackages [JAAEC]: executing diffoscope
+[2023-07-21 05:20:48] INFO root fetch - processPackages [JAAEC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JAAEC-0.1.1.tar.gz tmp/JAAEC-0.1.2.tar.gz --markdown 20230721/J/JAAEC/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 05:20:48] INFO root fetch - processPackages [work-helper]: Remove: archive file [/home/abi/fetcher/tmp/work_helper-0.1.4.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - processPackages [work-helper]: Remove: archive file [/home/abi/fetcher/tmp/work_helper-0.1.5.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - main [MainThread]: End processing [work-helper]: success
+[2023-07-21 05:20:48] INFO root fetch - processPackages [certify4py]: Remove: archive file [/home/abi/fetcher/tmp/certify4py-0.1.5.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - processPackages [certify4py]: Remove: archive file [/home/abi/fetcher/tmp/certify4py-0.1.6.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - main [MainThread]: End processing [certify4py]: success
+[2023-07-21 05:20:48] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-07-21 05:20:48] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/df/eb/04122de499ffbffb662bf3b392a2f17ca8139b400143f7a3d05300edbd86/cdktf-cdktf-provider-datadog-8.0.1.tar.gz
+[2023-07-21 05:20:48] INFO root fetch - processPackages [JAAEC]: Remove: archive file [/home/abi/fetcher/tmp/JAAEC-0.1.1.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - processPackages [JAAEC]: Remove: archive file [/home/abi/fetcher/tmp/JAAEC-0.1.2.tar.gz]
+[2023-07-21 05:20:48] INFO root fetch - main [MainThread]: End processing [JAAEC]: success
+[2023-07-21 05:20:49] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: executing diffoscope
+[2023-07-21 05:20:49] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-datadog-8.0.0.tar.gz tmp/cdktf-cdktf-provider-datadog-8.0.1.tar.gz --markdown 20230721/c/cdktf-cdktf-provider-datadog/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-07-21 05:20:55] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-datadog-8.0.0.tar.gz]
+[2023-07-21 05:20:55] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-datadog-8.0.1.tar.gz]
+[2023-07-21 05:20:55] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
+[2023-07-21 05:21:16] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.377.1.tar.gz]
+[2023-07-21 05:21:16] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.378.0.tar.gz]
+[2023-07-21 05:21:16] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-21 05:21:16] INFO root fetch - main [MainThread]: Store serial: [18978119]
