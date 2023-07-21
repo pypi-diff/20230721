@@ -14761,3 +14761,69 @@
 [2023-07-21 08:06:36] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.1.1.tar.gz]
 [2023-07-21 08:06:36] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
 [2023-07-21 08:06:36] INFO root fetch - main [MainThread]: Store serial: [18979148]
+[2023-07-21 08:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979148]
+[2023-07-21 08:11:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nncase-kpu
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ffstreamer
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: symbolicai
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-ak-743ccb6d20f546bcb851af6ce09cd478
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: operatorio
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: berrydb
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: singlefactortest
+[2023-07-21 08:11:45] INFO root fetch - processPackages [berrydb]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 08:11:45] INFO root fetch - processPackages [nncase-kpu]: New version: [2.1.1.20230721] Old Version: [2.1.0.20230703]
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ffstreamer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 08:11:45] INFO root fetch - processPackages [operatorio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 08:11:45] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-21 08:11:45] INFO root fetch - processPackages [singlefactortest]: New version: [1.1] Old Version: [1.0]
+[2023-07-21 08:11:45] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-21 08:11:45] INFO root fetch - processPackages [singlefactortest]: Downloading https://files.pythonhosted.org/packages/ec/20/d5e6d56812fa1f242b6f720d4653f860b370db95d0e6ba6f94c0dc61a83a/singlefactortest-1.0-py3-none-any.whl
+[2023-07-21 08:11:45] INFO root fetch - processPackages [ffstreamer]: Downloading https://files.pythonhosted.org/packages/24/a8/bb3f50bb1ae93d6cd0c3ca506673467aef88332d9f456e35dc908c8e8d30/ffstreamer-1.0.0-py3-none-any.whl
+[2023-07-21 08:11:45] INFO root fetch - processPackages [operatorio]: Downloading https://files.pythonhosted.org/packages/bc/70/6b18221e0c5e3094919e6ce360a99832ec98161ca219f115b282aa0bfaf7/operatorio-0.1.1.tar.gz
+[2023-07-21 08:11:45] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/a6/19/12a9eb4a4a4e23dba8673a426a63d7ebdfb7a637191755e2501c802cf4fc/berrydb-1.0.2.tar.gz
+[2023-07-21 08:11:45] INFO root fetch - processPackages [nncase-kpu]: Downloading https://files.pythonhosted.org/packages/6a/17/b39e31eb77da5f00d576c756e01450e5eff0dab18b4af926a4b20fc34cd4/nncase_kpu-2.1.0.20230703-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 08:11:45] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: Downloading https://files.pythonhosted.org/packages/3d/8d/f11e29480c7230ff03b6ae8447899b0fb5ed013f650ec67d81f4349ca217/antchain_ak_743ccb6d20f546bcb851af6ce09cd478-1.0.1.tar.gz
+[2023-07-21 08:11:45] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-21 08:11:46] INFO root fetch - processPackages [singlefactortest]: Downloading https://files.pythonhosted.org/packages/c2/a8/23ba13f2ef4aae73f910eb8f1b85bc6dae64f15a3da3f3bc84964183e709/singlefactortest-1.1-py3-none-any.whl
+[2023-07-21 08:11:46] INFO root fetch - processPackages [operatorio]: Downloading https://files.pythonhosted.org/packages/55/dd/a933fd8b25080ad5925c6063c54d3664c872289020bd2a63f13aa403c0c8/operatorio-0.1.2.tar.gz
+[2023-07-21 08:11:46] INFO root fetch - processPackages [singlefactortest]: executing diffoscope
+[2023-07-21 08:11:46] INFO root fetch - processPackages [singlefactortest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singlefactortest-1.0-py3-none-any.whl.zip tmp/singlefactortest-1.1-py3-none-any.whl.zip --markdown 20230721/s/singlefactortest/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-21 08:11:46] INFO root fetch - processPackages [ffstreamer]: Downloading https://files.pythonhosted.org/packages/34/b5/47bb28550b7d60a3373a1c6136ca87cdfaa788f42b81cf624f166ffefe46/ffstreamer-1.0.1-py3-none-any.whl
+[2023-07-21 08:11:46] INFO root fetch - processPackages [operatorio]: executing diffoscope
+[2023-07-21 08:11:46] INFO root fetch - processPackages [operatorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operatorio-0.1.1.tar.gz tmp/operatorio-0.1.2.tar.gz --markdown 20230721/o/operatorio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 08:11:46] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/9b/af/83b121e595eb6e9dfb28b1a1f544885f6cb4386af5d900b899d898ca7e8a/berrydb-1.0.3.tar.gz
+[2023-07-21 08:11:46] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: Downloading https://files.pythonhosted.org/packages/73/77/e148a736b87659daae8ba0311c4bf373fb4c78c9de0d323332899212b00a/antchain_ak_743ccb6d20f546bcb851af6ce09cd478-1.0.3.tar.gz
+[2023-07-21 08:11:46] INFO root fetch - processPackages [nncase-kpu]: Downloading https://files.pythonhosted.org/packages/0a/2c/c4de4139674e746e0421f50075a13ecd6c47f164414353e99f50d06e5bee/nncase_kpu-2.1.1.20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 08:11:46] INFO root fetch - processPackages [ffstreamer]: executing diffoscope
+[2023-07-21 08:11:46] INFO root fetch - processPackages [ffstreamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffstreamer-1.0.0-py3-none-any.whl.zip tmp/ffstreamer-1.0.1-py3-none-any.whl.zip --markdown 20230721/f/ffstreamer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 08:11:46] INFO root fetch - processPackages [berrydb]: executing diffoscope
+[2023-07-21 08:11:46] INFO root fetch - processPackages [berrydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb-1.0.2.tar.gz tmp/berrydb-1.0.3.tar.gz --markdown 20230721/b/berrydb/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:11:46] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: executing diffoscope
+[2023-07-21 08:11:46] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_743ccb6d20f546bcb851af6ce09cd478-1.0.1.tar.gz tmp/antchain_ak_743ccb6d20f546bcb851af6ce09cd478-1.0.3.tar.gz --markdown 20230721/a/antchain-ak-743ccb6d20f546bcb851af6ce09cd478/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:11:46] INFO root fetch - processPackages [nncase-kpu]: executing diffoscope
+[2023-07-21 08:11:46] INFO root fetch - processPackages [nncase-kpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nncase_kpu-2.1.0.20230703-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nncase_kpu-2.1.1.20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230721/n/nncase-kpu/2.1.0.20230703-2.1.1.20230721/diff.md --exclude *.pyd
+[2023-07-21 08:11:47] INFO root fetch - processPackages [singlefactortest]: Remove: archive file [/home/abi/fetcher/tmp/singlefactortest-1.0-py3-none-any.whl.zip]
+[2023-07-21 08:11:47] INFO root fetch - processPackages [singlefactortest]: Remove: archive file [/home/abi/fetcher/tmp/singlefactortest-1.1-py3-none-any.whl.zip]
+[2023-07-21 08:11:47] INFO root fetch - main [MainThread]: End processing [singlefactortest]: success
+[2023-07-21 08:11:47] INFO root fetch - processPackages [operatorio]: Remove: archive file [/home/abi/fetcher/tmp/operatorio-0.1.1.tar.gz]
+[2023-07-21 08:11:47] INFO root fetch - processPackages [operatorio]: Remove: archive file [/home/abi/fetcher/tmp/operatorio-0.1.2.tar.gz]
+[2023-07-21 08:11:47] INFO root fetch - main [MainThread]: End processing [operatorio]: success
+[2023-07-21 08:11:47] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.2.tar.gz]
+[2023-07-21 08:11:47] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.3.tar.gz]
+[2023-07-21 08:11:47] INFO root fetch - main [MainThread]: End processing [berrydb]: success
+[2023-07-21 08:11:47] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_743ccb6d20f546bcb851af6ce09cd478-1.0.1.tar.gz]
+[2023-07-21 08:11:47] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_743ccb6d20f546bcb851af6ce09cd478-1.0.3.tar.gz]
+[2023-07-21 08:11:47] INFO root fetch - main [MainThread]: End processing [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: success
+[2023-07-21 08:11:47] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-21 08:11:47] INFO root fetch - processPackages [ffstreamer]: Remove: archive file [/home/abi/fetcher/tmp/ffstreamer-1.0.0-py3-none-any.whl.zip]
+[2023-07-21 08:11:47] INFO root fetch - processPackages [ffstreamer]: Remove: archive file [/home/abi/fetcher/tmp/ffstreamer-1.0.1-py3-none-any.whl.zip]
+[2023-07-21 08:11:47] INFO root fetch - main [MainThread]: End processing [ffstreamer]: success
+[2023-07-21 08:11:49] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-21 08:11:49] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230721/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 08:11:50] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-21 08:11:50] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-21 08:11:50] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-21 08:11:52] INFO root fetch - processPackages [nncase-kpu]: Remove: archive file [/home/abi/fetcher/tmp/nncase_kpu-2.1.0.20230703-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-21 08:11:52] INFO root fetch - processPackages [nncase-kpu]: Remove: archive file [/home/abi/fetcher/tmp/nncase_kpu-2.1.1.20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-21 08:11:52] INFO root fetch - main [MainThread]: End processing [nncase-kpu]: success
+[2023-07-21 08:11:52] INFO root fetch - main [MainThread]: Store serial: [18979179]
