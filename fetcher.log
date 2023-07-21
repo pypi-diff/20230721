@@ -18677,3 +18677,184 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:18:39] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
 [2023-07-21 11:18:39] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
 [2023-07-21 11:18:39] INFO root fetch - main [MainThread]: Store serial: [18980794]
+[2023-07-21 11:23:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980794]
+[2023-07-21 11:23:48] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysendpulse
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IMSmartFinderNinja
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skale-contracts
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fund-alchemy
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: navalmartin-mir-vision-utils
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydal2sql
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ndtorch
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: allianceauth-discordbot
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-21 11:23:48] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [ndtorch]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [pysendpulse]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [IMSmartFinderNinja]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [fund-alchemy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [pydal2sql]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [allianceauth-discordbot]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-21 11:23:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/17/f2/ebe00211d05f98763a870ae8ca39ae5385bfd28d6c68c8a16b1684026995/pydal2sql-0.3.1.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [ndtorch]: Downloading https://files.pythonhosted.org/packages/ca/8e/2213e440350080bb6e13e002c07f861cc62ee2ec7117969992c1d2758324/ndtorch-0.1.5.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/10/43/0faf2ce040c31ec3d5fbec3455704388d1de1f395388b47123317288da72/navalmartin_mir_vision_utils-0.0.8.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/f3/35/5e583e58e4e80eb7cd4faf47f34b8a3a10bb7c6fd16709a3317e6afe8e9a/IMSmartFinderNinja-0.1.0.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pysendpulse]: Downloading https://files.pythonhosted.org/packages/25/23/4935b6546d942a33a63c920fd8230283801c4c91ba3f406208ac79bcd1f8/pysendpulse-0.1.5.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [allianceauth-discordbot]: Downloading https://files.pythonhosted.org/packages/55/1f/3dded88d5b229d8939b6f386912cd09dd5966b533feec46ed36494fd5307/allianceauth-discordbot-3.6.2.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [fund-alchemy]: Downloading https://files.pythonhosted.org/packages/ac/98/a811c03c028ff5597a32cf70036605af40e9cee4ac274aa01a988b80ffa7/fund_alchemy-1.0.8.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/66/0d/dc0adfaa5fdd6130f89cd1424b654098ff03a31b3b7faf85ee62a0a14322/skale-contracts-0.0.1.dev978114706300915430.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/aa/c4/5e8163251a9d2fa0ca8552aba477ca73e612d429f2e2710fe9b2a933a071/pydal2sql-0.4.0.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-21 11:23:49] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230721/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-21 11:23:49] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/33/82/0632f8ba98948950c674aefdba1e9cae6ee975dd3eedc20360ba647945ff/navalmartin_mir_vision_utils-0.0.9.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/d2/b7/55194b7120c5b62de2be75ba13c1a3053408b15a59c850f18a7e05146f2c/IMSmartFinderNinja-0.1.1.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pysendpulse]: Downloading https://files.pythonhosted.org/packages/fc/9c/aece81fed11083836923ba48716c19e72ed80472e2d54dd227c200cd1984/pysendpulse-0.1.7.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [allianceauth-discordbot]: Downloading https://files.pythonhosted.org/packages/ca/14/19ffd8f389dd0570b961ee9b5fc4adc0520afc91622374726c9d570ff1cd/allianceauth-discordbot-3.6.3.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [fund-alchemy]: Downloading https://files.pythonhosted.org/packages/c2/ff/f325db4e27f4d4ab88704ce41f27c044add15034c1029abaf5dff697dc20/fund_alchemy-1.0.9.tar.gz
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230721/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-21 11:23:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230721/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pydal2sql]: executing diffoscope
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pydal2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal2sql-0.3.1.tar.gz tmp/pydal2sql-0.4.0.tar.gz --markdown 20230721/p/pydal2sql/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-21 11:23:49] INFO root fetch - processPackages [IMSmartFinderNinja]: executing diffoscope
+[2023-07-21 11:23:49] INFO root fetch - processPackages [IMSmartFinderNinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMSmartFinderNinja-0.1.0.tar.gz tmp/IMSmartFinderNinja-0.1.1.tar.gz --markdown 20230721/I/IMSmartFinderNinja/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 11:23:49] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-07-21 11:23:49] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230721/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pysendpulse]: executing diffoscope
+[2023-07-21 11:23:49] INFO root fetch - processPackages [pysendpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysendpulse-0.1.5.tar.gz tmp/pysendpulse-0.1.7.tar.gz --markdown 20230721/p/pysendpulse/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-07-21 11:23:50] INFO root fetch - processPackages [allianceauth-discordbot]: executing diffoscope
+[2023-07-21 11:23:50] INFO root fetch - processPackages [allianceauth-discordbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-discordbot-3.6.2.tar.gz tmp/allianceauth-discordbot-3.6.3.tar.gz --markdown 20230721/a/allianceauth-discordbot/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-21 11:23:50] INFO root fetch - processPackages [fund-alchemy]: executing diffoscope
+[2023-07-21 11:23:50] INFO root fetch - processPackages [fund-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fund_alchemy-1.0.8.tar.gz tmp/fund_alchemy-1.0.9.tar.gz --markdown 20230721/f/fund-alchemy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:23:50] INFO root fetch - processPackages [ndtorch]: Downloading https://files.pythonhosted.org/packages/0b/9b/7aa1ee7491676bfb876aa1d183ff999b428d84e789285e16711a0be22d7a/ndtorch-0.1.6.tar.gz
+[2023-07-21 11:23:50] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-21 11:23:50] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz]
+[2023-07-21 11:23:50] INFO root fetch - processPackages [skale-contracts]: Start processing: ethernetip
+[2023-07-21 11:23:50] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [ethernetip]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [ethernetip]: Downloading https://files.pythonhosted.org/packages/52/71/4f2b570b531b01465b71a7bb6cfc4acf98750f2e61a14ad456f4d45c2bc0/ethernetip-1.0.0.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [pysendpulse]: Remove: archive file [/home/abi/fetcher/tmp/pysendpulse-0.1.5.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [pysendpulse]: Remove: archive file [/home/abi/fetcher/tmp/pysendpulse-0.1.7.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [pysendpulse]: Start processing: mwj-apitest
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [pysendpulse]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [spanishconjugator]: Start processing: tbp-nightly
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.1.0.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.1.1.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [spanishconjugator]: Start processing: sqlx-exec
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [IMSmartFinderNinja]: Start processing: metapensiero.sphinx.patchdb
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: New version: [4.0.dev6] Old Version: [4.0.dev5]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [mwj-apitest]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [sqlx-exec]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [fund-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fund_alchemy-1.0.8.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [fund-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fund_alchemy-1.0.9.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [fund-alchemy]: Start processing: lightning-template
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [fund-alchemy]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [allianceauth-discordbot]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-discordbot-3.6.2.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [allianceauth-discordbot]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-discordbot-3.6.3.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [allianceauth-discordbot]: Start processing: nrsdk
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [allianceauth-discordbot]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Start processing: adop
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.3.1.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.4.0.tar.gz]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [pydal2sql]: Start processing: TDCRPy
+[2023-07-21 11:23:51] INFO root fetch - main [MainThread]: End processing [pydal2sql]: success
+[2023-07-21 11:23:51] INFO root fetch - processPackages [ethernetip]: Downloading https://files.pythonhosted.org/packages/15/44/3d8b8a02f864368d06c73762155a894adff8503929b837abe7961d035e58/ethernetip-1.1.0.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Downloading https://files.pythonhosted.org/packages/5c/6a/a71542d7c071990016aea011f1bf338b2cff20a3120006d479bc67faf523/metapensiero.sphinx.patchdb-4.0.dev5.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [lightning-template]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [nrsdk]: New version: [1.1.3b1] Old Version: [1.1.3.3]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/73/14/e8019eaaad472a40d9b4ebb9ec15684ecea07eebe3c8b90b7c992ec5eb1b/sqlx-exec-1.0.0.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/df/c6/4d85f714ac90dc5cf620dc48b1b22c97877dfa067b1e5ff825231c442266/mwj-apitest-1.0.3.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [adop]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-21 11:23:51] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/42/f9/75c59611bcb2f8db6cf0e1e7515e514e87f798779f883c3a0da2550e94c1/nrsdk-1.1.3.3.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/72/e6/74c4ce23497700d3a0b4af6bc28675d63ed397b7f488846c47969591761e/lightning-template-1.1.2.tar.gz
+[2023-07-21 11:23:51] INFO root fetch - processPackages [ethernetip]: executing diffoscope
+[2023-07-21 11:23:51] INFO root fetch - processPackages [ethernetip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethernetip-1.0.0.tar.gz tmp/ethernetip-1.1.0.tar.gz --markdown 20230721/e/ethernetip/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-21 11:23:52] INFO root fetch - processPackages [ndtorch]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [ndtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndtorch-0.1.5.tar.gz tmp/ndtorch-0.1.6.tar.gz --markdown 20230721/n/ndtorch/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Downloading https://files.pythonhosted.org/packages/ff/ab/b7bb39d8061e7944efbdcf7fed99f97398a06791f727f8cd7380889b7e2c/metapensiero.sphinx.patchdb-4.0.dev6.tar.gz
+[2023-07-21 11:23:52] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/27/72/e5e2e7f68f8c358d48b6ee5345e19bcc6b7b9e4c5c1ba30fe8ea513be9de/sqlx-exec-1.0.1.tar.gz
+[2023-07-21 11:23:52] INFO root fetch - processPackages [adop]: Downloading https://files.pythonhosted.org/packages/90/c7/c87206e7d96d081e4208470a808e5c8021ffa9a57b38c156835455785082/adop-0.0.6-py3-none-any.whl
+[2023-07-21 11:23:52] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/77/6a/162d8a561405eb33b3d0a424cae0ef026a56fdf97183a6465711f83e53b6/lightning-template-1.1.3.tar.gz
+[2023-07-21 11:23:52] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metapensiero.sphinx.patchdb-4.0.dev5.tar.gz tmp/metapensiero.sphinx.patchdb-4.0.dev6.tar.gz --markdown 20230721/m/metapensiero.sphinx.patchdb/4.0.dev5-4.0.dev6/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.0.tar.gz tmp/sqlx-exec-1.0.1.tar.gz --markdown 20230721/s/sqlx-exec/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/d3/a3/e75a53241f511a07297c9618e647b76037e4341bbb542a80bff616af153a/nrsdk-1.1.3b1.tar.gz
+[2023-07-21 11:23:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-21 11:23:52] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.1.2.tar.gz tmp/lightning-template-1.1.3.tar.gz --markdown 20230721/l/lightning-template/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/40/5e/86b80509bc06f5dac665eaa5450efa2a3c4a476a41496254c24f48179642/mwj-apitest-1.1.0.tar.gz
+[2023-07-21 11:23:52] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230721/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [nrsdk]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrsdk-1.1.3.3.tar.gz tmp/nrsdk-1.1.3b1.tar.gz --markdown 20230721/n/nrsdk/1.1.3.3-1.1.3b1/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.0.3.tar.gz tmp/mwj-apitest-1.1.0.tar.gz --markdown 20230721/m/mwj-apitest/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 11:23:52] INFO root fetch - processPackages [adop]: Downloading https://files.pythonhosted.org/packages/43/e6/824ec72f1ae9037b5a702be0e99e834adf0f1f4d5a3c81dcae95d12dded0/adop-0.0.7-py3-none-any.whl
+[2023-07-21 11:23:52] INFO root fetch - processPackages [adop]: executing diffoscope
+[2023-07-21 11:23:52] INFO root fetch - processPackages [adop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adop-0.0.6-py3-none-any.whl.zip tmp/adop-0.0.7-py3-none-any.whl.zip --markdown 20230721/a/adop/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-21 11:23:53] INFO root fetch - processPackages [ethernetip]: Remove: archive file [/home/abi/fetcher/tmp/ethernetip-1.0.0.tar.gz]
+[2023-07-21 11:23:53] INFO root fetch - processPackages [ethernetip]: Remove: archive file [/home/abi/fetcher/tmp/ethernetip-1.1.0.tar.gz]
+[2023-07-21 11:23:53] INFO root fetch - processPackages [ethernetip]: Start processing: DLMS-SPODES
+[2023-07-21 11:23:53] INFO root fetch - main [MainThread]: End processing [ethernetip]: success
+[2023-07-21 11:23:53] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-21 11:23:53] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-21 11:23:53] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.0.tar.gz]
+[2023-07-21 11:23:53] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.1.tar.gz]
+[2023-07-21 11:23:53] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-21 11:23:53] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-21 11:23:53] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-21 11:23:53] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-21 11:23:53] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-21 11:23:54] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.2.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.3.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-21 11:23:54] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Remove: archive file [/home/abi/fetcher/tmp/metapensiero.sphinx.patchdb-4.0.dev5.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Remove: archive file [/home/abi/fetcher/tmp/metapensiero.sphinx.patchdb-4.0.dev6.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - main [MainThread]: End processing [metapensiero.sphinx.patchdb]: success
+[2023-07-21 11:23:54] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-21 11:23:54] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3.3.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3b1.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
+[2023-07-21 11:23:54] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.0.3.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.1.0.tar.gz]
+[2023-07-21 11:23:54] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-21 11:23:54] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-21 11:23:54] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230721/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 11:23:54] INFO root fetch - processPackages [adop]: Remove: archive file [/home/abi/fetcher/tmp/adop-0.0.6-py3-none-any.whl.zip]
+[2023-07-21 11:23:54] INFO root fetch - processPackages [adop]: Remove: archive file [/home/abi/fetcher/tmp/adop-0.0.7-py3-none-any.whl.zip]
+[2023-07-21 11:23:54] INFO root fetch - main [MainThread]: End processing [adop]: success
+[2023-07-21 11:23:55] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-21 11:23:55] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-21 11:23:55] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-21 11:23:55] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-21 11:23:55] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230721/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-21 11:23:57] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-21 11:23:57] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-21 11:23:57] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-21 11:24:58] INFO root fetch - processPackages [ndtorch]: Remove: archive file [/home/abi/fetcher/tmp/ndtorch-0.1.5.tar.gz]
+[2023-07-21 11:24:58] INFO root fetch - processPackages [ndtorch]: Remove: archive file [/home/abi/fetcher/tmp/ndtorch-0.1.6.tar.gz]
+[2023-07-21 11:24:58] INFO root fetch - main [MainThread]: End processing [ndtorch]: success
+[2023-07-21 11:24:58] INFO root fetch - main [MainThread]: Store serial: [18980850]
