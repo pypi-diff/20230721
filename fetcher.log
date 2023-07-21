@@ -20628,3 +20628,111 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:51:00] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.5.tar.gz]
 [2023-07-21 12:51:00] INFO root fetch - main [MainThread]: End processing [pyobs-core]: success
 [2023-07-21 12:51:00] INFO root fetch - main [MainThread]: Store serial: [18981563]
+[2023-07-21 12:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981563]
+[2023-07-21 12:56:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covert-ots
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-vocabularies
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deap
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: troncos
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-opnsense
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edx-event-routing-backends
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loggingx-py
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantnb
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meta-core
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ansys-mapdl-reader
+[2023-07-21 12:56:09] INFO root fetch - processPackages [ansys-mapdl-reader]: New version: [0.52.9] Old Version: [0.52.8]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [edx-event-routing-backends]: New version: [5.5.2] Old Version: [5.5.0]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [loggingx-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [quantnb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [covert-ots]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [meta-core]: New version: [3.7.24] Old Version: [3.7.20]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [troncos]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [deap]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.54] Old Version: [0.0.34]
+[2023-07-21 12:56:09] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/c4/f0/7e48b76099265ce6db715a34aaba5eedbfd4844706c1fd37fd04dd35c506/quantnb-0.2.8.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [loggingx-py]: Downloading https://files.pythonhosted.org/packages/db/1e/766bacbfb6038c33c203e31931c8aed894ea0857ba657c572d6cde7917c2/loggingx-py-0.3.0.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/76/57/0d4b5fb15f7629cd94b314854a38748e3f7c0142bf1c4a745aa98d894ced/meta-core-3.7.20.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [ansys-mapdl-reader]: Downloading https://files.pythonhosted.org/packages/20/51/22eefda22cb103d4b5084eace87b68e0bbb4fd6604542d7851206b42b131/ansys-mapdl-reader-0.52.8.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [edx-event-routing-backends]: Downloading https://files.pythonhosted.org/packages/a1/f1/732d858051485b34ed47cfc54ebb023555924c1debf484c8d31987a97887/edx-event-routing-backends-5.5.0.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/c8/85/d226a87c13bac2b8adbbc3209ced5c7c91f172401dce35ad52a4026cc59a/oarepo-vocabularies-2.0.7.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/3b/65/a6b7f53d61b04cc31148393fb142fd0fd3f54e79fee5e33f0923e1aaf088/covert-ots-1.0.7.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [deap]: Downloading https://files.pythonhosted.org/packages/c6/62/8ffbdb48215659ce5dce0b15e9a1cab17583d98092833c96a80f7a0707f7/deap-1.4.0.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/50/98/d11bc519f31ba6cc8118b1699ba4d9efdcc62e94f3355a55a91937ee439f/troncos-4.0.1.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/a2/1d/3d336644991a0b49a305a926389df70f564e74dfdb018d7256464a85d24e/quantnb-0.2.9.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/4c/c2/ce152ae33a3e7db54ed8a09bf1e8e2b2a1481c541812c1fbf128caf42c1d/pulumi-opnsense-.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [quantnb]: executing diffoscope
+[2023-07-21 12:56:10] INFO root fetch - processPackages [quantnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantnb-0.2.8.tar.gz tmp/quantnb-0.2.9.tar.gz --markdown 20230721/q/quantnb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 12:56:10] INFO root fetch - processPackages [loggingx-py]: Downloading https://files.pythonhosted.org/packages/11/ad/df83e4f27a414e9ecb1359d64ac546651a3604ded3a4a20198f3847d525a/loggingx-py-0.3.1.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/fb/2d/b70fc2116fca8ab4e5bde924c172a421f6f3c158320375063e55d04b39bd/oarepo-vocabularies-2.0.8.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/fd/ca/0ea8d953e869efb47607063e5f9e0fa67b1260162cd54b358f5c93c6f486/meta-core-3.7.24.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [loggingx-py]: executing diffoscope
+[2023-07-21 12:56:10] INFO root fetch - processPackages [loggingx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggingx-py-0.3.0.tar.gz tmp/loggingx-py-0.3.1.tar.gz --markdown 20230721/l/loggingx-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-21 12:56:10] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/b1/8d/09b4062013dbb2f2fc12d1dfd69caa593320b2178249ecf3febb6607340d/covert-ots-1.0.8.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-21 12:56:10] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.7.tar.gz tmp/oarepo-vocabularies-2.0.8.tar.gz --markdown 20230721/o/oarepo-vocabularies/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-21 12:56:10] INFO root fetch - processPackages [edx-event-routing-backends]: Downloading https://files.pythonhosted.org/packages/83/c8/7189ab2be4f7925809133349eaf205855435a9d23d6b65c34f59d699ce76/edx-event-routing-backends-5.5.2.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [ansys-mapdl-reader]: Downloading https://files.pythonhosted.org/packages/4e/81/374b1cc48191003b8370ce8390bfbffaca3018090a2f524209b4db588af6/ansys-mapdl-reader-0.52.9.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [deap]: Downloading https://files.pythonhosted.org/packages/0c/4c/350b7a2a16a4ed3b547172a7d2ca328e5376466a419bf90102ceb290ac5c/deap-1.4.1.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [covert-ots]: executing diffoscope
+[2023-07-21 12:56:10] INFO root fetch - processPackages [covert-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covert-ots-1.0.7.tar.gz tmp/covert-ots-1.0.8.tar.gz --markdown 20230721/c/covert-ots/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-21 12:56:10] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/b4/cf/d55a28a11312863b091bff9089fe1b9126fde43744c735c11fe345eb410e/pulumi-opnsense-v0.0.54.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/b8/29/9ccaf37a576dc793d7b4d328517897e7e44ae68d1836560bfb96eca4b6b8/troncos-4.0.2.tar.gz
+[2023-07-21 12:56:10] INFO root fetch - processPackages [meta-core]: executing diffoscope
+[2023-07-21 12:56:10] INFO root fetch - processPackages [meta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-core-3.7.20.tar.gz tmp/meta-core-3.7.24.tar.gz --markdown 20230721/m/meta-core/3.7.20-3.7.24/diff.md --exclude *.pyd
+[2023-07-21 12:56:11] INFO root fetch - processPackages [edx-event-routing-backends]: executing diffoscope
+[2023-07-21 12:56:11] INFO root fetch - processPackages [edx-event-routing-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-event-routing-backends-5.5.0.tar.gz tmp/edx-event-routing-backends-5.5.2.tar.gz --markdown 20230721/e/edx-event-routing-backends/5.5.0-5.5.2/diff.md --exclude *.pyd
+[2023-07-21 12:56:11] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-21 12:56:11] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-opnsense-.tar.gz tmp/pulumi-opnsense-v0.0.54.tar.gz --markdown 20230721/p/pulumi-opnsense/0.0.34-0.0.54/diff.md --exclude *.pyd
+[2023-07-21 12:56:11] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-07-21 12:56:11] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.1.tar.gz tmp/troncos-4.0.2.tar.gz --markdown 20230721/t/troncos/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-21 12:56:11] INFO root fetch - processPackages [deap]: executing diffoscope
+[2023-07-21 12:56:11] INFO root fetch - processPackages [deap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deap-1.4.0.tar.gz tmp/deap-1.4.1.tar.gz --markdown 20230721/d/deap/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-21 12:56:11] INFO root fetch - processPackages [ansys-mapdl-reader]: executing diffoscope
+[2023-07-21 12:56:11] INFO root fetch - processPackages [ansys-mapdl-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-mapdl-reader-0.52.8.tar.gz tmp/ansys-mapdl-reader-0.52.9.tar.gz --markdown 20230721/a/ansys-mapdl-reader/0.52.8-0.52.9/diff.md --exclude *.pyd
+[2023-07-21 12:56:11] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.8.tar.gz]
+[2023-07-21 12:56:11] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.9.tar.gz]
+[2023-07-21 12:56:11] INFO root fetch - processPackages [quantnb]: Start processing: hcam-finder
+[2023-07-21 12:56:11] INFO root fetch - main [MainThread]: End processing [quantnb]: success
+[2023-07-21 12:56:11] INFO root fetch - processPackages [hcam-finder]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/de/f0/4132924b7c59673fdbc29b7b7c501e293c04649cd1a774fe24cb784e537e/hcam_finder-1.2.2.tar.gz
+[2023-07-21 12:56:12] INFO root fetch - processPackages [loggingx-py]: Remove: archive file [/home/abi/fetcher/tmp/loggingx-py-0.3.0.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [loggingx-py]: Remove: archive file [/home/abi/fetcher/tmp/loggingx-py-0.3.1.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [loggingx-py]: Start processing: CF-ALGO-1609
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [loggingx-py]: success
+[2023-07-21 12:56:12] INFO root fetch - processPackages [covert-ots]: Remove: archive file [/home/abi/fetcher/tmp/covert-ots-1.0.7.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [covert-ots]: Remove: archive file [/home/abi/fetcher/tmp/covert-ots-1.0.8.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [covert-ots]: Start processing: NeuralPlayground
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [covert-ots]: success
+[2023-07-21 12:56:12] WARNING root fetch - processPackages [CF-ALGO-1609]: Skipping, unable to determine old version
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [CF-ALGO-1609] error
+[2023-07-21 12:56:12] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/9d/ab/4793b5736282848efbbbc5b2d81442d55f94182366d3f0db731420155b66/hcam_finder-1.3.0.tar.gz
+[2023-07-21 12:56:12] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.7.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-21 12:56:12] WARNING root fetch - processPackages [NeuralPlayground]: Skipping, unable to determine old version
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [NeuralPlayground] error
+[2023-07-21 12:56:12] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.20.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.24.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [meta-core]: success
+[2023-07-21 12:56:12] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.1.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.2.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-07-21 12:56:12] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-opnsense-.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-opnsense-v0.0.54.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-21 12:56:12] INFO root fetch - processPackages [edx-event-routing-backends]: Remove: archive file [/home/abi/fetcher/tmp/edx-event-routing-backends-5.5.0.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - processPackages [edx-event-routing-backends]: Remove: archive file [/home/abi/fetcher/tmp/edx-event-routing-backends-5.5.2.tar.gz]
+[2023-07-21 12:56:12] INFO root fetch - main [MainThread]: End processing [edx-event-routing-backends]: success
+[2023-07-21 12:56:13] INFO root fetch - processPackages [hcam-finder]: executing diffoscope
+[2023-07-21 12:56:13] INFO root fetch - processPackages [hcam-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_finder-1.2.2.tar.gz tmp/hcam_finder-1.3.0.tar.gz --markdown 20230721/h/hcam-finder/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-21 12:56:13] INFO root fetch - processPackages [ansys-mapdl-reader]: Remove: archive file [/home/abi/fetcher/tmp/ansys-mapdl-reader-0.52.8.tar.gz]
+[2023-07-21 12:56:13] INFO root fetch - processPackages [ansys-mapdl-reader]: Remove: archive file [/home/abi/fetcher/tmp/ansys-mapdl-reader-0.52.9.tar.gz]
+[2023-07-21 12:56:13] INFO root fetch - main [MainThread]: End processing [ansys-mapdl-reader]: success
+[2023-07-21 12:56:13] INFO root fetch - processPackages [deap]: Remove: archive file [/home/abi/fetcher/tmp/deap-1.4.0.tar.gz]
+[2023-07-21 12:56:13] INFO root fetch - processPackages [deap]: Remove: archive file [/home/abi/fetcher/tmp/deap-1.4.1.tar.gz]
+[2023-07-21 12:56:13] INFO root fetch - main [MainThread]: End processing [deap]: success
+[2023-07-21 12:56:14] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.2.2.tar.gz]
+[2023-07-21 12:56:14] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.3.0.tar.gz]
+[2023-07-21 12:56:14] INFO root fetch - main [MainThread]: End processing [hcam-finder]: success
+[2023-07-21 12:56:14] INFO root fetch - main [MainThread]: Store serial: [18981643]
