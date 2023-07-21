@@ -13346,3 +13346,42 @@
 [2023-07-21 06:32:35] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc2.tar.gz]
 [2023-07-21 06:32:35] INFO root fetch - main [MainThread]: End processing [caqui]: success
 [2023-07-21 06:32:35] INFO root fetch - main [MainThread]: Store serial: [18978601]
+[2023-07-21 06:37:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978601]
+[2023-07-21 06:37:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-21 06:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-connector-python-nightly
+[2023-07-21 06:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptask-cli
+[2023-07-21 06:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AllyInvestPy
+[2023-07-21 06:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: operator-search
+[2023-07-21 06:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelz-llm
+[2023-07-21 06:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlflowops
+[2023-07-21 06:37:44] WARNING root fetch - processPackages [operator-search]: Skipping, unable to determine old version
+[2023-07-21 06:37:44] INFO root fetch - processPackages [modelz-llm]: New version: [23.7.1] Old Version: [23.6.9]
+[2023-07-21 06:37:44] INFO root fetch - main [MainThread]: End processing [operator-search] error
+[2023-07-21 06:37:44] WARNING root fetch - processPackages [gptask-cli]: Skipping, unable to determine old version
+[2023-07-21 06:37:44] INFO root fetch - main [MainThread]: End processing [gptask-cli] error
+[2023-07-21 06:37:44] INFO root fetch - processPackages [AllyInvestPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 06:37:44] WARNING root fetch - processPackages [mlflowops]: Skipping, unable to determine old version
+[2023-07-21 06:37:44] INFO root fetch - main [MainThread]: End processing [mlflowops] error
+[2023-07-21 06:37:45] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/67/1f/da8d0e1549000d866adf647d3d57b09b0c01fc3ff6fed99c8af2461b7d7f/AllyInvestPy-1.0.8.tar.gz
+[2023-07-21 06:37:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.7.8] Old Version: [2023.7.6]
+[2023-07-21 06:37:45] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/66/a2/65210af0e41ae8501bc41dcfa062682db900c54c57b983cb51f37368ad01/modelz-llm-23.6.9.tar.gz
+[2023-07-21 06:37:45] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/d4/c9/0e5229dbc3dee942e41c231c49691c86c84144823f12cf43c1fe77f2a0db/AllyInvestPy-1.0.9.tar.gz
+[2023-07-21 06:37:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/c9/81/c4d9965bfca21c8ac1ee47fa96c6efeeb51fa6f29adea9b6c656c1e1186f/snowflake-connector-python-nightly-2023.7.6.tar.gz
+[2023-07-21 06:37:45] INFO root fetch - processPackages [AllyInvestPy]: executing diffoscope
+[2023-07-21 06:37:45] INFO root fetch - processPackages [AllyInvestPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AllyInvestPy-1.0.8.tar.gz tmp/AllyInvestPy-1.0.9.tar.gz --markdown 20230721/A/AllyInvestPy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 06:37:45] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/36/41/5f52f1abea15a178c89dd75bfd89e046f1959dac341a89a7d5a4ccb2269f/modelz-llm-23.7.1.tar.gz
+[2023-07-21 06:37:45] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-07-21 06:37:45] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.9.tar.gz tmp/modelz-llm-23.7.1.tar.gz --markdown 20230721/m/modelz-llm/23.6.9-23.7.1/diff.md --exclude *.pyd
+[2023-07-21 06:37:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/40/16/80ea6fef1c1c6972dd25b43e5e7b1a2c889d92d33fd7e8988c16dd4d98be/snowflake-connector-python-nightly-2023.7.8.tar.gz
+[2023-07-21 06:37:46] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.8.tar.gz]
+[2023-07-21 06:37:46] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.9.tar.gz]
+[2023-07-21 06:37:46] INFO root fetch - main [MainThread]: End processing [AllyInvestPy]: success
+[2023-07-21 06:37:46] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-07-21 06:37:46] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz --markdown 20230721/s/snowflake-connector-python-nightly/2023.7.6-2023.7.8/diff.md --exclude *.pyd
+[2023-07-21 06:37:46] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.9.tar.gz]
+[2023-07-21 06:37:46] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.7.1.tar.gz]
+[2023-07-21 06:37:46] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-07-21 06:37:47] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz]
+[2023-07-21 06:37:47] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
+[2023-07-21 06:37:47] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-07-21 06:37:47] INFO root fetch - main [MainThread]: Store serial: [18978662]
