@@ -4645,3 +4645,115 @@
 [2023-07-21 02:39:39] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc3.tar.gz]
 [2023-07-21 02:39:39] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-07-21 02:39:39] INFO root fetch - main [MainThread]: Store serial: [18975380]
+[2023-07-21 02:44:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18975380]
+[2023-07-21 02:44:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlitopencvplayer
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-circular-progress
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-circular-progress
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chialisp_stdlib
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-iotexplorer
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fennel-ai
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-iottid
+[2023-07-21 02:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-iotvideo
+[2023-07-21 02:44:49] INFO root fetch - processPackages [st-circular-progress]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: New version: [3.0.940] Old Version: [3.0.939]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-21 02:44:49] WARNING root fetch - processPackages [chialisp_stdlib]: Skipping, unable to determine old version
+[2023-07-21 02:44:49] INFO root fetch - processPackages [chialisp_stdlib]: Start processing: tencentcloud-sdk-python-iotvideoindustry
+[2023-07-21 02:44:49] INFO root fetch - main [MainThread]: End processing [chialisp_stdlib] error
+[2023-07-21 02:44:49] INFO root fetch - processPackages [st-circular-progress]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: New version: [3.0.940] Old Version: [3.0.939]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: New version: [3.0.940] Old Version: [3.0.939]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/70/96/ef7e2ad1a5aa8137e8a6f3d680c1b7eec4976badb0e7d0454e7a1c233bb9/st_circular_progress-0.0.6.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/eb/51/6e64ec439eb1bc4506b67d9e40d7b636161bbecc9cd7b6ca8a65a9d09095/streamlitopencvplayer-1.4.1.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/70/96/ef7e2ad1a5aa8137e8a6f3d680c1b7eec4976badb0e7d0454e7a1c233bb9/st_circular_progress-0.0.6.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Downloading https://files.pythonhosted.org/packages/6e/85/93ee63158c19b4f930f6fd1e7a917ee0a1bb5666b9a0e67a76efd644e70d/tencentcloud-sdk-python-iotexplorer-3.0.939.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Downloading https://files.pythonhosted.org/packages/cb/90/c02af7ac3da9388cba0160b672658d5aeaa89a463080de65820ddec7fc17/tencentcloud-sdk-python-iottid-3.0.939.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/8e/9b/21c561f80bd77db05ed5dd5d8e534ccfe15ce58661c9cbcd51558cec6655/tencentcloud-sdk-python-iotvideo-3.0.939.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: New version: [3.0.940] Old Version: [3.0.939]
+[2023-07-21 02:44:49] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/21/e4/79228782704e6b8bc37af2ce3af7b32b19c01d508429284407f25470c0b5/st_circular_progress-0.1.0.tar.gz
+[2023-07-21 02:44:49] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/21/e4/79228782704e6b8bc37af2ce3af7b32b19c01d508429284407f25470c0b5/st_circular_progress-0.1.0.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/85/59/78dd228917c3add018cde7cc605b11ad7f02548412dc3981e78a5530d7e5/streamlitopencvplayer-1.4.2.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Downloading https://files.pythonhosted.org/packages/9e/bb/a66563d2a23e98f12635f3b96151f88b539bd4d08bc2348e22108e49ef1e/tencentcloud-sdk-python-iotexplorer-3.0.940.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.0.6.tar.gz tmp/st_circular_progress-0.1.0.tar.gz --markdown 20230721/s/st-circular-progress/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.0.6.tar.gz tmp/st_circular_progress-0.1.0.tar.gz --markdown 20230721/s/st-circular-progress/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Downloading https://files.pythonhosted.org/packages/6c/81/e5b950965f32ad70c5726f589036feb02f844c99f91f2725605d60b7ea0a/tencentcloud-sdk-python-iottid-3.0.940.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/60/b1/f83edb33019421c73743ba601ba2173ab69d65130cb46332e302fb91e55e/tencentcloud-sdk-python-iotvideoindustry-3.0.939.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.4.1.tar.gz tmp/streamlitopencvplayer-1.4.2.tar.gz --markdown 20230721/s/streamlitopencvplayer/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/df/d5/f01484d6a012f47373072cb38cf87bea4650ee9e6818ce217ad51148cfd3/tencentcloud-sdk-python-iotvideo-3.0.940.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotexplorer-3.0.939.tar.gz tmp/tencentcloud-sdk-python-iotexplorer-3.0.940.tar.gz --markdown 20230721/t/tencentcloud-sdk-python-iotexplorer/3.0.939-3.0.940/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iottid-3.0.939.tar.gz tmp/tencentcloud-sdk-python-iottid-3.0.940.tar.gz --markdown 20230721/t/tencentcloud-sdk-python-iottid/3.0.939-3.0.940/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideo-3.0.939.tar.gz tmp/tencentcloud-sdk-python-iotvideo-3.0.940.tar.gz --markdown 20230721/t/tencentcloud-sdk-python-iotvideo/3.0.939-3.0.940/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230721/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230721/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/4c/8a/8dbb45e634b9eee2591cbc763d1366c0ad6ee960c032ee21ae12aad83b79/tencentcloud-sdk-python-iotvideoindustry-3.0.940.tar.gz
+[2023-07-21 02:44:50] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230721/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: executing diffoscope
+[2023-07-21 02:44:50] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.939.tar.gz tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.940.tar.gz --markdown 20230721/t/tencentcloud-sdk-python-iotvideoindustry/3.0.939-3.0.940/diff.md --exclude *.pyd
+[2023-07-21 02:44:51] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.0.6.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.0.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - processPackages [st-circular-progress]: Start processing: tencentcloud-sdk-python-irp
+[2023-07-21 02:44:51] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 02:44:51] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.1.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.2.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - processPackages [streamlitopencvplayer]: Start processing: tencentcloud-sdk-python-ivld
+[2023-07-21 02:44:51] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-21 02:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: New version: [3.0.940] Old Version: [3.0.939]
+[2023-07-21 02:44:51] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 02:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/ea/e9/41a4c289ebd504035ee529d4da577a4db533f3849c8bcd73abe2b7bfabc3/tencentcloud-sdk-python-irp-3.0.939.tar.gz
+[2023-07-21 02:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotexplorer-3.0.939.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotexplorer-3.0.940.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotexplorer]: success
+[2023-07-21 02:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: New version: [3.0.940] Old Version: [3.0.939]
+[2023-07-21 02:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iottid-3.0.939.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iottid-3.0.940.tar.gz]
+[2023-07-21 02:44:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iottid]: success
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.939.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.940.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideo]: success
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/14/11/906a06f854fbfc8f743da2c82470f104e5155c27f3a6daed9c94b84defdf/tencentcloud-sdk-python-ivld-3.0.939.tar.gz
+[2023-07-21 02:44:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.939.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.940.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideoindustry]: success
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/e7/86/aaea6f33dd603f651d2b5c87a6a0481dc9ce76cc4c90e0f4a89d47aefcf4/tencentcloud-sdk-python-irp-3.0.940.tar.gz
+[2023-07-21 02:44:52] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: executing diffoscope
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-irp-3.0.939.tar.gz tmp/tencentcloud-sdk-python-irp-3.0.940.tar.gz --markdown 20230721/t/tencentcloud-sdk-python-irp/3.0.939-3.0.940/diff.md --exclude *.pyd
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/d5/a6/c89764e8cc17000c539431b3199ea7e5f30d8abe602582f7fe0cdf82f23f/tencentcloud-sdk-python-ivld-3.0.940.tar.gz
+[2023-07-21 02:44:52] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-21 02:44:52] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: executing diffoscope
+[2023-07-21 02:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ivld-3.0.939.tar.gz tmp/tencentcloud-sdk-python-ivld-3.0.940.tar.gz --markdown 20230721/t/tencentcloud-sdk-python-ivld/3.0.939-3.0.940/diff.md --exclude *.pyd
+[2023-07-21 02:44:53] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.939.tar.gz]
+[2023-07-21 02:44:53] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.940.tar.gz]
+[2023-07-21 02:44:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-irp]: success
+[2023-07-21 02:44:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.939.tar.gz]
+[2023-07-21 02:44:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.940.tar.gz]
+[2023-07-21 02:44:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ivld]: success
+[2023-07-21 02:44:53] INFO root fetch - main [MainThread]: Store serial: [18975421]
