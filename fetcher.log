@@ -11630,3 +11630,126 @@
 [2023-07-21 05:04:38] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.5.1.tar.gz]
 [2023-07-21 05:04:38] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
 [2023-07-21 05:04:38] INFO root fetch - main [MainThread]: Store serial: [18977976]
+[2023-07-21 05:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977976]
+[2023-07-21 05:09:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo11-addon-contract-price-revision
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-testplus
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chima
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-product-contract
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-contract-price-revision
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-product-contract
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-contract-price-revision
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-product-contract
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pandora-ChatGPT
+[2023-07-21 05:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mojo-runtime
+[2023-07-21 05:09:48] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: New version: [13.0.1.0.2.dev2] Old Version: [13.0.1.0.2.dev1]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo13-addon-product-contract]: New version: [13.0.1.0.2.dev5] Old Version: [13.0.1.0.2.dev4]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [chima]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [mojo-testplus]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: New version: [12.0.1.0.2.99.dev1] Old Version: [12.0.1.0.2]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo14-addon-product-contract]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev2]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo11-addon-contract-price-revision]: New version: [11.0.1.0.1.99.dev2] Old Version: [11.0.1.0.1.99.dev1]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo12-addon-product-contract]: New version: [12.0.5.3.1.99.dev4] Old Version: [12.0.5.3.1.99.dev3]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-21 05:09:49] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/e5/70/b8f9da193cdd66f222791c8e40f63f7b2531436191ad67fb77487b4e6189/Pandora-ChatGPT-1.2.8.tar.gz
+[2023-07-21 05:09:49] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-07-21 05:09:49] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/39/1f/61b2e206df6ebaa1c0b92d3e2458b65b97b3176ebef8f4a0b8181aa64f1f/mojo_testplus-0.0.5.tar.gz
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo13-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/b0/b9/4e5d27af96735c18b8fd47f5f5f15caaabf67ec4130fce3ec0cdb04865cb/odoo13_addon_product_contract-13.0.1.0.2.dev4-py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: Downloading https://files.pythonhosted.org/packages/19/57/98a29b4627e3e124257c05d454f72dc243ef4825e91253cfe3e190c20b45/odoo13_addon_contract_price_revision-13.0.1.0.2.dev1-py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/9a/3d/11b770dc58d2b75c58442deb2971499f66c8a510b4b49baaddd1752beb81/chima-0.0.8.tar.gz
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: Downloading https://files.pythonhosted.org/packages/09/eb/e17230b4e5bbe3dd6031bd9876d2411b4ac18dbbe9d912aa2d565a7d39fa/odoo12_addon_contract_price_revision-12.0.1.0.2-py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo12-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/48/db/75738566ff3894dd1c1e17f7d390aa6aec8a9ffb633fee5576a7e01a26cb/odoo12_addon_product_contract-12.0.5.3.1.99.dev3-py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/49/2b/2d23c5b0dca7c8af21bab669b75fe76d3f6bf3ea70a74cfa233b115232ad/odoo14_addon_product_contract-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo11-addon-contract-price-revision]: Downloading https://files.pythonhosted.org/packages/48/25/eb93770a1754f18adbfea9e384d9c42150fb2b5e39b1681e9a69a560f1a6/odoo11_addon_contract_price_revision-11.0.1.0.1.99.dev1-py2.py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/e9/79/3a9f45ba7e0b1a54633234311b6829beec63cd72f97e27eb32d453be50c0/Pandora-ChatGPT-1.2.9.tar.gz
+[2023-07-21 05:09:49] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: Downloading https://files.pythonhosted.org/packages/5c/9e/2889fe46053a4f340e51cb45b874265014fcf26aae3167c13e80450e7897/odoo12_addon_contract_price_revision-12.0.1.0.2.99.dev1-py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: Downloading https://files.pythonhosted.org/packages/7b/a9/c7b7d2ea315aa1f4fcbb5386c63aa6161342f4b491ca5a353ca36338b1a4/odoo13_addon_contract_price_revision-13.0.1.0.2.dev2-py3-none-any.whl
+[2023-07-21 05:09:49] INFO root fetch - processPackages [odoo13-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/fb/b1/ba0f990a1b121c368688db97173ca13c9e1dbcfbfdb7e1a1cd54a969852b/odoo13_addon_product_contract-13.0.1.0.2.dev5-py3-none-any.whl
+[2023-07-21 05:09:50] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.2.8.tar.gz tmp/Pandora-ChatGPT-1.2.9.tar.gz --markdown 20230721/P/Pandora-ChatGPT/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo11-addon-contract-price-revision]: Downloading https://files.pythonhosted.org/packages/b5/35/999a086c9f5e5e78e4907559bb5cd05d99ffbdf6092846ebee652e83f759/odoo11_addon_contract_price_revision-11.0.1.0.1.99.dev2-py2.py3-none-any.whl
+[2023-07-21 05:09:50] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/76/50/145f581fdbaac6a541c615987d5bdf818f3aa19de5578423cd52b460e3dd/chima-0.0.9.tar.gz
+[2023-07-21 05:09:50] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/d7/5d/ef815d751cc3d4b592c2b5e50d0c8a7549435e90ad7e958087a633cccb68/mojo_testplus-0.0.8.tar.gz
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo12-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/db/88/6357df0b16b370962399ed2b3d8d333b16c2b99a29ae11283e08d2a4141d/odoo12_addon_product_contract-12.0.5.3.1.99.dev4-py3-none-any.whl
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/23/76/215b38c33288425ccdaca68d3b8a73b4751fb96221e11e7d567c6bbe4e72/odoo14_addon_product_contract-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-07-21 05:09:50] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230721/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_contract_price_revision-12.0.1.0.2-py3-none-any.whl.zip tmp/odoo12_addon_contract_price_revision-12.0.1.0.2.99.dev1-py3-none-any.whl.zip --markdown 20230721/o/odoo12-addon-contract-price-revision/12.0.1.0.2-12.0.1.0.2.99.dev1/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_contract_price_revision-13.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_contract_price_revision-13.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230721/o/odoo13-addon-contract-price-revision/13.0.1.0.2.dev1-13.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo13-addon-product-contract]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo13-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_contract-13.0.1.0.2.dev4-py3-none-any.whl.zip tmp/odoo13_addon_product_contract-13.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20230721/o/odoo13-addon-product-contract/13.0.1.0.2.dev4-13.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo11-addon-contract-price-revision]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo11-addon-contract-price-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_contract_price_revision-11.0.1.0.1.99.dev1-py2.py3-none-any.whl.zip tmp/odoo11_addon_contract_price_revision-11.0.1.0.1.99.dev2-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-contract-price-revision/11.0.1.0.1.99.dev1-11.0.1.0.1.99.dev2/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [chima]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [chima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chima-0.0.8.tar.gz tmp/chima-0.0.9.tar.gz --markdown 20230721/c/chima/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo14-addon-product-contract]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo14-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_contract-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_product_contract-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-product-contract/14.0.1.1.1.dev2-14.0.1.1.1.dev3/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo12-addon-product-contract]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [odoo12-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev4-py3-none-any.whl.zip --markdown 20230721/o/odoo12-addon-product-contract/12.0.5.3.1.99.dev3-12.0.5.3.1.99.dev4/diff.md --exclude *.pyd
+[2023-07-21 05:09:50] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2023-07-21 05:09:50] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-0.0.5.tar.gz tmp/mojo_testplus-0.0.8.tar.gz --markdown 20230721/m/mojo-testplus/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-07-21 05:09:51] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract_price_revision-12.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-21 05:09:51] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract_price_revision-12.0.1.0.2.99.dev1-py3-none-any.whl.zip]
+[2023-07-21 05:09:51] INFO root fetch - processPackages [odoo12-addon-contract-price-revision]: Start processing: Hitech-Python-Coder
+[2023-07-21 05:09:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-contract-price-revision]: success
+[2023-07-21 05:09:51] WARNING root fetch - processPackages [Hitech-Python-Coder]: Skipping, unable to determine old version
+[2023-07-21 05:09:51] INFO root fetch - processPackages [Hitech-Python-Coder]: Start processing: odoo-addons-oca-credit-control
+[2023-07-21 05:09:51] INFO root fetch - main [MainThread]: End processing [Hitech-Python-Coder] error
+[2023-07-21 05:09:51] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_contract_price_revision-13.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-21 05:09:51] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_contract_price_revision-13.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-07-21 05:09:51] INFO root fetch - processPackages [odoo13-addon-contract-price-revision]: Start processing: mojo-testplus
+[2023-07-21 05:09:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-contract-price-revision]: success
+[2023-07-21 05:09:51] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: New version: [16.0.20230720.0] Old Version: [16.0.20230719.0]
+[2023-07-21 05:09:51] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.8.tar.gz]
+[2023-07-21 05:09:51] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.9.tar.gz]
+[2023-07-21 05:09:51] INFO root fetch - processPackages [mojo-runtime]: Start processing: sqlglot
+[2023-07-21 05:09:51] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-07-21 05:09:51] INFO root fetch - processPackages [mojo-testplus]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo13-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_contract-13.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo13-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_contract-13.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-contract]: success
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo11-addon-contract-price-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_contract_price_revision-11.0.1.0.1.99.dev1-py2.py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo11-addon-contract-price-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_contract_price_revision-11.0.1.0.1.99.dev2-py2.py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [odoo11-addon-contract-price-revision]: success
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/f8/ff/99a05b7ab6e3809e4b8ff5b043f77b9e2c20de240006d8b35777f85371bd/odoo_addons_oca_credit_control-16.0.20230719.0-py3-none-any.whl
+[2023-07-21 05:09:52] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2023-07-21 05:09:52] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-0.0.5.tar.gz tmp/mojo_testplus-0.0.8.tar.gz --markdown 20230721/m/mojo-testplus/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-07-21 05:09:52] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.8.tar.gz]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.9.tar.gz]
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-07-21 05:09:52] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.8.tar.gz]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.9.tar.gz]
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [chima]: success
+[2023-07-21 05:09:52] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-07-21 05:09:52] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.5.tar.gz]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.8.tar.gz]
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo12-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev3-py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo12-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev4-py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-contract]: success
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/f3/28/c4bb03c6ee4243ec71b2450b8b7d9bf29a2035b261bd18688705458dd927/odoo_addons_oca_credit_control-16.0.20230720.0-py3-none-any.whl
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-contract]: success
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: executing diffoscope
+[2023-07-21 05:09:52] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_credit_control-16.0.20230719.0-py3-none-any.whl.zip tmp/odoo_addons_oca_credit_control-16.0.20230720.0-py3-none-any.whl.zip --markdown 20230721/o/odoo-addons-oca-credit-control/16.0.20230719.0-16.0.20230720.0/diff.md --exclude *.pyd
+[2023-07-21 05:09:52] ERROR root fetch - processPackages [mojo-testplus]: Diffoscope failed: time="2023-07-21T05:09:52+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mojo_testplus-0.0.5.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mojo_testplus-0.0.8.tar.gz: No such file or directory
+
+[2023-07-21 05:09:52] INFO root fetch - main [MainThread]: End processing [mojo-testplus] error
+[2023-07-21 05:09:52] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-07-21 05:09:52] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-07-21 05:09:52] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230721/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-07-21 05:09:53] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230719.0-py3-none-any.whl.zip]
+[2023-07-21 05:09:53] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230720.0-py3-none-any.whl.zip]
+[2023-07-21 05:09:53] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-credit-control]: success
+[2023-07-21 05:09:54] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-07-21 05:09:54] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-07-21 05:09:54] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-07-21 05:09:54] INFO root fetch - main [MainThread]: Store serial: [18978014]
