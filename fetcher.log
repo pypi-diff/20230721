@@ -12754,3 +12754,66 @@
 [2023-07-21 05:42:14] INFO root fetch - processPackages [odoo14-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page-14.0.1.2.4.dev3-py3-none-any.whl.zip]
 [2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page]: success
 [2023-07-21 05:42:14] INFO root fetch - main [MainThread]: Store serial: [18978332]
+[2023-07-21 05:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978332]
+[2023-07-21 05:47:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brain-isotopic-distribution
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agency
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-talk-with-chatgpt
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Flask-SQL-Pro
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Flask-SQL-Pro
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcloud-storage-manager
+[2023-07-21 05:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brokerage
+[2023-07-21 05:47:24] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 05:47:24] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 05:47:24] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-07-21 05:47:24] INFO root fetch - processPackages [agency]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-21 05:47:24] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 05:47:24] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 05:47:24] INFO root fetch - processPackages [gcloud-storage-manager]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-07-21 05:47:24] INFO root fetch - processPackages [brokerage]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-21 05:47:24] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-21 05:47:24] INFO root fetch - processPackages [brain-isotopic-distribution]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brain-isotopic-distribution]: Downloading https://files.pythonhosted.org/packages/76/a9/e9a542976152baebf520747ebb619fc715f25516b7ba2e3545195b7bb4e1/brain-isotopic-distribution-1.5.8.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/48/db/eb371587ae4ff8d40b52b9ea41ba86d330632d263d2d15bd9da496b746eb/mecord-cli-0.1.85.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [gcloud-storage-manager]: Downloading https://files.pythonhosted.org/packages/ab/e1/bece7403a5a149c48d035894d4f46e212c27dee316f3f710916e8a7aef36/gcloud-storage-manager-0.0.1.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brokerage]: Downloading https://files.pythonhosted.org/packages/74/db/e2ee22e7fceeb70f16f27484380490729eb90b3ad976effe78a91487e134/brokerage-0.0.7.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/62/9d/b5d6382cacaebaaef7f4498f2d118b3b802e2af75f1f3f9b47f6f9bc7801/nonebot_plugin_talk_with_chatgpt-0.6.1.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/2c/f1/eae8e18c8a792acfc1e9f9c10ef86e4e42cac22ef55daed38b10534e9b76/agency-1.2.2.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brain-isotopic-distribution]: Downloading https://files.pythonhosted.org/packages/72/96/e02c029e5291f791fa08858d7e075b1e50c3a689f6bf3f412b31465bdf58/brain-isotopic-distribution-1.5.9.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brain-isotopic-distribution]: executing diffoscope
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brain-isotopic-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain-isotopic-distribution-1.5.8.tar.gz tmp/brain-isotopic-distribution-1.5.9.tar.gz --markdown 20230721/b/brain-isotopic-distribution/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-21 05:47:25] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [gcloud-storage-manager]: Downloading https://files.pythonhosted.org/packages/8c/be/55e5c1d33d9eddd97cd6687893e4c71f6760b1bb70811dc2e8df75662261/gcloud-storage-manager-0.1.1.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-21 05:47:25] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.85.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230721/m/mecord-cli/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brokerage]: Downloading https://files.pythonhosted.org/packages/ec/66/5bb21fd309ef2572aeb677c9e8947e48df21934b635851fcd7fcbd995a54/brokerage-0.0.8.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [gcloud-storage-manager]: executing diffoscope
+[2023-07-21 05:47:25] INFO root fetch - processPackages [gcloud-storage-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud-storage-manager-0.0.1.tar.gz tmp/gcloud-storage-manager-0.1.1.tar.gz --markdown 20230721/g/gcloud-storage-manager/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 05:47:25] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/6e/40/d4d403d3a88b0144c226c916d9e78ee9a6b8fd2dab8bf927cdf16465d477/agency-1.2.3.tar.gz
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brokerage]: executing diffoscope
+[2023-07-21 05:47:25] INFO root fetch - processPackages [brokerage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brokerage-0.0.7.tar.gz tmp/brokerage-0.0.8.tar.gz --markdown 20230721/b/brokerage/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-21 05:47:25] INFO root fetch - processPackages [agency]: executing diffoscope
+[2023-07-21 05:47:25] INFO root fetch - processPackages [agency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency-1.2.2.tar.gz tmp/agency-1.2.3.tar.gz --markdown 20230721/a/agency/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-21 05:47:26] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/73/65/2c341c61e1b1aa6c88f748f57a2c8ecc08a77ff9576c60daa2b54805fc61/nonebot_plugin_talk_with_chatgpt-0.6.2.tar.gz
+[2023-07-21 05:47:26] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: executing diffoscope
+[2023-07-21 05:47:26] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_chatgpt-0.6.1.tar.gz tmp/nonebot_plugin_talk_with_chatgpt-0.6.2.tar.gz --markdown 20230721/n/nonebot-plugin-talk-with-chatgpt/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-21 05:47:26] INFO root fetch - processPackages [brokerage]: Remove: archive file [/home/abi/fetcher/tmp/brokerage-0.0.7.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - processPackages [brokerage]: Remove: archive file [/home/abi/fetcher/tmp/brokerage-0.0.8.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - main [MainThread]: End processing [brokerage]: success
+[2023-07-21 05:47:26] INFO root fetch - processPackages [gcloud-storage-manager]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-storage-manager-0.0.1.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - processPackages [gcloud-storage-manager]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-storage-manager-0.1.1.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - main [MainThread]: End processing [gcloud-storage-manager]: success
+[2023-07-21 05:47:26] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.85.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-21 05:47:26] INFO root fetch - processPackages [brain-isotopic-distribution]: Remove: archive file [/home/abi/fetcher/tmp/brain-isotopic-distribution-1.5.8.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - processPackages [brain-isotopic-distribution]: Remove: archive file [/home/abi/fetcher/tmp/brain-isotopic-distribution-1.5.9.tar.gz]
+[2023-07-21 05:47:26] INFO root fetch - main [MainThread]: End processing [brain-isotopic-distribution]: success
+[2023-07-21 05:47:27] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.2.2.tar.gz]
+[2023-07-21 05:47:27] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.2.3.tar.gz]
+[2023-07-21 05:47:27] INFO root fetch - main [MainThread]: End processing [agency]: success
+[2023-07-21 05:47:27] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_chatgpt-0.6.1.tar.gz]
+[2023-07-21 05:47:27] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_chatgpt-0.6.2.tar.gz]
+[2023-07-21 05:47:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-chatgpt]: success
+[2023-07-21 05:47:27] INFO root fetch - main [MainThread]: Store serial: [18978366]
