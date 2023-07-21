@@ -17710,3 +17710,135 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 10:41:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
 [2023-07-21 10:41:22] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-07-21 10:41:22] INFO root fetch - main [MainThread]: Store serial: [18980403]
+[2023-07-21 10:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980403]
+[2023-07-21 10:46:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: directory-healthcheck
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anybomt
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unityparser
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedex-sdk
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irc-api
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nextnanopy
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: banana-cli
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: markdownparser
+[2023-07-21 10:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2023-07-21 10:46:31] INFO root fetch - processPackages [unityparser]: New version: [3.0.0] Old Version: [2.2.2]
+[2023-07-21 10:46:31] INFO root fetch - processPackages [nextnanopy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-21 10:46:31] WARNING root fetch - processPackages [anybomt]: Skipping, unable to determine old version
+[2023-07-21 10:46:31] INFO root fetch - processPackages [anybomt]: Start processing: xxradd
+[2023-07-21 10:46:31] INFO root fetch - main [MainThread]: End processing [anybomt] error
+[2023-07-21 10:46:31] INFO root fetch - processPackages [irc-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 10:46:31] WARNING root fetch - processPackages [fedex-sdk]: Skipping, unable to determine old version
+[2023-07-21 10:46:31] INFO root fetch - processPackages [fedex-sdk]: Start processing: zero-3rdparty
+[2023-07-21 10:46:31] INFO root fetch - main [MainThread]: End processing [fedex-sdk] error
+[2023-07-21 10:46:31] INFO root fetch - processPackages [directory-healthcheck]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-21 10:46:31] INFO root fetch - processPackages [markdownparser]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-21 10:46:31] INFO root fetch - processPackages [banana-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:46:31] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230720] Old Version: [0.0.1.dev20230719]
+[2023-07-21 10:46:31] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-21 10:46:31] WARNING root fetch - processPackages [xxradd]: Skipping, unable to determine old version
+[2023-07-21 10:46:31] INFO root fetch - processPackages [xxradd]: Start processing: model-lib
+[2023-07-21 10:46:31] INFO root fetch - main [MainThread]: End processing [xxradd] error
+[2023-07-21 10:46:31] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:46:31] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:46:31] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/3d/3d/91f33fd0aa7e304a5f0d37b0e70f02514ce3e8b52d8032aaa92696a95d37/tff_nightly-0.0.1.dev20230719-py2.py3-none-any.whl
+[2023-07-21 10:46:31] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-21 10:46:31] INFO root fetch - processPackages [unityparser]: Downloading https://files.pythonhosted.org/packages/46/91/98cb21734509e96effa0df835aa683ca1ecfeed544ad444f5ca18bb89585/unityparser-2.2.2.tar.gz
+[2023-07-21 10:46:31] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/44/8a/92ade515407a79977d982bb7c12de0151fd99edae718fae11960e97e17a2/nextnanopy-0.1.7.tar.gz
+[2023-07-21 10:46:31] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/9a/23/77079b49a70ef6a0c2fd25cdc66c9317e5d832dfd692c8dd3c2026db9e20/markdownparser-0.5.2.tar.gz
+[2023-07-21 10:46:31] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/37/81/439ae81ab9e80ad0846efb2b6932f2a5c92105cd271bce82cc8f81b21ffa/irc_api-1.0.2.tar.gz
+[2023-07-21 10:46:31] INFO root fetch - processPackages [directory-healthcheck]: Downloading https://files.pythonhosted.org/packages/86/c4/d374885b48e9f1b45e2294e528c2d8af4be07de083f0a1e95d2626bc237b/directory_healthcheck-3.1.1-py3-none-any.whl
+[2023-07-21 10:46:31] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/02/77/9b25da26d84e860f91f7869dd90591c0aec5e456c230be79db7208e01a37/zero_3rdparty-0.0.8-py3-none-any.whl
+[2023-07-21 10:46:31] INFO root fetch - processPackages [banana-cli]: Downloading https://files.pythonhosted.org/packages/00/ad/6ae2bf8ce8aa40285d265a13089f661843a71f624c0a8cc9f22ce3e354ac/banana_cli-0.0.8.tar.gz
+[2023-07-21 10:46:31] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/3a/37/f439fc46ad12d47c469a89b962f6930daa6f1af9319dce3ed5f398a5b0f2/model_lib-0.0.8-py3-none-any.whl
+[2023-07-21 10:46:31] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/c0/5f/71bf0f171272db2f53355f15ad36db7e25013cf3fef54666df717e0deeda/tff_nightly-0.0.1.dev20230720-py2.py3-none-any.whl
+[2023-07-21 10:46:31] INFO root fetch - processPackages [unityparser]: Downloading https://files.pythonhosted.org/packages/b9/22/52be88b4899f52eab26f111f2b0e26a60011bb2bce1b5f50b023553cb139/unityparser-3.0.0.tar.gz
+[2023-07-21 10:46:31] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-21 10:46:32] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/f1/f4/f4e6eb4f780d9e97ec37f7d210e803ea1ffb759db8633b7b557514f4c350/markdownparser-0.5.3.tar.gz
+[2023-07-21 10:46:32] INFO root fetch - processPackages [directory-healthcheck]: Downloading https://files.pythonhosted.org/packages/c4/54/6b42f7c4c0056c38775f68c7204b1de1c82f041249001e22d6685b5da0fa/directory_healthcheck-3.1.2-py3-none-any.whl
+[2023-07-21 10:46:32] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230719-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230720-py2.py3-none-any.whl.zip --markdown 20230721/t/tff-nightly/0.0.1.dev20230719-0.0.1.dev20230720/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/f1/1e/aa693ba4cd5bcab3f2ee63ce3843b0d619f1bf719bbaaddab0e5416cd138/irc_api-1.0.3.tar.gz
+[2023-07-21 10:46:32] INFO root fetch - processPackages [unityparser]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [unityparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unityparser-2.2.2.tar.gz tmp/unityparser-3.0.0.tar.gz --markdown 20230721/u/unityparser/2.2.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/7a/bd/6fd4c68a8b82b7bad3a13b40b7c4f5e1ef3f1052a041a9c488f6abe2eb97/nextnanopy-0.1.9.tar.gz
+[2023-07-21 10:46:32] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/ac/57/d5880eac743d0a1370807895ce1e784289fd0b2bd6cbcba1b3fb57043af3/zero_3rdparty-0.0.9-py3-none-any.whl
+[2023-07-21 10:46:32] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/0e/81/219c8c28610fddb4410a4cb595f3323d27988d35dd0ab098737ad0d8b598/model_lib-0.0.9-py3-none-any.whl
+[2023-07-21 10:46:32] INFO root fetch - processPackages [banana-cli]: Downloading https://files.pythonhosted.org/packages/61/59/7d25272c764e7a553e5b66faa1e244d945e96fc1ed40b69f048ebb5fa80c/banana_cli-0.0.9.tar.gz
+[2023-07-21 10:46:32] INFO root fetch - processPackages [directory-healthcheck]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [directory-healthcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_healthcheck-3.1.1-py3-none-any.whl.zip tmp/directory_healthcheck-3.1.2-py3-none-any.whl.zip --markdown 20230721/d/directory-healthcheck/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.5.2.tar.gz tmp/markdownparser-0.5.3.tar.gz --markdown 20230721/m/markdownparser/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-1.0.2.tar.gz tmp/irc_api-1.0.3.tar.gz --markdown 20230721/i/irc-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [banana-cli]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [banana-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banana_cli-0.0.8.tar.gz tmp/banana_cli-0.0.9.tar.gz --markdown 20230721/b/banana-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230721/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230721/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230721/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:46:32] INFO root fetch - processPackages [nextnanopy]: executing diffoscope
+[2023-07-21 10:46:32] INFO root fetch - processPackages [nextnanopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextnanopy-0.1.7.tar.gz tmp/nextnanopy-0.1.9.tar.gz --markdown 20230721/n/nextnanopy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 10:46:33] INFO root fetch - processPackages [directory-healthcheck]: Remove: archive file [/home/abi/fetcher/tmp/directory_healthcheck-3.1.1-py3-none-any.whl.zip]
+[2023-07-21 10:46:33] INFO root fetch - processPackages [directory-healthcheck]: Remove: archive file [/home/abi/fetcher/tmp/directory_healthcheck-3.1.2-py3-none-any.whl.zip]
+[2023-07-21 10:46:33] INFO root fetch - processPackages [directory-healthcheck]: Start processing: d3rlpy
+[2023-07-21 10:46:33] INFO root fetch - main [MainThread]: End processing [directory-healthcheck]: success
+[2023-07-21 10:46:33] INFO root fetch - processPackages [unityparser]: Remove: archive file [/home/abi/fetcher/tmp/unityparser-2.2.2.tar.gz]
+[2023-07-21 10:46:33] INFO root fetch - processPackages [unityparser]: Remove: archive file [/home/abi/fetcher/tmp/unityparser-3.0.0.tar.gz]
+[2023-07-21 10:46:33] INFO root fetch - processPackages [unityparser]: Start processing: docker-compose-parser
+[2023-07-21 10:46:33] INFO root fetch - main [MainThread]: End processing [unityparser]: success
+[2023-07-21 10:46:34] INFO root fetch - processPackages [d3rlpy]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.2.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.3.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [markdownparser]: Start processing: compose-chart-export
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-07-21 10:46:34] INFO root fetch - processPackages [docker-compose-parser]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.2.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.3.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [irc-api]: Start processing: basicallybars
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-21 10:46:34] INFO root fetch - processPackages [zero-3rdparty]: Remove: archive file [/home/abi/fetcher/tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [zero-3rdparty]: Remove: archive file [/home/abi/fetcher/tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip]
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-07-21 10:46:34] INFO root fetch - processPackages [model-lib]: Remove: archive file [/home/abi/fetcher/tmp/model_lib-0.0.8-py3-none-any.whl.zip]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [model-lib]: Remove: archive file [/home/abi/fetcher/tmp/model_lib-0.0.9-py3-none-any.whl.zip]
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-07-21 10:46:34] INFO root fetch - processPackages [banana-cli]: Remove: archive file [/home/abi/fetcher/tmp/banana_cli-0.0.8.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [banana-cli]: Remove: archive file [/home/abi/fetcher/tmp/banana_cli-0.0.9.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [banana-cli]: success
+[2023-07-21 10:46:34] INFO root fetch - processPackages [compose-chart-export]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/52/d2/a9b342f27ba8346c926c6fcc4a8e21e91d2df006a385988fc8aa9fa6ba13/d3rlpy-2.0.3.tar.gz
+[2023-07-21 10:46:34] WARNING root fetch - processPackages [basicallybars]: Skipping, unable to determine old version
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [basicallybars] error
+[2023-07-21 10:46:34] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/4f/3a/512673a90676946a7fb7a1664398750c05029b67d6500d2fde8c9972b088/docker_compose_parser-0.0.23-py3-none-any.whl
+[2023-07-21 10:46:34] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.7.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.9.tar.gz]
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [nextnanopy]: success
+[2023-07-21 10:46:34] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/33/e9/0ec63ddf16f47510ffb2bb7ceae818408b47ef4e9d56f7bc44b8ff3752fd/compose_chart_export-0.0.23-py3-none-any.whl
+[2023-07-21 10:46:34] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/5e/27/682da0274433464513c5ee4d84881e806110781f5a775dfd122d4d69c097/d3rlpy-2.0.4.tar.gz
+[2023-07-21 10:46:34] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/24/a2/644207ea37eb29bdb5d6e52eb17b21452dbac336d0f9b3c13b1cf7c972e9/docker_compose_parser-0.0.24-py3-none-any.whl
+[2023-07-21 10:46:34] INFO root fetch - processPackages [d3rlpy]: executing diffoscope
+[2023-07-21 10:46:34] INFO root fetch - processPackages [d3rlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3rlpy-2.0.3.tar.gz tmp/d3rlpy-2.0.4.tar.gz --markdown 20230721/d/d3rlpy/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-21 10:46:34] INFO root fetch - processPackages [docker-compose-parser]: executing diffoscope
+[2023-07-21 10:46:34] INFO root fetch - processPackages [docker-compose-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_compose_parser-0.0.23-py3-none-any.whl.zip tmp/docker_compose_parser-0.0.24-py3-none-any.whl.zip --markdown 20230721/d/docker-compose-parser/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-21 10:46:34] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/bd/ba/e5372e4008221fb063a05fa687dd61d9112e4f60491afe69e8aaded0da41/compose_chart_export-0.0.24-py3-none-any.whl
+[2023-07-21 10:46:34] INFO root fetch - processPackages [compose-chart-export]: executing diffoscope
+[2023-07-21 10:46:34] INFO root fetch - processPackages [compose-chart-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_chart_export-0.0.23-py3-none-any.whl.zip tmp/compose_chart_export-0.0.24-py3-none-any.whl.zip --markdown 20230721/c/compose-chart-export/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-21 10:46:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230719-py2.py3-none-any.whl.zip]
+[2023-07-21 10:46:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230720-py2.py3-none-any.whl.zip]
+[2023-07-21 10:46:34] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-21 10:46:35] INFO root fetch - processPackages [docker-compose-parser]: Remove: archive file [/home/abi/fetcher/tmp/docker_compose_parser-0.0.23-py3-none-any.whl.zip]
+[2023-07-21 10:46:35] INFO root fetch - processPackages [docker-compose-parser]: Remove: archive file [/home/abi/fetcher/tmp/docker_compose_parser-0.0.24-py3-none-any.whl.zip]
+[2023-07-21 10:46:35] INFO root fetch - main [MainThread]: End processing [docker-compose-parser]: success
+[2023-07-21 10:46:35] INFO root fetch - processPackages [compose-chart-export]: Remove: archive file [/home/abi/fetcher/tmp/compose_chart_export-0.0.23-py3-none-any.whl.zip]
+[2023-07-21 10:46:35] INFO root fetch - processPackages [compose-chart-export]: Remove: archive file [/home/abi/fetcher/tmp/compose_chart_export-0.0.24-py3-none-any.whl.zip]
+[2023-07-21 10:46:35] INFO root fetch - main [MainThread]: End processing [compose-chart-export]: success
+[2023-07-21 10:46:36] INFO root fetch - processPackages [d3rlpy]: Remove: archive file [/home/abi/fetcher/tmp/d3rlpy-2.0.3.tar.gz]
+[2023-07-21 10:46:36] INFO root fetch - processPackages [d3rlpy]: Remove: archive file [/home/abi/fetcher/tmp/d3rlpy-2.0.4.tar.gz]
+[2023-07-21 10:46:36] INFO root fetch - main [MainThread]: End processing [d3rlpy]: success
+[2023-07-21 10:46:38] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-21 10:46:38] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-21 10:46:38] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-21 10:46:38] INFO root fetch - main [MainThread]: Store serial: [18980460]
