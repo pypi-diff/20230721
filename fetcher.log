@@ -17952,3 +17952,197 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 10:51:53] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2023-07-21 10:51:53] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-07-21 10:51:53] INFO root fetch - main [MainThread]: Store serial: [18980510]
+[2023-07-21 10:56:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980510]
+[2023-07-21 10:57:03] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antigranular
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configuraptor
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyaubo-sdk
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imesh
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatllm
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-notifications-sdk-preview
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: automation-editor-dev
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aify
+[2023-07-21 10:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seed-intersphinx-mapping
+[2023-07-21 10:57:03] INFO root fetch - processPackages [antigranular]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [pyaubo-sdk]: New version: [0.21.0] Old Version: [0.19.6]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [seed-intersphinx-mapping]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.791] Old Version: [0.1.786]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-21 10:57:03] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230721] Old Version: [2.14.0.dev20230720]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2023-07-21 10:57:03] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-21 10:57:03] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/03/bc/015b04f02ed57659f055ed918f2ec4d653efb40a5b811a97ed0ee341f5c7/antigranular-0.2.4.tar.gz
+[2023-07-21 10:57:03] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-21 10:57:03] INFO root fetch - processPackages [chatllm]: Start processing: kiri-walkgame
+[2023-07-21 10:57:03] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-21 10:57:03] INFO root fetch - processPackages [seed-intersphinx-mapping]: Downloading https://files.pythonhosted.org/packages/78/71/020eda2813762819060181a357d8564f227289283a337f828bdc76287b55/seed_intersphinx_mapping-1.2.1.tar.gz
+[2023-07-21 10:57:03] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-21 10:57:03] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/f4/0d/d1605f36f45579f733a1b2c89a1fa81330cc5dc512e04f426fb97b9a3e36/pyaubo_sdk-0.19.6-cp39-cp39-win_amd64.whl
+[2023-07-21 10:57:03] INFO root fetch - processPackages [kiri-walkgame]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-21 10:57:03] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/7e/9c/4f6682659c6888be8fbd41c25e656d0330d86bc2c258f06b2d7fd5b01a3a/lusid-notifications-sdk-preview-0.1.786.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/00/7f/952117cc044c6a56f24b3e31b54d2ae7b3f3f94e1ea65aa39fad146ee263/automation_editor_dev-0.0.8.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/96/e6/f21081ed96dc876fc322c95f887015696efbab74b5a4cee1acc11dd96d0c/tf_nightly-2.14.0.dev20230720-cp39-cp39-win_amd64.whl
+[2023-07-21 10:57:04] INFO root fetch - processPackages [kiri-walkgame]: Downloading https://files.pythonhosted.org/packages/70/17/2ca2316c0f99581d754d3df85eb7174d6bde95d21786384b4da51e55fc94/kiri_walkgame-1.0.0.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/74/22/cd8fb1000670ac68eebe459261ce0fd1fff87b2b20d3b03135bbfca5e618/antigranular-0.2.5.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [seed-intersphinx-mapping]: Downloading https://files.pythonhosted.org/packages/79/58/5be24d0f4df6f517953d56b70f5e8da5db44875c2c548a37e121308ab9c8/seed_intersphinx_mapping-1.2.2.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-21 10:57:04] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/19/f9/df4bcf72ce3a5a09d7a25b16123a97f149f16dc56e7d7699fa2661e30a69/lusid-notifications-sdk-preview-0.1.791.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/04/03/5734b517508aad0cce8f0ff6eabb334af843f3ab4cec44e365e8433f42ee/pyaubo_sdk-0.21.0-cp39-cp39-win_amd64.whl
+[2023-07-21 10:57:04] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/57/6d/bc55dc9d01bfbd13984f063341cbf7efd554519b4916428cbb6b0416804e/tf_nightly-2.14.0.dev20230721-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 10:57:04] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20230721/c/configuraptor/1.8.0-1.9.2/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] INFO root fetch - processPackages [antigranular]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [antigranular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigranular-0.2.4.tar.gz tmp/antigranular-0.2.5.tar.gz --markdown 20230721/a/antigranular/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] INFO root fetch - processPackages [seed-intersphinx-mapping]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [seed-intersphinx-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seed_intersphinx_mapping-1.2.1.tar.gz tmp/seed_intersphinx_mapping-1.2.2.tar.gz --markdown 20230721/s/seed-intersphinx-mapping/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/91/ba/1f264deec49ee97cd331cb158d59988eae18cefcf4570f77eb3b20daa2d7/automation_editor_dev-0.0.9.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.786.tar.gz tmp/lusid-notifications-sdk-preview-0.1.791.tar.gz --markdown 20230721/l/lusid-notifications-sdk-preview/0.1.786-0.1.791/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230721/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] INFO root fetch - processPackages [kiri-walkgame]: Downloading https://files.pythonhosted.org/packages/ab/15/d7f7ade015360fecf2762c074dcc6e5fe887a689a3e7a18bb934289d4dec/kiri_walkgame-1.1.0.tar.gz
+[2023-07-21 10:57:04] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.8.tar.gz tmp/automation_editor_dev-0.0.9.tar.gz --markdown 20230721/a/automation-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230721/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 486290620>=10485760
+[2023-07-21 10:57:04] INFO root fetch - processPackages [tf-nightly]: Start processing: aorta-sirius-dev
+[2023-07-21 10:57:04] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-21 10:57:04] INFO root fetch - processPackages [pyaubo-sdk]: executing diffoscope
+[2023-07-21 10:57:04] INFO root fetch - processPackages [pyaubo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaubo_sdk-0.19.6-cp39-cp39-win_amd64.whl.zip tmp/pyaubo_sdk-0.21.0-cp39-cp39-win_amd64.whl.zip --markdown 20230721/p/pyaubo-sdk/0.19.6-0.21.0/diff.md --exclude *.pyd
+[2023-07-21 10:57:04] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 10:57:05] INFO root fetch - processPackages [kiri-walkgame]: executing diffoscope
+[2023-07-21 10:57:05] INFO root fetch - processPackages [kiri-walkgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiri_walkgame-1.0.0.tar.gz tmp/kiri_walkgame-1.1.0.tar.gz --markdown 20230721/k/kiri-walkgame/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 10:57:05] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-21 10:57:05] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-21 10:57:05] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-21 10:57:05] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230721/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 10:57:06] INFO root fetch - processPackages [seed-intersphinx-mapping]: Remove: archive file [/home/abi/fetcher/tmp/seed_intersphinx_mapping-1.2.1.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [seed-intersphinx-mapping]: Remove: archive file [/home/abi/fetcher/tmp/seed_intersphinx_mapping-1.2.2.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [seed-intersphinx-mapping]: Start processing: LBLDataAccess
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [seed-intersphinx-mapping]: success
+[2023-07-21 10:57:06] WARNING root fetch - processPackages [LBLDataAccess]: Skipping, unable to determine old version
+[2023-07-21 10:57:06] INFO root fetch - processPackages [LBLDataAccess]: Start processing: automation-editor
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [LBLDataAccess] error
+[2023-07-21 10:57:06] INFO root fetch - processPackages [automation-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.19.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.21.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [pyaubo-sdk]: Start processing: ffmpeg-media-type
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [pyaubo-sdk]: success
+[2023-07-21 10:57:06] INFO root fetch - processPackages [ffmpeg-media-type]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.2.4.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.2.5.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [antigranular]: Start processing: autosubmitconfigparser
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [antigranular]: success
+[2023-07-21 10:57:06] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-07-21 10:57:06] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.8.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.9.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [automation-editor-dev]: Start processing: mimosa
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-07-21 10:57:06] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.42] Old Version: [1.0.40]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/f1/52/84aac13a6cec0c3d497c5ab2206be41cc0fc6ad80b07b18609ddad58853d/ffmpeg_media_type-0.0.5.tar.gz
+[2023-07-21 10:57:06] INFO root fetch - processPackages [mimosa]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [aify]: Start processing: easypcd
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-21 10:57:06] INFO root fetch - processPackages [mimosa]: Downloading https://files.pythonhosted.org/packages/be/22/06b2c8196b08baf17e3d4fb50acfc523728f334d69d4f5be0724a40f11fe/mimosa-0.1.0.tar.gz
+[2023-07-21 10:57:06] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: get-chrome-driver
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-21 10:57:06] WARNING root fetch - processPackages [easypcd]: Skipping, unable to determine old version
+[2023-07-21 10:57:06] INFO root fetch - processPackages [easypcd]: Start processing: sqlx-exec
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [easypcd] error
+[2023-07-21 10:57:06] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/7b/bd/3c4c026647de193f2af5595cbc2d73821483d88dc4aa55061c5ce7a31275/autosubmitconfigparser-1.0.40.tar.gz
+[2023-07-21 10:57:06] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.786.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.791.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Start processing: MeUtils
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-21 10:57:06] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/50/4c/caa76f5eb438558d75b65bbcb114724ff8359c2db4245dd07c86a05485a5/automation_editor-0.0.9.tar.gz
+[2023-07-21 10:57:06] INFO root fetch - processPackages [kiri-walkgame]: Remove: archive file [/home/abi/fetcher/tmp/kiri_walkgame-1.0.0.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [kiri-walkgame]: Remove: archive file [/home/abi/fetcher/tmp/kiri_walkgame-1.1.0.tar.gz]
+[2023-07-21 10:57:06] INFO root fetch - processPackages [kiri-walkgame]: Start processing: attr-utils
+[2023-07-21 10:57:06] INFO root fetch - main [MainThread]: End processing [kiri-walkgame]: success
+[2023-07-21 10:57:06] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/92/bf/0512e0877e0a9988dfe08f1b9c11b79db47fdafc77e747330e411ca36bb2/ffmpeg_media_type-0.0.6.tar.gz
+[2023-07-21 10:57:06] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-21 10:57:07] WARNING root fetch - processPackages [sqlx-exec]: Skipping, unable to determine old version
+[2023-07-21 10:57:07] INFO root fetch - processPackages [sqlx-exec]: Start processing: autosubmit
+[2023-07-21 10:57:07] INFO root fetch - main [MainThread]: End processing [sqlx-exec] error
+[2023-07-21 10:57:07] INFO root fetch - processPackages [get-chrome-driver]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-21 10:57:07] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2023-07-21 10:57:07] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2023-07-21 10:57:07] INFO root fetch - processPackages [configuraptor]: Start processing: drf-misc
+[2023-07-21 10:57:07] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-07-21 10:57:07] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-21 10:57:07] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-21 10:57:07] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-21 10:57:07] INFO root fetch - processPackages [drf-misc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-21 10:57:07] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-07-21 10:57:07] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.8.tar.gz tmp/automation_editor-0.0.9.tar.gz --markdown 20230721/a/automation-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:57:07] INFO root fetch - processPackages [ffmpeg-media-type]: executing diffoscope
+[2023-07-21 10:57:07] INFO root fetch - processPackages [ffmpeg-media-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_media_type-0.0.5.tar.gz tmp/ffmpeg_media_type-0.0.6.tar.gz --markdown 20230721/f/ffmpeg-media-type/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-21 10:57:07] INFO root fetch - processPackages [attr-utils]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-21 10:57:07] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/de/f1/d797552925c87473c298187c35b14d8f856ad8da42e38da1b86b9546cd19/drf_misc-0.1.7.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [autosubmit]: New version: [4.0.84] Old Version: [4.0.82]
+[2023-07-21 10:57:07] INFO root fetch - processPackages [mimosa]: Downloading https://files.pythonhosted.org/packages/e8/df/9907adbf1cee4048c04e3a01d35d2def6644e9bf26267baff100cf95a015/mimosa-0.1.1.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/d3/4b/8454f2e6479b4494155a2fa75dbf37a4ed834271526a16e2be238065cede/get-chrome-driver-1.3.8.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/c2/a7/11afe70a563495ac5bcbc85b6d0674746eef4a888c527458de7fcb025dbb/autosubmitconfigparser-1.0.42.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [mimosa]: executing diffoscope
+[2023-07-21 10:57:07] INFO root fetch - processPackages [mimosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimosa-0.1.0.tar.gz tmp/mimosa-0.1.1.tar.gz --markdown 20230721/m/mimosa/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 10:57:07] INFO root fetch - processPackages [attr-utils]: Downloading https://files.pythonhosted.org/packages/6b/29/2ead62728af1f9c91fa7cab1937649a7e9428dab5596590eaf2f664e476c/attr_utils-0.7.0.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-07-21 10:57:07] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.40.tar.gz tmp/autosubmitconfigparser-1.0.42.tar.gz --markdown 20230721/a/autosubmitconfigparser/1.0.40-1.0.42/diff.md --exclude *.pyd
+[2023-07-21 10:57:07] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/b3/33/33ec33c3595df59a6342d6a50b930f2361611bd898f5159887d420f445e8/autosubmit-4.0.82.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/34/cf/f7d1dec9c33a54d175768c74bee52eff5d4be87278476d97ffdac3c4f1ba/drf_misc-0.1.8.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-21 10:57:07] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.1.7.tar.gz tmp/drf_misc-0.1.8.tar.gz --markdown 20230721/d/drf-misc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-21 10:57:07] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/f5/1f/401d689edcf0210796e6f03e2acfdf7b5fd9b97bd07b854116303d9c34a2/get-chrome-driver-1.3.9.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [attr-utils]: Downloading https://files.pythonhosted.org/packages/91/85/790dc5383008b244ef74405f13ae0d2b98a51de0e9e5fe4e5fb820f7b705/attr_utils-0.8.0.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-21 10:57:07] INFO root fetch - processPackages [attr-utils]: executing diffoscope
+[2023-07-21 10:57:07] INFO root fetch - processPackages [attr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attr_utils-0.7.0.tar.gz tmp/attr_utils-0.8.0.tar.gz --markdown 20230721/a/attr-utils/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-21 10:57:08] INFO root fetch - processPackages [get-chrome-driver]: executing diffoscope
+[2023-07-21 10:57:08] INFO root fetch - processPackages [get-chrome-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-chrome-driver-1.3.8.tar.gz tmp/get-chrome-driver-1.3.9.tar.gz --markdown 20230721/g/get-chrome-driver/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-21 10:57:08] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/f1/6b/278cdd54adc371fa63b9627c7087dda29c22b374a143ff3e654157beb0fc/autosubmit-4.0.84.tar.gz
+[2023-07-21 10:57:08] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.5.tar.gz]
+[2023-07-21 10:57:08] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.8.tar.gz]
+[2023-07-21 10:57:08] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.6.tar.gz]
+[2023-07-21 10:57:08] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.9.tar.gz]
+[2023-07-21 10:57:08] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
+[2023-07-21 10:57:08] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-07-21 10:57:08] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-21 10:57:08] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230721/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-21 10:57:08] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.40.tar.gz]
+[2023-07-21 10:57:08] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.42.tar.gz]
+[2023-07-21 10:57:08] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-07-21 10:57:08] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.7.tar.gz]
+[2023-07-21 10:57:08] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.8.tar.gz]
+[2023-07-21 10:57:09] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-21 10:57:09] INFO root fetch - processPackages [attr-utils]: Remove: archive file [/home/abi/fetcher/tmp/attr_utils-0.7.0.tar.gz]
+[2023-07-21 10:57:09] INFO root fetch - processPackages [attr-utils]: Remove: archive file [/home/abi/fetcher/tmp/attr_utils-0.8.0.tar.gz]
+[2023-07-21 10:57:09] INFO root fetch - main [MainThread]: End processing [attr-utils]: success
+[2023-07-21 10:57:09] INFO root fetch - processPackages [mimosa]: Remove: archive file [/home/abi/fetcher/tmp/mimosa-0.1.0.tar.gz]
+[2023-07-21 10:57:09] INFO root fetch - processPackages [mimosa]: Remove: archive file [/home/abi/fetcher/tmp/mimosa-0.1.1.tar.gz]
+[2023-07-21 10:57:09] INFO root fetch - main [MainThread]: End processing [mimosa]: success
+[2023-07-21 10:57:09] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.8.tar.gz]
+[2023-07-21 10:57:09] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.9.tar.gz]
+[2023-07-21 10:57:09] INFO root fetch - main [MainThread]: End processing [get-chrome-driver]: success
+[2023-07-21 10:57:09] INFO root fetch - processPackages [autosubmit]: executing diffoscope
+[2023-07-21 10:57:09] INFO root fetch - processPackages [autosubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmit-4.0.82.tar.gz tmp/autosubmit-4.0.84.tar.gz --markdown 20230721/a/autosubmit/4.0.82-4.0.84/diff.md --exclude *.pyd
+[2023-07-21 10:57:11] INFO root fetch - processPackages [autosubmit]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit-4.0.82.tar.gz]
+[2023-07-21 10:57:11] INFO root fetch - processPackages [autosubmit]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit-4.0.84.tar.gz]
+[2023-07-21 10:57:11] INFO root fetch - main [MainThread]: End processing [autosubmit]: success
+[2023-07-21 10:57:11] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-21 10:57:11] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-21 10:57:11] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-21 10:57:11] INFO root fetch - main [MainThread]: Store serial: [18980590]
