@@ -19080,3 +19080,111 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:35:34] INFO root fetch - processPackages [pyqtorch]: Remove: archive file [/home/abi/fetcher/tmp/pyqtorch-0.4.0.tar.gz]
 [2023-07-21 11:35:34] INFO root fetch - main [MainThread]: End processing [pyqtorch]: success
 [2023-07-21 11:35:34] INFO root fetch - main [MainThread]: Store serial: [18980940]
+[2023-07-21 11:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980940]
+[2023-07-21 11:40:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preprocessing-pgp
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyright
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cylc-flow
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nodered.py
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airflow-provider-sifflet
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: motti
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swiftly-windows
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythoncoin
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buscador
+[2023-07-21 11:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework-mainframe3270
+[2023-07-21 11:40:43] INFO root fetch - processPackages [cylc-flow]: New version: [8.2.0] Old Version: [8.1.4]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [motti]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [nodered.py]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [buscador]: New version: [0.8] Old Version: [0.7]
+[2023-07-21 11:40:43] WARNING root fetch - processPackages [pythoncoin]: Skipping, unable to determine old version
+[2023-07-21 11:40:43] INFO root fetch - processPackages [pythoncoin]: Start processing: mwj-apitest
+[2023-07-21 11:40:43] INFO root fetch - main [MainThread]: End processing [pythoncoin] error
+[2023-07-21 11:40:43] INFO root fetch - processPackages [swiftly-windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [pyright]: New version: [1.1.318] Old Version: [1.1.317]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [robotframework-mainframe3270]: New version: [4.0] Old Version: [3.2]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [airflow-provider-sifflet]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [mwj-apitest]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-07-21 11:40:43] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/4a/b3/37c75114c37c8e2a3dea97bceeafe8d68f4616ec26d552fc792b9c315b3c/motti-0.0.8.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/57/45/7c6fb9af93cbd339991b657f3702add105b4ca04495fb040d21a49d43332/cylc-flow-8.1.4.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/94/a7/1948205bc46ec55c456e94951863a6bc17d2b09163e2217da4e9038472eb/buscador-0.7.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/83/98/a539037132ead62a6ec44d97765912f5394460bee16d81a54c648122903f/pyright-1.1.317.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [airflow-provider-sifflet]: Downloading https://files.pythonhosted.org/packages/b6/49/1dbb82d533f718482d498e1bca6748e3925650231803d2716a160b42ff46/airflow-provider-sifflet-1.0.1.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/d4/c6/230249440946e70897de60abee9700d437043484f3d6f89cf7b1763bd695/nodered.py-0.2.7.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/01/d7/b8ea4dd18bb689f0def3526463ab937dd5b5c2d3f2a7652f0238e8cc0c4e/mwj-apitest-1.0.1.tar.gz
+[2023-07-21 11:40:43] INFO root fetch - processPackages [robotframework-mainframe3270]: Downloading https://files.pythonhosted.org/packages/cb/26/8a6a522256e19e9e81f922957b4f1cda2d10091a8aa63046cdda3417c903/robotframework-mainframe3270-3.2.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/00/36/c3403cb65dd6d7e83783565cd9feaae8c3f1d8b6366810cfd38cc822d828/motti-0.0.9.tar.gz
+[2023-07-21 11:40:44] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-21 11:40:44] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: pyspectroworks
+[2023-07-21 11:40:44] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-21 11:40:44] INFO root fetch - processPackages [swiftly-windows]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [swiftly-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-windows-0.0.8.tar.gz tmp/swiftly-windows-0.0.9.tar.gz --markdown 20230721/s/swiftly-windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyspectroworks]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 11:40:44] INFO root fetch - processPackages [motti]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [motti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motti-0.0.8.tar.gz tmp/motti-0.0.9.tar.gz --markdown 20230721/m/motti/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/60/9e/7afb05d47b6f9312c44273343faac00022a5e481f731d32fbbbb252080fe/buscador-0.8.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/7c/ce/58f6e45a1c8d5a09b755dec1dfc5aaf6b0dd3102218c5e67b00182fea899/pyright-1.1.318.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [airflow-provider-sifflet]: Downloading https://files.pythonhosted.org/packages/9c/8d/14153b54b391004eba4a4857921f22dcc8bcede2c9793c87a0b50fd6de9e/airflow-provider-sifflet-1.0.2.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/e7/a1/ddbdea0f8a1ba9f3d29b9af88945e22ba2bebd26e867ba88313799bee12f/mwj-apitest-1.1.1.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/95/01/67eb16e30f083454b82b354fc17fc91e2b75e7de0dcca9d552ba989c81ad/cylc-flow-8.2.0.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/04/a3/ffea14da329d11fd09887cfa7838b2d4ff9e71f9c46870b0cb3bf53a4acc/nodered.py-0.2.8.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.317.tar.gz tmp/pyright-1.1.318.tar.gz --markdown 20230721/p/pyright/1.1.317-1.1.318/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.7.tar.gz tmp/buscador-0.8.tar.gz --markdown 20230721/b/buscador/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [airflow-provider-sifflet]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [airflow-provider-sifflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-sifflet-1.0.1.tar.gz tmp/airflow-provider-sifflet-1.0.2.tar.gz --markdown 20230721/a/airflow-provider-sifflet/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyspectroworks]: Downloading https://files.pythonhosted.org/packages/57/b1/72dacfe597d97a3fe5bc2b0c6ae35aa6938bc6cda4820022772a2fd8d905/pyspectroworks-1.0.0.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [robotframework-mainframe3270]: Downloading https://files.pythonhosted.org/packages/53/01/1616601ece7e0fb8f61fe12adff26ea7d3994f7973579c811d370c40d40f/robotframework-mainframe3270-4.0.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.0.1.tar.gz tmp/mwj-apitest-1.1.1.tar.gz --markdown 20230721/m/mwj-apitest/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [cylc-flow]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [cylc-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylc-flow-8.1.4.tar.gz tmp/cylc-flow-8.2.0.tar.gz --markdown 20230721/c/cylc-flow/8.1.4-8.2.0/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [nodered.py]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [nodered.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodered.py-0.2.7.tar.gz tmp/nodered.py-0.2.8.tar.gz --markdown 20230721/n/nodered.py/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [robotframework-mainframe3270]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [robotframework-mainframe3270]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-mainframe3270-3.2.tar.gz tmp/robotframework-mainframe3270-4.0.tar.gz --markdown 20230721/r/robotframework-mainframe3270/3.2-4.0/diff.md --exclude *.pyd
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyspectroworks]: Downloading https://files.pythonhosted.org/packages/9e/ad/0692d305e921a952f9495987cba944ff4f41e9c787668c774cc299ae682d/pyspectroworks-1.0.1.tar.gz
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyspectroworks]: executing diffoscope
+[2023-07-21 11:40:44] INFO root fetch - processPackages [pyspectroworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspectroworks-1.0.0.tar.gz tmp/pyspectroworks-1.0.1.tar.gz --markdown 20230721/p/pyspectroworks/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 11:40:45] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.8.tar.gz]
+[2023-07-21 11:40:45] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.9.tar.gz]
+[2023-07-21 11:40:45] INFO root fetch - processPackages [swiftly-windows]: Start processing: kcli
+[2023-07-21 11:40:45] INFO root fetch - main [MainThread]: End processing [swiftly-windows]: success
+[2023-07-21 11:40:45] INFO root fetch - processPackages [kcli]: New version: [99.0.202307202340] Old Version: [99.0.202307202314]
+[2023-07-21 11:40:45] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.8.tar.gz]
+[2023-07-21 11:40:45] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.9.tar.gz]
+[2023-07-21 11:40:45] INFO root fetch - main [MainThread]: End processing [motti]: success
+[2023-07-21 11:40:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/62/28/2af1b515a38c1841a0acbd24d6b75f8ac093b6cd42f7b3b7d826f01cec98/kcli-99.0.202307202314-py3-none-any.whl
+[2023-07-21 11:40:45] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.7.tar.gz]
+[2023-07-21 11:40:45] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.8.tar.gz]
+[2023-07-21 11:40:45] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-21 11:40:46] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.0.1.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/80/f7/991fa8ac772341081ecddd72fd13c5451a374428200f8660ea30ae55c004/kcli-99.0.202307202340-py3-none-any.whl
+[2023-07-21 11:40:46] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.1.1.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-21 11:40:46] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.317.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.318.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2023-07-21 11:40:46] INFO root fetch - processPackages [airflow-provider-sifflet]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-sifflet-1.0.1.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - processPackages [airflow-provider-sifflet]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-sifflet-1.0.2.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - main [MainThread]: End processing [airflow-provider-sifflet]: success
+[2023-07-21 11:40:46] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 11:40:46] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307202314-py3-none-any.whl.zip tmp/kcli-99.0.202307202340-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307202314-99.0.202307202340/diff.md --exclude *.pyd
+[2023-07-21 11:40:46] INFO root fetch - processPackages [robotframework-mainframe3270]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-mainframe3270-3.2.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - processPackages [robotframework-mainframe3270]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-mainframe3270-4.0.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - main [MainThread]: End processing [robotframework-mainframe3270]: success
+[2023-07-21 11:40:46] INFO root fetch - processPackages [pyspectroworks]: Remove: archive file [/home/abi/fetcher/tmp/pyspectroworks-1.0.0.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - processPackages [pyspectroworks]: Remove: archive file [/home/abi/fetcher/tmp/pyspectroworks-1.0.1.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - main [MainThread]: End processing [pyspectroworks]: success
+[2023-07-21 11:40:46] INFO root fetch - processPackages [nodered.py]: Remove: archive file [/home/abi/fetcher/tmp/nodered.py-0.2.7.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - processPackages [nodered.py]: Remove: archive file [/home/abi/fetcher/tmp/nodered.py-0.2.8.tar.gz]
+[2023-07-21 11:40:46] INFO root fetch - main [MainThread]: End processing [nodered.py]: success
+[2023-07-21 11:40:47] INFO root fetch - processPackages [cylc-flow]: Remove: archive file [/home/abi/fetcher/tmp/cylc-flow-8.1.4.tar.gz]
+[2023-07-21 11:40:47] INFO root fetch - processPackages [cylc-flow]: Remove: archive file [/home/abi/fetcher/tmp/cylc-flow-8.2.0.tar.gz]
+[2023-07-21 11:40:47] INFO root fetch - main [MainThread]: End processing [cylc-flow]: success
+[2023-07-21 11:40:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202314-py3-none-any.whl.zip]
+[2023-07-21 11:40:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307202340-py3-none-any.whl.zip]
+[2023-07-21 11:40:49] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 11:40:49] INFO root fetch - main [MainThread]: Store serial: [18980984]
