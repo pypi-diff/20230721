@@ -16227,3 +16227,42 @@
 [2023-07-21 09:21:12] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689918291.tar.gz]
 [2023-07-21 09:21:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-07-21 09:21:12] INFO root fetch - main [MainThread]: Store serial: [18979731]
+[2023-07-21 09:26:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979731]
+[2023-07-21 09:26:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-21 09:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: losscape
+[2023-07-21 09:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnibenchmark
+[2023-07-21 09:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-cor-0ae-amp-json-utils
+[2023-07-21 09:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-repository-browser
+[2023-07-21 09:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elasticsearch-dsl-aq
+[2023-07-21 09:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: srv-rst-0ae-amp-test
+[2023-07-21 09:26:21] WARNING root fetch - processPackages [lib-cor-0ae-amp-json-utils]: Skipping, unable to determine old version
+[2023-07-21 09:26:21] INFO root fetch - main [MainThread]: End processing [lib-cor-0ae-amp-json-utils] error
+[2023-07-21 09:26:21] INFO root fetch - processPackages [simple-repository-browser]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-07-21 09:26:21] INFO root fetch - processPackages [losscape]: New version: [1.2] Old Version: [1.1]
+[2023-07-21 09:26:21] WARNING root fetch - processPackages [elasticsearch-dsl-aq]: Skipping, unable to determine old version
+[2023-07-21 09:26:21] INFO root fetch - main [MainThread]: End processing [elasticsearch-dsl-aq] error
+[2023-07-21 09:26:21] INFO root fetch - processPackages [omnibenchmark]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 09:26:21] WARNING root fetch - processPackages [srv-rst-0ae-amp-test]: Skipping, unable to determine old version
+[2023-07-21 09:26:21] INFO root fetch - main [MainThread]: End processing [srv-rst-0ae-amp-test] error
+[2023-07-21 09:26:21] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/cc/42/782c2019cd6cd46a6e734c7db78f7fd65a9604e8e0ee86de463db5aa760f/losscape-1.1.tar.gz
+[2023-07-21 09:26:21] INFO root fetch - processPackages [simple-repository-browser]: Downloading https://files.pythonhosted.org/packages/6e/ad/5f9d6bfb7ed77a8169656ceb5a06b425912c5a21826a8f772747b2a88bb1/simple_repository_browser-0.0.1-py3-none-any.whl
+[2023-07-21 09:26:21] INFO root fetch - processPackages [omnibenchmark]: Downloading https://files.pythonhosted.org/packages/04/a4/d578c8981a6f5ca2a83c36ab83237f36c0b7b32e13bccc515035c286e41c/omnibenchmark-0.0.8.tar.gz
+[2023-07-21 09:26:22] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/b3/42/17cb9e1e12aa04ba480e6e21160f9bc5de4411faaba823c2053023f50d63/losscape-1.2.tar.gz
+[2023-07-21 09:26:22] INFO root fetch - processPackages [simple-repository-browser]: Downloading https://files.pythonhosted.org/packages/a5/6b/0f4e747761233acd6df6711be93106f2d379864aa80eee8ec57480d7a944/simple_repository_browser-0.2.0-py3-none-any.whl
+[2023-07-21 09:26:22] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-21 09:26:22] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.1.tar.gz tmp/losscape-1.2.tar.gz --markdown 20230721/l/losscape/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-21 09:26:22] INFO root fetch - processPackages [omnibenchmark]: Downloading https://files.pythonhosted.org/packages/49/21/48ec825d1bcbc4a3f10b6909c0a0cfc6f14f632007bb755a3b38853a4c61/omnibenchmark-0.0.9.tar.gz
+[2023-07-21 09:26:22] INFO root fetch - processPackages [simple-repository-browser]: executing diffoscope
+[2023-07-21 09:26:22] INFO root fetch - processPackages [simple-repository-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_repository_browser-0.0.1-py3-none-any.whl.zip tmp/simple_repository_browser-0.2.0-py3-none-any.whl.zip --markdown 20230721/s/simple-repository-browser/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-21 09:26:22] INFO root fetch - processPackages [omnibenchmark]: executing diffoscope
+[2023-07-21 09:26:22] INFO root fetch - processPackages [omnibenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnibenchmark-0.0.8.tar.gz tmp/omnibenchmark-0.0.9.tar.gz --markdown 20230721/o/omnibenchmark/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 09:26:23] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.1.tar.gz]
+[2023-07-21 09:26:23] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.2.tar.gz]
+[2023-07-21 09:26:23] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-21 09:26:23] INFO root fetch - processPackages [omnibenchmark]: Remove: archive file [/home/abi/fetcher/tmp/omnibenchmark-0.0.8.tar.gz]
+[2023-07-21 09:26:23] INFO root fetch - processPackages [omnibenchmark]: Remove: archive file [/home/abi/fetcher/tmp/omnibenchmark-0.0.9.tar.gz]
+[2023-07-21 09:26:23] INFO root fetch - main [MainThread]: End processing [omnibenchmark]: success
+[2023-07-21 09:26:25] INFO root fetch - processPackages [simple-repository-browser]: Remove: archive file [/home/abi/fetcher/tmp/simple_repository_browser-0.0.1-py3-none-any.whl.zip]
+[2023-07-21 09:26:25] INFO root fetch - processPackages [simple-repository-browser]: Remove: archive file [/home/abi/fetcher/tmp/simple_repository_browser-0.2.0-py3-none-any.whl.zip]
+[2023-07-21 09:26:25] INFO root fetch - main [MainThread]: End processing [simple-repository-browser]: success
+[2023-07-21 09:26:25] INFO root fetch - main [MainThread]: Store serial: [18979753]
