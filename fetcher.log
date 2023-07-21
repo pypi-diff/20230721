@@ -14630,3 +14630,65 @@
 [2023-07-21 07:55:52] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.9.tar.gz]
 [2023-07-21 07:55:52] INFO root fetch - main [MainThread]: End processing [teapy]: success
 [2023-07-21 07:55:52] INFO root fetch - main [MainThread]: Store serial: [18979095]
+[2023-07-21 08:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979095]
+[2023-07-21 08:01:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-SQL-Pro
+[2023-07-21 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phanos
+[2023-07-21 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-chatter-position
+[2023-07-21 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-website-event-register-free
+[2023-07-21 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: middleware-apm
+[2023-07-21 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KorDigits
+[2023-07-21 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sn-test
+[2023-07-21 08:01:01] INFO root fetch - processPackages [odoo-addon-web-chatter-position]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-07-21 08:01:01] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-07-21 08:01:01] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 08:01:01] INFO root fetch - processPackages [sn-test]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-07-21 08:01:01] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [2.1] Old Version: [2.0]
+[2023-07-21 08:01:01] INFO root fetch - processPackages [KorDigits]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-21 08:01:01] INFO root fetch - processPackages [middleware-apm]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2023-07-21 08:01:01] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-21 08:01:01] INFO root fetch - processPackages [odoo-addon-web-chatter-position]: Downloading https://files.pythonhosted.org/packages/96/b7/0b5fea584365560684d55ce88fe44a948d35d1dfde10104d79af8b6b3b26/odoo_addon_web_chatter_position-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-21 08:01:01] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/e1/dd/99daa338515e3c7b9d9e873a1493d5382d22dbbb20b88f3dbd37310a0c6e/Flask-SQL-Pro-2.0.tar.gz
+[2023-07-21 08:01:01] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/73/bc/f3fc00605d48dff281ec8ed01f679c4afd909dc8ea609b67bd9710bd7c93/sn_test-0.1.0.tar.gz
+[2023-07-21 08:01:01] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/1e/52/c78f05ec8b9eb416a87a7b250a5f138a6e8f6e83425e2e804976ccf88aeb/middleware-apm-0.2.0rc2.tar.gz
+[2023-07-21 08:01:01] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Downloading https://files.pythonhosted.org/packages/61/0d/4ad93d5f8c18f249be43842cd890e29b4ef11a97a6c8dc341d3e965387a8/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-07-21 08:01:02] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/fd/94/c0592714c5966a3803266800b9fd37add9a96935a1641e69390596b888cc/KorDigits-1.0.5-py3-none-any.whl
+[2023-07-21 08:01:02] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-21 08:01:02] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61307790>=10485760
+[2023-07-21 08:01:02] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-07-21 08:01:02] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-21 08:01:02] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230721/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 08:01:02] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/4e/fb/228d17cda1dca80deff1b4b6f508df734caf32108e5f87dd85204d04a71b/Flask-SQL-Pro-2.1.tar.gz
+[2023-07-21 08:01:02] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/8d/51/ce335fb11c8fd59298b381a966fcc2241591ea5c11298656818c36a2bd47/sn_test-0.1.3.tar.gz
+[2023-07-21 08:01:02] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-21 08:01:02] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-2.0.tar.gz tmp/Flask-SQL-Pro-2.1.tar.gz --markdown 20230721/F/Flask-SQL-Pro/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-21 08:01:02] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/24/c1/40029b90979f7a29f0ab6b221ac6a8b1d27ddadbb44e5ecf979bbf775639/middleware-apm-0.2.0rc3.tar.gz
+[2023-07-21 08:01:02] INFO root fetch - processPackages [odoo-addon-web-chatter-position]: Downloading https://files.pythonhosted.org/packages/b8/49/e27f025e248f2f937d8e6287b19cf164d15837a689f152c0f43284372d66/odoo_addon_web_chatter_position-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-21 08:01:02] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-21 08:01:02] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-0.1.0.tar.gz tmp/sn_test-0.1.3.tar.gz --markdown 20230721/s/sn-test/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 08:01:02] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Downloading https://files.pythonhosted.org/packages/02/a7/9f2b9c0dd3dd0219d1cba073d6e0f481d5a9cf3f8e8c071238d4cbe0015a/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-07-21 08:01:02] INFO root fetch - processPackages [odoo-addon-web-chatter-position]: executing diffoscope
+[2023-07-21 08:01:02] INFO root fetch - processPackages [odoo-addon-web-chatter-position]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_chatter_position-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_web_chatter_position-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-web-chatter-position/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-21 08:01:02] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-21 08:01:02] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.2.0rc2.tar.gz tmp/middleware-apm-0.2.0rc3.tar.gz --markdown 20230721/m/middleware-apm/0.2.0rc2-0.2.0rc3/diff.md --exclude *.pyd
+[2023-07-21 08:01:02] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: executing diffoscope
+[2023-07-21 08:01:02] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230721/o/odoo8-addon-website-event-register-free/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-21 08:01:03] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-21 08:01:03] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-0.1.0.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-0.1.3.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-21 08:01:03] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-2.0.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-2.1.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-21 08:01:03] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.2.0rc2.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.2.0rc3.tar.gz]
+[2023-07-21 08:01:03] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-21 08:01:03] INFO root fetch - processPackages [odoo-addon-web-chatter-position]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_chatter_position-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-21 08:01:03] INFO root fetch - processPackages [odoo-addon-web-chatter-position]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_chatter_position-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-21 08:01:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-chatter-position]: success
+[2023-07-21 08:01:03] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-21 08:01:03] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-21 08:01:03] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-event-register-free]: success
+[2023-07-21 08:01:03] INFO root fetch - main [MainThread]: Store serial: [18979115]
