@@ -15823,3 +15823,228 @@
 [2023-07-21 09:10:26] INFO root fetch - processPackages [novel-dl]: Remove: archive file [/home/abi/fetcher/tmp/novel_dl-1.6.2.tar.gz]
 [2023-07-21 09:10:26] INFO root fetch - main [MainThread]: End processing [novel-dl]: success
 [2023-07-21 09:10:26] INFO root fetch - main [MainThread]: Store serial: [18979552]
+[2023-07-21 09:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979552]
+[2023-07-21 09:15:36] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elasticsearch-dsl-aq
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poutils
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: b2sdk
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idds-atlas
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idds-client
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idds-common
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idds-doma
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idds-server
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idds-monitor
+[2023-07-21 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idds-website
+[2023-07-21 09:15:36] INFO root fetch - processPackages [b2sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-atlas]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [poutils]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-doma]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] WARNING root fetch - processPackages [elasticsearch-dsl-aq]: Skipping, unable to determine old version
+[2023-07-21 09:15:36] INFO root fetch - processPackages [elasticsearch-dsl-aq]: Start processing: idds-workflow
+[2023-07-21 09:15:36] INFO root fetch - main [MainThread]: End processing [elasticsearch-dsl-aq] error
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-common]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-client]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-server]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-website]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-monitor]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-workflow]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/8a/b7/f0229c5166ad3a049237e300f1436727a169566884f5585fb6002f52a1f4/idds-client-1.3.2.tar.gz
+[2023-07-21 09:15:36] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/df/38/177db217be6b4a435015a859584f7f608fbf41a47be0bf52495cb13baacb/b2sdk-1.8.0.tar.gz
+[2023-07-21 09:15:36] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/3a/54/20166a9b37a76788ce866949aac411e0c4c24481570ab65563cb2ab59f15/idds-atlas-1.3.2.tar.gz
+[2023-07-21 09:15:36] INFO root fetch - processPackages [poutils]: Downloading https://files.pythonhosted.org/packages/6b/06/bc7087064b2b24f9caee330a06734420e4395fe02826e2317066e623b3dd/poutils-0.8.0.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/94/3d/18f4be82a3e40ae6e0ae1761eddb7005dd209fc0e4e38515ebd6af385e62/idds-website-1.3.2.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/58/5d/20f6d8c2ac18067c2645d362d016a1c2c6f52ebcb4a9223c1bf1c67ed79d/idds-common-1.3.2.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/dc/72/247da063297bcdc320bbbd2cbb785ff24e4ec03de055a00fab0efcc3cbf1/idds-doma-1.3.2.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/c6/ce/480fd612eff422daebed55ab65fb55ef6cf7b10396f844f7c6455b2154db/idds-monitor-1.3.2.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/73/a7/b5b7e3827da150fdbf006b74ef9a99a1bf1d0426454ded6d87ce7754345b/idds-workflow-1.3.2.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/23/0b/ea89e5ca058767cb88a0c4797b8863dfcf2303aed5212a28993a21797b4e/idds-server-1.3.2.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/7f/78/91a2febf5aa061248bd4354a0936362507c7dfeeb17515e8bbce67825544/idds-client-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [poutils]: Downloading https://files.pythonhosted.org/packages/7e/c9/f91546e5c9ad0f7661ef6fa72f05e357d972464ca493ef4bdfafb03b9b02/poutils-0.9.0.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.3.2.tar.gz tmp/idds-client-1.3.3.tar.gz --markdown 20230721/i/idds-client/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/06/f0/aec7b68040e2033844a1b546f95fa525649962e1c32ef5173cf235442264/b2sdk-1.9.0.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/58/f8/4922b074dafaccc4cddc3bbf49ec0fecf0cd82efefdd2a0a08f43283ede4/idds-doma-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/2d/1a/528d6e5995fa9c5e40d2460b253e3d6104a2799e77f968a2d10cff0ca48e/idds-website-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/36/8a/021bc06e2756625258e5d29dad9b6fa352c84de2bf08b3d241b899057b5f/idds-common-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/ba/f9/e91ec9521668a60b4cc18e20e630e01208321845ca726663b2ed77536adb/idds-workflow-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/76/66/0a700479e8c872cccf92783051615af04a4c16871e99f24f7269d5d3ab11/idds-atlas-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/36/00/24ae1ac948bc0d7a8f4573f28f08169213cb08bc3d62bf083a55b911b639/idds-server-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [poutils]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [poutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poutils-0.8.0.tar.gz tmp/poutils-0.9.0.tar.gz --markdown 20230721/p/poutils/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.3.2.tar.gz tmp/idds-common-1.3.3.tar.gz --markdown 20230721/i/idds-common/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.3.2.tar.gz tmp/idds-doma-1.3.3.tar.gz --markdown 20230721/i/idds-doma/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/69/9c/1061fda1b5b8d7d5f4e05f5b9b1e20e170e89f8a2b988e7cd5f48db1f773/idds-monitor-1.3.3.tar.gz
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.3.2.tar.gz tmp/idds-workflow-1.3.3.tar.gz --markdown 20230721/i/idds-workflow/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.3.2.tar.gz tmp/idds-atlas-1.3.3.tar.gz --markdown 20230721/i/idds-atlas/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.3.2.tar.gz tmp/idds-website-1.3.3.tar.gz --markdown 20230721/i/idds-website/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.3.2.tar.gz tmp/idds-server-1.3.3.tar.gz --markdown 20230721/i/idds-server/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:37] INFO root fetch - processPackages [b2sdk]: executing diffoscope
+[2023-07-21 09:15:37] INFO root fetch - processPackages [b2sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sdk-1.8.0.tar.gz tmp/b2sdk-1.9.0.tar.gz --markdown 20230721/b/b2sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-21 09:15:38] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-07-21 09:15:38] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.3.2.tar.gz tmp/idds-monitor-1.3.3.tar.gz --markdown 20230721/i/idds-monitor/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-21 09:15:38] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-1.3.2.tar.gz]
+[2023-07-21 09:15:38] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-1.3.3.tar.gz]
+[2023-07-21 09:15:38] INFO root fetch - processPackages [idds-client]: Start processing: warpzone-sdk
+[2023-07-21 09:15:38] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-07-21 09:15:38] INFO root fetch - processPackages [warpzone-sdk]: New version: [8.3.2] Old Version: [8.3.1]
+[2023-07-21 09:15:38] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/45/b2/7eb016c6444b1276860aa50e9111cc426da653f3da66f46c502b57b9cc29/warpzone_sdk-8.3.1.tar.gz
+[2023-07-21 09:15:39] INFO root fetch - processPackages [poutils]: Remove: archive file [/home/abi/fetcher/tmp/poutils-0.8.0.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [poutils]: Remove: archive file [/home/abi/fetcher/tmp/poutils-0.9.0.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [poutils]: Start processing: vocode-api
+[2023-07-21 09:15:39] INFO root fetch - main [MainThread]: End processing [poutils]: success
+[2023-07-21 09:15:39] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/22/f7/748ef74f373551c96c75adf18e1f18bd9544788183ca5744894466716395/warpzone_sdk-8.3.2.tar.gz
+[2023-07-21 09:15:39] INFO root fetch - processPackages [vocode-api]: New version: [0.0.5a4] Old Version: [0.0.5a3]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-07-21 09:15:39] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-8.3.1.tar.gz tmp/warpzone_sdk-8.3.2.tar.gz --markdown 20230721/w/warpzone-sdk/8.3.1-8.3.2/diff.md --exclude *.pyd
+[2023-07-21 09:15:39] INFO root fetch - processPackages [vocode-api]: Downloading https://files.pythonhosted.org/packages/5c/8b/81476b89a3a1c271f4784d0039693fca0d43340db7a24b3ccbb1df523a9d/vocode_api-0.0.5a3.tar.gz
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-1.3.2.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-1.3.3.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-doma]: Start processing: nomenklatura
+[2023-07-21 09:15:39] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-1.3.2.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-1.3.3.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-common]: Start processing: losscape
+[2023-07-21 09:15:39] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-07-21 09:15:39] INFO root fetch - processPackages [nomenklatura]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [losscape]: New version: [1.1] Old Version: [1.0]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-1.3.2.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-1.3.3.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-workflow]: Start processing: vision-counter
+[2023-07-21 09:15:39] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-07-21 09:15:39] WARNING root fetch - processPackages [vision-counter]: Skipping, unable to determine old version
+[2023-07-21 09:15:39] INFO root fetch - processPackages [vision-counter]: Start processing: snakemake
+[2023-07-21 09:15:39] INFO root fetch - main [MainThread]: End processing [vision-counter] error
+[2023-07-21 09:15:39] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/d4/93/7c3bdb269c00947871e1f55dd2e1b805c6e3754691c5b65f1d44b9021c10/nomenklatura-3.3.3.tar.gz
+[2023-07-21 09:15:39] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/9e/e3/af06585fb01e8a39283019f63aa1e898df1f45fb0d6ccacbefadd28d5e0a/losscape-1.0.tar.gz
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-1.3.2.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-1.3.3.tar.gz]
+[2023-07-21 09:15:39] INFO root fetch - processPackages [idds-atlas]: Start processing: seven-cloudapp-frame
+[2023-07-21 09:15:39] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-07-21 09:15:39] INFO root fetch - processPackages [vocode-api]: Downloading https://files.pythonhosted.org/packages/b7/40/477c5e07e26891887980c1e9f290a631c117c4ad2748fccce724c49ac74b/vocode_api-0.0.5a4.tar.gz
+[2023-07-21 09:15:39] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.91] Old Version: [1.0.90]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-07-21 09:15:40] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/db/d2/1807a27e022f01a3f9281c8ee7cfc5a33cf1d6d5db9d61f9693743c4003b/seven_cloudapp_frame-1.0.90.tar.gz
+[2023-07-21 09:15:40] INFO root fetch - processPackages [vocode-api]: executing diffoscope
+[2023-07-21 09:15:40] INFO root fetch - processPackages [vocode-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode_api-0.0.5a3.tar.gz tmp/vocode_api-0.0.5a4.tar.gz --markdown 20230721/v/vocode-api/0.0.5a3-0.0.5a4/diff.md --exclude *.pyd
+[2023-07-21 09:15:40] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/3e/88/827e017e61e7ff8a789fa426c1defb1640bf6443a230e7f505eb9a4a0659/nomenklatura-3.3.4.tar.gz
+[2023-07-21 09:15:40] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/cc/42/782c2019cd6cd46a6e734c7db78f7fd65a9604e8e0ee86de463db5aa760f/losscape-1.1.tar.gz
+[2023-07-21 09:15:40] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-07-21 09:15:40] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-3.3.3.tar.gz tmp/nomenklatura-3.3.4.tar.gz --markdown 20230721/n/nomenklatura/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-07-21 09:15:40] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-21 09:15:40] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.0.tar.gz tmp/losscape-1.1.tar.gz --markdown 20230721/l/losscape/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-21 09:15:40] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-1.3.2.tar.gz]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-1.3.3.tar.gz]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [idds-website]: Start processing: Flask-SQL-Pro
+[2023-07-21 09:15:40] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-07-21 09:15:40] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 09:15:40] INFO root fetch - processPackages [Flask-SQL-Pro]: Start processing: amfiprot-amfitrack
+[2023-07-21 09:15:40] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 09:15:40] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/62/93/730b0436c75a8a915782a59911d94a0c75c23d296035919ced3a18ef2de7/seven_cloudapp_frame-1.0.91.tar.gz
+[2023-07-21 09:15:40] INFO root fetch - processPackages [amfiprot-amfitrack]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-07-21 09:15:40] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-21 09:15:40] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.90.tar.gz tmp/seven_cloudapp_frame-1.0.91.tar.gz --markdown 20230721/s/seven-cloudapp-frame/1.0.90-1.0.91/diff.md --exclude *.pyd
+[2023-07-21 09:15:40] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/99/1c/92cf7f927aa47b3cc5bba8867e5911d001410792b84beb488e90a0ad7ee7/amfiprot_amfitrack-0.0.1a8.tar.gz
+[2023-07-21 09:15:40] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-07-21 09:15:40] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230721/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-07-21 09:15:40] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-1.3.2.tar.gz]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-1.3.3.tar.gz]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [idds-server]: Start processing: gmltools
+[2023-07-21 09:15:40] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-07-21 09:15:40] INFO root fetch - processPackages [gmltools]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.1.tar.gz]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.2.tar.gz]
+[2023-07-21 09:15:40] INFO root fetch - processPackages [warpzone-sdk]: Start processing: safety-gymnasium
+[2023-07-21 09:15:40] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-07-21 09:15:40] INFO root fetch - processPackages [safety-gymnasium]: New version: [1.0.0] Old Version: [0.4.1]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/14/61/0006b037c1c3b767f81cac3fe5186d95d5b635be38a94fd35dcfce72ace9/gmltools-0.0.90.tar.gz
+[2023-07-21 09:15:41] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/bc/c8/4e1c74712948a1b63d174fe8bc0dba7f17154301e74d61c129dd151a6fd8/amfiprot_amfitrack-0.0.1a9.tar.gz
+[2023-07-21 09:15:41] INFO root fetch - processPackages [safety-gymnasium]: Downloading https://files.pythonhosted.org/packages/b5/de/e44d4b317fff5c70ed228a1bf5de8d1914b07333b4f6b41f027997e7279c/safety-gymnasium-0.4.1.tar.gz
+[2023-07-21 09:15:41] INFO root fetch - processPackages [amfiprot-amfitrack]: executing diffoscope
+[2023-07-21 09:15:41] INFO root fetch - processPackages [amfiprot-amfitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amfiprot_amfitrack-0.0.1a8.tar.gz tmp/amfiprot_amfitrack-0.0.1a9.tar.gz --markdown 20230721/a/amfiprot-amfitrack/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-21 09:15:41] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-1.8.0.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-1.9.0.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [b2sdk]: Start processing: streamlit-nightly
+[2023-07-21 09:15:41] INFO root fetch - main [MainThread]: End processing [b2sdk]: success
+[2023-07-21 09:15:41] WARNING root fetch - processPackages [safety-gymnasium]: Skipping package: exceeds size limit 26616616>=10485760
+[2023-07-21 09:15:41] INFO root fetch - processPackages [safety-gymnasium]: Start processing: lollms
+[2023-07-21 09:15:41] INFO root fetch - main [MainThread]: End processing [safety-gymnasium] error
+[2023-07-21 09:15:41] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/ef/70/c3c8b690bc88b2d149909c5186b9572e4477ceecce57e1487b912279c108/gmltools-0.0.91.tar.gz
+[2023-07-21 09:15:41] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.0.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.1.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [losscape]: Start processing: snaken
+[2023-07-21 09:15:41] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-21 09:15:41] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-07-21 09:15:41] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.90.tar.gz tmp/gmltools-0.0.91.tar.gz --markdown 20230721/g/gmltools/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-21 09:15:41] WARNING root fetch - processPackages [snaken]: Skipping, unable to determine old version
+[2023-07-21 09:15:41] INFO root fetch - processPackages [snaken]: Start processing: tf-hub-nightly
+[2023-07-21 09:15:41] INFO root fetch - main [MainThread]: End processing [snaken] error
+[2023-07-21 09:15:41] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-21 09:15:41] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-21 09:15:41] INFO root fetch - processPackages [vocode-api]: Remove: archive file [/home/abi/fetcher/tmp/vocode_api-0.0.5a3.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [vocode-api]: Remove: archive file [/home/abi/fetcher/tmp/vocode_api-0.0.5a4.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [vocode-api]: Start processing: iktomi
+[2023-07-21 09:15:41] INFO root fetch - main [MainThread]: End processing [vocode-api]: success
+[2023-07-21 09:15:41] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [iktomi]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-21 09:15:41] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.3.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.4.tar.gz]
+[2023-07-21 09:15:41] INFO root fetch - processPackages [nomenklatura]: Start processing: philbot-voice
+[2023-07-21 09:15:41] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-07-21 09:15:42] INFO root fetch - processPackages [iktomi]: Downloading https://files.pythonhosted.org/packages/f1/3f/cf59bd9c057a99dc681bceb835df3783638fd242e90ab111302603b8f9bc/iktomi-0.8.tar.gz
+[2023-07-21 09:15:42] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-21 09:15:42] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-21 09:15:42] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-21 09:15:42] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230721/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-21 09:15:42] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a8.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a9.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - main [MainThread]: End processing [amfiprot-amfitrack]: success
+[2023-07-21 09:15:42] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-21 09:15:42] INFO root fetch - processPackages [iktomi]: Downloading https://files.pythonhosted.org/packages/75/af/3ba6b62c7627a7a8f6d4368614e09c0f2b4511133c55382f5cb38b684caf/iktomi-0.9-py3-none-any.whl
+[2023-07-21 09:15:42] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-21 09:15:42] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230721/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-21 09:15:42] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-21 09:15:42] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230721/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-21 09:15:42] INFO root fetch - processPackages [iktomi]: executing diffoscope
+[2023-07-21 09:15:42] INFO root fetch - processPackages [iktomi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iktomi-0.8.tar.gz tmp/iktomi-0.9-py3-none-any.whl.zip --markdown 20230721/i/iktomi/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 09:15:42] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-07-21 09:15:42] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.90.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.91.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-07-21 09:15:42] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.90.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.91.tar.gz]
+[2023-07-21 09:15:42] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-21 09:15:43] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-21 09:15:43] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-21 09:15:43] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-21 09:15:43] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.3.2.tar.gz]
+[2023-07-21 09:15:43] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.3.3.tar.gz]
+[2023-07-21 09:15:43] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-07-21 09:15:43] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-21 09:15:43] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-21 09:15:43] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-21 09:15:43] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-21 09:15:43] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-21 09:15:43] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-21 09:15:43] INFO root fetch - processPackages [iktomi]: Remove: archive file [/home/abi/fetcher/tmp/iktomi-0.8.tar.gz]
+[2023-07-21 09:15:43] INFO root fetch - processPackages [iktomi]: Remove: archive file [/home/abi/fetcher/tmp/iktomi-0.9-py3-none-any.whl.zip]
+[2023-07-21 09:15:43] INFO root fetch - main [MainThread]: End processing [iktomi]: success
+[2023-07-21 09:15:44] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-21 09:15:47] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-21 09:15:47] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230721/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-21 09:15:55] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-21 09:15:55] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-21 09:15:55] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-21 09:15:55] INFO root fetch - main [MainThread]: Store serial: [18979635]
