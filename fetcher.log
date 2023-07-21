@@ -16048,3 +16048,182 @@
 [2023-07-21 09:15:55] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-21 09:15:55] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-21 09:15:55] INFO root fetch - main [MainThread]: Store serial: [18979635]
+[2023-07-21 09:21:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979635]
+[2023-07-21 09:21:05] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genius-chatbot
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfq-nightly
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: destral
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decaylanguage
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-airflow-providers-elasticsearch
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geniusbot
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyprocessors-generative_augmenter
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitlint-core
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchtnt-nightly
+[2023-07-21 09:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mtmeastmoney
+[2023-07-21 09:21:06] INFO root fetch - processPackages [genius-chatbot]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [decaylanguage]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [mtmeastmoney]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: New version: [0.5.9] Old Version: [0.5.17]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [destral]: New version: [1.7.3] Old Version: [1.7.1]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: New version: [5.0.0rc3] Old Version: [5.0.0rc2]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2023-07-21 09:21:06] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230721] Old Version: [0.7.3.dev20230720]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [mtmeastmoney]: Downloading https://files.pythonhosted.org/packages/cc/11/4d85a1c06d333c5ac1e7c2a4670aafdbbaae74c9e9953f382ec9ca47cac9/mtmeastmoney-1.0.5.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/ae/8b/6e2f4ceaf650b897adfbf0fabe8864860c4b03fe535fd4c9dcdcdfbd7a13/genius_chatbot-0.6.0-py2.py3-none-any.whl
+[2023-07-21 09:21:06] INFO root fetch - processPackages [destral]: Downloading https://files.pythonhosted.org/packages/0b/63/5e5febf1e73c5dbd4df6cd0136d36df75ee086567fac222a95a99425d483/destral-1.7.1.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/ff/73/00ce5ea5c7c5fd1ac2af3e9be85f760054764a42895cd0bdc44a6e683464/pyprocessors_generative_augmenter-0.5.17.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: Downloading https://files.pythonhosted.org/packages/f5/b3/22b96d09713d847b85b4684c7acd827a29d1b71089c716caa6d6230fdf55/apache-airflow-providers-elasticsearch-5.0.0rc2.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [decaylanguage]: Downloading https://files.pythonhosted.org/packages/d0/e8/fb060b124b16118c5514f0c64d98991721a1a9424965f5bd62ca7d6521b3/DecayLanguage-0.9.0.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2023-07-21 09:21:06] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/f5/62/4d499736622b94ab0e5fd00058be965d356faf90e7f8e8ea5286d691e849/tfq_nightly-0.7.3.dev20230720-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 09:21:06] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2023-07-21 09:21:06] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/g/geniusbot/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 09:21:06] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-21 09:21:06] INFO root fetch - processPackages [tfq-nightly]: Start processing: pulumi-kubernetes
+[2023-07-21 09:21:06] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-21 09:21:06] INFO root fetch - processPackages [mtmeastmoney]: Downloading https://files.pythonhosted.org/packages/d6/af/cef9959aafa4af6e5d10aaab85b538b07a24ac0883eeb6a3bba9f956f951/mtmeastmoney-1.0.6.tar.gz
+[2023-07-21 09:21:06] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.1.0a1689918291] Old Version: [4.1.0a1689912856]
+[2023-07-21 09:21:06] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/c2/39/97ec9478781d9254d97752c28a8fd7481f38a0199b21f82d320010250887/genius_chatbot-0.9.0-py2.py3-none-any.whl
+[2023-07-21 09:21:07] INFO root fetch - processPackages [mtmeastmoney]: executing diffoscope
+[2023-07-21 09:21:07] INFO root fetch - processPackages [mtmeastmoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmeastmoney-1.0.5.tar.gz tmp/mtmeastmoney-1.0.6.tar.gz --markdown 20230721/m/mtmeastmoney/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-21 09:21:07] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/67/94/498fbf091c284ca05e11f61b9eb4f2c17620954132dedceb96018eb9edd2/pyprocessors-generative_augmenter-0.5.9.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/c9/13/07513953ad7faf4f8fe10ccb05e930b176590f7c11b8b17c8d319f62942b/pulumi_kubernetes-4.1.0a1689912856.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: Downloading https://files.pythonhosted.org/packages/a3/43/f94a937311c832c892bc0185a1065cd7267a1f1de738507c144b0ee36415/apache-airflow-providers-elasticsearch-5.0.0rc3.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [genius-chatbot]: executing diffoscope
+[2023-07-21 09:21:07] INFO root fetch - processPackages [genius-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230721/g/genius-chatbot/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 09:21:07] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [decaylanguage]: Downloading https://files.pythonhosted.org/packages/11/60/552491124ce5da4f9aecdb4691f14452c55edde94f70cbb3b442b49c92c2/DecayLanguage-0.9.1.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: executing diffoscope
+[2023-07-21 09:21:07] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_generative_augmenter-0.5.17.tar.gz tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz --markdown 20230721/p/pyprocessors-generative_augmenter/0.5.17-0.5.9/diff.md --exclude *.pyd
+[2023-07-21 09:21:07] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: executing diffoscope
+[2023-07-21 09:21:07] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-elasticsearch-5.0.0rc2.tar.gz tmp/apache-airflow-providers-elasticsearch-5.0.0rc3.tar.gz --markdown 20230721/a/apache-airflow-providers-elasticsearch/5.0.0rc2-5.0.0rc3/diff.md --exclude *.pyd
+[2023-07-21 09:21:07] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-07-21 09:21:07] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230721/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-07-21 09:21:07] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/a4/b3/17075c0eddb552d4c4063971f7f01489f498850f3bd25367f044ff3bf5d3/pulumi_kubernetes-4.1.0a1689918291.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-21 09:21:07] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230721/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-21 09:21:07] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-07-21 09:21:07] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.1.0a1689912856.tar.gz tmp/pulumi_kubernetes-4.1.0a1689918291.tar.gz --markdown 20230721/p/pulumi-kubernetes/4.1.0a1689912856-4.1.0a1689918291/diff.md --exclude *.pyd
+[2023-07-21 09:21:07] INFO root fetch - processPackages [destral]: Downloading https://files.pythonhosted.org/packages/03/3a/a78bdd7db71f948ef6971b2a99049ddb3f6c91f0caa95735dd7889b2140c/destral-1.7.3.tar.gz
+[2023-07-21 09:21:07] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 09:21:07] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 09:21:07] INFO root fetch - processPackages [geniusbot]: Start processing: gitlint
+[2023-07-21 09:21:07] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [mtmeastmoney]: Remove: archive file [/home/abi/fetcher/tmp/mtmeastmoney-1.0.5.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [mtmeastmoney]: Remove: archive file [/home/abi/fetcher/tmp/mtmeastmoney-1.0.6.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [mtmeastmoney]: Start processing: geniusbot
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [mtmeastmoney]: success
+[2023-07-21 09:21:08] INFO root fetch - processPackages [decaylanguage]: executing diffoscope
+[2023-07-21 09:21:08] INFO root fetch - processPackages [decaylanguage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DecayLanguage-0.9.0.tar.gz tmp/DecayLanguage-0.9.1.tar.gz --markdown 20230721/d/decaylanguage/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 09:21:08] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-07-21 09:21:08] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2023-07-21 09:21:08] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [genius-chatbot]: Start processing: liburlparser
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [genius-chatbot]: success
+[2023-07-21 09:21:08] INFO root fetch - processPackages [liburlparser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2023-07-21 09:21:08] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/dc/82/8202c280bd1387b4971e7c3cc0bbf6cc1c0ac8861ce39e190c6fae5a0b41/liburlparser-1.0.0.tar.gz
+[2023-07-21 09:21:08] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_generative_augmenter-0.5.17.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Start processing: skillshare-backup
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [pyprocessors-generative_augmenter]: success
+[2023-07-21 09:21:08] WARNING root fetch - processPackages [skillshare-backup]: Skipping, unable to determine old version
+[2023-07-21 09:21:08] INFO root fetch - processPackages [skillshare-backup]: Start processing: pewlib
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [skillshare-backup] error
+[2023-07-21 09:21:08] INFO root fetch - processPackages [pewlib]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2023-07-21 09:21:08] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/g/geniusbot/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 09:21:08] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-elasticsearch-5.0.0rc2.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-elasticsearch-5.0.0rc3.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [apache-airflow-providers-elasticsearch]: Start processing: helloworld1609
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-elasticsearch]: success
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint-core]: Start processing: easypcd
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-07-21 09:21:08] WARNING root fetch - processPackages [helloworld1609]: Skipping, unable to determine old version
+[2023-07-21 09:21:08] INFO root fetch - processPackages [helloworld1609]: Start processing: django-cabinet
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [helloworld1609] error
+[2023-07-21 09:21:08] WARNING root fetch - processPackages [easypcd]: Skipping, unable to determine old version
+[2023-07-21 09:21:08] INFO root fetch - processPackages [easypcd]: Start processing: hotsos
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [easypcd] error
+[2023-07-21 09:21:08] INFO root fetch - processPackages [django-cabinet]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [hotsos]: New version: [1.16.0.post1] Old Version: [1.15.post9]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [destral]: executing diffoscope
+[2023-07-21 09:21:08] INFO root fetch - processPackages [destral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/destral-1.7.1.tar.gz tmp/destral-1.7.3.tar.gz --markdown 20230721/d/destral/1.7.1-1.7.3/diff.md --exclude *.pyd
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-07-21 09:21:08] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230721/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 09:21:08] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-21 09:21:08] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: ex4nicegui
+[2023-07-21 09:21:08] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-21 09:21:08] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/d5/66/9b48a196124f925665dd4edfe9caf97fccee8cd461f266c85b6ff8f8b961/pewlib-0.8.0.tar.gz
+[2023-07-21 09:21:08] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/99/ea/9f0efddedcd3a86bf404a86580cdecaee796668868ff6d181fd359eb8160/liburlparser-1.0.1.tar.gz
+[2023-07-21 09:21:08] INFO root fetch - processPackages [ex4nicegui]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-21 09:21:09] INFO root fetch - processPackages [liburlparser]: executing diffoscope
+[2023-07-21 09:21:09] INFO root fetch - processPackages [liburlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liburlparser-1.0.0.tar.gz tmp/liburlparser-1.0.1.tar.gz --markdown 20230721/l/liburlparser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 09:21:09] INFO root fetch - processPackages [django-cabinet]: Downloading https://files.pythonhosted.org/packages/41/0b/5e24ef43376e058aa397837c035538fd0f6785071613ae767e9bde6a92f6/django-cabinet-0.9.0.tar.gz
+[2023-07-21 09:21:09] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/b5/9f/40dc2ccd9e77232ba5708c6a52e86cc32004e3b64cd7e9778f48c37d7e1b/ex4nicegui-0.2.1.tar.gz
+[2023-07-21 09:21:09] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/9e/aa/b69b0f93a27db3078303013f872f6e6f370375ec9e51c9b73ecf676110fb/hotsos-1.15.post9.tar.gz
+[2023-07-21 09:21:09] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/68/7f/605afa3d13ce2c6db0274ab929c43d1ffa64505fafd13be71cdbe56fc7b8/pewlib-0.8.1.tar.gz
+[2023-07-21 09:21:09] INFO root fetch - processPackages [pewlib]: executing diffoscope
+[2023-07-21 09:21:09] INFO root fetch - processPackages [pewlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pewlib-0.8.0.tar.gz tmp/pewlib-0.8.1.tar.gz --markdown 20230721/p/pewlib/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-21 09:21:09] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/e3/fb/abc88b480b09438bfafa7341776a1f74effead5d6b4275f50d09079455ed/ex4nicegui-0.2.2.tar.gz
+[2023-07-21 09:21:09] INFO root fetch - processPackages [django-cabinet]: Downloading https://files.pythonhosted.org/packages/0f/9a/3b246a1228b75d6afeb069d40e11c9dfdb10e253264f2287b5f6fd9f1cc5/django-cabinet-0.9.1.tar.gz
+[2023-07-21 09:21:09] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/6f/e0/cc4a0b0d51a88272329a0af7cc9b2f1672977b10e4cc65a19fd8217f6389/hotsos-1.16.0.post1.tar.gz
+[2023-07-21 09:21:09] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-07-21 09:21:09] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.2.1.tar.gz tmp/ex4nicegui-0.2.2.tar.gz --markdown 20230721/e/ex4nicegui/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-21 09:21:09] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-21 09:21:09] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.15.post9.tar.gz tmp/hotsos-1.16.0.post1.tar.gz --markdown 20230721/h/hotsos/1.15.post9-1.16.0.post1/diff.md --exclude *.pyd
+[2023-07-21 09:21:09] INFO root fetch - processPackages [django-cabinet]: executing diffoscope
+[2023-07-21 09:21:09] INFO root fetch - processPackages [django-cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cabinet-0.9.0.tar.gz tmp/django-cabinet-0.9.1.tar.gz --markdown 20230721/d/django-cabinet/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 09:21:09] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 09:21:09] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 09:21:09] INFO root fetch - processPackages [geniusbot]: Start processing: drf-misc
+[2023-07-21 09:21:09] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2023-07-21 09:21:10] INFO root fetch - processPackages [drf-misc]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-21 09:21:10] INFO root fetch - processPackages [destral]: Remove: archive file [/home/abi/fetcher/tmp/destral-1.7.1.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - processPackages [destral]: Remove: archive file [/home/abi/fetcher/tmp/destral-1.7.3.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - main [MainThread]: End processing [destral]: success
+[2023-07-21 09:21:10] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-07-21 09:21:10] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/06/61/26aa231b86150d86d5ab16914d32ef611d91a156878245edef482bdff39e/drf_misc-0.1.6.tar.gz
+[2023-07-21 09:21:10] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.0.0.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.0.1.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
+[2023-07-21 09:21:10] INFO root fetch - processPackages [decaylanguage]: Remove: archive file [/home/abi/fetcher/tmp/DecayLanguage-0.9.0.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - processPackages [decaylanguage]: Remove: archive file [/home/abi/fetcher/tmp/DecayLanguage-0.9.1.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - main [MainThread]: End processing [decaylanguage]: success
+[2023-07-21 09:21:10] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/de/f1/d797552925c87473c298187c35b14d8f856ad8da42e38da1b86b9546cd19/drf_misc-0.1.7.tar.gz
+[2023-07-21 09:21:10] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.8.0.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.8.1.tar.gz]
+[2023-07-21 09:21:10] INFO root fetch - main [MainThread]: End processing [pewlib]: success
+[2023-07-21 09:21:11] INFO root fetch - processPackages [django-cabinet]: Remove: archive file [/home/abi/fetcher/tmp/django-cabinet-0.9.0.tar.gz]
+[2023-07-21 09:21:11] INFO root fetch - processPackages [django-cabinet]: Remove: archive file [/home/abi/fetcher/tmp/django-cabinet-0.9.1.tar.gz]
+[2023-07-21 09:21:11] INFO root fetch - main [MainThread]: End processing [django-cabinet]: success
+[2023-07-21 09:21:11] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.2.1.tar.gz]
+[2023-07-21 09:21:11] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.2.2.tar.gz]
+[2023-07-21 09:21:11] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-07-21 09:21:11] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-21 09:21:11] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.1.6.tar.gz tmp/drf_misc-0.1.7.tar.gz --markdown 20230721/d/drf-misc/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-21 09:21:11] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.6.tar.gz]
+[2023-07-21 09:21:11] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.7.tar.gz]
+[2023-07-21 09:21:11] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-21 09:21:12] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post9.tar.gz]
+[2023-07-21 09:21:12] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post1.tar.gz]
+[2023-07-21 09:21:12] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-21 09:21:12] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689912856.tar.gz]
+[2023-07-21 09:21:12] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689918291.tar.gz]
+[2023-07-21 09:21:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-07-21 09:21:12] INFO root fetch - main [MainThread]: Store serial: [18979731]
