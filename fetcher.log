@@ -10759,3 +10759,87 @@
 [2023-07-21 04:22:31] INFO root fetch - processPackages [core-user-registration-app]: Remove: archive file [/home/abi/fetcher/tmp/core_user_registration_app-2.4.0.tar.gz]
 [2023-07-21 04:22:31] INFO root fetch - main [MainThread]: End processing [core-user-registration-app]: success
 [2023-07-21 04:22:31] INFO root fetch - main [MainThread]: Store serial: [18977705]
+[2023-07-21 04:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977705]
+[2023-07-21 04:27:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyntone
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maggma
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inscode-api
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylint-pydantic
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stereosite
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickzetta-migration
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdv
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: m23
+[2023-07-21 04:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uw-webdriver-recorder
+[2023-07-21 04:27:40] INFO root fetch - processPackages [pylint-pydantic]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-21 04:27:40] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-07-21 04:27:40] INFO root fetch - processPackages [stereosite]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-21 04:27:40] INFO root fetch - processPackages [uw-webdriver-recorder]: New version: [5.0.7] Old Version: [5.0.6]
+[2023-07-21 04:27:40] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-21 04:27:40] INFO root fetch - processPackages [inscode-api]: New version: [0.4] Old Version: [0.3]
+[2023-07-21 04:27:40] INFO root fetch - processPackages [pyntone]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-21 04:27:41] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 04:27:41] INFO root fetch - processPackages [sdv]: New version: [1.2.2.dev0] Old Version: [1.2.1.dev0]
+[2023-07-21 04:27:41] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pyntone]: Downloading https://files.pythonhosted.org/packages/01/42/73aae6b3ef3584e727c79b690ffda5f2c8758edcdf5a482b8e7fd833c2c5/pyntone-0.3.0.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pylint-pydantic]: Downloading https://files.pythonhosted.org/packages/6a/9e/73e64abbc416a8d0e96b59c29c35f466205412c7d24061762389b867c099/pylint_pydantic-0.2.2-py3-none-any.whl
+[2023-07-21 04:27:41] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/0e/ff/ed96bb595fa618194f007af31232eb1444deb3895214aedbe83b2bfb4871/clickzetta-migration-0.0.0.8.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [stereosite]: Downloading https://files.pythonhosted.org/packages/7a/49/5574946054f3b8374a13c535e8d78c5dbda253704651637d38f2c1e09357/stereosite-1.0.3.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [inscode-api]: Downloading https://files.pythonhosted.org/packages/ce/92/2877d83a89cbdee8cad9765a6094a18a7750e39d6495ce00ac8d3ca5401c/inscode_api-0.3.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [uw-webdriver-recorder]: Downloading https://files.pythonhosted.org/packages/f9/c6/32fd06e19735f55b474e570cb412951f557b87fd47b6f7cb658559d886e7/uw-webdriver-recorder-5.0.6.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/7a/f0/9e12c7ec22b884abc8924eb2031debbdfb99a6fcd24775586aaf24fedb7d/sdv-1.2.1.dev0.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pyntone]: Downloading https://files.pythonhosted.org/packages/2d/36/a7d4ba5980469dbbdafc524a6ce1fd7edfb3e386fb4474db8951b55e1fdf/pyntone-0.3.1.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pylint-pydantic]: Downloading https://files.pythonhosted.org/packages/93/89/9183f82633c3375de14b62ed67ffb94d51dbb063f12e4c74f39cadef496c/pylint_pydantic-0.2.3-py3-none-any.whl
+[2023-07-21 04:27:41] INFO root fetch - processPackages [inscode-api]: Downloading https://files.pythonhosted.org/packages/41/d3/c67b64a7ba3ae45112dcfab293e1d9acc7c95a3cbdd40c54b53ae7110553/inscode_api-0.4.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/54/f8/ad112bd82d34d061cc7ebd0d2849d125f7bc21c1e24e4c9cafe0482dda15/clickzetta-migration-0.0.0.9.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pyntone]: executing diffoscope
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pyntone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntone-0.3.0.tar.gz tmp/pyntone-0.3.1.tar.gz --markdown 20230721/p/pyntone/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pylint-pydantic]: executing diffoscope
+[2023-07-21 04:27:41] INFO root fetch - processPackages [pylint-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_pydantic-0.2.2-py3-none-any.whl.zip tmp/pylint_pydantic-0.2.3-py3-none-any.whl.zip --markdown 20230721/p/pylint-pydantic/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-21 04:27:41] INFO root fetch - processPackages [uw-webdriver-recorder]: Downloading https://files.pythonhosted.org/packages/c0/2d/d21647c7cce2589f80ef0cf570bd48c053692be51dc632ee488d252096bb/uw-webdriver-recorder-5.0.7.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-07-21 04:27:41] INFO root fetch - processPackages [inscode-api]: executing diffoscope
+[2023-07-21 04:27:41] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230721/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 04:27:41] INFO root fetch - processPackages [inscode-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inscode_api-0.3.tar.gz tmp/inscode_api-0.4.tar.gz --markdown 20230721/i/inscode-api/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-21 04:27:41] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [stereosite]: Downloading https://files.pythonhosted.org/packages/1b/3a/efd8422e282fa046da1677bb06d7ff391e57589a8a750f63a648e87eba77/stereosite-1.0.4.tar.gz
+[2023-07-21 04:27:41] INFO root fetch - processPackages [uw-webdriver-recorder]: executing diffoscope
+[2023-07-21 04:27:41] INFO root fetch - processPackages [uw-webdriver-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uw-webdriver-recorder-5.0.6.tar.gz tmp/uw-webdriver-recorder-5.0.7.tar.gz --markdown 20230721/u/uw-webdriver-recorder/5.0.6-5.0.7/diff.md --exclude *.pyd
+[2023-07-21 04:27:41] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-21 04:27:41] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.8.tar.gz tmp/clickzetta-migration-0.0.0.9.tar.gz --markdown 20230721/c/clickzetta-migration/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-07-21 04:27:41] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/29/62/1d7f183ffb322aced14d729c89f0296076a674edede769c82913f2c58b77/sdv-1.2.2.dev0.tar.gz
+[2023-07-21 04:27:42] INFO root fetch - processPackages [stereosite]: executing diffoscope
+[2023-07-21 04:27:42] INFO root fetch - processPackages [stereosite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stereosite-1.0.3.tar.gz tmp/stereosite-1.0.4.tar.gz --markdown 20230721/s/stereosite/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-21 04:27:42] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-21 04:27:42] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230721/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-21 04:27:42] INFO root fetch - processPackages [sdv]: executing diffoscope
+[2023-07-21 04:27:42] INFO root fetch - processPackages [sdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdv-1.2.1.dev0.tar.gz tmp/sdv-1.2.2.dev0.tar.gz --markdown 20230721/s/sdv/1.2.1.dev0-1.2.2.dev0/diff.md --exclude *.pyd
+[2023-07-21 04:27:43] INFO root fetch - processPackages [pyntone]: Remove: archive file [/home/abi/fetcher/tmp/pyntone-0.3.0.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - processPackages [pylint-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pylint_pydantic-0.2.2-py3-none-any.whl.zip]
+[2023-07-21 04:27:43] INFO root fetch - processPackages [pyntone]: Remove: archive file [/home/abi/fetcher/tmp/pyntone-0.3.1.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - processPackages [pylint-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pylint_pydantic-0.2.3-py3-none-any.whl.zip]
+[2023-07-21 04:27:43] INFO root fetch - main [MainThread]: End processing [pyntone]: success
+[2023-07-21 04:27:43] INFO root fetch - main [MainThread]: End processing [pylint-pydantic]: success
+[2023-07-21 04:27:43] INFO root fetch - processPackages [inscode-api]: Remove: archive file [/home/abi/fetcher/tmp/inscode_api-0.3.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - processPackages [inscode-api]: Remove: archive file [/home/abi/fetcher/tmp/inscode_api-0.4.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - main [MainThread]: End processing [inscode-api]: success
+[2023-07-21 04:27:43] INFO root fetch - processPackages [uw-webdriver-recorder]: Remove: archive file [/home/abi/fetcher/tmp/uw-webdriver-recorder-5.0.6.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - processPackages [uw-webdriver-recorder]: Remove: archive file [/home/abi/fetcher/tmp/uw-webdriver-recorder-5.0.7.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - main [MainThread]: End processing [uw-webdriver-recorder]: success
+[2023-07-21 04:27:43] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-07-21 04:27:43] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.8.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.9.tar.gz]
+[2023-07-21 04:27:43] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-21 04:27:44] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-21 04:27:44] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-21 04:27:44] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-21 04:27:45] INFO root fetch - processPackages [sdv]: Remove: archive file [/home/abi/fetcher/tmp/sdv-1.2.1.dev0.tar.gz]
+[2023-07-21 04:27:45] INFO root fetch - processPackages [sdv]: Remove: archive file [/home/abi/fetcher/tmp/sdv-1.2.2.dev0.tar.gz]
+[2023-07-21 04:27:45] INFO root fetch - main [MainThread]: End processing [sdv]: success
+[2023-07-21 04:27:46] INFO root fetch - processPackages [stereosite]: Remove: archive file [/home/abi/fetcher/tmp/stereosite-1.0.3.tar.gz]
+[2023-07-21 04:27:46] INFO root fetch - processPackages [stereosite]: Remove: archive file [/home/abi/fetcher/tmp/stereosite-1.0.4.tar.gz]
+[2023-07-21 04:27:46] INFO root fetch - main [MainThread]: End processing [stereosite]: success
+[2023-07-21 04:27:46] INFO root fetch - main [MainThread]: Store serial: [18977728]
