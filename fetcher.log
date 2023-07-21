@@ -14382,3 +14382,39 @@
 [2023-07-21 07:29:57] INFO root fetch - processPackages [geocode-adi]: Remove: archive file [/home/abi/fetcher/tmp/geocode-adi-2.1.0.tar.gz]
 [2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [geocode-adi]: success
 [2023-07-21 07:29:57] INFO root fetch - main [MainThread]: Store serial: [18978991]
+[2023-07-21 07:35:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978991]
+[2023-07-21 07:35:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-21 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genius-chatbot
+[2023-07-21 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-social
+[2023-07-21 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-07-21 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genius-chatbot
+[2023-07-21 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djgraphql
+[2023-07-21 07:35:06] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230717.0] Old Version: [16.0.20230614.0]
+[2023-07-21 07:35:06] INFO root fetch - processPackages [genius-chatbot]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-07-21 07:35:06] INFO root fetch - processPackages [genius-chatbot]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-07-21 07:35:06] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/ae/8b/6e2f4ceaf650b897adfbf0fabe8864860c4b03fe535fd4c9dcdcdfbd7a13/genius_chatbot-0.6.0-py2.py3-none-any.whl
+[2023-07-21 07:35:06] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/ae/8b/6e2f4ceaf650b897adfbf0fabe8864860c4b03fe535fd4c9dcdcdfbd7a13/genius_chatbot-0.6.0-py2.py3-none-any.whl
+[2023-07-21 07:35:06] WARNING root fetch - processPackages [djgraphql]: Skipping, unable to determine old version
+[2023-07-21 07:35:06] INFO root fetch - main [MainThread]: End processing [djgraphql] error
+[2023-07-21 07:35:06] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230720] Old Version: [2.14.0.dev20230719]
+[2023-07-21 07:35:07] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/b1/dd/9b4bdc117f952fc1c5e09549c8246461d980367c4a15221cdb4f3b5f1f1b/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl
+[2023-07-21 07:35:07] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/c2/39/97ec9478781d9254d97752c28a8fd7481f38a0199b21f82d320010250887/genius_chatbot-0.9.0-py2.py3-none-any.whl
+[2023-07-21 07:35:07] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/c2/39/97ec9478781d9254d97752c28a8fd7481f38a0199b21f82d320010250887/genius_chatbot-0.9.0-py2.py3-none-any.whl
+[2023-07-21 07:35:07] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/70/a4/67503b2f91755f3749790547d663239144839d181e87c6f51c60f6a099f5/tf_nightly_macos-2.14.0.dev20230719-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-21 07:35:07] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 198758326>=10485760
+[2023-07-21 07:35:07] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-21 07:35:07] INFO root fetch - processPackages [genius-chatbot]: executing diffoscope
+[2023-07-21 07:35:07] INFO root fetch - processPackages [genius-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230721/g/genius-chatbot/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 07:35:07] INFO root fetch - processPackages [genius-chatbot]: executing diffoscope
+[2023-07-21 07:35:07] INFO root fetch - processPackages [genius-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230721/g/genius-chatbot/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 07:35:07] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5a/08/ccd385557c701a973345c113c1a24d4c500e02f852694b8f278f9c58df01/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl
+[2023-07-21 07:35:07] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-07-21 07:35:07] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip --markdown 20230721/o/odoo-addons-oca-social/16.0.20230614.0-16.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-21 07:35:08] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip]
+[2023-07-21 07:35:08] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 07:35:08] INFO root fetch - main [MainThread]: End processing [genius-chatbot]: success
+[2023-07-21 07:35:08] INFO root fetch - main [MainThread]: End processing [genius-chatbot]: success
+[2023-07-21 07:35:08] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-07-21 07:35:08] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-21 07:35:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-07-21 07:35:08] INFO root fetch - main [MainThread]: Store serial: [18979006]
