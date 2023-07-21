@@ -19430,3 +19430,147 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:51:45] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post902-py3-none-any.whl.zip]
 [2023-07-21 11:51:45] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-21 11:51:45] INFO root fetch - main [MainThread]: Store serial: [18981075]
+[2023-07-21 11:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981075]
+[2023-07-21 11:56:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkmk-dev-tools
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axa-fr-splitter
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: namekoplus
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: copernicus-marine-client
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-misc
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello-world-iddy
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythongraphrunner
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygaul
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: huhk
+[2023-07-21 11:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-vocabularies
+[2023-07-21 11:56:54] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [axa-fr-splitter]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [namekoplus]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-21 11:56:54] WARNING root fetch - processPackages [hello-world-iddy]: Skipping, unable to determine old version
+[2023-07-21 11:56:54] INFO root fetch - processPackages [hello-world-iddy]: Start processing: bitfount-apispec
+[2023-07-21 11:56:54] INFO root fetch - main [MainThread]: End processing [hello-world-iddy] error
+[2023-07-21 11:56:54] INFO root fetch - processPackages [pygaul]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [huhk]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [pythongraphrunner]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [drf-misc]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-21 11:56:54] WARNING root fetch - processPackages [bitfount-apispec]: Skipping, unable to determine old version
+[2023-07-21 11:56:54] INFO root fetch - processPackages [bitfount-apispec]: Start processing: asyncoinpayments
+[2023-07-21 11:56:54] INFO root fetch - main [MainThread]: End processing [bitfount-apispec] error
+[2023-07-21 11:56:54] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/5f/96/a44e9ab263598a6f0858406b553d5e4dff56b35cadf3183abff1c5995f31/copernicus_marine_client-0.8.7.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [asyncoinpayments]: New version: [0.0.6a0] Old Version: [0.0.5a0]
+[2023-07-21 11:56:54] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/31/78/679d7b95bc5ced94c116fa3835b1bd78d5bc9e937225e302e81fb0670f25/namekoplus-0.2.2.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/c8/85/d226a87c13bac2b8adbbc3209ced5c7c91f172401dce35ad52a4026cc59a/oarepo-vocabularies-2.0.7.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [pygaul]: Downloading https://files.pythonhosted.org/packages/1e/b0/472e227e084ddb82d8e27e4463e4d30a8ae656c9cc8b70b999eb07797ad6/pygaul-0.1.0.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/cb/59/5ffc95f6d87598a8bee31676193160bdc067bb5db9d0c6e6a8073f22d9df/huhk-1.6.8.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [axa-fr-splitter]: Downloading https://files.pythonhosted.org/packages/0a/c9/924809651b1a7d39999a06b100143374d484a69151215513fc4c74175a0a/axa-fr-splitter-0.0.2.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/41/0a/f3dec8861abbe08ffab087d04e4d494841c7936355938cb58c9674da42e4/asyncoinpayments-0.0.5a0.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [pythongraphrunner]: Downloading https://files.pythonhosted.org/packages/24/19/3a22cf6bcf737d9501b496fe35f4a8a3ed9810320ab72ea88b9893e440fc/pythongraphrunner-1.0.0.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/68/d9/865c2a5db919b298800d58802f1816a3f317265f8a2f9393375394abf7f3/drf_misc-0.1.9.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/95/6a/508fb49cf42b5649183b00581d11df5a879aafbf26b205a07c032ef3526c/copernicus_marine_client-0.8.8.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/fb/2d/b70fc2116fca8ab4e5bde924c172a421f6f3c158320375063e55d04b39bd/oarepo-vocabularies-2.0.8.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/52/a3/0a007f1ed9c64160cdced3619d40a2056d7cb63172eaa6f031b0f78adba9/huhk-1.6.9.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/08/e0/b2cfa4252a85c23ff5699eb502450e729ebdd7eb7a4360bb77ba85784f1b/namekoplus-0.2.3.tar.gz
+[2023-07-21 11:56:54] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-07-21 11:56:54] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.8.7.tar.gz tmp/copernicus_marine_client-0.8.8.tar.gz --markdown 20230721/c/copernicus-marine-client/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-21 11:56:54] INFO root fetch - processPackages [axa-fr-splitter]: Downloading https://files.pythonhosted.org/packages/cb/a2/b153b0790b520f8cec217bf3fc1e861366a84e27f6cdd71f0ed36951d76c/axa-fr-splitter-0.1.0.tar.gz
+[2023-07-21 11:56:55] INFO root fetch - processPackages [pygaul]: Downloading https://files.pythonhosted.org/packages/62/c5/e2b10d4bb0918f3550b438fdeb0790a834592372de61fc928ce60d1a9b8f/pygaul-0.1.1.tar.gz
+[2023-07-21 11:56:55] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/8f/e3/9566546a9df75edf1280b214476f838137992ad8d49bd37e7aaea2d01e1c/asyncoinpayments-0.0.6a0.tar.gz
+[2023-07-21 11:56:55] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.7.tar.gz tmp/oarepo-vocabularies-2.0.8.tar.gz --markdown 20230721/o/oarepo-vocabularies/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/f1/cb/9b20f2b9a75c15ac83556cc57e543955a24f4b5417cb3a6a99665accd59d/drf_misc-0.2.0.tar.gz
+[2023-07-21 11:56:55] INFO root fetch - processPackages [pythongraphrunner]: Downloading https://files.pythonhosted.org/packages/74/11/4db9f305e4fb26f912f10eb06f816e4e85ed0ae9e9efaf4761fee6e104dd/pythongraphrunner-1.1.0.tar.gz
+[2023-07-21 11:56:55] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2023-07-21 11:56:55] INFO root fetch - processPackages [axa-fr-splitter]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [axa-fr-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axa-fr-splitter-0.0.2.tar.gz tmp/axa-fr-splitter-0.1.0.tar.gz --markdown 20230721/a/axa-fr-splitter/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [asyncoinpayments]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [asyncoinpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncoinpayments-0.0.5a0.tar.gz tmp/asyncoinpayments-0.0.6a0.tar.gz --markdown 20230721/a/asyncoinpayments/0.0.5a0-0.0.6a0/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.2.2.tar.gz tmp/namekoplus-0.2.3.tar.gz --markdown 20230721/n/namekoplus/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.6.8.tar.gz tmp/huhk-1.6.9.tar.gz --markdown 20230721/h/huhk/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20230721/c/checkmk-dev-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.1.9.tar.gz tmp/drf_misc-0.2.0.tar.gz --markdown 20230721/d/drf-misc/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [pythongraphrunner]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [pythongraphrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythongraphrunner-1.0.0.tar.gz tmp/pythongraphrunner-1.1.0.tar.gz --markdown 20230721/p/pythongraphrunner/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 11:56:55] INFO root fetch - processPackages [pygaul]: executing diffoscope
+[2023-07-21 11:56:55] INFO root fetch - processPackages [pygaul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygaul-0.1.0.tar.gz tmp/pygaul-0.1.1.tar.gz --markdown 20230721/p/pygaul/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 11:56:56] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.7.tar.gz]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.8.tar.gz]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [copernicus-marine-client]: Start processing: django-cachalot
+[2023-07-21 11:56:56] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-07-21 11:56:56] INFO root fetch - processPackages [django-cachalot]: New version: [2.6.0] Old Version: [2.5.3]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [django-cachalot]: Downloading https://files.pythonhosted.org/packages/52/f8/eda1c339e57d576c15780e7a8e60370eabe9b2aefbab4d422d58b7310387/django-cachalot-2.5.3.tar.gz
+[2023-07-21 11:56:56] INFO root fetch - processPackages [axa-fr-splitter]: Remove: archive file [/home/abi/fetcher/tmp/axa-fr-splitter-0.0.2.tar.gz]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [axa-fr-splitter]: Remove: archive file [/home/abi/fetcher/tmp/axa-fr-splitter-0.1.0.tar.gz]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [axa-fr-splitter]: Start processing: lightning-template
+[2023-07-21 11:56:56] INFO root fetch - main [MainThread]: End processing [axa-fr-splitter]: success
+[2023-07-21 11:56:56] INFO root fetch - processPackages [lightning-template]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.9.tar.gz]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.2.0.tar.gz]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [pythongraphrunner]: Remove: archive file [/home/abi/fetcher/tmp/pythongraphrunner-1.0.0.tar.gz]
+[2023-07-21 11:56:56] INFO root fetch - processPackages [drf-misc]: Start processing: dash-express-components
+[2023-07-21 11:56:56] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-21 11:56:56] INFO root fetch - processPackages [pythongraphrunner]: Remove: archive file [/home/abi/fetcher/tmp/pythongraphrunner-1.1.0.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [pythongraphrunner]: Start processing: ramodels
+[2023-07-21 11:56:57] INFO root fetch - main [MainThread]: End processing [pythongraphrunner]: success
+[2023-07-21 11:56:57] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.5a0.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.6a0.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [asyncoinpayments]: Start processing: vaex-core
+[2023-07-21 11:56:57] INFO root fetch - main [MainThread]: End processing [asyncoinpayments]: success
+[2023-07-21 11:56:57] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/77/6a/162d8a561405eb33b3d0a424cae0ef026a56fdf97183a6465711f83e53b6/lightning-template-1.1.3.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.2.2.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.2.3.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-21 11:56:57] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.7.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-21 11:56:57] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.8.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.9.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-21 11:56:57] INFO root fetch - processPackages [pygaul]: Remove: archive file [/home/abi/fetcher/tmp/pygaul-0.1.0.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [pygaul]: Remove: archive file [/home/abi/fetcher/tmp/pygaul-0.1.1.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - main [MainThread]: End processing [pygaul]: success
+[2023-07-21 11:56:57] INFO root fetch - processPackages [vaex-core]: New version: [5.0.0a1] Old Version: [4.9.2]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/45/7b/61b1675fed3cbd68bd3fe066763b3fc63536dbbc20acaef0ef22906a792b/dash_express_components-0.0.8.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [django-cachalot]: Downloading https://files.pythonhosted.org/packages/b3/32/87b1d9e942f5d176e970b8515db582f70dbbadce39f5e32f6ce100dbf0cf/django-cachalot-2.6.0.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2023-07-21 11:56:57] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2023-07-21 11:56:57] INFO root fetch - processPackages [vaex-core]: Downloading https://files.pythonhosted.org/packages/41/51/1bca0fa9b69c746e5f49565f8bd73b0495c061b06aeb7fcc9c5fc3a702b1/vaex-core-4.9.2.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [django-cachalot]: executing diffoscope
+[2023-07-21 11:56:57] INFO root fetch - processPackages [django-cachalot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cachalot-2.5.3.tar.gz tmp/django-cachalot-2.6.0.tar.gz --markdown 20230721/d/django-cachalot/2.5.3-2.6.0/diff.md --exclude *.pyd
+[2023-07-21 11:56:57] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/57/8a/344d86f607d0140189fc76e127992d2871a4e8490f6e6c2a2e0950c29d65/lightning-template-1.1.4.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/19/bd/a24d847266cd35ecf1681d41420a9be0331b22fb730bef223ef869483a72/dash_express_components-0.0.9.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-21 11:56:57] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.1.3.tar.gz tmp/lightning-template-1.1.4.tar.gz --markdown 20230721/l/lightning-template/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-21 11:56:57] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2023-07-21 11:56:57] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.8.tar.gz tmp/dash_express_components-0.0.9.tar.gz --markdown 20230721/d/dash-express-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 11:56:57] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-21 11:56:57] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-21 11:56:57] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230721/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-21 11:56:58] INFO root fetch - processPackages [vaex-core]: Downloading https://files.pythonhosted.org/packages/6c/35/227e20ae1ffb82d7de451cfbf6ddee4f15ca2aa1d9cfd252e093ee9a554e/vaex-core-5.0.0a1.tar.gz
+[2023-07-21 11:56:58] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.3.tar.gz]
+[2023-07-21 11:56:58] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.4.tar.gz]
+[2023-07-21 11:56:58] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-21 11:56:58] INFO root fetch - processPackages [django-cachalot]: Remove: archive file [/home/abi/fetcher/tmp/django-cachalot-2.5.3.tar.gz]
+[2023-07-21 11:56:58] INFO root fetch - processPackages [django-cachalot]: Remove: archive file [/home/abi/fetcher/tmp/django-cachalot-2.6.0.tar.gz]
+[2023-07-21 11:56:58] INFO root fetch - main [MainThread]: End processing [django-cachalot]: success
+[2023-07-21 11:56:58] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-21 11:56:58] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-21 11:56:58] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-21 11:56:58] INFO root fetch - processPackages [vaex-core]: executing diffoscope
+[2023-07-21 11:56:58] INFO root fetch - processPackages [vaex-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaex-core-4.9.2.tar.gz tmp/vaex-core-5.0.0a1.tar.gz --markdown 20230721/v/vaex-core/4.9.2-5.0.0a1/diff.md --exclude *.pyd
+[2023-07-21 11:57:29] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.8.tar.gz]
+[2023-07-21 11:57:29] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
+[2023-07-21 11:57:29] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2023-07-21 11:57:38] INFO root fetch - processPackages [vaex-core]: Remove: archive file [/home/abi/fetcher/tmp/vaex-core-4.9.2.tar.gz]
+[2023-07-21 11:57:38] INFO root fetch - processPackages [vaex-core]: Remove: archive file [/home/abi/fetcher/tmp/vaex-core-5.0.0a1.tar.gz]
+[2023-07-21 11:57:38] INFO root fetch - main [MainThread]: End processing [vaex-core]: success
+[2023-07-21 11:57:38] INFO root fetch - main [MainThread]: Store serial: [18981130]
