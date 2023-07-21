@@ -19727,3 +19727,129 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:03:33] INFO root fetch - processPackages [vaex-core]: Remove: archive file [/home/abi/fetcher/tmp/vaex-core-5.0.0a1.tar.gz]
 [2023-07-21 12:03:33] INFO root fetch - main [MainThread]: End processing [vaex-core]: success
 [2023-07-21 12:03:33] INFO root fetch - main [MainThread]: Store serial: [18981174]
+[2023-07-21 12:08:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981174]
+[2023-07-21 12:08:41] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frontengine
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cli
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dl2050utils
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-peer-connection
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dm-reverb-nightly
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfibaro
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CF-1609
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spade-norms
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Giraffe-View
+[2023-07-21 12:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-order-revision
+[2023-07-21 12:08:42] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [spade-norms]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-21 12:08:42] WARNING root fetch - processPackages [CF-1609]: Skipping, unable to determine old version
+[2023-07-21 12:08:42] INFO root fetch - processPackages [CF-1609]: Start processing: odoo-addon-l10n-it-sdi-channel
+[2023-07-21 12:08:42] INFO root fetch - main [MainThread]: End processing [CF-1609] error
+[2023-07-21 12:08:42] INFO root fetch - processPackages [Giraffe-View]: New version: [0.0.9.3] Old Version: [0.0.9.2]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [pyfibaro]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [gs-peer-connection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:08:42] WARNING root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: Skipping, unable to determine old version
+[2023-07-21 12:08:42] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: Start processing: titan-iris
+[2023-07-21 12:08:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-sdi-channel] error
+[2023-07-21 12:08:42] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/ef/92/a219db7b2cc9d537059edd628e35c744fa7227844b7e36611d8f0bd3b283/Giraffe_View-0.0.9.2.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-21 12:08:42] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/2e/ca/711d908e2a1161857fcc2560afcc3ee603338cf541db7a3f6ced58ae212b/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-21 12:08:42] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [spade-norms]: Downloading https://files.pythonhosted.org/packages/52/ee/b113d8d931f9cedc13594eb782f0aa6c775e834d5ffa69ca03309b7da823/spade_norms-0.1.0.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [pyfibaro]: Downloading https://files.pythonhosted.org/packages/88/52/9f03fb8659d958bde3f96885f95c6db5f682999bf0225480028299acb7d1/pyfibaro-0.7.1.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/2b/f2/2fad48c1e8beffe0dcfbe560081f9686682cf52ef15bd8c1ca2f4ef6b33a/gs-peer-connection-0.0.8.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-21 12:08:42] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/87/9e/d098d3aaa846417bbd9acabc30ea73f3b87f47a355dffb5db6e04392bc76/Giraffe_View-0.0.9.3.tar.gz
+[2023-07-21 12:08:42] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/91/f9/cac9e28408c12a5843c8814259047506ed2e36fe81666601e43e0d3f8216/odoo_addon_sale_order_revision-16.0.1.0.1-py3-none-any.whl
+[2023-07-21 12:08:43] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.0.9.2.tar.gz tmp/Giraffe_View-0.0.9.3.tar.gz --markdown 20230721/G/Giraffe-View/0.0.9.2-0.0.9.3/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-07-21 12:08:43] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-21 12:08:43] INFO root fetch - processPackages [pyfibaro]: Downloading https://files.pythonhosted.org/packages/d4/ee/608a9e256a997bac5267eca5eb004431f9e4369c866eb42ae1ab45a0288c/pyfibaro-0.7.2.tar.gz
+[2023-07-21 12:08:43] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/e9/3a/a4f33a77bfb1c126891781631ab489faaa57e9730c21f81fa0ce8178474e/gs-peer-connection-0.0.9.tar.gz
+[2023-07-21 12:08:43] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_revision-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-sale-order-revision/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-21 12:08:43] INFO root fetch - processPackages [spade-norms]: Downloading https://files.pythonhosted.org/packages/cc/d8/53b03c453ee75874f700b9a1ce7faa8420e6fd2c18849ef6dff26ab52acc/spade_norms-0.1.1.tar.gz
+[2023-07-21 12:08:43] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-21 12:08:43] INFO root fetch - processPackages [pyfibaro]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [pyfibaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfibaro-0.7.1.tar.gz tmp/pyfibaro-0.7.2.tar.gz --markdown 20230721/p/pyfibaro/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [spade-norms]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [spade-norms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spade_norms-0.1.0.tar.gz tmp/spade_norms-0.1.1.tar.gz --markdown 20230721/s/spade-norms/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230721/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [gs-peer-connection]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [gs-peer-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-peer-connection-0.0.8.tar.gz tmp/gs-peer-connection-0.0.9.tar.gz --markdown 20230721/g/gs-peer-connection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-21 12:08:43] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230721/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230721/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230721/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-21 12:08:43] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-21 12:08:43] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230721/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-21 12:08:44] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.2.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.3.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [Giraffe-View]: Start processing: pgsqlx
+[2023-07-21 12:08:44] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2023-07-21 12:08:44] INFO root fetch - processPackages [pgsqlx]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_revision-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Start processing: tlgateway
+[2023-07-21 12:08:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-revision]: success
+[2023-07-21 12:08:44] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.8.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.9.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [gs-peer-connection]: Start processing: mysqlx
+[2023-07-21 12:08:44] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
+[2023-07-21 12:08:44] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/bc/3a/8b875c881edf91a0909e224033f2ac2ade98bddc54c6af290542fd6b5155/pgsqlx-1.0.8.tar.gz
+[2023-07-21 12:08:44] INFO root fetch - processPackages [pyfibaro]: Remove: archive file [/home/abi/fetcher/tmp/pyfibaro-0.7.1.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [pyfibaro]: Remove: archive file [/home/abi/fetcher/tmp/pyfibaro-0.7.2.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - main [MainThread]: End processing [pyfibaro]: success
+[2023-07-21 12:08:44] INFO root fetch - processPackages [spade-norms]: Remove: archive file [/home/abi/fetcher/tmp/spade_norms-0.1.0.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - processPackages [spade-norms]: Remove: archive file [/home/abi/fetcher/tmp/spade_norms-0.1.1.tar.gz]
+[2023-07-21 12:08:44] INFO root fetch - main [MainThread]: End processing [spade-norms]: success
+[2023-07-21 12:08:44] INFO root fetch - processPackages [mysqlx]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-21 12:08:45] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-07-21 12:08:45] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-21 12:08:45] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-07-21 12:08:45] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/ae/6f/bc4cb06bff4954d45dbcbdbe048c9f1d54678ee7ac3791034facce225caf/pgsqlx-1.0.9.tar.gz
+[2023-07-21 12:08:45] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/25/92/5df828ae5d88b419ba55b6e8b322aa83357806a000b2a01e0fe8ef8e3578/mysqlx-1.5.6.tar.gz
+[2023-07-21 12:08:45] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-21 12:08:45] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-21 12:08:45] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-21 12:08:45] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-07-21 12:08:45] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-21 12:08:45] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.8.tar.gz tmp/pgsqlx-1.0.9.tar.gz --markdown 20230721/p/pgsqlx/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:08:45] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/f5/78/fc40aaaf2733d0cd16b9a30d423368c02fa70f1909215761d3b5ff1c1fff/mysqlx-1.5.7.tar.gz
+[2023-07-21 12:08:45] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-07-21 12:08:45] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230721/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 12:08:45] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-21 12:08:45] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.6.tar.gz tmp/mysqlx-1.5.7.tar.gz --markdown 20230721/m/mysqlx/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-21 12:08:46] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.8.tar.gz]
+[2023-07-21 12:08:46] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.9.tar.gz]
+[2023-07-21 12:08:46] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-21 12:08:46] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-07-21 12:08:46] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-07-21 12:08:46] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-07-21 12:08:46] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.6.tar.gz]
+[2023-07-21 12:08:46] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.7.tar.gz]
+[2023-07-21 12:08:46] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-21 12:09:16] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-21 12:09:16] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-21 12:09:16] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-21 12:09:16] INFO root fetch - main [MainThread]: Store serial: [18981219]
