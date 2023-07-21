@@ -16342,3 +16342,78 @@
 [2023-07-21 09:31:49] INFO root fetch - processPackages [blis]: Remove: archive file [/home/abi/fetcher/tmp/blis-0.9.1.dev1.tar.gz]
 [2023-07-21 09:31:49] INFO root fetch - main [MainThread]: End processing [blis]: success
 [2023-07-21 09:31:49] INFO root fetch - main [MainThread]: Store serial: [18979821]
+[2023-07-21 09:36:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979821]
+[2023-07-21 09:36:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rolumns
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-readme
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-dlc-connector
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planqk-quantum
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libtimed
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyprocessors-generative_augmenter
+[2023-07-21 09:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: magentic
+[2023-07-21 09:36:59] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: New version: [0.5.9] Old Version: [0.5.19]
+[2023-07-21 09:36:59] INFO root fetch - processPackages [rolumns]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-21 09:36:59] INFO root fetch - processPackages [hyfi]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-21 09:36:59] INFO root fetch - processPackages [tencentcloud-dlc-connector]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-21 09:36:59] INFO root fetch - processPackages [libtimed]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-21 09:36:59] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-21 09:36:59] INFO root fetch - processPackages [sphinx-readme]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-21 09:37:00] INFO root fetch - processPackages [magentic]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 09:37:00] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/fd/ca/c1cd970622c77bebcd0ac1388f2a12615c769d70f98727f40e05bfaf69f5/hyfi-1.4.0.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/6f/ac/a014d4c607a6be9288838e605e288b707022b479bc04a1829c9dff6bfd1e/pyprocessors_generative_augmenter-0.5.19.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/a2/a5/7ca532389c6b7640735bbd6f31a1f7d2b616fb00272ccd3de6481163e604/sphinx-readme-0.0.2.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [rolumns]: Downloading https://files.pythonhosted.org/packages/ed/39/3071b30d89054ef79c0c6e8b25501eb2140ac3067e9072b70b8c2424c5e3/rolumns-1.1.1-py3-none-any.whl
+[2023-07-21 09:37:00] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/4e/8e/da4c8217091301430dd8dfa0a4c3d86d87da2c92d8482417b3ec60868f41/libtimed-0.2.1.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [tencentcloud-dlc-connector]: Downloading https://files.pythonhosted.org/packages/59/e0/0d1d6bfc1777a80a96974a94a52e98234a7c86cbd13f7e5268f0ca1c9570/tencentcloud-dlc-connector-1.0.4.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/9c/5c/824aa684504100e01280ff226075452998c38f2745e8e20a22897c29c941/magentic-0.1.1.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/f8/6f/43e9efc6c4724e2044d73bd5226227a764d99c5ad534ecaf7649a40b4ce2/hyfi-1.5.0.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/67/94/498fbf091c284ca05e11f61b9eb4f2c17620954132dedceb96018eb9edd2/pyprocessors-generative_augmenter-0.5.9.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/92/4d/9226b4ee171d93cc5f6c4937572b63d4ef78026b7611577a452521144804/sphinx-readme-0.1.0.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-21 09:37:00] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230721/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-21 09:37:00] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: executing diffoscope
+[2023-07-21 09:37:00] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_generative_augmenter-0.5.19.tar.gz tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz --markdown 20230721/p/pyprocessors-generative_augmenter/0.5.19-0.5.9/diff.md --exclude *.pyd
+[2023-07-21 09:37:00] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-21 09:37:00] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.4.0.tar.gz tmp/hyfi-1.5.0.tar.gz --markdown 20230721/h/hyfi/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-21 09:37:00] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-21 09:37:00] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.0.2.tar.gz tmp/sphinx-readme-0.1.0.tar.gz --markdown 20230721/s/sphinx-readme/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 09:37:00] INFO root fetch - processPackages [rolumns]: Downloading https://files.pythonhosted.org/packages/c4/d9/37f98c19cc990af87b48e26656dcb213a8928456dad003f8d7f1325dd17f/rolumns-1.2.0-py3-none-any.whl
+[2023-07-21 09:37:00] INFO root fetch - processPackages [tencentcloud-dlc-connector]: Downloading https://files.pythonhosted.org/packages/07/cf/59810c733322593aefb39c8d48b8ab14a4af85d8cadba7e8d1af6fae245b/tencentcloud-dlc-connector-1.0.5.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/b1/53/a8cc0a94bb0831f43cfb31fec9d9be44fb9114113dfe6cf8f7e684e2f933/libtimed-0.3.0.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/d9/45/756d08847c40fb1b027d8728f2bfbc2e8eea8a9d0a07feb5e9b20e16372f/magentic-0.1.2.tar.gz
+[2023-07-21 09:37:00] INFO root fetch - processPackages [rolumns]: executing diffoscope
+[2023-07-21 09:37:00] INFO root fetch - processPackages [rolumns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rolumns-1.1.1-py3-none-any.whl.zip tmp/rolumns-1.2.0-py3-none-any.whl.zip --markdown 20230721/r/rolumns/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-21 09:37:00] INFO root fetch - processPackages [tencentcloud-dlc-connector]: executing diffoscope
+[2023-07-21 09:37:00] INFO root fetch - processPackages [tencentcloud-dlc-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-dlc-connector-1.0.4.tar.gz tmp/tencentcloud-dlc-connector-1.0.5.tar.gz --markdown 20230721/t/tencentcloud-dlc-connector/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-21 09:37:00] INFO root fetch - processPackages [libtimed]: executing diffoscope
+[2023-07-21 09:37:00] INFO root fetch - processPackages [libtimed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtimed-0.2.1.tar.gz tmp/libtimed-0.3.0.tar.gz --markdown 20230721/l/libtimed/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-21 09:37:01] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2023-07-21 09:37:01] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.1.1.tar.gz tmp/magentic-0.1.2.tar.gz --markdown 20230721/m/magentic/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 09:37:01] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_generative_augmenter-0.5.19.tar.gz]
+[2023-07-21 09:37:01] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz]
+[2023-07-21 09:37:01] INFO root fetch - main [MainThread]: End processing [pyprocessors-generative_augmenter]: success
+[2023-07-21 09:37:02] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-21 09:37:02] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.2.1.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.3.0.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [libtimed]: success
+[2023-07-21 09:37:02] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.4.0.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.5.0.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-21 09:37:02] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.2.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.1.0.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-21 09:37:02] INFO root fetch - processPackages [rolumns]: Remove: archive file [/home/abi/fetcher/tmp/rolumns-1.1.1-py3-none-any.whl.zip]
+[2023-07-21 09:37:02] INFO root fetch - processPackages [rolumns]: Remove: archive file [/home/abi/fetcher/tmp/rolumns-1.2.0-py3-none-any.whl.zip]
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [rolumns]: success
+[2023-07-21 09:37:02] INFO root fetch - processPackages [tencentcloud-dlc-connector]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-connector-1.0.4.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - processPackages [tencentcloud-dlc-connector]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-connector-1.0.5.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-dlc-connector]: success
+[2023-07-21 09:37:02] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.1.1.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.1.2.tar.gz]
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2023-07-21 09:37:02] INFO root fetch - main [MainThread]: Store serial: [18979846]
