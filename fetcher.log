@@ -17531,3 +17531,92 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 10:30:48] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
 [2023-07-21 10:30:48] INFO root fetch - main [MainThread]: End processing [je-editor]: success
 [2023-07-21 10:30:48] INFO root fetch - main [MainThread]: Store serial: [18980272]
+[2023-07-21 10:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980272]
+[2023-07-21 10:35:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dysgu
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mariqt
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bestnlp
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pip-inside
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nweb
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openxlab
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: su6
+[2023-07-21 10:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: htscf
+[2023-07-21 10:35:57] INFO root fetch - processPackages [pip-inside]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 10:35:57] INFO root fetch - processPackages [mariqt]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-21 10:35:57] INFO root fetch - processPackages [openxlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:35:57] INFO root fetch - processPackages [openllm]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-21 10:35:57] WARNING root fetch - processPackages [nweb]: Skipping, unable to determine old version
+[2023-07-21 10:35:57] INFO root fetch - processPackages [nweb]: Start processing: code-fmt-tools
+[2023-07-21 10:35:57] INFO root fetch - main [MainThread]: End processing [nweb] error
+[2023-07-21 10:35:57] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:35:57] WARNING root fetch - processPackages [bestnlp]: Skipping, unable to determine old version
+[2023-07-21 10:35:57] INFO root fetch - processPackages [dysgu]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-07-21 10:35:57] INFO root fetch - processPackages [bestnlp]: Start processing: metapensiero.sphinx.patchdb
+[2023-07-21 10:35:57] INFO root fetch - main [MainThread]: End processing [bestnlp] error
+[2023-07-21 10:35:58] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-21 10:35:58] INFO root fetch - processPackages [su6]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-21 10:35:58] WARNING root fetch - processPackages [code-fmt-tools]: Skipping, unable to determine old version
+[2023-07-21 10:35:58] INFO root fetch - main [MainThread]: End processing [code-fmt-tools] error
+[2023-07-21 10:35:58] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: New version: [4.0.dev6] Old Version: [4.0.dev5]
+[2023-07-21 10:35:58] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/5b/f3/d11aad3265589a7735f71784f7cd53de4d3ab25f8e53427eec66a653b070/mariqt-0.5.5-py2.py3-none-any.whl
+[2023-07-21 10:35:58] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/d3/cc/9bb6c9f2e1c4e2f7965ffe44c641d8e763c9edbf489228ff87fc220fd19e/pip-inside-0.1.8.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [dysgu]: Downloading https://files.pythonhosted.org/packages/d5/c0/5d2c9f9497c00639d7debb3447516a64e8317676dd4a26fe66e1b5424819/dysgu-1.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 10:35:58] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/83/b7/458082acc87ae1ab380da0a8e547886a6f3214259893021141c71b9e7e61/openllm-0.2.3.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/bd/26/0783cf9499d40b70107b4d599167fb0962f84e9adc89d979a1fbcfeac0fa/su6-1.6.3.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Downloading https://files.pythonhosted.org/packages/5c/6a/a71542d7c071990016aea011f1bf338b2cff20a3120006d479bc67faf523/metapensiero.sphinx.patchdb-4.0.dev5.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-21 10:35:58] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230721/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:35:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/29/fc/88932782195077adcdd8316b58de27f3be03ec79b025e258c65b09e6a5ec/mariqt-0.5.6-py2.py3-none-any.whl
+[2023-07-21 10:35:58] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-21 10:35:58] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230721/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-21 10:35:58] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/de/fd/ae548f7e6d9157bef42c34242bca6f003904d61f74ca61b82f8e00cf4a62/openllm-0.2.4.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [mariqt]: executing diffoscope
+[2023-07-21 10:35:58] INFO root fetch - processPackages [mariqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt-0.5.5-py2.py3-none-any.whl.zip tmp/mariqt-0.5.6-py2.py3-none-any.whl.zip --markdown 20230721/m/mariqt/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-21 10:35:58] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/03/29/8da5b4e43dd72f20de380f015a3da26ad5d6903ca91d52f6707e3fff7ee9/pip-inside-0.1.9.tar.gz
+[2023-07-21 10:35:58] WARNING root fetch - processPackages [dysgu]: Skipping package: exceeds size limit 25684764>=10485760
+[2023-07-21 10:35:58] INFO root fetch - main [MainThread]: End processing [dysgu] error
+[2023-07-21 10:35:58] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-07-21 10:35:58] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.3.tar.gz tmp/openllm-0.2.4.tar.gz --markdown 20230721/o/openllm/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-21 10:35:58] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Downloading https://files.pythonhosted.org/packages/ff/ab/b7bb39d8061e7944efbdcf7fed99f97398a06791f727f8cd7380889b7e2c/metapensiero.sphinx.patchdb-4.0.dev6.tar.gz
+[2023-07-21 10:35:58] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/27/d3/4e377cb984937ef51efcbc1a179f0c194fc310fb037b82e691d98da5e471/su6-1.6.4.tar.gz
+[2023-07-21 10:35:59] INFO root fetch - processPackages [pip-inside]: executing diffoscope
+[2023-07-21 10:35:59] INFO root fetch - processPackages [pip-inside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-inside-0.1.8.tar.gz tmp/pip-inside-0.1.9.tar.gz --markdown 20230721/p/pip-inside/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 10:35:59] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: executing diffoscope
+[2023-07-21 10:35:59] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metapensiero.sphinx.patchdb-4.0.dev5.tar.gz tmp/metapensiero.sphinx.patchdb-4.0.dev6.tar.gz --markdown 20230721/m/metapensiero.sphinx.patchdb/4.0.dev5-4.0.dev6/diff.md --exclude *.pyd
+[2023-07-21 10:35:59] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-07-21 10:35:59] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.6.3.tar.gz tmp/su6-1.6.4.tar.gz --markdown 20230721/s/su6/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-21 10:35:59] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2023-07-21 10:35:59] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-07-21 10:35:59] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.8.tar.gz tmp/openxlab-0.0.9.tar.gz --markdown 20230721/o/openxlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:35:59] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-21 10:35:59] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-21 10:35:59] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-21 10:36:00] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.5-py2.py3-none-any.whl.zip]
+[2023-07-21 10:36:00] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.6-py2.py3-none-any.whl.zip]
+[2023-07-21 10:36:00] INFO root fetch - main [MainThread]: End processing [mariqt]: success
+[2023-07-21 10:36:00] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.8.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.9.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - main [MainThread]: End processing [pip-inside]: success
+[2023-07-21 10:36:00] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-21 10:36:00] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Remove: archive file [/home/abi/fetcher/tmp/metapensiero.sphinx.patchdb-4.0.dev5.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Remove: archive file [/home/abi/fetcher/tmp/metapensiero.sphinx.patchdb-4.0.dev6.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - main [MainThread]: End processing [metapensiero.sphinx.patchdb]: success
+[2023-07-21 10:36:00] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.8.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.9.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-07-21 10:36:00] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.3.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.4.tar.gz]
+[2023-07-21 10:36:00] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-07-21 10:36:09] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.3.tar.gz]
+[2023-07-21 10:36:09] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.4.tar.gz]
+[2023-07-21 10:36:09] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-07-21 10:36:09] INFO root fetch - main [MainThread]: Store serial: [18980334]
