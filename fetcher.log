@@ -10843,3 +10843,94 @@
 [2023-07-21 04:27:46] INFO root fetch - processPackages [stereosite]: Remove: archive file [/home/abi/fetcher/tmp/stereosite-1.0.4.tar.gz]
 [2023-07-21 04:27:46] INFO root fetch - main [MainThread]: End processing [stereosite]: success
 [2023-07-21 04:27:46] INFO root fetch - main [MainThread]: Store serial: [18977728]
+[2023-07-21 04:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977728]
+[2023-07-21 04:32:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-circular-progress
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vf-flags
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quao
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcmd
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-circular-progress
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mtmtool
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipc-worker
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyfi
+[2023-07-21 04:32:54] INFO root fetch - processPackages [vf-flags]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [st-circular-progress]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230721] Old Version: [1.2.20230720]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [st-circular-progress]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [bcmd]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [hyfi]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [ipc-worker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 04:32:54] INFO root fetch - processPackages [mtmtool]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-21 04:32:55] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/06/46/dd5b79aebc36cd2718895285dff9eccd0a085e5397cc17e08cd75c1188cf/st_circular_progress-0.2.5.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/06/46/dd5b79aebc36cd2718895285dff9eccd0a085e5397cc17e08cd75c1188cf/st_circular_progress-0.2.5.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/2f/a6/ac0e79cee1fde4a86d4d0ced13d11f28cce6fe2c2bc006d57b0322b19a17/bcmd-0.0.1.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [vf-flags]: Downloading https://files.pythonhosted.org/packages/64/d2/b234baa6e4f4665b6dc1927442642c13134cde695ab5fca1c482727fe66e/vf-flags-0.2.3.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/75/fd/70cde87cb04807b600a36c37b2b7e9c6f1f9ae04bebfab563e37c18bebe0/iam_actions-1.2.20230720.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/b6/1b/4cd391a82c66aae89c1d9a8a9f3ac2bc6a13be6155b939d53b2bcb245946/hyfi-1.3.1.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/95/a6/aa5865ff23641f3a39d922f52996547a3b4907d1b73726581249fec68ffc/mtmtool-1.2.8.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/dc/d0/e7ffca827f728ce00fa2fadde8662e61f3a5673ea48298f919f2fcdb2e23/ipc_worker-0.0.8-py3-none-any.whl
+[2023-07-21 04:32:55] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/45/7b/133c2400e7c7bd4428e4d543a44c2fae3f66a2ba77499625be92082e6906/st_circular_progress-0.2.6.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/45/7b/133c2400e7c7bd4428e4d543a44c2fae3f66a2ba77499625be92082e6906/st_circular_progress-0.2.6.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/84/31/bdef3cc43053d31533fc2353ba5e8f91241f54bbf2096c4368661f174db0/bcmd-0.0.2.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/fd/ca/c1cd970622c77bebcd0ac1388f2a12615c769d70f98727f40e05bfaf69f5/hyfi-1.4.0.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-21 04:32:55] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230721/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-21 04:32:55] INFO root fetch - processPackages [vf-flags]: Downloading https://files.pythonhosted.org/packages/72/65/657fedf87701f8aef686f7218a87baad597420c811864fdc1c652617d2cd/vf-flags-0.2.4.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/a3/34/2653727d400706666179ea3755b1c2f1468c55321a58c4686dd09df0788b/iam_actions-1.2.20230721.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/d4/ed/60b45a1dcc5ad753b89251e6c897a9d8e542e7fd3df3faef4a8262f0996d/mtmtool-1.2.9.tar.gz
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.2.5.tar.gz tmp/st_circular_progress-0.2.6.tar.gz --markdown 20230721/s/st-circular-progress/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 04:32:55] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.2.5.tar.gz tmp/st_circular_progress-0.2.6.tar.gz --markdown 20230721/s/st-circular-progress/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-21 04:32:56] INFO root fetch - processPackages [vf-flags]: executing diffoscope
+[2023-07-21 04:32:56] INFO root fetch - processPackages [vf-flags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vf-flags-0.2.3.tar.gz tmp/vf-flags-0.2.4.tar.gz --markdown 20230721/v/vf-flags/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-21 04:32:56] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-21 04:32:56] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.1.tar.gz tmp/bcmd-0.0.2.tar.gz --markdown 20230721/b/bcmd/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 04:32:56] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-21 04:32:56] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.3.1.tar.gz tmp/hyfi-1.4.0.tar.gz --markdown 20230721/h/hyfi/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:32:56] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-07-21 04:32:56] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.2.8.tar.gz tmp/mtmtool-1.2.9.tar.gz --markdown 20230721/m/mtmtool/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-21 04:32:56] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-21 04:32:56] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-21 04:32:56] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230720.tar.gz tmp/iam_actions-1.2.20230721.tar.gz --markdown 20230721/i/iam-actions/1.2.20230720-1.2.20230721/diff.md --exclude *.pyd
+[2023-07-21 04:32:56] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-21 04:32:56] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230721/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-21 04:32:56] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/24/2a/e820f8e6e4b69f029d773ec6775f9a54e5178c2b7cf2f633a3a4e7f8599f/ipc_worker-0.0.9-py3-none-any.whl
+[2023-07-21 04:32:56] INFO root fetch - processPackages [ipc-worker]: executing diffoscope
+[2023-07-21 04:32:56] INFO root fetch - processPackages [ipc-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipc_worker-0.0.8-py3-none-any.whl.zip tmp/ipc_worker-0.0.9-py3-none-any.whl.zip --markdown 20230721/i/ipc-worker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 04:32:57] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-21 04:32:57] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.1.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.2.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-21 04:32:57] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.5.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.6.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 04:32:57] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.8.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.9.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-07-21 04:32:57] INFO root fetch - processPackages [vf-flags]: Remove: archive file [/home/abi/fetcher/tmp/vf-flags-0.2.3.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - processPackages [vf-flags]: Remove: archive file [/home/abi/fetcher/tmp/vf-flags-0.2.4.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [vf-flags]: success
+[2023-07-21 04:32:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.3.1.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.4.0.tar.gz]
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-21 04:32:57] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.8-py3-none-any.whl.zip]
+[2023-07-21 04:32:57] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.9-py3-none-any.whl.zip]
+[2023-07-21 04:32:57] INFO root fetch - main [MainThread]: End processing [ipc-worker]: success
+[2023-07-21 04:32:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-21 04:32:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-21 04:32:59] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-21 04:33:01] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230720.tar.gz]
+[2023-07-21 04:33:01] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230721.tar.gz]
+[2023-07-21 04:33:01] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-21 04:33:01] INFO root fetch - main [MainThread]: Store serial: [18977761]
