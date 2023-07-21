@@ -16417,3 +16417,111 @@
 [2023-07-21 09:37:02] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.1.2.tar.gz]
 [2023-07-21 09:37:02] INFO root fetch - main [MainThread]: End processing [magentic]: success
 [2023-07-21 09:37:02] INFO root fetch - main [MainThread]: Store serial: [18979846]
+[2023-07-21 09:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979846]
+[2023-07-21 09:42:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shakecore
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-villa
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-go-goose
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quao
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyromb
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gcloud-storage-manager
+[2023-07-21 09:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydwf
+[2023-07-21 09:42:12] WARNING root fetch - processPackages [shakecore]: Skipping, unable to determine old version
+[2023-07-21 09:42:12] INFO root fetch - processPackages [shakecore]: Start processing: adbench
+[2023-07-21 09:42:12] INFO root fetch - main [MainThread]: End processing [shakecore] error
+[2023-07-21 09:42:12] INFO root fetch - processPackages [gcloud-storage-manager]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.6.2] Old Version: [0.6.1.post1]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [pydwf]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-21 09:42:12] WARNING root fetch - processPackages [pyromb]: Skipping, unable to determine old version
+[2023-07-21 09:42:12] INFO root fetch - processPackages [pyromb]: Start processing: embedchain
+[2023-07-21 09:42:12] INFO root fetch - main [MainThread]: End processing [pyromb] error
+[2023-07-21 09:42:12] INFO root fetch - processPackages [py-go-goose]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [adbench]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 09:42:12] INFO root fetch - processPackages [gcloud-storage-manager]: Downloading https://files.pythonhosted.org/packages/38/fb/5e1c3fcca879cdcb7cb21d26d5fa967d7db75eea070daebe00f9752d940c/gcloud-storage-manager-0.1.2.tar.gz
+[2023-07-21 09:42:12] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/e8/e3/73515590306773b7ff8aa4dd4d91bb1bda59a7baf3a154ee1c08445e7940/pydwf-1.1.8.tar.gz
+[2023-07-21 09:42:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-21 09:42:12] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-21 09:42:12] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-21 09:42:12] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/06/ff/2f46b6febaa1e37bea50bff93a82875cedc653e3f9b98f9328d56728ef7d/nonebot_adapter_villa-0.6.1.post1.tar.gz
+[2023-07-21 09:42:12] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-21 09:42:12] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/52/9d/92a5f7704bce5aabd939f354ad1cf54064df0723a79af54afa3c2ce4e2f8/py_go_goose-1.4.4-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-21 09:42:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-21 09:42:13] INFO root fetch - processPackages [adbench]: Downloading https://files.pythonhosted.org/packages/5d/00/ef26fcb8f9e7e192222a460842cc9baeba607ed07d9df49a2b54f4f87639/adbench-0.1.5.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [gcloud-storage-manager]: Downloading https://files.pythonhosted.org/packages/a2/0a/4d6800544c92e5ca70c74d2b03c40729885dc17146a2e4aaff0d9f3ef0f2/gcloud-storage-manager-0.2.0.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/67/3e/3016924738f72222ef2d180b3af5f2d90bccd528cb2f401fa820c374309e/nonebot_adapter_villa-0.6.2.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230721/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-21 09:42:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230721/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-21 09:42:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-21 09:42:13] INFO root fetch - processPackages [adbench]: Downloading https://files.pythonhosted.org/packages/cf/58/494ffbdf749c381a9b473b0e3ccdd48f3c8aa1a05ef8dd3f4a5bf0b5dc57/adbench-0.1.6.tar.gz
+[2023-07-21 09:42:13] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230721/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 09:42:13] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.6.1.post1.tar.gz tmp/nonebot_adapter_villa-0.6.2.tar.gz --markdown 20230721/n/nonebot-adapter-villa/0.6.1.post1-0.6.2/diff.md --exclude *.pyd
+[2023-07-21 09:42:13] INFO root fetch - processPackages [gcloud-storage-manager]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [gcloud-storage-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud-storage-manager-0.1.2.tar.gz tmp/gcloud-storage-manager-0.2.0.tar.gz --markdown 20230721/g/gcloud-storage-manager/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-21 09:42:13] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230721/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-21 09:42:13] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230721/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-21 09:42:13] INFO root fetch - processPackages [adbench]: executing diffoscope
+[2023-07-21 09:42:13] INFO root fetch - processPackages [adbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbench-0.1.5.tar.gz tmp/adbench-0.1.6.tar.gz --markdown 20230721/a/adbench/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-21 09:42:14] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/6e/f1/2b79d7fbefbf0638d5772de9815bcb26d082e396cbe4bca9f92beb5bd26d/py_go_goose-1.4.5-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-21 09:42:14] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-21 09:42:14] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.4.4-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/py_go_goose-1.4.5-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230721/p/py-go-goose/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-21 09:42:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: pyprocessors-generative_augmenter
+[2023-07-21 09:42:15] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-21 09:42:15] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-21 09:42:15] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: New version: [0.5.9] Old Version: [0.5.21]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [gcloud-storage-manager]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-storage-manager-0.1.2.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [gcloud-storage-manager]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-storage-manager-0.2.0.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - main [MainThread]: End processing [gcloud-storage-manager]: success
+[2023-07-21 09:42:15] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-21 09:42:15] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.1.post1.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.2.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-21 09:42:15] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/5c/f1/b7a860d105591e34a987da0050c47b20fb3190c5c44f97ea09d16a8600a5/pyprocessors_generative_augmenter-0.5.21.tar.gz
+[2023-07-21 09:42:15] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/6a/11/6ca4e12095cf52c2729e4560fcc38174c6f183c36a37af626d803293293f/pydwf-1.1.9.tar.gz
+[2023-07-21 09:42:15] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/67/94/498fbf091c284ca05e11f61b9eb4f2c17620954132dedceb96018eb9edd2/pyprocessors-generative_augmenter-0.5.9.tar.gz
+[2023-07-21 09:42:15] INFO root fetch - processPackages [adbench]: Remove: archive file [/home/abi/fetcher/tmp/adbench-0.1.5.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - processPackages [adbench]: Remove: archive file [/home/abi/fetcher/tmp/adbench-0.1.6.tar.gz]
+[2023-07-21 09:42:15] INFO root fetch - main [MainThread]: End processing [adbench]: success
+[2023-07-21 09:42:15] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: executing diffoscope
+[2023-07-21 09:42:15] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_generative_augmenter-0.5.21.tar.gz tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz --markdown 20230721/p/pyprocessors-generative_augmenter/0.5.21-0.5.9/diff.md --exclude *.pyd
+[2023-07-21 09:42:16] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_generative_augmenter-0.5.21.tar.gz]
+[2023-07-21 09:42:16] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz]
+[2023-07-21 09:42:16] INFO root fetch - main [MainThread]: End processing [pyprocessors-generative_augmenter]: success
+[2023-07-21 09:42:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-21 09:42:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-21 09:42:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-21 09:42:17] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-21 09:42:17] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-21 09:42:17] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-21 09:42:18] INFO root fetch - processPackages [pydwf]: executing diffoscope
+[2023-07-21 09:42:18] INFO root fetch - processPackages [pydwf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwf-1.1.8.tar.gz tmp/pydwf-1.1.9.tar.gz --markdown 20230721/p/pydwf/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-21 09:42:20] INFO root fetch - processPackages [pydwf]: Remove: archive file [/home/abi/fetcher/tmp/pydwf-1.1.8.tar.gz]
+[2023-07-21 09:42:20] INFO root fetch - processPackages [pydwf]: Remove: archive file [/home/abi/fetcher/tmp/pydwf-1.1.9.tar.gz]
+[2023-07-21 09:42:20] INFO root fetch - main [MainThread]: End processing [pydwf]: success
+[2023-07-21 09:42:20] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.4-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-21 09:42:20] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.5-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-21 09:42:20] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-21 09:42:20] INFO root fetch - main [MainThread]: Store serial: [18979891]
