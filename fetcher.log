@@ -10694,3 +10694,68 @@
 [2023-07-21 04:17:18] INFO root fetch - processPackages [pxgpt]: Remove: archive file [/home/abi/fetcher/tmp/pxgpt-0.0.0rc1.tar.gz]
 [2023-07-21 04:17:18] INFO root fetch - main [MainThread]: End processing [pxgpt]: success
 [2023-07-21 04:17:18] INFO root fetch - main [MainThread]: Store serial: [18977658]
+[2023-07-21 04:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977658]
+[2023-07-21 04:22:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-parser-app
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-user-registration-app
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-website-app
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ray-cpp
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcli-core
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-circular-progress
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-xmodules
+[2023-07-21 04:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bcmd
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-parser-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-user-registration-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:22:29] INFO root fetch - processPackages [st-circular-progress]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-21 04:22:29] INFO root fetch - processPackages [ray-cpp]: New version: [2.6.0] Old Version: [2.5.1]
+[2023-07-21 04:22:29] INFO root fetch - processPackages [hcli-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-website-app]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 04:22:29] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 04:22:29] WARNING root fetch - processPackages [bcmd]: Skipping, unable to determine old version
+[2023-07-21 04:22:29] INFO root fetch - main [MainThread]: End processing [bcmd] error
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-parser-app]: Downloading https://files.pythonhosted.org/packages/21/f2/f3e053db995ff59438a3948fe9d77483df57be4691202add00924e3014b2/core_parser_app-2.3.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/a8/24/d72b9a7ff1d9367601be80ad45b41017421dd6029e190197522ad3131b82/st_circular_progress-0.2.1.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-user-registration-app]: Downloading https://files.pythonhosted.org/packages/05/cc/f20d73545cd6d176d0789746d9920648c21c6e21dc269a65f07a26460c98/core_user_registration_app-2.3.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6b/c1/5e085a3c4ac830a12c44fcbc907efc2f7e0fa4ba2b9860331bce714220a6/hcli_core-0.8.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [ray-cpp]: Downloading https://files.pythonhosted.org/packages/fb/2a/eb5954dffa14df4d979d11066674f51649d4bd69f7ef5affa60ba4fd0417/ray_cpp-2.5.1-cp39-cp39-win_amd64.whl
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-website-app]: Downloading https://files.pythonhosted.org/packages/9f/68/c3325670e9dc1a77d49c495db47f4f518556a3910e15d83f97df85026522/core_website_app-2.3.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-21 04:22:29] WARNING root fetch - processPackages [ray-cpp]: Skipping package: exceeds size limit 20579824>=10485760
+[2023-07-21 04:22:29] INFO root fetch - main [MainThread]: End processing [ray-cpp] error
+[2023-07-21 04:22:29] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/82/d4/94fa434c48a48052b0bebfb6280fbd93ee406f0063e54be9fce4d0cb8f56/st_circular_progress-0.2.2.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-parser-app]: Downloading https://files.pythonhosted.org/packages/1c/65/0a39c7cd922d57e4c6eb14c195bb25db2971c096f3d630a300ad03be7a01/core_parser_app-2.4.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 04:22:29] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.2.1.tar.gz tmp/st_circular_progress-0.2.2.tar.gz --markdown 20230721/s/st-circular-progress/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-parser-app]: executing diffoscope
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-parser-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_parser_app-2.3.0.tar.gz tmp/core_parser_app-2.4.0.tar.gz --markdown 20230721/c/core-parser-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-user-registration-app]: Downloading https://files.pythonhosted.org/packages/48/b9/db9c2ae95a9da6dc71100078f22c4e502325fa4d71356256eade547a0d60/core_user_registration_app-2.4.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-website-app]: Downloading https://files.pythonhosted.org/packages/18/82/d816463719b64b1cdf10393ff05bd6aa93a8e811d5d71c97b1edefa8dc40/core_website_app-2.4.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6f/b4/19d468c66cf3eb10188374e2181a4f8d497514ff41a3655bc844c82c229e/hcli_core-0.9.0.tar.gz
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-user-registration-app]: executing diffoscope
+[2023-07-21 04:22:29] INFO root fetch - processPackages [core-user-registration-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_user_registration_app-2.3.0.tar.gz tmp/core_user_registration_app-2.4.0.tar.gz --markdown 20230721/c/core-user-registration-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:22:29] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-21 04:22:30] INFO root fetch - processPackages [core-website-app]: executing diffoscope
+[2023-07-21 04:22:30] INFO root fetch - processPackages [core-website-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_website_app-2.3.0.tar.gz tmp/core_website_app-2.4.0.tar.gz --markdown 20230721/c/core-website-app/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 04:22:30] INFO root fetch - processPackages [hcli-core]: executing diffoscope
+[2023-07-21 04:22:30] INFO root fetch - processPackages [hcli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_core-0.8.0.tar.gz tmp/hcli_core-0.9.0.tar.gz --markdown 20230721/h/hcli-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 04:22:30] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-21 04:22:30] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230721/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 04:22:30] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.1.tar.gz]
+[2023-07-21 04:22:30] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.2.2.tar.gz]
+[2023-07-21 04:22:30] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 04:22:31] INFO root fetch - processPackages [core-parser-app]: Remove: archive file [/home/abi/fetcher/tmp/core_parser_app-2.3.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - processPackages [core-parser-app]: Remove: archive file [/home/abi/fetcher/tmp/core_parser_app-2.4.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - main [MainThread]: End processing [core-parser-app]: success
+[2023-07-21 04:22:31] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.8.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.9.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
+[2023-07-21 04:22:31] INFO root fetch - processPackages [core-website-app]: Remove: archive file [/home/abi/fetcher/tmp/core_website_app-2.3.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - processPackages [core-website-app]: Remove: archive file [/home/abi/fetcher/tmp/core_website_app-2.4.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - main [MainThread]: End processing [core-website-app]: success
+[2023-07-21 04:22:31] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-21 04:22:31] INFO root fetch - processPackages [core-user-registration-app]: Remove: archive file [/home/abi/fetcher/tmp/core_user_registration_app-2.3.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - processPackages [core-user-registration-app]: Remove: archive file [/home/abi/fetcher/tmp/core_user_registration_app-2.4.0.tar.gz]
+[2023-07-21 04:22:31] INFO root fetch - main [MainThread]: End processing [core-user-registration-app]: success
+[2023-07-21 04:22:31] INFO root fetch - main [MainThread]: Store serial: [18977705]
