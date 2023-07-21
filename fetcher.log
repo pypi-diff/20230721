@@ -16525,3 +16525,42 @@
 [2023-07-21 09:42:20] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.5-cp38-cp38-macosx_13_0_arm64.whl.zip]
 [2023-07-21 09:42:20] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
 [2023-07-21 09:42:20] INFO root fetch - main [MainThread]: Store serial: [18979891]
+[2023-07-21 09:47:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979891]
+[2023-07-21 09:47:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-21 09:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: villa
+[2023-07-21 09:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namekoplus
+[2023-07-21 09:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smatchpp
+[2023-07-21 09:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qibojit
+[2023-07-21 09:47:40] INFO root fetch - processPackages [qibojit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 09:47:40] INFO root fetch - processPackages [smatchpp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 09:47:40] INFO root fetch - processPackages [villa]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-21 09:47:40] INFO root fetch - processPackages [namekoplus]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-21 09:47:40] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/e4/f9/2616f76033889127e73a8d136b57e887c6efd76fdddcfbadda6365134cf3/namekoplus-0.2.0.tar.gz
+[2023-07-21 09:47:40] INFO root fetch - processPackages [qibojit]: Downloading https://files.pythonhosted.org/packages/45/ec/0c5661c0fc49a73151b9eac938576d71a3dd8fc34744eca71b49d92dce0b/qibojit-0.0.8.tar.gz
+[2023-07-21 09:47:40] INFO root fetch - processPackages [smatchpp]: Downloading https://files.pythonhosted.org/packages/c6/2b/500161d6bf09927327faedb5e8444d51449f713730ab6b44dcc8955628ab/smatchpp-1.0.0.tar.gz
+[2023-07-21 09:47:40] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/93/db/2d070474b7610a14ce4cb33be123774b1da5a3fe74c6bfb771fa11fbec43/villa-0.7.1.tar.gz
+[2023-07-21 09:47:40] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/43/4e/6c692ef9d30d2147e28694543f89ccf71cdff5f8f22a997f79c25d4dda62/namekoplus-0.2.1.tar.gz
+[2023-07-21 09:47:40] INFO root fetch - processPackages [smatchpp]: Downloading https://files.pythonhosted.org/packages/8b/68/b042cf128e94581b21f9eab4e1905aa94bc255d7b417aa53460203dd3c04/smatchpp-1.0.1.tar.gz
+[2023-07-21 09:47:40] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-21 09:47:40] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.2.0.tar.gz tmp/namekoplus-0.2.1.tar.gz --markdown 20230721/n/namekoplus/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-21 09:47:40] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/70/9f/e85271aab8375db19d89148f9ddff306e9bcbfd45379ca83b758a3835210/villa-0.7.2.tar.gz
+[2023-07-21 09:47:41] INFO root fetch - processPackages [qibojit]: Downloading https://files.pythonhosted.org/packages/d5/45/de99c61a454c18c4bcf0bdf40b596d08b412338a069e78e1e26afb98e9e7/qibojit-0.0.9.tar.gz
+[2023-07-21 09:47:41] INFO root fetch - processPackages [smatchpp]: executing diffoscope
+[2023-07-21 09:47:41] INFO root fetch - processPackages [smatchpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smatchpp-1.0.0.tar.gz tmp/smatchpp-1.0.1.tar.gz --markdown 20230721/s/smatchpp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 09:47:41] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-07-21 09:47:41] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.7.1.tar.gz tmp/villa-0.7.2.tar.gz --markdown 20230721/v/villa/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-21 09:47:41] INFO root fetch - processPackages [qibojit]: executing diffoscope
+[2023-07-21 09:47:41] INFO root fetch - processPackages [qibojit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibojit-0.0.8.tar.gz tmp/qibojit-0.0.9.tar.gz --markdown 20230721/q/qibojit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 09:47:41] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.2.0.tar.gz]
+[2023-07-21 09:47:41] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.2.1.tar.gz]
+[2023-07-21 09:47:41] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-21 09:47:41] INFO root fetch - processPackages [smatchpp]: Remove: archive file [/home/abi/fetcher/tmp/smatchpp-1.0.0.tar.gz]
+[2023-07-21 09:47:41] INFO root fetch - processPackages [smatchpp]: Remove: archive file [/home/abi/fetcher/tmp/smatchpp-1.0.1.tar.gz]
+[2023-07-21 09:47:41] INFO root fetch - main [MainThread]: End processing [smatchpp]: success
+[2023-07-21 09:47:42] INFO root fetch - processPackages [qibojit]: Remove: archive file [/home/abi/fetcher/tmp/qibojit-0.0.8.tar.gz]
+[2023-07-21 09:47:42] INFO root fetch - processPackages [qibojit]: Remove: archive file [/home/abi/fetcher/tmp/qibojit-0.0.9.tar.gz]
+[2023-07-21 09:47:42] INFO root fetch - main [MainThread]: End processing [qibojit]: success
+[2023-07-21 09:47:42] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.7.1.tar.gz]
+[2023-07-21 09:47:42] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.7.2.tar.gz]
+[2023-07-21 09:47:42] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-07-21 09:47:42] INFO root fetch - main [MainThread]: Store serial: [18979907]
