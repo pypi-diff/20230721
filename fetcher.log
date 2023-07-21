@@ -11045,3 +11045,132 @@
 [2023-07-21 04:38:21] INFO root fetch - processPackages [django-payments-flow]: Remove: archive file [/home/abi/fetcher/tmp/django_payments_flow-0.1.3.tar.gz]
 [2023-07-21 04:38:21] INFO root fetch - main [MainThread]: End processing [django-payments-flow]: success
 [2023-07-21 04:38:21] INFO root fetch - main [MainThread]: Store serial: [18977806]
+[2023-07-21 04:43:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977806]
+[2023-07-21 04:43:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jammy
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-migration
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autospark-kit
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-enroll
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-move-template
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feffery-utils-components
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WinDbg-Copilot
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: env-canada
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AllyInvestPy
+[2023-07-21 04:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bcmd
+[2023-07-21 04:43:31] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [odoo14-addon-account-move-template]: New version: [14.0.1.1.3.dev9] Old Version: [14.0.1.1.3.dev8]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [jammy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [autospark-kit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [AllyInvestPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [feffery-utils-components]: New version: [0.2.0a7] Old Version: [0.2.0a6]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [bcmd]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [env-canada]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-21 04:43:31] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/84/31/bdef3cc43053d31533fc2353ba5e8f91241f54bbf2096c4368661f174db0/bcmd-0.0.2.tar.gz
+[2023-07-21 04:43:31] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/0e/ff/ed96bb595fa618194f007af31232eb1444deb3895214aedbe83b2bfb4871/clickzetta-migration-0.0.0.8.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [jammy]: Downloading https://files.pythonhosted.org/packages/5d/a3/481c2d4c4d4b145a3f028f17d897b01d8d22f6d8852a07bccf5a5bbe3e6b/jammy-0.1.7.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [autospark-kit]: Downloading https://files.pythonhosted.org/packages/dd/fe/7a29a08f9443c8504cd2ebfc3e8a2e7412c4fbb48553e627b088c49b988b/autospark_kit-0.0.1.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/9c/26/2bded64e0195dc4e6367bb67e71625c5a1db36221bf58f86ef16f19bb955/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl
+[2023-07-21 04:43:32] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/67/1f/da8d0e1549000d866adf647d3d57b09b0c01fc3ff6fed99c8af2461b7d7f/AllyInvestPy-1.0.8.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/64/1f/2e8c1f8a6f6c34ffe249269cdae12b666dd48601133acdac07937d4fd8d7/feffery_utils_components-0.2.0a6.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [env-canada]: Downloading https://files.pythonhosted.org/packages/32/30/ef9a163691dc0ee7527f310decca6833e5f780f9dcc9cdca5ca19cda7165/env_canada-0.5.8.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/54/f8/ad112bd82d34d061cc7ebd0d2849d125f7bc21c1e24e4c9cafe0482dda15/clickzetta-migration-0.0.0.9.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/4e/ce/a81cc1c8a85679f1e099b8a3593643db9d9b418c12515074306341023d31/bcmd-0.0.3.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-21 04:43:32] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.8.tar.gz tmp/clickzetta-migration-0.0.0.9.tar.gz --markdown 20230721/c/clickzetta-migration/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-07-21 04:43:32] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-21 04:43:32] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.2.tar.gz tmp/bcmd-0.0.3.tar.gz --markdown 20230721/b/bcmd/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 04:43:32] INFO root fetch - processPackages [jammy]: Downloading https://files.pythonhosted.org/packages/c9/fb/465ed333f5925034516e3985a883ef46f2d54621cb6b9d7d88aaed34c95f/jammy-0.1.8.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [autospark-kit]: Downloading https://files.pythonhosted.org/packages/2d/02/d8b6ddbc1938e6f6d06886d60181beccb8f49bd1030fe8ea60cecc22c0ef/autospark_kit-0.0.2.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/56/eb/f3c337beb846c1bf66c163eca56c51db6db1171e561668b9026b0699ea95/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl
+[2023-07-21 04:43:32] INFO root fetch - processPackages [jammy]: executing diffoscope
+[2023-07-21 04:43:32] INFO root fetch - processPackages [jammy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jammy-0.1.7.tar.gz tmp/jammy-0.1.8.tar.gz --markdown 20230721/j/jammy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-21 04:43:32] INFO root fetch - processPackages [autospark-kit]: executing diffoscope
+[2023-07-21 04:43:32] INFO root fetch - processPackages [autospark-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autospark_kit-0.0.1.tar.gz tmp/autospark_kit-0.0.2.tar.gz --markdown 20230721/a/autospark-kit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 04:43:32] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/d4/c9/0e5229dbc3dee942e41c231c49691c86c84144823f12cf43c1fe77f2a0db/AllyInvestPy-1.0.9.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/b4/db/e7a602f600222f39fc6c7c6d8faffe40fa78f0659a5c68831c14a0ea3589/feffery_utils_components-0.2.0a7.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-07-21 04:43:32] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230721/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 04:43:32] INFO root fetch - processPackages [env-canada]: Downloading https://files.pythonhosted.org/packages/00/e8/9b3e6a86a0cf93c71090db6438bd254904c888ae3cb331ef40ddfc7ebfc4/env_canada-0.5.9.tar.gz
+[2023-07-21 04:43:32] INFO root fetch - processPackages [odoo14-addon-account-move-template]: executing diffoscope
+[2023-07-21 04:43:32] INFO root fetch - processPackages [odoo14-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-account-move-template/14.0.1.1.3.dev8-14.0.1.1.3.dev9/diff.md --exclude *.pyd
+[2023-07-21 04:43:32] INFO root fetch - processPackages [AllyInvestPy]: executing diffoscope
+[2023-07-21 04:43:32] INFO root fetch - processPackages [AllyInvestPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AllyInvestPy-1.0.8.tar.gz tmp/AllyInvestPy-1.0.9.tar.gz --markdown 20230721/A/AllyInvestPy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 04:43:33] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-07-21 04:43:33] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230721/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-21 04:43:33] INFO root fetch - processPackages [feffery-utils-components]: executing diffoscope
+[2023-07-21 04:43:33] INFO root fetch - processPackages [feffery-utils-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_utils_components-0.2.0a6.tar.gz tmp/feffery_utils_components-0.2.0a7.tar.gz --markdown 20230721/f/feffery-utils-components/0.2.0a6-0.2.0a7/diff.md --exclude *.pyd
+[2023-07-21 04:43:33] INFO root fetch - processPackages [env-canada]: executing diffoscope
+[2023-07-21 04:43:33] INFO root fetch - processPackages [env-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/env_canada-0.5.8.tar.gz tmp/env_canada-0.5.9.tar.gz --markdown 20230721/e/env-canada/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-21 04:43:33] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.2.tar.gz]
+[2023-07-21 04:43:33] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.3.tar.gz]
+[2023-07-21 04:43:33] INFO root fetch - processPackages [bcmd]: Start processing: exotic
+[2023-07-21 04:43:33] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-21 04:43:33] INFO root fetch - processPackages [exotic]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-21 04:43:33] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.8.tar.gz]
+[2023-07-21 04:43:33] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.9.tar.gz]
+[2023-07-21 04:43:33] INFO root fetch - processPackages [clickzetta-migration]: Start processing: pydoclint
+[2023-07-21 04:43:33] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-21 04:43:33] INFO root fetch - processPackages [pydoclint]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/4e/4c/18e81c93db1ab5ca10816c093c0a30fbb8aeabf8f8526976b4c98acc2891/exotic-3.0.1.zip
+[2023-07-21 04:43:34] INFO root fetch - processPackages [autospark-kit]: Remove: archive file [/home/abi/fetcher/tmp/autospark_kit-0.0.1.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [autospark-kit]: Remove: archive file [/home/abi/fetcher/tmp/autospark_kit-0.0.2.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [autospark-kit]: Start processing: jsepp
+[2023-07-21 04:43:34] INFO root fetch - main [MainThread]: End processing [autospark-kit]: success
+[2023-07-21 04:43:34] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/02/c3/e2aac65619e11b4cf8666e7b43b903681d52e62f0090ac33881df20f1689/pydoclint-0.1.1.tar.gz
+[2023-07-21 04:43:34] INFO root fetch - processPackages [jsepp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [WinDbg-Copilot]: Start processing: odoo10-addon-account-group-invoice-line
+[2023-07-21 04:43:34] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-07-21 04:43:34] INFO root fetch - processPackages [odoo10-addon-account-group-invoice-line]: New version: [10.0.1.1.0.99.dev6] Old Version: [10.0.1.1.0.99.dev5]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [jsepp]: Downloading https://files.pythonhosted.org/packages/c7/ab/7628cf79af5713b30c82e73a03bc4ee0bb66196cccd98411eb2a93536f0a/jsepp-0.1.2.tar.gz
+[2023-07-21 04:43:34] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.8.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.9.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - main [MainThread]: End processing [AllyInvestPy]: success
+[2023-07-21 04:43:34] INFO root fetch - processPackages [env-canada]: Remove: archive file [/home/abi/fetcher/tmp/env_canada-0.5.8.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [env-canada]: Remove: archive file [/home/abi/fetcher/tmp/env_canada-0.5.9.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - main [MainThread]: End processing [env-canada]: success
+[2023-07-21 04:43:34] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/1d/e7/7499863a79842f535014f5dff41bfabf42abae65aa7062e41b1f3af8637f/pydoclint-0.1.2.tar.gz
+[2023-07-21 04:43:34] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-07-21 04:43:34] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-07-21 04:43:34] INFO root fetch - processPackages [odoo10-addon-account-group-invoice-line]: Downloading https://files.pythonhosted.org/packages/f9/b7/e6842b7b8f1057a870a655e592e92a99bac5feb1f0be0f672295db1d699c/odoo10_addon_account_group_invoice_line-10.0.1.1.0.99.dev5-py2-none-any.whl
+[2023-07-21 04:43:34] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-07-21 04:43:34] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.1.1.tar.gz tmp/pydoclint-0.1.2.tar.gz --markdown 20230721/p/pydoclint/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 04:43:34] INFO root fetch - processPackages [jsepp]: Downloading https://files.pythonhosted.org/packages/3c/20/47b205930aaeedb6a185a5f4e587e732448536a7c3431d2cbdec0c89bc7b/jsepp-0.1.3.tar.gz
+[2023-07-21 04:43:34] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip]
+[2023-07-21 04:43:34] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip]
+[2023-07-21 04:43:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-template]: success
+[2023-07-21 04:43:35] INFO root fetch - processPackages [jammy]: Remove: archive file [/home/abi/fetcher/tmp/jammy-0.1.7.tar.gz]
+[2023-07-21 04:43:35] INFO root fetch - processPackages [jammy]: Remove: archive file [/home/abi/fetcher/tmp/jammy-0.1.8.tar.gz]
+[2023-07-21 04:43:35] INFO root fetch - main [MainThread]: End processing [jammy]: success
+[2023-07-21 04:43:35] INFO root fetch - processPackages [jsepp]: executing diffoscope
+[2023-07-21 04:43:35] INFO root fetch - processPackages [jsepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsepp-0.1.2.tar.gz tmp/jsepp-0.1.3.tar.gz --markdown 20230721/j/jsepp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 04:43:35] INFO root fetch - processPackages [odoo10-addon-account-group-invoice-line]: Downloading https://files.pythonhosted.org/packages/0f/bf/9ffe324e2eeaf92326f2ca6ea94a1239a9f2435f76c5ec38ae5b66ed1880/odoo10_addon_account_group_invoice_line-10.0.1.1.0.99.dev6-py2-none-any.whl
+[2023-07-21 04:43:35] INFO root fetch - processPackages [odoo10-addon-account-group-invoice-line]: executing diffoscope
+[2023-07-21 04:43:35] INFO root fetch - processPackages [odoo10-addon-account-group-invoice-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_account_group_invoice_line-10.0.1.1.0.99.dev5-py2-none-any.whl.zip tmp/odoo10_addon_account_group_invoice_line-10.0.1.1.0.99.dev6-py2-none-any.whl.zip --markdown 20230721/o/odoo10-addon-account-group-invoice-line/10.0.1.1.0.99.dev5-10.0.1.1.0.99.dev6/diff.md --exclude *.pyd
+[2023-07-21 04:43:35] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/c4/c7/307ea3437851a05ec69f69be27160217a92a6e81b87099a50119a71adadf/exotic-3.0.2.zip
+[2023-07-21 04:43:35] INFO root fetch - processPackages [exotic]: executing diffoscope
+[2023-07-21 04:43:35] INFO root fetch - processPackages [exotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exotic-3.0.1.zip tmp/exotic-3.0.2.zip --markdown 20230721/e/exotic/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-21 04:43:35] INFO root fetch - processPackages [jsepp]: Remove: archive file [/home/abi/fetcher/tmp/jsepp-0.1.2.tar.gz]
+[2023-07-21 04:43:35] INFO root fetch - processPackages [jsepp]: Remove: archive file [/home/abi/fetcher/tmp/jsepp-0.1.3.tar.gz]
+[2023-07-21 04:43:35] INFO root fetch - main [MainThread]: End processing [jsepp]: success
+[2023-07-21 04:43:36] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.1.1.tar.gz]
+[2023-07-21 04:43:36] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.1.2.tar.gz]
+[2023-07-21 04:43:36] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-07-21 04:43:36] INFO root fetch - processPackages [odoo10-addon-account-group-invoice-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_group_invoice_line-10.0.1.1.0.99.dev5-py2-none-any.whl.zip]
+[2023-07-21 04:43:36] INFO root fetch - processPackages [odoo10-addon-account-group-invoice-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_group_invoice_line-10.0.1.1.0.99.dev6-py2-none-any.whl.zip]
+[2023-07-21 04:43:36] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-group-invoice-line]: success
+[2023-07-21 04:43:37] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.0.1.zip]
+[2023-07-21 04:43:37] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.0.2.zip]
+[2023-07-21 04:43:37] INFO root fetch - main [MainThread]: End processing [exotic]: success
+[2023-07-21 04:43:45] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a6.tar.gz]
+[2023-07-21 04:43:45] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a7.tar.gz]
+[2023-07-21 04:43:45] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
+[2023-07-21 04:43:45] INFO root fetch - main [MainThread]: Store serial: [18977844]
