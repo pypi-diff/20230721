@@ -22184,3 +22184,75 @@ AssertionError: tmp/ovos_audio_plugin_spotify-0.0.0a4-py3-none-any.whl.zip does 
 [2023-07-21 13:56:29] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
 [2023-07-21 13:56:29] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-07-21 13:56:29] INFO root fetch - main [MainThread]: Store serial: [18982187]
+[2023-07-21 14:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18982187]
+[2023-07-21 14:01:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voicemeeter-api
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cy2path
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-blueprints
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EnvisionRiskRaaS
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yfinance
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: YahooRequests
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: database-without-orm-local
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snapml
+[2023-07-21 14:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py3dinterpolations
+[2023-07-21 14:01:38] WARNING root fetch - processPackages [flask-blueprints]: Skipping, unable to determine old version
+[2023-07-21 14:01:38] INFO root fetch - main [MainThread]: End processing [flask-blueprints] error
+[2023-07-21 14:01:38] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-21 14:01:38] INFO root fetch - processPackages [database-without-orm-local]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-21 14:01:38] WARNING root fetch - processPackages [cy2path]: Skipping, unable to determine old version
+[2023-07-21 14:01:38] INFO root fetch - main [MainThread]: End processing [cy2path] error
+[2023-07-21 14:01:38] INFO root fetch - processPackages [py3dinterpolations]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-07-21 14:01:38] INFO root fetch - processPackages [YahooRequests]: New version: [0.1.5.2] Old Version: [0.1.5.1]
+[2023-07-21 14:01:38] INFO root fetch - processPackages [yfinance]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-21 14:01:38] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.3.6] Old Version: [2.3.4]
+[2023-07-21 14:01:38] INFO root fetch - processPackages [snapml]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-21 14:01:38] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/2e/4a/c4a2f5b89469599cd6395d13c0acf6294f8d31f8ece5e45ed5aa9886f6d8/envisionriskraas-1.0.7.tar.gz
+[2023-07-21 14:01:38] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/b0/72/7a42832d8aa0572220d9eda50327fcc013f4b21f3a8df79d1116a33d371d/database-without-orm-local-0.0.14.tar.gz
+[2023-07-21 14:01:38] INFO root fetch - processPackages [py3dinterpolations]: Downloading https://files.pythonhosted.org/packages/f7/a8/15da7311350db9d0debc0994ef2ec7f9f3fa5a50f76838d8dfde9beb8249/py3Dinterpolations-0.2.2.tar.gz
+[2023-07-21 14:01:38] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/9c/25/9d400559562ea76a57b2125b5ff6aeaa8a75e42931fcac3ac095ca7702ca/YahooRequests-0.1.5.1.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/59/25/831dcb120f255a317bb7a8ef42c4748141edbc5ef10956deda7be55def92/voicemeeter_api-2.3.4.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/a8/d8/009751b5ddba3498075f4e073f65a1e4e30dfc83bdb3003ef5044588b4b8/yfinance-0.2.7.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [snapml]: Downloading https://files.pythonhosted.org/packages/be/59/77a58bda631d6b0bdd3679a1fdff70d785d19679a9d64509506aef5a57be/snapml-1.9.6-cp39-cp39-win_amd64.whl
+[2023-07-21 14:01:39] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/99/f1/8c9b8f6225adf9574ab026d5eb50b6ba7ab60d5abcb20c9ced2b3718d24d/envisionriskraas-1.0.8.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/e5/bf/6fa540a34289551205ff1a248efe679635e0d2e0d46ba00515b738b231de/YahooRequests-0.1.5.2.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [py3dinterpolations]: Downloading https://files.pythonhosted.org/packages/00/21/a07c96689e3cab66e3f0c997e1aa746d211d50591a42d6fa4fb9022df500/py3dinterpolations-0.2.4.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/9b/30/d12c76e11b17d78b2ccc904b675b32798d03f76444e4dba0137c1e94f9e1/database-without-orm-local-0.0.15.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-21 14:01:39] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.7.tar.gz tmp/envisionriskraas-1.0.8.tar.gz --markdown 20230721/E/EnvisionRiskRaaS/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-21 14:01:39] INFO root fetch - processPackages [YahooRequests]: executing diffoscope
+[2023-07-21 14:01:39] INFO root fetch - processPackages [YahooRequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YahooRequests-0.1.5.1.tar.gz tmp/YahooRequests-0.1.5.2.tar.gz --markdown 20230721/Y/YahooRequests/0.1.5.1-0.1.5.2/diff.md --exclude *.pyd
+[2023-07-21 14:01:39] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/09/16/01c34d00b9fc0ea3398e6f99f3caf70751d81168dd68ab035ab5720f284d/voicemeeter_api-2.3.6.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [py3dinterpolations]: executing diffoscope
+[2023-07-21 14:01:39] INFO root fetch - processPackages [py3dinterpolations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3Dinterpolations-0.2.2.tar.gz tmp/py3dinterpolations-0.2.4.tar.gz --markdown 20230721/p/py3dinterpolations/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-07-21 14:01:39] INFO root fetch - processPackages [database-without-orm-local]: executing diffoscope
+[2023-07-21 14:01:39] INFO root fetch - processPackages [database-without-orm-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-without-orm-local-0.0.14.tar.gz tmp/database-without-orm-local-0.0.15.tar.gz --markdown 20230721/d/database-without-orm-local/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-21 14:01:39] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-07-21 14:01:39] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.3.4.tar.gz tmp/voicemeeter_api-2.3.6.tar.gz --markdown 20230721/v/voicemeeter-api/2.3.4-2.3.6/diff.md --exclude *.pyd
+[2023-07-21 14:01:39] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/44/7c/2f17e16867fb4ad198467cc2ee2db5ff845cfdb1159ecb69ef2e6fc0807b/yfinance-0.2.9.tar.gz
+[2023-07-21 14:01:39] INFO root fetch - processPackages [yfinance]: executing diffoscope
+[2023-07-21 14:01:39] INFO root fetch - processPackages [yfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfinance-0.2.7.tar.gz tmp/yfinance-0.2.9.tar.gz --markdown 20230721/y/yfinance/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 14:01:40] INFO root fetch - processPackages [snapml]: Downloading https://files.pythonhosted.org/packages/b0/65/1d818f79ee216ba34baab95a23752267b640966817c79794e48b125155f2/snapml-1.9.7-cp39-cp39-win_amd64.whl
+[2023-07-21 14:01:40] INFO root fetch - processPackages [py3dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3Dinterpolations-0.2.2.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - processPackages [py3dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3dinterpolations-0.2.4.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - main [MainThread]: End processing [py3dinterpolations]: success
+[2023-07-21 14:01:40] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.1.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.2.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - main [MainThread]: End processing [YahooRequests]: success
+[2023-07-21 14:01:40] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.7.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.8.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-21 14:01:40] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.4.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.6.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-07-21 14:01:40] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.14.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.15.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - main [MainThread]: End processing [database-without-orm-local]: success
+[2023-07-21 14:01:40] INFO root fetch - processPackages [yfinance]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-0.2.7.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - processPackages [yfinance]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-0.2.9.tar.gz]
+[2023-07-21 14:01:40] INFO root fetch - main [MainThread]: End processing [yfinance]: success
+[2023-07-21 14:01:41] INFO root fetch - processPackages [snapml]: executing diffoscope
+[2023-07-21 14:01:41] INFO root fetch - processPackages [snapml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapml-1.9.6-cp39-cp39-win_amd64.whl.zip tmp/snapml-1.9.7-cp39-cp39-win_amd64.whl.zip --markdown 20230721/s/snapml/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-21 14:01:41] INFO root fetch - processPackages [snapml]: Remove: archive file [/home/abi/fetcher/tmp/snapml-1.9.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 14:01:41] INFO root fetch - processPackages [snapml]: Remove: archive file [/home/abi/fetcher/tmp/snapml-1.9.7-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 14:01:41] INFO root fetch - main [MainThread]: End processing [snapml]: success
+[2023-07-21 14:01:41] INFO root fetch - main [MainThread]: Store serial: [18982217]
