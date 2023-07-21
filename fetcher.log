@@ -22509,3 +22509,90 @@ AssertionError: tmp/ovos_audio_plugin_spotify-0.0.0a4-py3-none-any.whl.zip does 
 [2023-07-21 14:12:13] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.4.4.tar.gz]
 [2023-07-21 14:12:13] INFO root fetch - main [MainThread]: End processing [xorbits]: success
 [2023-07-21 14:12:13] INFO root fetch - main [MainThread]: Store serial: [18982326]
+[2023-07-21 14:17:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18982326]
+[2023-07-21 14:17:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timesketch-cli-client
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-blueprints
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytelibs
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-vpc20160428
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timesketch-api-client
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchcross
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timesketch-import-client
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-open-ai
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-functools
+[2023-07-21 14:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyobs-fli
+[2023-07-21 14:17:23] INFO root fetch - processPackages [timesketch-cli-client]: New version: [20230721] Old Version: [20220411]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [timesketch-api-client]: New version: [20230721] Old Version: [20230208]
+[2023-07-21 14:17:23] WARNING root fetch - processPackages [openai-functools]: Skipping, unable to determine old version
+[2023-07-21 14:17:23] INFO root fetch - main [MainThread]: End processing [openai-functools] error
+[2023-07-21 14:17:23] INFO root fetch - processPackages [timesketch-import-client]: New version: [20230721] Old Version: [20210602]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [django-open-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [torchcross]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [flask-blueprints]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [pyobs-fli]: New version: [1.1.1] Old Version: [1.1.0b2]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [pytelibs]: New version: [1.2.205] Old Version: [1.2.204]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [alibabacloud-vpc20160428]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-21 14:17:23] INFO root fetch - processPackages [django-open-ai]: Downloading https://files.pythonhosted.org/packages/9f/4d/a4e1e5a5039a25ea622acfcdaa2a0e409e8466a5d3c397d951f528d2b7f1/django-open-ai-0.0.3.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [flask-blueprints]: Downloading https://files.pythonhosted.org/packages/74/b4/b339d8406aea272c854f39d41799e587f19e3bb61f354e1b102db1ad965d/flask-blueprints-0.0.2.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [timesketch-api-client]: Downloading https://files.pythonhosted.org/packages/5c/e1/e4a4cbce6b22a29457266c1cdbe8b4dd6cc4b13c68c8d8e1931407899e7e/timesketch-api-client-20230208.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [timesketch-import-client]: Downloading https://files.pythonhosted.org/packages/7e/e1/d00d3614a63e973d26c26f3179cb63ac3d3bf0b9c88d19cb19a83a2f2b51/timesketch-import-client-20210602.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [torchcross]: Downloading https://files.pythonhosted.org/packages/b2/2b/fc0b61c4fafd405e00f7a393f17f475ae56959226a7e361db524aa603356/torchcross-0.0.3.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [pyobs-fli]: Downloading https://files.pythonhosted.org/packages/2c/98/fb3fde39be4448305420751ce6ca9112bdb3a76058ac6e68e21e0f997671/pyobs_fli-1.1.0b2.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [pytelibs]: Downloading https://files.pythonhosted.org/packages/d3/cf/6255dc8f8748c1f6f7f552a75b147fff4ffb73a5a2dd54f23906e2dde1db/pytelibs-1.2.204.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/0d/d2/e43a15734455aa573ae4a5f4a66c7249245beab2df3278975889b7c99c76/alibabacloud_vpc20160428-3.0.0.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [timesketch-cli-client]: Downloading https://files.pythonhosted.org/packages/9c/79/ff1f1883b1098053ed9fcae64097fc75653fcb398bdbfc0975f3d34d52dd/timesketch-cli-client-20220411.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [django-open-ai]: Downloading https://files.pythonhosted.org/packages/4d/5c/83271c8ffdb9bb3d5600a6206df3ee10f5e477325206b3f0e7d4785405fa/django-open-ai-0.0.4.tar.gz
+[2023-07-21 14:17:23] INFO root fetch - processPackages [timesketch-api-client]: Downloading https://files.pythonhosted.org/packages/49/6e/a483f825cc7d141aacde1ef7422d49a2d9b0af2961736176c501203e010c/timesketch-api-client-20230721.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [flask-blueprints]: Downloading https://files.pythonhosted.org/packages/0a/0b/189e5e2ce7e633fda42d2e03acd3f0b315aa42e8a72f80feb57966e68bf3/flask-blueprints-0.0.3.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [pytelibs]: Downloading https://files.pythonhosted.org/packages/87/2c/4d93e6c5256eda819891200e44bcbc60a61bd5b73b94bd29ed241d94faf3/pytelibs-1.2.205.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-import-client]: Downloading https://files.pythonhosted.org/packages/74/bf/4d181fca782d660246bcd76395d3ad25237c00d7e19de78ed0f220b20531/timesketch-import-client-20230721.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-api-client]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesketch-api-client-20230208.tar.gz tmp/timesketch-api-client-20230721.tar.gz --markdown 20230721/t/timesketch-api-client/20230208-20230721/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [torchcross]: Downloading https://files.pythonhosted.org/packages/91/05/9a147dcb0f1dc39ee8847193e86766ff8126c1ddf83ff51bb8ece3a0e657/torchcross-0.0.4.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-cli-client]: Downloading https://files.pythonhosted.org/packages/32/5f/5a57e820b5c3f7d81872a8f6e76584a10b2689ac88b938d95d54db9bc5ab/timesketch-cli-client-20230721.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [django-open-ai]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [django-open-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-open-ai-0.0.3.tar.gz tmp/django-open-ai-0.0.4.tar.gz --markdown 20230721/d/django-open-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [pyobs-fli]: Downloading https://files.pythonhosted.org/packages/9c/33/ad5f4475237c9d3732c00d7199c439911f0cf4b9ed6bf780f97bc7b3489d/pyobs_fli-1.1.1.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [pytelibs]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [pytelibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytelibs-1.2.204.tar.gz tmp/pytelibs-1.2.205.tar.gz --markdown 20230721/p/pytelibs/1.2.204-1.2.205/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [flask-blueprints]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [flask-blueprints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-blueprints-0.0.2.tar.gz tmp/flask-blueprints-0.0.3.tar.gz --markdown 20230721/f/flask-blueprints/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-import-client]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-import-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesketch-import-client-20210602.tar.gz tmp/timesketch-import-client-20230721.tar.gz --markdown 20230721/t/timesketch-import-client/20210602-20230721/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/c1/3f/69e6680d6499432d9f71a2693a5955b5a362e06bf0835c6385b4ead48472/alibabacloud_vpc20160428-3.0.1.tar.gz
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-cli-client]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [timesketch-cli-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesketch-cli-client-20220411.tar.gz tmp/timesketch-cli-client-20230721.tar.gz --markdown 20230721/t/timesketch-cli-client/20220411-20230721/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [torchcross]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [torchcross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchcross-0.0.3.tar.gz tmp/torchcross-0.0.4.tar.gz --markdown 20230721/t/torchcross/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [pyobs-fli]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [pyobs-fli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_fli-1.1.0b2.tar.gz tmp/pyobs_fli-1.1.1.tar.gz --markdown 20230721/p/pyobs-fli/1.1.0b2-1.1.1/diff.md --exclude *.pyd
+[2023-07-21 14:17:24] INFO root fetch - processPackages [alibabacloud-vpc20160428]: executing diffoscope
+[2023-07-21 14:17:24] INFO root fetch - processPackages [alibabacloud-vpc20160428]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428-3.0.0.tar.gz tmp/alibabacloud_vpc20160428-3.0.1.tar.gz --markdown 20230721/a/alibabacloud-vpc20160428/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-21 14:17:25] INFO root fetch - processPackages [django-open-ai]: Remove: archive file [/home/abi/fetcher/tmp/django-open-ai-0.0.3.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - processPackages [django-open-ai]: Remove: archive file [/home/abi/fetcher/tmp/django-open-ai-0.0.4.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - main [MainThread]: End processing [django-open-ai]: success
+[2023-07-21 14:17:25] INFO root fetch - processPackages [pytelibs]: Remove: archive file [/home/abi/fetcher/tmp/pytelibs-1.2.204.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - processPackages [pytelibs]: Remove: archive file [/home/abi/fetcher/tmp/pytelibs-1.2.205.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - main [MainThread]: End processing [pytelibs]: success
+[2023-07-21 14:17:25] INFO root fetch - processPackages [flask-blueprints]: Remove: archive file [/home/abi/fetcher/tmp/flask-blueprints-0.0.2.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - processPackages [flask-blueprints]: Remove: archive file [/home/abi/fetcher/tmp/flask-blueprints-0.0.3.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - main [MainThread]: End processing [flask-blueprints]: success
+[2023-07-21 14:17:25] INFO root fetch - processPackages [timesketch-cli-client]: Remove: archive file [/home/abi/fetcher/tmp/timesketch-cli-client-20220411.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - processPackages [timesketch-cli-client]: Remove: archive file [/home/abi/fetcher/tmp/timesketch-cli-client-20230721.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - main [MainThread]: End processing [timesketch-cli-client]: success
+[2023-07-21 14:17:25] INFO root fetch - processPackages [timesketch-import-client]: Remove: archive file [/home/abi/fetcher/tmp/timesketch-import-client-20210602.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - processPackages [timesketch-import-client]: Remove: archive file [/home/abi/fetcher/tmp/timesketch-import-client-20230721.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - main [MainThread]: End processing [timesketch-import-client]: success
+[2023-07-21 14:17:25] INFO root fetch - processPackages [timesketch-api-client]: Remove: archive file [/home/abi/fetcher/tmp/timesketch-api-client-20230208.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - processPackages [timesketch-api-client]: Remove: archive file [/home/abi/fetcher/tmp/timesketch-api-client-20230721.tar.gz]
+[2023-07-21 14:17:25] INFO root fetch - main [MainThread]: End processing [timesketch-api-client]: success
+[2023-07-21 14:17:26] INFO root fetch - processPackages [pyobs-fli]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_fli-1.1.0b2.tar.gz]
+[2023-07-21 14:17:26] INFO root fetch - processPackages [pyobs-fli]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_fli-1.1.1.tar.gz]
+[2023-07-21 14:17:26] INFO root fetch - main [MainThread]: End processing [pyobs-fli]: success
+[2023-07-21 14:17:26] INFO root fetch - processPackages [torchcross]: Remove: archive file [/home/abi/fetcher/tmp/torchcross-0.0.3.tar.gz]
+[2023-07-21 14:17:26] INFO root fetch - processPackages [torchcross]: Remove: archive file [/home/abi/fetcher/tmp/torchcross-0.0.4.tar.gz]
+[2023-07-21 14:17:26] INFO root fetch - main [MainThread]: End processing [torchcross]: success
+[2023-07-21 14:17:28] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-3.0.0.tar.gz]
+[2023-07-21 14:17:28] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-3.0.1.tar.gz]
+[2023-07-21 14:17:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
+[2023-07-21 14:17:28] INFO root fetch - main [MainThread]: Store serial: [18982357]
