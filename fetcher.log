@@ -17842,3 +17842,113 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 10:46:38] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-21 10:46:38] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-21 10:46:38] INFO root fetch - main [MainThread]: Store serial: [18980460]
+[2023-07-21 10:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980460]
+[2023-07-21 10:51:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedex-sdk
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: code-fmt-tools
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asdff
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naas
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamazing
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pants-py-deploy
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwbwidgets
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llmtuner
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mimosa
+[2023-07-21 10:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vessl
+[2023-07-21 10:51:47] INFO root fetch - processPackages [code-fmt-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [nwbwidgets]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 10:51:47] WARNING root fetch - processPackages [asdff]: Skipping, unable to determine old version
+[2023-07-21 10:51:47] INFO root fetch - processPackages [asdff]: Start processing: aorta-sirius-dev
+[2023-07-21 10:51:47] INFO root fetch - main [MainThread]: End processing [asdff] error
+[2023-07-21 10:51:47] INFO root fetch - processPackages [naas]: New version: [2.9.3] Old Version: [2.9.1]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [llmtuner]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [datamazing]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [fedex-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 10:51:47] WARNING root fetch - processPackages [mimosa]: Skipping, unable to determine old version
+[2023-07-21 10:51:47] INFO root fetch - processPackages [mimosa]: Start processing: FitBenchmarking
+[2023-07-21 10:51:47] INFO root fetch - main [MainThread]: End processing [mimosa] error
+[2023-07-21 10:51:47] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [FitBenchmarking]: New version: [1.0.0rc1] Old Version: [0.2.0rc3]
+[2023-07-21 10:51:47] INFO root fetch - processPackages [nwbwidgets]: Downloading https://files.pythonhosted.org/packages/dc/59/9ec1fa735ef9665b199f69926a571294dabc9cc6e039a9c236a5e086c79a/nwbwidgets-0.9.0.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/77/62/23f69a1d171e9ce0b0e76fef596a7bb906ab62294815f306f5594f20adec/pants_py_deploy-0.0.23-py3-none-any.whl
+[2023-07-21 10:51:47] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/46/a0/1340f6e494bd53d40734cf907d4ea2927e7cee1a7c24bbe52327945839a5/llmtuner-0.1.2.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [code-fmt-tools]: Downloading https://files.pythonhosted.org/packages/ac/1a/8283b4eeedf5784f1cea482023fd66950b5ee6ab4151b1b40ec6456aac9d/code_fmt_tools-0.0.4.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/fc/37/f83c9a648ada96d955a551fcf1e1458a97d604240f7d4ecceebcd78b0cff/fedex-sdk-0.0.1.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/0e/4c/dbdc0bf7e2eaee174b740c551b20d67cb0506f434d93cbe45ca0d19b1a97/naas-2.9.1.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/37/ef/c6553bf22cb4a2ee808a818b5cb106cf7be9735103ed552dad315f9420fc/datamazing-2.0.0.tar.gz
+[2023-07-21 10:51:47] INFO root fetch - processPackages [FitBenchmarking]: Downloading https://files.pythonhosted.org/packages/04/46/02acc3886d5c472f63ae7827424139576cf68779a9092f26e59824ce2e11/FitBenchmarking-0.2.0rc3.tar.gz
+[2023-07-21 10:51:47] WARNING root fetch - processPackages [FitBenchmarking]: Skipping package: exceeds size limit 12328983>=10485760
+[2023-07-21 10:51:47] INFO root fetch - processPackages [FitBenchmarking]: Start processing: ezoognn
+[2023-07-21 10:51:47] INFO root fetch - main [MainThread]: End processing [FitBenchmarking] error
+[2023-07-21 10:51:47] WARNING root fetch - processPackages [ezoognn]: Skipping, unable to determine old version
+[2023-07-21 10:51:47] INFO root fetch - processPackages [ezoognn]: Start processing: lib-registry
+[2023-07-21 10:51:47] INFO root fetch - main [MainThread]: End processing [ezoognn] error
+[2023-07-21 10:51:48] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/a7/8d/3b9c38a078b48b7c43694d4a7dc0cd1554c6c937a82ac7e3a2980ca8fed7/naas-2.9.3.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [lib-registry]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-21 10:51:48] INFO root fetch - processPackages [code-fmt-tools]: Downloading https://files.pythonhosted.org/packages/42/f0/1dfab0a0dc0bad57799a6536dc86188c5788a020eb2448d30ecbf5b8389e/code_fmt_tools-0.0.5.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/f2/67/4b5a2645452d24c761c4f2842b9fa357b546f3848b84e81373ef4649f0a8/llmtuner-0.1.3.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/54/4a/5e4b69dca84b43a8fc6d0b0b0fc88fe046f44c00ffd2074a7dcf1c8f92ba/pants_py_deploy-0.0.24-py3-none-any.whl
+[2023-07-21 10:51:48] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/0f/08/0f304b9fd2bf7ba33ecdff520a6c54eeb92d50a04b2e7308b9222aa56183/fedex-sdk-0.0.2.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/b5/4d/7a075d4a879378cb7957e5eb538cc7b0d70d0ebdc8f1e1b76150454bc3ec/datamazing-2.0.1.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [naas]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [naas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas-2.9.1.tar.gz tmp/naas-2.9.3.tar.gz --markdown 20230721/n/naas/2.9.1-2.9.3/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [code-fmt-tools]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [code-fmt-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_fmt_tools-0.0.4.tar.gz tmp/code_fmt_tools-0.0.5.tar.gz --markdown 20230721/c/code-fmt-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [nwbwidgets]: Downloading https://files.pythonhosted.org/packages/8a/60/03c410964cd32d78ca6bedb7c5ee60f43600fd8372ca8682dc121560aa95/nwbwidgets-0.9.1.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.23-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.24-py3-none-any.whl.zip --markdown 20230721/p/pants-py-deploy/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230721/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [llmtuner]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [llmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmtuner-0.1.2.tar.gz tmp/llmtuner-0.1.3.tar.gz --markdown 20230721/l/llmtuner/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [lib-registry]: Downloading https://files.pythonhosted.org/packages/4c/a9/e32147d65894082f88b329a8857c51cf6728df5b9d8aa377382dd75b4aa5/lib_registry-2.0.6.tar.gz
+[2023-07-21 10:51:48] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-2.0.0.tar.gz tmp/datamazing-2.0.1.tar.gz --markdown 20230721/d/datamazing/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-0.0.1.tar.gz tmp/fedex-sdk-0.0.2.tar.gz --markdown 20230721/f/fedex-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230721/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 10:51:48] INFO root fetch - processPackages [nwbwidgets]: executing diffoscope
+[2023-07-21 10:51:48] INFO root fetch - processPackages [nwbwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwbwidgets-0.9.0.tar.gz tmp/nwbwidgets-0.9.1.tar.gz --markdown 20230721/n/nwbwidgets/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 10:51:49] INFO root fetch - processPackages [lib-registry]: Downloading https://files.pythonhosted.org/packages/0f/42/9bdc28b31866b7d157d3bfec911cf7675ad104a073d0a05b0f1b8a9ba833/lib_registry-2.0.7.tar.gz
+[2023-07-21 10:51:49] INFO root fetch - processPackages [code-fmt-tools]: Remove: archive file [/home/abi/fetcher/tmp/code_fmt_tools-0.0.4.tar.gz]
+[2023-07-21 10:51:49] INFO root fetch - processPackages [code-fmt-tools]: Remove: archive file [/home/abi/fetcher/tmp/code_fmt_tools-0.0.5.tar.gz]
+[2023-07-21 10:51:49] INFO root fetch - processPackages [code-fmt-tools]: Start processing: my-outlook-parser
+[2023-07-21 10:51:49] INFO root fetch - main [MainThread]: End processing [code-fmt-tools]: success
+[2023-07-21 10:51:49] WARNING root fetch - processPackages [my-outlook-parser]: Skipping, unable to determine old version
+[2023-07-21 10:51:49] INFO root fetch - main [MainThread]: End processing [my-outlook-parser] error
+[2023-07-21 10:51:49] INFO root fetch - processPackages [lib-registry]: executing diffoscope
+[2023-07-21 10:51:49] INFO root fetch - processPackages [lib-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_registry-2.0.6.tar.gz tmp/lib_registry-2.0.7.tar.gz --markdown 20230721/l/lib-registry/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-21 10:51:49] INFO root fetch - processPackages [pants-py-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pants_py_deploy-0.0.23-py3-none-any.whl.zip]
+[2023-07-21 10:51:49] INFO root fetch - processPackages [pants-py-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pants_py_deploy-0.0.24-py3-none-any.whl.zip]
+[2023-07-21 10:51:49] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-07-21 10:51:50] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-21 10:51:50] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.1.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.2.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-21 10:51:50] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.1.2.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.1.3.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - main [MainThread]: End processing [llmtuner]: success
+[2023-07-21 10:51:50] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-2.0.0.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-2.0.1.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-21 10:51:50] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.1.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.3.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - main [MainThread]: End processing [naas]: success
+[2023-07-21 10:51:50] INFO root fetch - processPackages [nwbwidgets]: Remove: archive file [/home/abi/fetcher/tmp/nwbwidgets-0.9.0.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - processPackages [nwbwidgets]: Remove: archive file [/home/abi/fetcher/tmp/nwbwidgets-0.9.1.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - main [MainThread]: End processing [nwbwidgets]: success
+[2023-07-21 10:51:50] INFO root fetch - processPackages [lib-registry]: Remove: archive file [/home/abi/fetcher/tmp/lib_registry-2.0.6.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - processPackages [lib-registry]: Remove: archive file [/home/abi/fetcher/tmp/lib_registry-2.0.7.tar.gz]
+[2023-07-21 10:51:50] INFO root fetch - main [MainThread]: End processing [lib-registry]: success
+[2023-07-21 10:51:53] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-21 10:51:53] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-21 10:51:53] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-21 10:51:53] INFO root fetch - main [MainThread]: Store serial: [18980510]
