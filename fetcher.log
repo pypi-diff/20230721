@@ -10034,3 +10034,67 @@
 [2023-07-21 03:51:04] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.9.tar.gz]
 [2023-07-21 03:51:04] INFO root fetch - main [MainThread]: End processing [centralcli]: success
 [2023-07-21 03:51:04] INFO root fetch - main [MainThread]: Store serial: [18977420]
+[2023-07-21 03:56:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977420]
+[2023-07-21 03:56:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pxgpt
+[2023-07-21 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langsmith
+[2023-07-21 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codedapertures
+[2023-07-21 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strongmind-platform-sdk
+[2023-07-21 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-circular-progress
+[2023-07-21 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cn-bing-translator
+[2023-07-21 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: claudia
+[2023-07-21 03:56:13] INFO root fetch - processPackages [langsmith]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 03:56:13] INFO root fetch - processPackages [strongmind-platform-sdk]: New version: [3.0.0] Old Version: [2.9.1]
+[2023-07-21 03:56:13] INFO root fetch - processPackages [st-circular-progress]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 03:56:13] INFO root fetch - processPackages [claudia]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 03:56:13] INFO root fetch - processPackages [codedapertures]: New version: [0.3] Old Version: [0.2]
+[2023-07-21 03:56:13] INFO root fetch - processPackages [cn-bing-translator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 03:56:13] INFO root fetch - processPackages [pxgpt]: New version: [0.0.0rc1] Old Version: [0.0.0rc0]
+[2023-07-21 03:56:13] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/be/6c/3d27e562846f11e47431662c76422f1d74ffd5b55adb3d0aac10c440fa58/st_circular_progress-0.1.4.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [strongmind-platform-sdk]: Downloading https://files.pythonhosted.org/packages/2d/1c/bba0fb4b3ea4cb7be2a1688ec1de06ce0aaeef6637267928e49978e48126/strongmind-platform-sdk-2.9.1.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [cn-bing-translator]: Downloading https://files.pythonhosted.org/packages/c6/4e/3c694d8d9184ef9ae73179b347bf0f9ed9b7136ddf5dff4102bfe86411ef/cn_bing_translator-0.0.1.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [claudia]: Downloading https://files.pythonhosted.org/packages/20/29/11efc1c937896c1e77297dbdb7e22c0db847ca2ef50e31bdb35deb16dd33/claudia-0.1.1.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/07/93/ce56f16f6d818742a1360a49c3d71a0835475455a5133438e99b48d27ba9/codedapertures-0.2.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [pxgpt]: Downloading https://files.pythonhosted.org/packages/5f/20/3741489892b25ff6d3a8f1cda927dd7e6be652d050e99951e8308a719b04/pxgpt-0.0.0rc0.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-21 03:56:14] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.8.tar.gz tmp/langsmith-0.0.9.tar.gz --markdown 20230721/l/langsmith/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 03:56:14] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/b9/9b/c314166a8d8527e35a68aaf298b9b0d9083124254d88d9dbc31bab5f133b/st_circular_progress-0.1.5.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [strongmind-platform-sdk]: Downloading https://files.pythonhosted.org/packages/b8/f5/6aebb725d281d915e5d945dd4e60c83f4583f338e1744f7ef73d8111508b/strongmind-platform-sdk-3.0.0.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 03:56:14] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.1.4.tar.gz tmp/st_circular_progress-0.1.5.tar.gz --markdown 20230721/s/st-circular-progress/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 03:56:14] INFO root fetch - processPackages [cn-bing-translator]: Downloading https://files.pythonhosted.org/packages/d6/55/89ab54a37ffef592c1d31cb8f200c7b7a83e9fca2fc0de8aebe59d7f8706/cn_bing_translator-0.0.2.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/1d/35/b9eb2e0a41c62c01de34a4c64b4217a81948205961091f59157ab7953de4/codedapertures-0.3.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [claudia]: Downloading https://files.pythonhosted.org/packages/e7/ec/5a373269d7529712ffedb96eb1a6941e01f0a394f1ef7a6ac890e776d1f2/claudia-0.1.2.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [pxgpt]: Downloading https://files.pythonhosted.org/packages/58/4b/d9b1d035e3feda956ba4dbd03f1155919b88ddfa6af0235694e99bf332d6/pxgpt-0.0.0rc1.tar.gz
+[2023-07-21 03:56:14] INFO root fetch - processPackages [cn-bing-translator]: executing diffoscope
+[2023-07-21 03:56:14] INFO root fetch - processPackages [cn-bing-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cn_bing_translator-0.0.1.tar.gz tmp/cn_bing_translator-0.0.2.tar.gz --markdown 20230721/c/cn-bing-translator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 03:56:14] INFO root fetch - processPackages [codedapertures]: executing diffoscope
+[2023-07-21 03:56:14] INFO root fetch - processPackages [codedapertures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedapertures-0.2.tar.gz tmp/codedapertures-0.3.tar.gz --markdown 20230721/c/codedapertures/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-21 03:56:14] INFO root fetch - processPackages [strongmind-platform-sdk]: executing diffoscope
+[2023-07-21 03:56:14] INFO root fetch - processPackages [strongmind-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind-platform-sdk-2.9.1.tar.gz tmp/strongmind-platform-sdk-3.0.0.tar.gz --markdown 20230721/s/strongmind-platform-sdk/2.9.1-3.0.0/diff.md --exclude *.pyd
+[2023-07-21 03:56:14] INFO root fetch - processPackages [claudia]: executing diffoscope
+[2023-07-21 03:56:14] INFO root fetch - processPackages [claudia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claudia-0.1.1.tar.gz tmp/claudia-0.1.2.tar.gz --markdown 20230721/c/claudia/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 03:56:14] INFO root fetch - processPackages [pxgpt]: executing diffoscope
+[2023-07-21 03:56:14] INFO root fetch - processPackages [pxgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxgpt-0.0.0rc0.tar.gz tmp/pxgpt-0.0.0rc1.tar.gz --markdown 20230721/p/pxgpt/0.0.0rc0-0.0.0rc1/diff.md --exclude *.pyd
+[2023-07-21 03:56:15] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.8.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.9.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-21 03:56:15] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.4.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.5.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 03:56:15] INFO root fetch - processPackages [cn-bing-translator]: Remove: archive file [/home/abi/fetcher/tmp/cn_bing_translator-0.0.1.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - processPackages [cn-bing-translator]: Remove: archive file [/home/abi/fetcher/tmp/cn_bing_translator-0.0.2.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - main [MainThread]: End processing [cn-bing-translator]: success
+[2023-07-21 03:56:15] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.2.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.3.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - main [MainThread]: End processing [codedapertures]: success
+[2023-07-21 03:56:15] INFO root fetch - processPackages [strongmind-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/strongmind-platform-sdk-2.9.1.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - processPackages [strongmind-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/strongmind-platform-sdk-3.0.0.tar.gz]
+[2023-07-21 03:56:15] INFO root fetch - main [MainThread]: End processing [strongmind-platform-sdk]: success
+[2023-07-21 03:56:16] INFO root fetch - processPackages [claudia]: Remove: archive file [/home/abi/fetcher/tmp/claudia-0.1.1.tar.gz]
+[2023-07-21 03:56:16] INFO root fetch - processPackages [claudia]: Remove: archive file [/home/abi/fetcher/tmp/claudia-0.1.2.tar.gz]
+[2023-07-21 03:56:16] INFO root fetch - main [MainThread]: End processing [claudia]: success
+[2023-07-21 03:56:18] INFO root fetch - processPackages [pxgpt]: Remove: archive file [/home/abi/fetcher/tmp/pxgpt-0.0.0rc0.tar.gz]
+[2023-07-21 03:56:18] INFO root fetch - processPackages [pxgpt]: Remove: archive file [/home/abi/fetcher/tmp/pxgpt-0.0.0rc1.tar.gz]
+[2023-07-21 03:56:18] INFO root fetch - main [MainThread]: End processing [pxgpt]: success
+[2023-07-21 03:56:18] INFO root fetch - main [MainThread]: Store serial: [18977441]
