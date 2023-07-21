@@ -1,0 +1,7510 @@
+# Comparing `tmp/maestro-music-1.0.8.tar.gz` & `tmp/maestro-music-1.0.9.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "maestro-music-1.0.8.tar", last modified: Thu Jul 20 22:06:36 2023, max compression
++gzip compressed data, was "maestro-music-1.0.9.tar", last modified: Fri Jul 21 20:08:05 2023, max compression
+```
+
+## Comparing `maestro-music-1.0.8.tar` & `maestro-music-1.0.9.tar`
+
+### file list
+
+```diff
+@@ -1,17 +1,17 @@
+-drwxr-xr-x   0 sysadmin   (501) staff       (20)        0 2023-07-20 22:06:36.191283 maestro-music-1.0.8/
+--rw-r--r--   0 sysadmin   (501) staff       (20)     1067 2023-06-06 05:56:48.000000 maestro-music-1.0.8/LICENSE
+--rw-r--r--   0 sysadmin   (501) staff       (20)    11718 2023-07-20 22:06:36.190769 maestro-music-1.0.8/PKG-INFO
+--rw-r--r--   0 sysadmin   (501) staff       (20)     1894 2023-07-19 00:39:23.000000 maestro-music-1.0.8/config.py
+--rw-r--r--   0 sysadmin   (501) staff       (20)    38177 2023-07-19 00:51:47.000000 maestro-music-1.0.8/helpers.py
+--rw-r--r--   0 sysadmin   (501) staff       (20)   146639 2023-03-25 20:23:16.000000 maestro-music-1.0.8/icon.py
+--rw-r--r--   0 sysadmin   (501) staff       (20)     8837 2023-06-08 00:47:48.000000 maestro-music-1.0.8/mac_presence.py
+--rw-r--r--   0 sysadmin   (501) staff       (20)   117592 2023-07-20 22:06:02.000000 maestro-music-1.0.8/maestro.py
+-drwxr-xr-x   0 sysadmin   (501) staff       (20)        0 2023-07-20 22:06:36.190531 maestro-music-1.0.8/maestro_music.egg-info/
+--rw-r--r--   0 sysadmin   (501) staff       (20)    11718 2023-07-20 22:06:36.000000 maestro-music-1.0.8/maestro_music.egg-info/PKG-INFO
+--rw-r--r--   0 sysadmin   (501) staff       (20)      296 2023-07-20 22:06:36.000000 maestro-music-1.0.8/maestro_music.egg-info/SOURCES.txt
+--rw-r--r--   0 sysadmin   (501) staff       (20)        1 2023-07-20 22:06:36.000000 maestro-music-1.0.8/maestro_music.egg-info/dependency_links.txt
+--rw-r--r--   0 sysadmin   (501) staff       (20)       40 2023-07-20 22:06:36.000000 maestro-music-1.0.8/maestro_music.egg-info/entry_points.txt
+--rw-r--r--   0 sysadmin   (501) staff       (20)      367 2023-07-20 22:06:36.000000 maestro-music-1.0.8/maestro_music.egg-info/requires.txt
+--rw-r--r--   0 sysadmin   (501) staff       (20)       41 2023-07-20 22:06:36.000000 maestro-music-1.0.8/maestro_music.egg-info/top_level.txt
+--rw-r--r--   0 sysadmin   (501) staff       (20)       38 2023-07-20 22:06:36.191351 maestro-music-1.0.8/setup.cfg
+--rw-r--r--   0 sysadmin   (501) staff       (20)     1542 2023-07-20 22:06:14.000000 maestro-music-1.0.8/setup.py
++drwxr-xr-x   0 sysadmin   (501) staff       (20)        0 2023-07-21 20:08:05.224800 maestro-music-1.0.9/
++-rw-r--r--   0 sysadmin   (501) staff       (20)     1067 2023-06-06 05:56:48.000000 maestro-music-1.0.9/LICENSE
++-rw-r--r--   0 sysadmin   (501) staff       (20)    11718 2023-07-21 20:08:05.224224 maestro-music-1.0.9/PKG-INFO
++-rw-r--r--   0 sysadmin   (501) staff       (20)     1894 2023-07-19 00:39:23.000000 maestro-music-1.0.9/config.py
++-rw-r--r--   0 sysadmin   (501) staff       (20)    38177 2023-07-19 00:51:47.000000 maestro-music-1.0.9/helpers.py
++-rw-r--r--   0 sysadmin   (501) staff       (20)   146639 2023-03-25 20:23:16.000000 maestro-music-1.0.9/icon.py
++-rw-r--r--   0 sysadmin   (501) staff       (20)     8837 2023-06-08 00:47:48.000000 maestro-music-1.0.9/mac_presence.py
++-rw-r--r--   0 sysadmin   (501) staff       (20)   117887 2023-07-21 19:58:09.000000 maestro-music-1.0.9/maestro.py
++drwxr-xr-x   0 sysadmin   (501) staff       (20)        0 2023-07-21 20:08:05.223629 maestro-music-1.0.9/maestro_music.egg-info/
++-rw-r--r--   0 sysadmin   (501) staff       (20)    11718 2023-07-21 20:08:05.000000 maestro-music-1.0.9/maestro_music.egg-info/PKG-INFO
++-rw-r--r--   0 sysadmin   (501) staff       (20)      296 2023-07-21 20:08:05.000000 maestro-music-1.0.9/maestro_music.egg-info/SOURCES.txt
++-rw-r--r--   0 sysadmin   (501) staff       (20)        1 2023-07-21 20:08:05.000000 maestro-music-1.0.9/maestro_music.egg-info/dependency_links.txt
++-rw-r--r--   0 sysadmin   (501) staff       (20)       40 2023-07-21 20:08:05.000000 maestro-music-1.0.9/maestro_music.egg-info/entry_points.txt
++-rw-r--r--   0 sysadmin   (501) staff       (20)      367 2023-07-21 20:08:05.000000 maestro-music-1.0.9/maestro_music.egg-info/requires.txt
++-rw-r--r--   0 sysadmin   (501) staff       (20)       41 2023-07-21 20:08:05.000000 maestro-music-1.0.9/maestro_music.egg-info/top_level.txt
++-rw-r--r--   0 sysadmin   (501) staff       (20)       38 2023-07-21 20:08:05.224884 maestro-music-1.0.9/setup.cfg
++-rw-r--r--   0 sysadmin   (501) staff       (20)     1542 2023-07-21 20:08:03.000000 maestro-music-1.0.9/setup.py
+```
+
+### Comparing `maestro-music-1.0.8/LICENSE` & `maestro-music-1.0.9/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `maestro-music-1.0.8/PKG-INFO` & `maestro-music-1.0.9/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: maestro-music
+-Version: 1.0.8
++Version: 1.0.9
+ Summary: A simple command line tool to play songs (or any audio files, really).
+ Home-page: https://github.com/PrajwalVandana/maestro-cli
+ Author: Prajwal Vandana
+ License: MIT
+ Keywords: music,sound,audio,music-player,cli,ogg,flac,mp3,wav,spotify,youtube,audio-visualization,audio-visualizer
+ Description-Content-Type: text/markdown
+ License-File: LICENSE
+```
+
+### Comparing `maestro-music-1.0.8/config.py` & `maestro-music-1.0.9/config.py`
+
+ * *Files identical despite different names*
+
+### Comparing `maestro-music-1.0.8/helpers.py` & `maestro-music-1.0.9/helpers.py`
+
+ * *Files identical despite different names*
+
+### Comparing `maestro-music-1.0.8/icon.py` & `maestro-music-1.0.9/icon.py`
+
+ * *Files identical despite different names*
+
+### Comparing `maestro-music-1.0.8/mac_presence.py` & `maestro-music-1.0.9/mac_presence.py`
+
+ * *Files identical despite different names*
+
+### Comparing `maestro-music-1.0.8/maestro.py` & `maestro-music-1.0.9/maestro.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -3668,3683 +3668,3701 @@
+ 0000e530: 6f6e 5f6e 616d 6573 3d5b 222d 6822 2c20  on_names=["-h", 
+ 0000e540: 222d 2d68 656c 7022 5d29 290a 6465 6620  "--help"])).def 
+ 0000e550: 636c 6928 293a 0a20 2020 2022 2222 4120  cli():.    """A 
+ 0000e560: 636f 6d6d 616e 6420 6c69 6e65 2069 6e74  command line int
+ 0000e570: 6572 6661 6365 2066 6f72 2070 6c61 7969  erface for playi
+ 0000e580: 6e67 206d 7573 6963 2e22 2222 0a0a 2020  ng music."""..  
+ 0000e590: 2020 6966 206e 6f74 206f 732e 7061 7468    if not os.path
+-0000e5a0: 2e65 7869 7374 7328 636f 6e66 6967 2e53  .exists(config.S
+-0000e5b0: 4554 5449 4e47 535f 4649 4c45 293a 0a20  ETTINGS_FILE):. 
+-0000e5c0: 2020 2020 2020 2077 6974 6820 6f70 656e         with open
+-0000e5d0: 2863 6f6e 6669 672e 5345 5454 494e 4753  (config.SETTINGS
+-0000e5e0: 5f46 494c 452c 2022 7822 2c20 656e 636f  _FILE, "x", enco
+-0000e5f0: 6469 6e67 3d22 7574 662d 3822 2920 6173  ding="utf-8") as
+-0000e600: 2066 3a0a 2020 2020 2020 2020 2020 2020   f:.            
+-0000e610: 6a73 6f6e 2e64 756d 7028 7b22 736f 6e67  json.dump({"song
+-0000e620: 5f64 6972 6563 746f 7279 223a 2063 6f6e  _directory": con
+-0000e630: 6669 672e 4445 4641 554c 545f 534f 4e47  fig.DEFAULT_SONG
+-0000e640: 535f 4449 527d 2c20 6629 0a20 2020 2020  S_DIR}, f).     
+-0000e650: 2020 2020 2020 2063 6f6e 6669 672e 534f         config.SO
+-0000e660: 4e47 535f 4449 5220 3d20 636f 6e66 6967  NGS_DIR = config
+-0000e670: 2e44 4546 4155 4c54 5f53 4f4e 4753 5f44  .DEFAULT_SONGS_D
+-0000e680: 4952 0a20 2020 2065 6c73 653a 0a20 2020  IR.    else:.   
+-0000e690: 2020 2020 2077 6974 6820 6f70 656e 2863       with open(c
+-0000e6a0: 6f6e 6669 672e 5345 5454 494e 4753 5f46  onfig.SETTINGS_F
+-0000e6b0: 494c 452c 2022 7222 2c20 656e 636f 6469  ILE, "r", encodi
+-0000e6c0: 6e67 3d22 7574 662d 3822 2920 6173 2066  ng="utf-8") as f
+-0000e6d0: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-0000e6e0: 7474 696e 6773 203d 206a 736f 6e2e 6c6f  ttings = json.lo
+-0000e6f0: 6164 2866 290a 2020 2020 2020 2020 2020  ad(f).          
+-0000e700: 2020 6966 2022 736f 6e67 5f64 6972 6563    if "song_direc
+-0000e710: 746f 7279 2220 6e6f 7420 696e 2073 6574  tory" not in set
+-0000e720: 7469 6e67 733a 0a20 2020 2020 2020 2020  tings:.         
+-0000e730: 2020 2020 2020 2073 6574 7469 6e67 735b         settings[
+-0000e740: 2273 6f6e 675f 6469 7265 6374 6f72 7922  "song_directory"
+-0000e750: 5d20 3d20 636f 6e66 6967 2e44 4546 4155  ] = config.DEFAU
+-0000e760: 4c54 5f53 4f4e 4753 5f44 4952 0a20 2020  LT_SONGS_DIR.   
+-0000e770: 2020 2020 2020 2020 2020 2020 2077 6974               wit
+-0000e780: 6820 6f70 656e 2863 6f6e 6669 672e 5345  h open(config.SE
+-0000e790: 5454 494e 4753 5f46 494c 452c 2022 7722  TTINGS_FILE, "w"
+-0000e7a0: 2c20 656e 636f 6469 6e67 3d22 7574 662d  , encoding="utf-
+-0000e7b0: 3822 2920 6173 2067 3a0a 2020 2020 2020  8") as g:.      
+-0000e7c0: 2020 2020 2020 2020 2020 2020 2020 6a73                js
+-0000e7d0: 6f6e 2e64 756d 7028 7365 7474 696e 6773  on.dump(settings
+-0000e7e0: 2c20 6729 0a20 2020 2020 2020 2020 2020  , g).           
+-0000e7f0: 2065 6c73 653a 0a20 2020 2020 2020 2020   else:.         
+-0000e800: 2020 2020 2020 2069 6620 6e6f 7420 6f73         if not os
+-0000e810: 2e70 6174 682e 6578 6973 7473 2873 6574  .path.exists(set
+-0000e820: 7469 6e67 735b 2273 6f6e 675f 6469 7265  tings["song_dire
+-0000e830: 6374 6f72 7922 5d29 3a0a 2020 2020 2020  ctory"]):.      
+-0000e840: 2020 2020 2020 2020 2020 2020 2020 6f73                os
+-0000e850: 2e6d 616b 6564 6972 7328 7365 7474 696e  .makedirs(settin
+-0000e860: 6773 5b22 736f 6e67 5f64 6972 6563 746f  gs["song_directo
+-0000e870: 7279 225d 290a 2020 2020 2020 2020 2020  ry"]).          
+-0000e880: 2020 636f 6e66 6967 2e53 4f4e 4753 5f44    config.SONGS_D
+-0000e890: 4952 203d 2073 6574 7469 6e67 735b 2273  IR = settings["s
+-0000e8a0: 6f6e 675f 6469 7265 6374 6f72 7922 5d0a  ong_directory"].
+-0000e8b0: 0a20 2020 2069 6620 6e6f 7420 6f73 2e70  .    if not os.p
+-0000e8c0: 6174 682e 6578 6973 7473 2863 6f6e 6669  ath.exists(confi
+-0000e8d0: 672e 534f 4e47 535f 494e 464f 5f50 4154  g.SONGS_INFO_PAT
+-0000e8e0: 4829 3a0a 2020 2020 2020 2020 7769 7468  H):.        with
+-0000e8f0: 206f 7065 6e28 636f 6e66 6967 2e53 4f4e   open(config.SON
+-0000e900: 4753 5f49 4e46 4f5f 5041 5448 2c20 2278  GS_INFO_PATH, "x
+-0000e910: 222c 2065 6e63 6f64 696e 673d 2275 7466  ", encoding="utf
+-0000e920: 2d38 2229 2061 7320 5f3a 0a20 2020 2020  -8") as _:.     
+-0000e930: 2020 2020 2020 2070 6173 730a 0a20 2020         pass..   
+-0000e940: 2069 6620 6e6f 7420 6f73 2e70 6174 682e   if not os.path.
+-0000e950: 6578 6973 7473 2863 6f6e 6669 672e 5354  exists(config.ST
+-0000e960: 4154 535f 4449 5229 3a0a 2020 2020 2020  ATS_DIR):.      
+-0000e970: 2020 6f73 2e6d 616b 6564 6972 7328 636f    os.makedirs(co
+-0000e980: 6e66 6967 2e53 5441 5453 5f44 4952 290a  nfig.STATS_DIR).
+-0000e990: 2020 2020 6966 206e 6f74 206f 732e 7061      if not os.pa
+-0000e9a0: 7468 2e65 7869 7374 7328 636f 6e66 6967  th.exists(config
+-0000e9b0: 2e54 4f54 414c 5f53 5441 5453 5f50 4154  .TOTAL_STATS_PAT
+-0000e9c0: 4829 3a0a 2020 2020 2020 2020 7769 7468  H):.        with
+-0000e9d0: 2028 0a20 2020 2020 2020 2020 2020 206f   (.            o
+-0000e9e0: 7065 6e28 636f 6e66 6967 2e54 4f54 414c  pen(config.TOTAL
+-0000e9f0: 5f53 5441 5453 5f50 4154 482c 2022 7722  _STATS_PATH, "w"
+-0000ea00: 2c20 656e 636f 6469 6e67 3d22 7574 662d  , encoding="utf-
+-0000ea10: 3822 2920 6173 2066 2c0a 2020 2020 2020  8") as f,.      
+-0000ea20: 2020 2020 2020 6f70 656e 2863 6f6e 6669        open(confi
+-0000ea30: 672e 534f 4e47 535f 494e 464f 5f50 4154  g.SONGS_INFO_PAT
+-0000ea40: 482c 2022 7222 2c20 656e 636f 6469 6e67  H, "r", encoding
+-0000ea50: 3d22 7574 662d 3822 2920 6173 2067 2c0a  ="utf-8") as g,.
+-0000ea60: 2020 2020 2020 2020 293a 0a20 2020 2020          ):.     
+-0000ea70: 2020 2020 2020 2066 6f72 206c 696e 6520         for line 
+-0000ea80: 696e 2067 3a0a 2020 2020 2020 2020 2020  in g:.          
+-0000ea90: 2020 2020 2020 662e 7772 6974 6528 6622        f.write(f"
+-0000eaa0: 7b6c 696e 652e 7374 7269 7028 292e 7370  {line.strip().sp
+-0000eab0: 6c69 7428 277c 2729 5b30 5d7d 7c30 5c6e  lit('|')[0]}|0\n
+-0000eac0: 2229 0a20 2020 2069 6620 6e6f 7420 6f73  ").    if not os
+-0000ead0: 2e70 6174 682e 6578 6973 7473 2863 6f6e  .path.exists(con
+-0000eae0: 6669 672e 4355 525f 5945 4152 5f53 5441  fig.CUR_YEAR_STA
+-0000eaf0: 5453 5f50 4154 4829 3a0a 2020 2020 2020  TS_PATH):.      
+-0000eb00: 2020 7769 7468 2028 0a20 2020 2020 2020    with (.       
+-0000eb10: 2020 2020 206f 7065 6e28 636f 6e66 6967       open(config
+-0000eb20: 2e43 5552 5f59 4541 525f 5354 4154 535f  .CUR_YEAR_STATS_
+-0000eb30: 5041 5448 2c20 2277 222c 2065 6e63 6f64  PATH, "w", encod
+-0000eb40: 696e 673d 2275 7466 2d38 2229 2061 7320  ing="utf-8") as 
+-0000eb50: 662c 0a20 2020 2020 2020 2020 2020 206f  f,.            o
+-0000eb60: 7065 6e28 636f 6e66 6967 2e53 4f4e 4753  pen(config.SONGS
+-0000eb70: 5f49 4e46 4f5f 5041 5448 2c20 2272 222c  _INFO_PATH, "r",
+-0000eb80: 2065 6e63 6f64 696e 673d 2275 7466 2d38   encoding="utf-8
+-0000eb90: 2229 2061 7320 672c 0a20 2020 2020 2020  ") as g,.       
+-0000eba0: 2029 3a0a 2020 2020 2020 2020 2020 2020   ):.            
+-0000ebb0: 666f 7220 6c69 6e65 2069 6e20 673a 0a20  for line in g:. 
+-0000ebc0: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-0000ebd0: 2e77 7269 7465 2866 227b 6c69 6e65 2e73  .write(f"{line.s
+-0000ebe0: 7472 6970 2829 2e73 706c 6974 2827 7c27  trip().split('|'
+-0000ebf0: 295b 305d 7d7c 305c 6e22 290a 0a0a 4063  )[0]}|0\n")...@c
+-0000ec00: 6c69 2e63 6f6d 6d61 6e64 2829 0a40 636c  li.command().@cl
+-0000ec10: 6963 6b2e 6172 6775 6d65 6e74 2822 7061  ick.argument("pa
+-0000ec20: 7468 5f22 2c20 6d65 7461 7661 723d 2250  th_", metavar="P
+-0000ec30: 4154 485f 4f52 5f55 524c 2229 0a40 636c  ATH_OR_URL").@cl
+-0000ec40: 6963 6b2e 6172 6775 6d65 6e74 2822 7461  ick.argument("ta
+-0000ec50: 6773 222c 206e 6172 6773 3d2d 3129 0a40  gs", nargs=-1).@
+-0000ec60: 636c 6963 6b2e 6f70 7469 6f6e 280a 2020  click.option(.  
+-0000ec70: 2020 222d 4d2f 2d6e 4d22 2c0a 2020 2020    "-M/-nM",.    
+-0000ec80: 222d 2d6d 6f76 652f 2d2d 6e6f 2d6d 6f76  "--move/--no-mov
+-0000ec90: 6522 2c0a 2020 2020 226d 6f76 655f 222c  e",.    "move_",
+-0000eca0: 0a20 2020 2064 6566 6175 6c74 3d46 616c  .    default=Fal
+-0000ecb0: 7365 2c0a 2020 2020 6865 6c70 3d22 4d6f  se,.    help="Mo
+-0000ecc0: 7665 2066 696c 6520 6672 6f6d 2050 4154  ve file from PAT
+-0000ecd0: 4820 746f 206d 6165 7374 726f 2773 2069  H to maestro's i
+-0000ece0: 6e74 6572 6e61 6c20 736f 6e67 2064 6174  nternal song dat
+-0000ecf0: 6162 6173 6520 696e 7374 6561 6420 6f66  abase instead of
+-0000ed00: 2063 6f70 7969 6e67 2e22 2c0a 290a 4063   copying.",.).@c
+-0000ed10: 6c69 636b 2e6f 7074 696f 6e28 0a20 2020  lick.option(.   
+-0000ed20: 2022 2d6e 222c 0a20 2020 2022 2d2d 6e61   "-n",.    "--na
+-0000ed30: 6d65 222c 0a20 2020 2074 7970 653d 7374  me",.    type=st
+-0000ed40: 722c 0a20 2020 2068 656c 703d 2257 6861  r,.    help="Wha
+-0000ed50: 7420 746f 206e 616d 6520 7468 6520 736f  t to name the so
+-0000ed60: 6e67 2c20 6966 2079 6f75 2064 6f6e 2774  ng, if you don't
+-0000ed70: 2077 616e 7420 746f 2075 7365 2074 6865   want to use the
+-0000ed80: 2074 6974 6c65 2066 726f 6d20 596f 7574   title from Yout
+-0000ed90: 7562 652f 5370 6f74 6966 7920 6f72 2066  ube/Spotify or f
+-0000eda0: 696c 656e 616d 652e 2044 6f20 6e6f 7420  ilename. Do not 
+-0000edb0: 696e 636c 7564 6520 616e 2065 7874 656e  include an exten
+-0000edc0: 7369 6f6e 2028 652e 672e 2027 2e77 6176  sion (e.g. '.wav
+-0000edd0: 2729 2e20 4967 6e6f 7265 6420 6966 2061  '). Ignored if a
+-0000ede0: 6464 696e 6720 6d75 6c74 6970 6c65 2073  dding multiple s
+-0000edf0: 6f6e 6773 2e22 2c0a 290a 4063 6c69 636b  ongs.",.).@click
+-0000ee00: 2e6f 7074 696f 6e28 0a20 2020 2022 2d52  .option(.    "-R
+-0000ee10: 2c20 2d6e 5222 2c0a 2020 2020 222d 2d72  , -nR",.    "--r
+-0000ee20: 6563 7572 7369 7665 2f2d 2d6e 6f2d 7265  ecursive/--no-re
+-0000ee30: 6375 7273 6976 6522 2c0a 2020 2020 2272  cursive",.    "r
+-0000ee40: 6563 7572 7365 222c 0a20 2020 2064 6566  ecurse",.    def
+-0000ee50: 6175 6c74 3d46 616c 7365 2c0a 2020 2020  ault=False,.    
+-0000ee60: 6865 6c70 3d22 4966 2050 4154 4820 6973  help="If PATH is
+-0000ee70: 2061 2066 6f6c 6465 722c 2061 6464 2073   a folder, add s
+-0000ee80: 6f6e 6773 2069 6e20 7375 6266 6f6c 6465  ongs in subfolde
+-0000ee90: 7273 2e22 2c0a 290a 4063 6c69 636b 2e6f  rs.",.).@click.o
+-0000eea0: 7074 696f 6e28 0a20 2020 2022 2d59 2f2d  ption(.    "-Y/-
+-0000eeb0: 6e59 222c 0a20 2020 2022 2d2d 796f 7574  nY",.    "--yout
+-0000eec0: 7562 652f 2d2d 6e6f 2d79 6f75 7475 6265  ube/--no-youtube
+-0000eed0: 222c 0a20 2020 2064 6566 6175 6c74 3d46  ",.    default=F
+-0000eee0: 616c 7365 2c0a 2020 2020 6865 6c70 3d22  alse,.    help="
+-0000eef0: 4164 6420 6120 736f 6e67 2066 726f 6d20  Add a song from 
+-0000ef00: 6120 596f 7554 7562 6520 6f72 2059 6f75  a YouTube or You
+-0000ef10: 5475 6265 204d 7573 6963 2055 524c 2e22  Tube Music URL."
+-0000ef20: 2c0a 290a 4063 6c69 636b 2e6f 7074 696f  ,.).@click.optio
+-0000ef30: 6e28 0a20 2020 2022 2d53 2f2d 6e53 222c  n(.    "-S/-nS",
+-0000ef40: 0a20 2020 2022 2d2d 7370 6f74 6966 792f  .    "--spotify/
+-0000ef50: 2d2d 6e6f 2d73 706f 7469 6679 222c 0a20  --no-spotify",. 
+-0000ef60: 2020 2064 6566 6175 6c74 3d46 616c 7365     default=False
+-0000ef70: 2c0a 2020 2020 6865 6c70 3d22 4164 6420  ,.    help="Add 
+-0000ef80: 6120 736f 6e67 2066 726f 6d20 5370 6f74  a song from Spot
+-0000ef90: 6966 7920 2874 7261 636b 2055 524c 2c20  ify (track URL, 
+-0000efa0: 616c 6275 6d20 5552 4c2c 2070 6c61 796c  album URL, playl
+-0000efb0: 6973 7420 5552 4c2c 2061 7274 6973 7420  ist URL, artist 
+-0000efc0: 5552 4c2c 206f 7220 7365 6172 6368 2071  URL, or search q
+-0000efd0: 7565 7279 292e 222c 0a29 0a40 636c 6963  uery).",.).@clic
+-0000efe0: 6b2e 6f70 7469 6f6e 280a 2020 2020 222d  k.option(.    "-
+-0000eff0: 6622 2c0a 2020 2020 222d 2d66 6f72 6d61  f",.    "--forma
+-0000f000: 7422 2c0a 2020 2020 2266 6f72 6d61 745f  t",.    "format_
+-0000f010: 222c 0a20 2020 2074 7970 653d 636c 6963  ",.    type=clic
+-0000f020: 6b2e 4368 6f69 6365 285b 2277 6176 222c  k.Choice(["wav",
+-0000f030: 2022 6d70 3322 2c20 2266 6c61 6322 2c20   "mp3", "flac", 
+-0000f040: 226f 6767 225d 292c 0a20 2020 2068 656c  "ogg"]),.    hel
+-0000f050: 703d 2253 7065 6369 6679 2074 6865 2066  p="Specify the f
+-0000f060: 6f72 6d61 7420 6f66 2074 6865 2073 6f6e  ormat of the son
+-0000f070: 6720 6966 2064 6f77 6e6c 6f61 6469 6e67  g if downloading
+-0000f080: 2066 726f 6d20 596f 7554 7562 652c 2059   from YouTube, Y
+-0000f090: 6f75 5475 6265 204d 7573 6963 2c20 6f72  ouTube Music, or
+-0000f0a0: 2053 706f 7469 6679 2055 524c 2e22 2c0a   Spotify URL.",.
+-0000f0b0: 2020 2020 6465 6661 756c 743d 2266 6c61      default="fla
+-0000f0c0: 6322 2c0a 2020 2020 7368 6f77 5f64 6566  c",.    show_def
+-0000f0d0: 6175 6c74 3d54 7275 652c 0a29 0a40 636c  ault=True,.).@cl
+-0000f0e0: 6963 6b2e 6f70 7469 6f6e 280a 2020 2020  ick.option(.    
+-0000f0f0: 222d 6322 2c0a 2020 2020 222d 2d63 6c69  "-c",.    "--cli
+-0000f100: 7022 2c0a 2020 2020 6e61 7267 733d 322c  p",.    nargs=2,
+-0000f110: 0a20 2020 2074 7970 653d 666c 6f61 742c  .    type=float,
+-0000f120: 0a20 2020 2068 656c 703d 2241 6464 2061  .    help="Add a
+-0000f130: 2063 6c69 702e 2049 676e 6f72 6564 2069   clip. Ignored i
+-0000f140: 6620 6164 6469 6e67 206d 756c 7469 706c  f adding multipl
+-0000f150: 6520 736f 6e67 732e 222c 0a29 0a40 636c  e songs.",.).@cl
+-0000f160: 6963 6b2e 6f70 7469 6f6e 280a 2020 2020  ick.option(.    
+-0000f170: 222d 502f 2d6e 5022 2c0a 2020 2020 222d  "-P/-nP",.    "-
+-0000f180: 2d70 6c61 796c 6973 742f 2d2d 6e6f 2d70  -playlist/--no-p
+-0000f190: 6c61 796c 6973 7422 2c0a 2020 2020 2270  laylist",.    "p
+-0000f1a0: 6c61 796c 6973 745f 222c 0a20 2020 2064  laylist_",.    d
+-0000f1b0: 6566 6175 6c74 3d46 616c 7365 2c0a 2020  efault=False,.  
+-0000f1c0: 2020 6865 6c70 3d22 4966 2073 6f6e 6720    help="If song 
+-0000f1d0: 5552 4c20 7061 7373 6564 2069 7320 6672  URL passed is fr
+-0000f1e0: 6f6d 2061 2059 6f75 5475 6265 2070 6c61  om a YouTube pla
+-0000f1f0: 796c 6973 742c 2064 6f77 6e6c 6f61 6420  ylist, download 
+-0000f200: 616c 6c20 7468 6520 736f 6e67 732e 2049  all the songs. I
+-0000f210: 6620 7468 6520 5552 4c20 706f 696e 7473  f the URL points
+-0000f220: 2064 6972 6563 746c 7920 746f 2061 2070   directly to a p
+-0000f230: 6c61 796c 6973 742c 2074 6869 7320 666c  laylist, this fl
+-0000f240: 6167 2069 7320 756e 6e63 6573 7361 7279  ag is unncessary
+-0000f250: 2e22 2c0a 290a 4063 6c69 636b 2e6f 7074  .",.).@click.opt
+-0000f260: 696f 6e28 0a20 2020 2022 2d6d 222c 0a20  ion(.    "-m",. 
+-0000f270: 2020 2022 2d2d 6d65 7461 6461 7461 222c     "--metadata",
+-0000f280: 0a20 2020 2022 6d65 7461 6461 7461 5f70  .    "metadata_p
+-0000f290: 6169 7273 222c 0a20 2020 2064 6566 6175  airs",.    defau
+-0000f2a0: 6c74 3d4e 6f6e 652c 0a20 2020 2068 656c  lt=None,.    hel
+-0000f2b0: 703d 2241 6464 206d 6574 6164 6174 6120  p="Add metadata 
+-0000f2c0: 746f 2074 6865 2073 6f6e 672e 2049 676e  to the song. Ign
+-0000f2d0: 6f72 6564 2069 6620 6164 6469 6e67 206d  ored if adding m
+-0000f2e0: 756c 7469 706c 6520 736f 6e67 732e 2054  ultiple songs. T
+-0000f2f0: 6865 2066 6f72 6d61 7420 6973 2027 6b65  he format is 'ke
+-0000f300: 7931 3a76 616c 7565 317c 6b65 7932 3a76  y1:value1|key2:v
+-0000f310: 616c 7565 327c 2e2e 2e27 2e22 2c0a 290a  alue2|...'.",.).
+-0000f320: 6465 6620 6164 6428 0a20 2020 2070 6174  def add(.    pat
+-0000f330: 685f 2c0a 2020 2020 7461 6773 2c0a 2020  h_,.    tags,.  
+-0000f340: 2020 6d6f 7665 5f2c 0a20 2020 206e 616d    move_,.    nam
+-0000f350: 652c 0a20 2020 2072 6563 7572 7365 2c0a  e,.    recurse,.
+-0000f360: 2020 2020 796f 7574 7562 652c 0a20 2020      youtube,.   
+-0000f370: 2073 706f 7469 6679 2c0a 2020 2020 666f   spotify,.    fo
+-0000f380: 726d 6174 5f2c 0a20 2020 2063 6c69 702c  rmat_,.    clip,
+-0000f390: 0a20 2020 2070 6c61 796c 6973 745f 2c0a  .    playlist_,.
+-0000f3a0: 2020 2020 6d65 7461 6461 7461 5f70 6169      metadata_pai
+-0000f3b0: 7273 2c0a 293a 0a20 2020 2022 2222 0a20  rs,.):.    """. 
+-0000f3c0: 2020 2041 6464 2061 206e 6577 2073 6f6e     Add a new son
+-0000f3d0: 672e 0a0a 2020 2020 4164 6473 2074 6865  g...    Adds the
+-0000f3e0: 2061 7564 696f 2066 696c 6520 6c6f 6361   audio file loca
+-0000f3f0: 7465 6420 6174 2050 4154 482e 2049 6620  ted at PATH. If 
+-0000f400: 5041 5448 2069 7320 6120 666f 6c64 6572  PATH is a folder
+-0000f410: 2c20 6164 6473 2061 6c6c 2066 696c 6573  , adds all files
+-0000f420: 0a20 2020 2069 6e20 5041 5448 2028 696e  .    in PATH (in
+-0000f430: 636c 7564 696e 6720 6669 6c65 7320 696e  cluding files in
+-0000f440: 2073 7562 666f 6c64 6572 7320 6966 2027   subfolders if '
+-0000f450: 2d72 2720 6973 2070 6173 7365 6429 2e20  -r' is passed). 
+-0000f460: 5468 6520 6e61 6d65 206f 6620 6561 6368  The name of each
+-0000f470: 0a20 2020 2073 6f6e 6720 7769 6c6c 2062  .    song will b
+-0000f480: 6520 7468 6520 6669 6c65 6e61 6d65 2028  e the filename (
+-0000f490: 756e 6c65 7373 2027 2d6e 2720 6973 2070  unless '-n' is p
+-0000f4a0: 6173 7365 6429 2e20 4669 6c65 6e61 6d65  assed). Filename
+-0000f4b0: 7320 616e 6420 7461 6773 2063 616e 6e6f  s and tags canno
+-0000f4c0: 740a 2020 2020 636f 6e74 6169 6e20 7468  t.    contain th
+-0000f4d0: 6520 6368 6172 6163 7465 7220 277c 272c  e character '|',
+-0000f4e0: 2061 6e64 2074 6167 7320 6361 6e6e 6f74   and tags cannot
+-0000f4f0: 2063 6f6e 7461 696e 2027 2c27 2e0a 0a20   contain ','... 
+-0000f500: 2020 2049 6620 7468 6520 272d 5927 206f     If the '-Y' o
+-0000f510: 7220 272d 2d79 6f75 7475 6265 2720 666c  r '--youtube' fl
+-0000f520: 6167 2069 7320 7061 7373 6564 2c20 5041  ag is passed, PA
+-0000f530: 5448 2069 7320 7472 6561 7465 6420 6173  TH is treated as
+-0000f540: 2061 2059 6f75 5475 6265 206f 720a 2020   a YouTube or.  
+-0000f550: 2020 596f 7554 7562 6520 4d75 7369 6320    YouTube Music 
+-0000f560: 5552 4c20 696e 7374 6561 6420 6f66 2061  URL instead of a
+-0000f570: 2066 696c 6520 7061 7468 2e0a 0a20 2020   file path...   
+-0000f580: 2049 6620 7468 6520 272d 5327 206f 7220   If the '-S' or 
+-0000f590: 272d 2d73 706f 7469 6679 2720 666c 6167  '--spotify' flag
+-0000f5a0: 2069 7320 7061 7373 6564 2c20 5041 5448   is passed, PATH
+-0000f5b0: 2069 7320 7472 6561 7465 6420 6173 2061   is treated as a
+-0000f5c0: 2053 706f 7469 6679 0a20 2020 2074 7261   Spotify.    tra
+-0000f5d0: 636b 2055 524c 2c20 616c 6275 6d20 5552  ck URL, album UR
+-0000f5e0: 4c2c 2070 6c61 796c 6973 7420 5552 4c2c  L, playlist URL,
+-0000f5f0: 2061 7274 6973 7420 5552 4c2c 206f 7220   artist URL, or 
+-0000f600: 7365 6172 6368 2071 7565 7279 2069 6e73  search query ins
+-0000f610: 7465 6164 206f 660a 2020 2020 6120 6669  tead of.    a fi
+-0000f620: 6c65 2070 6174 682e 0a0a 2020 2020 5468  le path...    Th
+-0000f630: 6520 272d 632f 2d2d 636c 6970 2720 6f70  e '-c/--clip' op
+-0000f640: 7469 6f6e 2063 616e 2062 6520 7573 6564  tion can be used
+-0000f650: 2074 6f20 6164 6420 6120 636c 6970 2066   to add a clip f
+-0000f660: 6f72 2074 6865 2073 6f6e 672e 2049 7420  or the song. It 
+-0000f670: 7461 6b65 7320 7477 6f0a 2020 2020 6172  takes two.    ar
+-0000f680: 6775 6d65 6e74 732c 2062 7574 2075 6e6c  guments, but unl
+-0000f690: 696b 6520 276d 6165 7374 726f 2063 6c69  ike 'maestro cli
+-0000f6a0: 7027 2c20 796f 7520 6361 6e6e 6f74 2070  p', you cannot p
+-0000f6b0: 6173 7320 6f6e 6c79 2074 6865 2073 7461  ass only the sta
+-0000f6c0: 7274 2074 696d 650a 2020 2020 616e 6420  rt time.    and 
+-0000f6d0: 6e6f 7420 7468 6520 656e 642e 2054 6f20  not the end. To 
+-0000f6e0: 6765 7420 6172 6f75 6e64 2074 6869 732c  get around this,
+-0000f6f0: 2079 6f75 2063 616e 2070 6173 7320 2d31   you can pass -1
+-0000f700: 2061 7320 7468 6520 656e 6420 7469 6d65   as the end time
+-0000f710: 2c20 652e 672e 0a20 2020 2027 6d61 6573  , e.g..    'maes
+-0000f720: 7472 6f20 6164 6420 2d63 2033 3020 2d31  tro add -c 30 -1
+-0000f730: 2068 7474 7073 3a2f 2f77 7777 2e79 6f75   https://www.you
+-0000f740: 7475 6265 2e63 6f6d 2f77 6174 6368 3f76  tube.com/watch?v
+-0000f750: 3d33 5678 754d 4572 4364 2d45 202d 7927  =3VxuMErCd-E -y'
+-0000f760: 2e20 4966 0a20 2020 2061 6464 696e 6720  . If.    adding 
+-0000f770: 6d75 6c74 6970 6c65 2073 6f6e 6773 2c20  multiple songs, 
+-0000f780: 7468 6973 206f 7074 696f 6e20 6361 6e6e  this option cann
+-0000f790: 6f74 2062 6520 7573 6564 2e0a 0a20 2020  ot be used...   
+-0000f7a0: 2054 6865 2027 2d6d 2f2d 2d6d 6574 6164   The '-m/--metad
+-0000f7b0: 6174 6127 206f 7074 696f 6e20 6361 6e20  ata' option can 
+-0000f7c0: 6265 2075 7365 6420 746f 2061 6464 206d  be used to add m
+-0000f7d0: 6574 6164 6174 6120 746f 2074 6865 2073  etadata to the s
+-0000f7e0: 6f6e 672e 2049 7420 7461 6b65 730a 2020  ong. It takes.  
+-0000f7f0: 2020 6120 7374 7269 6e67 206f 6620 7468    a string of th
+-0000f800: 6520 666f 726d 6174 2027 6b65 7931 3a76  e format 'key1:v
+-0000f810: 616c 7565 317c 6b65 7932 3a76 616c 7565  alue1|key2:value
+-0000f820: 327c 2e2e 2e27 2e20 4966 2061 6464 696e  2|...'. If addin
+-0000f830: 6720 6d75 6c74 6970 6c65 0a20 2020 2073  g multiple.    s
+-0000f840: 6f6e 6773 2c20 7468 6973 206f 7074 696f  ongs, this optio
+-0000f850: 6e20 6361 6e6e 6f74 2062 6520 7573 6564  n cannot be used
+-0000f860: 2e0a 0a20 2020 2050 6f73 7369 626c 6520  ...    Possible 
+-0000f870: 6564 6974 6162 6c65 206d 6574 6164 6174  editable metadat
+-0000f880: 6120 6b65 7973 2061 7265 3a20 616c 6275  a keys are: albu
+-0000f890: 6d2c 2061 6c62 756d 6172 7469 7374 2c20  m, albumartist, 
+-0000f8a0: 6172 7469 7374 2c20 6172 7477 6f72 6b2c  artist, artwork,
+-0000f8b0: 0a20 2020 2063 6f6d 6d65 6e74 2c20 636f  .    comment, co
+-0000f8c0: 6d70 696c 6174 696f 6e2c 2063 6f6d 706f  mpilation, compo
+-0000f8d0: 7365 722c 2064 6973 636e 756d 6265 722c  ser, discnumber,
+-0000f8e0: 2067 656e 7265 2c20 6c79 7269 6373 2c20   genre, lyrics, 
+-0000f8f0: 746f 7461 6c64 6973 6373 2c0a 2020 2020  totaldiscs,.    
+-0000f900: 746f 7461 6c74 7261 636b 732c 2074 7261  totaltracks, tra
+-0000f910: 636b 6e75 6d62 6572 2c20 7472 6163 6b74  cknumber, trackt
+-0000f920: 6974 6c65 2c20 7965 6172 2c20 6973 7263  itle, year, isrc
+-0000f930: 0a0a 2020 2020 4b65 7973 2061 7265 206e  ..    Keys are n
+-0000f940: 6f74 2063 6173 6520 7365 6e73 6974 6976  ot case sensitiv
+-0000f950: 6520 616e 6420 6361 6e20 636f 6e74 6169  e and can contai
+-0000f960: 6e20 6172 6269 7472 6172 7920 7768 6974  n arbitrary whit
+-0000f970: 6573 7061 6365 2c20 272d 272c 2061 6e64  espace, '-', and
+-0000f980: 0a20 2020 2027 5f27 2063 6861 7261 6374  .    '_' charact
+-0000f990: 6572 732e 2049 6e20 6f74 6865 7220 776f  ers. In other wo
+-0000f9a0: 7264 732c 2027 416c 6275 6d20 4172 7469  rds, 'Album Arti
+-0000f9b0: 7374 272c 2027 616c 6275 6d2d 6172 7469  st', 'album-arti
+-0000f9c0: 7374 272c 2061 6e64 0a20 2020 2027 616c  st', and.    'al
+-0000f9d0: 6275 6d5f 6172 7469 7374 2720 6172 6520  bum_artist' are 
+-0000f9e0: 616c 6c20 7379 6e6f 6e79 6d73 2066 6f72  all synonyms for
+-0000f9f0: 2027 616c 6275 6d61 7274 6973 7427 2e20   'albumartist'. 
+-0000fa00: 416c 736f 2c20 2764 6973 6b27 2069 730a  Also, 'disk' is.
+-0000fa10: 2020 2020 7379 6e6f 6e79 6d6f 7573 2077      synonymous w
+-0000fa20: 6974 6820 2764 6973 6327 2e0a 2020 2020  ith 'disc'..    
+-0000fa30: 2222 220a 0a20 2020 2070 6174 6873 203d  """..    paths =
+-0000fa40: 204e 6f6e 650a 2020 2020 6966 206e 6f74   None.    if not
+-0000fa50: 2028 796f 7574 7562 6520 6f72 2073 706f   (youtube or spo
+-0000fa60: 7469 6679 2920 616e 6420 6e6f 7420 6f73  tify) and not os
+-0000fa70: 2e70 6174 682e 6578 6973 7473 2870 6174  .path.exists(pat
+-0000fa80: 685f 293a 0a20 2020 2020 2020 2063 6c69  h_):.        cli
+-0000fa90: 636b 2e73 6563 686f 280a 2020 2020 2020  ck.secho(.      
+-0000faa0: 2020 2020 2020 6622 5468 6520 7061 7468        f"The path
+-0000fab0: 2027 7b70 6174 685f 7d27 2064 6f65 7320   '{path_}' does 
+-0000fac0: 6e6f 7420 6578 6973 742e 2054 6f20 646f  not exist. To do
+-0000fad0: 776e 6c6f 6164 2066 726f 6d20 6120 596f  wnload from a Yo
+-0000fae0: 7554 7562 6520 6f72 2059 6f75 5475 6265  uTube or YouTube
+-0000faf0: 204d 7573 6963 2055 526c 2c20 7061 7373   Music URl, pass
+-0000fb00: 2074 6865 2027 2d59 2f2d 2d79 6f75 7475   the '-Y/--youtu
+-0000fb10: 6265 2720 666c 6167 2e20 546f 2064 6f77  be' flag. To dow
+-0000fb20: 6e6c 6f61 6420 6672 6f6d 2061 2053 706f  nload from a Spo
+-0000fb30: 7469 6679 2055 526c 2c20 7061 7373 2074  tify URl, pass t
+-0000fb40: 6865 2027 2d53 2f2d 2d73 706f 7469 6679  he '-S/--spotify
+-0000fb50: 2720 666c 6167 2e22 2c0a 2020 2020 2020  ' flag.",.      
+-0000fb60: 2020 2020 2020 6667 3d22 7265 6422 2c0a        fg="red",.
+-0000fb70: 2020 2020 2020 2020 290a 2020 2020 2020          ).      
+-0000fb80: 2020 7265 7475 726e 0a0a 2020 2020 6966    return..    if
+-0000fb90: 2079 6f75 7475 6265 206f 7220 7370 6f74   youtube or spot
+-0000fba0: 6966 793a 0a20 2020 2020 2020 2069 6620  ify:.        if 
+-0000fbb0: 796f 7574 7562 6520 616e 6420 7370 6f74  youtube and spot
+-0000fbc0: 6966 793a 0a20 2020 2020 2020 2020 2020  ify:.           
+-0000fbd0: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
+-0000fbe0: 2020 2020 2020 2020 2020 2020 2020 2243                "C
+-0000fbf0: 616e 6e6f 7420 7061 7373 2062 6f74 6820  annot pass both 
+-0000fc00: 272d 792f 2d2d 796f 7574 7562 6527 2061  '-y/--youtube' a
+-0000fc10: 6e64 2027 2d73 2f2d 2d73 706f 7469 6679  nd '-s/--spotify
+-0000fc20: 2720 666c 6167 732e 222c 0a20 2020 2020  ' flags.",.     
+-0000fc30: 2020 2020 2020 2020 2020 2066 673d 2272             fg="r
+-0000fc40: 6564 222c 0a20 2020 2020 2020 2020 2020  ed",.           
+-0000fc50: 2029 0a20 2020 2020 2020 2020 2020 2072   ).            r
+-0000fc60: 6574 7572 6e0a 0a20 2020 2020 2020 2069  eturn..        i
+-0000fc70: 6620 796f 7574 7562 653a 0a20 2020 2020  f youtube:.     
+-0000fc80: 2020 2020 2020 2069 6620 666f 726d 6174         if format
+-0000fc90: 5f20 3d3d 2022 6f67 6722 3a0a 2020 2020  _ == "ogg":.    
+-0000fca0: 2020 2020 2020 2020 2020 2020 636c 6963              clic
+-0000fcb0: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
+-0000fcc0: 2020 2020 2020 2020 2020 2020 2022 4361               "Ca
+-0000fcd0: 6e6e 6f74 2064 6f77 6e6c 6f61 6420 736f  nnot download so
+-0000fce0: 6e67 7320 6672 6f6d 2059 6f75 5475 6265  ngs from YouTube
+-0000fcf0: 2061 7320 272e 6f67 6727 2e20 506c 6561   as '.ogg'. Plea
+-0000fd00: 7365 2063 686f 6f73 6520 6120 6469 6666  se choose a diff
+-0000fd10: 6572 656e 7420 666f 726d 6174 2e22 2c0a  erent format.",.
+-0000fd20: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0000fd30: 2020 2020 6667 3d22 7265 6422 2c0a 2020      fg="red",.  
+-0000fd40: 2020 2020 2020 2020 2020 2020 2020 290a                ).
+-0000fd50: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0000fd60: 7265 7475 726e 0a20 2020 2020 2020 2020  return.         
+-0000fd70: 2020 2073 7562 7072 6f63 6573 732e 7275     subprocess.ru
+-0000fd80: 6e28 0a20 2020 2020 2020 2020 2020 2020  n(.             
+-0000fd90: 2020 205b 0a20 2020 2020 2020 2020 2020     [.           
+-0000fda0: 2020 2020 2020 2020 2022 7974 2d64 6c70           "yt-dlp
+-0000fdb0: 222c 0a20 2020 2020 2020 2020 2020 2020  ",.             
+-0000fdc0: 2020 2020 2020 2070 6174 685f 2c0a 2020         path_,.  
++0000e5a0: 2e65 7869 7374 7328 636f 6e66 6967 2e4d  .exists(config.M
++0000e5b0: 4145 5354 524f 5f44 4952 293a 0a20 2020  AESTRO_DIR):.   
++0000e5c0: 2020 2020 206f 732e 6d61 6b65 6469 7273       os.makedirs
++0000e5d0: 2863 6f6e 6669 672e 4d41 4553 5452 4f5f  (config.MAESTRO_
++0000e5e0: 4449 5229 0a0a 2020 2020 6966 206e 6f74  DIR)..    if not
++0000e5f0: 206f 732e 7061 7468 2e65 7869 7374 7328   os.path.exists(
++0000e600: 636f 6e66 6967 2e53 4554 5449 4e47 535f  config.SETTINGS_
++0000e610: 4649 4c45 293a 0a20 2020 2020 2020 2077  FILE):.        w
++0000e620: 6974 6820 6f70 656e 2863 6f6e 6669 672e  ith open(config.
++0000e630: 5345 5454 494e 4753 5f46 494c 452c 2022  SETTINGS_FILE, "
++0000e640: 7822 2c20 656e 636f 6469 6e67 3d22 7574  x", encoding="ut
++0000e650: 662d 3822 2920 6173 2066 3a0a 2020 2020  f-8") as f:.    
++0000e660: 2020 2020 2020 2020 6a73 6f6e 2e64 756d          json.dum
++0000e670: 7028 7b22 736f 6e67 5f64 6972 6563 746f  p({"song_directo
++0000e680: 7279 223a 2063 6f6e 6669 672e 4445 4641  ry": config.DEFA
++0000e690: 554c 545f 534f 4e47 535f 4449 527d 2c20  ULT_SONGS_DIR}, 
++0000e6a0: 6629 0a20 2020 2020 2020 2020 2020 2063  f).            c
++0000e6b0: 6f6e 6669 672e 534f 4e47 535f 4449 5220  onfig.SONGS_DIR 
++0000e6c0: 3d20 636f 6e66 6967 2e44 4546 4155 4c54  = config.DEFAULT
++0000e6d0: 5f53 4f4e 4753 5f44 4952 0a20 2020 2065  _SONGS_DIR.    e
++0000e6e0: 6c73 653a 0a20 2020 2020 2020 2077 6974  lse:.        wit
++0000e6f0: 6820 6f70 656e 2863 6f6e 6669 672e 5345  h open(config.SE
++0000e700: 5454 494e 4753 5f46 494c 452c 2022 7222  TTINGS_FILE, "r"
++0000e710: 2c20 656e 636f 6469 6e67 3d22 7574 662d  , encoding="utf-
++0000e720: 3822 2920 6173 2066 3a0a 2020 2020 2020  8") as f:.      
++0000e730: 2020 2020 2020 7365 7474 696e 6773 203d        settings =
++0000e740: 206a 736f 6e2e 6c6f 6164 2866 290a 2020   json.load(f).  
++0000e750: 2020 2020 2020 2020 2020 6966 2022 736f            if "so
++0000e760: 6e67 5f64 6972 6563 746f 7279 2220 6e6f  ng_directory" no
++0000e770: 7420 696e 2073 6574 7469 6e67 733a 0a20  t in settings:. 
++0000e780: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++0000e790: 6574 7469 6e67 735b 2273 6f6e 675f 6469  ettings["song_di
++0000e7a0: 7265 6374 6f72 7922 5d20 3d20 636f 6e66  rectory"] = conf
++0000e7b0: 6967 2e44 4546 4155 4c54 5f53 4f4e 4753  ig.DEFAULT_SONGS
++0000e7c0: 5f44 4952 0a20 2020 2020 2020 2020 2020  _DIR.           
++0000e7d0: 2020 2020 2077 6974 6820 6f70 656e 2863       with open(c
++0000e7e0: 6f6e 6669 672e 5345 5454 494e 4753 5f46  onfig.SETTINGS_F
++0000e7f0: 494c 452c 2022 7722 2c20 656e 636f 6469  ILE, "w", encodi
++0000e800: 6e67 3d22 7574 662d 3822 2920 6173 2067  ng="utf-8") as g
++0000e810: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++0000e820: 2020 2020 2020 6a73 6f6e 2e64 756d 7028        json.dump(
++0000e830: 7365 7474 696e 6773 2c20 6729 0a20 2020  settings, g).   
++0000e840: 2020 2020 2020 2020 2065 6c73 653a 0a20           else:. 
++0000e850: 2020 2020 2020 2020 2020 2020 2020 2069                 i
++0000e860: 6620 6e6f 7420 6f73 2e70 6174 682e 6578  f not os.path.ex
++0000e870: 6973 7473 2873 6574 7469 6e67 735b 2273  ists(settings["s
++0000e880: 6f6e 675f 6469 7265 6374 6f72 7922 5d29  ong_directory"])
++0000e890: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++0000e8a0: 2020 2020 2020 6f73 2e6d 616b 6564 6972        os.makedir
++0000e8b0: 7328 7365 7474 696e 6773 5b22 736f 6e67  s(settings["song
++0000e8c0: 5f64 6972 6563 746f 7279 225d 290a 2020  _directory"]).  
++0000e8d0: 2020 2020 2020 2020 2020 636f 6e66 6967            config
++0000e8e0: 2e53 4f4e 4753 5f44 4952 203d 2073 6574  .SONGS_DIR = set
++0000e8f0: 7469 6e67 735b 2273 6f6e 675f 6469 7265  tings["song_dire
++0000e900: 6374 6f72 7922 5d0a 0a20 2020 2069 6620  ctory"]..    if 
++0000e910: 6e6f 7420 6f73 2e70 6174 682e 6578 6973  not os.path.exis
++0000e920: 7473 2863 6f6e 6669 672e 534f 4e47 535f  ts(config.SONGS_
++0000e930: 4449 5229 3a0a 2020 2020 2020 2020 6f73  DIR):.        os
++0000e940: 2e6d 616b 6564 6972 7328 636f 6e66 6967  .makedirs(config
++0000e950: 2e53 4f4e 4753 5f44 4952 290a 0a20 2020  .SONGS_DIR)..   
++0000e960: 2069 6620 6e6f 7420 6f73 2e70 6174 682e   if not os.path.
++0000e970: 6578 6973 7473 2863 6f6e 6669 672e 534f  exists(config.SO
++0000e980: 4e47 535f 494e 464f 5f50 4154 4829 3a0a  NGS_INFO_PATH):.
++0000e990: 2020 2020 2020 2020 7769 7468 206f 7065          with ope
++0000e9a0: 6e28 636f 6e66 6967 2e53 4f4e 4753 5f49  n(config.SONGS_I
++0000e9b0: 4e46 4f5f 5041 5448 2c20 2278 222c 2065  NFO_PATH, "x", e
++0000e9c0: 6e63 6f64 696e 673d 2275 7466 2d38 2229  ncoding="utf-8")
++0000e9d0: 2061 7320 5f3a 0a20 2020 2020 2020 2020   as _:.         
++0000e9e0: 2020 2070 6173 730a 0a20 2020 2069 6620     pass..    if 
++0000e9f0: 6e6f 7420 6f73 2e70 6174 682e 6578 6973  not os.path.exis
++0000ea00: 7473 2863 6f6e 6669 672e 5354 4154 535f  ts(config.STATS_
++0000ea10: 4449 5229 3a0a 2020 2020 2020 2020 6f73  DIR):.        os
++0000ea20: 2e6d 616b 6564 6972 7328 636f 6e66 6967  .makedirs(config
++0000ea30: 2e53 5441 5453 5f44 4952 290a 2020 2020  .STATS_DIR).    
++0000ea40: 6966 206e 6f74 206f 732e 7061 7468 2e65  if not os.path.e
++0000ea50: 7869 7374 7328 636f 6e66 6967 2e54 4f54  xists(config.TOT
++0000ea60: 414c 5f53 5441 5453 5f50 4154 4829 3a0a  AL_STATS_PATH):.
++0000ea70: 2020 2020 2020 2020 7769 7468 2028 0a20          with (. 
++0000ea80: 2020 2020 2020 2020 2020 206f 7065 6e28             open(
++0000ea90: 636f 6e66 6967 2e54 4f54 414c 5f53 5441  config.TOTAL_STA
++0000eaa0: 5453 5f50 4154 482c 2022 7722 2c20 656e  TS_PATH, "w", en
++0000eab0: 636f 6469 6e67 3d22 7574 662d 3822 2920  coding="utf-8") 
++0000eac0: 6173 2066 2c0a 2020 2020 2020 2020 2020  as f,.          
++0000ead0: 2020 6f70 656e 2863 6f6e 6669 672e 534f    open(config.SO
++0000eae0: 4e47 535f 494e 464f 5f50 4154 482c 2022  NGS_INFO_PATH, "
++0000eaf0: 7222 2c20 656e 636f 6469 6e67 3d22 7574  r", encoding="ut
++0000eb00: 662d 3822 2920 6173 2067 2c0a 2020 2020  f-8") as g,.    
++0000eb10: 2020 2020 293a 0a20 2020 2020 2020 2020      ):.         
++0000eb20: 2020 2066 6f72 206c 696e 6520 696e 2067     for line in g
++0000eb30: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++0000eb40: 2020 662e 7772 6974 6528 6622 7b6c 696e    f.write(f"{lin
++0000eb50: 652e 7374 7269 7028 292e 7370 6c69 7428  e.strip().split(
++0000eb60: 277c 2729 5b30 5d7d 7c30 5c6e 2229 0a20  '|')[0]}|0\n"). 
++0000eb70: 2020 2069 6620 6e6f 7420 6f73 2e70 6174     if not os.pat
++0000eb80: 682e 6578 6973 7473 2863 6f6e 6669 672e  h.exists(config.
++0000eb90: 4355 525f 5945 4152 5f53 5441 5453 5f50  CUR_YEAR_STATS_P
++0000eba0: 4154 4829 3a0a 2020 2020 2020 2020 7769  ATH):.        wi
++0000ebb0: 7468 2028 0a20 2020 2020 2020 2020 2020  th (.           
++0000ebc0: 206f 7065 6e28 636f 6e66 6967 2e43 5552   open(config.CUR
++0000ebd0: 5f59 4541 525f 5354 4154 535f 5041 5448  _YEAR_STATS_PATH
++0000ebe0: 2c20 2277 222c 2065 6e63 6f64 696e 673d  , "w", encoding=
++0000ebf0: 2275 7466 2d38 2229 2061 7320 662c 0a20  "utf-8") as f,. 
++0000ec00: 2020 2020 2020 2020 2020 206f 7065 6e28             open(
++0000ec10: 636f 6e66 6967 2e53 4f4e 4753 5f49 4e46  config.SONGS_INF
++0000ec20: 4f5f 5041 5448 2c20 2272 222c 2065 6e63  O_PATH, "r", enc
++0000ec30: 6f64 696e 673d 2275 7466 2d38 2229 2061  oding="utf-8") a
++0000ec40: 7320 672c 0a20 2020 2020 2020 2029 3a0a  s g,.        ):.
++0000ec50: 2020 2020 2020 2020 2020 2020 666f 7220              for 
++0000ec60: 6c69 6e65 2069 6e20 673a 0a20 2020 2020  line in g:.     
++0000ec70: 2020 2020 2020 2020 2020 2066 2e77 7269             f.wri
++0000ec80: 7465 2866 227b 6c69 6e65 2e73 7472 6970  te(f"{line.strip
++0000ec90: 2829 2e73 706c 6974 2827 7c27 295b 305d  ().split('|')[0]
++0000eca0: 7d7c 305c 6e22 290a 0a0a 4063 6c69 2e63  }|0\n")...@cli.c
++0000ecb0: 6f6d 6d61 6e64 2829 0a40 636c 6963 6b2e  ommand().@click.
++0000ecc0: 6172 6775 6d65 6e74 2822 7061 7468 5f22  argument("path_"
++0000ecd0: 2c20 6d65 7461 7661 723d 2250 4154 485f  , metavar="PATH_
++0000ece0: 4f52 5f55 524c 2229 0a40 636c 6963 6b2e  OR_URL").@click.
++0000ecf0: 6172 6775 6d65 6e74 2822 7461 6773 222c  argument("tags",
++0000ed00: 206e 6172 6773 3d2d 3129 0a40 636c 6963   nargs=-1).@clic
++0000ed10: 6b2e 6f70 7469 6f6e 280a 2020 2020 222d  k.option(.    "-
++0000ed20: 4d2f 2d6e 4d22 2c0a 2020 2020 222d 2d6d  M/-nM",.    "--m
++0000ed30: 6f76 652f 2d2d 6e6f 2d6d 6f76 6522 2c0a  ove/--no-move",.
++0000ed40: 2020 2020 226d 6f76 655f 222c 0a20 2020      "move_",.   
++0000ed50: 2064 6566 6175 6c74 3d46 616c 7365 2c0a   default=False,.
++0000ed60: 2020 2020 6865 6c70 3d22 4d6f 7665 2066      help="Move f
++0000ed70: 696c 6520 6672 6f6d 2050 4154 4820 746f  ile from PATH to
++0000ed80: 206d 6165 7374 726f 2773 2069 6e74 6572   maestro's inter
++0000ed90: 6e61 6c20 736f 6e67 2064 6174 6162 6173  nal song databas
++0000eda0: 6520 696e 7374 6561 6420 6f66 2063 6f70  e instead of cop
++0000edb0: 7969 6e67 2e22 2c0a 290a 4063 6c69 636b  ying.",.).@click
++0000edc0: 2e6f 7074 696f 6e28 0a20 2020 2022 2d6e  .option(.    "-n
++0000edd0: 222c 0a20 2020 2022 2d2d 6e61 6d65 222c  ",.    "--name",
++0000ede0: 0a20 2020 2074 7970 653d 7374 722c 0a20  .    type=str,. 
++0000edf0: 2020 2068 656c 703d 2257 6861 7420 746f     help="What to
++0000ee00: 206e 616d 6520 7468 6520 736f 6e67 2c20   name the song, 
++0000ee10: 6966 2079 6f75 2064 6f6e 2774 2077 616e  if you don't wan
++0000ee20: 7420 746f 2075 7365 2074 6865 2074 6974  t to use the tit
++0000ee30: 6c65 2066 726f 6d20 596f 7574 7562 652f  le from Youtube/
++0000ee40: 5370 6f74 6966 7920 6f72 2066 696c 656e  Spotify or filen
++0000ee50: 616d 652e 2044 6f20 6e6f 7420 696e 636c  ame. Do not incl
++0000ee60: 7564 6520 616e 2065 7874 656e 7369 6f6e  ude an extension
++0000ee70: 2028 652e 672e 2027 2e77 6176 2729 2e20   (e.g. '.wav'). 
++0000ee80: 4967 6e6f 7265 6420 6966 2061 6464 696e  Ignored if addin
++0000ee90: 6720 6d75 6c74 6970 6c65 2073 6f6e 6773  g multiple songs
++0000eea0: 2e22 2c0a 290a 4063 6c69 636b 2e6f 7074  .",.).@click.opt
++0000eeb0: 696f 6e28 0a20 2020 2022 2d52 2c20 2d6e  ion(.    "-R, -n
++0000eec0: 5222 2c0a 2020 2020 222d 2d72 6563 7572  R",.    "--recur
++0000eed0: 7369 7665 2f2d 2d6e 6f2d 7265 6375 7273  sive/--no-recurs
++0000eee0: 6976 6522 2c0a 2020 2020 2272 6563 7572  ive",.    "recur
++0000eef0: 7365 222c 0a20 2020 2064 6566 6175 6c74  se",.    default
++0000ef00: 3d46 616c 7365 2c0a 2020 2020 6865 6c70  =False,.    help
++0000ef10: 3d22 4966 2050 4154 4820 6973 2061 2066  ="If PATH is a f
++0000ef20: 6f6c 6465 722c 2061 6464 2073 6f6e 6773  older, add songs
++0000ef30: 2069 6e20 7375 6266 6f6c 6465 7273 2e22   in subfolders."
++0000ef40: 2c0a 290a 4063 6c69 636b 2e6f 7074 696f  ,.).@click.optio
++0000ef50: 6e28 0a20 2020 2022 2d59 2f2d 6e59 222c  n(.    "-Y/-nY",
++0000ef60: 0a20 2020 2022 2d2d 796f 7574 7562 652f  .    "--youtube/
++0000ef70: 2d2d 6e6f 2d79 6f75 7475 6265 222c 0a20  --no-youtube",. 
++0000ef80: 2020 2064 6566 6175 6c74 3d46 616c 7365     default=False
++0000ef90: 2c0a 2020 2020 6865 6c70 3d22 4164 6420  ,.    help="Add 
++0000efa0: 6120 736f 6e67 2066 726f 6d20 6120 596f  a song from a Yo
++0000efb0: 7554 7562 6520 6f72 2059 6f75 5475 6265  uTube or YouTube
++0000efc0: 204d 7573 6963 2055 524c 2e22 2c0a 290a   Music URL.",.).
++0000efd0: 4063 6c69 636b 2e6f 7074 696f 6e28 0a20  @click.option(. 
++0000efe0: 2020 2022 2d53 2f2d 6e53 222c 0a20 2020     "-S/-nS",.   
++0000eff0: 2022 2d2d 7370 6f74 6966 792f 2d2d 6e6f   "--spotify/--no
++0000f000: 2d73 706f 7469 6679 222c 0a20 2020 2064  -spotify",.    d
++0000f010: 6566 6175 6c74 3d46 616c 7365 2c0a 2020  efault=False,.  
++0000f020: 2020 6865 6c70 3d22 4164 6420 6120 736f    help="Add a so
++0000f030: 6e67 2066 726f 6d20 5370 6f74 6966 7920  ng from Spotify 
++0000f040: 2874 7261 636b 2055 524c 2c20 616c 6275  (track URL, albu
++0000f050: 6d20 5552 4c2c 2070 6c61 796c 6973 7420  m URL, playlist 
++0000f060: 5552 4c2c 2061 7274 6973 7420 5552 4c2c  URL, artist URL,
++0000f070: 206f 7220 7365 6172 6368 2071 7565 7279   or search query
++0000f080: 292e 222c 0a29 0a40 636c 6963 6b2e 6f70  ).",.).@click.op
++0000f090: 7469 6f6e 280a 2020 2020 222d 6622 2c0a  tion(.    "-f",.
++0000f0a0: 2020 2020 222d 2d66 6f72 6d61 7422 2c0a      "--format",.
++0000f0b0: 2020 2020 2266 6f72 6d61 745f 222c 0a20      "format_",. 
++0000f0c0: 2020 2074 7970 653d 636c 6963 6b2e 4368     type=click.Ch
++0000f0d0: 6f69 6365 285b 2277 6176 222c 2022 6d70  oice(["wav", "mp
++0000f0e0: 3322 2c20 2266 6c61 6322 2c20 226f 6767  3", "flac", "ogg
++0000f0f0: 225d 292c 0a20 2020 2068 656c 703d 2253  "]),.    help="S
++0000f100: 7065 6369 6679 2074 6865 2066 6f72 6d61  pecify the forma
++0000f110: 7420 6f66 2074 6865 2073 6f6e 6720 6966  t of the song if
++0000f120: 2064 6f77 6e6c 6f61 6469 6e67 2066 726f   downloading fro
++0000f130: 6d20 596f 7554 7562 652c 2059 6f75 5475  m YouTube, YouTu
++0000f140: 6265 204d 7573 6963 2c20 6f72 2053 706f  be Music, or Spo
++0000f150: 7469 6679 2055 524c 2e22 2c0a 2020 2020  tify URL.",.    
++0000f160: 6465 6661 756c 743d 2266 6c61 6322 2c0a  default="flac",.
++0000f170: 2020 2020 7368 6f77 5f64 6566 6175 6c74      show_default
++0000f180: 3d54 7275 652c 0a29 0a40 636c 6963 6b2e  =True,.).@click.
++0000f190: 6f70 7469 6f6e 280a 2020 2020 222d 6322  option(.    "-c"
++0000f1a0: 2c0a 2020 2020 222d 2d63 6c69 7022 2c0a  ,.    "--clip",.
++0000f1b0: 2020 2020 6e61 7267 733d 322c 0a20 2020      nargs=2,.   
++0000f1c0: 2074 7970 653d 666c 6f61 742c 0a20 2020   type=float,.   
++0000f1d0: 2068 656c 703d 2241 6464 2061 2063 6c69   help="Add a cli
++0000f1e0: 702e 2049 676e 6f72 6564 2069 6620 6164  p. Ignored if ad
++0000f1f0: 6469 6e67 206d 756c 7469 706c 6520 736f  ding multiple so
++0000f200: 6e67 732e 222c 0a29 0a40 636c 6963 6b2e  ngs.",.).@click.
++0000f210: 6f70 7469 6f6e 280a 2020 2020 222d 502f  option(.    "-P/
++0000f220: 2d6e 5022 2c0a 2020 2020 222d 2d70 6c61  -nP",.    "--pla
++0000f230: 796c 6973 742f 2d2d 6e6f 2d70 6c61 796c  ylist/--no-playl
++0000f240: 6973 7422 2c0a 2020 2020 2270 6c61 796c  ist",.    "playl
++0000f250: 6973 745f 222c 0a20 2020 2064 6566 6175  ist_",.    defau
++0000f260: 6c74 3d46 616c 7365 2c0a 2020 2020 6865  lt=False,.    he
++0000f270: 6c70 3d22 4966 2073 6f6e 6720 5552 4c20  lp="If song URL 
++0000f280: 7061 7373 6564 2069 7320 6672 6f6d 2061  passed is from a
++0000f290: 2059 6f75 5475 6265 2070 6c61 796c 6973   YouTube playlis
++0000f2a0: 742c 2064 6f77 6e6c 6f61 6420 616c 6c20  t, download all 
++0000f2b0: 7468 6520 736f 6e67 732e 2049 6620 7468  the songs. If th
++0000f2c0: 6520 5552 4c20 706f 696e 7473 2064 6972  e URL points dir
++0000f2d0: 6563 746c 7920 746f 2061 2070 6c61 796c  ectly to a playl
++0000f2e0: 6973 742c 2074 6869 7320 666c 6167 2069  ist, this flag i
++0000f2f0: 7320 756e 6e63 6573 7361 7279 2e22 2c0a  s unncessary.",.
++0000f300: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
++0000f310: 0a20 2020 2022 2d6d 222c 0a20 2020 2022  .    "-m",.    "
++0000f320: 2d2d 6d65 7461 6461 7461 222c 0a20 2020  --metadata",.   
++0000f330: 2022 6d65 7461 6461 7461 5f70 6169 7273   "metadata_pairs
++0000f340: 222c 0a20 2020 2064 6566 6175 6c74 3d4e  ",.    default=N
++0000f350: 6f6e 652c 0a20 2020 2068 656c 703d 2241  one,.    help="A
++0000f360: 6464 206d 6574 6164 6174 6120 746f 2074  dd metadata to t
++0000f370: 6865 2073 6f6e 672e 2049 676e 6f72 6564  he song. Ignored
++0000f380: 2069 6620 6164 6469 6e67 206d 756c 7469   if adding multi
++0000f390: 706c 6520 736f 6e67 732e 2054 6865 2066  ple songs. The f
++0000f3a0: 6f72 6d61 7420 6973 2027 6b65 7931 3a76  ormat is 'key1:v
++0000f3b0: 616c 7565 317c 6b65 7932 3a76 616c 7565  alue1|key2:value
++0000f3c0: 327c 2e2e 2e27 2e22 2c0a 290a 6465 6620  2|...'.",.).def 
++0000f3d0: 6164 6428 0a20 2020 2070 6174 685f 2c0a  add(.    path_,.
++0000f3e0: 2020 2020 7461 6773 2c0a 2020 2020 6d6f      tags,.    mo
++0000f3f0: 7665 5f2c 0a20 2020 206e 616d 652c 0a20  ve_,.    name,. 
++0000f400: 2020 2072 6563 7572 7365 2c0a 2020 2020     recurse,.    
++0000f410: 796f 7574 7562 652c 0a20 2020 2073 706f  youtube,.    spo
++0000f420: 7469 6679 2c0a 2020 2020 666f 726d 6174  tify,.    format
++0000f430: 5f2c 0a20 2020 2063 6c69 702c 0a20 2020  _,.    clip,.   
++0000f440: 2070 6c61 796c 6973 745f 2c0a 2020 2020   playlist_,.    
++0000f450: 6d65 7461 6461 7461 5f70 6169 7273 2c0a  metadata_pairs,.
++0000f460: 293a 0a20 2020 2022 2222 0a20 2020 2041  ):.    """.    A
++0000f470: 6464 2061 206e 6577 2073 6f6e 672e 0a0a  dd a new song...
++0000f480: 2020 2020 4164 6473 2074 6865 2061 7564      Adds the aud
++0000f490: 696f 2066 696c 6520 6c6f 6361 7465 6420  io file located 
++0000f4a0: 6174 2050 4154 482e 2049 6620 5041 5448  at PATH. If PATH
++0000f4b0: 2069 7320 6120 666f 6c64 6572 2c20 6164   is a folder, ad
++0000f4c0: 6473 2061 6c6c 2066 696c 6573 0a20 2020  ds all files.   
++0000f4d0: 2069 6e20 5041 5448 2028 696e 636c 7564   in PATH (includ
++0000f4e0: 696e 6720 6669 6c65 7320 696e 2073 7562  ing files in sub
++0000f4f0: 666f 6c64 6572 7320 6966 2027 2d72 2720  folders if '-r' 
++0000f500: 6973 2070 6173 7365 6429 2e20 5468 6520  is passed). The 
++0000f510: 6e61 6d65 206f 6620 6561 6368 0a20 2020  name of each.   
++0000f520: 2073 6f6e 6720 7769 6c6c 2062 6520 7468   song will be th
++0000f530: 6520 6669 6c65 6e61 6d65 2028 756e 6c65  e filename (unle
++0000f540: 7373 2027 2d6e 2720 6973 2070 6173 7365  ss '-n' is passe
++0000f550: 6429 2e20 4669 6c65 6e61 6d65 7320 616e  d). Filenames an
++0000f560: 6420 7461 6773 2063 616e 6e6f 740a 2020  d tags cannot.  
++0000f570: 2020 636f 6e74 6169 6e20 7468 6520 6368    contain the ch
++0000f580: 6172 6163 7465 7220 277c 272c 2061 6e64  aracter '|', and
++0000f590: 2074 6167 7320 6361 6e6e 6f74 2063 6f6e   tags cannot con
++0000f5a0: 7461 696e 2027 2c27 2e0a 0a20 2020 2049  tain ','...    I
++0000f5b0: 6620 7468 6520 272d 5927 206f 7220 272d  f the '-Y' or '-
++0000f5c0: 2d79 6f75 7475 6265 2720 666c 6167 2069  -youtube' flag i
++0000f5d0: 7320 7061 7373 6564 2c20 5041 5448 2069  s passed, PATH i
++0000f5e0: 7320 7472 6561 7465 6420 6173 2061 2059  s treated as a Y
++0000f5f0: 6f75 5475 6265 206f 720a 2020 2020 596f  ouTube or.    Yo
++0000f600: 7554 7562 6520 4d75 7369 6320 5552 4c20  uTube Music URL 
++0000f610: 696e 7374 6561 6420 6f66 2061 2066 696c  instead of a fil
++0000f620: 6520 7061 7468 2e0a 0a20 2020 2049 6620  e path...    If 
++0000f630: 7468 6520 272d 5327 206f 7220 272d 2d73  the '-S' or '--s
++0000f640: 706f 7469 6679 2720 666c 6167 2069 7320  potify' flag is 
++0000f650: 7061 7373 6564 2c20 5041 5448 2069 7320  passed, PATH is 
++0000f660: 7472 6561 7465 6420 6173 2061 2053 706f  treated as a Spo
++0000f670: 7469 6679 0a20 2020 2074 7261 636b 2055  tify.    track U
++0000f680: 524c 2c20 616c 6275 6d20 5552 4c2c 2070  RL, album URL, p
++0000f690: 6c61 796c 6973 7420 5552 4c2c 2061 7274  laylist URL, art
++0000f6a0: 6973 7420 5552 4c2c 206f 7220 7365 6172  ist URL, or sear
++0000f6b0: 6368 2071 7565 7279 2069 6e73 7465 6164  ch query instead
++0000f6c0: 206f 660a 2020 2020 6120 6669 6c65 2070   of.    a file p
++0000f6d0: 6174 682e 0a0a 2020 2020 5468 6520 272d  ath...    The '-
++0000f6e0: 632f 2d2d 636c 6970 2720 6f70 7469 6f6e  c/--clip' option
++0000f6f0: 2063 616e 2062 6520 7573 6564 2074 6f20   can be used to 
++0000f700: 6164 6420 6120 636c 6970 2066 6f72 2074  add a clip for t
++0000f710: 6865 2073 6f6e 672e 2049 7420 7461 6b65  he song. It take
++0000f720: 7320 7477 6f0a 2020 2020 6172 6775 6d65  s two.    argume
++0000f730: 6e74 732c 2062 7574 2075 6e6c 696b 6520  nts, but unlike 
++0000f740: 276d 6165 7374 726f 2063 6c69 7027 2c20  'maestro clip', 
++0000f750: 796f 7520 6361 6e6e 6f74 2070 6173 7320  you cannot pass 
++0000f760: 6f6e 6c79 2074 6865 2073 7461 7274 2074  only the start t
++0000f770: 696d 650a 2020 2020 616e 6420 6e6f 7420  ime.    and not 
++0000f780: 7468 6520 656e 642e 2054 6f20 6765 7420  the end. To get 
++0000f790: 6172 6f75 6e64 2074 6869 732c 2079 6f75  around this, you
++0000f7a0: 2063 616e 2070 6173 7320 2d31 2061 7320   can pass -1 as 
++0000f7b0: 7468 6520 656e 6420 7469 6d65 2c20 652e  the end time, e.
++0000f7c0: 672e 0a20 2020 2027 6d61 6573 7472 6f20  g..    'maestro 
++0000f7d0: 6164 6420 2d63 2033 3020 2d31 2068 7474  add -c 30 -1 htt
++0000f7e0: 7073 3a2f 2f77 7777 2e79 6f75 7475 6265  ps://www.youtube
++0000f7f0: 2e63 6f6d 2f77 6174 6368 3f76 3d33 5678  .com/watch?v=3Vx
++0000f800: 754d 4572 4364 2d45 202d 7927 2e20 4966  uMErCd-E -y'. If
++0000f810: 0a20 2020 2061 6464 696e 6720 6d75 6c74  .    adding mult
++0000f820: 6970 6c65 2073 6f6e 6773 2c20 7468 6973  iple songs, this
++0000f830: 206f 7074 696f 6e20 6361 6e6e 6f74 2062   option cannot b
++0000f840: 6520 7573 6564 2e0a 0a20 2020 2054 6865  e used...    The
++0000f850: 2027 2d6d 2f2d 2d6d 6574 6164 6174 6127   '-m/--metadata'
++0000f860: 206f 7074 696f 6e20 6361 6e20 6265 2075   option can be u
++0000f870: 7365 6420 746f 2061 6464 206d 6574 6164  sed to add metad
++0000f880: 6174 6120 746f 2074 6865 2073 6f6e 672e  ata to the song.
++0000f890: 2049 7420 7461 6b65 730a 2020 2020 6120   It takes.    a 
++0000f8a0: 7374 7269 6e67 206f 6620 7468 6520 666f  string of the fo
++0000f8b0: 726d 6174 2027 6b65 7931 3a76 616c 7565  rmat 'key1:value
++0000f8c0: 317c 6b65 7932 3a76 616c 7565 327c 2e2e  1|key2:value2|..
++0000f8d0: 2e27 2e20 4966 2061 6464 696e 6720 6d75  .'. If adding mu
++0000f8e0: 6c74 6970 6c65 0a20 2020 2073 6f6e 6773  ltiple.    songs
++0000f8f0: 2c20 7468 6973 206f 7074 696f 6e20 6361  , this option ca
++0000f900: 6e6e 6f74 2062 6520 7573 6564 2e0a 0a20  nnot be used... 
++0000f910: 2020 2050 6f73 7369 626c 6520 6564 6974     Possible edit
++0000f920: 6162 6c65 206d 6574 6164 6174 6120 6b65  able metadata ke
++0000f930: 7973 2061 7265 3a20 616c 6275 6d2c 2061  ys are: album, a
++0000f940: 6c62 756d 6172 7469 7374 2c20 6172 7469  lbumartist, arti
++0000f950: 7374 2c20 6172 7477 6f72 6b2c 0a20 2020  st, artwork,.   
++0000f960: 2063 6f6d 6d65 6e74 2c20 636f 6d70 696c   comment, compil
++0000f970: 6174 696f 6e2c 2063 6f6d 706f 7365 722c  ation, composer,
++0000f980: 2064 6973 636e 756d 6265 722c 2067 656e   discnumber, gen
++0000f990: 7265 2c20 6c79 7269 6373 2c20 746f 7461  re, lyrics, tota
++0000f9a0: 6c64 6973 6373 2c0a 2020 2020 746f 7461  ldiscs,.    tota
++0000f9b0: 6c74 7261 636b 732c 2074 7261 636b 6e75  ltracks, tracknu
++0000f9c0: 6d62 6572 2c20 7472 6163 6b74 6974 6c65  mber, tracktitle
++0000f9d0: 2c20 7965 6172 2c20 6973 7263 0a0a 2020  , year, isrc..  
++0000f9e0: 2020 4b65 7973 2061 7265 206e 6f74 2063    Keys are not c
++0000f9f0: 6173 6520 7365 6e73 6974 6976 6520 616e  ase sensitive an
++0000fa00: 6420 6361 6e20 636f 6e74 6169 6e20 6172  d can contain ar
++0000fa10: 6269 7472 6172 7920 7768 6974 6573 7061  bitrary whitespa
++0000fa20: 6365 2c20 272d 272c 2061 6e64 0a20 2020  ce, '-', and.   
++0000fa30: 2027 5f27 2063 6861 7261 6374 6572 732e   '_' characters.
++0000fa40: 2049 6e20 6f74 6865 7220 776f 7264 732c   In other words,
++0000fa50: 2027 416c 6275 6d20 4172 7469 7374 272c   'Album Artist',
++0000fa60: 2027 616c 6275 6d2d 6172 7469 7374 272c   'album-artist',
++0000fa70: 2061 6e64 0a20 2020 2027 616c 6275 6d5f   and.    'album_
++0000fa80: 6172 7469 7374 2720 6172 6520 616c 6c20  artist' are all 
++0000fa90: 7379 6e6f 6e79 6d73 2066 6f72 2027 616c  synonyms for 'al
++0000faa0: 6275 6d61 7274 6973 7427 2e20 416c 736f  bumartist'. Also
++0000fab0: 2c20 2764 6973 6b27 2069 730a 2020 2020  , 'disk' is.    
++0000fac0: 7379 6e6f 6e79 6d6f 7573 2077 6974 6820  synonymous with 
++0000fad0: 2764 6973 6327 2e0a 2020 2020 2222 220a  'disc'..    """.
++0000fae0: 0a20 2020 2070 6174 6873 203d 204e 6f6e  .    paths = Non
++0000faf0: 650a 2020 2020 6966 206e 6f74 2028 796f  e.    if not (yo
++0000fb00: 7574 7562 6520 6f72 2073 706f 7469 6679  utube or spotify
++0000fb10: 2920 616e 6420 6e6f 7420 6f73 2e70 6174  ) and not os.pat
++0000fb20: 682e 6578 6973 7473 2870 6174 685f 293a  h.exists(path_):
++0000fb30: 0a20 2020 2020 2020 2063 6c69 636b 2e73  .        click.s
++0000fb40: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
++0000fb50: 2020 6622 5468 6520 7061 7468 2027 7b70    f"The path '{p
++0000fb60: 6174 685f 7d27 2064 6f65 7320 6e6f 7420  ath_}' does not 
++0000fb70: 6578 6973 742e 2054 6f20 646f 776e 6c6f  exist. To downlo
++0000fb80: 6164 2066 726f 6d20 6120 596f 7554 7562  ad from a YouTub
++0000fb90: 6520 6f72 2059 6f75 5475 6265 204d 7573  e or YouTube Mus
++0000fba0: 6963 2055 526c 2c20 7061 7373 2074 6865  ic URl, pass the
++0000fbb0: 2027 2d59 2f2d 2d79 6f75 7475 6265 2720   '-Y/--youtube' 
++0000fbc0: 666c 6167 2e20 546f 2064 6f77 6e6c 6f61  flag. To downloa
++0000fbd0: 6420 6672 6f6d 2061 2053 706f 7469 6679  d from a Spotify
++0000fbe0: 2055 526c 2c20 7061 7373 2074 6865 2027   URl, pass the '
++0000fbf0: 2d53 2f2d 2d73 706f 7469 6679 2720 666c  -S/--spotify' fl
++0000fc00: 6167 2e22 2c0a 2020 2020 2020 2020 2020  ag.",.          
++0000fc10: 2020 6667 3d22 7265 6422 2c0a 2020 2020    fg="red",.    
++0000fc20: 2020 2020 290a 2020 2020 2020 2020 7265      ).        re
++0000fc30: 7475 726e 0a0a 2020 2020 6966 2079 6f75  turn..    if you
++0000fc40: 7475 6265 206f 7220 7370 6f74 6966 793a  tube or spotify:
++0000fc50: 0a20 2020 2020 2020 2069 6620 796f 7574  .        if yout
++0000fc60: 7562 6520 616e 6420 7370 6f74 6966 793a  ube and spotify:
++0000fc70: 0a20 2020 2020 2020 2020 2020 2063 6c69  .            cli
++0000fc80: 636b 2e73 6563 686f 280a 2020 2020 2020  ck.secho(.      
++0000fc90: 2020 2020 2020 2020 2020 2243 616e 6e6f            "Canno
++0000fca0: 7420 7061 7373 2062 6f74 6820 272d 792f  t pass both '-y/
++0000fcb0: 2d2d 796f 7574 7562 6527 2061 6e64 2027  --youtube' and '
++0000fcc0: 2d73 2f2d 2d73 706f 7469 6679 2720 666c  -s/--spotify' fl
++0000fcd0: 6167 732e 222c 0a20 2020 2020 2020 2020  ags.",.         
++0000fce0: 2020 2020 2020 2066 673d 2272 6564 222c         fg="red",
++0000fcf0: 0a20 2020 2020 2020 2020 2020 2029 0a20  .            ). 
++0000fd00: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++0000fd10: 6e0a 0a20 2020 2020 2020 2069 6620 796f  n..        if yo
++0000fd20: 7574 7562 653a 0a20 2020 2020 2020 2020  utube:.         
++0000fd30: 2020 2069 6620 666f 726d 6174 5f20 3d3d     if format_ ==
++0000fd40: 2022 6f67 6722 3a0a 2020 2020 2020 2020   "ogg":.        
++0000fd50: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
++0000fd60: 6368 6f28 0a20 2020 2020 2020 2020 2020  cho(.           
++0000fd70: 2020 2020 2020 2020 2022 4361 6e6e 6f74           "Cannot
++0000fd80: 2064 6f77 6e6c 6f61 6420 736f 6e67 7320   download songs 
++0000fd90: 6672 6f6d 2059 6f75 5475 6265 2061 7320  from YouTube as 
++0000fda0: 272e 6f67 6727 2e20 506c 6561 7365 2063  '.ogg'. Please c
++0000fdb0: 686f 6f73 6520 6120 6469 6666 6572 656e  hoose a differen
++0000fdc0: 7420 666f 726d 6174 2e22 2c0a 2020 2020  t format.",.    
+ 0000fdd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0000fde0: 2020 222d 7822 2c20 2023 2065 7874 7261    "-x",  # extra
+-0000fdf0: 6374 2061 7564 696f 2028 6e65 6365 7373  ct audio (necess
+-0000fe00: 6172 792c 206e 6565 6473 2066 666d 7065  ary, needs ffmpe
+-0000fe10: 6729 0a20 2020 2020 2020 2020 2020 2020  g).             
+-0000fe20: 2020 2020 2020 2022 2d2d 6175 6469 6f2d         "--audio-
+-0000fe30: 666f 726d 6174 222c 0a20 2020 2020 2020  format",.       
+-0000fe40: 2020 2020 2020 2020 2020 2020 2066 6f72               for
+-0000fe50: 6d61 745f 2c0a 2020 2020 2020 2020 2020  mat_,.          
+-0000fe60: 2020 2020 2020 2020 2020 222d 2d6e 6f2d            "--no-
+-0000fe70: 706c 6179 6c69 7374 2220 6966 206e 6f74  playlist" if not
+-0000fe80: 2070 6c61 796c 6973 745f 2065 6c73 6520   playlist_ else 
+-0000fe90: 2222 2c0a 2020 2020 2020 2020 2020 2020  "",.            
+-0000fea0: 2020 2020 2020 2020 222d 2d65 6d62 6564          "--embed
+-0000feb0: 2d6d 6574 6164 6174 6122 2c0a 2020 2020  -metadata",.    
++0000fde0: 6667 3d22 7265 6422 2c0a 2020 2020 2020  fg="red",.      
++0000fdf0: 2020 2020 2020 2020 2020 290a 2020 2020            ).    
++0000fe00: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++0000fe10: 726e 0a20 2020 2020 2020 2020 2020 2073  rn.            s
++0000fe20: 7562 7072 6f63 6573 732e 7275 6e28 0a20  ubprocess.run(. 
++0000fe30: 2020 2020 2020 2020 2020 2020 2020 205b                 [
++0000fe40: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++0000fe50: 2020 2020 2022 7974 2d64 6c70 222c 0a20       "yt-dlp",. 
++0000fe60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0000fe70: 2020 2070 6174 685f 2c0a 2020 2020 2020     path_,.      
++0000fe80: 2020 2020 2020 2020 2020 2020 2020 222d                "-
++0000fe90: 7822 2c20 2023 2065 7874 7261 6374 2061  x",  # extract a
++0000fea0: 7564 696f 2028 6e65 6365 7373 6172 792c  udio (necessary,
++0000feb0: 206e 6565 6473 2066 666d 7065 6729 0a20   needs ffmpeg). 
+ 0000fec0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0000fed0: 222d 6f22 2c0a 2020 2020 2020 2020 2020  "-o",.          
+-0000fee0: 2020 2020 2020 2020 2020 6f73 2e70 6174            os.pat
+-0000fef0: 682e 6a6f 696e 2863 6f6e 6669 672e 4d41  h.join(config.MA
+-0000ff00: 4553 5452 4f5f 4449 522c 2022 2528 7469  ESTRO_DIR, "%(ti
+-0000ff10: 746c 6529 732e 2528 6578 7429 7322 292c  tle)s.%(ext)s"),
+-0000ff20: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-0000ff30: 205d 2c0a 2020 2020 2020 2020 2020 2020   ],.            
+-0000ff40: 2020 2020 6368 6563 6b3d 5472 7565 2c0a      check=True,.
+-0000ff50: 2020 2020 2020 2020 2020 2020 290a 2020              ).  
+-0000ff60: 2020 2020 2020 656c 7365 3a0a 2020 2020        else:.    
+-0000ff70: 2020 2020 2020 2020 6966 2066 6f72 6d61          if forma
+-0000ff80: 745f 203d 3d20 2277 6176 223a 0a20 2020  t_ == "wav":.   
+-0000ff90: 2020 2020 2020 2020 2020 2020 2063 6c69               cli
+-0000ffa0: 636b 2e73 6563 686f 280a 2020 2020 2020  ck.secho(.      
+-0000ffb0: 2020 2020 2020 2020 2020 2020 2020 2243                "C
+-0000ffc0: 616e 6e6f 7420 646f 776e 6c6f 6164 2073  annot download s
+-0000ffd0: 6f6e 6773 2066 726f 6d20 5370 6f74 6966  ongs from Spotif
+-0000ffe0: 7920 6173 2027 2e77 6176 272e 2050 6c65  y as '.wav'. Ple
+-0000fff0: 6173 6520 6368 6f6f 7365 2061 2064 6966  ase choose a dif
+-00010000: 6665 7265 6e74 2066 6f72 6d61 742e 222c  ferent format.",
+-00010010: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00010020: 2020 2020 2066 673d 2272 6564 222c 0a20       fg="red",. 
+-00010030: 2020 2020 2020 2020 2020 2020 2020 2029                 )
+-00010040: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00010050: 2072 6574 7572 6e0a 0a20 2020 2020 2020   return..       
+-00010060: 2020 2020 2063 7764 203d 206f 732e 6765       cwd = os.ge
+-00010070: 7463 7764 2829 0a20 2020 2020 2020 2020  tcwd().         
+-00010080: 2020 206f 732e 6368 6469 7228 636f 6e66     os.chdir(conf
+-00010090: 6967 2e4d 4145 5354 524f 5f44 4952 290a  ig.MAESTRO_DIR).
+-000100a0: 2020 2020 2020 2020 2020 2020 7472 793a              try:
+-000100b0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000100c0: 2073 7562 7072 6f63 6573 732e 7275 6e28   subprocess.run(
+-000100d0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000100e0: 2020 2020 205b 0a20 2020 2020 2020 2020       [.         
+-000100f0: 2020 2020 2020 2020 2020 2020 2020 2022                 "
+-00010100: 7370 6f74 646c 222c 0a20 2020 2020 2020  spotdl",.       
+-00010110: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00010120: 2022 646f 776e 6c6f 6164 222c 0a20 2020   "download",.   
+-00010130: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00010140: 2020 2020 2070 6174 685f 2c0a 2020 2020       path_,.    
+-00010150: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00010160: 2020 2020 222d 2d6f 7574 7075 7422 2c0a      "--output",.
+-00010170: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00010180: 2020 2020 2020 2020 227b 7469 746c 657d          "{title}
+-00010190: 2e7b 6f75 7470 7574 2d65 7874 7d22 2c0a  .{output-ext}",.
+-000101a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000101b0: 2020 2020 2020 2020 222d 2d66 6f72 6d61          "--forma
+-000101c0: 7422 2c0a 2020 2020 2020 2020 2020 2020  t",.            
+-000101d0: 2020 2020 2020 2020 2020 2020 666f 726d              form
+-000101e0: 6174 5f2c 0a20 2020 2020 2020 2020 2020  at_,.           
+-000101f0: 2020 2020 2020 2020 2020 2020 2022 2d2d               "--
+-00010200: 6865 6164 6c65 7373 222c 0a20 2020 2020  headless",.     
+-00010210: 2020 2020 2020 2020 2020 2020 2020 205d                 ]
+-00010220: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
+-00010230: 2020 2020 2020 6368 6563 6b3d 5472 7565        check=True
+-00010240: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
+-00010250: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
+-00010260: 6578 6365 7074 2045 7863 6570 7469 6f6e  except Exception
+-00010270: 2061 7320 6572 723a 0a20 2020 2020 2020   as err:.       
+-00010280: 2020 2020 2020 2020 206f 732e 6368 6469           os.chdi
+-00010290: 7228 6377 6429 0a20 2020 2020 2020 2020  r(cwd).         
+-000102a0: 2020 2020 2020 2072 6169 7365 2065 7272         raise err
+-000102b0: 0a0a 2020 2020 2020 2020 7061 7468 7320  ..        paths 
+-000102c0: 3d20 5b5d 0a20 2020 2020 2020 2066 6f72  = [].        for
+-000102d0: 2066 6e61 6d65 2069 6e20 6f73 2e6c 6973   fname in os.lis
+-000102e0: 7464 6972 2863 6f6e 6669 672e 4d41 4553  tdir(config.MAES
+-000102f0: 5452 4f5f 4449 5229 3a0a 2020 2020 2020  TRO_DIR):.      
+-00010300: 2020 2020 2020 666f 7220 6620 696e 205b        for f in [
+-00010310: 222e 7761 7622 2c20 222e 6d70 3322 2c20  ".wav", ".mp3", 
+-00010320: 222e 666c 6163 222c 2022 2e6f 6767 225d  ".flac", ".ogg"]
+-00010330: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-00010340: 2020 6966 2066 6e61 6d65 2e65 6e64 7377    if fname.endsw
+-00010350: 6974 6828 6629 3a0a 2020 2020 2020 2020  ith(f):.        
+-00010360: 2020 2020 2020 2020 2020 2020 7261 775f              raw_
+-00010370: 7061 7468 203d 206f 732e 7061 7468 2e6a  path = os.path.j
+-00010380: 6f69 6e28 636f 6e66 6967 2e4d 4145 5354  oin(config.MAEST
+-00010390: 524f 5f44 4952 2c20 666e 616d 6529 0a20  RO_DIR, fname). 
+-000103a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000103b0: 2020 2073 616e 6974 697a 6564 5f70 6174     sanitized_pat
+-000103c0: 6820 3d20 7261 775f 7061 7468 2e72 6570  h = raw_path.rep
+-000103d0: 6c61 6365 2822 7c22 2c20 222d 2229 0a0a  lace("|", "-")..
+-000103e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000103f0: 2020 2020 6f73 2e72 656e 616d 6528 7261      os.rename(ra
+-00010400: 775f 7061 7468 2c20 7361 6e69 7469 7a65  w_path, sanitize
+-00010410: 645f 7061 7468 290a 0a20 2020 2020 2020  d_path)..       
+-00010420: 2020 2020 2020 2020 2020 2020 2070 6174               pat
+-00010430: 6873 2e61 7070 656e 6428 7361 6e69 7469  hs.append(saniti
+-00010440: 7a65 645f 7061 7468 290a 2020 2020 2020  zed_path).      
+-00010450: 2020 2020 2020 6966 2066 6e61 6d65 2e65        if fname.e
+-00010460: 6e64 7377 6974 6828 222e 7061 7274 2229  ndswith(".part")
+-00010470: 3a20 2023 2064 656c 6574 6520 696e 636f  :  # delete inco
+-00010480: 6d70 6c65 7465 2064 6f77 6e6c 6f61 6473  mplete downloads
+-00010490: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000104a0: 206f 732e 7265 6d6f 7665 286f 732e 7061   os.remove(os.pa
+-000104b0: 7468 2e6a 6f69 6e28 636f 6e66 6967 2e4d  th.join(config.M
+-000104c0: 4145 5354 524f 5f44 4952 2c20 666e 616d  AESTRO_DIR, fnam
+-000104d0: 6529 290a 0a20 2020 2020 2020 206d 6f76  e))..        mov
+-000104e0: 655f 203d 2054 7275 650a 0a20 2020 2069  e_ = True..    i
+-000104f0: 6620 7061 7468 7320 6973 204e 6f6e 653a  f paths is None:
+-00010500: 0a20 2020 2020 2020 2069 6620 6f73 2e70  .        if os.p
+-00010510: 6174 682e 6973 6469 7228 7061 7468 5f29  ath.isdir(path_)
+-00010520: 3a0a 2020 2020 2020 2020 2020 2020 7061  :.            pa
+-00010530: 7468 7320 3d20 5b5d 0a20 2020 2020 2020  ths = [].       
+-00010540: 2020 2020 2069 6620 7265 6375 7273 653a       if recurse:
+-00010550: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00010560: 2066 6f72 2064 6972 7061 7468 2c20 5f2c   for dirpath, _,
+-00010570: 2066 6e61 6d65 7320 696e 206f 732e 7761   fnames in os.wa
+-00010580: 6c6b 2870 6174 685f 293a 0a20 2020 2020  lk(path_):.     
+-00010590: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-000105a0: 6f72 2066 6e61 6d65 2069 6e20 666e 616d  or fname in fnam
+-000105b0: 6573 3a0a 2020 2020 2020 2020 2020 2020  es:.            
+-000105c0: 2020 2020 2020 2020 2020 2020 6966 206f              if o
+-000105d0: 732e 7061 7468 2e73 706c 6974 6578 7428  s.path.splitext(
+-000105e0: 666e 616d 6529 5b31 5d20 696e 2063 6f6e  fname)[1] in con
+-000105f0: 6669 672e 4558 5453 3a0a 2020 2020 2020  fig.EXTS:.      
+-00010600: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00010610: 2020 2020 2020 7061 7468 732e 6170 7065        paths.appe
+-00010620: 6e64 286f 732e 7061 7468 2e6a 6f69 6e28  nd(os.path.join(
+-00010630: 6469 7270 6174 682c 2066 6e61 6d65 2929  dirpath, fname))
+-00010640: 0a20 2020 2020 2020 2020 2020 2065 6c73  .            els
+-00010650: 653a 0a20 2020 2020 2020 2020 2020 2020  e:.             
+-00010660: 2020 2066 6f72 2066 6e61 6d65 2069 6e20     for fname in 
+-00010670: 6f73 2e6c 6973 7464 6972 2870 6174 685f  os.listdir(path_
+-00010680: 293a 0a20 2020 2020 2020 2020 2020 2020  ):.             
+-00010690: 2020 2020 2020 2069 6620 6f73 2e70 6174         if os.pat
+-000106a0: 682e 7370 6c69 7465 7874 2866 6e61 6d65  h.splitext(fname
+-000106b0: 295b 315d 2069 6e20 636f 6e66 6967 2e45  )[1] in config.E
+-000106c0: 5854 533a 0a20 2020 2020 2020 2020 2020  XTS:.           
+-000106d0: 2020 2020 2020 2020 2020 2020 2066 756c               ful
+-000106e0: 6c5f 7061 7468 203d 206f 732e 7061 7468  l_path = os.path
+-000106f0: 2e6a 6f69 6e28 7061 7468 5f2c 2066 6e61  .join(path_, fna
+-00010700: 6d65 290a 2020 2020 2020 2020 2020 2020  me).            
+-00010710: 2020 2020 2020 2020 2020 2020 6966 206f              if o
+-00010720: 732e 7061 7468 2e69 7366 696c 6528 6675  s.path.isfile(fu
+-00010730: 6c6c 5f70 6174 6829 3a0a 2020 2020 2020  ll_path):.      
+-00010740: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00010750: 2020 2020 2020 7061 7468 732e 6170 7065        paths.appe
+-00010760: 6e64 2866 756c 6c5f 7061 7468 290a 2020  nd(full_path).  
+-00010770: 2020 2020 2020 2020 2020 6966 206c 656e            if len
+-00010780: 2870 6174 6873 2920 3d3d 2030 3a0a 2020  (paths) == 0:.  
+-00010790: 2020 2020 2020 2020 2020 2020 2020 636c                cl
+-000107a0: 6963 6b2e 7365 6368 6f28 0a20 2020 2020  ick.secho(.     
+-000107b0: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-000107c0: 224e 6f20 736f 6e67 7320 666f 756e 6420  "No songs found 
+-000107d0: 696e 2027 7b70 6174 685f 7d27 2e22 2c0a  in '{path_}'.",.
+-000107e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000107f0: 2020 2020 6667 3d22 7265 6422 2c0a 2020      fg="red",.  
+-00010800: 2020 2020 2020 2020 2020 2020 2020 290a                ).
+-00010810: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00010820: 7265 7475 726e 0a20 2020 2020 2020 2065  return.        e
+-00010830: 6c73 653a 0a20 2020 2020 2020 2020 2020  lse:.           
+-00010840: 2070 6174 6873 203d 205b 7061 7468 5f5d   paths = [path_]
+-00010850: 0a0a 2020 2020 6966 206c 656e 2870 6174  ..    if len(pat
+-00010860: 6873 2920 3e20 313a 0a20 2020 2020 2020  hs) > 1:.       
+-00010870: 2069 6620 636c 6970 2069 7320 6e6f 7420   if clip is not 
+-00010880: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00010890: 2020 636c 6963 6b2e 7365 6368 6f28 0a20    click.secho(. 
+-000108a0: 2020 2020 2020 2020 2020 2020 2020 2022                 "
+-000108b0: 4361 6e6e 6f74 2070 6173 7320 272d 632f  Cannot pass '-c/
+-000108c0: 2d2d 636c 6970 2720 6f70 7469 6f6e 2077  --clip' option w
+-000108d0: 6865 6e20 6164 6469 6e67 206d 756c 7469  hen adding multi
+-000108e0: 706c 6520 736f 6e67 732e 222c 0a20 2020  ple songs.",.   
+-000108f0: 2020 2020 2020 2020 2020 2020 2066 673d               fg=
+-00010900: 2272 6564 222c 0a20 2020 2020 2020 2020  "red",.         
+-00010910: 2020 2029 0a20 2020 2020 2020 2020 2020     ).           
+-00010920: 2072 6574 7572 6e0a 0a20 2020 2020 2020   return..       
+-00010930: 2069 6620 6e61 6d65 2069 7320 6e6f 7420   if name is not 
+-00010940: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00010950: 2020 636c 6963 6b2e 7365 6368 6f28 0a20    click.secho(. 
+-00010960: 2020 2020 2020 2020 2020 2020 2020 2022                 "
+-00010970: 4361 6e6e 6f74 2070 6173 7320 272d 6e2f  Cannot pass '-n/
+-00010980: 2d2d 6e61 6d65 2720 6f70 7469 6f6e 2077  --name' option w
+-00010990: 6865 6e20 6164 6469 6e67 206d 756c 7469  hen adding multi
+-000109a0: 706c 6520 736f 6e67 732e 222c 0a20 2020  ple songs.",.   
+-000109b0: 2020 2020 2020 2020 2020 2020 2066 673d               fg=
+-000109c0: 2272 6564 222c 0a20 2020 2020 2020 2020  "red",.         
+-000109d0: 2020 2029 0a20 2020 2020 2020 2020 2020     ).           
+-000109e0: 2072 6574 7572 6e0a 0a20 2020 2069 6620   return..    if 
+-000109f0: 6c65 6e28 7061 7468 7329 203d 3d20 3120  len(paths) == 1 
+-00010a00: 616e 6420 6e61 6d65 2069 7320 6e6f 7420  and name is not 
+-00010a10: 4e6f 6e65 3a0a 2020 2020 2020 2020 6e65  None:.        ne
+-00010a20: 775f 7061 7468 203d 206f 732e 7061 7468  w_path = os.path
+-00010a30: 2e6a 6f69 6e28 0a20 2020 2020 2020 2020  .join(.         
+-00010a40: 2020 2063 6f6e 6669 672e 4d41 4553 5452     config.MAESTR
+-00010a50: 4f5f 4449 522c 206e 616d 6520 2b20 6f73  O_DIR, name + os
+-00010a60: 2e70 6174 682e 7370 6c69 7465 7874 2870  .path.splitext(p
+-00010a70: 6174 6873 5b30 5d29 5b31 5d0a 2020 2020  aths[0])[1].    
+-00010a80: 2020 2020 290a 2020 2020 2020 2020 2320      ).        # 
+-00010a90: 6d6f 7665 2f63 6f70 7920 746f 2063 6f6e  move/copy to con
+-00010aa0: 6669 672e 4d41 4553 5452 4f5f 4449 5220  fig.MAESTRO_DIR 
+-00010ab0: 2861 766f 6964 206e 616d 6520 636f 6e66  (avoid name conf
+-00010ac0: 6c69 6374 7329 0a20 2020 2020 2020 2069  licts).        i
+-00010ad0: 6620 6d6f 7665 5f3a 0a20 2020 2020 2020  f move_:.       
+-00010ae0: 2020 2020 206d 6f76 6528 7061 7468 735b       move(paths[
+-00010af0: 305d 2c20 6e65 775f 7061 7468 290a 2020  0], new_path).  
+-00010b00: 2020 2020 2020 656c 7365 3a0a 2020 2020        else:.    
+-00010b10: 2020 2020 2020 2020 636f 7079 2870 6174          copy(pat
+-00010b20: 6873 5b30 5d2c 206e 6577 5f70 6174 6829  hs[0], new_path)
+-00010b30: 0a20 2020 2020 2020 2070 6174 6873 203d  .        paths =
+-00010b40: 205b 6e65 775f 7061 7468 5d0a 2020 2020   [new_path].    
+-00010b50: 2020 2020 6d6f 7665 5f20 3d20 5472 7565      move_ = True
+-00010b60: 2020 2320 616c 7761 7973 206d 6f76 6520    # always move 
+-00010b70: 2866 726f 6d20 7465 6d70 206c 6f63 2069  (from temp loc i
+-00010b80: 6e20 636f 6e66 6967 2e4d 4145 5354 524f  n config.MAESTRO
+-00010b90: 5f44 4952 2920 6966 2072 656e 616d 696e  _DIR) if renamin
+-00010ba0: 670a 0a20 2020 2069 6620 636c 6970 2069  g..    if clip i
+-00010bb0: 7320 6e6f 7420 4e6f 6e65 2061 6e64 206c  s not None and l
+-00010bc0: 656e 2870 6174 6873 2920 3d3d 2031 3a0a  en(paths) == 1:.
+-00010bd0: 2020 2020 2020 2020 736f 6e67 5f64 7572          song_dur
+-00010be0: 6174 696f 6e20 3d20 6d75 7369 635f 7461  ation = music_ta
+-00010bf0: 672e 6c6f 6164 5f66 696c 6528 7061 7468  g.load_file(path
+-00010c00: 735b 305d 295b 2223 6c65 6e67 7468 225d  s[0])["#length"]
+-00010c10: 2e76 616c 7565 0a0a 2020 2020 2020 2020  .value..        
+-00010c20: 7374 6172 742c 2065 6e64 203d 2063 6c69  start, end = cli
+-00010c30: 700a 2020 2020 2020 2020 6966 2073 7461  p.        if sta
+-00010c40: 7274 203c 2030 3a0a 2020 2020 2020 2020  rt < 0:.        
+-00010c50: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
+-00010c60: 2243 6c69 7020 7374 6172 7420 7469 6d65  "Clip start time
+-00010c70: 2063 616e 6e6f 7420 6265 206e 6567 6174   cannot be negat
+-00010c80: 6976 652e 222c 2066 673d 2272 6564 2229  ive.", fg="red")
+-00010c90: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
+-00010ca0: 7572 6e0a 2020 2020 2020 2020 6966 2073  urn.        if s
+-00010cb0: 7461 7274 203e 2073 6f6e 675f 6475 7261  tart > song_dura
+-00010cc0: 7469 6f6e 3a0a 2020 2020 2020 2020 2020  tion:.          
+-00010cd0: 2020 636c 6963 6b2e 7365 6368 6f28 0a20    click.secho(. 
+-00010ce0: 2020 2020 2020 2020 2020 2020 2020 2022                 "
+-00010cf0: 436c 6970 2073 7461 7274 2074 696d 6520  Clip start time 
+-00010d00: 6361 6e6e 6f74 2062 6520 6772 6561 7465  cannot be greate
+-00010d10: 7220 7468 616e 2074 6865 2073 6f6e 6720  r than the song 
+-00010d20: 6475 7261 7469 6f6e 2e22 2c0a 2020 2020  duration.",.    
+-00010d30: 2020 2020 2020 2020 2020 2020 6667 3d22              fg="
+-00010d40: 7265 6422 2c0a 2020 2020 2020 2020 2020  red",.          
+-00010d50: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
+-00010d60: 7265 7475 726e 0a0a 2020 2020 2020 2020  return..        
+-00010d70: 6966 2065 6e64 203d 3d20 2d31 3a0a 2020  if end == -1:.  
+-00010d80: 2020 2020 2020 2020 2020 656e 6420 3d20            end = 
+-00010d90: 736f 6e67 5f64 7572 6174 696f 6e0a 2020  song_duration.  
+-00010da0: 2020 2020 2020 656c 6966 2065 6e64 203c        elif end <
+-00010db0: 2073 7461 7274 3a0a 2020 2020 2020 2020   start:.        
+-00010dc0: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
+-00010dd0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00010de0: 2022 436c 6970 2065 6e64 2074 696d 6520   "Clip end time 
+-00010df0: 6361 6e6e 6f74 2062 6520 6c65 7373 2074  cannot be less t
+-00010e00: 6861 6e20 7468 6520 636c 6970 2073 7461  han the clip sta
+-00010e10: 7274 2074 696d 652e 222c 0a20 2020 2020  rt time.",.     
+-00010e20: 2020 2020 2020 2020 2020 2066 673d 2272             fg="r
+-00010e30: 6564 222c 0a20 2020 2020 2020 2020 2020  ed",.           
+-00010e40: 2029 0a20 2020 2020 2020 2020 2020 2072   ).            r
+-00010e50: 6574 7572 6e0a 2020 2020 2020 2020 656c  eturn.        el
+-00010e60: 6966 2065 6e64 203e 2073 6f6e 675f 6475  if end > song_du
+-00010e70: 7261 7469 6f6e 3a0a 2020 2020 2020 2020  ration:.        
+-00010e80: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
+-00010e90: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00010ea0: 2022 436c 6970 2065 6e64 2074 696d 6520   "Clip end time 
+-00010eb0: 6361 6e6e 6f74 2062 6520 6772 6561 7465  cannot be greate
+-00010ec0: 7220 7468 616e 2074 6865 2073 6f6e 6720  r than the song 
+-00010ed0: 6475 7261 7469 6f6e 2e22 2c0a 2020 2020  duration.",.    
+-00010ee0: 2020 2020 2020 2020 2020 2020 6667 3d22              fg="
+-00010ef0: 7265 6422 2c0a 2020 2020 2020 2020 2020  red",.          
+-00010f00: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
+-00010f10: 7265 7475 726e 0a20 2020 2065 6c73 653a  return.    else:
+-00010f20: 0a20 2020 2020 2020 2073 7461 7274 203d  .        start =
+-00010f30: 2065 6e64 203d 204e 6f6e 650a 0a20 2020   end = None..   
+-00010f40: 2069 6620 6d65 7461 6461 7461 5f70 6169   if metadata_pai
+-00010f50: 7273 2069 7320 6e6f 7420 4e6f 6e65 2061  rs is not None a
+-00010f60: 6e64 206c 656e 2870 6174 6873 2920 3d3d  nd len(paths) ==
+-00010f70: 2031 3a0a 2020 2020 2020 2020 2320 636f   1:.        # co
+-00010f80: 6e76 6572 7420 6672 6f6d 2022 6b65 793a  nvert from "key:
+-00010f90: 7661 6c75 652c 6b65 793a 7661 6c75 6522  value,key:value"
+-00010fa0: 2074 6f20 5b28 226b 6579 222c 2022 7661   to [("key", "va
+-00010fb0: 6c75 6522 295d 0a20 2020 2020 2020 206d  lue")].        m
+-00010fc0: 6574 6164 6174 615f 7061 6972 7320 3d20  etadata_pairs = 
+-00010fd0: 5b0a 2020 2020 2020 2020 2020 2020 7475  [.            tu
+-00010fe0: 706c 6528 7061 6972 2e73 7472 6970 2829  ple(pair.strip()
+-00010ff0: 2e73 706c 6974 2822 3a22 2929 2066 6f72  .split(":")) for
+-00011000: 2070 6169 7220 696e 206d 6574 6164 6174   pair in metadat
+-00011010: 615f 7061 6972 732e 7370 6c69 7428 227c  a_pairs.split("|
+-00011020: 2229 0a20 2020 2020 2020 205d 0a20 2020  ").        ].   
+-00011030: 2020 2020 2073 6f6e 675f 6461 7461 203d       song_data =
+-00011040: 206d 7573 6963 5f74 6167 2e6c 6f61 645f   music_tag.load_
+-00011050: 6669 6c65 2870 6174 6873 5b30 5d29 0a20  file(paths[0]). 
+-00011060: 2020 2020 2020 2066 6f72 206b 6579 2c20         for key, 
+-00011070: 7661 6c75 6520 696e 206d 6574 6164 6174  value in metadat
+-00011080: 615f 7061 6972 733a 0a20 2020 2020 2020  a_pairs:.       
+-00011090: 2020 2020 2069 6620 6b65 7920 6e6f 7420       if key not 
+-000110a0: 696e 2063 6f6e 6669 672e 4d45 5441 4441  in config.METADA
+-000110b0: 5441 5f4b 4559 5320 6f72 206b 6579 2e73  TA_KEYS or key.s
+-000110c0: 7461 7274 7377 6974 6828 2223 2229 3a0a  tartswith("#"):.
+-000110d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000110e0: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
+-000110f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011100: 2066 2227 7b6b 6579 7d27 2069 7320 6e6f   f"'{key}' is no
+-00011110: 7420 6120 7661 6c69 6420 6564 6974 6162  t a valid editab
+-00011120: 6c65 206d 6574 6164 6174 6120 6b65 792e  le metadata key.
+-00011130: 222c 2066 673d 2272 6564 220a 2020 2020  ", fg="red".    
+-00011140: 2020 2020 2020 2020 2020 2020 290a 2020              ).  
+-00011150: 2020 2020 2020 2020 2020 2020 2020 636f                co
+-00011160: 6e74 696e 7565 0a20 2020 2020 2020 2020  ntinue.         
+-00011170: 2020 2073 6f6e 675f 6461 7461 5b6b 6579     song_data[key
+-00011180: 5d20 3d20 7661 6c75 650a 2020 2020 2020  ] = value.      
+-00011190: 2020 736f 6e67 5f64 6174 612e 7361 7665    song_data.save
+-000111a0: 2829 0a0a 2020 2020 666f 7220 7061 7468  ()..    for path
+-000111b0: 2069 6e20 7061 7468 733a 0a20 2020 2020   in paths:.     
+-000111c0: 2020 2065 7874 203d 206f 732e 7061 7468     ext = os.path
+-000111d0: 2e73 706c 6974 6578 7428 7061 7468 295b  .splitext(path)[
+-000111e0: 315d 0a20 2020 2020 2020 2069 6620 6e6f  1].        if no
+-000111f0: 7420 6f73 2e70 6174 682e 6973 6469 7228  t os.path.isdir(
+-00011200: 7061 7468 2920 616e 6420 6578 7420 6e6f  path) and ext no
+-00011210: 7420 696e 2063 6f6e 6669 672e 4558 5453  t in config.EXTS
+-00011220: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
+-00011230: 6963 6b2e 7365 6368 6f28 6622 277b 6578  ick.secho(f"'{ex
+-00011240: 747d 2720 6973 206e 6f74 2073 7570 706f  t}' is not suppo
+-00011250: 7274 6564 2e22 2c20 6667 3d22 7265 6422  rted.", fg="red"
+-00011260: 290a 2020 2020 2020 2020 2020 2020 7265  ).            re
+-00011270: 7475 726e 0a0a 2020 2020 2020 2020 666f  turn..        fo
+-00011280: 7220 7461 6720 696e 2074 6167 733a 0a20  r tag in tags:. 
+-00011290: 2020 2020 2020 2020 2020 2069 6620 222c             if ",
+-000112a0: 2220 696e 2074 6167 206f 7220 227c 2220  " in tag or "|" 
+-000112b0: 696e 2074 6167 3a0a 2020 2020 2020 2020  in tag:.        
+-000112c0: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
+-000112d0: 6368 6f28 2254 6167 7320 6361 6e6e 6f74  cho("Tags cannot
+-000112e0: 2063 6f6e 7461 696e 2027 2c27 206f 7220   contain ',' or 
+-000112f0: 277c 272e 222c 2066 673d 2272 6564 2229  '|'.", fg="red")
+-00011300: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00011310: 2072 6574 7572 6e0a 0a20 2020 2020 2020   return..       
+-00011320: 2077 6974 6820 6f70 656e 2863 6f6e 6669   with open(confi
+-00011330: 672e 534f 4e47 535f 494e 464f 5f50 4154  g.SONGS_INFO_PAT
+-00011340: 482c 2022 612b 222c 2065 6e63 6f64 696e  H, "a+", encodin
+-00011350: 673d 2275 7466 2d38 2229 2061 7320 736f  g="utf-8") as so
+-00011360: 6e67 735f 6669 6c65 3a0a 2020 2020 2020  ngs_file:.      
+-00011370: 2020 2020 2020 736f 6e67 735f 6669 6c65        songs_file
+-00011380: 2e73 6565 6b28 3029 2020 2320 7374 6172  .seek(0)  # star
+-00011390: 7420 7265 6164 696e 6720 6672 6f6d 2062  t reading from b
+-000113a0: 6567 696e 6e69 6e67 0a0a 2020 2020 2020  eginning..      
+-000113b0: 2020 2020 2020 6c69 6e65 7320 3d20 736f        lines = so
+-000113c0: 6e67 735f 6669 6c65 2e72 6561 646c 696e  ngs_file.readlin
+-000113d0: 6573 2829 0a0a 2020 2020 2020 2020 2020  es()..          
+-000113e0: 2020 736f 6e67 5f69 6420 3d20 310a 2020    song_id = 1.  
+-000113f0: 2020 2020 2020 2020 2020 666f 7220 6c69            for li
+-00011400: 6e65 2069 6e20 6c69 6e65 733a 0a20 2020  ne in lines:.   
+-00011410: 2020 2020 2020 2020 2020 2020 2073 6f6e               son
+-00011420: 675f 6964 203d 206d 6178 2873 6f6e 675f  g_id = max(song_
+-00011430: 6964 2c20 696e 7428 6c69 6e65 2e73 706c  id, int(line.spl
+-00011440: 6974 2822 7c22 295b 305d 2920 2b20 3129  it("|")[0]) + 1)
+-00011450: 0a0a 2020 2020 2020 2020 2020 2020 7072  ..            pr
+-00011460: 6570 656e 645f 6e65 776c 696e 6520 3d20  epend_newline = 
+-00011470: 6c69 6e65 7320 616e 6420 6c69 6e65 735b  lines and lines[
+-00011480: 2d31 5d5b 2d31 5d20 213d 2022 5c6e 220a  -1][-1] != "\n".
+-00011490: 0a20 2020 2020 2020 2020 2020 2068 656c  .            hel
+-000114a0: 7065 7273 2e61 6464 5f73 6f6e 6728 0a20  pers.add_song(. 
+-000114b0: 2020 2020 2020 2020 2020 2020 2020 2070                 p
+-000114c0: 6174 682c 0a20 2020 2020 2020 2020 2020  ath,.           
+-000114d0: 2020 2020 2074 6167 732c 0a20 2020 2020       tags,.     
+-000114e0: 2020 2020 2020 2020 2020 206d 6f76 655f             move_
+-000114f0: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
+-00011500: 2020 736f 6e67 735f 6669 6c65 2c0a 2020    songs_file,.  
+-00011510: 2020 2020 2020 2020 2020 2020 2020 6c69                li
+-00011520: 6e65 732c 0a20 2020 2020 2020 2020 2020  nes,.           
+-00011530: 2020 2020 2073 6f6e 675f 6964 2c0a 2020       song_id,.  
+-00011540: 2020 2020 2020 2020 2020 2020 2020 7072                pr
+-00011550: 6570 656e 645f 6e65 776c 696e 652c 0a20  epend_newline,. 
+-00011560: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-00011570: 7461 7274 2c0a 2020 2020 2020 2020 2020  tart,.          
+-00011580: 2020 2020 2020 656e 642c 0a20 2020 2020        end,.     
+-00011590: 2020 2020 2020 2029 0a0a 0a40 636c 692e         )...@cli.
+-000115a0: 636f 6d6d 616e 6428 290a 4063 6c69 636b  command().@click
+-000115b0: 2e61 7267 756d 656e 7428 2241 5247 5322  .argument("ARGS"
+-000115c0: 2c20 7265 7175 6972 6564 3d54 7275 652c  , required=True,
+-000115d0: 206e 6172 6773 3d2d 3129 0a40 636c 6963   nargs=-1).@clic
+-000115e0: 6b2e 6f70 7469 6f6e 280a 2020 2020 222d  k.option(.    "-
+-000115f0: 462f 2d6e 4622 2c20 222d 2d66 6f72 6365  F/-nF", "--force
+-00011600: 2f2d 2d6e 6f2d 666f 7263 6522 2c20 6465  /--no-force", de
+-00011610: 6661 756c 743d 4661 6c73 652c 2068 656c  fault=False, hel
+-00011620: 703d 2246 6f72 6365 2064 656c 6574 696f  p="Force deletio
+-00011630: 6e2e 220a 290a 4063 6c69 636b 2e6f 7074  n.".).@click.opt
+-00011640: 696f 6e28 0a20 2020 2022 2d54 2f2d 6e54  ion(.    "-T/-nT
+-00011650: 222c 0a20 2020 2022 2d2d 7461 672f 2d2d  ",.    "--tag/--
+-00011660: 6e6f 2d74 6167 222c 0a20 2020 2064 6566  no-tag",.    def
+-00011670: 6175 6c74 3d46 616c 7365 2c0a 2020 2020  ault=False,.    
+-00011680: 6865 6c70 3d22 4966 2070 6173 7365 642c  help="If passed,
+-00011690: 2074 7265 6174 2061 6c6c 2061 7267 756d   treat all argum
+-000116a0: 656e 7473 2061 7320 7461 6773 2c20 6465  ents as tags, de
+-000116b0: 6c65 7469 6e67 2065 7665 7279 206f 6375  leting every ocu
+-000116c0: 7272 656e 6365 206f 6620 6561 6368 2074  rrence of each t
+-000116d0: 6167 2e22 2c0a 290a 6465 6620 7265 6d6f  ag.",.).def remo
+-000116e0: 7665 2861 7267 732c 2066 6f72 6365 2c20  ve(args, force, 
+-000116f0: 7461 6729 3a0a 2020 2020 2222 2252 656d  tag):.    """Rem
+-00011700: 6f76 6520 6569 7468 6572 2074 6167 2873  ove either tag(s
+-00011710: 2920 6f72 2073 6f6e 6728 7329 2070 6173  ) or song(s) pas
+-00011720: 7365 6420 6173 2049 4428 7329 2e22 2222  sed as ID(s)."""
+-00011730: 0a20 2020 2069 6620 6e6f 7420 7461 673a  .    if not tag:
+-00011740: 0a20 2020 2020 2020 2074 7279 3a0a 2020  .        try:.  
+-00011750: 2020 2020 2020 2020 2020 736f 6e67 5f69            song_i
+-00011760: 6473 203d 207b 696e 7428 736f 6e67 5f69  ds = {int(song_i
+-00011770: 6429 2066 6f72 2073 6f6e 675f 6964 2069  d) for song_id i
+-00011780: 6e20 6172 6773 7d0a 2020 2020 2020 2020  n args}.        
+-00011790: 2020 2020 7265 6d61 696e 696e 675f 736f      remaining_so
+-000117a0: 6e67 5f69 6473 203d 207b 6e20 666f 7220  ng_ids = {n for 
+-000117b0: 6e20 696e 2073 6f6e 675f 6964 737d 0a20  n in song_ids}. 
+-000117c0: 2020 2020 2020 2065 7863 6570 7420 5661         except Va
+-000117d0: 6c75 6545 7272 6f72 3a0a 2020 2020 2020  lueError:.      
+-000117e0: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
+-000117f0: 6f28 0a20 2020 2020 2020 2020 2020 2020  o(.             
+-00011800: 2020 2022 536f 6e67 2049 4473 206d 7573     "Song IDs mus
+-00011810: 7420 6265 2069 6e74 6567 6572 732e 2054  t be integers. T
+-00011820: 6f20 6465 6c65 7465 2074 6167 732c 2070  o delete tags, p
+-00011830: 6173 7320 7468 6520 272d 542f 2d2d 7461  ass the '-T/--ta
+-00011840: 6727 2066 6c61 672e 222c 0a20 2020 2020  g' flag.",.     
+-00011850: 2020 2020 2020 2020 2020 2066 673d 2272             fg="r
+-00011860: 6564 222c 0a20 2020 2020 2020 2020 2020  ed",.           
+-00011870: 2029 0a20 2020 2020 2020 2020 2020 2072   ).            r
+-00011880: 6574 7572 6e0a 0a20 2020 2020 2020 2069  eturn..        i
+-00011890: 6620 6e6f 7420 666f 7263 653a 0a20 2020  f not force:.   
+-000118a0: 2020 2020 2020 2020 2063 6861 7220 3d20           char = 
+-000118b0: 696e 7075 7428 0a20 2020 2020 2020 2020  input(.         
+-000118c0: 2020 2020 2020 2066 2241 7265 2079 6f75         f"Are you
+-000118d0: 2073 7572 6520 796f 7520 7761 6e74 2074   sure you want t
+-000118e0: 6f20 6465 6c65 7465 207b 6c65 6e28 736f  o delete {len(so
+-000118f0: 6e67 5f69 6473 297d 2073 6f6e 6728 7329  ng_ids)} song(s)
+-00011900: 3f20 5b79 2f6e 5d20 220a 2020 2020 2020  ? [y/n] ".      
+-00011910: 2020 2020 2020 290a 0a20 2020 2020 2020        )..       
+-00011920: 2020 2020 2069 6620 6368 6172 2e6c 6f77       if char.low
+-00011930: 6572 2829 2021 3d20 2279 223a 0a20 2020  er() != "y":.   
+-00011940: 2020 2020 2020 2020 2020 2020 2070 7269               pri
+-00011950: 6e74 2822 4469 6420 6e6f 7420 6465 6c65  nt("Did not dele
+-00011960: 7465 2e22 290a 2020 2020 2020 2020 2020  te.").          
+-00011970: 2020 2020 2020 7265 7475 726e 0a0a 2020        return..  
+-00011980: 2020 2020 2020 7769 7468 206f 7065 6e28        with open(
+-00011990: 636f 6e66 6967 2e53 4f4e 4753 5f49 4e46  config.SONGS_INF
+-000119a0: 4f5f 5041 5448 2c20 2272 222c 2065 6e63  O_PATH, "r", enc
+-000119b0: 6f64 696e 673d 2275 7466 2d38 2229 2061  oding="utf-8") a
+-000119c0: 7320 736f 6e67 735f 6669 6c65 3a0a 2020  s songs_file:.  
+-000119d0: 2020 2020 2020 2020 2020 6c69 6e65 7320            lines 
+-000119e0: 3d20 736f 6e67 735f 6669 6c65 2e72 6561  = songs_file.rea
+-000119f0: 6428 292e 7370 6c69 746c 696e 6573 2829  d().splitlines()
+-00011a00: 0a0a 2020 2020 2020 2020 2020 2020 746f  ..            to
+-00011a10: 5f62 655f 6465 6c65 7465 6420 3d20 5b5d  _be_deleted = []
+-00011a20: 0a20 2020 2020 2020 2020 2020 2066 6f72  .            for
+-00011a30: 2069 2069 6e20 7261 6e67 6528 6c65 6e28   i in range(len(
+-00011a40: 6c69 6e65 7329 293a 0a20 2020 2020 2020  lines)):.       
+-00011a50: 2020 2020 2020 2020 2064 6574 6169 6c73           details
+-00011a60: 203d 206c 696e 6573 5b69 5d2e 7374 7269   = lines[i].stri
+-00011a70: 7028 292e 7370 6c69 7428 227c 2229 0a20  p().split("|"). 
+-00011a80: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-00011a90: 6f6e 675f 6964 203d 2069 6e74 2864 6574  ong_id = int(det
+-00011aa0: 6169 6c73 5b30 5d29 0a20 2020 2020 2020  ails[0]).       
+-00011ab0: 2020 2020 2020 2020 2069 6620 736f 6e67           if song
+-00011ac0: 5f69 6420 696e 2072 656d 6169 6e69 6e67  _id in remaining
+-00011ad0: 5f73 6f6e 675f 6964 733a 0a20 2020 2020  _song_ids:.     
+-00011ae0: 2020 2020 2020 2020 2020 2020 2020 2072                 r
+-00011af0: 656d 6169 6e69 6e67 5f73 6f6e 675f 6964  emaining_song_id
+-00011b00: 732e 7265 6d6f 7665 2873 6f6e 675f 6964  s.remove(song_id
+-00011b10: 290a 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00011b20: 2020 2020 2020 2073 6f6e 675f 6e61 6d65         song_name
+-00011b30: 203d 2064 6574 6169 6c73 5b31 5d0a 2020   = details[1].  
+-00011b40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011b50: 2020 736f 6e67 5f70 6174 6820 3d20 6f73    song_path = os
+-00011b60: 2e70 6174 682e 6a6f 696e 2863 6f6e 6669  .path.join(confi
+-00011b70: 672e 534f 4e47 535f 4449 522c 2073 6f6e  g.SONGS_DIR, son
+-00011b80: 675f 6e61 6d65 290a 2020 2020 2020 2020  g_name).        
+-00011b90: 2020 2020 2020 2020 2020 2020 6966 206f              if o
+-00011ba0: 732e 7061 7468 2e65 7869 7374 7328 736f  s.path.exists(so
+-00011bb0: 6e67 5f70 6174 6829 3a0a 2020 2020 2020  ng_path):.      
+-00011bc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011bd0: 2020 6f73 2e72 656d 6f76 6528 736f 6e67    os.remove(song
+-00011be0: 5f70 6174 6829 0a20 2020 2020 2020 2020  _path).         
+-00011bf0: 2020 2020 2020 2020 2020 2065 6c73 653a             else:
+-00011c00: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00011c10: 2020 2020 2020 2020 2063 6c69 636b 2e73           click.s
+-00011c20: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
+-00011c30: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011c40: 2020 6622 5761 726e 696e 673a 2053 6f6e    f"Warning: Son
+-00011c50: 6720 6669 6c65 2027 7b73 6f6e 675f 6e61  g file '{song_na
+-00011c60: 6d65 7d27 2028 4944 207b 736f 6e67 5f69  me}' (ID {song_i
+-00011c70: 647d 2920 6e6f 7420 666f 756e 642e 2057  d}) not found. W
+-00011c80: 6f75 6c64 2079 6f75 2073 7469 6c6c 206c  ould you still l
+-00011c90: 696b 6520 746f 2064 656c 6574 6520 7468  ike to delete th
+-00011ca0: 6520 736f 6e67 2066 726f 6d20 7468 6520  e song from the 
+-00011cb0: 6461 7461 6261 7365 3f20 5b79 2f6e 5d20  database? [y/n] 
+-00011cc0: 222c 0a20 2020 2020 2020 2020 2020 2020  ",.             
+-00011cd0: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-00011ce0: 673d 2279 656c 6c6f 7722 2c0a 2020 2020  g="yellow",.    
++0000fed0: 2020 2022 2d2d 6175 6469 6f2d 666f 726d     "--audio-form
++0000fee0: 6174 222c 0a20 2020 2020 2020 2020 2020  at",.           
++0000fef0: 2020 2020 2020 2020 2066 6f72 6d61 745f           format_
++0000ff00: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
++0000ff10: 2020 2020 2020 222d 2d6e 6f2d 706c 6179        "--no-play
++0000ff20: 6c69 7374 2220 6966 206e 6f74 2070 6c61  list" if not pla
++0000ff30: 796c 6973 745f 2065 6c73 6520 2222 2c0a  ylist_ else "",.
++0000ff40: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0000ff50: 2020 2020 222d 2d65 6d62 6564 2d6d 6574      "--embed-met
++0000ff60: 6164 6174 6122 2c0a 2020 2020 2020 2020  adata",.        
++0000ff70: 2020 2020 2020 2020 2020 2020 222d 6f22              "-o"
++0000ff80: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
++0000ff90: 2020 2020 2020 6f73 2e70 6174 682e 6a6f        os.path.jo
++0000ffa0: 696e 2863 6f6e 6669 672e 4d41 4553 5452  in(config.MAESTR
++0000ffb0: 4f5f 4449 522c 2022 2528 7469 746c 6529  O_DIR, "%(title)
++0000ffc0: 732e 2528 6578 7429 7322 292c 0a20 2020  s.%(ext)s"),.   
++0000ffd0: 2020 2020 2020 2020 2020 2020 205d 2c0a               ],.
++0000ffe0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0000fff0: 6368 6563 6b3d 5472 7565 2c0a 2020 2020  check=True,.    
++00010000: 2020 2020 2020 2020 290a 2020 2020 2020          ).      
++00010010: 2020 656c 7365 3a0a 2020 2020 2020 2020    else:.        
++00010020: 2020 2020 6966 2066 6f72 6d61 745f 203d      if format_ =
++00010030: 3d20 2277 6176 223a 0a20 2020 2020 2020  = "wav":.       
++00010040: 2020 2020 2020 2020 2063 6c69 636b 2e73           click.s
++00010050: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
++00010060: 2020 2020 2020 2020 2020 2243 616e 6e6f            "Canno
++00010070: 7420 646f 776e 6c6f 6164 2073 6f6e 6773  t download songs
++00010080: 2066 726f 6d20 5370 6f74 6966 7920 6173   from Spotify as
++00010090: 2027 2e77 6176 272e 2050 6c65 6173 6520   '.wav'. Please 
++000100a0: 6368 6f6f 7365 2061 2064 6966 6665 7265  choose a differe
++000100b0: 6e74 2066 6f72 6d61 742e 222c 0a20 2020  nt format.",.   
++000100c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000100d0: 2066 673d 2272 6564 222c 0a20 2020 2020   fg="red",.     
++000100e0: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
++000100f0: 2020 2020 2020 2020 2020 2020 2072 6574               ret
++00010100: 7572 6e0a 0a20 2020 2020 2020 2020 2020  urn..           
++00010110: 2063 7764 203d 206f 732e 6765 7463 7764   cwd = os.getcwd
++00010120: 2829 0a20 2020 2020 2020 2020 2020 206f  ().            o
++00010130: 732e 6368 6469 7228 636f 6e66 6967 2e4d  s.chdir(config.M
++00010140: 4145 5354 524f 5f44 4952 290a 2020 2020  AESTRO_DIR).    
++00010150: 2020 2020 2020 2020 7472 793a 0a20 2020          try:.   
++00010160: 2020 2020 2020 2020 2020 2020 2073 7562               sub
++00010170: 7072 6f63 6573 732e 7275 6e28 0a20 2020  process.run(.   
++00010180: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010190: 205b 0a20 2020 2020 2020 2020 2020 2020   [.             
++000101a0: 2020 2020 2020 2020 2020 2022 7370 6f74             "spot
++000101b0: 646c 222c 0a20 2020 2020 2020 2020 2020  dl",.           
++000101c0: 2020 2020 2020 2020 2020 2020 2022 646f               "do
++000101d0: 776e 6c6f 6164 222c 0a20 2020 2020 2020  wnload",.       
++000101e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000101f0: 2070 6174 685f 2c0a 2020 2020 2020 2020   path_,.        
++00010200: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010210: 222d 2d6f 7574 7075 7422 2c0a 2020 2020  "--output",.    
++00010220: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010230: 2020 2020 227b 7469 746c 657d 2e7b 6f75      "{title}.{ou
++00010240: 7470 7574 2d65 7874 7d22 2c0a 2020 2020  tput-ext}",.    
++00010250: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010260: 2020 2020 222d 2d66 6f72 6d61 7422 2c0a      "--format",.
++00010270: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010280: 2020 2020 2020 2020 666f 726d 6174 5f2c          format_,
++00010290: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000102a0: 2020 2020 2020 2020 2022 2d2d 6865 6164           "--head
++000102b0: 6c65 7373 222c 0a20 2020 2020 2020 2020  less",.         
++000102c0: 2020 2020 2020 2020 2020 205d 2c0a 2020             ],.  
++000102d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000102e0: 2020 6368 6563 6b3d 5472 7565 2c0a 2020    check=True,.  
++000102f0: 2020 2020 2020 2020 2020 2020 2020 290a                ).
++00010300: 2020 2020 2020 2020 2020 2020 6578 6365              exce
++00010310: 7074 2045 7863 6570 7469 6f6e 2061 7320  pt Exception as 
++00010320: 6572 723a 0a20 2020 2020 2020 2020 2020  err:.           
++00010330: 2020 2020 206f 732e 6368 6469 7228 6377       os.chdir(cw
++00010340: 6429 0a20 2020 2020 2020 2020 2020 2020  d).             
++00010350: 2020 2072 6169 7365 2065 7272 0a0a 2020     raise err..  
++00010360: 2020 2020 2020 7061 7468 7320 3d20 5b5d        paths = []
++00010370: 0a20 2020 2020 2020 2066 6f72 2066 6e61  .        for fna
++00010380: 6d65 2069 6e20 6f73 2e6c 6973 7464 6972  me in os.listdir
++00010390: 2863 6f6e 6669 672e 4d41 4553 5452 4f5f  (config.MAESTRO_
++000103a0: 4449 5229 3a0a 2020 2020 2020 2020 2020  DIR):.          
++000103b0: 2020 666f 7220 6620 696e 205b 222e 7761    for f in [".wa
++000103c0: 7622 2c20 222e 6d70 3322 2c20 222e 666c  v", ".mp3", ".fl
++000103d0: 6163 222c 2022 2e6f 6767 225d 3a0a 2020  ac", ".ogg"]:.  
++000103e0: 2020 2020 2020 2020 2020 2020 2020 6966                if
++000103f0: 2066 6e61 6d65 2e65 6e64 7377 6974 6828   fname.endswith(
++00010400: 6629 3a0a 2020 2020 2020 2020 2020 2020  f):.            
++00010410: 2020 2020 2020 2020 7261 775f 7061 7468          raw_path
++00010420: 203d 206f 732e 7061 7468 2e6a 6f69 6e28   = os.path.join(
++00010430: 636f 6e66 6967 2e4d 4145 5354 524f 5f44  config.MAESTRO_D
++00010440: 4952 2c20 666e 616d 6529 0a20 2020 2020  IR, fname).     
++00010450: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00010460: 616e 6974 697a 6564 5f70 6174 6820 3d20  anitized_path = 
++00010470: 7261 775f 7061 7468 2e72 6570 6c61 6365  raw_path.replace
++00010480: 2822 7c22 2c20 222d 2229 0a0a 2020 2020  ("|", "-")..    
++00010490: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000104a0: 6f73 2e72 656e 616d 6528 7261 775f 7061  os.rename(raw_pa
++000104b0: 7468 2c20 7361 6e69 7469 7a65 645f 7061  th, sanitized_pa
++000104c0: 7468 290a 0a20 2020 2020 2020 2020 2020  th)..           
++000104d0: 2020 2020 2020 2020 2070 6174 6873 2e61           paths.a
++000104e0: 7070 656e 6428 7361 6e69 7469 7a65 645f  ppend(sanitized_
++000104f0: 7061 7468 290a 2020 2020 2020 2020 2020  path).          
++00010500: 2020 6966 2066 6e61 6d65 2e65 6e64 7377    if fname.endsw
++00010510: 6974 6828 222e 7061 7274 2229 3a20 2023  ith(".part"):  #
++00010520: 2064 656c 6574 6520 696e 636f 6d70 6c65   delete incomple
++00010530: 7465 2064 6f77 6e6c 6f61 6473 0a20 2020  te downloads.   
++00010540: 2020 2020 2020 2020 2020 2020 206f 732e               os.
++00010550: 7265 6d6f 7665 286f 732e 7061 7468 2e6a  remove(os.path.j
++00010560: 6f69 6e28 636f 6e66 6967 2e4d 4145 5354  oin(config.MAEST
++00010570: 524f 5f44 4952 2c20 666e 616d 6529 290a  RO_DIR, fname)).
++00010580: 0a20 2020 2020 2020 206d 6f76 655f 203d  .        move_ =
++00010590: 2054 7275 650a 0a20 2020 2069 6620 7061   True..    if pa
++000105a0: 7468 7320 6973 204e 6f6e 653a 0a20 2020  ths is None:.   
++000105b0: 2020 2020 2069 6620 6f73 2e70 6174 682e       if os.path.
++000105c0: 6973 6469 7228 7061 7468 5f29 3a0a 2020  isdir(path_):.  
++000105d0: 2020 2020 2020 2020 2020 7061 7468 7320            paths 
++000105e0: 3d20 5b5d 0a20 2020 2020 2020 2020 2020  = [].           
++000105f0: 2069 6620 7265 6375 7273 653a 0a20 2020   if recurse:.   
++00010600: 2020 2020 2020 2020 2020 2020 2066 6f72               for
++00010610: 2064 6972 7061 7468 2c20 5f2c 2066 6e61   dirpath, _, fna
++00010620: 6d65 7320 696e 206f 732e 7761 6c6b 2870  mes in os.walk(p
++00010630: 6174 685f 293a 0a20 2020 2020 2020 2020  ath_):.         
++00010640: 2020 2020 2020 2020 2020 2066 6f72 2066             for f
++00010650: 6e61 6d65 2069 6e20 666e 616d 6573 3a0a  name in fnames:.
++00010660: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010670: 2020 2020 2020 2020 6966 206f 732e 7061          if os.pa
++00010680: 7468 2e73 706c 6974 6578 7428 666e 616d  th.splitext(fnam
++00010690: 6529 5b31 5d20 696e 2063 6f6e 6669 672e  e)[1] in config.
++000106a0: 4558 5453 3a0a 2020 2020 2020 2020 2020  EXTS:.          
++000106b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000106c0: 2020 7061 7468 732e 6170 7065 6e64 286f    paths.append(o
++000106d0: 732e 7061 7468 2e6a 6f69 6e28 6469 7270  s.path.join(dirp
++000106e0: 6174 682c 2066 6e61 6d65 2929 0a20 2020  ath, fname)).   
++000106f0: 2020 2020 2020 2020 2065 6c73 653a 0a20           else:. 
++00010700: 2020 2020 2020 2020 2020 2020 2020 2066                 f
++00010710: 6f72 2066 6e61 6d65 2069 6e20 6f73 2e6c  or fname in os.l
++00010720: 6973 7464 6972 2870 6174 685f 293a 0a20  istdir(path_):. 
++00010730: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010740: 2020 2069 6620 6f73 2e70 6174 682e 7370     if os.path.sp
++00010750: 6c69 7465 7874 2866 6e61 6d65 295b 315d  litext(fname)[1]
++00010760: 2069 6e20 636f 6e66 6967 2e45 5854 533a   in config.EXTS:
++00010770: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00010780: 2020 2020 2020 2020 2066 756c 6c5f 7061           full_pa
++00010790: 7468 203d 206f 732e 7061 7468 2e6a 6f69  th = os.path.joi
++000107a0: 6e28 7061 7468 5f2c 2066 6e61 6d65 290a  n(path_, fname).
++000107b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000107c0: 2020 2020 2020 2020 6966 206f 732e 7061          if os.pa
++000107d0: 7468 2e69 7366 696c 6528 6675 6c6c 5f70  th.isfile(full_p
++000107e0: 6174 6829 3a0a 2020 2020 2020 2020 2020  ath):.          
++000107f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00010800: 2020 7061 7468 732e 6170 7065 6e64 2866    paths.append(f
++00010810: 756c 6c5f 7061 7468 290a 2020 2020 2020  ull_path).      
++00010820: 2020 2020 2020 6966 206c 656e 2870 6174        if len(pat
++00010830: 6873 2920 3d3d 2030 3a0a 2020 2020 2020  hs) == 0:.      
++00010840: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
++00010850: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
++00010860: 2020 2020 2020 2020 2020 2066 224e 6f20             f"No 
++00010870: 736f 6e67 7320 666f 756e 6420 696e 2027  songs found in '
++00010880: 7b70 6174 685f 7d27 2e22 2c0a 2020 2020  {path_}'.",.    
++00010890: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000108a0: 6667 3d22 7265 6422 2c0a 2020 2020 2020  fg="red",.      
++000108b0: 2020 2020 2020 2020 2020 290a 2020 2020            ).    
++000108c0: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++000108d0: 726e 0a20 2020 2020 2020 2065 6c73 653a  rn.        else:
++000108e0: 0a20 2020 2020 2020 2020 2020 2070 6174  .            pat
++000108f0: 6873 203d 205b 7061 7468 5f5d 0a0a 2020  hs = [path_]..  
++00010900: 2020 6966 206c 656e 2870 6174 6873 2920    if len(paths) 
++00010910: 3e20 313a 0a20 2020 2020 2020 2069 6620  > 1:.        if 
++00010920: 636c 6970 2069 7320 6e6f 7420 4e6f 6e65  clip is not None
++00010930: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
++00010940: 6963 6b2e 7365 6368 6f28 0a20 2020 2020  ick.secho(.     
++00010950: 2020 2020 2020 2020 2020 2022 4361 6e6e             "Cann
++00010960: 6f74 2070 6173 7320 272d 632f 2d2d 636c  ot pass '-c/--cl
++00010970: 6970 2720 6f70 7469 6f6e 2077 6865 6e20  ip' option when 
++00010980: 6164 6469 6e67 206d 756c 7469 706c 6520  adding multiple 
++00010990: 736f 6e67 732e 222c 0a20 2020 2020 2020  songs.",.       
++000109a0: 2020 2020 2020 2020 2066 673d 2272 6564           fg="red
++000109b0: 222c 0a20 2020 2020 2020 2020 2020 2029  ",.            )
++000109c0: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++000109d0: 7572 6e0a 0a20 2020 2020 2020 2069 6620  urn..        if 
++000109e0: 6e61 6d65 2069 7320 6e6f 7420 4e6f 6e65  name is not None
++000109f0: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
++00010a00: 6963 6b2e 7365 6368 6f28 0a20 2020 2020  ick.secho(.     
++00010a10: 2020 2020 2020 2020 2020 2022 4361 6e6e             "Cann
++00010a20: 6f74 2070 6173 7320 272d 6e2f 2d2d 6e61  ot pass '-n/--na
++00010a30: 6d65 2720 6f70 7469 6f6e 2077 6865 6e20  me' option when 
++00010a40: 6164 6469 6e67 206d 756c 7469 706c 6520  adding multiple 
++00010a50: 736f 6e67 732e 222c 0a20 2020 2020 2020  songs.",.       
++00010a60: 2020 2020 2020 2020 2066 673d 2272 6564           fg="red
++00010a70: 222c 0a20 2020 2020 2020 2020 2020 2029  ",.            )
++00010a80: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++00010a90: 7572 6e0a 0a20 2020 2069 6620 6c65 6e28  urn..    if len(
++00010aa0: 7061 7468 7329 203d 3d20 3120 616e 6420  paths) == 1 and 
++00010ab0: 6e61 6d65 2069 7320 6e6f 7420 4e6f 6e65  name is not None
++00010ac0: 3a0a 2020 2020 2020 2020 6e65 775f 7061  :.        new_pa
++00010ad0: 7468 203d 206f 732e 7061 7468 2e6a 6f69  th = os.path.joi
++00010ae0: 6e28 0a20 2020 2020 2020 2020 2020 2063  n(.            c
++00010af0: 6f6e 6669 672e 4d41 4553 5452 4f5f 4449  onfig.MAESTRO_DI
++00010b00: 522c 206e 616d 6520 2b20 6f73 2e70 6174  R, name + os.pat
++00010b10: 682e 7370 6c69 7465 7874 2870 6174 6873  h.splitext(paths
++00010b20: 5b30 5d29 5b31 5d0a 2020 2020 2020 2020  [0])[1].        
++00010b30: 290a 2020 2020 2020 2020 2320 6d6f 7665  ).        # move
++00010b40: 2f63 6f70 7920 746f 2063 6f6e 6669 672e  /copy to config.
++00010b50: 4d41 4553 5452 4f5f 4449 5220 2861 766f  MAESTRO_DIR (avo
++00010b60: 6964 206e 616d 6520 636f 6e66 6c69 6374  id name conflict
++00010b70: 7329 0a20 2020 2020 2020 2069 6620 6d6f  s).        if mo
++00010b80: 7665 5f3a 0a20 2020 2020 2020 2020 2020  ve_:.           
++00010b90: 206d 6f76 6528 7061 7468 735b 305d 2c20   move(paths[0], 
++00010ba0: 6e65 775f 7061 7468 290a 2020 2020 2020  new_path).      
++00010bb0: 2020 656c 7365 3a0a 2020 2020 2020 2020    else:.        
++00010bc0: 2020 2020 636f 7079 2870 6174 6873 5b30      copy(paths[0
++00010bd0: 5d2c 206e 6577 5f70 6174 6829 0a20 2020  ], new_path).   
++00010be0: 2020 2020 2070 6174 6873 203d 205b 6e65       paths = [ne
++00010bf0: 775f 7061 7468 5d0a 2020 2020 2020 2020  w_path].        
++00010c00: 6d6f 7665 5f20 3d20 5472 7565 2020 2320  move_ = True  # 
++00010c10: 616c 7761 7973 206d 6f76 6520 2866 726f  always move (fro
++00010c20: 6d20 7465 6d70 206c 6f63 2069 6e20 636f  m temp loc in co
++00010c30: 6e66 6967 2e4d 4145 5354 524f 5f44 4952  nfig.MAESTRO_DIR
++00010c40: 2920 6966 2072 656e 616d 696e 670a 0a20  ) if renaming.. 
++00010c50: 2020 2069 6620 636c 6970 2069 7320 6e6f     if clip is no
++00010c60: 7420 4e6f 6e65 2061 6e64 206c 656e 2870  t None and len(p
++00010c70: 6174 6873 2920 3d3d 2031 3a0a 2020 2020  aths) == 1:.    
++00010c80: 2020 2020 736f 6e67 5f64 7572 6174 696f      song_duratio
++00010c90: 6e20 3d20 6d75 7369 635f 7461 672e 6c6f  n = music_tag.lo
++00010ca0: 6164 5f66 696c 6528 7061 7468 735b 305d  ad_file(paths[0]
++00010cb0: 295b 2223 6c65 6e67 7468 225d 2e76 616c  )["#length"].val
++00010cc0: 7565 0a0a 2020 2020 2020 2020 7374 6172  ue..        star
++00010cd0: 742c 2065 6e64 203d 2063 6c69 700a 2020  t, end = clip.  
++00010ce0: 2020 2020 2020 6966 2073 7461 7274 203c        if start <
++00010cf0: 2030 3a0a 2020 2020 2020 2020 2020 2020   0:.            
++00010d00: 636c 6963 6b2e 7365 6368 6f28 2243 6c69  click.secho("Cli
++00010d10: 7020 7374 6172 7420 7469 6d65 2063 616e  p start time can
++00010d20: 6e6f 7420 6265 206e 6567 6174 6976 652e  not be negative.
++00010d30: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
++00010d40: 2020 2020 2020 2020 2072 6574 7572 6e0a           return.
++00010d50: 2020 2020 2020 2020 6966 2073 7461 7274          if start
++00010d60: 203e 2073 6f6e 675f 6475 7261 7469 6f6e   > song_duration
++00010d70: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
++00010d80: 6963 6b2e 7365 6368 6f28 0a20 2020 2020  ick.secho(.     
++00010d90: 2020 2020 2020 2020 2020 2022 436c 6970             "Clip
++00010da0: 2073 7461 7274 2074 696d 6520 6361 6e6e   start time cann
++00010db0: 6f74 2062 6520 6772 6561 7465 7220 7468  ot be greater th
++00010dc0: 616e 2074 6865 2073 6f6e 6720 6475 7261  an the song dura
++00010dd0: 7469 6f6e 2e22 2c0a 2020 2020 2020 2020  tion.",.        
++00010de0: 2020 2020 2020 2020 6667 3d22 7265 6422          fg="red"
++00010df0: 2c0a 2020 2020 2020 2020 2020 2020 290a  ,.            ).
++00010e00: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++00010e10: 726e 0a0a 2020 2020 2020 2020 6966 2065  rn..        if e
++00010e20: 6e64 203d 3d20 2d31 3a0a 2020 2020 2020  nd == -1:.      
++00010e30: 2020 2020 2020 656e 6420 3d20 736f 6e67        end = song
++00010e40: 5f64 7572 6174 696f 6e0a 2020 2020 2020  _duration.      
++00010e50: 2020 656c 6966 2065 6e64 203c 2073 7461    elif end < sta
++00010e60: 7274 3a0a 2020 2020 2020 2020 2020 2020  rt:.            
++00010e70: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
++00010e80: 2020 2020 2020 2020 2020 2020 2022 436c               "Cl
++00010e90: 6970 2065 6e64 2074 696d 6520 6361 6e6e  ip end time cann
++00010ea0: 6f74 2062 6520 6c65 7373 2074 6861 6e20  ot be less than 
++00010eb0: 7468 6520 636c 6970 2073 7461 7274 2074  the clip start t
++00010ec0: 696d 652e 222c 0a20 2020 2020 2020 2020  ime.",.         
++00010ed0: 2020 2020 2020 2066 673d 2272 6564 222c         fg="red",
++00010ee0: 0a20 2020 2020 2020 2020 2020 2029 0a20  .            ). 
++00010ef0: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++00010f00: 6e0a 2020 2020 2020 2020 656c 6966 2065  n.        elif e
++00010f10: 6e64 203e 2073 6f6e 675f 6475 7261 7469  nd > song_durati
++00010f20: 6f6e 3a0a 2020 2020 2020 2020 2020 2020  on:.            
++00010f30: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
++00010f40: 2020 2020 2020 2020 2020 2020 2022 436c               "Cl
++00010f50: 6970 2065 6e64 2074 696d 6520 6361 6e6e  ip end time cann
++00010f60: 6f74 2062 6520 6772 6561 7465 7220 7468  ot be greater th
++00010f70: 616e 2074 6865 2073 6f6e 6720 6475 7261  an the song dura
++00010f80: 7469 6f6e 2e22 2c0a 2020 2020 2020 2020  tion.",.        
++00010f90: 2020 2020 2020 2020 6667 3d22 7265 6422          fg="red"
++00010fa0: 2c0a 2020 2020 2020 2020 2020 2020 290a  ,.            ).
++00010fb0: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++00010fc0: 726e 0a20 2020 2065 6c73 653a 0a20 2020  rn.    else:.   
++00010fd0: 2020 2020 2073 7461 7274 203d 2065 6e64       start = end
++00010fe0: 203d 204e 6f6e 650a 0a20 2020 2069 6620   = None..    if 
++00010ff0: 6d65 7461 6461 7461 5f70 6169 7273 2069  metadata_pairs i
++00011000: 7320 6e6f 7420 4e6f 6e65 2061 6e64 206c  s not None and l
++00011010: 656e 2870 6174 6873 2920 3d3d 2031 3a0a  en(paths) == 1:.
++00011020: 2020 2020 2020 2020 2320 636f 6e76 6572          # conver
++00011030: 7420 6672 6f6d 2022 6b65 793a 7661 6c75  t from "key:valu
++00011040: 652c 6b65 793a 7661 6c75 6522 2074 6f20  e,key:value" to 
++00011050: 5b28 226b 6579 222c 2022 7661 6c75 6522  [("key", "value"
++00011060: 295d 0a20 2020 2020 2020 206d 6574 6164  )].        metad
++00011070: 6174 615f 7061 6972 7320 3d20 5b0a 2020  ata_pairs = [.  
++00011080: 2020 2020 2020 2020 2020 7475 706c 6528            tuple(
++00011090: 7061 6972 2e73 7472 6970 2829 2e73 706c  pair.strip().spl
++000110a0: 6974 2822 3a22 2929 2066 6f72 2070 6169  it(":")) for pai
++000110b0: 7220 696e 206d 6574 6164 6174 615f 7061  r in metadata_pa
++000110c0: 6972 732e 7370 6c69 7428 227c 2229 0a20  irs.split("|"). 
++000110d0: 2020 2020 2020 205d 0a20 2020 2020 2020         ].       
++000110e0: 2073 6f6e 675f 6461 7461 203d 206d 7573   song_data = mus
++000110f0: 6963 5f74 6167 2e6c 6f61 645f 6669 6c65  ic_tag.load_file
++00011100: 2870 6174 6873 5b30 5d29 0a20 2020 2020  (paths[0]).     
++00011110: 2020 2066 6f72 206b 6579 2c20 7661 6c75     for key, valu
++00011120: 6520 696e 206d 6574 6164 6174 615f 7061  e in metadata_pa
++00011130: 6972 733a 0a20 2020 2020 2020 2020 2020  irs:.           
++00011140: 2069 6620 6b65 7920 6e6f 7420 696e 2063   if key not in c
++00011150: 6f6e 6669 672e 4d45 5441 4441 5441 5f4b  onfig.METADATA_K
++00011160: 4559 5320 6f72 206b 6579 2e73 7461 7274  EYS or key.start
++00011170: 7377 6974 6828 2223 2229 3a0a 2020 2020  swith("#"):.    
++00011180: 2020 2020 2020 2020 2020 2020 636c 6963              clic
++00011190: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
++000111a0: 2020 2020 2020 2020 2020 2020 2066 2227               f"'
++000111b0: 7b6b 6579 7d27 2069 7320 6e6f 7420 6120  {key}' is not a 
++000111c0: 7661 6c69 6420 6564 6974 6162 6c65 206d  valid editable m
++000111d0: 6574 6164 6174 6120 6b65 792e 222c 2066  etadata key.", f
++000111e0: 673d 2272 6564 220a 2020 2020 2020 2020  g="red".        
++000111f0: 2020 2020 2020 2020 290a 2020 2020 2020          ).      
++00011200: 2020 2020 2020 2020 2020 636f 6e74 696e            contin
++00011210: 7565 0a20 2020 2020 2020 2020 2020 2073  ue.            s
++00011220: 6f6e 675f 6461 7461 5b6b 6579 5d20 3d20  ong_data[key] = 
++00011230: 7661 6c75 650a 2020 2020 2020 2020 736f  value.        so
++00011240: 6e67 5f64 6174 612e 7361 7665 2829 0a0a  ng_data.save()..
++00011250: 2020 2020 666f 7220 7061 7468 2069 6e20      for path in 
++00011260: 7061 7468 733a 0a20 2020 2020 2020 2065  paths:.        e
++00011270: 7874 203d 206f 732e 7061 7468 2e73 706c  xt = os.path.spl
++00011280: 6974 6578 7428 7061 7468 295b 315d 0a20  itext(path)[1]. 
++00011290: 2020 2020 2020 2069 6620 6e6f 7420 6f73         if not os
++000112a0: 2e70 6174 682e 6973 6469 7228 7061 7468  .path.isdir(path
++000112b0: 2920 616e 6420 6578 7420 6e6f 7420 696e  ) and ext not in
++000112c0: 2063 6f6e 6669 672e 4558 5453 3a0a 2020   config.EXTS:.  
++000112d0: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
++000112e0: 7365 6368 6f28 6622 277b 6578 747d 2720  secho(f"'{ext}' 
++000112f0: 6973 206e 6f74 2073 7570 706f 7274 6564  is not supported
++00011300: 2e22 2c20 6667 3d22 7265 6422 290a 2020  .", fg="red").  
++00011310: 2020 2020 2020 2020 2020 7265 7475 726e            return
++00011320: 0a0a 2020 2020 2020 2020 666f 7220 7461  ..        for ta
++00011330: 6720 696e 2074 6167 733a 0a20 2020 2020  g in tags:.     
++00011340: 2020 2020 2020 2069 6620 222c 2220 696e         if "," in
++00011350: 2074 6167 206f 7220 227c 2220 696e 2074   tag or "|" in t
++00011360: 6167 3a0a 2020 2020 2020 2020 2020 2020  ag:.            
++00011370: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
++00011380: 2254 6167 7320 6361 6e6e 6f74 2063 6f6e  "Tags cannot con
++00011390: 7461 696e 2027 2c27 206f 7220 277c 272e  tain ',' or '|'.
++000113a0: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
++000113b0: 2020 2020 2020 2020 2020 2020 2072 6574               ret
++000113c0: 7572 6e0a 0a20 2020 2020 2020 2077 6974  urn..        wit
++000113d0: 6820 6f70 656e 2863 6f6e 6669 672e 534f  h open(config.SO
++000113e0: 4e47 535f 494e 464f 5f50 4154 482c 2022  NGS_INFO_PATH, "
++000113f0: 612b 222c 2065 6e63 6f64 696e 673d 2275  a+", encoding="u
++00011400: 7466 2d38 2229 2061 7320 736f 6e67 735f  tf-8") as songs_
++00011410: 6669 6c65 3a0a 2020 2020 2020 2020 2020  file:.          
++00011420: 2020 736f 6e67 735f 6669 6c65 2e73 6565    songs_file.see
++00011430: 6b28 3029 2020 2320 7374 6172 7420 7265  k(0)  # start re
++00011440: 6164 696e 6720 6672 6f6d 2062 6567 696e  ading from begin
++00011450: 6e69 6e67 0a0a 2020 2020 2020 2020 2020  ning..          
++00011460: 2020 6c69 6e65 7320 3d20 736f 6e67 735f    lines = songs_
++00011470: 6669 6c65 2e72 6561 646c 696e 6573 2829  file.readlines()
++00011480: 0a0a 2020 2020 2020 2020 2020 2020 736f  ..            so
++00011490: 6e67 5f69 6420 3d20 310a 2020 2020 2020  ng_id = 1.      
++000114a0: 2020 2020 2020 666f 7220 6c69 6e65 2069        for line i
++000114b0: 6e20 6c69 6e65 733a 0a20 2020 2020 2020  n lines:.       
++000114c0: 2020 2020 2020 2020 2073 6f6e 675f 6964           song_id
++000114d0: 203d 206d 6178 2873 6f6e 675f 6964 2c20   = max(song_id, 
++000114e0: 696e 7428 6c69 6e65 2e73 706c 6974 2822  int(line.split("
++000114f0: 7c22 295b 305d 2920 2b20 3129 0a0a 2020  |")[0]) + 1)..  
++00011500: 2020 2020 2020 2020 2020 7072 6570 656e            prepen
++00011510: 645f 6e65 776c 696e 6520 3d20 6c69 6e65  d_newline = line
++00011520: 7320 616e 6420 6c69 6e65 735b 2d31 5d5b  s and lines[-1][
++00011530: 2d31 5d20 213d 2022 5c6e 220a 0a20 2020  -1] != "\n"..   
++00011540: 2020 2020 2020 2020 2068 656c 7065 7273           helpers
++00011550: 2e61 6464 5f73 6f6e 6728 0a20 2020 2020  .add_song(.     
++00011560: 2020 2020 2020 2020 2020 2070 6174 682c             path,
++00011570: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00011580: 2074 6167 732c 0a20 2020 2020 2020 2020   tags,.         
++00011590: 2020 2020 2020 206d 6f76 655f 2c0a 2020         move_,.  
++000115a0: 2020 2020 2020 2020 2020 2020 2020 736f                so
++000115b0: 6e67 735f 6669 6c65 2c0a 2020 2020 2020  ngs_file,.      
++000115c0: 2020 2020 2020 2020 2020 6c69 6e65 732c            lines,
++000115d0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000115e0: 2073 6f6e 675f 6964 2c0a 2020 2020 2020   song_id,.      
++000115f0: 2020 2020 2020 2020 2020 7072 6570 656e            prepen
++00011600: 645f 6e65 776c 696e 652c 0a20 2020 2020  d_newline,.     
++00011610: 2020 2020 2020 2020 2020 2073 7461 7274             start
++00011620: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
++00011630: 2020 656e 642c 0a20 2020 2020 2020 2020    end,.         
++00011640: 2020 2029 0a0a 0a40 636c 692e 636f 6d6d     )...@cli.comm
++00011650: 616e 6428 290a 4063 6c69 636b 2e61 7267  and().@click.arg
++00011660: 756d 656e 7428 2241 5247 5322 2c20 7265  ument("ARGS", re
++00011670: 7175 6972 6564 3d54 7275 652c 206e 6172  quired=True, nar
++00011680: 6773 3d2d 3129 0a40 636c 6963 6b2e 6f70  gs=-1).@click.op
++00011690: 7469 6f6e 280a 2020 2020 222d 462f 2d6e  tion(.    "-F/-n
++000116a0: 4622 2c20 222d 2d66 6f72 6365 2f2d 2d6e  F", "--force/--n
++000116b0: 6f2d 666f 7263 6522 2c20 6465 6661 756c  o-force", defaul
++000116c0: 743d 4661 6c73 652c 2068 656c 703d 2246  t=False, help="F
++000116d0: 6f72 6365 2064 656c 6574 696f 6e2e 220a  orce deletion.".
++000116e0: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
++000116f0: 0a20 2020 2022 2d54 2f2d 6e54 222c 0a20  .    "-T/-nT",. 
++00011700: 2020 2022 2d2d 7461 672f 2d2d 6e6f 2d74     "--tag/--no-t
++00011710: 6167 222c 0a20 2020 2064 6566 6175 6c74  ag",.    default
++00011720: 3d46 616c 7365 2c0a 2020 2020 6865 6c70  =False,.    help
++00011730: 3d22 4966 2070 6173 7365 642c 2074 7265  ="If passed, tre
++00011740: 6174 2061 6c6c 2061 7267 756d 656e 7473  at all arguments
++00011750: 2061 7320 7461 6773 2c20 6465 6c65 7469   as tags, deleti
++00011760: 6e67 2065 7665 7279 206f 6375 7272 656e  ng every ocurren
++00011770: 6365 206f 6620 6561 6368 2074 6167 2e22  ce of each tag."
++00011780: 2c0a 290a 6465 6620 7265 6d6f 7665 2861  ,.).def remove(a
++00011790: 7267 732c 2066 6f72 6365 2c20 7461 6729  rgs, force, tag)
++000117a0: 3a0a 2020 2020 2222 2252 656d 6f76 6520  :.    """Remove 
++000117b0: 6569 7468 6572 2074 6167 2873 2920 6f72  either tag(s) or
++000117c0: 2073 6f6e 6728 7329 2070 6173 7365 6420   song(s) passed 
++000117d0: 6173 2049 4428 7329 2e22 2222 0a20 2020  as ID(s).""".   
++000117e0: 2069 6620 6e6f 7420 7461 673a 0a20 2020   if not tag:.   
++000117f0: 2020 2020 2074 7279 3a0a 2020 2020 2020       try:.      
++00011800: 2020 2020 2020 736f 6e67 5f69 6473 203d        song_ids =
++00011810: 207b 696e 7428 736f 6e67 5f69 6429 2066   {int(song_id) f
++00011820: 6f72 2073 6f6e 675f 6964 2069 6e20 6172  or song_id in ar
++00011830: 6773 7d0a 2020 2020 2020 2020 2020 2020  gs}.            
++00011840: 7265 6d61 696e 696e 675f 736f 6e67 5f69  remaining_song_i
++00011850: 6473 203d 207b 6e20 666f 7220 6e20 696e  ds = {n for n in
++00011860: 2073 6f6e 675f 6964 737d 0a20 2020 2020   song_ids}.     
++00011870: 2020 2065 7863 6570 7420 5661 6c75 6545     except ValueE
++00011880: 7272 6f72 3a0a 2020 2020 2020 2020 2020  rror:.          
++00011890: 2020 636c 6963 6b2e 7365 6368 6f28 0a20    click.secho(. 
++000118a0: 2020 2020 2020 2020 2020 2020 2020 2022                 "
++000118b0: 536f 6e67 2049 4473 206d 7573 7420 6265  Song IDs must be
++000118c0: 2069 6e74 6567 6572 732e 2054 6f20 6465   integers. To de
++000118d0: 6c65 7465 2074 6167 732c 2070 6173 7320  lete tags, pass 
++000118e0: 7468 6520 272d 542f 2d2d 7461 6727 2066  the '-T/--tag' f
++000118f0: 6c61 672e 222c 0a20 2020 2020 2020 2020  lag.",.         
++00011900: 2020 2020 2020 2066 673d 2272 6564 222c         fg="red",
++00011910: 0a20 2020 2020 2020 2020 2020 2029 0a20  .            ). 
++00011920: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++00011930: 6e0a 0a20 2020 2020 2020 2069 6620 6e6f  n..        if no
++00011940: 7420 666f 7263 653a 0a20 2020 2020 2020  t force:.       
++00011950: 2020 2020 2063 6861 7220 3d20 696e 7075       char = inpu
++00011960: 7428 0a20 2020 2020 2020 2020 2020 2020  t(.             
++00011970: 2020 2066 2241 7265 2079 6f75 2073 7572     f"Are you sur
++00011980: 6520 796f 7520 7761 6e74 2074 6f20 6465  e you want to de
++00011990: 6c65 7465 207b 6c65 6e28 736f 6e67 5f69  lete {len(song_i
++000119a0: 6473 297d 2073 6f6e 6728 7329 3f20 5b79  ds)} song(s)? [y
++000119b0: 2f6e 5d20 220a 2020 2020 2020 2020 2020  /n] ".          
++000119c0: 2020 290a 0a20 2020 2020 2020 2020 2020    )..           
++000119d0: 2069 6620 6368 6172 2e6c 6f77 6572 2829   if char.lower()
++000119e0: 2021 3d20 2279 223a 0a20 2020 2020 2020   != "y":.       
++000119f0: 2020 2020 2020 2020 2070 7269 6e74 2822           print("
++00011a00: 4469 6420 6e6f 7420 6465 6c65 7465 2e22  Did not delete."
++00011a10: 290a 2020 2020 2020 2020 2020 2020 2020  ).              
++00011a20: 2020 7265 7475 726e 0a0a 2020 2020 2020    return..      
++00011a30: 2020 7769 7468 206f 7065 6e28 636f 6e66    with open(conf
++00011a40: 6967 2e53 4f4e 4753 5f49 4e46 4f5f 5041  ig.SONGS_INFO_PA
++00011a50: 5448 2c20 2272 222c 2065 6e63 6f64 696e  TH, "r", encodin
++00011a60: 673d 2275 7466 2d38 2229 2061 7320 736f  g="utf-8") as so
++00011a70: 6e67 735f 6669 6c65 3a0a 2020 2020 2020  ngs_file:.      
++00011a80: 2020 2020 2020 6c69 6e65 7320 3d20 736f        lines = so
++00011a90: 6e67 735f 6669 6c65 2e72 6561 6428 292e  ngs_file.read().
++00011aa0: 7370 6c69 746c 696e 6573 2829 0a0a 2020  splitlines()..  
++00011ab0: 2020 2020 2020 2020 2020 746f 5f62 655f            to_be_
++00011ac0: 6465 6c65 7465 6420 3d20 5b5d 0a20 2020  deleted = [].   
++00011ad0: 2020 2020 2020 2020 2073 6b69 7070 696e           skippin
++00011ae0: 6720 3d20 7365 7428 290a 2020 2020 2020  g = set().      
++00011af0: 2020 2020 2020 666f 7220 6920 696e 2072        for i in r
++00011b00: 616e 6765 286c 656e 286c 696e 6573 2929  ange(len(lines))
++00011b10: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++00011b20: 2020 6465 7461 696c 7320 3d20 6c69 6e65    details = line
++00011b30: 735b 695d 2e73 7472 6970 2829 2e73 706c  s[i].strip().spl
++00011b40: 6974 2822 7c22 290a 2020 2020 2020 2020  it("|").        
++00011b50: 2020 2020 2020 2020 736f 6e67 5f69 6420          song_id 
++00011b60: 3d20 696e 7428 6465 7461 696c 735b 305d  = int(details[0]
++00011b70: 290a 2020 2020 2020 2020 2020 2020 2020  ).              
++00011b80: 2020 6966 2073 6f6e 675f 6964 2069 6e20    if song_id in 
++00011b90: 7265 6d61 696e 696e 675f 736f 6e67 5f69  remaining_song_i
++00011ba0: 6473 3a0a 2020 2020 2020 2020 2020 2020  ds:.            
++00011bb0: 2020 2020 2020 2020 7265 6d61 696e 696e          remainin
++00011bc0: 675f 736f 6e67 5f69 6473 2e72 656d 6f76  g_song_ids.remov
++00011bd0: 6528 736f 6e67 5f69 6429 0a0a 2020 2020  e(song_id)..    
++00011be0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011bf0: 736f 6e67 5f6e 616d 6520 3d20 6465 7461  song_name = deta
++00011c00: 696c 735b 315d 0a20 2020 2020 2020 2020  ils[1].         
++00011c10: 2020 2020 2020 2020 2020 2073 6f6e 675f             song_
++00011c20: 7061 7468 203d 206f 732e 7061 7468 2e6a  path = os.path.j
++00011c30: 6f69 6e28 636f 6e66 6967 2e53 4f4e 4753  oin(config.SONGS
++00011c40: 5f44 4952 2c20 736f 6e67 5f6e 616d 6529  _DIR, song_name)
++00011c50: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00011c60: 2020 2020 2069 6620 6f73 2e70 6174 682e       if os.path.
++00011c70: 6578 6973 7473 2873 6f6e 675f 7061 7468  exists(song_path
++00011c80: 293a 0a20 2020 2020 2020 2020 2020 2020  ):.             
++00011c90: 2020 2020 2020 2020 2020 206f 732e 7265             os.re
++00011ca0: 6d6f 7665 2873 6f6e 675f 7061 7468 290a  move(song_path).
++00011cb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011cc0: 2020 2020 656c 7365 3a0a 2020 2020 2020      else:.      
++00011cd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011ce0: 2020 636c 6963 6b2e 7365 6368 6f28 0a20    click.secho(. 
+ 00011cf0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011d00: 2020 2020 2020 2020 6e6c 3d46 616c 7365          nl=False
+-00011d10: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
+-00011d20: 2020 2020 2020 2020 2020 290a 2020 2020            ).    
+-00011d30: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011d40: 2020 2020 6966 2069 6e70 7574 2829 2e6c      if input().l
+-00011d50: 6f77 6572 2829 2021 3d20 2279 223a 0a20  ower() != "y":. 
+-00011d60: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011d70: 2020 2020 2020 2020 2020 2063 6c69 636b             click
+-00011d80: 2e65 6368 6f28 0a20 2020 2020 2020 2020  .echo(.         
++00011d00: 2020 2020 2020 2020 2020 2066 2257 6172             f"War
++00011d10: 6e69 6e67 3a20 536f 6e67 2066 696c 6520  ning: Song file 
++00011d20: 277b 736f 6e67 5f6e 616d 657d 2720 2849  '{song_name}' (I
++00011d30: 4420 7b73 6f6e 675f 6964 7d29 206e 6f74  D {song_id}) not
++00011d40: 2066 6f75 6e64 2e20 576f 756c 6420 796f   found. Would yo
++00011d50: 7520 7374 696c 6c20 6c69 6b65 2074 6f20  u still like to 
++00011d60: 6465 6c65 7465 2074 6865 2073 6f6e 6720  delete the song 
++00011d70: 6672 6f6d 2074 6865 2064 6174 6162 6173  from the databas
++00011d80: 653f 205b 792f 6e5d 2022 2c0a 2020 2020  e? [y/n] ",.    
+ 00011d90: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011da0: 2020 2020 2020 2066 2253 6b69 7070 696e         f"Skippin
+-00011db0: 6720 736f 6e67 2027 7b73 6f6e 675f 6e61  g song '{song_na
+-00011dc0: 6d65 7d27 2028 4944 207b 736f 6e67 5f69  me}' (ID {song_i
+-00011dd0: 647d 292e 220a 2020 2020 2020 2020 2020  d}).".          
++00011da0: 2020 2020 2020 2020 6667 3d22 7965 6c6c          fg="yell
++00011db0: 6f77 222c 0a20 2020 2020 2020 2020 2020  ow",.           
++00011dc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011dd0: 206e 6c3d 4661 6c73 652c 0a20 2020 2020   nl=False,.     
+ 00011de0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011df0: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
+-00011e00: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011e10: 636f 6e74 696e 7565 0a0a 2020 2020 2020  continue..      
+-00011e20: 2020 2020 2020 2020 2020 2020 2020 746f                to
+-00011e30: 5f62 655f 6465 6c65 7465 642e 6170 7065  _be_deleted.appe
+-00011e40: 6e64 2869 290a 0a20 2020 2020 2020 2020  nd(i)..         
+-00011e50: 2020 2020 2020 2020 2020 2063 6c69 636b             click
+-00011e60: 2e73 6563 686f 280a 2020 2020 2020 2020  .secho(.        
+-00011e70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00011e80: 6622 5265 6d6f 7665 6420 736f 6e67 2027  f"Removed song '
+-00011e90: 7b73 6f6e 675f 6e61 6d65 7d27 2077 6974  {song_name}' wit
+-00011ea0: 6820 4944 207b 736f 6e67 5f69 647d 2e22  h ID {song_id}."
+-00011eb0: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
+-00011ec0: 2020 2020 2020 2020 2020 6667 3d22 6772            fg="gr
+-00011ed0: 6565 6e22 2c0a 2020 2020 2020 2020 2020  een",.          
+-00011ee0: 2020 2020 2020 2020 2020 290a 0a20 2020            )..   
+-00011ef0: 2020 2020 2066 6f72 2069 2069 6e20 7265       for i in re
+-00011f00: 7665 7273 6564 2874 6f5f 6265 5f64 656c  versed(to_be_del
+-00011f10: 6574 6564 293a 0a20 2020 2020 2020 2020  eted):.         
+-00011f20: 2020 2064 656c 206c 696e 6573 5b69 5d0a     del lines[i].
+-00011f30: 0a20 2020 2020 2020 2077 6974 6820 6f70  .        with op
+-00011f40: 656e 2863 6f6e 6669 672e 534f 4e47 535f  en(config.SONGS_
+-00011f50: 494e 464f 5f50 4154 482c 2022 7722 2c20  INFO_PATH, "w", 
+-00011f60: 656e 636f 6469 6e67 3d22 7574 662d 3822  encoding="utf-8"
+-00011f70: 2920 6173 2073 6f6e 6773 5f66 696c 653a  ) as songs_file:
+-00011f80: 0a20 2020 2020 2020 2020 2020 2073 6f6e  .            son
+-00011f90: 6773 5f66 696c 652e 7772 6974 6528 225c  gs_file.write("\
+-00011fa0: 6e22 2e6a 6f69 6e28 6c69 6e65 7329 290a  n".join(lines)).
+-00011fb0: 0a20 2020 2020 2020 2066 6f72 2073 7461  .        for sta
+-00011fc0: 7473 5f66 696c 6520 696e 206f 732e 6c69  ts_file in os.li
+-00011fd0: 7374 6469 7228 636f 6e66 6967 2e53 5441  stdir(config.STA
+-00011fe0: 5453 5f44 4952 293a 0a20 2020 2020 2020  TS_DIR):.       
+-00011ff0: 2020 2020 2069 6620 6e6f 7420 7374 6174       if not stat
+-00012000: 735f 6669 6c65 2e65 6e64 7377 6974 6828  s_file.endswith(
+-00012010: 222e 7478 7422 293a 0a20 2020 2020 2020  ".txt"):.       
+-00012020: 2020 2020 2020 2020 2063 6f6e 7469 6e75           continu
+-00012030: 650a 0a20 2020 2020 2020 2020 2020 2073  e..            s
+-00012040: 7461 7473 5f70 6174 6820 3d20 6f73 2e70  tats_path = os.p
+-00012050: 6174 682e 6a6f 696e 2863 6f6e 6669 672e  ath.join(config.
+-00012060: 5354 4154 535f 4449 522c 2073 7461 7473  STATS_DIR, stats
+-00012070: 5f66 696c 6529 0a20 2020 2020 2020 2020  _file).         
+-00012080: 2020 2077 6974 6820 6f70 656e 2873 7461     with open(sta
+-00012090: 7473 5f70 6174 682c 2022 7222 2c20 656e  ts_path, "r", en
+-000120a0: 636f 6469 6e67 3d22 7574 662d 3822 2920  coding="utf-8") 
+-000120b0: 6173 2073 7461 7473 5f66 696c 653a 0a20  as stats_file:. 
+-000120c0: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-000120d0: 7461 7473 5f6c 696e 6573 203d 2073 7461  tats_lines = sta
+-000120e0: 7473 5f66 696c 652e 7265 6164 2829 2e73  ts_file.read().s
+-000120f0: 706c 6974 6c69 6e65 7328 290a 0a20 2020  plitlines()..   
+-00012100: 2020 2020 2020 2020 2020 2020 2074 6f5f               to_
+-00012110: 6265 5f64 656c 6574 6564 203d 205b 5d0a  be_deleted = [].
+-00012120: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012130: 666f 7220 6920 696e 2072 616e 6765 286c  for i in range(l
+-00012140: 656e 2873 7461 7473 5f6c 696e 6573 2929  en(stats_lines))
+-00012150: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-00012160: 2020 2020 2020 6465 7461 696c 7320 3d20        details = 
+-00012170: 7374 6174 735f 6c69 6e65 735b 695d 2e73  stats_lines[i].s
+-00012180: 7472 6970 2829 2e73 706c 6974 2822 7c22  trip().split("|"
+-00012190: 290a 2020 2020 2020 2020 2020 2020 2020  ).              
+-000121a0: 2020 2020 2020 736f 6e67 5f69 6420 3d20        song_id = 
+-000121b0: 696e 7428 6465 7461 696c 735b 305d 290a  int(details[0]).
+-000121c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000121d0: 2020 2020 6966 2073 6f6e 675f 6964 2069      if song_id i
+-000121e0: 6e20 736f 6e67 5f69 6473 3a0a 2020 2020  n song_ids:.    
+-000121f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012200: 2020 2020 746f 5f62 655f 6465 6c65 7465      to_be_delete
+-00012210: 642e 6170 7065 6e64 2869 290a 0a20 2020  d.append(i)..   
+-00012220: 2020 2020 2020 2020 2066 6f72 2069 2069           for i i
+-00012230: 6e20 7265 7665 7273 6564 2874 6f5f 6265  n reversed(to_be
+-00012240: 5f64 656c 6574 6564 293a 0a20 2020 2020  _deleted):.     
+-00012250: 2020 2020 2020 2020 2020 2064 656c 2073             del s
+-00012260: 7461 7473 5f6c 696e 6573 5b69 5d0a 0a20  tats_lines[i].. 
+-00012270: 2020 2020 2020 2020 2020 2077 6974 6820             with 
+-00012280: 6f70 656e 2873 7461 7473 5f70 6174 682c  open(stats_path,
+-00012290: 2022 7722 2c20 656e 636f 6469 6e67 3d22   "w", encoding="
+-000122a0: 7574 662d 3822 2920 6173 2073 7461 7473  utf-8") as stats
+-000122b0: 5f66 696c 653a 0a20 2020 2020 2020 2020  _file:.         
+-000122c0: 2020 2020 2020 2073 7461 7473 5f66 696c         stats_fil
+-000122d0: 652e 7772 6974 6528 225c 6e22 2e6a 6f69  e.write("\n".joi
+-000122e0: 6e28 7374 6174 735f 6c69 6e65 7329 290a  n(stats_lines)).
+-000122f0: 0a20 2020 2020 2020 2069 6620 7265 6d61  .        if rema
+-00012300: 696e 696e 675f 736f 6e67 5f69 6473 3a0a  ining_song_ids:.
+-00012310: 2020 2020 2020 2020 2020 2020 636c 6963              clic
+-00012320: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
+-00012330: 2020 2020 2020 2020 2066 2243 6f75 6c64           f"Could
+-00012340: 206e 6f74 2066 696e 6420 7468 6520 666f   not find the fo
+-00012350: 6c6c 6f77 696e 6720 736f 6e67 2049 4473  llowing song IDs
+-00012360: 3a20 7b27 2c20 272e 6a6f 696e 286d 6170  : {', '.join(map
+-00012370: 2873 7472 2c20 7265 6d61 696e 696e 675f  (str, remaining_
+-00012380: 736f 6e67 5f69 6473 2929 7d2e 222c 0a20  song_ids))}.",. 
+-00012390: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-000123a0: 673d 2272 6564 222c 0a20 2020 2020 2020  g="red",.       
+-000123b0: 2020 2020 2029 0a20 2020 2065 6c73 653a       ).    else:
+-000123c0: 0a20 2020 2020 2020 2074 6167 735f 746f  .        tags_to
+-000123d0: 5f72 656d 6f76 6520 3d20 7365 7428 6172  _remove = set(ar
+-000123e0: 6773 290a 2020 2020 2020 2020 6966 206e  gs).        if n
+-000123f0: 6f74 2066 6f72 6365 3a0a 2020 2020 2020  ot force:.      
+-00012400: 2020 2020 2020 6368 6172 203d 2069 6e70        char = inp
+-00012410: 7574 280a 2020 2020 2020 2020 2020 2020  ut(.            
+-00012420: 2020 2020 6622 4172 6520 796f 7520 7375      f"Are you su
+-00012430: 7265 2079 6f75 2077 616e 7420 746f 2064  re you want to d
+-00012440: 656c 6574 6520 7b6c 656e 2874 6167 735f  elete {len(tags_
+-00012450: 746f 5f72 656d 6f76 6529 7d20 7461 6728  to_remove)} tag(
+-00012460: 7329 3f20 5b79 2f6e 5d20 220a 2020 2020  s)? [y/n] ".    
+-00012470: 2020 2020 2020 2020 290a 0a20 2020 2020          )..     
+-00012480: 2020 2020 2020 2069 6620 6368 6172 2e6c         if char.l
+-00012490: 6f77 6572 2829 2021 3d20 2279 223a 0a20  ower() != "y":. 
+-000124a0: 2020 2020 2020 2020 2020 2020 2020 2070                 p
+-000124b0: 7269 6e74 2822 4469 6420 6e6f 7420 6465  rint("Did not de
+-000124c0: 6c65 7465 2e22 290a 2020 2020 2020 2020  lete.").        
+-000124d0: 2020 2020 2020 2020 7265 7475 726e 0a0a          return..
+-000124e0: 2020 2020 2020 2020 7769 7468 206f 7065          with ope
+-000124f0: 6e28 636f 6e66 6967 2e53 4f4e 4753 5f49  n(config.SONGS_I
+-00012500: 4e46 4f5f 5041 5448 2c20 2272 222c 2065  NFO_PATH, "r", e
+-00012510: 6e63 6f64 696e 673d 2275 7466 2d38 2229  ncoding="utf-8")
+-00012520: 2061 7320 736f 6e67 735f 6669 6c65 3a0a   as songs_file:.
+-00012530: 2020 2020 2020 2020 2020 2020 6c69 6e65              line
+-00012540: 7320 3d20 736f 6e67 735f 6669 6c65 2e72  s = songs_file.r
+-00012550: 6561 6428 292e 7370 6c69 746c 696e 6573  ead().splitlines
+-00012560: 2829 0a20 2020 2020 2020 2020 2020 2066  ().            f
+-00012570: 6f72 2069 2069 6e20 7261 6e67 6528 6c65  or i in range(le
+-00012580: 6e28 6c69 6e65 7329 293a 0a20 2020 2020  n(lines)):.     
+-00012590: 2020 2020 2020 2020 2020 2064 6574 6169             detai
+-000125a0: 6c73 203d 206c 696e 6573 5b69 5d2e 7374  ls = lines[i].st
+-000125b0: 7269 7028 292e 7370 6c69 7428 227c 2229  rip().split("|")
+-000125c0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000125d0: 2074 6167 7320 3d20 6465 7461 696c 735b   tags = details[
+-000125e0: 325d 2e73 706c 6974 2822 2c22 290a 2020  2].split(",").  
+-000125f0: 2020 2020 2020 2020 2020 2020 2020 666f                fo
+-00012600: 7220 6a20 696e 2072 616e 6765 286c 656e  r j in range(len
+-00012610: 2874 6167 7329 293a 0a20 2020 2020 2020  (tags)):.       
+-00012620: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-00012630: 7461 6773 5b6a 5d20 696e 2074 6167 735f  tags[j] in tags_
+-00012640: 746f 5f72 656d 6f76 653a 0a20 2020 2020  to_remove:.     
+-00012650: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012660: 2020 2064 656c 2074 6167 735b 6a5d 0a20     del tags[j]. 
+-00012670: 2020 2020 2020 2020 2020 2020 2020 2064                 d
+-00012680: 6574 6169 6c73 5b32 5d20 3d20 222c 222e  etails[2] = ",".
+-00012690: 6a6f 696e 2874 6167 7329 0a20 2020 2020  join(tags).     
+-000126a0: 2020 2020 2020 2020 2020 206c 696e 6573             lines
+-000126b0: 5b69 5d20 3d20 227c 222e 6a6f 696e 2864  [i] = "|".join(d
+-000126c0: 6574 6169 6c73 290a 0a20 2020 2020 2020  etails)..       
+-000126d0: 2077 6974 6820 6f70 656e 2863 6f6e 6669   with open(confi
+-000126e0: 672e 534f 4e47 535f 494e 464f 5f50 4154  g.SONGS_INFO_PAT
+-000126f0: 482c 2022 7722 2c20 656e 636f 6469 6e67  H, "w", encoding
+-00012700: 3d22 7574 662d 3822 2920 6173 2073 6f6e  ="utf-8") as son
+-00012710: 6773 5f66 696c 653a 0a20 2020 2020 2020  gs_file:.       
+-00012720: 2020 2020 2073 6f6e 6773 5f66 696c 652e       songs_file.
+-00012730: 7772 6974 6528 225c 6e22 2e6a 6f69 6e28  write("\n".join(
+-00012740: 6c69 6e65 7329 290a 0a20 2020 2020 2020  lines))..       
+-00012750: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
+-00012760: 2020 2020 2020 2020 2020 6622 4465 6c65            f"Dele
+-00012770: 7465 6420 616c 6c20 6f63 6375 7272 656e  ted all occurren
+-00012780: 6365 7320 6f66 207b 6c65 6e28 7461 6773  ces of {len(tags
+-00012790: 5f74 6f5f 7265 6d6f 7665 297d 2074 6167  _to_remove)} tag
+-000127a0: 2873 292e 222c 0a20 2020 2020 2020 2020  (s).",.         
+-000127b0: 2020 2066 673d 2267 7265 656e 222c 0a20     fg="green",. 
+-000127c0: 2020 2020 2020 2029 0a0a 0a40 636c 692e         )...@cli.
+-000127d0: 636f 6d6d 616e 6428 6e61 6d65 3d22 7461  command(name="ta
+-000127e0: 6722 290a 4063 6c69 636b 2e61 7267 756d  g").@click.argum
+-000127f0: 656e 7428 2273 6f6e 675f 6964 7322 2c20  ent("song_ids", 
+-00012800: 7479 7065 3d63 6c69 636b 2e49 4e54 2c20  type=click.INT, 
+-00012810: 7265 7175 6972 6564 3d54 7275 652c 206e  required=True, n
+-00012820: 6172 6773 3d2d 3129 0a40 636c 6963 6b2e  args=-1).@click.
+-00012830: 6f70 7469 6f6e 280a 2020 2020 222d 7422  option(.    "-t"
+-00012840: 2c0a 2020 2020 222d 2d74 6167 222c 0a20  ,.    "--tag",. 
+-00012850: 2020 2022 7461 6773 222c 0a20 2020 2068     "tags",.    h
+-00012860: 656c 703d 2254 6167 7320 746f 2061 6464  elp="Tags to add
+-00012870: 2e22 2c0a 2020 2020 6d75 6c74 6970 6c65  .",.    multiple
+-00012880: 3d54 7275 652c 0a29 0a64 6566 2074 6167  =True,.).def tag
+-00012890: 5f28 736f 6e67 5f69 6473 2c20 7461 6773  _(song_ids, tags
+-000128a0: 293a 0a20 2020 2022 2222 4164 6420 7461  ):.    """Add ta
+-000128b0: 6773 2074 6f20 6120 736f 6e67 2028 7061  gs to a song (pa
+-000128c0: 7373 6564 2061 7320 4944 292e 2054 6167  ssed as ID). Tag
+-000128d0: 7320 6361 6e6e 6f74 2063 6f6e 7461 696e  s cannot contain
+-000128e0: 2074 6865 2063 6861 7261 6374 6572 730a   the characters.
+-000128f0: 2020 2020 272c 2720 6f72 2027 7c27 2e22      ',' or '|'."
+-00012900: 2222 0a20 2020 2073 6f6e 675f 6964 7320  "".    song_ids 
+-00012910: 3d20 7365 7428 736f 6e67 5f69 6473 290a  = set(song_ids).
+-00012920: 2020 2020 6e75 6d5f 736f 6e67 7320 3d20      num_songs = 
+-00012930: 6c65 6e28 736f 6e67 5f69 6473 290a 2020  len(song_ids).  
+-00012940: 2020 7461 6773 203d 2073 6574 2874 6167    tags = set(tag
+-00012950: 7329 0a20 2020 2066 6f72 2074 6167 2069  s).    for tag i
+-00012960: 6e20 7461 6773 3a0a 2020 2020 2020 2020  n tags:.        
+-00012970: 6966 2022 2c22 2069 6e20 7461 6720 6f72  if "," in tag or
+-00012980: 2022 7c22 2069 6e20 7461 673a 0a20 2020   "|" in tag:.   
+-00012990: 2020 2020 2020 2020 2063 6c69 636b 2e73           click.s
+-000129a0: 6563 686f 2822 5461 6773 2063 616e 6e6f  echo("Tags canno
+-000129b0: 7420 636f 6e74 6169 6e20 272c 2720 6f72  t contain ',' or
+-000129c0: 2027 7c27 2e22 2c20 6667 3d22 7265 6422   '|'.", fg="red"
+-000129d0: 290a 2020 2020 2020 2020 2020 2020 7265  ).            re
+-000129e0: 7475 726e 0a20 2020 2069 6620 7461 6773  turn.    if tags
+-000129f0: 3a0a 2020 2020 2020 2020 736f 6e67 735f  :.        songs_
+-00012a00: 6669 6c65 203d 206f 7065 6e28 636f 6e66  file = open(conf
+-00012a10: 6967 2e53 4f4e 4753 5f49 4e46 4f5f 5041  ig.SONGS_INFO_PA
+-00012a20: 5448 2c20 2272 222c 2065 6e63 6f64 696e  TH, "r", encodin
+-00012a30: 673d 2275 7466 2d38 2229 0a20 2020 2020  g="utf-8").     
+-00012a40: 2020 206c 696e 6573 203d 2073 6f6e 6773     lines = songs
+-00012a50: 5f66 696c 652e 7265 6164 2829 2e73 706c  _file.read().spl
+-00012a60: 6974 6c69 6e65 7328 290a 2020 2020 2020  itlines().      
+-00012a70: 2020 666f 7220 6920 696e 2072 616e 6765    for i in range
+-00012a80: 286c 656e 286c 696e 6573 2929 3a0a 2020  (len(lines)):.  
+-00012a90: 2020 2020 2020 2020 2020 6465 7461 696c            detail
+-00012aa0: 7320 3d20 6c69 6e65 735b 695d 2e73 7472  s = lines[i].str
+-00012ab0: 6970 2829 2e73 706c 6974 2822 7c22 290a  ip().split("|").
+-00012ac0: 2020 2020 2020 2020 2020 2020 736f 6e67              song
+-00012ad0: 5f69 6420 3d20 696e 7428 6465 7461 696c  _id = int(detail
+-00012ae0: 735b 305d 290a 2020 2020 2020 2020 2020  s[0]).          
+-00012af0: 2020 6966 2073 6f6e 675f 6964 2069 6e20    if song_id in 
+-00012b00: 736f 6e67 5f69 6473 3a0a 2020 2020 2020  song_ids:.      
+-00012b10: 2020 2020 2020 2020 2020 736f 6e67 5f69            song_i
+-00012b20: 6473 2e72 656d 6f76 6528 736f 6e67 5f69  ds.remove(song_i
+-00012b30: 6429 0a0a 2020 2020 2020 2020 2020 2020  d)..            
+-00012b40: 2020 2020 6966 2064 6574 6169 6c73 5b32      if details[2
+-00012b50: 5d3a 0a20 2020 2020 2020 2020 2020 2020  ]:.             
+-00012b60: 2020 2020 2020 206e 6577 5f74 6167 7320         new_tags 
+-00012b70: 3d20 6465 7461 696c 735b 325d 2e73 706c  = details[2].spl
+-00012b80: 6974 2822 2c22 290a 2020 2020 2020 2020  it(",").        
+-00012b90: 2020 2020 2020 2020 656c 7365 3a0a 2020          else:.  
+-00012ba0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012bb0: 2020 6e65 775f 7461 6773 203d 205b 5d0a    new_tags = [].
+-00012bc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012bd0: 6e65 775f 7461 6773 202b 3d20 5b74 6167  new_tags += [tag
+-00012be0: 2066 6f72 2074 6167 2069 6e20 7461 6773   for tag in tags
+-00012bf0: 2069 6620 7461 6720 6e6f 7420 696e 206e   if tag not in n
+-00012c00: 6577 5f74 6167 735d 0a20 2020 2020 2020  ew_tags].       
+-00012c10: 2020 2020 2020 2020 2064 6574 6169 6c73           details
+-00012c20: 5b32 5d20 3d20 222c 222e 6a6f 696e 286e  [2] = ",".join(n
+-00012c30: 6577 5f74 6167 7329 0a20 2020 2020 2020  ew_tags).       
+-00012c40: 2020 2020 2020 2020 206c 696e 6573 5b69           lines[i
+-00012c50: 5d20 3d20 227c 222e 6a6f 696e 2864 6574  ] = "|".join(det
+-00012c60: 6169 6c73 290a 2020 2020 2020 2020 736f  ails).        so
+-00012c70: 6e67 735f 6669 6c65 2e63 6c6f 7365 2829  ngs_file.close()
+-00012c80: 0a0a 2020 2020 2020 2020 736f 6e67 735f  ..        songs_
+-00012c90: 6669 6c65 203d 206f 7065 6e28 636f 6e66  file = open(conf
+-00012ca0: 6967 2e53 4f4e 4753 5f49 4e46 4f5f 5041  ig.SONGS_INFO_PA
+-00012cb0: 5448 2c20 2277 222c 2065 6e63 6f64 696e  TH, "w", encodin
+-00012cc0: 673d 2275 7466 2d38 2229 0a20 2020 2020  g="utf-8").     
+-00012cd0: 2020 2073 6f6e 6773 5f66 696c 652e 7772     songs_file.wr
+-00012ce0: 6974 6528 225c 6e22 2e6a 6f69 6e28 6c69  ite("\n".join(li
+-00012cf0: 6e65 7329 290a 2020 2020 2020 2020 736f  nes)).        so
+-00012d00: 6e67 735f 6669 6c65 2e63 6c6f 7365 2829  ngs_file.close()
+-00012d10: 0a0a 2020 2020 2020 2020 6966 2073 6f6e  ..        if son
+-00012d20: 675f 6964 733a 0a20 2020 2020 2020 2020  g_ids:.         
+-00012d30: 2020 2063 6c69 636b 2e73 6563 686f 280a     click.secho(.
+-00012d40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012d50: 6622 436f 756c 6420 6e6f 7420 6669 6e64  f"Could not find
+-00012d60: 2073 6f6e 6728 7329 2077 6974 6820 4944   song(s) with ID
+-00012d70: 2873 2920 7b27 2c20 272e 6a6f 696e 286d  (s) {', '.join(m
+-00012d80: 6170 2873 7472 2c20 736f 6e67 5f69 6473  ap(str, song_ids
+-00012d90: 2929 7d2e 222c 0a20 2020 2020 2020 2020  ))}.",.         
+-00012da0: 2020 2020 2020 2066 673d 2272 6564 222c         fg="red",
+-00012db0: 0a20 2020 2020 2020 2020 2020 2029 0a20  .            ). 
+-00012dc0: 2020 2020 2020 2020 2020 2069 6620 6c65             if le
+-00012dd0: 6e28 736f 6e67 5f69 6473 2920 3d3d 206e  n(song_ids) == n
+-00012de0: 756d 5f73 6f6e 6773 3a0a 2020 2020 2020  um_songs:.      
+-00012df0: 2020 2020 2020 2020 2020 7265 7475 726e            return
+-00012e00: 0a20 2020 2020 2020 2063 6c69 636b 2e73  .        click.s
+-00012e10: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
+-00012e20: 2020 6622 4164 6465 6420 7b6c 656e 2874    f"Added {len(t
+-00012e30: 6167 7329 7d20 7461 6728 7329 2074 6f20  ags)} tag(s) to 
+-00012e40: 7b6e 756d 5f73 6f6e 6773 202d 206c 656e  {num_songs - len
+-00012e50: 2873 6f6e 675f 6964 7329 7d20 736f 6e67  (song_ids)} song
+-00012e60: 2873 292e 222c 0a20 2020 2020 2020 2020  (s).",.         
+-00012e70: 2020 2066 673d 2267 7265 656e 222c 0a20     fg="green",. 
+-00012e80: 2020 2020 2020 2029 0a20 2020 2065 6c73         ).    els
+-00012e90: 653a 0a20 2020 2020 2020 2063 6c69 636b  e:.        click
+-00012ea0: 2e73 6563 686f 2822 4e6f 2074 6167 7320  .secho("No tags 
+-00012eb0: 7061 7373 6564 2e22 2c20 6667 3d22 7265  passed.", fg="re
+-00012ec0: 6422 290a 0a0a 4063 6c69 2e63 6f6d 6d61  d")...@cli.comma
+-00012ed0: 6e64 2829 0a40 636c 6963 6b2e 6172 6775  nd().@click.argu
+-00012ee0: 6d65 6e74 2822 736f 6e67 5f69 6473 222c  ment("song_ids",
+-00012ef0: 2074 7970 653d 636c 6963 6b2e 494e 542c   type=click.INT,
+-00012f00: 2072 6571 7569 7265 643d 5472 7565 2c20   required=True, 
+-00012f10: 6e61 7267 733d 2d31 290a 4063 6c69 636b  nargs=-1).@click
+-00012f20: 2e6f 7074 696f 6e28 0a20 2020 2022 2d74  .option(.    "-t
+-00012f30: 222c 0a20 2020 2022 2d2d 7461 6722 2c0a  ",.    "--tag",.
+-00012f40: 2020 2020 2274 6167 7322 2c0a 2020 2020      "tags",.    
+-00012f50: 6865 6c70 3d22 5461 6773 2074 6f20 7265  help="Tags to re
+-00012f60: 6d6f 7665 2e22 2c0a 2020 2020 6d75 6c74  move.",.    mult
+-00012f70: 6970 6c65 3d54 7275 652c 0a29 0a40 636c  iple=True,.).@cl
+-00012f80: 6963 6b2e 6f70 7469 6f6e 2822 2d41 2f2d  ick.option("-A/-
+-00012f90: 6e41 222c 2022 2d2d 616c 6c2f 2d2d 6e6f  nA", "--all/--no
+-00012fa0: 2d61 6c6c 222c 2022 616c 6c5f 222c 2064  -all", "all_", d
+-00012fb0: 6566 6175 6c74 3d46 616c 7365 290a 6465  efault=False).de
+-00012fc0: 6620 756e 7461 6728 736f 6e67 5f69 6473  f untag(song_ids
+-00012fd0: 2c20 7461 6773 2c20 616c 6c5f 293a 0a20  , tags, all_):. 
+-00012fe0: 2020 2022 2222 5265 6d6f 7665 2074 6167     """Remove tag
+-00012ff0: 7320 6672 6f6d 2061 2073 7065 6369 6669  s from a specifi
+-00013000: 6320 736f 6e67 2028 7061 7373 6564 2061  c song (passed a
+-00013010: 7320 4944 292e 2054 6167 7320 7468 6174  s ID). Tags that
+-00013020: 2074 6865 2073 6f6e 670a 2020 2020 646f   the song.    do
+-00013030: 6573 6e27 7420 6861 7665 2077 696c 6c20  esn't have will 
+-00013040: 6265 2069 676e 6f72 6564 2e0a 0a20 2020  be ignored...   
+-00013050: 2050 6173 7369 6e67 2074 6865 2027 2d41   Passing the '-A
+-00013060: 2f2d 2d61 6c6c 2720 666c 6167 2077 696c  /--all' flag wil
+-00013070: 6c20 7265 6d6f 7665 2061 6c6c 2074 6167  l remove all tag
+-00013080: 7320 6672 6f6d 2074 6865 2073 6f6e 672c  s from the song,
+-00013090: 2075 6e6c 6573 7320 5441 4753 0a20 2020   unless TAGS.   
+-000130a0: 2069 7320 7061 7373 6564 2028 696e 2077   is passed (in w
+-000130b0: 6869 6368 2063 6173 6520 7468 6520 666c  hich case the fl
+-000130c0: 6167 2069 7320 6967 6e6f 7265 6429 2e22  ag is ignored)."
+-000130d0: 2222 0a20 2020 2073 6f6e 675f 6964 7320  "".    song_ids 
+-000130e0: 3d20 7365 7428 736f 6e67 5f69 6473 290a  = set(song_ids).
+-000130f0: 2020 2020 6e75 6d5f 736f 6e67 7320 3d20      num_songs = 
+-00013100: 6c65 6e28 736f 6e67 5f69 6473 290a 2020  len(song_ids).  
+-00013110: 2020 7461 6773 203d 2073 6574 2874 6167    tags = set(tag
+-00013120: 7329 0a20 2020 2069 6620 7461 6773 3a0a  s).    if tags:.
+-00013130: 2020 2020 2020 2020 736f 6e67 735f 6669          songs_fi
+-00013140: 6c65 203d 206f 7065 6e28 636f 6e66 6967  le = open(config
+-00013150: 2e53 4f4e 4753 5f49 4e46 4f5f 5041 5448  .SONGS_INFO_PATH
+-00013160: 2c20 2272 222c 2065 6e63 6f64 696e 673d  , "r", encoding=
+-00013170: 2275 7466 2d38 2229 0a20 2020 2020 2020  "utf-8").       
+-00013180: 206c 696e 6573 203d 2073 6f6e 6773 5f66   lines = songs_f
+-00013190: 696c 652e 7265 6164 2829 2e73 706c 6974  ile.read().split
+-000131a0: 6c69 6e65 7328 290a 2020 2020 2020 2020  lines().        
+-000131b0: 666f 7220 6920 696e 2072 616e 6765 286c  for i in range(l
+-000131c0: 656e 286c 696e 6573 2929 3a0a 2020 2020  en(lines)):.    
+-000131d0: 2020 2020 2020 2020 6465 7461 696c 7320          details 
+-000131e0: 3d20 6c69 6e65 735b 695d 2e73 7472 6970  = lines[i].strip
+-000131f0: 2829 2e73 706c 6974 2822 7c22 290a 2020  ().split("|").  
+-00013200: 2020 2020 2020 2020 2020 736f 6e67 5f69            song_i
+-00013210: 6420 3d20 696e 7428 6465 7461 696c 735b  d = int(details[
+-00013220: 305d 290a 2020 2020 2020 2020 2020 2020  0]).            
+-00013230: 6966 2073 6f6e 675f 6964 2069 6e20 736f  if song_id in so
+-00013240: 6e67 5f69 6473 3a0a 2020 2020 2020 2020  ng_ids:.        
+-00013250: 2020 2020 2020 2020 736f 6e67 5f69 6473          song_ids
+-00013260: 2e72 656d 6f76 6528 736f 6e67 5f69 6429  .remove(song_id)
+-00013270: 0a0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00013280: 2020 7461 6773 5f74 6f5f 6b65 6570 203d    tags_to_keep =
+-00013290: 205b 0a20 2020 2020 2020 2020 2020 2020   [.             
+-000132a0: 2020 2020 2020 2074 6167 2066 6f72 2074         tag for t
+-000132b0: 6167 2069 6e20 6465 7461 696c 735b 325d  ag in details[2]
+-000132c0: 2e73 706c 6974 2822 2c22 2920 6966 2074  .split(",") if t
+-000132d0: 6167 206e 6f74 2069 6e20 7461 6773 0a20  ag not in tags. 
+-000132e0: 2020 2020 2020 2020 2020 2020 2020 205d                 ]
+-000132f0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00013300: 206c 696e 6573 5b69 5d20 3d20 227c 222e   lines[i] = "|".
+-00013310: 6a6f 696e 280a 2020 2020 2020 2020 2020  join(.          
+-00013320: 2020 2020 2020 2020 2020 6465 7461 696c            detail
+-00013330: 735b 3a32 5d20 2b20 5b22 2c22 2e6a 6f69  s[:2] + [",".joi
+-00013340: 6e28 7461 6773 5f74 6f5f 6b65 6570 295d  n(tags_to_keep)]
+-00013350: 202b 2064 6574 6169 6c73 5b33 3a5d 0a20   + details[3:]. 
+-00013360: 2020 2020 2020 2020 2020 2020 2020 2029                 )
+-00013370: 0a20 2020 2020 2020 2073 6f6e 6773 5f66  .        songs_f
+-00013380: 696c 652e 636c 6f73 6528 290a 0a20 2020  ile.close()..   
+-00013390: 2020 2020 2073 6f6e 6773 5f66 696c 6520       songs_file 
+-000133a0: 3d20 6f70 656e 2863 6f6e 6669 672e 534f  = open(config.SO
+-000133b0: 4e47 535f 494e 464f 5f50 4154 482c 2022  NGS_INFO_PATH, "
+-000133c0: 7722 2c20 656e 636f 6469 6e67 3d22 7574  w", encoding="ut
+-000133d0: 662d 3822 290a 2020 2020 2020 2020 736f  f-8").        so
+-000133e0: 6e67 735f 6669 6c65 2e77 7269 7465 2822  ngs_file.write("
+-000133f0: 5c6e 222e 6a6f 696e 286c 696e 6573 2929  \n".join(lines))
+-00013400: 0a20 2020 2020 2020 2073 6f6e 6773 5f66  .        songs_f
+-00013410: 696c 652e 636c 6f73 6528 290a 0a20 2020  ile.close()..   
+-00013420: 2020 2020 2069 6620 736f 6e67 5f69 6473       if song_ids
+-00013430: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
+-00013440: 6963 6b2e 7365 6368 6f28 0a20 2020 2020  ick.secho(.     
+-00013450: 2020 2020 2020 2020 2020 2066 2243 6f75             f"Cou
+-00013460: 6c64 206e 6f74 2066 696e 6420 736f 6e67  ld not find song
+-00013470: 2873 2920 7769 7468 2049 4428 7329 207b  (s) with ID(s) {
+-00013480: 272c 2027 2e6a 6f69 6e28 6d61 7028 7374  ', '.join(map(st
+-00013490: 722c 2073 6f6e 675f 6964 7329 297d 2e22  r, song_ids))}."
+-000134a0: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
+-000134b0: 2020 6667 3d22 7265 6422 2c0a 2020 2020    fg="red",.    
+-000134c0: 2020 2020 2020 2020 290a 2020 2020 2020          ).      
+-000134d0: 2020 2020 2020 6966 206c 656e 2873 6f6e        if len(son
+-000134e0: 675f 6964 7329 203d 3d20 6e75 6d5f 736f  g_ids) == num_so
+-000134f0: 6e67 733a 0a20 2020 2020 2020 2020 2020  ngs:.           
+-00013500: 2020 2020 2072 6574 7572 6e0a 2020 2020       return.    
+-00013510: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
+-00013520: 0a20 2020 2020 2020 2020 2020 2066 2252  .            f"R
+-00013530: 656d 6f76 6564 2061 6e79 206f 6363 7572  emoved any occur
+-00013540: 7265 6e63 6573 206f 6620 7b6c 656e 2874  rences of {len(t
+-00013550: 6167 7329 7d20 7461 6728 7329 2066 726f  ags)} tag(s) fro
+-00013560: 6d20 7b6e 756d 5f73 6f6e 6773 202d 206c  m {num_songs - l
+-00013570: 656e 2873 6f6e 675f 6964 7329 7d20 736f  en(song_ids)} so
+-00013580: 6e67 2873 292e 222c 0a20 2020 2020 2020  ng(s).",.       
+-00013590: 2020 2020 2066 673d 2267 7265 656e 222c       fg="green",
+-000135a0: 0a20 2020 2020 2020 2029 0a20 2020 2065  .        ).    e
+-000135b0: 6c73 653a 0a20 2020 2020 2020 2069 6620  lse:.        if 
+-000135c0: 6e6f 7420 616c 6c5f 3a0a 2020 2020 2020  not all_:.      
+-000135d0: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
+-000135e0: 6f28 0a20 2020 2020 2020 2020 2020 2020  o(.             
+-000135f0: 2020 2022 4e6f 2074 6167 7320 7061 7373     "No tags pass
+-00013600: 6564 e280 9474 6f20 7265 6d6f 7665 2061  ed...to remove a
+-00013610: 6c6c 2074 6167 732c 2070 6173 7320 7468  ll tags, pass th
+-00013620: 6520 272d 412f 2d2d 616c 6c27 2066 6c61  e '-A/--all' fla
+-00013630: 672e 222c 0a20 2020 2020 2020 2020 2020  g.",.           
+-00013640: 2020 2020 2066 673d 2272 6564 222c 0a20       fg="red",. 
+-00013650: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
+-00013660: 2020 2020 2065 6c73 653a 0a20 2020 2020       else:.     
+-00013670: 2020 2020 2020 2073 6f6e 6773 5f66 696c         songs_fil
+-00013680: 6520 3d20 6f70 656e 2863 6f6e 6669 672e  e = open(config.
+-00013690: 534f 4e47 535f 494e 464f 5f50 4154 482c  SONGS_INFO_PATH,
+-000136a0: 2022 7222 2c20 656e 636f 6469 6e67 3d22   "r", encoding="
+-000136b0: 7574 662d 3822 290a 2020 2020 2020 2020  utf-8").        
+-000136c0: 2020 2020 6c69 6e65 7320 3d20 736f 6e67      lines = song
+-000136d0: 735f 6669 6c65 2e72 6561 6428 292e 7370  s_file.read().sp
+-000136e0: 6c69 746c 696e 6573 2829 0a20 2020 2020  litlines().     
+-000136f0: 2020 2020 2020 2066 6f72 2069 2069 6e20         for i in 
+-00013700: 7261 6e67 6528 6c65 6e28 6c69 6e65 7329  range(len(lines)
+-00013710: 293a 0a20 2020 2020 2020 2020 2020 2020  ):.             
+-00013720: 2020 206c 696e 6520 3d20 6c69 6e65 735b     line = lines[
+-00013730: 695d 0a20 2020 2020 2020 2020 2020 2020  i].             
+-00013740: 2020 2064 6574 6169 6c73 203d 206c 696e     details = lin
+-00013750: 652e 7374 7269 7028 292e 7370 6c69 7428  e.strip().split(
+-00013760: 227c 2229 0a20 2020 2020 2020 2020 2020  "|").           
+-00013770: 2020 2020 2069 6620 696e 7428 6465 7461       if int(deta
+-00013780: 696c 735b 305d 2920 696e 2073 6f6e 675f  ils[0]) in song_
+-00013790: 6964 733a 0a20 2020 2020 2020 2020 2020  ids:.           
+-000137a0: 2020 2020 2020 2020 206c 696e 6573 5b69           lines[i
+-000137b0: 5d20 3d20 227c 222e 6a6f 696e 2864 6574  ] = "|".join(det
+-000137c0: 6169 6c73 5b3a 325d 202b 205b 2222 5d20  ails[:2] + [""] 
+-000137d0: 2b20 6465 7461 696c 735b 333a 5d29 0a20  + details[3:]). 
+-000137e0: 2020 2020 2020 2020 2020 2073 6f6e 6773             songs
+-000137f0: 5f66 696c 652e 636c 6f73 6528 290a 0a20  _file.close().. 
+-00013800: 2020 2020 2020 2020 2020 2073 6f6e 6773             songs
+-00013810: 5f66 696c 6520 3d20 6f70 656e 2863 6f6e  _file = open(con
+-00013820: 6669 672e 534f 4e47 535f 494e 464f 5f50  fig.SONGS_INFO_P
+-00013830: 4154 482c 2022 7722 2c20 656e 636f 6469  ATH, "w", encodi
+-00013840: 6e67 3d22 7574 662d 3822 290a 2020 2020  ng="utf-8").    
+-00013850: 2020 2020 2020 2020 736f 6e67 735f 6669          songs_fi
+-00013860: 6c65 2e77 7269 7465 2822 5c6e 222e 6a6f  le.write("\n".jo
+-00013870: 696e 286c 696e 6573 2929 0a20 2020 2020  in(lines)).     
+-00013880: 2020 2020 2020 2073 6f6e 6773 5f66 696c         songs_fil
+-00013890: 652e 636c 6f73 6528 290a 0a20 2020 2020  e.close()..     
+-000138a0: 2020 2020 2020 2063 6c69 636b 2e73 6563         click.sec
+-000138b0: 686f 280a 2020 2020 2020 2020 2020 2020  ho(.            
+-000138c0: 2020 2020 6622 5265 6d6f 7665 6420 7b6c      f"Removed {l
+-000138d0: 656e 2874 6167 7329 7d20 7461 6728 7329  en(tags)} tag(s)
+-000138e0: 2066 726f 6d20 7b6c 656e 2873 6f6e 675f   from {len(song_
+-000138f0: 6964 7329 7d20 736f 6e67 2873 292e 222c  ids)} song(s).",
+-00013900: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00013910: 2066 673d 2267 7265 656e 222c 0a20 2020   fg="green",.   
+-00013920: 2020 2020 2020 2020 2029 0a0a 0a40 636c           )...@cl
+-00013930: 692e 636f 6d6d 616e 6428 290a 4063 6c69  i.command().@cli
+-00013940: 636b 2e61 7267 756d 656e 7428 2274 6167  ck.argument("tag
+-00013950: 7322 2c20 6e61 7267 733d 2d31 290a 4063  s", nargs=-1).@c
+-00013960: 6c69 636b 2e6f 7074 696f 6e28 0a20 2020  lick.option(.   
+-00013970: 2022 2d73 222c 0a20 2020 2022 2d2d 7368   "-s",.    "--sh
+-00013980: 7566 666c 6522 2c0a 2020 2020 2273 6875  uffle",.    "shu
+-00013990: 6666 6c65 5f22 2c0a 2020 2020 7479 7065  ffle_",.    type
+-000139a0: 3d63 6c69 636b 2e49 6e74 5261 6e67 6528  =click.IntRange(
+-000139b0: 302c 2032 292c 0a20 2020 2068 656c 703d  0, 2),.    help=
+-000139c0: 2230 3a20 7368 7566 666c 6520 6f6e 6365  "0: shuffle once
+-000139d0: 2c20 313a 2073 6875 6666 6c65 2065 7665  , 1: shuffle eve
+-000139e0: 7279 206c 6f6f 702c 2032 3a20 7368 7566  ry loop, 2: shuf
+-000139f0: 666c 6520 6576 6572 7920 6c6f 6f70 2065  fle every loop e
+-00013a00: 7863 6570 7420 666f 7220 7468 6520 6669  xcept for the fi
+-00013a10: 7273 7420 6f6e 652e 222c 0a29 0a40 636c  rst one.",.).@cl
+-00013a20: 6963 6b2e 6f70 7469 6f6e 280a 2020 2020  ick.option(.    
+-00013a30: 222d 522f 2d6e 5222 2c0a 2020 2020 222d  "-R/-nR",.    "-
+-00013a40: 2d72 6576 6572 7365 2f2d 2d6e 6f2d 7265  -reverse/--no-re
+-00013a50: 7665 7273 6522 2c0a 2020 2020 2272 6576  verse",.    "rev
+-00013a60: 6572 7365 222c 0a20 2020 2064 6566 6175  erse",.    defau
+-00013a70: 6c74 3d46 616c 7365 2c0a 2020 2020 6865  lt=False,.    he
+-00013a80: 6c70 3d22 506c 6179 2073 6f6e 6773 2069  lp="Play songs i
+-00013a90: 6e20 7265 7665 7273 6520 286d 6f73 7420  n reverse (most 
+-00013aa0: 7265 6365 6e74 6c79 2061 6464 6564 2066  recently added f
+-00013ab0: 6972 7374 292e 222c 0a29 0a40 636c 6963  irst).",.).@clic
+-00013ac0: 6b2e 6f70 7469 6f6e 280a 2020 2020 222d  k.option(.    "-
+-00013ad0: 6f22 2c0a 2020 2020 222d 2d6f 6e6c 7922  o",.    "--only"
+-00013ae0: 2c0a 2020 2020 226f 6e6c 7922 2c0a 2020  ,.    "only",.  
+-00013af0: 2020 7479 7065 3d63 6c69 636b 2e49 4e54    type=click.INT
+-00013b00: 2c0a 2020 2020 6d75 6c74 6970 6c65 3d54  ,.    multiple=T
+-00013b10: 7275 652c 0a20 2020 2068 656c 703d 2250  rue,.    help="P
+-00013b20: 6c61 7920 6f6e 6c79 2074 6869 732f 7468  lay only this/th
+-00013b30: 6573 6520 736f 6e67 2873 2920 2863 616e  ese song(s) (can
+-00013b40: 2062 6520 7061 7373 6564 206d 756c 7469   be passed multi
+-00013b50: 706c 6520 7469 6d65 732c 2065 2e67 2e20  ple times, e.g. 
+-00013b60: 276d 6165 7374 726f 2070 6c61 7920 2d6f  'maestro play -o
+-00013b70: 2031 202d 6f20 3137 2729 2e22 2c0a 290a   1 -o 17').",.).
+-00013b80: 4063 6c69 636b 2e6f 7074 696f 6e28 0a20  @click.option(. 
+-00013b90: 2020 2022 2d76 222c 0a20 2020 2022 2d2d     "-v",.    "--
+-00013ba0: 766f 6c75 6d65 222c 0a20 2020 2022 766f  volume",.    "vo
+-00013bb0: 6c75 6d65 222c 0a20 2020 2074 7970 653d  lume",.    type=
+-00013bc0: 636c 6963 6b2e 496e 7452 616e 6765 2830  click.IntRange(0
+-00013bd0: 2c20 3130 3029 2c0a 2020 2020 6465 6661  , 100),.    defa
+-00013be0: 756c 743d 3130 302c 0a20 2020 2073 686f  ult=100,.    sho
+-00013bf0: 775f 6465 6661 756c 743d 5472 7565 2c0a  w_default=True,.
+-00013c00: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
+-00013c10: 0a20 2020 2022 2d4c 2f2d 6e4c 222c 0a20  .    "-L/-nL",. 
+-00013c20: 2020 2022 2d2d 6c6f 6f70 2f2d 2d6e 6f2d     "--loop/--no-
+-00013c30: 6c6f 6f70 222c 0a20 2020 2022 6c6f 6f70  loop",.    "loop
+-00013c40: 222c 0a20 2020 2064 6566 6175 6c74 3d46  ",.    default=F
+-00013c50: 616c 7365 2c0a 2020 2020 6865 6c70 3d22  alse,.    help="
+-00013c60: 4c6f 6f70 2074 6865 2070 6c61 796c 6973  Loop the playlis
+-00013c70: 742e 222c 0a29 0a40 636c 6963 6b2e 6f70  t.",.).@click.op
+-00013c80: 7469 6f6e 280a 2020 2020 222d 432f 2d6e  tion(.    "-C/-n
+-00013c90: 4322 2c0a 2020 2020 222d 2d63 6c69 7073  C",.    "--clips
+-00013ca0: 2f2d 2d6e 6f2d 636c 6970 7322 2c0a 2020  /--no-clips",.  
+-00013cb0: 2020 2263 6c69 7073 222c 0a20 2020 2064    "clips",.    d
+-00013cc0: 6566 6175 6c74 3d46 616c 7365 2c0a 2020  efault=False,.  
+-00013cd0: 2020 6865 6c70 3d22 5374 6172 7420 696e    help="Start in
+-00013ce0: 2063 6c69 7020 6d6f 6465 2e20 4361 6e20   clip mode. Can 
+-00013cf0: 6265 2074 6f67 676c 6564 2077 6974 6820  be toggled with 
+-00013d00: 2763 272e 222c 0a29 0a40 636c 6963 6b2e  'c'.",.).@click.
+-00013d10: 6f70 7469 6f6e 280a 2020 2020 222d 442f  option(.    "-D/
+-00013d20: 2d6e 4422 2c0a 2020 2020 222d 2d64 6973  -nD",.    "--dis
+-00013d30: 636f 7264 2f2d 2d6e 6f2d 6469 7363 6f72  cord/--no-discor
+-00013d40: 6422 2c0a 2020 2020 2264 6973 636f 7264  d",.    "discord
+-00013d50: 222c 0a20 2020 2064 6566 6175 6c74 3d46  ",.    default=F
+-00013d60: 616c 7365 2c0a 2020 2020 6865 6c70 3d22  alse,.    help="
+-00013d70: 4469 7363 6f72 6420 7269 6368 2070 7265  Discord rich pre
+-00013d80: 7365 6e63 652e 2049 676e 6f72 6564 2069  sence. Ignored i
+-00013d90: 6620 7265 7175 6972 6564 2064 6570 656e  f required depen
+-00013da0: 6465 6e63 6965 7320 6172 6520 6e6f 7420  dencies are not 
+-00013db0: 696e 7374 616c 6c65 642e 2057 696c 6c20  installed. Will 
+-00013dc0: 6661 696c 2073 696c 656e 746c 7920 616e  fail silently an
+-00013dd0: 6420 7265 7472 7920 6576 6572 7920 7469  d retry every ti
+-00013de0: 6d65 2074 6865 2073 6f6e 6720 6368 616e  me the song chan
+-00013df0: 6765 7320 6966 2044 6973 636f 7264 2063  ges if Discord c
+-00013e00: 6f6e 6e65 6374 696f 6e20 6661 696c 7320  onnection fails 
+-00013e10: 2865 2e67 2e20 4469 7363 6f72 6420 6e6f  (e.g. Discord no
+-00013e20: 7420 6f70 656e 292e 222c 0a29 0a40 636c  t open).",.).@cl
+-00013e30: 6963 6b2e 6f70 7469 6f6e 280a 2020 2020  ick.option(.    
+-00013e40: 222d 4d2f 2d6e 4d22 2c0a 2020 2020 222d  "-M/-nM",.    "-
+-00013e50: 2d6d 6174 6368 2d61 6c6c 2f2d 2d6e 6f2d  -match-all/--no-
+-00013e60: 6d61 7463 682d 616c 6c22 2c0a 2020 2020  match-all",.    
+-00013e70: 226d 6174 6368 5f61 6c6c 222c 0a20 2020  "match_all",.   
+-00013e80: 2064 6566 6175 6c74 3d46 616c 7365 2c0a   default=False,.
+-00013e90: 2020 2020 6865 6c70 3d22 506c 6179 2073      help="Play s
+-00013ea0: 6f6e 6773 2074 6861 7420 6d61 7463 6820  ongs that match 
+-00013eb0: 616c 6c20 7461 6773 2c20 6e6f 7420 616e  all tags, not an
+-00013ec0: 792e 222c 0a29 0a40 636c 6963 6b2e 6f70  y.",.).@click.op
+-00013ed0: 7469 6f6e 280a 2020 2020 222d 562f 2d6e  tion(.    "-V/-n
+-00013ee0: 5622 2c0a 2020 2020 222d 2d76 6973 7561  V",.    "--visua
+-00013ef0: 6c69 7a65 2f2d 2d6e 6f2d 7669 7375 616c  lize/--no-visual
+-00013f00: 697a 6522 2c0a 2020 2020 2276 6973 7561  ize",.    "visua
+-00013f10: 6c69 7a65 222c 0a20 2020 2064 6566 6175  lize",.    defau
+-00013f20: 6c74 3d46 616c 7365 2c0a 2020 2020 6865  lt=False,.    he
+-00013f30: 6c70 3d22 5669 7375 616c 697a 6520 7468  lp="Visualize th
+-00013f40: 6520 736f 6e67 2062 6569 6e67 2070 6c61  e song being pla
+-00013f50: 7965 642e 2049 676e 6f72 6564 2069 6620  yed. Ignored if 
+-00013f60: 7265 7175 6972 6564 2064 6570 656e 6465  required depende
+-00013f70: 6e63 6965 7320 6172 6520 6e6f 7420 696e  ncies are not in
+-00013f80: 7374 616c 6c65 642e 222c 0a29 0a64 6566  stalled.",.).def
+-00013f90: 2070 6c61 7928 0a20 2020 2074 6167 732c   play(.    tags,
+-00013fa0: 0a20 2020 2073 6875 6666 6c65 5f2c 0a20  .    shuffle_,. 
+-00013fb0: 2020 2072 6576 6572 7365 2c0a 2020 2020     reverse,.    
+-00013fc0: 6f6e 6c79 2c0a 2020 2020 766f 6c75 6d65  only,.    volume
+-00013fd0: 2c0a 2020 2020 6c6f 6f70 2c0a 2020 2020  ,.    loop,.    
+-00013fe0: 636c 6970 732c 0a20 2020 2064 6973 636f  clips,.    disco
+-00013ff0: 7264 2c0a 2020 2020 6d61 7463 685f 616c  rd,.    match_al
+-00014000: 6c2c 0a20 2020 2076 6973 7561 6c69 7a65  l,.    visualize
+-00014010: 2c0a 293a 0a20 2020 2022 2222 506c 6179  ,.):.    """Play
+-00014020: 2079 6f75 7220 736f 6e67 732e 2049 6620   your songs. If 
+-00014030: 7461 6773 2061 7265 2070 6173 7365 642c  tags are passed,
+-00014040: 2061 6e79 2073 6f6e 6720 6d61 7463 6869   any song matchi
+-00014050: 6e67 2061 6e79 2074 6167 2077 696c 6c20  ng any tag will 
+-00014060: 6265 2069 6e0a 2020 2020 796f 7572 2070  be in.    your p
+-00014070: 6c61 796c 6973 742c 2075 6e6c 6573 7320  laylist, unless 
+-00014080: 7468 6520 272d 4d2f 2d2d 6d61 7463 682d  the '-M/--match-
+-00014090: 616c 6c27 2066 6c61 6720 6973 2070 6173  all' flag is pas
+-000140a0: 7365 642c 2069 6e20 7768 6963 6820 6361  sed, in which ca
+-000140b0: 7365 0a20 2020 2065 7665 7279 2074 6167  se.    every tag
+-000140c0: 206d 7573 7420 6265 206d 6174 6368 6564   must be matched
+-000140d0: 2e0a 0a20 2020 205c 620a 2020 2020 5c78  ...    \b.    \x
+-000140e0: 3162 5b31 6d53 5041 4345 5c78 3162 5b30  1b[1mSPACE\x1b[0
+-000140f0: 6d20 2074 6f20 7061 7573 652f 706c 6179  m  to pause/play
+-00014100: 0a20 2020 205c 7831 625b 316d 625c 7831  .    \x1b[1mb\x1
+-00014110: 625b 306d 2020 746f 2067 6f20 5b62 5d61  b[0m  to go [b]a
+-00014120: 636b 2074 6f20 7072 6576 696f 7573 2073  ck to previous s
+-00014130: 6f6e 670a 2020 2020 5c78 3162 5b31 6d72  ong.    \x1b[1mr
+-00014140: 5c78 3162 5b30 6d20 2074 6f20 5b72 5d65  \x1b[0m  to [r]e
+-00014150: 706c 6179 2073 6f6e 670a 2020 2020 5c78  play song.    \x
+-00014160: 3162 5b31 6d6e 5c78 3162 5b30 6d20 2074  1b[1mn\x1b[0m  t
+-00014170: 6f20 736b 6970 2074 6f20 5b6e 5d65 7874  o skip to [n]ext
+-00014180: 2073 6f6e 670a 2020 2020 5c78 3162 5b31   song.    \x1b[1
+-00014190: 6d6c 5c78 3162 5b30 6d20 2074 6f20 5b6c  ml\x1b[0m  to [l
+-000141a0: 5d6f 6f70 2074 6865 2063 7572 7265 6e74  ]oop the current
+-000141b0: 2073 6f6e 6720 6f6e 6365 2028 276c 2720   song once ('l' 
+-000141c0: 696e 2073 7461 7475 7320 6261 7229 2e20  in status bar). 
+-000141d0: 7072 6573 7320 6167 6169 6e20 746f 206c  press again to l
+-000141e0: 6f6f 7020 696e 6669 6e69 7465 6c79 2028  oop infinitely (
+-000141f0: 274c 2720 696e 2073 7461 7475 7320 6261  'L' in status ba
+-00014200: 7229 2e20 7072 6573 7320 6f6e 6365 2061  r). press once a
+-00014210: 6761 696e 2074 6f20 7475 726e 206f 6666  gain to turn off
+-00014220: 206c 6f6f 7069 6e67 0a20 2020 205c 7831   looping.    \x1
+-00014230: 625b 316d 635c 7831 625b 306d 2020 746f  b[1mc\x1b[0m  to
+-00014240: 2074 6f67 676c 6520 5b63 5d6c 6970 206d   toggle [c]lip m
+-00014250: 6f64 650a 2020 2020 5c78 3162 5b31 6d76  ode.    \x1b[1mv
+-00014260: 5c78 3162 5b30 6d20 2074 6f20 746f 6767  \x1b[0m  to togg
+-00014270: 6c65 205b 765d 6973 7561 6c69 7a61 7469  le [v]isualizati
+-00014280: 6f6e 0a20 2020 205c 7831 625b 316d 4c45  on.    \x1b[1mLE
+-00014290: 4654 5c78 3162 5b30 6d20 2074 6f20 7265  FT\x1b[0m  to re
+-000142a0: 7769 6e64 2035 730a 2020 2020 5c78 3162  wind 5s.    \x1b
+-000142b0: 5b31 6d52 4947 4854 5c78 3162 5b30 6d20  [1mRIGHT\x1b[0m 
+-000142c0: 2074 6f20 6661 7374 2066 6f72 7761 7264   to fast forward
+-000142d0: 2035 730a 2020 2020 5c78 3162 5b31 6d5b   5s.    \x1b[1m[
+-000142e0: 5c78 3162 5b30 6d20 2074 6f20 6465 6372  \x1b[0m  to decr
+-000142f0: 6561 7365 2076 6f6c 756d 650a 2020 2020  ease volume.    
+-00014300: 5c78 3162 5b31 6d5d 5c78 3162 5b30 6d20  \x1b[1m]\x1b[0m 
+-00014310: 2074 6f20 696e 6372 6561 7365 2076 6f6c   to increase vol
+-00014320: 756d 650a 2020 2020 5c78 3162 5b31 6d6d  ume.    \x1b[1mm
+-00014330: 5c78 3162 5b30 6d20 2074 6f20 5b6d 5d75  \x1b[0m  to [m]u
+-00014340: 7465 2f75 6e6d 7574 650a 2020 2020 5c78  te/unmute.    \x
+-00014350: 3162 5b31 6d65 5c78 3162 5b30 6d20 2074  1b[1me\x1b[0m  t
+-00014360: 6f20 5b65 5d6e 6420 7468 6520 736f 6e67  o [e]nd the song
+-00014370: 2070 6c61 7965 7220 6166 7465 7220 7468   player after th
+-00014380: 6520 6375 7272 656e 7420 736f 6e67 2066  e current song f
+-00014390: 696e 6973 6865 7320 2869 6e64 6963 6174  inishes (indicat
+-000143a0: 6f72 2069 6e20 7374 6174 7573 2062 6172  or in status bar
+-000143b0: 2c20 2765 2720 746f 2063 616e 6365 6c29  , 'e' to cancel)
+-000143c0: 0a20 2020 205c 7831 625b 316d 715c 7831  .    \x1b[1mq\x1
+-000143d0: 625b 306d 2020 746f 205b 715d 7569 7420  b[0m  to [q]uit 
+-000143e0: 7468 6520 736f 6e67 2070 6c61 7965 7220  the song player 
+-000143f0: 696d 6d65 6469 6174 656c 790a 2020 2020  immediately.    
+-00014400: 5c78 3162 5b31 6d55 502f 444f 574e 5c78  \x1b[1mUP/DOWN\x
+-00014410: 3162 5b30 6d20 2074 6f20 7363 726f 6c6c  1b[0m  to scroll
+-00014420: 2074 6872 6f75 6768 2074 6865 2070 6c61   through the pla
+-00014430: 796c 6973 7420 286d 6f75 7365 2073 6372  ylist (mouse scr
+-00014440: 6f6c 6c69 6e67 2073 686f 756c 6420 616c  olling should al
+-00014450: 736f 2077 6f72 6b29 0a20 2020 205c 7831  so work).    \x1
+-00014460: 625b 316d 705c 7831 625b 306d 2020 746f  b[1mp\x1b[0m  to
+-00014470: 2073 6e61 5b70 5d20 6261 636b 2074 6f20   sna[p] back to 
+-00014480: 7468 6520 6375 7272 656e 746c 7920 706c  the currently pl
+-00014490: 6179 696e 6720 736f 6e67 0a20 2020 205c  aying song.    \
+-000144a0: 7831 625b 316d 675c 7831 625b 306d 2020  x1b[1mg\x1b[0m  
+-000144b0: 746f 2067 6f20 746f 2074 6865 206e 6578  to go to the nex
+-000144c0: 7420 7061 5b67 5d65 2f6c 6f6f 7020 6f66  t pa[g]e/loop of
+-000144d0: 2074 6865 2070 6c61 796c 6973 7420 2869   the playlist (i
+-000144e0: 676e 6f72 6564 2069 6620 6e6f 7420 7265  gnored if not re
+-000144f0: 7065 6174 696e 6720 706c 6179 6c69 7374  peating playlist
+-00014500: 290a 2020 2020 5c78 3162 5b31 6d42 4143  ).    \x1b[1mBAC
+-00014510: 4b53 5041 4345 2f44 454c 4554 455c 7831  KSPACE/DELETE\x1
+-00014520: 625b 306d 2020 6465 6c65 7465 2074 6865  b[0m  delete the
+-00014530: 2073 656c 6563 7465 6420 286e 6f74 206e   selected (not n
+-00014540: 6563 6573 7361 7269 6c79 2063 7572 7265  ecessarily curre
+-00014550: 6e74 6c79 2070 6c61 7969 6e67 2129 2073  ntly playing!) s
+-00014560: 6f6e 6720 6672 6f6d 2074 6865 2071 7565  ong from the que
+-00014570: 7565 0a20 2020 205c 7831 625b 316d 645c  ue.    \x1b[1md\
+-00014580: 7831 625b 306d 2020 746f 2074 6f67 676c  x1b[0m  to toggl
+-00014590: 6520 5b44 5d69 7363 6f72 6420 7269 6368  e [D]iscord rich
+-000145a0: 2070 7265 7365 6e63 650a 2020 2020 5c78   presence.    \x
+-000145b0: 3162 5b31 6d61 5c78 3162 5b30 6d20 2074  1b[1ma\x1b[0m  t
+-000145c0: 6f20 6164 6420 6120 736f 6e67 2028 6279  o add a song (by
+-000145d0: 2049 4429 2074 6f20 7468 6520 656e 6420   ID) to the end 
+-000145e0: 6f66 2074 6865 2070 6c61 796c 6973 742e  of the playlist.
+-000145f0: 204f 7065 6e73 2061 2070 726f 6d70 7420   Opens a prompt 
+-00014600: 746f 2065 6e74 6572 2074 6865 2049 443a  to enter the ID:
+-00014610: 2045 4e54 4552 2074 6f20 636f 6e66 6972   ENTER to confir
+-00014620: 6d2c 2045 5343 2074 6f20 6361 6e63 656c  m, ESC to cancel
+-00014630: 2e0a 2020 2020 5c78 3162 5b31 6d69 5c78  ..    \x1b[1mi\x
+-00014640: 3162 5b30 6d20 2074 6f20 696e 7365 7274  1b[0m  to insert
+-00014650: 2061 2073 6f6e 6720 2862 7920 4944 2920   a song (by ID) 
+-00014660: 696e 2074 6865 2070 6c61 796c 6973 7420  in the playlist 
+-00014670: 6166 7465 7220 7468 6520 7365 6c65 6374  after the select
+-00014680: 6564 2073 6f6e 672e 204f 7065 6e73 2061  ed song. Opens a
+-00014690: 2070 726f 6d70 7420 6c69 6b65 2027 6127   prompt like 'a'
+-000146a0: 2e0a 2020 2020 5c78 3162 5b31 6d74 5c78  ..    \x1b[1mt\x
+-000146b0: 3162 5b30 6d20 2074 6f20 6164 6420 6120  1b[0m  to add a 
+-000146c0: 7461 6720 746f 2061 6c6c 2073 6f6e 6773  tag to all songs
+-000146d0: 2069 6e20 7468 6520 706c 6179 6c69 7374   in the playlist
+-000146e0: 2e20 4f70 656e 7320 6120 7072 6f6d 7074  . Opens a prompt
+-000146f0: 2074 6f20 656e 7465 7220 7468 6520 7461   to enter the ta
+-00014700: 673a 2045 4e54 4552 2074 6f20 636f 6e66  g: ENTER to conf
+-00014710: 6972 6d2c 2045 5343 2074 6f20 6361 6e63  irm, ESC to canc
+-00014720: 656c 2e0a 0a20 2020 205c 620a 2020 2020  el...    \b.    
+-00014730: 736f 6e67 2063 6f6c 6f72 2069 6e64 6963  song color indic
+-00014740: 6174 6573 206d 6f64 653a 0a20 2020 2020  ates mode:.     
+-00014750: 2020 205c 7831 625b 313b 3334 6d62 6c75     \x1b[1;34mblu
+-00014760: 655c 7831 625b 306d 2020 2020 206e 6f72  e\x1b[0m     nor
+-00014770: 6d61 6c0a 2020 2020 2020 2020 5c78 3162  mal.        \x1b
+-00014780: 5b31 3b33 336d 7965 6c6c 6f77 5c78 3162  [1;33myellow\x1b
+-00014790: 5b30 6d20 2020 6c6f 6f70 696e 6720 6375  [0m   looping cu
+-000147a0: 7272 656e 7420 736f 6e67 2028 6f6e 6365  rrent song (once
+-000147b0: 206f 7220 7265 7065 6174 6564 6c79 290a   or repeatedly).
+-000147c0: 0a20 2020 205c 620a 2020 2020 7072 6f67  .    \b.    prog
+-000147d0: 7265 7373 2062 6172 2063 6f6c 6f72 2069  ress bar color i
+-000147e0: 6e64 6963 6174 6573 2073 7461 7475 733a  ndicates status:
+-000147f0: 0a20 2020 2020 2020 205c 7831 625b 313b  .        \x1b[1;
+-00014800: 3333 6d79 656c 6c6f 775c 7831 625b 306d  33myellow\x1b[0m
+-00014810: 2020 206e 6f72 6d61 6c20 286f 7220 6375     normal (or cu
+-00014820: 7272 656e 7420 736f 6e67 2064 6f65 736e  rrent song doesn
+-00014830: 2774 2068 6176 6520 6120 636c 6970 290a  't have a clip).
+-00014840: 2020 2020 2020 2020 5c78 3162 5b31 3b33          \x1b[1;3
+-00014850: 356d 6d61 6765 6e74 615c 7831 625b 306d  5mmagenta\x1b[0m
+-00014860: 2020 706c 6179 696e 6720 636c 6970 0a0a    playing clip..
+-00014870: 2020 2020 466f 7220 7468 6520 636f 6c6f      For the colo
+-00014880: 7220 7669 7369 6f6e 2064 6566 6963 6965  r vision deficie
+-00014890: 6e74 2c20 626f 7468 206d 6f64 6573 2061  nt, both modes a
+-000148a0: 6c73 6f20 6861 7665 2069 6e64 6963 6174  lso have indicat
+-000148b0: 6f72 7320 696e 2074 6865 2073 7461 7475  ors in the statu
+-000148c0: 7320 6261 722e 0a20 2020 2022 2222 0a20  s bar..    """. 
+-000148d0: 2020 2070 6c61 796c 6973 7420 3d20 5b5d     playlist = []
+-000148e0: 0a20 2020 2073 6f6e 6773 5f6e 6f74 5f66  .    songs_not_f
+-000148f0: 6f75 6e64 203d 205b 5d0a 0a20 2020 2069  ound = []..    i
+-00014900: 6620 6f6e 6c79 3a0a 2020 2020 2020 2020  f only:.        
+-00014910: 6f6e 6c79 203d 2073 6574 286f 6e6c 7929  only = set(only)
+-00014920: 0a20 2020 2020 2020 2077 6974 6820 6f70  .        with op
+-00014930: 656e 2863 6f6e 6669 672e 534f 4e47 535f  en(config.SONGS_
+-00014940: 494e 464f 5f50 4154 482c 2022 7222 2c20  INFO_PATH, "r", 
+-00014950: 656e 636f 6469 6e67 3d22 7574 662d 3822  encoding="utf-8"
+-00014960: 2920 6173 2073 6f6e 6773 5f66 696c 653a  ) as songs_file:
+-00014970: 0a20 2020 2020 2020 2020 2020 2066 6f72  .            for
+-00014980: 206c 696e 6520 696e 2073 6f6e 6773 5f66   line in songs_f
+-00014990: 696c 653a 0a20 2020 2020 2020 2020 2020  ile:.           
+-000149a0: 2020 2020 2064 6574 6169 6c73 203d 206c       details = l
+-000149b0: 696e 652e 7374 7269 7028 292e 7370 6c69  ine.strip().spli
+-000149c0: 7428 227c 2229 0a20 2020 2020 2020 2020  t("|").         
+-000149d0: 2020 2020 2020 2073 6f6e 675f 6964 203d         song_id =
+-000149e0: 2069 6e74 2864 6574 6169 6c73 5b30 5d29   int(details[0])
+-000149f0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00014a00: 2069 6620 6e6f 7420 6f73 2e70 6174 682e   if not os.path.
+-00014a10: 6578 6973 7473 286f 732e 7061 7468 2e6a  exists(os.path.j
+-00014a20: 6f69 6e28 636f 6e66 6967 2e53 4f4e 4753  oin(config.SONGS
+-00014a30: 5f44 4952 2c20 6465 7461 696c 735b 315d  _DIR, details[1]
+-00014a40: 2929 3a0a 2020 2020 2020 2020 2020 2020  )):.            
+-00014a50: 2020 2020 2020 2020 736f 6e67 735f 6e6f          songs_no
+-00014a60: 745f 666f 756e 642e 6170 7065 6e64 2864  t_found.append(d
+-00014a70: 6574 6169 6c73 290a 2020 2020 2020 2020  etails).        
+-00014a80: 2020 2020 2020 2020 656c 6966 2073 6f6e          elif son
+-00014a90: 675f 6964 2069 6e20 6f6e 6c79 3a0a 2020  g_id in only:.  
+-00014aa0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014ab0: 2020 706c 6179 6c69 7374 2e61 7070 656e    playlist.appen
+-00014ac0: 6428 6465 7461 696c 7329 0a0a 2020 2020  d(details)..    
+-00014ad0: 2020 2020 6966 206e 6f74 2070 6c61 796c      if not playl
+-00014ae0: 6973 743a 0a20 2020 2020 2020 2020 2020  ist:.           
+-00014af0: 2063 6c69 636b 2e73 6563 686f 2822 4e6f   click.secho("No
+-00014b00: 2073 6f6e 6773 2066 6f75 6e64 2077 6974   songs found wit
+-00014b10: 6820 7468 6520 6769 7665 6e20 4944 732e  h the given IDs.
+-00014b20: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
+-00014b30: 2020 2020 2020 2020 2072 6574 7572 6e0a           return.
+-00014b40: 2020 2020 656c 7365 3a0a 2020 2020 2020      else:.      
+-00014b50: 2020 6966 206e 6f74 2074 6167 733a 0a20    if not tags:. 
+-00014b60: 2020 2020 2020 2020 2020 2077 6974 6820             with 
+-00014b70: 6f70 656e 2863 6f6e 6669 672e 534f 4e47  open(config.SONG
+-00014b80: 535f 494e 464f 5f50 4154 482c 2022 7222  S_INFO_PATH, "r"
+-00014b90: 2c20 656e 636f 6469 6e67 3d22 7574 662d  , encoding="utf-
+-00014ba0: 3822 2920 6173 2073 6f6e 6773 5f66 696c  8") as songs_fil
+-00014bb0: 653a 0a20 2020 2020 2020 2020 2020 2020  e:.             
+-00014bc0: 2020 2066 6f72 206c 696e 6520 696e 2073     for line in s
+-00014bd0: 6f6e 6773 5f66 696c 653a 0a20 2020 2020  ongs_file:.     
+-00014be0: 2020 2020 2020 2020 2020 2020 2020 2064                 d
+-00014bf0: 6574 6169 6c73 203d 206c 696e 652e 7374  etails = line.st
+-00014c00: 7269 7028 292e 7370 6c69 7428 227c 2229  rip().split("|")
+-00014c10: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00014c20: 2020 2020 2069 6620 6e6f 7420 6f73 2e70       if not os.p
+-00014c30: 6174 682e 6578 6973 7473 286f 732e 7061  ath.exists(os.pa
+-00014c40: 7468 2e6a 6f69 6e28 636f 6e66 6967 2e53  th.join(config.S
+-00014c50: 4f4e 4753 5f44 4952 2c20 6465 7461 696c  ONGS_DIR, detail
+-00014c60: 735b 315d 2929 3a0a 2020 2020 2020 2020  s[1])):.        
+-00014c70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014c80: 736f 6e67 735f 6e6f 745f 666f 756e 642e  songs_not_found.
+-00014c90: 6170 7065 6e64 2864 6574 6169 6c73 290a  append(details).
+-00014ca0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014cb0: 2020 2020 656c 7365 3a0a 2020 2020 2020      else:.      
+-00014cc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014cd0: 2020 706c 6179 6c69 7374 2e61 7070 656e    playlist.appen
+-00014ce0: 6428 6465 7461 696c 7329 0a20 2020 2020  d(details).     
+-00014cf0: 2020 2065 6c73 653a 0a20 2020 2020 2020     else:.       
+-00014d00: 2020 2020 2074 6167 7320 3d20 7365 7428       tags = set(
+-00014d10: 7461 6773 290a 2020 2020 2020 2020 2020  tags).          
+-00014d20: 2020 7769 7468 206f 7065 6e28 636f 6e66    with open(conf
+-00014d30: 6967 2e53 4f4e 4753 5f49 4e46 4f5f 5041  ig.SONGS_INFO_PA
+-00014d40: 5448 2c20 2272 222c 2065 6e63 6f64 696e  TH, "r", encodin
+-00014d50: 673d 2275 7466 2d38 2229 2061 7320 736f  g="utf-8") as so
+-00014d60: 6e67 735f 6669 6c65 3a0a 2020 2020 2020  ngs_file:.      
+-00014d70: 2020 2020 2020 2020 2020 666f 7220 6c69            for li
+-00014d80: 6e65 2069 6e20 736f 6e67 735f 6669 6c65  ne in songs_file
+-00014d90: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-00014da0: 2020 2020 2020 6465 7461 696c 7320 3d20        details = 
+-00014db0: 6c69 6e65 2e73 7472 6970 2829 2e73 706c  line.strip().spl
+-00014dc0: 6974 2822 7c22 290a 2020 2020 2020 2020  it("|").        
+-00014dd0: 2020 2020 2020 2020 2020 2020 736f 6e67              song
+-00014de0: 5f74 6167 7320 3d20 7365 7428 6465 7461  _tags = set(deta
+-00014df0: 696c 735b 325d 2e73 706c 6974 2822 2c22  ils[2].split(","
+-00014e00: 2929 0a20 2020 2020 2020 2020 2020 2020  )).             
+-00014e10: 2020 2020 2020 2069 6620 6e6f 7420 6f73         if not os
+-00014e20: 2e70 6174 682e 6578 6973 7473 286f 732e  .path.exists(os.
+-00014e30: 7061 7468 2e6a 6f69 6e28 636f 6e66 6967  path.join(config
+-00014e40: 2e53 4f4e 4753 5f44 4952 2c20 6465 7461  .SONGS_DIR, deta
+-00014e50: 696c 735b 315d 2929 3a0a 2020 2020 2020  ils[1])):.      
+-00014e60: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014e70: 2020 736f 6e67 735f 6e6f 745f 666f 756e    songs_not_foun
+-00014e80: 642e 6170 7065 6e64 2864 6574 6169 6c73  d.append(details
+-00014e90: 290a 2020 2020 2020 2020 2020 2020 2020  ).              
+-00014ea0: 2020 2020 2020 656c 7365 3a0a 2020 2020        else:.    
+-00014eb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014ec0: 2020 2020 6966 206e 6f74 206d 6174 6368      if not match
+-00014ed0: 5f61 6c6c 3a0a 2020 2020 2020 2020 2020  _all:.          
+-00014ee0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014ef0: 2020 6966 2074 6167 7320 2620 736f 6e67    if tags & song
+-00014f00: 5f74 6167 733a 2020 2320 696e 7465 7273  _tags:  # inters
+-00014f10: 6563 7469 6f6e 0a20 2020 2020 2020 2020  ection.         
+-00014f20: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014f30: 2020 2020 2020 2070 6c61 796c 6973 742e         playlist.
+-00014f40: 6170 7065 6e64 2864 6574 6169 6c73 290a  append(details).
+-00014f50: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014f60: 2020 2020 2020 2020 656c 7365 3a0a 2020          else:.  
+-00014f70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014f80: 2020 2020 2020 2020 2020 6966 2074 6167            if tag
+-00014f90: 7320 3c3d 2073 6f6e 675f 7461 6773 3a20  s <= song_tags: 
+-00014fa0: 2023 2073 7562 7365 740a 2020 2020 2020   # subset.      
+-00014fb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014fc0: 2020 2020 2020 2020 2020 706c 6179 6c69            playli
+-00014fd0: 7374 2e61 7070 656e 6428 6465 7461 696c  st.append(detail
+-00014fe0: 7329 0a0a 2020 2020 666f 7220 6465 7461  s)..    for deta
+-00014ff0: 696c 7320 696e 2070 6c61 796c 6973 743a  ils in playlist:
+-00015000: 0a20 2020 2020 2020 2073 6f6e 675f 6461  .        song_da
+-00015010: 7461 203d 206d 7573 6963 5f74 6167 2e6c  ta = music_tag.l
+-00015020: 6f61 645f 6669 6c65 286f 732e 7061 7468  oad_file(os.path
+-00015030: 2e6a 6f69 6e28 636f 6e66 6967 2e53 4f4e  .join(config.SON
+-00015040: 4753 5f44 4952 2c20 6465 7461 696c 735b  GS_DIR, details[
+-00015050: 315d 2929 0a20 2020 2020 2020 2064 6574  1])).        det
+-00015060: 6169 6c73 202b 3d20 5b0a 2020 2020 2020  ails += [.      
+-00015070: 2020 2020 2020 2873 6f6e 675f 6461 7461        (song_data
+-00015080: 5b22 6172 7469 7374 225d 2e76 616c 7565  ["artist"].value
+-00015090: 206f 7220 2255 6e6b 6e6f 776e 2041 7274   or "Unknown Art
+-000150a0: 6973 7422 292c 0a20 2020 2020 2020 2020  ist"),.         
+-000150b0: 2020 2028 736f 6e67 5f64 6174 615b 2261     (song_data["a
+-000150c0: 6c62 756d 225d 2e76 616c 7565 206f 7220  lbum"].value or 
+-000150d0: 2255 6e6b 6e6f 776e 2041 6c62 756d 2229  "Unknown Album")
+-000150e0: 2c0a 2020 2020 2020 2020 2020 2020 2873  ,.            (s
+-000150f0: 6f6e 675f 6461 7461 5b22 616c 6275 6d61  ong_data["albuma
+-00015100: 7274 6973 7422 5d2e 7661 6c75 6520 6f72  rtist"].value or
+-00015110: 2022 556e 6b6e 6f77 6e20 416c 6275 6d20   "Unknown Album 
+-00015120: 4172 7469 7374 2229 2c0a 2020 2020 2020  Artist"),.      
+-00015130: 2020 5d0a 0a20 2020 2069 6620 7368 7566    ]..    if shuf
+-00015140: 666c 655f 203d 3d20 303a 0a20 2020 2020  fle_ == 0:.     
+-00015150: 2020 2073 6875 6666 6c65 5f20 3d20 5472     shuffle_ = Tr
+-00015160: 7565 0a20 2020 2020 2020 2072 6573 6875  ue.        reshu
+-00015170: 6666 6c65 203d 2046 616c 7365 0a20 2020  ffle = False.   
+-00015180: 2065 6c69 6620 7368 7566 666c 655f 203d   elif shuffle_ =
+-00015190: 3d20 313a 0a20 2020 2020 2020 2073 6875  = 1:.        shu
+-000151a0: 6666 6c65 5f20 3d20 5472 7565 0a20 2020  ffle_ = True.   
+-000151b0: 2020 2020 2072 6573 6875 6666 6c65 203d       reshuffle =
+-000151c0: 2054 7275 650a 2020 2020 656c 6966 2073   True.    elif s
+-000151d0: 6875 6666 6c65 5f20 3d3d 2032 3a0a 2020  huffle_ == 2:.  
+-000151e0: 2020 2020 2020 7368 7566 666c 655f 203d        shuffle_ =
+-000151f0: 2046 616c 7365 0a20 2020 2020 2020 2072   False.        r
+-00015200: 6573 6875 6666 6c65 203d 2054 7275 650a  eshuffle = True.
+-00015210: 2020 2020 656c 7365 3a20 2023 2073 6875      else:  # shu
+-00015220: 6666 6c65 5f20 3d20 4e6f 6e65 0a20 2020  ffle_ = None.   
+-00015230: 2020 2020 2073 6875 6666 6c65 5f20 3d20       shuffle_ = 
+-00015240: 4661 6c73 650a 2020 2020 2020 2020 7265  False.        re
+-00015250: 7368 7566 666c 6520 3d20 4661 6c73 650a  shuffle = False.
+-00015260: 0a20 2020 2069 6620 7368 7566 666c 655f  .    if shuffle_
++00011df0: 2020 2029 0a20 2020 2020 2020 2020 2020     ).           
++00011e00: 2020 2020 2020 2020 2020 2020 2069 6620               if 
++00011e10: 696e 7075 7428 292e 6c6f 7765 7228 2920  input().lower() 
++00011e20: 213d 2022 7922 3a0a 2020 2020 2020 2020  != "y":.        
++00011e30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011e40: 2020 2020 636c 6963 6b2e 6563 686f 280a      click.echo(.
++00011e50: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011e60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011e70: 6622 536b 6970 7069 6e67 2073 6f6e 6720  f"Skipping song 
++00011e80: 277b 736f 6e67 5f6e 616d 657d 2720 2849  '{song_name}' (I
++00011e90: 4420 7b73 6f6e 675f 6964 7d29 2e22 0a20  D {song_id}).". 
++00011ea0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011eb0: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
++00011ec0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011ed0: 2020 2020 2020 2020 2073 6b69 7070 696e           skippin
++00011ee0: 672e 6164 6428 736f 6e67 5f69 6429 0a20  g.add(song_id). 
++00011ef0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011f00: 2020 2020 2020 2020 2020 2063 6f6e 7469             conti
++00011f10: 6e75 650a 0a20 2020 2020 2020 2020 2020  nue..           
++00011f20: 2020 2020 2020 2020 2074 6f5f 6265 5f64           to_be_d
++00011f30: 656c 6574 6564 2e61 7070 656e 6428 6929  eleted.append(i)
++00011f40: 0a0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00011f50: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
++00011f60: 6f28 0a20 2020 2020 2020 2020 2020 2020  o(.             
++00011f70: 2020 2020 2020 2020 2020 2066 2252 656d             f"Rem
++00011f80: 6f76 6564 2073 6f6e 6720 277b 736f 6e67  oved song '{song
++00011f90: 5f6e 616d 657d 2720 7769 7468 2049 4420  _name}' with ID 
++00011fa0: 7b73 6f6e 675f 6964 7d2e 222c 0a20 2020  {song_id}.",.   
++00011fb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00011fc0: 2020 2020 2066 673d 2267 7265 656e 222c       fg="green",
++00011fd0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00011fe0: 2020 2020 2029 0a0a 2020 2020 2020 2020       )..        
++00011ff0: 666f 7220 6920 696e 2072 6576 6572 7365  for i in reverse
++00012000: 6428 746f 5f62 655f 6465 6c65 7465 6429  d(to_be_deleted)
++00012010: 3a0a 2020 2020 2020 2020 2020 2020 6465  :.            de
++00012020: 6c20 6c69 6e65 735b 695d 0a0a 2020 2020  l lines[i]..    
++00012030: 2020 2020 7769 7468 206f 7065 6e28 636f      with open(co
++00012040: 6e66 6967 2e53 4f4e 4753 5f49 4e46 4f5f  nfig.SONGS_INFO_
++00012050: 5041 5448 2c20 2277 222c 2065 6e63 6f64  PATH, "w", encod
++00012060: 696e 673d 2275 7466 2d38 2229 2061 7320  ing="utf-8") as 
++00012070: 736f 6e67 735f 6669 6c65 3a0a 2020 2020  songs_file:.    
++00012080: 2020 2020 2020 2020 736f 6e67 735f 6669          songs_fi
++00012090: 6c65 2e77 7269 7465 2822 5c6e 222e 6a6f  le.write("\n".jo
++000120a0: 696e 286c 696e 6573 2929 0a0a 2020 2020  in(lines))..    
++000120b0: 2020 2020 666f 7220 7374 6174 735f 6669      for stats_fi
++000120c0: 6c65 2069 6e20 6f73 2e6c 6973 7464 6972  le in os.listdir
++000120d0: 2863 6f6e 6669 672e 5354 4154 535f 4449  (config.STATS_DI
++000120e0: 5229 3a20 2023 2064 656c 6574 6520 7374  R):  # delete st
++000120f0: 6174 730a 2020 2020 2020 2020 2020 2020  ats.            
++00012100: 6966 206e 6f74 2073 7461 7473 5f66 696c  if not stats_fil
++00012110: 652e 656e 6473 7769 7468 2822 2e74 7874  e.endswith(".txt
++00012120: 2229 3a0a 2020 2020 2020 2020 2020 2020  "):.            
++00012130: 2020 2020 636f 6e74 696e 7565 0a0a 2020      continue..  
++00012140: 2020 2020 2020 2020 2020 7374 6174 735f            stats_
++00012150: 7061 7468 203d 206f 732e 7061 7468 2e6a  path = os.path.j
++00012160: 6f69 6e28 636f 6e66 6967 2e53 5441 5453  oin(config.STATS
++00012170: 5f44 4952 2c20 7374 6174 735f 6669 6c65  _DIR, stats_file
++00012180: 290a 2020 2020 2020 2020 2020 2020 7769  ).            wi
++00012190: 7468 206f 7065 6e28 7374 6174 735f 7061  th open(stats_pa
++000121a0: 7468 2c20 2272 222c 2065 6e63 6f64 696e  th, "r", encodin
++000121b0: 673d 2275 7466 2d38 2229 2061 7320 7374  g="utf-8") as st
++000121c0: 6174 735f 6669 6c65 3a0a 2020 2020 2020  ats_file:.      
++000121d0: 2020 2020 2020 2020 2020 7374 6174 735f            stats_
++000121e0: 6c69 6e65 7320 3d20 7374 6174 735f 6669  lines = stats_fi
++000121f0: 6c65 2e72 6561 6428 292e 7370 6c69 746c  le.read().splitl
++00012200: 696e 6573 2829 0a0a 2020 2020 2020 2020  ines()..        
++00012210: 2020 2020 2020 2020 746f 5f62 655f 6465          to_be_de
++00012220: 6c65 7465 6420 3d20 5b5d 0a20 2020 2020  leted = [].     
++00012230: 2020 2020 2020 2020 2020 2066 6f72 2069             for i
++00012240: 2069 6e20 7261 6e67 6528 6c65 6e28 7374   in range(len(st
++00012250: 6174 735f 6c69 6e65 7329 293a 0a20 2020  ats_lines)):.   
++00012260: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012270: 2064 6574 6169 6c73 203d 2073 7461 7473   details = stats
++00012280: 5f6c 696e 6573 5b69 5d2e 7374 7269 7028  _lines[i].strip(
++00012290: 292e 7370 6c69 7428 227c 2229 0a20 2020  ).split("|").   
++000122a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000122b0: 2073 6f6e 675f 6964 203d 2069 6e74 2864   song_id = int(d
++000122c0: 6574 6169 6c73 5b30 5d29 0a20 2020 2020  etails[0]).     
++000122d0: 2020 2020 2020 2020 2020 2020 2020 2069                 i
++000122e0: 6620 736f 6e67 5f69 6420 696e 2073 6f6e  f song_id in son
++000122f0: 675f 6964 7320 616e 6420 736f 6e67 5f69  g_ids and song_i
++00012300: 6420 6e6f 7420 696e 2073 6b69 7070 696e  d not in skippin
++00012310: 673a 0a20 2020 2020 2020 2020 2020 2020  g:.             
++00012320: 2020 2020 2020 2020 2020 2074 6f5f 6265             to_be
++00012330: 5f64 656c 6574 6564 2e61 7070 656e 6428  _deleted.append(
++00012340: 6929 0a0a 2020 2020 2020 2020 2020 2020  i)..            
++00012350: 666f 7220 6920 696e 2072 6576 6572 7365  for i in reverse
++00012360: 6428 746f 5f62 655f 6465 6c65 7465 6429  d(to_be_deleted)
++00012370: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++00012380: 2020 6465 6c20 7374 6174 735f 6c69 6e65    del stats_line
++00012390: 735b 695d 0a0a 2020 2020 2020 2020 2020  s[i]..          
++000123a0: 2020 7769 7468 206f 7065 6e28 7374 6174    with open(stat
++000123b0: 735f 7061 7468 2c20 2277 222c 2065 6e63  s_path, "w", enc
++000123c0: 6f64 696e 673d 2275 7466 2d38 2229 2061  oding="utf-8") a
++000123d0: 7320 7374 6174 735f 6669 6c65 3a0a 2020  s stats_file:.  
++000123e0: 2020 2020 2020 2020 2020 2020 2020 7374                st
++000123f0: 6174 735f 6669 6c65 2e77 7269 7465 2822  ats_file.write("
++00012400: 5c6e 222e 6a6f 696e 2873 7461 7473 5f6c  \n".join(stats_l
++00012410: 696e 6573 2929 0a0a 2020 2020 2020 2020  ines))..        
++00012420: 6966 2072 656d 6169 6e69 6e67 5f73 6f6e  if remaining_son
++00012430: 675f 6964 733a 0a20 2020 2020 2020 2020  g_ids:.         
++00012440: 2020 2063 6c69 636b 2e73 6563 686f 280a     click.secho(.
++00012450: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012460: 6622 436f 756c 6420 6e6f 7420 6669 6e64  f"Could not find
++00012470: 2074 6865 2066 6f6c 6c6f 7769 6e67 2073   the following s
++00012480: 6f6e 6720 4944 733a 207b 272c 2027 2e6a  ong IDs: {', '.j
++00012490: 6f69 6e28 6d61 7028 7374 722c 2072 656d  oin(map(str, rem
++000124a0: 6169 6e69 6e67 5f73 6f6e 675f 6964 7329  aining_song_ids)
++000124b0: 297d 2e22 2c0a 2020 2020 2020 2020 2020  )}.",.          
++000124c0: 2020 2020 2020 6667 3d22 7265 6422 2c0a        fg="red",.
++000124d0: 2020 2020 2020 2020 2020 2020 290a 2020              ).  
++000124e0: 2020 656c 7365 3a0a 2020 2020 2020 2020    else:.        
++000124f0: 7461 6773 5f74 6f5f 7265 6d6f 7665 203d  tags_to_remove =
++00012500: 2073 6574 2861 7267 7329 0a20 2020 2020   set(args).     
++00012510: 2020 2069 6620 6e6f 7420 666f 7263 653a     if not force:
++00012520: 0a20 2020 2020 2020 2020 2020 2063 6861  .            cha
++00012530: 7220 3d20 696e 7075 7428 0a20 2020 2020  r = input(.     
++00012540: 2020 2020 2020 2020 2020 2066 2241 7265             f"Are
++00012550: 2079 6f75 2073 7572 6520 796f 7520 7761   you sure you wa
++00012560: 6e74 2074 6f20 6465 6c65 7465 207b 6c65  nt to delete {le
++00012570: 6e28 7461 6773 5f74 6f5f 7265 6d6f 7665  n(tags_to_remove
++00012580: 297d 2074 6167 2873 293f 205b 792f 6e5d  )} tag(s)? [y/n]
++00012590: 2022 0a20 2020 2020 2020 2020 2020 2029   ".            )
++000125a0: 0a0a 2020 2020 2020 2020 2020 2020 6966  ..            if
++000125b0: 2063 6861 722e 6c6f 7765 7228 2920 213d   char.lower() !=
++000125c0: 2022 7922 3a0a 2020 2020 2020 2020 2020   "y":.          
++000125d0: 2020 2020 2020 7072 696e 7428 2244 6964        print("Did
++000125e0: 206e 6f74 2064 656c 6574 652e 2229 0a20   not delete."). 
++000125f0: 2020 2020 2020 2020 2020 2020 2020 2072                 r
++00012600: 6574 7572 6e0a 0a20 2020 2020 2020 2077  eturn..        w
++00012610: 6974 6820 6f70 656e 2863 6f6e 6669 672e  ith open(config.
++00012620: 534f 4e47 535f 494e 464f 5f50 4154 482c  SONGS_INFO_PATH,
++00012630: 2022 7222 2c20 656e 636f 6469 6e67 3d22   "r", encoding="
++00012640: 7574 662d 3822 2920 6173 2073 6f6e 6773  utf-8") as songs
++00012650: 5f66 696c 653a 0a20 2020 2020 2020 2020  _file:.         
++00012660: 2020 206c 696e 6573 203d 2073 6f6e 6773     lines = songs
++00012670: 5f66 696c 652e 7265 6164 2829 2e73 706c  _file.read().spl
++00012680: 6974 6c69 6e65 7328 290a 2020 2020 2020  itlines().      
++00012690: 2020 2020 2020 666f 7220 6920 696e 2072        for i in r
++000126a0: 616e 6765 286c 656e 286c 696e 6573 2929  ange(len(lines))
++000126b0: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++000126c0: 2020 6465 7461 696c 7320 3d20 6c69 6e65    details = line
++000126d0: 735b 695d 2e73 7472 6970 2829 2e73 706c  s[i].strip().spl
++000126e0: 6974 2822 7c22 290a 2020 2020 2020 2020  it("|").        
++000126f0: 2020 2020 2020 2020 7461 6773 203d 2064          tags = d
++00012700: 6574 6169 6c73 5b32 5d2e 7370 6c69 7428  etails[2].split(
++00012710: 222c 2229 0a20 2020 2020 2020 2020 2020  ",").           
++00012720: 2020 2020 2066 6f72 206a 2069 6e20 7261       for j in ra
++00012730: 6e67 6528 6c65 6e28 7461 6773 2929 3a0a  nge(len(tags)):.
++00012740: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012750: 2020 2020 6966 2074 6167 735b 6a5d 2069      if tags[j] i
++00012760: 6e20 7461 6773 5f74 6f5f 7265 6d6f 7665  n tags_to_remove
++00012770: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++00012780: 2020 2020 2020 2020 2020 6465 6c20 7461            del ta
++00012790: 6773 5b6a 5d0a 2020 2020 2020 2020 2020  gs[j].          
++000127a0: 2020 2020 2020 6465 7461 696c 735b 325d        details[2]
++000127b0: 203d 2022 2c22 2e6a 6f69 6e28 7461 6773   = ",".join(tags
++000127c0: 290a 2020 2020 2020 2020 2020 2020 2020  ).              
++000127d0: 2020 6c69 6e65 735b 695d 203d 2022 7c22    lines[i] = "|"
++000127e0: 2e6a 6f69 6e28 6465 7461 696c 7329 0a0a  .join(details)..
++000127f0: 2020 2020 2020 2020 7769 7468 206f 7065          with ope
++00012800: 6e28 636f 6e66 6967 2e53 4f4e 4753 5f49  n(config.SONGS_I
++00012810: 4e46 4f5f 5041 5448 2c20 2277 222c 2065  NFO_PATH, "w", e
++00012820: 6e63 6f64 696e 673d 2275 7466 2d38 2229  ncoding="utf-8")
++00012830: 2061 7320 736f 6e67 735f 6669 6c65 3a0a   as songs_file:.
++00012840: 2020 2020 2020 2020 2020 2020 736f 6e67              song
++00012850: 735f 6669 6c65 2e77 7269 7465 2822 5c6e  s_file.write("\n
++00012860: 222e 6a6f 696e 286c 696e 6573 2929 0a0a  ".join(lines))..
++00012870: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
++00012880: 6368 6f28 0a20 2020 2020 2020 2020 2020  cho(.           
++00012890: 2066 2244 656c 6574 6564 2061 6c6c 206f   f"Deleted all o
++000128a0: 6363 7572 7265 6e63 6573 206f 6620 7b6c  ccurrences of {l
++000128b0: 656e 2874 6167 735f 746f 5f72 656d 6f76  en(tags_to_remov
++000128c0: 6529 7d20 7461 6728 7329 2e22 2c0a 2020  e)} tag(s).",.  
++000128d0: 2020 2020 2020 2020 2020 6667 3d22 6772            fg="gr
++000128e0: 6565 6e22 2c0a 2020 2020 2020 2020 290a  een",.        ).
++000128f0: 0a0a 4063 6c69 2e63 6f6d 6d61 6e64 286e  ..@cli.command(n
++00012900: 616d 653d 2274 6167 2229 0a40 636c 6963  ame="tag").@clic
++00012910: 6b2e 6172 6775 6d65 6e74 2822 736f 6e67  k.argument("song
++00012920: 5f69 6473 222c 2074 7970 653d 636c 6963  _ids", type=clic
++00012930: 6b2e 494e 542c 2072 6571 7569 7265 643d  k.INT, required=
++00012940: 5472 7565 2c20 6e61 7267 733d 2d31 290a  True, nargs=-1).
++00012950: 4063 6c69 636b 2e6f 7074 696f 6e28 0a20  @click.option(. 
++00012960: 2020 2022 2d74 222c 0a20 2020 2022 2d2d     "-t",.    "--
++00012970: 7461 6722 2c0a 2020 2020 2274 6167 7322  tag",.    "tags"
++00012980: 2c0a 2020 2020 6865 6c70 3d22 5461 6773  ,.    help="Tags
++00012990: 2074 6f20 6164 642e 222c 0a20 2020 206d   to add.",.    m
++000129a0: 756c 7469 706c 653d 5472 7565 2c0a 290a  ultiple=True,.).
++000129b0: 6465 6620 7461 675f 2873 6f6e 675f 6964  def tag_(song_id
++000129c0: 732c 2074 6167 7329 3a0a 2020 2020 2222  s, tags):.    ""
++000129d0: 2241 6464 2074 6167 7320 746f 2061 2073  "Add tags to a s
++000129e0: 6f6e 6720 2870 6173 7365 6420 6173 2049  ong (passed as I
++000129f0: 4429 2e20 5461 6773 2063 616e 6e6f 7420  D). Tags cannot 
++00012a00: 636f 6e74 6169 6e20 7468 6520 6368 6172  contain the char
++00012a10: 6163 7465 7273 0a20 2020 2027 2c27 206f  acters.    ',' o
++00012a20: 7220 277c 272e 2222 220a 2020 2020 736f  r '|'.""".    so
++00012a30: 6e67 5f69 6473 203d 2073 6574 2873 6f6e  ng_ids = set(son
++00012a40: 675f 6964 7329 0a20 2020 206e 756d 5f73  g_ids).    num_s
++00012a50: 6f6e 6773 203d 206c 656e 2873 6f6e 675f  ongs = len(song_
++00012a60: 6964 7329 0a20 2020 2074 6167 7320 3d20  ids).    tags = 
++00012a70: 7365 7428 7461 6773 290a 2020 2020 666f  set(tags).    fo
++00012a80: 7220 7461 6720 696e 2074 6167 733a 0a20  r tag in tags:. 
++00012a90: 2020 2020 2020 2069 6620 222c 2220 696e         if "," in
++00012aa0: 2074 6167 206f 7220 227c 2220 696e 2074   tag or "|" in t
++00012ab0: 6167 3a0a 2020 2020 2020 2020 2020 2020  ag:.            
++00012ac0: 636c 6963 6b2e 7365 6368 6f28 2254 6167  click.secho("Tag
++00012ad0: 7320 6361 6e6e 6f74 2063 6f6e 7461 696e  s cannot contain
++00012ae0: 2027 2c27 206f 7220 277c 272e 222c 2066   ',' or '|'.", f
++00012af0: 673d 2272 6564 2229 0a20 2020 2020 2020  g="red").       
++00012b00: 2020 2020 2072 6574 7572 6e0a 2020 2020       return.    
++00012b10: 6966 2074 6167 733a 0a20 2020 2020 2020  if tags:.       
++00012b20: 2073 6f6e 6773 5f66 696c 6520 3d20 6f70   songs_file = op
++00012b30: 656e 2863 6f6e 6669 672e 534f 4e47 535f  en(config.SONGS_
++00012b40: 494e 464f 5f50 4154 482c 2022 7222 2c20  INFO_PATH, "r", 
++00012b50: 656e 636f 6469 6e67 3d22 7574 662d 3822  encoding="utf-8"
++00012b60: 290a 2020 2020 2020 2020 6c69 6e65 7320  ).        lines 
++00012b70: 3d20 736f 6e67 735f 6669 6c65 2e72 6561  = songs_file.rea
++00012b80: 6428 292e 7370 6c69 746c 696e 6573 2829  d().splitlines()
++00012b90: 0a20 2020 2020 2020 2066 6f72 2069 2069  .        for i i
++00012ba0: 6e20 7261 6e67 6528 6c65 6e28 6c69 6e65  n range(len(line
++00012bb0: 7329 293a 0a20 2020 2020 2020 2020 2020  s)):.           
++00012bc0: 2064 6574 6169 6c73 203d 206c 696e 6573   details = lines
++00012bd0: 5b69 5d2e 7374 7269 7028 292e 7370 6c69  [i].strip().spli
++00012be0: 7428 227c 2229 0a20 2020 2020 2020 2020  t("|").         
++00012bf0: 2020 2073 6f6e 675f 6964 203d 2069 6e74     song_id = int
++00012c00: 2864 6574 6169 6c73 5b30 5d29 0a20 2020  (details[0]).   
++00012c10: 2020 2020 2020 2020 2069 6620 736f 6e67           if song
++00012c20: 5f69 6420 696e 2073 6f6e 675f 6964 733a  _id in song_ids:
++00012c30: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00012c40: 2073 6f6e 675f 6964 732e 7265 6d6f 7665   song_ids.remove
++00012c50: 2873 6f6e 675f 6964 290a 0a20 2020 2020  (song_id)..     
++00012c60: 2020 2020 2020 2020 2020 2069 6620 6465             if de
++00012c70: 7461 696c 735b 325d 3a0a 2020 2020 2020  tails[2]:.      
++00012c80: 2020 2020 2020 2020 2020 2020 2020 6e65                ne
++00012c90: 775f 7461 6773 203d 2064 6574 6169 6c73  w_tags = details
++00012ca0: 5b32 5d2e 7370 6c69 7428 222c 2229 0a20  [2].split(","). 
++00012cb0: 2020 2020 2020 2020 2020 2020 2020 2065                 e
++00012cc0: 6c73 653a 0a20 2020 2020 2020 2020 2020  lse:.           
++00012cd0: 2020 2020 2020 2020 206e 6577 5f74 6167           new_tag
++00012ce0: 7320 3d20 5b5d 0a20 2020 2020 2020 2020  s = [].         
++00012cf0: 2020 2020 2020 206e 6577 5f74 6167 7320         new_tags 
++00012d00: 2b3d 205b 7461 6720 666f 7220 7461 6720  += [tag for tag 
++00012d10: 696e 2074 6167 7320 6966 2074 6167 206e  in tags if tag n
++00012d20: 6f74 2069 6e20 6e65 775f 7461 6773 5d0a  ot in new_tags].
++00012d30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012d40: 6465 7461 696c 735b 325d 203d 2022 2c22  details[2] = ","
++00012d50: 2e6a 6f69 6e28 6e65 775f 7461 6773 290a  .join(new_tags).
++00012d60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012d70: 6c69 6e65 735b 695d 203d 2022 7c22 2e6a  lines[i] = "|".j
++00012d80: 6f69 6e28 6465 7461 696c 7329 0a20 2020  oin(details).   
++00012d90: 2020 2020 2073 6f6e 6773 5f66 696c 652e       songs_file.
++00012da0: 636c 6f73 6528 290a 0a20 2020 2020 2020  close()..       
++00012db0: 2073 6f6e 6773 5f66 696c 6520 3d20 6f70   songs_file = op
++00012dc0: 656e 2863 6f6e 6669 672e 534f 4e47 535f  en(config.SONGS_
++00012dd0: 494e 464f 5f50 4154 482c 2022 7722 2c20  INFO_PATH, "w", 
++00012de0: 656e 636f 6469 6e67 3d22 7574 662d 3822  encoding="utf-8"
++00012df0: 290a 2020 2020 2020 2020 736f 6e67 735f  ).        songs_
++00012e00: 6669 6c65 2e77 7269 7465 2822 5c6e 222e  file.write("\n".
++00012e10: 6a6f 696e 286c 696e 6573 2929 0a20 2020  join(lines)).   
++00012e20: 2020 2020 2073 6f6e 6773 5f66 696c 652e       songs_file.
++00012e30: 636c 6f73 6528 290a 0a20 2020 2020 2020  close()..       
++00012e40: 2069 6620 736f 6e67 5f69 6473 3a0a 2020   if song_ids:.  
++00012e50: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
++00012e60: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
++00012e70: 2020 2020 2020 2066 2243 6f75 6c64 206e         f"Could n
++00012e80: 6f74 2066 696e 6420 736f 6e67 2873 2920  ot find song(s) 
++00012e90: 7769 7468 2049 4428 7329 207b 272c 2027  with ID(s) {', '
++00012ea0: 2e6a 6f69 6e28 6d61 7028 7374 722c 2073  .join(map(str, s
++00012eb0: 6f6e 675f 6964 7329 297d 2e22 2c0a 2020  ong_ids))}.",.  
++00012ec0: 2020 2020 2020 2020 2020 2020 2020 6667                fg
++00012ed0: 3d22 7265 6422 2c0a 2020 2020 2020 2020  ="red",.        
++00012ee0: 2020 2020 290a 2020 2020 2020 2020 2020      ).          
++00012ef0: 2020 6966 206c 656e 2873 6f6e 675f 6964    if len(song_id
++00012f00: 7329 203d 3d20 6e75 6d5f 736f 6e67 733a  s) == num_songs:
++00012f10: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00012f20: 2072 6574 7572 6e0a 2020 2020 2020 2020   return.        
++00012f30: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
++00012f40: 2020 2020 2020 2020 2066 2241 6464 6564           f"Added
++00012f50: 207b 6c65 6e28 7461 6773 297d 2074 6167   {len(tags)} tag
++00012f60: 2873 2920 746f 207b 6e75 6d5f 736f 6e67  (s) to {num_song
++00012f70: 7320 2d20 6c65 6e28 736f 6e67 5f69 6473  s - len(song_ids
++00012f80: 297d 2073 6f6e 6728 7329 2e22 2c0a 2020  )} song(s).",.  
++00012f90: 2020 2020 2020 2020 2020 6667 3d22 6772            fg="gr
++00012fa0: 6565 6e22 2c0a 2020 2020 2020 2020 290a  een",.        ).
++00012fb0: 2020 2020 656c 7365 3a0a 2020 2020 2020      else:.      
++00012fc0: 2020 636c 6963 6b2e 7365 6368 6f28 224e    click.secho("N
++00012fd0: 6f20 7461 6773 2070 6173 7365 642e 222c  o tags passed.",
++00012fe0: 2066 673d 2272 6564 2229 0a0a 0a40 636c   fg="red")...@cl
++00012ff0: 692e 636f 6d6d 616e 6428 290a 4063 6c69  i.command().@cli
++00013000: 636b 2e61 7267 756d 656e 7428 2273 6f6e  ck.argument("son
++00013010: 675f 6964 7322 2c20 7479 7065 3d63 6c69  g_ids", type=cli
++00013020: 636b 2e49 4e54 2c20 7265 7175 6972 6564  ck.INT, required
++00013030: 3d54 7275 652c 206e 6172 6773 3d2d 3129  =True, nargs=-1)
++00013040: 0a40 636c 6963 6b2e 6f70 7469 6f6e 280a  .@click.option(.
++00013050: 2020 2020 222d 7422 2c0a 2020 2020 222d      "-t",.    "-
++00013060: 2d74 6167 222c 0a20 2020 2022 7461 6773  -tag",.    "tags
++00013070: 222c 0a20 2020 2068 656c 703d 2254 6167  ",.    help="Tag
++00013080: 7320 746f 2072 656d 6f76 652e 222c 0a20  s to remove.",. 
++00013090: 2020 206d 756c 7469 706c 653d 5472 7565     multiple=True
++000130a0: 2c0a 290a 4063 6c69 636b 2e6f 7074 696f  ,.).@click.optio
++000130b0: 6e28 222d 412f 2d6e 4122 2c20 222d 2d61  n("-A/-nA", "--a
++000130c0: 6c6c 2f2d 2d6e 6f2d 616c 6c22 2c20 2261  ll/--no-all", "a
++000130d0: 6c6c 5f22 2c20 6465 6661 756c 743d 4661  ll_", default=Fa
++000130e0: 6c73 6529 0a64 6566 2075 6e74 6167 2873  lse).def untag(s
++000130f0: 6f6e 675f 6964 732c 2074 6167 732c 2061  ong_ids, tags, a
++00013100: 6c6c 5f29 3a0a 2020 2020 2222 2252 656d  ll_):.    """Rem
++00013110: 6f76 6520 7461 6773 2066 726f 6d20 6120  ove tags from a 
++00013120: 7370 6563 6966 6963 2073 6f6e 6720 2870  specific song (p
++00013130: 6173 7365 6420 6173 2049 4429 2e20 5461  assed as ID). Ta
++00013140: 6773 2074 6861 7420 7468 6520 736f 6e67  gs that the song
++00013150: 0a20 2020 2064 6f65 736e 2774 2068 6176  .    doesn't hav
++00013160: 6520 7769 6c6c 2062 6520 6967 6e6f 7265  e will be ignore
++00013170: 642e 0a0a 2020 2020 5061 7373 696e 6720  d...    Passing 
++00013180: 7468 6520 272d 412f 2d2d 616c 6c27 2066  the '-A/--all' f
++00013190: 6c61 6720 7769 6c6c 2072 656d 6f76 6520  lag will remove 
++000131a0: 616c 6c20 7461 6773 2066 726f 6d20 7468  all tags from th
++000131b0: 6520 736f 6e67 2c20 756e 6c65 7373 2054  e song, unless T
++000131c0: 4147 530a 2020 2020 6973 2070 6173 7365  AGS.    is passe
++000131d0: 6420 2869 6e20 7768 6963 6820 6361 7365  d (in which case
++000131e0: 2074 6865 2066 6c61 6720 6973 2069 676e   the flag is ign
++000131f0: 6f72 6564 292e 2222 220a 2020 2020 736f  ored).""".    so
++00013200: 6e67 5f69 6473 203d 2073 6574 2873 6f6e  ng_ids = set(son
++00013210: 675f 6964 7329 0a20 2020 206e 756d 5f73  g_ids).    num_s
++00013220: 6f6e 6773 203d 206c 656e 2873 6f6e 675f  ongs = len(song_
++00013230: 6964 7329 0a20 2020 2074 6167 7320 3d20  ids).    tags = 
++00013240: 7365 7428 7461 6773 290a 2020 2020 6966  set(tags).    if
++00013250: 2074 6167 733a 0a20 2020 2020 2020 2073   tags:.        s
++00013260: 6f6e 6773 5f66 696c 6520 3d20 6f70 656e  ongs_file = open
++00013270: 2863 6f6e 6669 672e 534f 4e47 535f 494e  (config.SONGS_IN
++00013280: 464f 5f50 4154 482c 2022 7222 2c20 656e  FO_PATH, "r", en
++00013290: 636f 6469 6e67 3d22 7574 662d 3822 290a  coding="utf-8").
++000132a0: 2020 2020 2020 2020 6c69 6e65 7320 3d20          lines = 
++000132b0: 736f 6e67 735f 6669 6c65 2e72 6561 6428  songs_file.read(
++000132c0: 292e 7370 6c69 746c 696e 6573 2829 0a20  ).splitlines(). 
++000132d0: 2020 2020 2020 2066 6f72 2069 2069 6e20         for i in 
++000132e0: 7261 6e67 6528 6c65 6e28 6c69 6e65 7329  range(len(lines)
++000132f0: 293a 0a20 2020 2020 2020 2020 2020 2064  ):.            d
++00013300: 6574 6169 6c73 203d 206c 696e 6573 5b69  etails = lines[i
++00013310: 5d2e 7374 7269 7028 292e 7370 6c69 7428  ].strip().split(
++00013320: 227c 2229 0a20 2020 2020 2020 2020 2020  "|").           
++00013330: 2073 6f6e 675f 6964 203d 2069 6e74 2864   song_id = int(d
++00013340: 6574 6169 6c73 5b30 5d29 0a20 2020 2020  etails[0]).     
++00013350: 2020 2020 2020 2069 6620 736f 6e67 5f69         if song_i
++00013360: 6420 696e 2073 6f6e 675f 6964 733a 0a20  d in song_ids:. 
++00013370: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00013380: 6f6e 675f 6964 732e 7265 6d6f 7665 2873  ong_ids.remove(s
++00013390: 6f6e 675f 6964 290a 0a20 2020 2020 2020  ong_id)..       
++000133a0: 2020 2020 2020 2020 2074 6167 735f 746f           tags_to
++000133b0: 5f6b 6565 7020 3d20 5b0a 2020 2020 2020  _keep = [.      
++000133c0: 2020 2020 2020 2020 2020 2020 2020 7461                ta
++000133d0: 6720 666f 7220 7461 6720 696e 2064 6574  g for tag in det
++000133e0: 6169 6c73 5b32 5d2e 7370 6c69 7428 222c  ails[2].split(",
++000133f0: 2229 2069 6620 7461 6720 6e6f 7420 696e  ") if tag not in
++00013400: 2074 6167 730a 2020 2020 2020 2020 2020   tags.          
++00013410: 2020 2020 2020 5d0a 2020 2020 2020 2020        ].        
++00013420: 2020 2020 2020 2020 6c69 6e65 735b 695d          lines[i]
++00013430: 203d 2022 7c22 2e6a 6f69 6e28 0a20 2020   = "|".join(.   
++00013440: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013450: 2064 6574 6169 6c73 5b3a 325d 202b 205b   details[:2] + [
++00013460: 222c 222e 6a6f 696e 2874 6167 735f 746f  ",".join(tags_to
++00013470: 5f6b 6565 7029 5d20 2b20 6465 7461 696c  _keep)] + detail
++00013480: 735b 333a 5d0a 2020 2020 2020 2020 2020  s[3:].          
++00013490: 2020 2020 2020 290a 2020 2020 2020 2020        ).        
++000134a0: 736f 6e67 735f 6669 6c65 2e63 6c6f 7365  songs_file.close
++000134b0: 2829 0a0a 2020 2020 2020 2020 736f 6e67  ()..        song
++000134c0: 735f 6669 6c65 203d 206f 7065 6e28 636f  s_file = open(co
++000134d0: 6e66 6967 2e53 4f4e 4753 5f49 4e46 4f5f  nfig.SONGS_INFO_
++000134e0: 5041 5448 2c20 2277 222c 2065 6e63 6f64  PATH, "w", encod
++000134f0: 696e 673d 2275 7466 2d38 2229 0a20 2020  ing="utf-8").   
++00013500: 2020 2020 2073 6f6e 6773 5f66 696c 652e       songs_file.
++00013510: 7772 6974 6528 225c 6e22 2e6a 6f69 6e28  write("\n".join(
++00013520: 6c69 6e65 7329 290a 2020 2020 2020 2020  lines)).        
++00013530: 736f 6e67 735f 6669 6c65 2e63 6c6f 7365  songs_file.close
++00013540: 2829 0a0a 2020 2020 2020 2020 6966 2073  ()..        if s
++00013550: 6f6e 675f 6964 733a 0a20 2020 2020 2020  ong_ids:.       
++00013560: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
++00013570: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
++00013580: 2020 6622 436f 756c 6420 6e6f 7420 6669    f"Could not fi
++00013590: 6e64 2073 6f6e 6728 7329 2077 6974 6820  nd song(s) with 
++000135a0: 4944 2873 2920 7b27 2c20 272e 6a6f 696e  ID(s) {', '.join
++000135b0: 286d 6170 2873 7472 2c20 736f 6e67 5f69  (map(str, song_i
++000135c0: 6473 2929 7d2e 222c 0a20 2020 2020 2020  ds))}.",.       
++000135d0: 2020 2020 2020 2020 2066 673d 2272 6564           fg="red
++000135e0: 222c 0a20 2020 2020 2020 2020 2020 2029  ",.            )
++000135f0: 0a20 2020 2020 2020 2020 2020 2069 6620  .            if 
++00013600: 6c65 6e28 736f 6e67 5f69 6473 2920 3d3d  len(song_ids) ==
++00013610: 206e 756d 5f73 6f6e 6773 3a0a 2020 2020   num_songs:.    
++00013620: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++00013630: 726e 0a20 2020 2020 2020 2063 6c69 636b  rn.        click
++00013640: 2e73 6563 686f 280a 2020 2020 2020 2020  .secho(.        
++00013650: 2020 2020 6622 5265 6d6f 7665 6420 616e      f"Removed an
++00013660: 7920 6f63 6375 7272 656e 6365 7320 6f66  y occurrences of
++00013670: 207b 6c65 6e28 7461 6773 297d 2074 6167   {len(tags)} tag
++00013680: 2873 2920 6672 6f6d 207b 6e75 6d5f 736f  (s) from {num_so
++00013690: 6e67 7320 2d20 6c65 6e28 736f 6e67 5f69  ngs - len(song_i
++000136a0: 6473 297d 2073 6f6e 6728 7329 2e22 2c0a  ds)} song(s).",.
++000136b0: 2020 2020 2020 2020 2020 2020 6667 3d22              fg="
++000136c0: 6772 6565 6e22 2c0a 2020 2020 2020 2020  green",.        
++000136d0: 290a 2020 2020 656c 7365 3a0a 2020 2020  ).    else:.    
++000136e0: 2020 2020 6966 206e 6f74 2061 6c6c 5f3a      if not all_:
++000136f0: 0a20 2020 2020 2020 2020 2020 2063 6c69  .            cli
++00013700: 636b 2e73 6563 686f 280a 2020 2020 2020  ck.secho(.      
++00013710: 2020 2020 2020 2020 2020 224e 6f20 7461            "No ta
++00013720: 6773 2070 6173 7365 64e2 8094 746f 2072  gs passed...to r
++00013730: 656d 6f76 6520 616c 6c20 7461 6773 2c20  emove all tags, 
++00013740: 7061 7373 2074 6865 2027 2d41 2f2d 2d61  pass the '-A/--a
++00013750: 6c6c 2720 666c 6167 2e22 2c0a 2020 2020  ll' flag.",.    
++00013760: 2020 2020 2020 2020 2020 2020 6667 3d22              fg="
++00013770: 7265 6422 2c0a 2020 2020 2020 2020 2020  red",.          
++00013780: 2020 290a 2020 2020 2020 2020 656c 7365    ).        else
++00013790: 3a0a 2020 2020 2020 2020 2020 2020 736f  :.            so
++000137a0: 6e67 735f 6669 6c65 203d 206f 7065 6e28  ngs_file = open(
++000137b0: 636f 6e66 6967 2e53 4f4e 4753 5f49 4e46  config.SONGS_INF
++000137c0: 4f5f 5041 5448 2c20 2272 222c 2065 6e63  O_PATH, "r", enc
++000137d0: 6f64 696e 673d 2275 7466 2d38 2229 0a20  oding="utf-8"). 
++000137e0: 2020 2020 2020 2020 2020 206c 696e 6573             lines
++000137f0: 203d 2073 6f6e 6773 5f66 696c 652e 7265   = songs_file.re
++00013800: 6164 2829 2e73 706c 6974 6c69 6e65 7328  ad().splitlines(
++00013810: 290a 2020 2020 2020 2020 2020 2020 666f  ).            fo
++00013820: 7220 6920 696e 2072 616e 6765 286c 656e  r i in range(len
++00013830: 286c 696e 6573 2929 3a0a 2020 2020 2020  (lines)):.      
++00013840: 2020 2020 2020 2020 2020 6c69 6e65 203d            line =
++00013850: 206c 696e 6573 5b69 5d0a 2020 2020 2020   lines[i].      
++00013860: 2020 2020 2020 2020 2020 6465 7461 696c            detail
++00013870: 7320 3d20 6c69 6e65 2e73 7472 6970 2829  s = line.strip()
++00013880: 2e73 706c 6974 2822 7c22 290a 2020 2020  .split("|").    
++00013890: 2020 2020 2020 2020 2020 2020 6966 2069              if i
++000138a0: 6e74 2864 6574 6169 6c73 5b30 5d29 2069  nt(details[0]) i
++000138b0: 6e20 736f 6e67 5f69 6473 3a0a 2020 2020  n song_ids:.    
++000138c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000138d0: 6c69 6e65 735b 695d 203d 2022 7c22 2e6a  lines[i] = "|".j
++000138e0: 6f69 6e28 6465 7461 696c 735b 3a32 5d20  oin(details[:2] 
++000138f0: 2b20 5b22 225d 202b 2064 6574 6169 6c73  + [""] + details
++00013900: 5b33 3a5d 290a 2020 2020 2020 2020 2020  [3:]).          
++00013910: 2020 736f 6e67 735f 6669 6c65 2e63 6c6f    songs_file.clo
++00013920: 7365 2829 0a0a 2020 2020 2020 2020 2020  se()..          
++00013930: 2020 736f 6e67 735f 6669 6c65 203d 206f    songs_file = o
++00013940: 7065 6e28 636f 6e66 6967 2e53 4f4e 4753  pen(config.SONGS
++00013950: 5f49 4e46 4f5f 5041 5448 2c20 2277 222c  _INFO_PATH, "w",
++00013960: 2065 6e63 6f64 696e 673d 2275 7466 2d38   encoding="utf-8
++00013970: 2229 0a20 2020 2020 2020 2020 2020 2073  ").            s
++00013980: 6f6e 6773 5f66 696c 652e 7772 6974 6528  ongs_file.write(
++00013990: 225c 6e22 2e6a 6f69 6e28 6c69 6e65 7329  "\n".join(lines)
++000139a0: 290a 2020 2020 2020 2020 2020 2020 736f  ).            so
++000139b0: 6e67 735f 6669 6c65 2e63 6c6f 7365 2829  ngs_file.close()
++000139c0: 0a0a 2020 2020 2020 2020 2020 2020 636c  ..            cl
++000139d0: 6963 6b2e 7365 6368 6f28 0a20 2020 2020  ick.secho(.     
++000139e0: 2020 2020 2020 2020 2020 2066 2252 656d             f"Rem
++000139f0: 6f76 6564 207b 6c65 6e28 7461 6773 297d  oved {len(tags)}
++00013a00: 2074 6167 2873 2920 6672 6f6d 207b 6c65   tag(s) from {le
++00013a10: 6e28 736f 6e67 5f69 6473 297d 2073 6f6e  n(song_ids)} son
++00013a20: 6728 7329 2e22 2c0a 2020 2020 2020 2020  g(s).",.        
++00013a30: 2020 2020 2020 2020 6667 3d22 6772 6565          fg="gree
++00013a40: 6e22 2c0a 2020 2020 2020 2020 2020 2020  n",.            
++00013a50: 290a 0a0a 4063 6c69 2e63 6f6d 6d61 6e64  )...@cli.command
++00013a60: 2829 0a40 636c 6963 6b2e 6172 6775 6d65  ().@click.argume
++00013a70: 6e74 2822 7461 6773 222c 206e 6172 6773  nt("tags", nargs
++00013a80: 3d2d 3129 0a40 636c 6963 6b2e 6f70 7469  =-1).@click.opti
++00013a90: 6f6e 280a 2020 2020 222d 7322 2c0a 2020  on(.    "-s",.  
++00013aa0: 2020 222d 2d73 6875 6666 6c65 222c 0a20    "--shuffle",. 
++00013ab0: 2020 2022 7368 7566 666c 655f 222c 0a20     "shuffle_",. 
++00013ac0: 2020 2074 7970 653d 636c 6963 6b2e 496e     type=click.In
++00013ad0: 7452 616e 6765 2830 2c20 3229 2c0a 2020  tRange(0, 2),.  
++00013ae0: 2020 6865 6c70 3d22 303a 2073 6875 6666    help="0: shuff
++00013af0: 6c65 206f 6e63 652c 2031 3a20 7368 7566  le once, 1: shuf
++00013b00: 666c 6520 6576 6572 7920 6c6f 6f70 2c20  fle every loop, 
++00013b10: 323a 2073 6875 6666 6c65 2065 7665 7279  2: shuffle every
++00013b20: 206c 6f6f 7020 6578 6365 7074 2066 6f72   loop except for
++00013b30: 2074 6865 2066 6972 7374 206f 6e65 2e22   the first one."
++00013b40: 2c0a 290a 4063 6c69 636b 2e6f 7074 696f  ,.).@click.optio
++00013b50: 6e28 0a20 2020 2022 2d52 2f2d 6e52 222c  n(.    "-R/-nR",
++00013b60: 0a20 2020 2022 2d2d 7265 7665 7273 652f  .    "--reverse/
++00013b70: 2d2d 6e6f 2d72 6576 6572 7365 222c 0a20  --no-reverse",. 
++00013b80: 2020 2022 7265 7665 7273 6522 2c0a 2020     "reverse",.  
++00013b90: 2020 6465 6661 756c 743d 4661 6c73 652c    default=False,
++00013ba0: 0a20 2020 2068 656c 703d 2250 6c61 7920  .    help="Play 
++00013bb0: 736f 6e67 7320 696e 2072 6576 6572 7365  songs in reverse
++00013bc0: 2028 6d6f 7374 2072 6563 656e 746c 7920   (most recently 
++00013bd0: 6164 6465 6420 6669 7273 7429 2e22 2c0a  added first).",.
++00013be0: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
++00013bf0: 0a20 2020 2022 2d6f 222c 0a20 2020 2022  .    "-o",.    "
++00013c00: 2d2d 6f6e 6c79 222c 0a20 2020 2022 6f6e  --only",.    "on
++00013c10: 6c79 222c 0a20 2020 2074 7970 653d 636c  ly",.    type=cl
++00013c20: 6963 6b2e 494e 542c 0a20 2020 206d 756c  ick.INT,.    mul
++00013c30: 7469 706c 653d 5472 7565 2c0a 2020 2020  tiple=True,.    
++00013c40: 6865 6c70 3d22 506c 6179 206f 6e6c 7920  help="Play only 
++00013c50: 7468 6973 2f74 6865 7365 2073 6f6e 6728  this/these song(
++00013c60: 7329 2028 6361 6e20 6265 2070 6173 7365  s) (can be passe
++00013c70: 6420 6d75 6c74 6970 6c65 2074 696d 6573  d multiple times
++00013c80: 2c20 652e 672e 2027 6d61 6573 7472 6f20  , e.g. 'maestro 
++00013c90: 706c 6179 202d 6f20 3120 2d6f 2031 3727  play -o 1 -o 17'
++00013ca0: 292e 222c 0a29 0a40 636c 6963 6b2e 6f70  ).",.).@click.op
++00013cb0: 7469 6f6e 280a 2020 2020 222d 7622 2c0a  tion(.    "-v",.
++00013cc0: 2020 2020 222d 2d76 6f6c 756d 6522 2c0a      "--volume",.
++00013cd0: 2020 2020 2276 6f6c 756d 6522 2c0a 2020      "volume",.  
++00013ce0: 2020 7479 7065 3d63 6c69 636b 2e49 6e74    type=click.Int
++00013cf0: 5261 6e67 6528 302c 2031 3030 292c 0a20  Range(0, 100),. 
++00013d00: 2020 2064 6566 6175 6c74 3d31 3030 2c0a     default=100,.
++00013d10: 2020 2020 7368 6f77 5f64 6566 6175 6c74      show_default
++00013d20: 3d54 7275 652c 0a29 0a40 636c 6963 6b2e  =True,.).@click.
++00013d30: 6f70 7469 6f6e 280a 2020 2020 222d 4c2f  option(.    "-L/
++00013d40: 2d6e 4c22 2c0a 2020 2020 222d 2d6c 6f6f  -nL",.    "--loo
++00013d50: 702f 2d2d 6e6f 2d6c 6f6f 7022 2c0a 2020  p/--no-loop",.  
++00013d60: 2020 226c 6f6f 7022 2c0a 2020 2020 6465    "loop",.    de
++00013d70: 6661 756c 743d 4661 6c73 652c 0a20 2020  fault=False,.   
++00013d80: 2068 656c 703d 224c 6f6f 7020 7468 6520   help="Loop the 
++00013d90: 706c 6179 6c69 7374 2e22 2c0a 290a 4063  playlist.",.).@c
++00013da0: 6c69 636b 2e6f 7074 696f 6e28 0a20 2020  lick.option(.   
++00013db0: 2022 2d43 2f2d 6e43 222c 0a20 2020 2022   "-C/-nC",.    "
++00013dc0: 2d2d 636c 6970 732f 2d2d 6e6f 2d63 6c69  --clips/--no-cli
++00013dd0: 7073 222c 0a20 2020 2022 636c 6970 7322  ps",.    "clips"
++00013de0: 2c0a 2020 2020 6465 6661 756c 743d 4661  ,.    default=Fa
++00013df0: 6c73 652c 0a20 2020 2068 656c 703d 2253  lse,.    help="S
++00013e00: 7461 7274 2069 6e20 636c 6970 206d 6f64  tart in clip mod
++00013e10: 652e 2043 616e 2062 6520 746f 6767 6c65  e. Can be toggle
++00013e20: 6420 7769 7468 2027 6327 2e22 2c0a 290a  d with 'c'.",.).
++00013e30: 4063 6c69 636b 2e6f 7074 696f 6e28 0a20  @click.option(. 
++00013e40: 2020 2022 2d44 2f2d 6e44 222c 0a20 2020     "-D/-nD",.   
++00013e50: 2022 2d2d 6469 7363 6f72 642f 2d2d 6e6f   "--discord/--no
++00013e60: 2d64 6973 636f 7264 222c 0a20 2020 2022  -discord",.    "
++00013e70: 6469 7363 6f72 6422 2c0a 2020 2020 6465  discord",.    de
++00013e80: 6661 756c 743d 4661 6c73 652c 0a20 2020  fault=False,.   
++00013e90: 2068 656c 703d 2244 6973 636f 7264 2072   help="Discord r
++00013ea0: 6963 6820 7072 6573 656e 6365 2e20 4967  ich presence. Ig
++00013eb0: 6e6f 7265 6420 6966 2072 6571 7569 7265  nored if require
++00013ec0: 6420 6465 7065 6e64 656e 6369 6573 2061  d dependencies a
++00013ed0: 7265 206e 6f74 2069 6e73 7461 6c6c 6564  re not installed
++00013ee0: 2e20 5769 6c6c 2066 6169 6c20 7369 6c65  . Will fail sile
++00013ef0: 6e74 6c79 2061 6e64 2072 6574 7279 2065  ntly and retry e
++00013f00: 7665 7279 2074 696d 6520 7468 6520 736f  very time the so
++00013f10: 6e67 2063 6861 6e67 6573 2069 6620 4469  ng changes if Di
++00013f20: 7363 6f72 6420 636f 6e6e 6563 7469 6f6e  scord connection
++00013f30: 2066 6169 6c73 2028 652e 672e 2044 6973   fails (e.g. Dis
++00013f40: 636f 7264 206e 6f74 206f 7065 6e29 2e22  cord not open)."
++00013f50: 2c0a 290a 4063 6c69 636b 2e6f 7074 696f  ,.).@click.optio
++00013f60: 6e28 0a20 2020 2022 2d4d 2f2d 6e4d 222c  n(.    "-M/-nM",
++00013f70: 0a20 2020 2022 2d2d 6d61 7463 682d 616c  .    "--match-al
++00013f80: 6c2f 2d2d 6e6f 2d6d 6174 6368 2d61 6c6c  l/--no-match-all
++00013f90: 222c 0a20 2020 2022 6d61 7463 685f 616c  ",.    "match_al
++00013fa0: 6c22 2c0a 2020 2020 6465 6661 756c 743d  l",.    default=
++00013fb0: 4661 6c73 652c 0a20 2020 2068 656c 703d  False,.    help=
++00013fc0: 2250 6c61 7920 736f 6e67 7320 7468 6174  "Play songs that
++00013fd0: 206d 6174 6368 2061 6c6c 2074 6167 732c   match all tags,
++00013fe0: 206e 6f74 2061 6e79 2e22 2c0a 290a 4063   not any.",.).@c
++00013ff0: 6c69 636b 2e6f 7074 696f 6e28 0a20 2020  lick.option(.   
++00014000: 2022 2d56 2f2d 6e56 222c 0a20 2020 2022   "-V/-nV",.    "
++00014010: 2d2d 7669 7375 616c 697a 652f 2d2d 6e6f  --visualize/--no
++00014020: 2d76 6973 7561 6c69 7a65 222c 0a20 2020  -visualize",.   
++00014030: 2022 7669 7375 616c 697a 6522 2c0a 2020   "visualize",.  
++00014040: 2020 6465 6661 756c 743d 4661 6c73 652c    default=False,
++00014050: 0a20 2020 2068 656c 703d 2256 6973 7561  .    help="Visua
++00014060: 6c69 7a65 2074 6865 2073 6f6e 6720 6265  lize the song be
++00014070: 696e 6720 706c 6179 6564 2e20 4967 6e6f  ing played. Igno
++00014080: 7265 6420 6966 2072 6571 7569 7265 6420  red if required 
++00014090: 6465 7065 6e64 656e 6369 6573 2061 7265  dependencies are
++000140a0: 206e 6f74 2069 6e73 7461 6c6c 6564 2e22   not installed."
++000140b0: 2c0a 290a 6465 6620 706c 6179 280a 2020  ,.).def play(.  
++000140c0: 2020 7461 6773 2c0a 2020 2020 7368 7566    tags,.    shuf
++000140d0: 666c 655f 2c0a 2020 2020 7265 7665 7273  fle_,.    revers
++000140e0: 652c 0a20 2020 206f 6e6c 792c 0a20 2020  e,.    only,.   
++000140f0: 2076 6f6c 756d 652c 0a20 2020 206c 6f6f   volume,.    loo
++00014100: 702c 0a20 2020 2063 6c69 7073 2c0a 2020  p,.    clips,.  
++00014110: 2020 6469 7363 6f72 642c 0a20 2020 206d    discord,.    m
++00014120: 6174 6368 5f61 6c6c 2c0a 2020 2020 7669  atch_all,.    vi
++00014130: 7375 616c 697a 652c 0a29 3a0a 2020 2020  sualize,.):.    
++00014140: 2222 2250 6c61 7920 796f 7572 2073 6f6e  """Play your son
++00014150: 6773 2e20 4966 2074 6167 7320 6172 6520  gs. If tags are 
++00014160: 7061 7373 6564 2c20 616e 7920 736f 6e67  passed, any song
++00014170: 206d 6174 6368 696e 6720 616e 7920 7461   matching any ta
++00014180: 6720 7769 6c6c 2062 6520 696e 0a20 2020  g will be in.   
++00014190: 2079 6f75 7220 706c 6179 6c69 7374 2c20   your playlist, 
++000141a0: 756e 6c65 7373 2074 6865 2027 2d4d 2f2d  unless the '-M/-
++000141b0: 2d6d 6174 6368 2d61 6c6c 2720 666c 6167  -match-all' flag
++000141c0: 2069 7320 7061 7373 6564 2c20 696e 2077   is passed, in w
++000141d0: 6869 6368 2063 6173 650a 2020 2020 6576  hich case.    ev
++000141e0: 6572 7920 7461 6720 6d75 7374 2062 6520  ery tag must be 
++000141f0: 6d61 7463 6865 642e 0a0a 2020 2020 5c62  matched...    \b
++00014200: 0a20 2020 205c 7831 625b 316d 5350 4143  .    \x1b[1mSPAC
++00014210: 455c 7831 625b 306d 2020 746f 2070 6175  E\x1b[0m  to pau
++00014220: 7365 2f70 6c61 790a 2020 2020 5c78 3162  se/play.    \x1b
++00014230: 5b31 6d62 5c78 3162 5b30 6d20 2074 6f20  [1mb\x1b[0m  to 
++00014240: 676f 205b 625d 6163 6b20 746f 2070 7265  go [b]ack to pre
++00014250: 7669 6f75 7320 736f 6e67 0a20 2020 205c  vious song.    \
++00014260: 7831 625b 316d 725c 7831 625b 306d 2020  x1b[1mr\x1b[0m  
++00014270: 746f 205b 725d 6570 6c61 7920 736f 6e67  to [r]eplay song
++00014280: 0a20 2020 205c 7831 625b 316d 6e5c 7831  .    \x1b[1mn\x1
++00014290: 625b 306d 2020 746f 2073 6b69 7020 746f  b[0m  to skip to
++000142a0: 205b 6e5d 6578 7420 736f 6e67 0a20 2020   [n]ext song.   
++000142b0: 205c 7831 625b 316d 6c5c 7831 625b 306d   \x1b[1ml\x1b[0m
++000142c0: 2020 746f 205b 6c5d 6f6f 7020 7468 6520    to [l]oop the 
++000142d0: 6375 7272 656e 7420 736f 6e67 206f 6e63  current song onc
++000142e0: 6520 2827 6c27 2069 6e20 7374 6174 7573  e ('l' in status
++000142f0: 2062 6172 292e 2070 7265 7373 2061 6761   bar). press aga
++00014300: 696e 2074 6f20 6c6f 6f70 2069 6e66 696e  in to loop infin
++00014310: 6974 656c 7920 2827 4c27 2069 6e20 7374  itely ('L' in st
++00014320: 6174 7573 2062 6172 292e 2070 7265 7373  atus bar). press
++00014330: 206f 6e63 6520 6167 6169 6e20 746f 2074   once again to t
++00014340: 7572 6e20 6f66 6620 6c6f 6f70 696e 670a  urn off looping.
++00014350: 2020 2020 5c78 3162 5b31 6d63 5c78 3162      \x1b[1mc\x1b
++00014360: 5b30 6d20 2074 6f20 746f 6767 6c65 205b  [0m  to toggle [
++00014370: 635d 6c69 7020 6d6f 6465 0a20 2020 205c  c]lip mode.    \
++00014380: 7831 625b 316d 765c 7831 625b 306d 2020  x1b[1mv\x1b[0m  
++00014390: 746f 2074 6f67 676c 6520 5b76 5d69 7375  to toggle [v]isu
++000143a0: 616c 697a 6174 696f 6e0a 2020 2020 5c78  alization.    \x
++000143b0: 3162 5b31 6d4c 4546 545c 7831 625b 306d  1b[1mLEFT\x1b[0m
++000143c0: 2020 746f 2072 6577 696e 6420 3573 0a20    to rewind 5s. 
++000143d0: 2020 205c 7831 625b 316d 5249 4748 545c     \x1b[1mRIGHT\
++000143e0: 7831 625b 306d 2020 746f 2066 6173 7420  x1b[0m  to fast 
++000143f0: 666f 7277 6172 6420 3573 0a20 2020 205c  forward 5s.    \
++00014400: 7831 625b 316d 5b5c 7831 625b 306d 2020  x1b[1m[\x1b[0m  
++00014410: 746f 2064 6563 7265 6173 6520 766f 6c75  to decrease volu
++00014420: 6d65 0a20 2020 205c 7831 625b 316d 5d5c  me.    \x1b[1m]\
++00014430: 7831 625b 306d 2020 746f 2069 6e63 7265  x1b[0m  to incre
++00014440: 6173 6520 766f 6c75 6d65 0a20 2020 205c  ase volume.    \
++00014450: 7831 625b 316d 6d5c 7831 625b 306d 2020  x1b[1mm\x1b[0m  
++00014460: 746f 205b 6d5d 7574 652f 756e 6d75 7465  to [m]ute/unmute
++00014470: 0a20 2020 205c 7831 625b 316d 655c 7831  .    \x1b[1me\x1
++00014480: 625b 306d 2020 746f 205b 655d 6e64 2074  b[0m  to [e]nd t
++00014490: 6865 2073 6f6e 6720 706c 6179 6572 2061  he song player a
++000144a0: 6674 6572 2074 6865 2063 7572 7265 6e74  fter the current
++000144b0: 2073 6f6e 6720 6669 6e69 7368 6573 2028   song finishes (
++000144c0: 696e 6469 6361 746f 7220 696e 2073 7461  indicator in sta
++000144d0: 7475 7320 6261 722c 2027 6527 2074 6f20  tus bar, 'e' to 
++000144e0: 6361 6e63 656c 290a 2020 2020 5c78 3162  cancel).    \x1b
++000144f0: 5b31 6d71 5c78 3162 5b30 6d20 2074 6f20  [1mq\x1b[0m  to 
++00014500: 5b71 5d75 6974 2074 6865 2073 6f6e 6720  [q]uit the song 
++00014510: 706c 6179 6572 2069 6d6d 6564 6961 7465  player immediate
++00014520: 6c79 0a20 2020 205c 7831 625b 316d 5550  ly.    \x1b[1mUP
++00014530: 2f44 4f57 4e5c 7831 625b 306d 2020 746f  /DOWN\x1b[0m  to
++00014540: 2073 6372 6f6c 6c20 7468 726f 7567 6820   scroll through 
++00014550: 7468 6520 706c 6179 6c69 7374 2028 6d6f  the playlist (mo
++00014560: 7573 6520 7363 726f 6c6c 696e 6720 7368  use scrolling sh
++00014570: 6f75 6c64 2061 6c73 6f20 776f 726b 290a  ould also work).
++00014580: 2020 2020 5c78 3162 5b31 6d70 5c78 3162      \x1b[1mp\x1b
++00014590: 5b30 6d20 2074 6f20 736e 615b 705d 2062  [0m  to sna[p] b
++000145a0: 6163 6b20 746f 2074 6865 2063 7572 7265  ack to the curre
++000145b0: 6e74 6c79 2070 6c61 7969 6e67 2073 6f6e  ntly playing son
++000145c0: 670a 2020 2020 5c78 3162 5b31 6d67 5c78  g.    \x1b[1mg\x
++000145d0: 3162 5b30 6d20 2074 6f20 676f 2074 6f20  1b[0m  to go to 
++000145e0: 7468 6520 6e65 7874 2070 615b 675d 652f  the next pa[g]e/
++000145f0: 6c6f 6f70 206f 6620 7468 6520 706c 6179  loop of the play
++00014600: 6c69 7374 2028 6967 6e6f 7265 6420 6966  list (ignored if
++00014610: 206e 6f74 2072 6570 6561 7469 6e67 2070   not repeating p
++00014620: 6c61 796c 6973 7429 0a20 2020 205c 7831  laylist).    \x1
++00014630: 625b 316d 4241 434b 5350 4143 452f 4445  b[1mBACKSPACE/DE
++00014640: 4c45 5445 5c78 3162 5b30 6d20 2064 656c  LETE\x1b[0m  del
++00014650: 6574 6520 7468 6520 7365 6c65 6374 6564  ete the selected
++00014660: 2028 6e6f 7420 6e65 6365 7373 6172 696c   (not necessaril
++00014670: 7920 6375 7272 656e 746c 7920 706c 6179  y currently play
++00014680: 696e 6721 2920 736f 6e67 2066 726f 6d20  ing!) song from 
++00014690: 7468 6520 7175 6575 650a 2020 2020 5c78  the queue.    \x
++000146a0: 3162 5b31 6d64 5c78 3162 5b30 6d20 2074  1b[1md\x1b[0m  t
++000146b0: 6f20 746f 6767 6c65 205b 445d 6973 636f  o toggle [D]isco
++000146c0: 7264 2072 6963 6820 7072 6573 656e 6365  rd rich presence
++000146d0: 0a20 2020 205c 7831 625b 316d 615c 7831  .    \x1b[1ma\x1
++000146e0: 625b 306d 2020 746f 2061 6464 2061 2073  b[0m  to add a s
++000146f0: 6f6e 6720 2862 7920 4944 2920 746f 2074  ong (by ID) to t
++00014700: 6865 2065 6e64 206f 6620 7468 6520 706c  he end of the pl
++00014710: 6179 6c69 7374 2e20 4f70 656e 7320 6120  aylist. Opens a 
++00014720: 7072 6f6d 7074 2074 6f20 656e 7465 7220  prompt to enter 
++00014730: 7468 6520 4944 3a20 454e 5445 5220 746f  the ID: ENTER to
++00014740: 2063 6f6e 6669 726d 2c20 4553 4320 746f   confirm, ESC to
++00014750: 2063 616e 6365 6c2e 0a20 2020 205c 7831   cancel..    \x1
++00014760: 625b 316d 695c 7831 625b 306d 2020 746f  b[1mi\x1b[0m  to
++00014770: 2069 6e73 6572 7420 6120 736f 6e67 2028   insert a song (
++00014780: 6279 2049 4429 2069 6e20 7468 6520 706c  by ID) in the pl
++00014790: 6179 6c69 7374 2061 6674 6572 2074 6865  aylist after the
++000147a0: 2073 656c 6563 7465 6420 736f 6e67 2e20   selected song. 
++000147b0: 4f70 656e 7320 6120 7072 6f6d 7074 206c  Opens a prompt l
++000147c0: 696b 6520 2761 272e 0a20 2020 205c 7831  ike 'a'..    \x1
++000147d0: 625b 316d 745c 7831 625b 306d 2020 746f  b[1mt\x1b[0m  to
++000147e0: 2061 6464 2061 2074 6167 2074 6f20 616c   add a tag to al
++000147f0: 6c20 736f 6e67 7320 696e 2074 6865 2070  l songs in the p
++00014800: 6c61 796c 6973 742e 204f 7065 6e73 2061  laylist. Opens a
++00014810: 2070 726f 6d70 7420 746f 2065 6e74 6572   prompt to enter
++00014820: 2074 6865 2074 6167 3a20 454e 5445 5220   the tag: ENTER 
++00014830: 746f 2063 6f6e 6669 726d 2c20 4553 4320  to confirm, ESC 
++00014840: 746f 2063 616e 6365 6c2e 0a0a 2020 2020  to cancel...    
++00014850: 5c62 0a20 2020 2073 6f6e 6720 636f 6c6f  \b.    song colo
++00014860: 7220 696e 6469 6361 7465 7320 6d6f 6465  r indicates mode
++00014870: 3a0a 2020 2020 2020 2020 5c78 3162 5b31  :.        \x1b[1
++00014880: 3b33 346d 626c 7565 5c78 3162 5b30 6d20  ;34mblue\x1b[0m 
++00014890: 2020 2020 6e6f 726d 616c 0a20 2020 2020      normal.     
++000148a0: 2020 205c 7831 625b 313b 3333 6d79 656c     \x1b[1;33myel
++000148b0: 6c6f 775c 7831 625b 306d 2020 206c 6f6f  low\x1b[0m   loo
++000148c0: 7069 6e67 2063 7572 7265 6e74 2073 6f6e  ping current son
++000148d0: 6720 286f 6e63 6520 6f72 2072 6570 6561  g (once or repea
++000148e0: 7465 646c 7929 0a0a 2020 2020 5c62 0a20  tedly)..    \b. 
++000148f0: 2020 2070 726f 6772 6573 7320 6261 7220     progress bar 
++00014900: 636f 6c6f 7220 696e 6469 6361 7465 7320  color indicates 
++00014910: 7374 6174 7573 3a0a 2020 2020 2020 2020  status:.        
++00014920: 5c78 3162 5b31 3b33 336d 7965 6c6c 6f77  \x1b[1;33myellow
++00014930: 5c78 3162 5b30 6d20 2020 6e6f 726d 616c  \x1b[0m   normal
++00014940: 2028 6f72 2063 7572 7265 6e74 2073 6f6e   (or current son
++00014950: 6720 646f 6573 6e27 7420 6861 7665 2061  g doesn't have a
++00014960: 2063 6c69 7029 0a20 2020 2020 2020 205c   clip).        \
++00014970: 7831 625b 313b 3335 6d6d 6167 656e 7461  x1b[1;35mmagenta
++00014980: 5c78 3162 5b30 6d20 2070 6c61 7969 6e67  \x1b[0m  playing
++00014990: 2063 6c69 700a 0a20 2020 2046 6f72 2074   clip..    For t
++000149a0: 6865 2063 6f6c 6f72 2076 6973 696f 6e20  he color vision 
++000149b0: 6465 6669 6369 656e 742c 2062 6f74 6820  deficient, both 
++000149c0: 6d6f 6465 7320 616c 736f 2068 6176 6520  modes also have 
++000149d0: 696e 6469 6361 746f 7273 2069 6e20 7468  indicators in th
++000149e0: 6520 7374 6174 7573 2062 6172 2e0a 2020  e status bar..  
++000149f0: 2020 2222 220a 2020 2020 706c 6179 6c69    """.    playli
++00014a00: 7374 203d 205b 5d0a 2020 2020 736f 6e67  st = [].    song
++00014a10: 735f 6e6f 745f 666f 756e 6420 3d20 5b5d  s_not_found = []
++00014a20: 0a0a 2020 2020 6966 206f 6e6c 793a 0a20  ..    if only:. 
++00014a30: 2020 2020 2020 206f 6e6c 7920 3d20 7365         only = se
++00014a40: 7428 6f6e 6c79 290a 2020 2020 2020 2020  t(only).        
++00014a50: 7769 7468 206f 7065 6e28 636f 6e66 6967  with open(config
++00014a60: 2e53 4f4e 4753 5f49 4e46 4f5f 5041 5448  .SONGS_INFO_PATH
++00014a70: 2c20 2272 222c 2065 6e63 6f64 696e 673d  , "r", encoding=
++00014a80: 2275 7466 2d38 2229 2061 7320 736f 6e67  "utf-8") as song
++00014a90: 735f 6669 6c65 3a0a 2020 2020 2020 2020  s_file:.        
++00014aa0: 2020 2020 666f 7220 6c69 6e65 2069 6e20      for line in 
++00014ab0: 736f 6e67 735f 6669 6c65 3a0a 2020 2020  songs_file:.    
++00014ac0: 2020 2020 2020 2020 2020 2020 6465 7461              deta
++00014ad0: 696c 7320 3d20 6c69 6e65 2e73 7472 6970  ils = line.strip
++00014ae0: 2829 2e73 706c 6974 2822 7c22 290a 2020  ().split("|").  
++00014af0: 2020 2020 2020 2020 2020 2020 2020 736f                so
++00014b00: 6e67 5f69 6420 3d20 696e 7428 6465 7461  ng_id = int(deta
++00014b10: 696c 735b 305d 290a 2020 2020 2020 2020  ils[0]).        
++00014b20: 2020 2020 2020 2020 6966 206e 6f74 206f          if not o
++00014b30: 732e 7061 7468 2e65 7869 7374 7328 6f73  s.path.exists(os
++00014b40: 2e70 6174 682e 6a6f 696e 2863 6f6e 6669  .path.join(confi
++00014b50: 672e 534f 4e47 535f 4449 522c 2064 6574  g.SONGS_DIR, det
++00014b60: 6169 6c73 5b31 5d29 293a 0a20 2020 2020  ails[1])):.     
++00014b70: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00014b80: 6f6e 6773 5f6e 6f74 5f66 6f75 6e64 2e61  ongs_not_found.a
++00014b90: 7070 656e 6428 6465 7461 696c 7329 0a20  ppend(details). 
++00014ba0: 2020 2020 2020 2020 2020 2020 2020 2065                 e
++00014bb0: 6c69 6620 736f 6e67 5f69 6420 696e 206f  lif song_id in o
++00014bc0: 6e6c 793a 0a20 2020 2020 2020 2020 2020  nly:.           
++00014bd0: 2020 2020 2020 2020 2070 6c61 796c 6973           playlis
++00014be0: 742e 6170 7065 6e64 2864 6574 6169 6c73  t.append(details
++00014bf0: 290a 0a20 2020 2020 2020 2069 6620 6e6f  )..        if no
++00014c00: 7420 706c 6179 6c69 7374 3a0a 2020 2020  t playlist:.    
++00014c10: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
++00014c20: 6368 6f28 224e 6f20 736f 6e67 7320 666f  cho("No songs fo
++00014c30: 756e 6420 7769 7468 2074 6865 2067 6976  und with the giv
++00014c40: 656e 2049 4473 2e22 2c20 6667 3d22 7265  en IDs.", fg="re
++00014c50: 6422 290a 2020 2020 2020 2020 2020 2020  d").            
++00014c60: 7265 7475 726e 0a20 2020 2065 6c73 653a  return.    else:
++00014c70: 0a20 2020 2020 2020 2069 6620 6e6f 7420  .        if not 
++00014c80: 7461 6773 3a0a 2020 2020 2020 2020 2020  tags:.          
++00014c90: 2020 7769 7468 206f 7065 6e28 636f 6e66    with open(conf
++00014ca0: 6967 2e53 4f4e 4753 5f49 4e46 4f5f 5041  ig.SONGS_INFO_PA
++00014cb0: 5448 2c20 2272 222c 2065 6e63 6f64 696e  TH, "r", encodin
++00014cc0: 673d 2275 7466 2d38 2229 2061 7320 736f  g="utf-8") as so
++00014cd0: 6e67 735f 6669 6c65 3a0a 2020 2020 2020  ngs_file:.      
++00014ce0: 2020 2020 2020 2020 2020 666f 7220 6c69            for li
++00014cf0: 6e65 2069 6e20 736f 6e67 735f 6669 6c65  ne in songs_file
++00014d00: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++00014d10: 2020 2020 2020 6465 7461 696c 7320 3d20        details = 
++00014d20: 6c69 6e65 2e73 7472 6970 2829 2e73 706c  line.strip().spl
++00014d30: 6974 2822 7c22 290a 2020 2020 2020 2020  it("|").        
++00014d40: 2020 2020 2020 2020 2020 2020 6966 206e              if n
++00014d50: 6f74 206f 732e 7061 7468 2e65 7869 7374  ot os.path.exist
++00014d60: 7328 6f73 2e70 6174 682e 6a6f 696e 2863  s(os.path.join(c
++00014d70: 6f6e 6669 672e 534f 4e47 535f 4449 522c  onfig.SONGS_DIR,
++00014d80: 2064 6574 6169 6c73 5b31 5d29 293a 0a20   details[1])):. 
++00014d90: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014da0: 2020 2020 2020 2073 6f6e 6773 5f6e 6f74         songs_not
++00014db0: 5f66 6f75 6e64 2e61 7070 656e 6428 6465  _found.append(de
++00014dc0: 7461 696c 7329 0a20 2020 2020 2020 2020  tails).         
++00014dd0: 2020 2020 2020 2020 2020 2065 6c73 653a             else:
++00014de0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00014df0: 2020 2020 2020 2020 2070 6c61 796c 6973           playlis
++00014e00: 742e 6170 7065 6e64 2864 6574 6169 6c73  t.append(details
++00014e10: 290a 2020 2020 2020 2020 656c 7365 3a0a  ).        else:.
++00014e20: 2020 2020 2020 2020 2020 2020 7461 6773              tags
++00014e30: 203d 2073 6574 2874 6167 7329 0a20 2020   = set(tags).   
++00014e40: 2020 2020 2020 2020 2077 6974 6820 6f70           with op
++00014e50: 656e 2863 6f6e 6669 672e 534f 4e47 535f  en(config.SONGS_
++00014e60: 494e 464f 5f50 4154 482c 2022 7222 2c20  INFO_PATH, "r", 
++00014e70: 656e 636f 6469 6e67 3d22 7574 662d 3822  encoding="utf-8"
++00014e80: 2920 6173 2073 6f6e 6773 5f66 696c 653a  ) as songs_file:
++00014e90: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00014ea0: 2066 6f72 206c 696e 6520 696e 2073 6f6e   for line in son
++00014eb0: 6773 5f66 696c 653a 0a20 2020 2020 2020  gs_file:.       
++00014ec0: 2020 2020 2020 2020 2020 2020 2064 6574               det
++00014ed0: 6169 6c73 203d 206c 696e 652e 7374 7269  ails = line.stri
++00014ee0: 7028 292e 7370 6c69 7428 227c 2229 0a20  p().split("|"). 
++00014ef0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014f00: 2020 2073 6f6e 675f 7461 6773 203d 2073     song_tags = s
++00014f10: 6574 2864 6574 6169 6c73 5b32 5d2e 7370  et(details[2].sp
++00014f20: 6c69 7428 222c 2229 290a 2020 2020 2020  lit(",")).      
++00014f30: 2020 2020 2020 2020 2020 2020 2020 6966                if
++00014f40: 206e 6f74 206f 732e 7061 7468 2e65 7869   not os.path.exi
++00014f50: 7374 7328 6f73 2e70 6174 682e 6a6f 696e  sts(os.path.join
++00014f60: 2863 6f6e 6669 672e 534f 4e47 535f 4449  (config.SONGS_DI
++00014f70: 522c 2064 6574 6169 6c73 5b31 5d29 293a  R, details[1])):
++00014f80: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00014f90: 2020 2020 2020 2020 2073 6f6e 6773 5f6e           songs_n
++00014fa0: 6f74 5f66 6f75 6e64 2e61 7070 656e 6428  ot_found.append(
++00014fb0: 6465 7461 696c 7329 0a20 2020 2020 2020  details).       
++00014fc0: 2020 2020 2020 2020 2020 2020 2065 6c73               els
++00014fd0: 653a 0a20 2020 2020 2020 2020 2020 2020  e:.             
++00014fe0: 2020 2020 2020 2020 2020 2069 6620 6e6f             if no
++00014ff0: 7420 6d61 7463 685f 616c 6c3a 0a20 2020  t match_all:.   
++00015000: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015010: 2020 2020 2020 2020 2069 6620 7461 6773           if tags
++00015020: 2026 2073 6f6e 675f 7461 6773 3a20 2023   & song_tags:  #
++00015030: 2069 6e74 6572 7365 6374 696f 6e0a 2020   intersection.  
++00015040: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015050: 2020 2020 2020 2020 2020 2020 2020 706c                pl
++00015060: 6179 6c69 7374 2e61 7070 656e 6428 6465  aylist.append(de
++00015070: 7461 696c 7329 0a20 2020 2020 2020 2020  tails).         
++00015080: 2020 2020 2020 2020 2020 2020 2020 2065                 e
++00015090: 6c73 653a 0a20 2020 2020 2020 2020 2020  lse:.           
++000150a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000150b0: 2069 6620 7461 6773 203c 3d20 736f 6e67   if tags <= song
++000150c0: 5f74 6167 733a 2020 2320 7375 6273 6574  _tags:  # subset
++000150d0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000150e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000150f0: 2070 6c61 796c 6973 742e 6170 7065 6e64   playlist.append
++00015100: 2864 6574 6169 6c73 290a 0a20 2020 2066  (details)..    f
++00015110: 6f72 2064 6574 6169 6c73 2069 6e20 706c  or details in pl
++00015120: 6179 6c69 7374 3a0a 2020 2020 2020 2020  aylist:.        
++00015130: 736f 6e67 5f64 6174 6120 3d20 6d75 7369  song_data = musi
++00015140: 635f 7461 672e 6c6f 6164 5f66 696c 6528  c_tag.load_file(
++00015150: 6f73 2e70 6174 682e 6a6f 696e 2863 6f6e  os.path.join(con
++00015160: 6669 672e 534f 4e47 535f 4449 522c 2064  fig.SONGS_DIR, d
++00015170: 6574 6169 6c73 5b31 5d29 290a 2020 2020  etails[1])).    
++00015180: 2020 2020 6465 7461 696c 7320 2b3d 205b      details += [
++00015190: 0a20 2020 2020 2020 2020 2020 2028 736f  .            (so
++000151a0: 6e67 5f64 6174 615b 2261 7274 6973 7422  ng_data["artist"
++000151b0: 5d2e 7661 6c75 6520 6f72 2022 556e 6b6e  ].value or "Unkn
++000151c0: 6f77 6e20 4172 7469 7374 2229 2c0a 2020  own Artist"),.  
++000151d0: 2020 2020 2020 2020 2020 2873 6f6e 675f            (song_
++000151e0: 6461 7461 5b22 616c 6275 6d22 5d2e 7661  data["album"].va
++000151f0: 6c75 6520 6f72 2022 556e 6b6e 6f77 6e20  lue or "Unknown 
++00015200: 416c 6275 6d22 292c 0a20 2020 2020 2020  Album"),.       
++00015210: 2020 2020 2028 736f 6e67 5f64 6174 615b       (song_data[
++00015220: 2261 6c62 756d 6172 7469 7374 225d 2e76  "albumartist"].v
++00015230: 616c 7565 206f 7220 2255 6e6b 6e6f 776e  alue or "Unknown
++00015240: 2041 6c62 756d 2041 7274 6973 7422 292c   Album Artist"),
++00015250: 0a20 2020 2020 2020 205d 0a0a 2020 2020  .        ]..    
++00015260: 6966 2073 6875 6666 6c65 5f20 3d3d 2030  if shuffle_ == 0
+ 00015270: 3a0a 2020 2020 2020 2020 7368 7566 666c  :.        shuffl
+-00015280: 6528 706c 6179 6c69 7374 290a 2020 2020  e(playlist).    
+-00015290: 656c 6966 2072 6576 6572 7365 3a0a 2020  elif reverse:.  
+-000152a0: 2020 2020 2020 706c 6179 6c69 7374 2e72        playlist.r
+-000152b0: 6576 6572 7365 2829 0a0a 2020 2020 6966  everse()..    if
+-000152c0: 206e 6f74 2070 6c61 796c 6973 743a 0a20   not playlist:. 
+-000152d0: 2020 2020 2020 2063 6c69 636b 2e73 6563         click.sec
+-000152e0: 686f 2822 4e6f 2073 6f6e 6773 2066 6f75  ho("No songs fou
+-000152f0: 6e64 206d 6174 6368 696e 6720 7461 6720  nd matching tag 
+-00015300: 6372 6974 6572 6961 2e22 2c20 6667 3d22  criteria.", fg="
+-00015310: 7265 6422 290a 2020 2020 656c 7365 3a0a  red").    else:.
+-00015320: 2020 2020 2020 2020 766f 6c75 6d65 202f          volume /
+-00015330: 3d20 3130 300a 2020 2020 2020 2020 6375  = 100.        cu
+-00015340: 7273 6573 2e77 7261 7070 6572 280a 2020  rses.wrapper(.  
+-00015350: 2020 2020 2020 2020 2020 5f70 6c61 792c            _play,
+-00015360: 0a20 2020 2020 2020 2020 2020 2070 6c61  .            pla
+-00015370: 796c 6973 742c 0a20 2020 2020 2020 2020  ylist,.         
+-00015380: 2020 2076 6f6c 756d 652c 0a20 2020 2020     volume,.     
+-00015390: 2020 2020 2020 206c 6f6f 702c 0a20 2020         loop,.   
+-000153a0: 2020 2020 2020 2020 2063 6c69 7073 2c0a           clips,.
+-000153b0: 2020 2020 2020 2020 2020 2020 7265 7368              resh
+-000153c0: 7566 666c 652c 0a20 2020 2020 2020 2020  uffle,.         
+-000153d0: 2020 2064 6973 636f 7264 2061 6e64 2063     discord and c
+-000153e0: 616e 5f75 7064 6174 655f 6469 7363 6f72  an_update_discor
+-000153f0: 642c 0a20 2020 2020 2020 2020 2020 2076  d,.            v
+-00015400: 6973 7561 6c69 7a65 2c0a 2020 2020 2020  isualize,.      
+-00015410: 2020 290a 0a20 2020 2069 6620 736f 6e67    )..    if song
+-00015420: 735f 6e6f 745f 666f 756e 643a 0a20 2020  s_not_found:.   
+-00015430: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
+-00015440: 2822 536f 6e67 2066 696c 6573 206e 6f74  ("Song files not
+-00015450: 2066 6f75 6e64 3a22 2c20 6667 3d22 7265   found:", fg="re
+-00015460: 6422 290a 2020 2020 2020 2020 666f 7220  d").        for 
+-00015470: 6465 7461 696c 7320 696e 2073 6f6e 6773  details in songs
+-00015480: 5f6e 6f74 5f66 6f75 6e64 3a0a 2020 2020  _not_found:.    
+-00015490: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
+-000154a0: 6368 6f28 6622 5c74 7b64 6574 6169 6c73  cho(f"\t{details
+-000154b0: 5b31 5d7d 2028 4944 207b 6465 7461 696c  [1]} (ID {detail
+-000154c0: 735b 305d 7d29 222c 2066 673d 2272 6564  s[0]})", fg="red
+-000154d0: 2229 0a0a 0a40 636c 692e 636f 6d6d 616e  ")...@cli.comman
+-000154e0: 6428 290a 4063 6c69 636b 2e6f 7074 696f  d().@click.optio
+-000154f0: 6e28 0a20 2020 2022 2d54 2f2d 6e54 222c  n(.    "-T/-nT",
+-00015500: 0a20 2020 2022 2d2d 7461 672f 2d2d 6e6f  .    "--tag/--no
+-00015510: 2d74 6167 222c 0a20 2020 2022 7265 6e61  -tag",.    "rena
+-00015520: 6d69 6e67 5f74 6167 222c 0a20 2020 2064  ming_tag",.    d
+-00015530: 6566 6175 6c74 3d46 616c 7365 2c0a 2020  efault=False,.  
+-00015540: 2020 6865 6c70 3d22 4966 2070 6173 7365    help="If passe
+-00015550: 642c 2072 656e 616d 6520 7461 6720 696e  d, rename tag in
+-00015560: 7374 6561 6420 6f66 2073 6f6e 6720 2874  stead of song (t
+-00015570: 7265 6174 2074 6865 2061 7267 756d 656e  reat the argumen
+-00015580: 7473 2061 7320 7461 6773 292e 222c 0a29  ts as tags).",.)
+-00015590: 0a40 636c 6963 6b2e 6172 6775 6d65 6e74  .@click.argument
+-000155a0: 2822 6f72 6967 696e 616c 2229 0a40 636c  ("original").@cl
+-000155b0: 6963 6b2e 6172 6775 6d65 6e74 2822 6e65  ick.argument("ne
+-000155c0: 775f 6e61 6d65 2229 0a64 6566 2072 656e  w_name").def ren
+-000155d0: 616d 6528 6f72 6967 696e 616c 2c20 6e65  ame(original, ne
+-000155e0: 775f 6e61 6d65 2c20 7265 6e61 6d69 6e67  w_name, renaming
+-000155f0: 5f74 6167 293a 0a20 2020 2022 2222 0a20  _tag):.    """. 
+-00015600: 2020 2052 656e 616d 6520 6120 736f 6e67     Rename a song
+-00015610: 2e0a 0a20 2020 2052 656e 616d 6573 2074  ...    Renames t
+-00015620: 6865 2073 6f6e 6720 7769 7468 2074 6865  he song with the
+-00015630: 2049 4420 4f52 4947 494e 414c 2074 6f20   ID ORIGINAL to 
+-00015640: 4e45 575f 4e41 4d45 2e20 5468 6520 6578  NEW_NAME. The ex
+-00015650: 7465 6e73 696f 6e20 6f66 2074 6865 0a20  tension of the. 
+-00015660: 2020 2073 6f6e 6720 2865 2e67 2e20 272e     song (e.g. '.
+-00015670: 7761 7627 2c20 272e 6d70 3327 2920 6973  wav', '.mp3') is
+-00015680: 2070 7265 7365 7276 6564 e280 9464 6f20   preserved...do 
+-00015690: 6e6f 7420 696e 636c 7564 6520 6974 2069  not include it i
+-000156a0: 6e20 7468 6520 6e61 6d65 2e0a 0a20 2020  n the name...   
+-000156b0: 2049 6620 7468 6520 272d 542f 2d2d 7461   If the '-T/--ta
+-000156c0: 6727 2066 6c61 6720 6973 2070 6173 7365  g' flag is passe
+-000156d0: 642c 2074 7265 6174 7320 4f52 4947 494e  d, treats ORIGIN
+-000156e0: 414c 2061 7320 6120 7461 672c 2072 656e  AL as a tag, ren
+-000156f0: 616d 696e 6720 616c 6c0a 2020 2020 6f63  aming all.    oc
+-00015700: 7572 7265 6e63 6573 206f 6620 6974 2074  urrences of it t
+-00015710: 6f20 4e45 575f 4e41 4d45 e280 9464 6f65  o NEW_NAME...doe
+-00015720: 736e 2774 2063 6865 636b 2069 6620 7468  sn't check if th
+-00015730: 6520 7461 6720 4e45 575f 4e41 4d45 2061  e tag NEW_NAME a
+-00015740: 6c72 6561 6479 2c0a 2020 2020 6578 6973  lready,.    exis
+-00015750: 7473 2c20 736f 2062 6520 6361 7265 6675  ts, so be carefu
+-00015760: 6c21 0a20 2020 2022 2222 0a20 2020 2073  l!.    """.    s
+-00015770: 6f6e 6773 5f66 696c 6520 3d20 6f70 656e  ongs_file = open
+-00015780: 2863 6f6e 6669 672e 534f 4e47 535f 494e  (config.SONGS_IN
+-00015790: 464f 5f50 4154 482c 2022 7222 2c20 656e  FO_PATH, "r", en
+-000157a0: 636f 6469 6e67 3d22 7574 662d 3822 290a  coding="utf-8").
+-000157b0: 2020 2020 6c69 6e65 7320 3d20 736f 6e67      lines = song
+-000157c0: 735f 6669 6c65 2e72 6561 6428 292e 7370  s_file.read().sp
+-000157d0: 6c69 746c 696e 6573 2829 0a20 2020 2069  litlines().    i
+-000157e0: 6620 6e6f 7420 7265 6e61 6d69 6e67 5f74  f not renaming_t
+-000157f0: 6167 3a0a 2020 2020 2020 2020 6966 206e  ag:.        if n
+-00015800: 6f74 206f 7269 6769 6e61 6c2e 6973 6e75  ot original.isnu
+-00015810: 6d65 7269 6328 293a 0a20 2020 2020 2020  meric():.       
+-00015820: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
+-00015830: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-00015840: 2020 2253 6f6e 6720 4944 206d 7573 7420    "Song ID must 
+-00015850: 6265 2061 6e20 696e 7465 6765 722e 2054  be an integer. T
+-00015860: 6f20 7265 6e61 6d65 2061 2074 6167 2c20  o rename a tag, 
+-00015870: 7061 7373 2074 6865 2027 2d54 2f2d 2d74  pass the '-T/--t
+-00015880: 6167 2720 666c 6167 2e22 2c0a 2020 2020  ag' flag.",.    
+-00015890: 2020 2020 2020 2020 2020 2020 6667 3d22              fg="
+-000158a0: 7265 6422 2c0a 2020 2020 2020 2020 2020  red",.          
+-000158b0: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
+-000158c0: 7265 7475 726e 0a0a 2020 2020 2020 2020  return..        
+-000158d0: 666f 7220 6920 696e 2072 616e 6765 286c  for i in range(l
+-000158e0: 656e 286c 696e 6573 2929 3a0a 2020 2020  en(lines)):.    
+-000158f0: 2020 2020 2020 2020 6465 7461 696c 7320          details 
+-00015900: 3d20 6c69 6e65 735b 695d 2e73 7472 6970  = lines[i].strip
+-00015910: 2829 2e73 706c 6974 2822 7c22 290a 2020  ().split("|").  
+-00015920: 2020 2020 2020 2020 2020 6966 206f 732e            if os.
+-00015930: 7061 7468 2e73 706c 6974 6578 7428 6465  path.splitext(de
+-00015940: 7461 696c 735b 315d 295b 305d 203d 3d20  tails[1])[0] == 
+-00015950: 6e65 775f 6e61 6d65 3a0a 2020 2020 2020  new_name:.      
+-00015960: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
+-00015970: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
+-00015980: 2020 2020 2020 2020 2020 2066 2241 2073             f"A s
+-00015990: 6f6e 6720 7769 7468 2074 6865 206e 616d  ong with the nam
+-000159a0: 6520 277b 6e65 775f 6e61 6d65 7d27 2061  e '{new_name}' a
+-000159b0: 6c72 6561 6479 2065 7869 7374 732e 2050  lready exists. P
+-000159c0: 6c65 6173 6520 6368 6f6f 7365 2061 6e6f  lease choose ano
+-000159d0: 7468 6572 206e 616d 652e 222c 0a20 2020  ther name.",.   
+-000159e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000159f0: 2066 673d 2272 6564 222c 0a20 2020 2020   fg="red",.     
+-00015a00: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
+-00015a10: 2020 2020 2020 2020 2020 2020 2072 6574               ret
+-00015a20: 7572 6e0a 0a20 2020 2020 2020 206f 7269  urn..        ori
+-00015a30: 6769 6e61 6c20 3d20 696e 7428 6f72 6967  ginal = int(orig
+-00015a40: 696e 616c 290a 2020 2020 2020 2020 666f  inal).        fo
+-00015a50: 7220 6920 696e 2072 616e 6765 286c 656e  r i in range(len
+-00015a60: 286c 696e 6573 2929 3a0a 2020 2020 2020  (lines)):.      
+-00015a70: 2020 2020 2020 6465 7461 696c 7320 3d20        details = 
+-00015a80: 6c69 6e65 735b 695d 2e73 7472 6970 2829  lines[i].strip()
+-00015a90: 2e73 706c 6974 2822 7c22 290a 2020 2020  .split("|").    
+-00015aa0: 2020 2020 2020 2020 6966 2069 6e74 2864          if int(d
+-00015ab0: 6574 6169 6c73 5b30 5d29 203d 3d20 6f72  etails[0]) == or
+-00015ac0: 6967 696e 616c 3a0a 2020 2020 2020 2020  iginal:.        
+-00015ad0: 2020 2020 2020 2020 6f6c 645f 7061 7468          old_path
+-00015ae0: 203d 2064 6574 6169 6c73 5b31 5d0a 2020   = details[1].  
+-00015af0: 2020 2020 2020 2020 2020 2020 2020 6465                de
+-00015b00: 7461 696c 735b 315d 203d 206e 6577 5f6e  tails[1] = new_n
+-00015b10: 616d 6520 2b20 6f73 2e70 6174 682e 7370  ame + os.path.sp
+-00015b20: 6c69 7465 7874 286f 6c64 5f70 6174 6829  litext(old_path)
+-00015b30: 5b31 5d0a 0a20 2020 2020 2020 2020 2020  [1]..           
+-00015b40: 2020 2020 2066 756c 6c5f 736f 6e67 5f70       full_song_p
+-00015b50: 6174 6820 3d20 6f73 2e70 6174 682e 6a6f  ath = os.path.jo
+-00015b60: 696e 2863 6f6e 6669 672e 534f 4e47 535f  in(config.SONGS_
+-00015b70: 4449 522c 206f 6c64 5f70 6174 6829 0a20  DIR, old_path). 
+-00015b80: 2020 2020 2020 2020 2020 2020 2020 2069                 i
+-00015b90: 6620 6e6f 7420 6f73 2e70 6174 682e 6578  f not os.path.ex
+-00015ba0: 6973 7473 2866 756c 6c5f 736f 6e67 5f70  ists(full_song_p
+-00015bb0: 6174 6829 3a0a 2020 2020 2020 2020 2020  ath):.          
+-00015bc0: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
+-00015bd0: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
+-00015be0: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-00015bf0: 2253 6f6e 6720 6669 6c65 2027 7b6f 6c64  "Song file '{old
+-00015c00: 5f70 6174 687d 2720 2849 4420 7b6f 7269  _path}' (ID {ori
+-00015c10: 6769 6e61 6c7d 2920 6e6f 7420 666f 756e  ginal}) not foun
+-00015c20: 642e 222c 0a20 2020 2020 2020 2020 2020  d.",.           
+-00015c30: 2020 2020 2020 2020 2020 2020 2066 673d               fg=
+-00015c40: 2272 6564 222c 0a20 2020 2020 2020 2020  "red",.         
+-00015c50: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
+-00015c60: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00015c70: 2072 6574 7572 6e0a 0a20 2020 2020 2020   return..       
+-00015c80: 2020 2020 2020 2020 206c 696e 6573 5b69           lines[i
+-00015c90: 5d20 3d20 227c 222e 6a6f 696e 2864 6574  ] = "|".join(det
+-00015ca0: 6169 6c73 290a 2020 2020 2020 2020 2020  ails).          
+-00015cb0: 2020 2020 2020 736f 6e67 735f 6669 6c65        songs_file
+-00015cc0: 2e63 6c6f 7365 2829 0a20 2020 2020 2020  .close().       
+-00015cd0: 2020 2020 2020 2020 2073 6f6e 6773 5f66           songs_f
+-00015ce0: 696c 6520 3d20 6f70 656e 2863 6f6e 6669  ile = open(confi
+-00015cf0: 672e 534f 4e47 535f 494e 464f 5f50 4154  g.SONGS_INFO_PAT
+-00015d00: 482c 2022 7722 2c20 656e 636f 6469 6e67  H, "w", encoding
+-00015d10: 3d22 7574 662d 3822 290a 2020 2020 2020  ="utf-8").      
+-00015d20: 2020 2020 2020 2020 2020 736f 6e67 735f            songs_
+-00015d30: 6669 6c65 2e77 7269 7465 2822 5c6e 222e  file.write("\n".
+-00015d40: 6a6f 696e 286c 696e 6573 2929 0a0a 2020  join(lines))..  
+-00015d50: 2020 2020 2020 2020 2020 2020 2020 6f73                os
+-00015d60: 2e72 656e 616d 6528 0a20 2020 2020 2020  .rename(.       
+-00015d70: 2020 2020 2020 2020 2020 2020 206f 732e               os.
+-00015d80: 7061 7468 2e6a 6f69 6e28 636f 6e66 6967  path.join(config
+-00015d90: 2e53 4f4e 4753 5f44 4952 2c20 6f6c 645f  .SONGS_DIR, old_
+-00015da0: 7061 7468 292c 0a20 2020 2020 2020 2020  path),.         
+-00015db0: 2020 2020 2020 2020 2020 206f 732e 7061             os.pa
+-00015dc0: 7468 2e6a 6f69 6e28 636f 6e66 6967 2e53  th.join(config.S
+-00015dd0: 4f4e 4753 5f44 4952 2c20 6465 7461 696c  ONGS_DIR, detail
+-00015de0: 735b 315d 292c 0a20 2020 2020 2020 2020  s[1]),.         
+-00015df0: 2020 2020 2020 2029 0a0a 2020 2020 2020         )..      
+-00015e00: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
+-00015e10: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
+-00015e20: 2020 2020 2020 2020 2020 2066 2252 656e             f"Ren
+-00015e30: 616d 6564 2073 6f6e 6720 277b 6f6c 645f  amed song '{old_
+-00015e40: 7061 7468 7d27 2077 6974 6820 4944 207b  path}' with ID {
+-00015e50: 6f72 6967 696e 616c 7d20 746f 2027 7b64  original} to '{d
+-00015e60: 6574 6169 6c73 5b31 5d7d 272e 222c 0a20  etails[1]}'.",. 
+-00015e70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00015e80: 2020 2066 673d 2267 7265 656e 222c 0a20     fg="green",. 
+-00015e90: 2020 2020 2020 2020 2020 2020 2020 2029                 )
+-00015ea0: 0a0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00015eb0: 2020 6272 6561 6b0a 2020 2020 2020 2020    break.        
+-00015ec0: 656c 7365 3a0a 2020 2020 2020 2020 2020  else:.          
+-00015ed0: 2020 636c 6963 6b2e 7365 6368 6f28 6622    click.secho(f"
+-00015ee0: 536f 6e67 2077 6974 6820 4944 207b 6f72  Song with ID {or
+-00015ef0: 6967 696e 616c 7d20 6e6f 7420 666f 756e  iginal} not foun
+-00015f00: 642e 222c 2066 673d 2272 6564 2229 0a20  d.", fg="red"). 
+-00015f10: 2020 2020 2020 2020 2020 2073 6f6e 6773             songs
+-00015f20: 5f66 696c 652e 636c 6f73 6528 290a 2020  _file.close().  
+-00015f30: 2020 656c 7365 3a0a 2020 2020 2020 2020    else:.        
+-00015f40: 666f 7220 6920 696e 2072 616e 6765 286c  for i in range(l
+-00015f50: 656e 286c 696e 6573 2929 3a0a 2020 2020  en(lines)):.    
+-00015f60: 2020 2020 2020 2020 6465 7461 696c 7320          details 
+-00015f70: 3d20 6c69 6e65 735b 695d 2e73 7472 6970  = lines[i].strip
+-00015f80: 2829 2e73 706c 6974 2822 7c22 290a 2020  ().split("|").  
+-00015f90: 2020 2020 2020 2020 2020 7461 6773 203d            tags =
+-00015fa0: 2064 6574 6169 6c73 5b32 5d2e 7370 6c69   details[2].spli
+-00015fb0: 7428 222c 2229 0a20 2020 2020 2020 2020  t(",").         
+-00015fc0: 2020 2066 6f72 2074 2069 6e20 7261 6e67     for t in rang
+-00015fd0: 6528 6c65 6e28 7461 6773 2929 3a0a 2020  e(len(tags)):.  
+-00015fe0: 2020 2020 2020 2020 2020 2020 2020 6966                if
+-00015ff0: 2074 6167 735b 745d 203d 3d20 6f72 6967   tags[t] == orig
+-00016000: 696e 616c 3a0a 2020 2020 2020 2020 2020  inal:.          
+-00016010: 2020 2020 2020 2020 2020 7461 6773 5b74            tags[t
+-00016020: 5d20 3d20 6e65 775f 6e61 6d65 0a20 2020  ] = new_name.   
+-00016030: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016040: 2064 6574 6169 6c73 5b32 5d20 3d20 222c   details[2] = ",
+-00016050: 222e 6a6f 696e 2874 6167 7329 0a0a 2020  ".join(tags)..  
+-00016060: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016070: 2020 6c69 6e65 735b 695d 203d 2022 7c22    lines[i] = "|"
+-00016080: 2e6a 6f69 6e28 6465 7461 696c 7329 0a20  .join(details). 
+-00016090: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000160a0: 2020 2062 7265 616b 0a0a 2020 2020 2020     break..      
+-000160b0: 2020 736f 6e67 735f 6669 6c65 2e63 6c6f    songs_file.clo
+-000160c0: 7365 2829 0a20 2020 2020 2020 2073 6f6e  se().        son
+-000160d0: 6773 5f66 696c 6520 3d20 6f70 656e 2863  gs_file = open(c
+-000160e0: 6f6e 6669 672e 534f 4e47 535f 494e 464f  onfig.SONGS_INFO
+-000160f0: 5f50 4154 482c 2022 7722 2c20 656e 636f  _PATH, "w", enco
+-00016100: 6469 6e67 3d22 7574 662d 3822 290a 2020  ding="utf-8").  
+-00016110: 2020 2020 2020 736f 6e67 735f 6669 6c65        songs_file
+-00016120: 2e77 7269 7465 2822 5c6e 222e 6a6f 696e  .write("\n".join
+-00016130: 286c 696e 6573 2929 0a0a 2020 2020 2020  (lines))..      
+-00016140: 2020 636c 6963 6b2e 7365 6368 6f28 0a20    click.secho(. 
+-00016150: 2020 2020 2020 2020 2020 2066 2252 6570             f"Rep
+-00016160: 6c61 6365 6420 616c 6c20 6f63 7572 7265  laced all ocurre
+-00016170: 6e63 6573 206f 6620 7461 6720 277b 6f72  nces of tag '{or
+-00016180: 6967 696e 616c 7d27 2074 6f20 277b 6e65  iginal}' to '{ne
+-00016190: 775f 6e61 6d65 7d27 2e22 2c0a 2020 2020  w_name}'.",.    
+-000161a0: 2020 2020 2020 2020 6667 3d22 6772 6565          fg="gree
+-000161b0: 6e22 2c0a 2020 2020 2020 2020 290a 0a0a  n",.        )...
+-000161c0: 4063 6c69 2e63 6f6d 6d61 6e64 2829 0a40  @cli.command().@
+-000161d0: 636c 6963 6b2e 6172 6775 6d65 6e74 2822  click.argument("
+-000161e0: 7068 7261 7365 2229 0a40 636c 6963 6b2e  phrase").@click.
+-000161f0: 6f70 7469 6f6e 280a 2020 2020 222d 542f  option(.    "-T/
+-00016200: 2d6e 5422 2c0a 2020 2020 222d 2d74 6167  -nT",.    "--tag
+-00016210: 2f2d 2d6e 6f2d 7461 6722 2c0a 2020 2020  /--no-tag",.    
+-00016220: 2273 6561 7263 6869 6e67 5f66 6f72 5f74  "searching_for_t
+-00016230: 6167 7322 2c0a 2020 2020 6465 6661 756c  ags",.    defaul
+-00016240: 743d 4661 6c73 652c 0a20 2020 2068 656c  t=False,.    hel
+-00016250: 703d 2253 6561 7263 6865 7320 666f 7220  p="Searches for 
+-00016260: 6d61 7463 6869 6e67 2074 6167 7320 696e  matching tags in
+-00016270: 7374 6561 6420 6f66 2073 6f6e 6720 6e61  stead of song na
+-00016280: 6d65 732e 222c 0a29 0a64 6566 2073 6561  mes.",.).def sea
+-00016290: 7263 6828 7068 7261 7365 2c20 7365 6172  rch(phrase, sear
+-000162a0: 6368 696e 675f 666f 725f 7461 6773 293a  ching_for_tags):
+-000162b0: 0a20 2020 2022 2222 5365 6172 6368 6573  .    """Searches
+-000162c0: 2066 6f72 2073 6f6e 6773 2074 6861 7420   for songs that 
+-000162d0: 636f 6e74 6169 6e20 5048 5241 5345 2e20  contain PHRASE. 
+-000162e0: 416c 6c20 736f 6e67 7320 7374 6172 7469  All songs starti
+-000162f0: 6e67 2077 6974 6820 5048 5241 5345 0a20  ng with PHRASE. 
+-00016300: 2020 2077 696c 6c20 6170 7065 6172 2062     will appear b
+-00016310: 6566 6f72 6520 736f 6e67 7320 636f 6e74  efore songs cont
+-00016320: 6169 6e69 6e67 2062 7574 206e 6f74 2073  aining but not s
+-00016330: 7461 7274 696e 6720 7769 7468 2050 4852  tarting with PHR
+-00016340: 4153 452e 2054 6869 730a 2020 2020 7365  ASE. This.    se
+-00016350: 6172 6368 2069 7320 6361 7365 2d69 6e73  arch is case-ins
+-00016360: 656e 7369 7469 7665 2e0a 0a20 2020 2049  ensitive...    I
+-00016370: 6620 7468 6520 272d 5427 2066 6c61 6720  f the '-T' flag 
+-00016380: 6973 2070 6173 7365 642c 2073 6561 7263  is passed, searc
+-00016390: 6865 7320 666f 7220 7461 6773 2069 6e73  hes for tags ins
+-000163a0: 7465 6164 206f 6620 736f 6e67 206e 616d  tead of song nam
+-000163b0: 6573 2e22 2222 0a20 2020 2070 6872 6173  es.""".    phras
+-000163c0: 6520 3d20 7068 7261 7365 2e6c 6f77 6572  e = phrase.lower
+-000163d0: 2829 0a20 2020 2077 6974 6820 6f70 656e  ().    with open
+-000163e0: 2863 6f6e 6669 672e 534f 4e47 535f 494e  (config.SONGS_IN
+-000163f0: 464f 5f50 4154 482c 2022 7222 2c20 656e  FO_PATH, "r", en
+-00016400: 636f 6469 6e67 3d22 7574 662d 3822 2920  coding="utf-8") 
+-00016410: 6173 2073 6f6e 6773 5f66 696c 653a 0a20  as songs_file:. 
+-00016420: 2020 2020 2020 2069 6620 6e6f 7420 7365         if not se
+-00016430: 6172 6368 696e 675f 666f 725f 7461 6773  arching_for_tags
+-00016440: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-00016450: 7375 6c74 7320 3d20 5b5d 2c20 5b5d 2020  sults = [], []  
+-00016460: 2320 7374 6172 7473 2c20 636f 6e74 6169  # starts, contai
+-00016470: 6e73 2062 7574 2064 6f65 7320 6e6f 7420  ns but does not 
+-00016480: 7374 6172 740a 2020 2020 2020 2020 2020  start.          
+-00016490: 2020 666f 7220 6c69 6e65 2069 6e20 736f    for line in so
+-000164a0: 6e67 735f 6669 6c65 3a0a 2020 2020 2020  ngs_file:.      
+-000164b0: 2020 2020 2020 2020 2020 736f 6e67 5f69            song_i
+-000164c0: 642c 2073 6f6e 675f 6e61 6d65 2c20 7461  d, song_name, ta
+-000164d0: 6773 2c20 2a5f 203d 206c 696e 652e 7374  gs, *_ = line.st
+-000164e0: 7269 7028 292e 7370 6c69 7428 227c 2229  rip().split("|")
+-000164f0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016500: 2073 6f6e 675f 6964 203d 2069 6e74 2873   song_id = int(s
+-00016510: 6f6e 675f 6964 290a 2020 2020 2020 2020  ong_id).        
+-00016520: 2020 2020 2020 2020 736f 6e67 5f6e 616d          song_nam
+-00016530: 6520 3d20 736f 6e67 5f6e 616d 652e 6c6f  e = song_name.lo
+-00016540: 7765 7228 290a 0a20 2020 2020 2020 2020  wer()..         
+-00016550: 2020 2020 2020 2069 6620 736f 6e67 5f6e         if song_n
+-00016560: 616d 652e 7374 6172 7473 7769 7468 2870  ame.startswith(p
+-00016570: 6872 6173 6529 3a0a 2020 2020 2020 2020  hrase):.        
+-00016580: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00016590: 6c74 735b 305d 2e61 7070 656e 6428 736f  lts[0].append(so
+-000165a0: 6e67 5f69 6429 0a20 2020 2020 2020 2020  ng_id).         
+-000165b0: 2020 2020 2020 2065 6c69 6620 7068 7261         elif phra
+-000165c0: 7365 2069 6e20 736f 6e67 5f6e 616d 653a  se in song_name:
++00015280: 655f 203d 2054 7275 650a 2020 2020 2020  e_ = True.      
++00015290: 2020 7265 7368 7566 666c 6520 3d20 4661    reshuffle = Fa
++000152a0: 6c73 650a 2020 2020 656c 6966 2073 6875  lse.    elif shu
++000152b0: 6666 6c65 5f20 3d3d 2031 3a0a 2020 2020  ffle_ == 1:.    
++000152c0: 2020 2020 7368 7566 666c 655f 203d 2054      shuffle_ = T
++000152d0: 7275 650a 2020 2020 2020 2020 7265 7368  rue.        resh
++000152e0: 7566 666c 6520 3d20 5472 7565 0a20 2020  uffle = True.   
++000152f0: 2065 6c69 6620 7368 7566 666c 655f 203d   elif shuffle_ =
++00015300: 3d20 323a 0a20 2020 2020 2020 2073 6875  = 2:.        shu
++00015310: 6666 6c65 5f20 3d20 4661 6c73 650a 2020  ffle_ = False.  
++00015320: 2020 2020 2020 7265 7368 7566 666c 6520        reshuffle 
++00015330: 3d20 5472 7565 0a20 2020 2065 6c73 653a  = True.    else:
++00015340: 2020 2320 7368 7566 666c 655f 203d 204e    # shuffle_ = N
++00015350: 6f6e 650a 2020 2020 2020 2020 7368 7566  one.        shuf
++00015360: 666c 655f 203d 2046 616c 7365 0a20 2020  fle_ = False.   
++00015370: 2020 2020 2072 6573 6875 6666 6c65 203d       reshuffle =
++00015380: 2046 616c 7365 0a0a 2020 2020 6966 2073   False..    if s
++00015390: 6875 6666 6c65 5f3a 0a20 2020 2020 2020  huffle_:.       
++000153a0: 2073 6875 6666 6c65 2870 6c61 796c 6973   shuffle(playlis
++000153b0: 7429 0a20 2020 2065 6c69 6620 7265 7665  t).    elif reve
++000153c0: 7273 653a 0a20 2020 2020 2020 2070 6c61  rse:.        pla
++000153d0: 796c 6973 742e 7265 7665 7273 6528 290a  ylist.reverse().
++000153e0: 0a20 2020 2069 6620 6e6f 7420 706c 6179  .    if not play
++000153f0: 6c69 7374 3a0a 2020 2020 2020 2020 636c  list:.        cl
++00015400: 6963 6b2e 7365 6368 6f28 224e 6f20 736f  ick.secho("No so
++00015410: 6e67 7320 666f 756e 6420 6d61 7463 6869  ngs found matchi
++00015420: 6e67 2074 6167 2063 7269 7465 7269 612e  ng tag criteria.
++00015430: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
++00015440: 2065 6c73 653a 0a20 2020 2020 2020 2076   else:.        v
++00015450: 6f6c 756d 6520 2f3d 2031 3030 0a20 2020  olume /= 100.   
++00015460: 2020 2020 2063 7572 7365 732e 7772 6170       curses.wrap
++00015470: 7065 7228 0a20 2020 2020 2020 2020 2020  per(.           
++00015480: 205f 706c 6179 2c0a 2020 2020 2020 2020   _play,.        
++00015490: 2020 2020 706c 6179 6c69 7374 2c0a 2020      playlist,.  
++000154a0: 2020 2020 2020 2020 2020 766f 6c75 6d65            volume
++000154b0: 2c0a 2020 2020 2020 2020 2020 2020 6c6f  ,.            lo
++000154c0: 6f70 2c0a 2020 2020 2020 2020 2020 2020  op,.            
++000154d0: 636c 6970 732c 0a20 2020 2020 2020 2020  clips,.         
++000154e0: 2020 2072 6573 6875 6666 6c65 2c0a 2020     reshuffle,.  
++000154f0: 2020 2020 2020 2020 2020 6469 7363 6f72            discor
++00015500: 6420 616e 6420 6361 6e5f 7570 6461 7465  d and can_update
++00015510: 5f64 6973 636f 7264 2c0a 2020 2020 2020  _discord,.      
++00015520: 2020 2020 2020 7669 7375 616c 697a 652c        visualize,
++00015530: 0a20 2020 2020 2020 2029 0a0a 2020 2020  .        )..    
++00015540: 6966 2073 6f6e 6773 5f6e 6f74 5f66 6f75  if songs_not_fou
++00015550: 6e64 3a0a 2020 2020 2020 2020 636c 6963  nd:.        clic
++00015560: 6b2e 7365 6368 6f28 2253 6f6e 6720 6669  k.secho("Song fi
++00015570: 6c65 7320 6e6f 7420 666f 756e 643a 222c  les not found:",
++00015580: 2066 673d 2272 6564 2229 0a20 2020 2020   fg="red").     
++00015590: 2020 2066 6f72 2064 6574 6169 6c73 2069     for details i
++000155a0: 6e20 736f 6e67 735f 6e6f 745f 666f 756e  n songs_not_foun
++000155b0: 643a 0a20 2020 2020 2020 2020 2020 2063  d:.            c
++000155c0: 6c69 636b 2e73 6563 686f 2866 225c 747b  lick.secho(f"\t{
++000155d0: 6465 7461 696c 735b 315d 7d20 2849 4420  details[1]} (ID 
++000155e0: 7b64 6574 6169 6c73 5b30 5d7d 2922 2c20  {details[0]})", 
++000155f0: 6667 3d22 7265 6422 290a 0a0a 4063 6c69  fg="red")...@cli
++00015600: 2e63 6f6d 6d61 6e64 2829 0a40 636c 6963  .command().@clic
++00015610: 6b2e 6f70 7469 6f6e 280a 2020 2020 222d  k.option(.    "-
++00015620: 542f 2d6e 5422 2c0a 2020 2020 222d 2d74  T/-nT",.    "--t
++00015630: 6167 2f2d 2d6e 6f2d 7461 6722 2c0a 2020  ag/--no-tag",.  
++00015640: 2020 2272 656e 616d 696e 675f 7461 6722    "renaming_tag"
++00015650: 2c0a 2020 2020 6465 6661 756c 743d 4661  ,.    default=Fa
++00015660: 6c73 652c 0a20 2020 2068 656c 703d 2249  lse,.    help="I
++00015670: 6620 7061 7373 6564 2c20 7265 6e61 6d65  f passed, rename
++00015680: 2074 6167 2069 6e73 7465 6164 206f 6620   tag instead of 
++00015690: 736f 6e67 2028 7472 6561 7420 7468 6520  song (treat the 
++000156a0: 6172 6775 6d65 6e74 7320 6173 2074 6167  arguments as tag
++000156b0: 7329 2e22 2c0a 290a 4063 6c69 636b 2e61  s).",.).@click.a
++000156c0: 7267 756d 656e 7428 226f 7269 6769 6e61  rgument("origina
++000156d0: 6c22 290a 4063 6c69 636b 2e61 7267 756d  l").@click.argum
++000156e0: 656e 7428 226e 6577 5f6e 616d 6522 290a  ent("new_name").
++000156f0: 6465 6620 7265 6e61 6d65 286f 7269 6769  def rename(origi
++00015700: 6e61 6c2c 206e 6577 5f6e 616d 652c 2072  nal, new_name, r
++00015710: 656e 616d 696e 675f 7461 6729 3a0a 2020  enaming_tag):.  
++00015720: 2020 2222 220a 2020 2020 5265 6e61 6d65    """.    Rename
++00015730: 2061 2073 6f6e 672e 0a0a 2020 2020 5265   a song...    Re
++00015740: 6e61 6d65 7320 7468 6520 736f 6e67 2077  names the song w
++00015750: 6974 6820 7468 6520 4944 204f 5249 4749  ith the ID ORIGI
++00015760: 4e41 4c20 746f 204e 4557 5f4e 414d 452e  NAL to NEW_NAME.
++00015770: 2054 6865 2065 7874 656e 7369 6f6e 206f   The extension o
++00015780: 6620 7468 650a 2020 2020 736f 6e67 2028  f the.    song (
++00015790: 652e 672e 2027 2e77 6176 272c 2027 2e6d  e.g. '.wav', '.m
++000157a0: 7033 2729 2069 7320 7072 6573 6572 7665  p3') is preserve
++000157b0: 64e2 8094 646f 206e 6f74 2069 6e63 6c75  d...do not inclu
++000157c0: 6465 2069 7420 696e 2074 6865 206e 616d  de it in the nam
++000157d0: 652e 0a0a 2020 2020 4966 2074 6865 2027  e...    If the '
++000157e0: 2d54 2f2d 2d74 6167 2720 666c 6167 2069  -T/--tag' flag i
++000157f0: 7320 7061 7373 6564 2c20 7472 6561 7473  s passed, treats
++00015800: 204f 5249 4749 4e41 4c20 6173 2061 2074   ORIGINAL as a t
++00015810: 6167 2c20 7265 6e61 6d69 6e67 2061 6c6c  ag, renaming all
++00015820: 0a20 2020 206f 6375 7272 656e 6365 7320  .    ocurrences 
++00015830: 6f66 2069 7420 746f 204e 4557 5f4e 414d  of it to NEW_NAM
++00015840: 45e2 8094 646f 6573 6e27 7420 6368 6563  E...doesn't chec
++00015850: 6b20 6966 2074 6865 2074 6167 204e 4557  k if the tag NEW
++00015860: 5f4e 414d 4520 616c 7265 6164 792c 0a20  _NAME already,. 
++00015870: 2020 2065 7869 7374 732c 2073 6f20 6265     exists, so be
++00015880: 2063 6172 6566 756c 210a 2020 2020 2222   careful!.    ""
++00015890: 220a 2020 2020 736f 6e67 735f 6669 6c65  ".    songs_file
++000158a0: 203d 206f 7065 6e28 636f 6e66 6967 2e53   = open(config.S
++000158b0: 4f4e 4753 5f49 4e46 4f5f 5041 5448 2c20  ONGS_INFO_PATH, 
++000158c0: 2272 222c 2065 6e63 6f64 696e 673d 2275  "r", encoding="u
++000158d0: 7466 2d38 2229 0a20 2020 206c 696e 6573  tf-8").    lines
++000158e0: 203d 2073 6f6e 6773 5f66 696c 652e 7265   = songs_file.re
++000158f0: 6164 2829 2e73 706c 6974 6c69 6e65 7328  ad().splitlines(
++00015900: 290a 2020 2020 6966 206e 6f74 2072 656e  ).    if not ren
++00015910: 616d 696e 675f 7461 673a 0a20 2020 2020  aming_tag:.     
++00015920: 2020 2069 6620 6e6f 7420 6f72 6967 696e     if not origin
++00015930: 616c 2e69 736e 756d 6572 6963 2829 3a0a  al.isnumeric():.
++00015940: 2020 2020 2020 2020 2020 2020 636c 6963              clic
++00015950: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
++00015960: 2020 2020 2020 2020 2022 536f 6e67 2049           "Song I
++00015970: 4420 6d75 7374 2062 6520 616e 2069 6e74  D must be an int
++00015980: 6567 6572 2e20 546f 2072 656e 616d 6520  eger. To rename 
++00015990: 6120 7461 672c 2070 6173 7320 7468 6520  a tag, pass the 
++000159a0: 272d 542f 2d2d 7461 6727 2066 6c61 672e  '-T/--tag' flag.
++000159b0: 222c 0a20 2020 2020 2020 2020 2020 2020  ",.             
++000159c0: 2020 2066 673d 2272 6564 222c 0a20 2020     fg="red",.   
++000159d0: 2020 2020 2020 2020 2029 0a20 2020 2020           ).     
++000159e0: 2020 2020 2020 2072 6574 7572 6e0a 0a20         return.. 
++000159f0: 2020 2020 2020 2066 6f72 2069 2069 6e20         for i in 
++00015a00: 7261 6e67 6528 6c65 6e28 6c69 6e65 7329  range(len(lines)
++00015a10: 293a 0a20 2020 2020 2020 2020 2020 2064  ):.            d
++00015a20: 6574 6169 6c73 203d 206c 696e 6573 5b69  etails = lines[i
++00015a30: 5d2e 7374 7269 7028 292e 7370 6c69 7428  ].strip().split(
++00015a40: 227c 2229 0a20 2020 2020 2020 2020 2020  "|").           
++00015a50: 2069 6620 6f73 2e70 6174 682e 7370 6c69   if os.path.spli
++00015a60: 7465 7874 2864 6574 6169 6c73 5b31 5d29  text(details[1])
++00015a70: 5b30 5d20 3d3d 206e 6577 5f6e 616d 653a  [0] == new_name:
++00015a80: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00015a90: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
++00015aa0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015ab0: 2020 6622 4120 736f 6e67 2077 6974 6820    f"A song with 
++00015ac0: 7468 6520 6e61 6d65 2027 7b6e 6577 5f6e  the name '{new_n
++00015ad0: 616d 657d 2720 616c 7265 6164 7920 6578  ame}' already ex
++00015ae0: 6973 7473 2e20 506c 6561 7365 2063 686f  ists. Please cho
++00015af0: 6f73 6520 616e 6f74 6865 7220 6e61 6d65  ose another name
++00015b00: 2e22 2c0a 2020 2020 2020 2020 2020 2020  .",.            
++00015b10: 2020 2020 2020 2020 6667 3d22 7265 6422          fg="red"
++00015b20: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
++00015b30: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
++00015b40: 2020 2020 7265 7475 726e 0a0a 2020 2020      return..    
++00015b50: 2020 2020 6f72 6967 696e 616c 203d 2069      original = i
++00015b60: 6e74 286f 7269 6769 6e61 6c29 0a20 2020  nt(original).   
++00015b70: 2020 2020 2066 6f72 2069 2069 6e20 7261       for i in ra
++00015b80: 6e67 6528 6c65 6e28 6c69 6e65 7329 293a  nge(len(lines)):
++00015b90: 0a20 2020 2020 2020 2020 2020 2064 6574  .            det
++00015ba0: 6169 6c73 203d 206c 696e 6573 5b69 5d2e  ails = lines[i].
++00015bb0: 7374 7269 7028 292e 7370 6c69 7428 227c  strip().split("|
++00015bc0: 2229 0a20 2020 2020 2020 2020 2020 2069  ").            i
++00015bd0: 6620 696e 7428 6465 7461 696c 735b 305d  f int(details[0]
++00015be0: 2920 3d3d 206f 7269 6769 6e61 6c3a 0a20  ) == original:. 
++00015bf0: 2020 2020 2020 2020 2020 2020 2020 206f                 o
++00015c00: 6c64 5f70 6174 6820 3d20 6465 7461 696c  ld_path = detail
++00015c10: 735b 315d 0a20 2020 2020 2020 2020 2020  s[1].           
++00015c20: 2020 2020 2064 6574 6169 6c73 5b31 5d20       details[1] 
++00015c30: 3d20 6e65 775f 6e61 6d65 202b 206f 732e  = new_name + os.
++00015c40: 7061 7468 2e73 706c 6974 6578 7428 6f6c  path.splitext(ol
++00015c50: 645f 7061 7468 295b 315d 0a0a 2020 2020  d_path)[1]..    
++00015c60: 2020 2020 2020 2020 2020 2020 6675 6c6c              full
++00015c70: 5f73 6f6e 675f 7061 7468 203d 206f 732e  _song_path = os.
++00015c80: 7061 7468 2e6a 6f69 6e28 636f 6e66 6967  path.join(config
++00015c90: 2e53 4f4e 4753 5f44 4952 2c20 6f6c 645f  .SONGS_DIR, old_
++00015ca0: 7061 7468 290a 2020 2020 2020 2020 2020  path).          
++00015cb0: 2020 2020 2020 6966 206e 6f74 206f 732e        if not os.
++00015cc0: 7061 7468 2e65 7869 7374 7328 6675 6c6c  path.exists(full
++00015cd0: 5f73 6f6e 675f 7061 7468 293a 0a20 2020  _song_path):.   
++00015ce0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015cf0: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
++00015d00: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015d10: 2020 2020 2020 6622 536f 6e67 2066 696c        f"Song fil
++00015d20: 6520 277b 6f6c 645f 7061 7468 7d27 2028  e '{old_path}' (
++00015d30: 4944 207b 6f72 6967 696e 616c 7d29 206e  ID {original}) n
++00015d40: 6f74 2066 6f75 6e64 2e22 2c0a 2020 2020  ot found.",.    
++00015d50: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015d60: 2020 2020 6667 3d22 7265 6422 2c0a 2020      fg="red",.  
++00015d70: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015d80: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
++00015d90: 2020 2020 2020 2020 7265 7475 726e 0a0a          return..
++00015da0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015db0: 6c69 6e65 735b 695d 203d 2022 7c22 2e6a  lines[i] = "|".j
++00015dc0: 6f69 6e28 6465 7461 696c 7329 0a20 2020  oin(details).   
++00015dd0: 2020 2020 2020 2020 2020 2020 2073 6f6e               son
++00015de0: 6773 5f66 696c 652e 636c 6f73 6528 290a  gs_file.close().
++00015df0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015e00: 736f 6e67 735f 6669 6c65 203d 206f 7065  songs_file = ope
++00015e10: 6e28 636f 6e66 6967 2e53 4f4e 4753 5f49  n(config.SONGS_I
++00015e20: 4e46 4f5f 5041 5448 2c20 2277 222c 2065  NFO_PATH, "w", e
++00015e30: 6e63 6f64 696e 673d 2275 7466 2d38 2229  ncoding="utf-8")
++00015e40: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00015e50: 2073 6f6e 6773 5f66 696c 652e 7772 6974   songs_file.writ
++00015e60: 6528 225c 6e22 2e6a 6f69 6e28 6c69 6e65  e("\n".join(line
++00015e70: 7329 290a 0a20 2020 2020 2020 2020 2020  s))..           
++00015e80: 2020 2020 206f 732e 7265 6e61 6d65 280a       os.rename(.
++00015e90: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015ea0: 2020 2020 6f73 2e70 6174 682e 6a6f 696e      os.path.join
++00015eb0: 2863 6f6e 6669 672e 534f 4e47 535f 4449  (config.SONGS_DI
++00015ec0: 522c 206f 6c64 5f70 6174 6829 2c0a 2020  R, old_path),.  
++00015ed0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015ee0: 2020 6f73 2e70 6174 682e 6a6f 696e 2863    os.path.join(c
++00015ef0: 6f6e 6669 672e 534f 4e47 535f 4449 522c  onfig.SONGS_DIR,
++00015f00: 2064 6574 6169 6c73 5b31 5d29 2c0a 2020   details[1]),.  
++00015f10: 2020 2020 2020 2020 2020 2020 2020 290a                ).
++00015f20: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00015f30: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
++00015f40: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015f50: 2020 6622 5265 6e61 6d65 6420 736f 6e67    f"Renamed song
++00015f60: 2027 7b6f 6c64 5f70 6174 687d 2720 7769   '{old_path}' wi
++00015f70: 7468 2049 4420 7b6f 7269 6769 6e61 6c7d  th ID {original}
++00015f80: 2074 6f20 277b 6465 7461 696c 735b 315d   to '{details[1]
++00015f90: 7d27 2e22 2c0a 2020 2020 2020 2020 2020  }'.",.          
++00015fa0: 2020 2020 2020 2020 2020 6667 3d22 6772            fg="gr
++00015fb0: 6565 6e22 2c0a 2020 2020 2020 2020 2020  een",.          
++00015fc0: 2020 2020 2020 290a 0a20 2020 2020 2020        )..       
++00015fd0: 2020 2020 2020 2020 2062 7265 616b 0a20           break. 
++00015fe0: 2020 2020 2020 2065 6c73 653a 0a20 2020         else:.   
++00015ff0: 2020 2020 2020 2020 2063 6c69 636b 2e73           click.s
++00016000: 6563 686f 2866 2253 6f6e 6720 7769 7468  echo(f"Song with
++00016010: 2049 4420 7b6f 7269 6769 6e61 6c7d 206e   ID {original} n
++00016020: 6f74 2066 6f75 6e64 2e22 2c20 6667 3d22  ot found.", fg="
++00016030: 7265 6422 290a 2020 2020 2020 2020 2020  red").          
++00016040: 2020 736f 6e67 735f 6669 6c65 2e63 6c6f    songs_file.clo
++00016050: 7365 2829 0a20 2020 2065 6c73 653a 0a20  se().    else:. 
++00016060: 2020 2020 2020 2066 6f72 2069 2069 6e20         for i in 
++00016070: 7261 6e67 6528 6c65 6e28 6c69 6e65 7329  range(len(lines)
++00016080: 293a 0a20 2020 2020 2020 2020 2020 2064  ):.            d
++00016090: 6574 6169 6c73 203d 206c 696e 6573 5b69  etails = lines[i
++000160a0: 5d2e 7374 7269 7028 292e 7370 6c69 7428  ].strip().split(
++000160b0: 227c 2229 0a20 2020 2020 2020 2020 2020  "|").           
++000160c0: 2074 6167 7320 3d20 6465 7461 696c 735b   tags = details[
++000160d0: 325d 2e73 706c 6974 2822 2c22 290a 2020  2].split(",").  
++000160e0: 2020 2020 2020 2020 2020 666f 7220 7420            for t 
++000160f0: 696e 2072 616e 6765 286c 656e 2874 6167  in range(len(tag
++00016100: 7329 293a 0a20 2020 2020 2020 2020 2020  s)):.           
++00016110: 2020 2020 2069 6620 7461 6773 5b74 5d20       if tags[t] 
++00016120: 3d3d 206f 7269 6769 6e61 6c3a 0a20 2020  == original:.   
++00016130: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016140: 2074 6167 735b 745d 203d 206e 6577 5f6e   tags[t] = new_n
++00016150: 616d 650a 2020 2020 2020 2020 2020 2020  ame.            
++00016160: 2020 2020 2020 2020 6465 7461 696c 735b          details[
++00016170: 325d 203d 2022 2c22 2e6a 6f69 6e28 7461  2] = ",".join(ta
++00016180: 6773 290a 0a20 2020 2020 2020 2020 2020  gs)..           
++00016190: 2020 2020 2020 2020 206c 696e 6573 5b69           lines[i
++000161a0: 5d20 3d20 227c 222e 6a6f 696e 2864 6574  ] = "|".join(det
++000161b0: 6169 6c73 290a 2020 2020 2020 2020 2020  ails).          
++000161c0: 2020 2020 2020 2020 2020 6272 6561 6b0a            break.
++000161d0: 0a20 2020 2020 2020 2073 6f6e 6773 5f66  .        songs_f
++000161e0: 696c 652e 636c 6f73 6528 290a 2020 2020  ile.close().    
++000161f0: 2020 2020 736f 6e67 735f 6669 6c65 203d      songs_file =
++00016200: 206f 7065 6e28 636f 6e66 6967 2e53 4f4e   open(config.SON
++00016210: 4753 5f49 4e46 4f5f 5041 5448 2c20 2277  GS_INFO_PATH, "w
++00016220: 222c 2065 6e63 6f64 696e 673d 2275 7466  ", encoding="utf
++00016230: 2d38 2229 0a20 2020 2020 2020 2073 6f6e  -8").        son
++00016240: 6773 5f66 696c 652e 7772 6974 6528 225c  gs_file.write("\
++00016250: 6e22 2e6a 6f69 6e28 6c69 6e65 7329 290a  n".join(lines)).
++00016260: 0a20 2020 2020 2020 2063 6c69 636b 2e73  .        click.s
++00016270: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
++00016280: 2020 6622 5265 706c 6163 6564 2061 6c6c    f"Replaced all
++00016290: 206f 6375 7272 656e 6365 7320 6f66 2074   ocurrences of t
++000162a0: 6167 2027 7b6f 7269 6769 6e61 6c7d 2720  ag '{original}' 
++000162b0: 746f 2027 7b6e 6577 5f6e 616d 657d 272e  to '{new_name}'.
++000162c0: 222c 0a20 2020 2020 2020 2020 2020 2066  ",.            f
++000162d0: 673d 2267 7265 656e 222c 0a20 2020 2020  g="green",.     
++000162e0: 2020 2029 0a0a 0a40 636c 692e 636f 6d6d     )...@cli.comm
++000162f0: 616e 6428 290a 4063 6c69 636b 2e61 7267  and().@click.arg
++00016300: 756d 656e 7428 2270 6872 6173 6522 290a  ument("phrase").
++00016310: 4063 6c69 636b 2e6f 7074 696f 6e28 0a20  @click.option(. 
++00016320: 2020 2022 2d54 2f2d 6e54 222c 0a20 2020     "-T/-nT",.   
++00016330: 2022 2d2d 7461 672f 2d2d 6e6f 2d74 6167   "--tag/--no-tag
++00016340: 222c 0a20 2020 2022 7365 6172 6368 696e  ",.    "searchin
++00016350: 675f 666f 725f 7461 6773 222c 0a20 2020  g_for_tags",.   
++00016360: 2064 6566 6175 6c74 3d46 616c 7365 2c0a   default=False,.
++00016370: 2020 2020 6865 6c70 3d22 5365 6172 6368      help="Search
++00016380: 6573 2066 6f72 206d 6174 6368 696e 6720  es for matching 
++00016390: 7461 6773 2069 6e73 7465 6164 206f 6620  tags instead of 
++000163a0: 736f 6e67 206e 616d 6573 2e22 2c0a 290a  song names.",.).
++000163b0: 6465 6620 7365 6172 6368 2870 6872 6173  def search(phras
++000163c0: 652c 2073 6561 7263 6869 6e67 5f66 6f72  e, searching_for
++000163d0: 5f74 6167 7329 3a0a 2020 2020 2222 2253  _tags):.    """S
++000163e0: 6561 7263 6865 7320 666f 7220 736f 6e67  earches for song
++000163f0: 7320 7468 6174 2063 6f6e 7461 696e 2050  s that contain P
++00016400: 4852 4153 452e 2041 6c6c 2073 6f6e 6773  HRASE. All songs
++00016410: 2073 7461 7274 696e 6720 7769 7468 2050   starting with P
++00016420: 4852 4153 450a 2020 2020 7769 6c6c 2061  HRASE.    will a
++00016430: 7070 6561 7220 6265 666f 7265 2073 6f6e  ppear before son
++00016440: 6773 2063 6f6e 7461 696e 696e 6720 6275  gs containing bu
++00016450: 7420 6e6f 7420 7374 6172 7469 6e67 2077  t not starting w
++00016460: 6974 6820 5048 5241 5345 2e20 5468 6973  ith PHRASE. This
++00016470: 0a20 2020 2073 6561 7263 6820 6973 2063  .    search is c
++00016480: 6173 652d 696e 7365 6e73 6974 6976 652e  ase-insensitive.
++00016490: 0a0a 2020 2020 4966 2074 6865 2027 2d54  ..    If the '-T
++000164a0: 2720 666c 6167 2069 7320 7061 7373 6564  ' flag is passed
++000164b0: 2c20 7365 6172 6368 6573 2066 6f72 2074  , searches for t
++000164c0: 6167 7320 696e 7374 6561 6420 6f66 2073  ags instead of s
++000164d0: 6f6e 6720 6e61 6d65 732e 2222 220a 2020  ong names.""".  
++000164e0: 2020 7068 7261 7365 203d 2070 6872 6173    phrase = phras
++000164f0: 652e 6c6f 7765 7228 290a 2020 2020 7769  e.lower().    wi
++00016500: 7468 206f 7065 6e28 636f 6e66 6967 2e53  th open(config.S
++00016510: 4f4e 4753 5f49 4e46 4f5f 5041 5448 2c20  ONGS_INFO_PATH, 
++00016520: 2272 222c 2065 6e63 6f64 696e 673d 2275  "r", encoding="u
++00016530: 7466 2d38 2229 2061 7320 736f 6e67 735f  tf-8") as songs_
++00016540: 6669 6c65 3a0a 2020 2020 2020 2020 6966  file:.        if
++00016550: 206e 6f74 2073 6561 7263 6869 6e67 5f66   not searching_f
++00016560: 6f72 5f74 6167 733a 0a20 2020 2020 2020  or_tags:.       
++00016570: 2020 2020 2072 6573 756c 7473 203d 205b       results = [
++00016580: 5d2c 205b 5d20 2023 2073 7461 7274 732c  ], []  # starts,
++00016590: 2063 6f6e 7461 696e 7320 6275 7420 646f   contains but do
++000165a0: 6573 206e 6f74 2073 7461 7274 0a20 2020  es not start.   
++000165b0: 2020 2020 2020 2020 2066 6f72 206c 696e           for lin
++000165c0: 6520 696e 2073 6f6e 6773 5f66 696c 653a  e in songs_file:
+ 000165d0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000165e0: 2020 2020 2072 6573 756c 7473 5b31 5d2e       results[1].
+-000165f0: 6170 7065 6e64 2873 6f6e 675f 6964 290a  append(song_id).
+-00016600: 0a20 2020 2020 2020 2020 2020 2069 6620  .            if 
+-00016610: 6e6f 7420 616e 7928 7265 7375 6c74 7329  not any(results)
+-00016620: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-00016630: 2020 636c 6963 6b2e 7365 6368 6f28 224e    click.secho("N
+-00016640: 6f20 7265 7375 6c74 7320 666f 756e 642e  o results found.
+-00016650: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
+-00016660: 2020 2020 2020 2020 2020 2020 2072 6574               ret
+-00016670: 7572 6e0a 0a20 2020 2020 2020 2020 2020  urn..           
+-00016680: 2073 6f6e 6773 5f66 696c 652e 7365 656b   songs_file.seek
+-00016690: 2830 290a 2020 2020 2020 2020 2020 2020  (0).            
+-000166a0: 666f 7220 6c69 6e65 2069 6e20 736f 6e67  for line in song
+-000166b0: 735f 6669 6c65 3a0a 2020 2020 2020 2020  s_file:.        
+-000166c0: 2020 2020 2020 2020 6465 7461 696c 7320          details 
+-000166d0: 3d20 6c69 6e65 2e73 7472 6970 2829 2e73  = line.strip().s
+-000166e0: 706c 6974 2822 7c22 290a 2020 2020 2020  plit("|").      
+-000166f0: 2020 2020 2020 2020 2020 6966 2069 6e74            if int
+-00016700: 2864 6574 6169 6c73 5b30 5d29 2069 6e20  (details[0]) in 
+-00016710: 7265 7375 6c74 735b 305d 3a0a 2020 2020  results[0]:.    
+-00016720: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016730: 6865 6c70 6572 732e 7072 696e 745f 656e  helpers.print_en
+-00016740: 7472 7928 6465 7461 696c 732c 2070 6872  try(details, phr
+-00016750: 6173 6529 0a0a 2020 2020 2020 2020 2020  ase)..          
+-00016760: 2020 736f 6e67 735f 6669 6c65 2e73 6565    songs_file.see
+-00016770: 6b28 3029 0a20 2020 2020 2020 2020 2020  k(0).           
+-00016780: 2066 6f72 206c 696e 6520 696e 2073 6f6e   for line in son
+-00016790: 6773 5f66 696c 653a 0a20 2020 2020 2020  gs_file:.       
+-000167a0: 2020 2020 2020 2020 2064 6574 6169 6c73           details
+-000167b0: 203d 206c 696e 652e 7374 7269 7028 292e   = line.strip().
+-000167c0: 7370 6c69 7428 227c 2229 0a20 2020 2020  split("|").     
+-000167d0: 2020 2020 2020 2020 2020 2069 6620 696e             if in
+-000167e0: 7428 6465 7461 696c 735b 305d 2920 696e  t(details[0]) in
+-000167f0: 2072 6573 756c 7473 5b31 5d3a 0a20 2020   results[1]:.   
+-00016800: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016810: 2068 656c 7065 7273 2e70 7269 6e74 5f65   helpers.print_e
+-00016820: 6e74 7279 2864 6574 6169 6c73 2c20 7068  ntry(details, ph
+-00016830: 7261 7365 290a 0a20 2020 2020 2020 2020  rase)..         
+-00016840: 2020 2063 6c69 636b 2e73 6563 686f 280a     click.secho(.
+-00016850: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016860: 6622 466f 756e 6420 7b6c 656e 2872 6573  f"Found {len(res
+-00016870: 756c 7473 5b30 5d29 202b 206c 656e 2872  ults[0]) + len(r
+-00016880: 6573 756c 7473 5b31 5d29 7d20 736f 6e67  esults[1])} song
+-00016890: 2873 292e 222c 0a20 2020 2020 2020 2020  (s).",.         
+-000168a0: 2020 2020 2020 2066 673d 2267 7265 656e         fg="green
+-000168b0: 222c 0a20 2020 2020 2020 2020 2020 2029  ",.            )
+-000168c0: 0a20 2020 2020 2020 2065 6c73 653a 0a20  .        else:. 
+-000168d0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-000168e0: 7473 203d 2073 6574 2829 2c20 7365 7428  ts = set(), set(
+-000168f0: 2920 2023 2073 7461 7274 732c 2063 6f6e  )  # starts, con
+-00016900: 7461 696e 7320 6275 7420 646f 6573 206e  tains but does n
+-00016910: 6f74 2073 7461 7274 0a20 2020 2020 2020  ot start.       
+-00016920: 2020 2020 2066 6f72 206c 696e 6520 696e       for line in
+-00016930: 2073 6f6e 6773 5f66 696c 653a 0a20 2020   songs_file:.   
+-00016940: 2020 2020 2020 2020 2020 2020 2073 6f6e               son
+-00016950: 675f 6964 2c20 736f 6e67 5f6e 616d 652c  g_id, song_name,
+-00016960: 2074 6167 732c 202a 5f20 3d20 6c69 6e65   tags, *_ = line
+-00016970: 2e73 7472 6970 2829 2e73 706c 6974 2822  .strip().split("
+-00016980: 7c22 290a 2020 2020 2020 2020 2020 2020  |").            
+-00016990: 2020 2020 6966 2074 6167 733a 0a20 2020      if tags:.   
+-000169a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000169b0: 2074 6167 7320 3d20 7461 6773 2e73 706c   tags = tags.spl
+-000169c0: 6974 2822 2c22 290a 0a20 2020 2020 2020  it(",")..       
+-000169d0: 2020 2020 2020 2020 2020 2020 2066 6f72               for
+-000169e0: 2074 6167 2069 6e20 7461 6773 3a0a 2020   tag in tags:.  
+-000169f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016a00: 2020 2020 2020 7461 675f 6c6f 7765 7220        tag_lower 
+-00016a10: 3d20 7461 672e 6c6f 7765 7228 290a 2020  = tag.lower().  
+-00016a20: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016a30: 2020 2020 2020 6966 2074 6167 5f6c 6f77        if tag_low
+-00016a40: 6572 2e73 7461 7274 7377 6974 6828 7068  er.startswith(ph
+-00016a50: 7261 7365 293a 0a20 2020 2020 2020 2020  rase):.         
+-00016a60: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016a70: 2020 2072 6573 756c 7473 5b30 5d2e 6164     results[0].ad
+-00016a80: 6428 7461 6729 0a20 2020 2020 2020 2020  d(tag).         
+-00016a90: 2020 2020 2020 2020 2020 2020 2020 2065                 e
+-00016aa0: 6c69 6620 7068 7261 7365 2069 6e20 7461  lif phrase in ta
+-00016ab0: 675f 6c6f 7765 723a 0a20 2020 2020 2020  g_lower:.       
+-00016ac0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016ad0: 2020 2020 2072 6573 756c 7473 5b31 5d2e       results[1].
+-00016ae0: 6164 6428 7461 6729 0a0a 2020 2020 2020  add(tag)..      
+-00016af0: 2020 2020 2020 6966 206e 6f74 2061 6e79        if not any
+-00016b00: 2872 6573 756c 7473 293a 0a20 2020 2020  (results):.     
+-00016b10: 2020 2020 2020 2020 2020 2063 6c69 636b             click
+-00016b20: 2e73 6563 686f 2822 4e6f 2072 6573 756c  .secho("No resul
+-00016b30: 7473 2066 6f75 6e64 2e22 2c20 6667 3d22  ts found.", fg="
+-00016b40: 7265 6422 290a 2020 2020 2020 2020 2020  red").          
+-00016b50: 2020 2020 2020 7265 7475 726e 0a0a 2020        return..  
+-00016b60: 2020 2020 2020 2020 2020 666f 7220 7461            for ta
+-00016b70: 6720 696e 2072 6573 756c 7473 5b30 5d3a  g in results[0]:
+-00016b80: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016b90: 2070 7269 6e74 2874 6167 290a 0a20 2020   print(tag)..   
+-00016ba0: 2020 2020 2020 2020 2066 6f72 2074 6167           for tag
+-00016bb0: 2069 6e20 7265 7375 6c74 735b 315d 3a0a   in results[1]:.
+-00016bc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016bd0: 7072 696e 7428 7461 6729 0a0a 2020 2020  print(tag)..    
+-00016be0: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
+-00016bf0: 6368 6f28 0a20 2020 2020 2020 2020 2020  cho(.           
+-00016c00: 2020 2020 2066 2246 6f75 6e64 207b 6c65       f"Found {le
+-00016c10: 6e28 7265 7375 6c74 735b 305d 2920 2b20  n(results[0]) + 
+-00016c20: 6c65 6e28 7265 7375 6c74 735b 315d 297d  len(results[1])}
+-00016c30: 2074 6167 2873 292e 222c 2066 673d 2267   tag(s).", fg="g
+-00016c40: 7265 656e 220a 2020 2020 2020 2020 2020  reen".          
+-00016c50: 2020 290a 0a0a 4063 6c69 2e63 6f6d 6d61    )...@cli.comma
+-00016c60: 6e64 286e 616d 653d 226c 6973 7422 290a  nd(name="list").
+-00016c70: 4063 6c69 636b 2e61 7267 756d 656e 7428  @click.argument(
+-00016c80: 2273 6561 7263 685f 7461 6773 222c 206d  "search_tags", m
+-00016c90: 6574 6176 6172 3d22 5441 4753 222c 206e  etavar="TAGS", n
+-00016ca0: 6172 6773 3d2d 3129 0a40 636c 6963 6b2e  args=-1).@click.
+-00016cb0: 6f70 7469 6f6e 280a 2020 2020 222d 7322  option(.    "-s"
+-00016cc0: 2c0a 2020 2020 222d 2d73 6f72 7422 2c0a  ,.    "--sort",.
+-00016cd0: 2020 2020 2273 6f72 745f 222c 0a20 2020      "sort_",.   
+-00016ce0: 2074 7970 653d 636c 6963 6b2e 4368 6f69   type=click.Choi
+-00016cf0: 6365 280a 2020 2020 2020 2020 280a 2020  ce(.        (.  
+-00016d00: 2020 2020 2020 2020 2020 226e 6f6e 6522            "none"
+-00016d10: 2c0a 2020 2020 2020 2020 2020 2020 226e  ,.            "n
+-00016d20: 616d 6522 2c0a 2020 2020 2020 2020 2020  ame",.          
+-00016d30: 2020 226e 222c 0a20 2020 2020 2020 2020    "n",.         
+-00016d40: 2020 2022 7365 6373 2d6c 6973 7465 6e65     "secs-listene
+-00016d50: 6422 2c0a 2020 2020 2020 2020 2020 2020  d",.            
+-00016d60: 2273 222c 0a20 2020 2020 2020 2020 2020  "s",.           
+-00016d70: 2022 6475 7261 7469 6f6e 222c 0a20 2020   "duration",.   
+-00016d80: 2020 2020 2020 2020 2022 6422 2c0a 2020           "d",.  
+-00016d90: 2020 2020 2020 2020 2020 2274 696d 6573            "times
+-00016da0: 2d6c 6973 7465 6e65 6422 2c0a 2020 2020  -listened",.    
+-00016db0: 2020 2020 2020 2020 2274 222c 0a20 2020          "t",.   
+-00016dc0: 2020 2020 2029 0a20 2020 2029 2c0a 2020       ).    ),.  
+-00016dd0: 2020 6865 6c70 3d22 536f 7274 2062 7920    help="Sort by 
+-00016de0: 6e61 6d65 2c20 7365 636f 6e64 7320 6c69  name, seconds li
+-00016df0: 7374 656e 6564 2c20 6f72 2074 696d 6573  stened, or times
+-00016e00: 206c 6973 7465 6e65 6420 2873 6563 6f6e   listened (secon
+-00016e10: 6473 2f73 6f6e 6720 6475 7261 7469 6f6e  ds/song duration
+-00016e20: 292e 2047 7265 6174 6573 7420 6669 7273  ). Greatest firs
+-00016e30: 742e 222c 0a20 2020 2064 6566 6175 6c74  t.",.    default
+-00016e40: 3d22 6e6f 6e65 222c 0a20 2020 2073 686f  ="none",.    sho
+-00016e50: 775f 6465 6661 756c 743d 5472 7565 2c0a  w_default=True,.
+-00016e60: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
+-00016e70: 0a20 2020 2022 2d52 2f2d 6e52 222c 0a20  .    "-R/-nR",. 
+-00016e80: 2020 2022 2d2d 7265 7665 7273 652f 2d2d     "--reverse/--
+-00016e90: 6e6f 2d72 6576 6572 7365 222c 0a20 2020  no-reverse",.   
+-00016ea0: 2022 7265 7665 7273 655f 222c 0a20 2020   "reverse_",.   
+-00016eb0: 2064 6566 6175 6c74 3d46 616c 7365 2c0a   default=False,.
+-00016ec0: 2020 2020 6865 6c70 3d22 5265 7665 7273      help="Revers
+-00016ed0: 6520 7468 6520 736f 7274 696e 6720 6f72  e the sorting or
+-00016ee0: 6465 7220 2867 7265 6174 6573 7420 6669  der (greatest fi
+-00016ef0: 7273 7429 2e22 2c0a 290a 4063 6c69 636b  rst).",.).@click
+-00016f00: 2e6f 7074 696f 6e28 0a20 2020 2022 2d54  .option(.    "-T
+-00016f10: 2f2d 6e54 222c 0a20 2020 2022 2d2d 7461  /-nT",.    "--ta
+-00016f20: 672f 2d2d 6e6f 2d74 6167 222c 0a20 2020  g/--no-tag",.   
+-00016f30: 2022 6c69 7374 696e 675f 7461 6773 222c   "listing_tags",
+-00016f40: 0a20 2020 2064 6566 6175 6c74 3d46 616c  .    default=Fal
+-00016f50: 7365 2c0a 2020 2020 6865 6c70 3d22 4c69  se,.    help="Li
+-00016f60: 7374 2074 6167 7320 6d61 7463 6869 6e67  st tags matching
+-00016f70: 2054 4147 5320 696e 7374 6561 6420 6f66   TAGS instead of
+-00016f80: 2073 6f6e 6773 2e22 2c0a 290a 4063 6c69   songs.",.).@cli
+-00016f90: 636b 2e6f 7074 696f 6e28 0a20 2020 2022  ck.option(.    "
+-00016fa0: 2d79 222c 0a20 2020 2022 2d2d 7965 6172  -y",.    "--year
+-00016fb0: 222c 0a20 2020 2022 7965 6172 222c 0a20  ",.    "year",. 
+-00016fc0: 2020 2068 656c 703d 2253 686f 7720 7469     help="Show ti
+-00016fd0: 6d65 206c 6973 7465 6e65 6420 666f 7220  me listened for 
+-00016fe0: 6120 7370 6563 6966 6963 2079 6561 722c  a specific year,
+-00016ff0: 2069 6e73 7465 6164 206f 6620 7468 6520   instead of the 
+-00017000: 746f 7461 6c2e 2050 6173 7369 6e67 2027  total. Passing '
+-00017010: 6375 7227 2077 696c 6c20 7368 6f77 2074  cur' will show t
+-00017020: 6865 2074 696d 6520 6c69 7374 656e 6564  he time listened
+-00017030: 2066 6f72 2074 6865 2063 7572 7265 6e74   for the current
+-00017040: 2079 6561 722e 222c 0a29 0a40 636c 6963   year.",.).@clic
+-00017050: 6b2e 6f70 7469 6f6e 2822 2d74 222c 2022  k.option("-t", "
+-00017060: 2d2d 746f 7022 2c20 2274 6f70 222c 2074  --top", "top", t
+-00017070: 7970 653d 696e 742c 2068 656c 703d 2253  ype=int, help="S
+-00017080: 686f 7720 7468 6520 746f 7020 6e20 736f  how the top n so
+-00017090: 6e67 732f 7461 6773 2e22 290a 4063 6c69  ngs/tags.").@cli
+-000170a0: 636b 2e6f 7074 696f 6e28 0a20 2020 2022  ck.option(.    "
+-000170b0: 2d4d 2f2d 6e4d 222c 0a20 2020 2022 2d2d  -M/-nM",.    "--
+-000170c0: 6d61 7463 682d 616c 6c2f 2d2d 6e6f 2d6d  match-all/--no-m
+-000170d0: 6174 6368 2d61 6c6c 222c 0a20 2020 2022  atch-all",.    "
+-000170e0: 6d61 7463 685f 616c 6c22 2c0a 2020 2020  match_all",.    
+-000170f0: 6465 6661 756c 743d 4661 6c73 652c 0a20  default=False,. 
+-00017100: 2020 2068 656c 703d 2253 686f 7773 2073     help="Shows s
+-00017110: 6f6e 6773 2074 6861 7420 6d61 7463 6820  ongs that match 
+-00017120: 616c 6c20 7461 6773 2069 6e73 7465 6164  all tags instead
+-00017130: 206f 6620 616e 7920 7461 672e 2049 676e   of any tag. Ign
+-00017140: 6f72 6564 2069 6620 272d 742f 2d2d 7461  ored if '-t/--ta
+-00017150: 6727 2069 7320 7061 7373 6564 2e22 2c0a  g' is passed.",.
+-00017160: 290a 6465 6620 6c69 7374 5f28 7365 6172  ).def list_(sear
+-00017170: 6368 5f74 6167 732c 206c 6973 7469 6e67  ch_tags, listing
+-00017180: 5f74 6167 732c 2079 6561 722c 2073 6f72  _tags, year, sor
+-00017190: 745f 2c20 746f 702c 2072 6576 6572 7365  t_, top, reverse
+-000171a0: 5f2c 206d 6174 6368 5f61 6c6c 293a 0a20  _, match_all):. 
+-000171b0: 2020 2022 2222 4c69 7374 2074 6865 2065     """List the e
+-000171c0: 6e74 7269 6573 2066 6f72 2061 6c6c 2073  ntries for all s
+-000171d0: 6f6e 6773 2e0a 0a20 2020 204f 7574 7075  ongs...    Outpu
+-000171e0: 7420 666f 726d 6174 3a20 4944 2c20 6e61  t format: ID, na
+-000171f0: 6d65 2c20 6475 7261 7469 6f6e 2c20 6c69  me, duration, li
+-00017200: 7374 656e 2074 696d 652c 2074 696d 6573  sten time, times
+-00017210: 206c 6973 7465 6e65 642c 205b 636c 6970   listened, [clip
+-00017220: 2d73 7461 7274 2c20 636c 6970 2d65 6e64  -start, clip-end
+-00017230: 5d20 6966 2063 6c69 7020 6578 6973 7473  ] if clip exists
+-00017240: 2c20 636f 6d6d 612d 7365 7061 7261 7465  , comma-separate
+-00017250: 6420 7461 6773 2069 6620 616e 790a 0a20  d tags if any.. 
+-00017260: 2020 2049 6620 7468 6520 272d 5427 2066     If the '-T' f
+-00017270: 6c61 6720 6973 2070 6173 7365 642c 2074  lag is passed, t
+-00017280: 6167 7320 7769 6c6c 2062 6520 6c69 7374  ags will be list
+-00017290: 6564 2069 6e73 7465 6164 206f 6620 736f  ed instead of so
+-000172a0: 6e67 732e 0a0a 2020 2020 4f75 7470 7574  ngs...    Output
+-000172b0: 2066 6f72 6d61 743a 2074 6167 2c20 6475   format: tag, du
+-000172c0: 7261 7469 6f6e 2c20 6c69 7374 656e 2074  ration, listen t
+-000172d0: 696d 652c 2074 696d 6573 206c 6973 7465  ime, times liste
+-000172e0: 6e65 640a 0a20 2020 2049 6620 5441 4753  ned..    If TAGS
+-000172f0: 2061 7265 2070 6173 7365 642c 2061 6e79   are passed, any
+-00017300: 2074 6167 2f73 6f6e 6720 6d61 7463 6869   tag/song matchi
+-00017310: 6e67 2061 6e79 2074 6167 2069 6e20 5441  ng any tag in TA
+-00017320: 4753 2077 696c 6c20 6265 206c 6973 7465  GS will be liste
+-00017330: 642c 0a20 2020 2075 6e6c 6573 7320 7468  d,.    unless th
+-00017340: 6520 272d 4d2f 2d2d 6d61 7463 682d 616c  e '-M/--match-al
+-00017350: 6c27 2066 6c61 6720 6973 2070 6173 7365  l' flag is passe
+-00017360: 642c 2069 6e20 7768 6963 6820 6361 7365  d, in which case
+-00017370: 2065 7665 7279 2074 6167 206d 7573 740a   every tag must.
+-00017380: 2020 2020 6265 206d 6174 6368 6564 2028      be matched (
+-00017390: 6967 6e6f 7265 6420 6966 206c 6973 7469  ignored if listi
+-000173a0: 6e67 2074 6167 7329 2e0a 2020 2020 2222  ng tags)..    ""
+-000173b0: 220a 2020 2020 6966 2074 6f70 2069 7320  ".    if top is 
+-000173c0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-000173d0: 2020 6966 2074 6f70 203c 2031 3a0a 2020    if top < 1:.  
+-000173e0: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
+-000173f0: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
+-00017400: 2020 2020 2020 2022 5468 6520 6f70 7469         "The opti
+-00017410: 6f6e 2027 2d74 2f2d 2d74 6f70 2720 6d75  on '-t/--top' mu
+-00017420: 7374 2062 6520 6120 706f 7369 7469 7665  st be a positive
+-00017430: 206e 756d 6265 722e 222c 2066 673d 2272   number.", fg="r
+-00017440: 6564 220a 2020 2020 2020 2020 2020 2020  ed".            
+-00017450: 290a 2020 2020 2020 2020 2020 2020 7265  ).            re
+-00017460: 7475 726e 0a0a 2020 2020 6966 2079 6561  turn..    if yea
+-00017470: 7220 6973 204e 6f6e 653a 0a20 2020 2020  r is None:.     
+-00017480: 2020 2073 7461 7473 5f70 6174 6820 3d20     stats_path = 
+-00017490: 636f 6e66 6967 2e54 4f54 414c 5f53 5441  config.TOTAL_STA
+-000174a0: 5453 5f50 4154 480a 2020 2020 656c 7365  TS_PATH.    else
+-000174b0: 3a0a 2020 2020 2020 2020 6966 2079 6561  :.        if yea
+-000174c0: 7220 3d3d 2022 6375 7222 3a0a 2020 2020  r == "cur":.    
+-000174d0: 2020 2020 2020 2020 7965 6172 203d 2063          year = c
+-000174e0: 6f6e 6669 672e 4355 525f 5945 4152 0a20  onfig.CUR_YEAR. 
+-000174f0: 2020 2020 2020 2020 2020 2073 7461 7473             stats
+-00017500: 5f70 6174 6820 3d20 636f 6e66 6967 2e43  _path = config.C
+-00017510: 5552 5f59 4541 525f 5354 4154 535f 5041  UR_YEAR_STATS_PA
+-00017520: 5448 0a20 2020 2020 2020 2065 6c73 653a  TH.        else:
+-00017530: 0a20 2020 2020 2020 2020 2020 2069 6620  .            if 
+-00017540: 6e6f 7420 7965 6172 2e69 7364 6967 6974  not year.isdigit
+-00017550: 2829 3a0a 2020 2020 2020 2020 2020 2020  ():.            
+-00017560: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
+-00017570: 2259 6561 7220 6d75 7374 2062 6520 6120  "Year must be a 
+-00017580: 6e75 6d62 6572 206f 7220 2763 7572 272e  number or 'cur'.
+-00017590: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
+-000175a0: 2020 2020 2020 2020 2020 2020 2072 6574               ret
+-000175b0: 7572 6e0a 2020 2020 2020 2020 2020 2020  urn.            
+-000175c0: 7374 6174 735f 7061 7468 203d 206f 732e  stats_path = os.
+-000175d0: 7061 7468 2e6a 6f69 6e28 636f 6e66 6967  path.join(config
+-000175e0: 2e53 5441 5453 5f44 4952 2c20 6622 7b79  .STATS_DIR, f"{y
+-000175f0: 6561 727d 2e74 7874 2229 0a20 2020 2020  ear}.txt").     
+-00017600: 2020 2020 2020 2069 6620 6e6f 7420 6f73         if not os
+-00017610: 2e70 6174 682e 6578 6973 7473 2873 7461  .path.exists(sta
+-00017620: 7473 5f70 6174 6829 3a0a 2020 2020 2020  ts_path):.      
+-00017630: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
+-00017640: 7365 6368 6f28 6622 4e6f 2073 7461 7473  secho(f"No stats
+-00017650: 2066 6f75 6e64 2066 6f72 2079 6561 7220   found for year 
+-00017660: 7b79 6561 727d 2e22 2c20 6667 3d22 7265  {year}.", fg="re
+-00017670: 6422 290a 2020 2020 2020 2020 2020 2020  d").            
+-00017680: 2020 2020 7265 7475 726e 0a0a 2020 2020      return..    
+-00017690: 6966 2073 6561 7263 685f 7461 6773 3a0a  if search_tags:.
+-000176a0: 2020 2020 2020 2020 7365 6172 6368 5f74          search_t
+-000176b0: 6167 7320 3d20 7365 7428 7365 6172 6368  ags = set(search
+-000176c0: 5f74 6167 7329 0a0a 2020 2020 6e75 6d5f  _tags)..    num_
+-000176d0: 6c69 6e65 7320 3d20 300a 2020 2020 736f  lines = 0.    so
+-000176e0: 6e67 735f 6e6f 745f 666f 756e 6420 3d20  ngs_not_found = 
+-000176f0: 5b5d 0a0a 2020 2020 6966 206c 6973 7469  []..    if listi
+-00017700: 6e67 5f74 6167 733a 0a20 2020 2020 2020  ng_tags:.       
+-00017710: 2077 6974 6820 280a 2020 2020 2020 2020   with (.        
+-00017720: 2020 2020 6f70 656e 2863 6f6e 6669 672e      open(config.
+-00017730: 534f 4e47 535f 494e 464f 5f50 4154 482c  SONGS_INFO_PATH,
+-00017740: 2022 7222 2c20 656e 636f 6469 6e67 3d22   "r", encoding="
+-00017750: 7574 662d 3822 2920 6173 2073 6f6e 6773  utf-8") as songs
+-00017760: 5f66 696c 652c 0a20 2020 2020 2020 2020  _file,.         
+-00017770: 2020 206f 7065 6e28 7374 6174 735f 7061     open(stats_pa
+-00017780: 7468 2c20 2272 222c 2065 6e63 6f64 696e  th, "r", encodin
+-00017790: 673d 2275 7466 2d38 2229 2061 7320 7374  g="utf-8") as st
+-000177a0: 6174 735f 6669 6c65 2c0a 2020 2020 2020  ats_file,.      
+-000177b0: 2020 293a 0a20 2020 2020 2020 2020 2020    ):.           
+-000177c0: 2073 6f6e 6773 5f6c 696e 6573 203d 2073   songs_lines = s
+-000177d0: 6f6e 6773 5f66 696c 652e 7265 6164 6c69  ongs_file.readli
+-000177e0: 6e65 7328 290a 2020 2020 2020 2020 2020  nes().          
+-000177f0: 2020 7374 6174 7320 3d20 6469 6374 280a    stats = dict(.
+-00017800: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017810: 6d61 7028 0a20 2020 2020 2020 2020 2020  map(.           
+-00017820: 2020 2020 2020 2020 206c 616d 6264 6120           lambda 
+-00017830: 743a 2028 696e 7428 745b 305d 292c 2920  t: (int(t[0]),) 
+-00017840: 2b20 745b 313a 5d2c 0a20 2020 2020 2020  + t[1:],.       
+-00017850: 2020 2020 2020 2020 2020 2020 206d 6170               map
+-00017860: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-00017870: 2020 2020 2020 2020 2020 6c61 6d62 6461            lambda
+-00017880: 2078 3a20 7475 706c 6528 6d61 7028 666c   x: tuple(map(fl
+-00017890: 6f61 742c 2078 2e73 7472 6970 2829 2e73  oat, x.strip().s
+-000178a0: 706c 6974 2822 7c22 2929 292c 0a20 2020  plit("|"))),.   
+-000178b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000178c0: 2020 2020 2073 7461 7473 5f66 696c 652e       stats_file.
+-000178d0: 7265 6164 6c69 6e65 7328 292c 0a20 2020  readlines(),.   
+-000178e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000178f0: 2029 2c0a 2020 2020 2020 2020 2020 2020   ),.            
+-00017900: 2020 2020 290a 2020 2020 2020 2020 2020      ).          
+-00017910: 2020 290a 0a20 2020 2020 2020 2020 2020    )..           
+-00017920: 2074 6167 7320 3d20 6465 6661 756c 7464   tags = defaultd
+-00017930: 6963 7428 6c61 6d62 6461 3a20 2830 2e30  ict(lambda: (0.0
+-00017940: 2c20 302e 3029 290a 2020 2020 2020 2020  , 0.0)).        
+-00017950: 2020 2020 666f 7220 6920 696e 2072 616e      for i in ran
+-00017960: 6765 286c 656e 2873 6f6e 6773 5f6c 696e  ge(len(songs_lin
+-00017970: 6573 2929 3a0a 2020 2020 2020 2020 2020  es)):.          
+-00017980: 2020 2020 2020 736f 6e67 5f69 642c 2073        song_id, s
+-00017990: 6f6e 675f 6e61 6d65 2c20 7461 675f 7374  ong_name, tag_st
+-000179a0: 7269 6e67 203d 2028 0a20 2020 2020 2020  ring = (.       
+-000179b0: 2020 2020 2020 2020 2020 2020 2073 6f6e               son
+-000179c0: 6773 5f6c 696e 6573 5b69 5d2e 7374 7269  gs_lines[i].stri
+-000179d0: 7028 292e 7370 6c69 7428 227c 2229 5b30  p().split("|")[0
+-000179e0: 3a33 5d0a 2020 2020 2020 2020 2020 2020  :3].            
+-000179f0: 2020 2020 290a 2020 2020 2020 2020 2020      ).          
+-00017a00: 2020 2020 2020 6966 206e 6f74 206f 732e        if not os.
+-00017a10: 7061 7468 2e65 7869 7374 7328 6f73 2e70  path.exists(os.p
+-00017a20: 6174 682e 6a6f 696e 2863 6f6e 6669 672e  ath.join(config.
+-00017a30: 534f 4e47 535f 4449 522c 2073 6f6e 675f  SONGS_DIR, song_
+-00017a40: 6e61 6d65 2929 3a0a 2020 2020 2020 2020  name)):.        
+-00017a50: 2020 2020 2020 2020 2020 2020 736f 6e67              song
+-00017a60: 735f 6e6f 745f 666f 756e 642e 6170 7065  s_not_found.appe
+-00017a70: 6e64 2828 736f 6e67 5f69 642c 2073 6f6e  nd((song_id, son
+-00017a80: 675f 6e61 6d65 2929 0a20 2020 2020 2020  g_name)).       
+-00017a90: 2020 2020 2020 2020 2020 2020 2063 6f6e               con
+-00017aa0: 7469 6e75 650a 2020 2020 2020 2020 2020  tinue.          
+-00017ab0: 2020 2020 2020 736f 6e67 5f69 6420 3d20        song_id = 
+-00017ac0: 696e 7428 736f 6e67 5f69 6429 0a20 2020  int(song_id).   
+-00017ad0: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-00017ae0: 7461 675f 7374 7269 6e67 3a0a 2020 2020  tag_string:.    
+-00017af0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017b00: 666f 7220 7461 6720 696e 2074 6167 5f73  for tag in tag_s
+-00017b10: 7472 696e 672e 7370 6c69 7428 222c 2229  tring.split(",")
+-00017b20: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-00017b30: 2020 2020 2020 2020 2020 6966 206e 6f74            if not
+-00017b40: 2073 6561 7263 685f 7461 6773 206f 7220   search_tags or 
+-00017b50: 7461 6720 696e 2073 6561 7263 685f 7461  tag in search_ta
+-00017b60: 6773 3a0a 2020 2020 2020 2020 2020 2020  gs:.            
++000165e0: 2073 6f6e 675f 6964 2c20 736f 6e67 5f6e   song_id, song_n
++000165f0: 616d 652c 2074 6167 732c 202a 5f20 3d20  ame, tags, *_ = 
++00016600: 6c69 6e65 2e73 7472 6970 2829 2e73 706c  line.strip().spl
++00016610: 6974 2822 7c22 290a 2020 2020 2020 2020  it("|").        
++00016620: 2020 2020 2020 2020 736f 6e67 5f69 6420          song_id 
++00016630: 3d20 696e 7428 736f 6e67 5f69 6429 0a20  = int(song_id). 
++00016640: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00016650: 6f6e 675f 6e61 6d65 203d 2073 6f6e 675f  ong_name = song_
++00016660: 6e61 6d65 2e6c 6f77 6572 2829 0a0a 2020  name.lower()..  
++00016670: 2020 2020 2020 2020 2020 2020 2020 6966                if
++00016680: 2073 6f6e 675f 6e61 6d65 2e73 7461 7274   song_name.start
++00016690: 7377 6974 6828 7068 7261 7365 293a 0a20  swith(phrase):. 
++000166a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000166b0: 2020 2072 6573 756c 7473 5b30 5d2e 6170     results[0].ap
++000166c0: 7065 6e64 2873 6f6e 675f 6964 290a 2020  pend(song_id).  
++000166d0: 2020 2020 2020 2020 2020 2020 2020 656c                el
++000166e0: 6966 2070 6872 6173 6520 696e 2073 6f6e  if phrase in son
++000166f0: 675f 6e61 6d65 3a0a 2020 2020 2020 2020  g_name:.        
++00016700: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00016710: 6c74 735b 315d 2e61 7070 656e 6428 736f  lts[1].append(so
++00016720: 6e67 5f69 6429 0a0a 2020 2020 2020 2020  ng_id)..        
++00016730: 2020 2020 6966 206e 6f74 2061 6e79 2872      if not any(r
++00016740: 6573 756c 7473 293a 0a20 2020 2020 2020  esults):.       
++00016750: 2020 2020 2020 2020 2063 6c69 636b 2e73           click.s
++00016760: 6563 686f 2822 4e6f 2072 6573 756c 7473  echo("No results
++00016770: 2066 6f75 6e64 2e22 2c20 6667 3d22 7265   found.", fg="re
++00016780: 6422 290a 2020 2020 2020 2020 2020 2020  d").            
++00016790: 2020 2020 7265 7475 726e 0a0a 2020 2020      return..    
++000167a0: 2020 2020 2020 2020 736f 6e67 735f 6669          songs_fi
++000167b0: 6c65 2e73 6565 6b28 3029 0a20 2020 2020  le.seek(0).     
++000167c0: 2020 2020 2020 2066 6f72 206c 696e 6520         for line 
++000167d0: 696e 2073 6f6e 6773 5f66 696c 653a 0a20  in songs_file:. 
++000167e0: 2020 2020 2020 2020 2020 2020 2020 2064                 d
++000167f0: 6574 6169 6c73 203d 206c 696e 652e 7374  etails = line.st
++00016800: 7269 7028 292e 7370 6c69 7428 227c 2229  rip().split("|")
++00016810: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00016820: 2069 6620 696e 7428 6465 7461 696c 735b   if int(details[
++00016830: 305d 2920 696e 2072 6573 756c 7473 5b30  0]) in results[0
++00016840: 5d3a 0a20 2020 2020 2020 2020 2020 2020  ]:.             
++00016850: 2020 2020 2020 2068 656c 7065 7273 2e70         helpers.p
++00016860: 7269 6e74 5f65 6e74 7279 2864 6574 6169  rint_entry(detai
++00016870: 6c73 2c20 7068 7261 7365 290a 0a20 2020  ls, phrase)..   
++00016880: 2020 2020 2020 2020 2073 6f6e 6773 5f66           songs_f
++00016890: 696c 652e 7365 656b 2830 290a 2020 2020  ile.seek(0).    
++000168a0: 2020 2020 2020 2020 666f 7220 6c69 6e65          for line
++000168b0: 2069 6e20 736f 6e67 735f 6669 6c65 3a0a   in songs_file:.
++000168c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000168d0: 6465 7461 696c 7320 3d20 6c69 6e65 2e73  details = line.s
++000168e0: 7472 6970 2829 2e73 706c 6974 2822 7c22  trip().split("|"
++000168f0: 290a 2020 2020 2020 2020 2020 2020 2020  ).              
++00016900: 2020 6966 2069 6e74 2864 6574 6169 6c73    if int(details
++00016910: 5b30 5d29 2069 6e20 7265 7375 6c74 735b  [0]) in results[
++00016920: 315d 3a0a 2020 2020 2020 2020 2020 2020  1]:.            
++00016930: 2020 2020 2020 2020 6865 6c70 6572 732e          helpers.
++00016940: 7072 696e 745f 656e 7472 7928 6465 7461  print_entry(deta
++00016950: 696c 732c 2070 6872 6173 6529 0a0a 2020  ils, phrase)..  
++00016960: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
++00016970: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
++00016980: 2020 2020 2020 2066 2246 6f75 6e64 207b         f"Found {
++00016990: 6c65 6e28 7265 7375 6c74 735b 305d 2920  len(results[0]) 
++000169a0: 2b20 6c65 6e28 7265 7375 6c74 735b 315d  + len(results[1]
++000169b0: 297d 2073 6f6e 6728 7329 2e22 2c0a 2020  )} song(s).",.  
++000169c0: 2020 2020 2020 2020 2020 2020 2020 6667                fg
++000169d0: 3d22 6772 6565 6e22 2c0a 2020 2020 2020  ="green",.      
++000169e0: 2020 2020 2020 290a 2020 2020 2020 2020        ).        
++000169f0: 656c 7365 3a0a 2020 2020 2020 2020 2020  else:.          
++00016a00: 2020 7265 7375 6c74 7320 3d20 7365 7428    results = set(
++00016a10: 292c 2073 6574 2829 2020 2320 7374 6172  ), set()  # star
++00016a20: 7473 2c20 636f 6e74 6169 6e73 2062 7574  ts, contains but
++00016a30: 2064 6f65 7320 6e6f 7420 7374 6172 740a   does not start.
++00016a40: 2020 2020 2020 2020 2020 2020 666f 7220              for 
++00016a50: 6c69 6e65 2069 6e20 736f 6e67 735f 6669  line in songs_fi
++00016a60: 6c65 3a0a 2020 2020 2020 2020 2020 2020  le:.            
++00016a70: 2020 2020 736f 6e67 5f69 642c 2073 6f6e      song_id, son
++00016a80: 675f 6e61 6d65 2c20 7461 6773 2c20 2a5f  g_name, tags, *_
++00016a90: 203d 206c 696e 652e 7374 7269 7028 292e   = line.strip().
++00016aa0: 7370 6c69 7428 227c 2229 0a20 2020 2020  split("|").     
++00016ab0: 2020 2020 2020 2020 2020 2069 6620 7461             if ta
++00016ac0: 6773 3a0a 2020 2020 2020 2020 2020 2020  gs:.            
++00016ad0: 2020 2020 2020 2020 7461 6773 203d 2074          tags = t
++00016ae0: 6167 732e 7370 6c69 7428 222c 2229 0a0a  ags.split(",")..
++00016af0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016b00: 2020 2020 666f 7220 7461 6720 696e 2074      for tag in t
++00016b10: 6167 733a 0a20 2020 2020 2020 2020 2020  ags:.           
++00016b20: 2020 2020 2020 2020 2020 2020 2074 6167               tag
++00016b30: 5f6c 6f77 6572 203d 2074 6167 2e6c 6f77  _lower = tag.low
++00016b40: 6572 2829 0a20 2020 2020 2020 2020 2020  er().           
++00016b50: 2020 2020 2020 2020 2020 2020 2069 6620               if 
++00016b60: 7461 675f 6c6f 7765 722e 7374 6172 7473  tag_lower.starts
++00016b70: 7769 7468 2870 6872 6173 6529 3a0a 2020  with(phrase):.  
++00016b80: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016b90: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00016ba0: 735b 305d 2e61 6464 2874 6167 290a 2020  s[0].add(tag).  
++00016bb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016bc0: 2020 2020 2020 656c 6966 2070 6872 6173        elif phras
++00016bd0: 6520 696e 2074 6167 5f6c 6f77 6572 3a0a  e in tag_lower:.
++00016be0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016bf0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00016c00: 6c74 735b 315d 2e61 6464 2874 6167 290a  lts[1].add(tag).
++00016c10: 0a20 2020 2020 2020 2020 2020 2069 6620  .            if 
++00016c20: 6e6f 7420 616e 7928 7265 7375 6c74 7329  not any(results)
++00016c30: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++00016c40: 2020 636c 6963 6b2e 7365 6368 6f28 224e    click.secho("N
++00016c50: 6f20 7265 7375 6c74 7320 666f 756e 642e  o results found.
++00016c60: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
++00016c70: 2020 2020 2020 2020 2020 2020 2072 6574               ret
++00016c80: 7572 6e0a 0a20 2020 2020 2020 2020 2020  urn..           
++00016c90: 2066 6f72 2074 6167 2069 6e20 7265 7375   for tag in resu
++00016ca0: 6c74 735b 305d 3a0a 2020 2020 2020 2020  lts[0]:.        
++00016cb0: 2020 2020 2020 2020 7072 696e 7428 7461          print(ta
++00016cc0: 6729 0a0a 2020 2020 2020 2020 2020 2020  g)..            
++00016cd0: 666f 7220 7461 6720 696e 2072 6573 756c  for tag in resul
++00016ce0: 7473 5b31 5d3a 0a20 2020 2020 2020 2020  ts[1]:.         
++00016cf0: 2020 2020 2020 2070 7269 6e74 2874 6167         print(tag
++00016d00: 290a 0a20 2020 2020 2020 2020 2020 2063  )..            c
++00016d10: 6c69 636b 2e73 6563 686f 280a 2020 2020  lick.secho(.    
++00016d20: 2020 2020 2020 2020 2020 2020 6622 466f              f"Fo
++00016d30: 756e 6420 7b6c 656e 2872 6573 756c 7473  und {len(results
++00016d40: 5b30 5d29 202b 206c 656e 2872 6573 756c  [0]) + len(resul
++00016d50: 7473 5b31 5d29 7d20 7461 6728 7329 2e22  ts[1])} tag(s)."
++00016d60: 2c20 6667 3d22 6772 6565 6e22 0a20 2020  , fg="green".   
++00016d70: 2020 2020 2020 2020 2029 0a0a 0a40 636c           )...@cl
++00016d80: 692e 636f 6d6d 616e 6428 6e61 6d65 3d22  i.command(name="
++00016d90: 6c69 7374 2229 0a40 636c 6963 6b2e 6172  list").@click.ar
++00016da0: 6775 6d65 6e74 2822 7365 6172 6368 5f74  gument("search_t
++00016db0: 6167 7322 2c20 6d65 7461 7661 723d 2254  ags", metavar="T
++00016dc0: 4147 5322 2c20 6e61 7267 733d 2d31 290a  AGS", nargs=-1).
++00016dd0: 4063 6c69 636b 2e6f 7074 696f 6e28 0a20  @click.option(. 
++00016de0: 2020 2022 2d73 222c 0a20 2020 2022 2d2d     "-s",.    "--
++00016df0: 736f 7274 222c 0a20 2020 2022 736f 7274  sort",.    "sort
++00016e00: 5f22 2c0a 2020 2020 7479 7065 3d63 6c69  _",.    type=cli
++00016e10: 636b 2e43 686f 6963 6528 0a20 2020 2020  ck.Choice(.     
++00016e20: 2020 2028 0a20 2020 2020 2020 2020 2020     (.           
++00016e30: 2022 6e6f 6e65 222c 0a20 2020 2020 2020   "none",.       
++00016e40: 2020 2020 2022 6e61 6d65 222c 0a20 2020       "name",.   
++00016e50: 2020 2020 2020 2020 2022 6e22 2c0a 2020           "n",.  
++00016e60: 2020 2020 2020 2020 2020 2273 6563 732d            "secs-
++00016e70: 6c69 7374 656e 6564 222c 0a20 2020 2020  listened",.     
++00016e80: 2020 2020 2020 2022 7322 2c0a 2020 2020         "s",.    
++00016e90: 2020 2020 2020 2020 2264 7572 6174 696f          "duratio
++00016ea0: 6e22 2c0a 2020 2020 2020 2020 2020 2020  n",.            
++00016eb0: 2264 222c 0a20 2020 2020 2020 2020 2020  "d",.           
++00016ec0: 2022 7469 6d65 732d 6c69 7374 656e 6564   "times-listened
++00016ed0: 222c 0a20 2020 2020 2020 2020 2020 2022  ",.            "
++00016ee0: 7422 2c0a 2020 2020 2020 2020 290a 2020  t",.        ).  
++00016ef0: 2020 292c 0a20 2020 2068 656c 703d 2253    ),.    help="S
++00016f00: 6f72 7420 6279 206e 616d 652c 2073 6563  ort by name, sec
++00016f10: 6f6e 6473 206c 6973 7465 6e65 642c 206f  onds listened, o
++00016f20: 7220 7469 6d65 7320 6c69 7374 656e 6564  r times listened
++00016f30: 2028 7365 636f 6e64 732f 736f 6e67 2064   (seconds/song d
++00016f40: 7572 6174 696f 6e29 2e20 4772 6561 7465  uration). Greate
++00016f50: 7374 2066 6972 7374 2e22 2c0a 2020 2020  st first.",.    
++00016f60: 6465 6661 756c 743d 226e 6f6e 6522 2c0a  default="none",.
++00016f70: 2020 2020 7368 6f77 5f64 6566 6175 6c74      show_default
++00016f80: 3d54 7275 652c 0a29 0a40 636c 6963 6b2e  =True,.).@click.
++00016f90: 6f70 7469 6f6e 280a 2020 2020 222d 522f  option(.    "-R/
++00016fa0: 2d6e 5222 2c0a 2020 2020 222d 2d72 6576  -nR",.    "--rev
++00016fb0: 6572 7365 2f2d 2d6e 6f2d 7265 7665 7273  erse/--no-revers
++00016fc0: 6522 2c0a 2020 2020 2272 6576 6572 7365  e",.    "reverse
++00016fd0: 5f22 2c0a 2020 2020 6465 6661 756c 743d  _",.    default=
++00016fe0: 4661 6c73 652c 0a20 2020 2068 656c 703d  False,.    help=
++00016ff0: 2252 6576 6572 7365 2074 6865 2073 6f72  "Reverse the sor
++00017000: 7469 6e67 206f 7264 6572 2028 6772 6561  ting order (grea
++00017010: 7465 7374 2066 6972 7374 292e 222c 0a29  test first).",.)
++00017020: 0a40 636c 6963 6b2e 6f70 7469 6f6e 280a  .@click.option(.
++00017030: 2020 2020 222d 542f 2d6e 5422 2c0a 2020      "-T/-nT",.  
++00017040: 2020 222d 2d74 6167 2f2d 2d6e 6f2d 7461    "--tag/--no-ta
++00017050: 6722 2c0a 2020 2020 226c 6973 7469 6e67  g",.    "listing
++00017060: 5f74 6167 7322 2c0a 2020 2020 6465 6661  _tags",.    defa
++00017070: 756c 743d 4661 6c73 652c 0a20 2020 2068  ult=False,.    h
++00017080: 656c 703d 224c 6973 7420 7461 6773 206d  elp="List tags m
++00017090: 6174 6368 696e 6720 5441 4753 2069 6e73  atching TAGS ins
++000170a0: 7465 6164 206f 6620 736f 6e67 732e 222c  tead of songs.",
++000170b0: 0a29 0a40 636c 6963 6b2e 6f70 7469 6f6e  .).@click.option
++000170c0: 280a 2020 2020 222d 7922 2c0a 2020 2020  (.    "-y",.    
++000170d0: 222d 2d79 6561 7222 2c0a 2020 2020 2279  "--year",.    "y
++000170e0: 6561 7222 2c0a 2020 2020 6865 6c70 3d22  ear",.    help="
++000170f0: 5368 6f77 2074 696d 6520 6c69 7374 656e  Show time listen
++00017100: 6564 2066 6f72 2061 2073 7065 6369 6669  ed for a specifi
++00017110: 6320 7965 6172 2c20 696e 7374 6561 6420  c year, instead 
++00017120: 6f66 2074 6865 2074 6f74 616c 2e20 5061  of the total. Pa
++00017130: 7373 696e 6720 2763 7572 2720 7769 6c6c  ssing 'cur' will
++00017140: 2073 686f 7720 7468 6520 7469 6d65 206c   show the time l
++00017150: 6973 7465 6e65 6420 666f 7220 7468 6520  istened for the 
++00017160: 6375 7272 656e 7420 7965 6172 2e22 2c0a  current year.",.
++00017170: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
++00017180: 222d 7422 2c20 222d 2d74 6f70 222c 2022  "-t", "--top", "
++00017190: 746f 7022 2c20 7479 7065 3d69 6e74 2c20  top", type=int, 
++000171a0: 6865 6c70 3d22 5368 6f77 2074 6865 2074  help="Show the t
++000171b0: 6f70 206e 2073 6f6e 6773 2f74 6167 732e  op n songs/tags.
++000171c0: 2229 0a40 636c 6963 6b2e 6f70 7469 6f6e  ").@click.option
++000171d0: 280a 2020 2020 222d 4d2f 2d6e 4d22 2c0a  (.    "-M/-nM",.
++000171e0: 2020 2020 222d 2d6d 6174 6368 2d61 6c6c      "--match-all
++000171f0: 2f2d 2d6e 6f2d 6d61 7463 682d 616c 6c22  /--no-match-all"
++00017200: 2c0a 2020 2020 226d 6174 6368 5f61 6c6c  ,.    "match_all
++00017210: 222c 0a20 2020 2064 6566 6175 6c74 3d46  ",.    default=F
++00017220: 616c 7365 2c0a 2020 2020 6865 6c70 3d22  alse,.    help="
++00017230: 5368 6f77 7320 736f 6e67 7320 7468 6174  Shows songs that
++00017240: 206d 6174 6368 2061 6c6c 2074 6167 7320   match all tags 
++00017250: 696e 7374 6561 6420 6f66 2061 6e79 2074  instead of any t
++00017260: 6167 2e20 4967 6e6f 7265 6420 6966 2027  ag. Ignored if '
++00017270: 2d74 2f2d 2d74 6167 2720 6973 2070 6173  -t/--tag' is pas
++00017280: 7365 642e 222c 0a29 0a64 6566 206c 6973  sed.",.).def lis
++00017290: 745f 2873 6561 7263 685f 7461 6773 2c20  t_(search_tags, 
++000172a0: 6c69 7374 696e 675f 7461 6773 2c20 7965  listing_tags, ye
++000172b0: 6172 2c20 736f 7274 5f2c 2074 6f70 2c20  ar, sort_, top, 
++000172c0: 7265 7665 7273 655f 2c20 6d61 7463 685f  reverse_, match_
++000172d0: 616c 6c29 3a0a 2020 2020 2222 224c 6973  all):.    """Lis
++000172e0: 7420 7468 6520 656e 7472 6965 7320 666f  t the entries fo
++000172f0: 7220 616c 6c20 736f 6e67 732e 0a0a 2020  r all songs...  
++00017300: 2020 4f75 7470 7574 2066 6f72 6d61 743a    Output format:
++00017310: 2049 442c 206e 616d 652c 2064 7572 6174   ID, name, durat
++00017320: 696f 6e2c 206c 6973 7465 6e20 7469 6d65  ion, listen time
++00017330: 2c20 7469 6d65 7320 6c69 7374 656e 6564  , times listened
++00017340: 2c20 5b63 6c69 702d 7374 6172 742c 2063  , [clip-start, c
++00017350: 6c69 702d 656e 645d 2069 6620 636c 6970  lip-end] if clip
++00017360: 2065 7869 7374 732c 2063 6f6d 6d61 2d73   exists, comma-s
++00017370: 6570 6172 6174 6564 2074 6167 7320 6966  eparated tags if
++00017380: 2061 6e79 0a0a 2020 2020 4966 2074 6865   any..    If the
++00017390: 2027 2d54 2720 666c 6167 2069 7320 7061   '-T' flag is pa
++000173a0: 7373 6564 2c20 7461 6773 2077 696c 6c20  ssed, tags will 
++000173b0: 6265 206c 6973 7465 6420 696e 7374 6561  be listed instea
++000173c0: 6420 6f66 2073 6f6e 6773 2e0a 0a20 2020  d of songs...   
++000173d0: 204f 7574 7075 7420 666f 726d 6174 3a20   Output format: 
++000173e0: 7461 672c 2064 7572 6174 696f 6e2c 206c  tag, duration, l
++000173f0: 6973 7465 6e20 7469 6d65 2c20 7469 6d65  isten time, time
++00017400: 7320 6c69 7374 656e 6564 0a0a 2020 2020  s listened..    
++00017410: 4966 2054 4147 5320 6172 6520 7061 7373  If TAGS are pass
++00017420: 6564 2c20 616e 7920 7461 672f 736f 6e67  ed, any tag/song
++00017430: 206d 6174 6368 696e 6720 616e 7920 7461   matching any ta
++00017440: 6720 696e 2054 4147 5320 7769 6c6c 2062  g in TAGS will b
++00017450: 6520 6c69 7374 6564 2c0a 2020 2020 756e  e listed,.    un
++00017460: 6c65 7373 2074 6865 2027 2d4d 2f2d 2d6d  less the '-M/--m
++00017470: 6174 6368 2d61 6c6c 2720 666c 6167 2069  atch-all' flag i
++00017480: 7320 7061 7373 6564 2c20 696e 2077 6869  s passed, in whi
++00017490: 6368 2063 6173 6520 6576 6572 7920 7461  ch case every ta
++000174a0: 6720 6d75 7374 0a20 2020 2062 6520 6d61  g must.    be ma
++000174b0: 7463 6865 6420 2869 676e 6f72 6564 2069  tched (ignored i
++000174c0: 6620 6c69 7374 696e 6720 7461 6773 292e  f listing tags).
++000174d0: 0a20 2020 2022 2222 0a20 2020 2069 6620  .    """.    if 
++000174e0: 746f 7020 6973 206e 6f74 204e 6f6e 653a  top is not None:
++000174f0: 0a20 2020 2020 2020 2069 6620 746f 7020  .        if top 
++00017500: 3c20 313a 0a20 2020 2020 2020 2020 2020  < 1:.           
++00017510: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
++00017520: 2020 2020 2020 2020 2020 2020 2020 2254                "T
++00017530: 6865 206f 7074 696f 6e20 272d 742f 2d2d  he option '-t/--
++00017540: 746f 7027 206d 7573 7420 6265 2061 2070  top' must be a p
++00017550: 6f73 6974 6976 6520 6e75 6d62 6572 2e22  ositive number."
++00017560: 2c20 6667 3d22 7265 6422 0a20 2020 2020  , fg="red".     
++00017570: 2020 2020 2020 2029 0a20 2020 2020 2020         ).       
++00017580: 2020 2020 2072 6574 7572 6e0a 0a20 2020       return..   
++00017590: 2069 6620 7965 6172 2069 7320 4e6f 6e65   if year is None
++000175a0: 3a0a 2020 2020 2020 2020 7374 6174 735f  :.        stats_
++000175b0: 7061 7468 203d 2063 6f6e 6669 672e 544f  path = config.TO
++000175c0: 5441 4c5f 5354 4154 535f 5041 5448 0a20  TAL_STATS_PATH. 
++000175d0: 2020 2065 6c73 653a 0a20 2020 2020 2020     else:.       
++000175e0: 2069 6620 7965 6172 203d 3d20 2263 7572   if year == "cur
++000175f0: 223a 0a20 2020 2020 2020 2020 2020 2079  ":.            y
++00017600: 6561 7220 3d20 636f 6e66 6967 2e43 5552  ear = config.CUR
++00017610: 5f59 4541 520a 2020 2020 2020 2020 2020  _YEAR.          
++00017620: 2020 7374 6174 735f 7061 7468 203d 2063    stats_path = c
++00017630: 6f6e 6669 672e 4355 525f 5945 4152 5f53  onfig.CUR_YEAR_S
++00017640: 5441 5453 5f50 4154 480a 2020 2020 2020  TATS_PATH.      
++00017650: 2020 656c 7365 3a0a 2020 2020 2020 2020    else:.        
++00017660: 2020 2020 6966 206e 6f74 2079 6561 722e      if not year.
++00017670: 6973 6469 6769 7428 293a 0a20 2020 2020  isdigit():.     
++00017680: 2020 2020 2020 2020 2020 2063 6c69 636b             click
++00017690: 2e73 6563 686f 2822 5965 6172 206d 7573  .secho("Year mus
++000176a0: 7420 6265 2061 206e 756d 6265 7220 6f72  t be a number or
++000176b0: 2027 6375 7227 2e22 2c20 6667 3d22 7265   'cur'.", fg="re
++000176c0: 6422 290a 2020 2020 2020 2020 2020 2020  d").            
++000176d0: 2020 2020 7265 7475 726e 0a20 2020 2020      return.     
++000176e0: 2020 2020 2020 2073 7461 7473 5f70 6174         stats_pat
++000176f0: 6820 3d20 6f73 2e70 6174 682e 6a6f 696e  h = os.path.join
++00017700: 2863 6f6e 6669 672e 5354 4154 535f 4449  (config.STATS_DI
++00017710: 522c 2066 227b 7965 6172 7d2e 7478 7422  R, f"{year}.txt"
++00017720: 290a 2020 2020 2020 2020 2020 2020 6966  ).            if
++00017730: 206e 6f74 206f 732e 7061 7468 2e65 7869   not os.path.exi
++00017740: 7374 7328 7374 6174 735f 7061 7468 293a  sts(stats_path):
++00017750: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00017760: 2063 6c69 636b 2e73 6563 686f 2866 224e   click.secho(f"N
++00017770: 6f20 7374 6174 7320 666f 756e 6420 666f  o stats found fo
++00017780: 7220 7965 6172 207b 7965 6172 7d2e 222c  r year {year}.",
++00017790: 2066 673d 2272 6564 2229 0a20 2020 2020   fg="red").     
++000177a0: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++000177b0: 6e0a 0a20 2020 2069 6620 7365 6172 6368  n..    if search
++000177c0: 5f74 6167 733a 0a20 2020 2020 2020 2073  _tags:.        s
++000177d0: 6561 7263 685f 7461 6773 203d 2073 6574  earch_tags = set
++000177e0: 2873 6561 7263 685f 7461 6773 290a 0a20  (search_tags).. 
++000177f0: 2020 206e 756d 5f6c 696e 6573 203d 2030     num_lines = 0
++00017800: 0a20 2020 2073 6f6e 6773 5f6e 6f74 5f66  .    songs_not_f
++00017810: 6f75 6e64 203d 205b 5d0a 0a20 2020 2069  ound = []..    i
++00017820: 6620 6c69 7374 696e 675f 7461 6773 3a0a  f listing_tags:.
++00017830: 2020 2020 2020 2020 7769 7468 2028 0a20          with (. 
++00017840: 2020 2020 2020 2020 2020 206f 7065 6e28             open(
++00017850: 636f 6e66 6967 2e53 4f4e 4753 5f49 4e46  config.SONGS_INF
++00017860: 4f5f 5041 5448 2c20 2272 222c 2065 6e63  O_PATH, "r", enc
++00017870: 6f64 696e 673d 2275 7466 2d38 2229 2061  oding="utf-8") a
++00017880: 7320 736f 6e67 735f 6669 6c65 2c0a 2020  s songs_file,.  
++00017890: 2020 2020 2020 2020 2020 6f70 656e 2873            open(s
++000178a0: 7461 7473 5f70 6174 682c 2022 7222 2c20  tats_path, "r", 
++000178b0: 656e 636f 6469 6e67 3d22 7574 662d 3822  encoding="utf-8"
++000178c0: 2920 6173 2073 7461 7473 5f66 696c 652c  ) as stats_file,
++000178d0: 0a20 2020 2020 2020 2029 3a0a 2020 2020  .        ):.    
++000178e0: 2020 2020 2020 2020 736f 6e67 735f 6c69          songs_li
++000178f0: 6e65 7320 3d20 736f 6e67 735f 6669 6c65  nes = songs_file
++00017900: 2e72 6561 646c 696e 6573 2829 0a20 2020  .readlines().   
++00017910: 2020 2020 2020 2020 2073 7461 7473 203d           stats =
++00017920: 2064 6963 7428 0a20 2020 2020 2020 2020   dict(.         
++00017930: 2020 2020 2020 206d 6170 280a 2020 2020         map(.    
++00017940: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017950: 6c61 6d62 6461 2074 3a20 2869 6e74 2874  lambda t: (int(t
++00017960: 5b30 5d29 2c29 202b 2074 5b31 3a5d 2c0a  [0]),) + t[1:],.
++00017970: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017980: 2020 2020 6d61 7028 0a20 2020 2020 2020      map(.       
++00017990: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000179a0: 206c 616d 6264 6120 783a 2074 7570 6c65   lambda x: tuple
++000179b0: 286d 6170 2866 6c6f 6174 2c20 782e 7374  (map(float, x.st
++000179c0: 7269 7028 292e 7370 6c69 7428 227c 2229  rip().split("|")
++000179d0: 2929 2c0a 2020 2020 2020 2020 2020 2020  )),.            
++000179e0: 2020 2020 2020 2020 2020 2020 7374 6174              stat
++000179f0: 735f 6669 6c65 2e72 6561 646c 696e 6573  s_file.readlines
++00017a00: 2829 2c0a 2020 2020 2020 2020 2020 2020  (),.            
++00017a10: 2020 2020 2020 2020 292c 0a20 2020 2020          ),.     
++00017a20: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
++00017a30: 2020 2020 2020 2020 2029 0a0a 2020 2020           )..    
++00017a40: 2020 2020 2020 2020 7461 6773 203d 2064          tags = d
++00017a50: 6566 6175 6c74 6469 6374 286c 616d 6264  efaultdict(lambd
++00017a60: 613a 2028 302e 302c 2030 2e30 2929 0a20  a: (0.0, 0.0)). 
++00017a70: 2020 2020 2020 2020 2020 2066 6f72 2069             for i
++00017a80: 2069 6e20 7261 6e67 6528 6c65 6e28 736f   in range(len(so
++00017a90: 6e67 735f 6c69 6e65 7329 293a 0a20 2020  ngs_lines)):.   
++00017aa0: 2020 2020 2020 2020 2020 2020 2073 6f6e               son
++00017ab0: 675f 6964 2c20 736f 6e67 5f6e 616d 652c  g_id, song_name,
++00017ac0: 2074 6167 5f73 7472 696e 6720 3d20 280a   tag_string = (.
++00017ad0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017ae0: 2020 2020 736f 6e67 735f 6c69 6e65 735b      songs_lines[
++00017af0: 695d 2e73 7472 6970 2829 2e73 706c 6974  i].strip().split
++00017b00: 2822 7c22 295b 303a 335d 0a20 2020 2020  ("|")[0:3].     
++00017b10: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
++00017b20: 2020 2020 2020 2020 2020 2020 2069 6620               if 
++00017b30: 6e6f 7420 6f73 2e70 6174 682e 6578 6973  not os.path.exis
++00017b40: 7473 286f 732e 7061 7468 2e6a 6f69 6e28  ts(os.path.join(
++00017b50: 636f 6e66 6967 2e53 4f4e 4753 5f44 4952  config.SONGS_DIR
++00017b60: 2c20 736f 6e67 5f6e 616d 6529 293a 0a20  , song_name)):. 
+ 00017b70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017b80: 7461 6773 5b74 6167 5d20 3d20 280a 2020  tags[tag] = (.  
+-00017b90: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017ba0: 2020 2020 2020 2020 2020 2020 2020 7461                ta
+-00017bb0: 6773 5b74 6167 5d5b 305d 202b 2073 7461  gs[tag][0] + sta
+-00017bc0: 7473 5b73 6f6e 675f 6964 5d2c 0a20 2020  ts[song_id],.   
+-00017bd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017be0: 2020 2020 2020 2020 2020 2020 2074 6167               tag
+-00017bf0: 735b 7461 675d 5b31 5d0a 2020 2020 2020  s[tag][1].      
+-00017c00: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017c10: 2020 2020 2020 2020 2020 2b20 6d75 7369            + musi
+-00017c20: 635f 7461 672e 6c6f 6164 5f66 696c 6528  c_tag.load_file(
+-00017c30: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00017c40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017c50: 2020 2020 206f 732e 7061 7468 2e6a 6f69       os.path.joi
+-00017c60: 6e28 636f 6e66 6967 2e53 4f4e 4753 5f44  n(config.SONGS_D
+-00017c70: 4952 2c20 736f 6e67 5f6e 616d 6529 0a20  IR, song_name). 
+-00017c80: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017c90: 2020 2020 2020 2020 2020 2020 2020 2029                 )
+-00017ca0: 5b22 236c 656e 6774 6822 5d2e 7661 6c75  ["#length"].valu
+-00017cb0: 652c 0a20 2020 2020 2020 2020 2020 2020  e,.             
+-00017cc0: 2020 2020 2020 2020 2020 2020 2020 2029                 )
+-00017cd0: 0a0a 2020 2020 2020 2020 2020 2020 7461  ..            ta
+-00017ce0: 675f 6974 656d 7320 3d20 6c69 7374 2874  g_items = list(t
+-00017cf0: 6167 732e 6974 656d 7328 2929 0a0a 2020  ags.items())..  
+-00017d00: 2020 2020 2020 2020 2020 6966 2073 6f72            if sor
+-00017d10: 745f 2021 3d20 226e 6f6e 6522 3a0a 2020  t_ != "none":.  
+-00017d20: 2020 2020 2020 2020 2020 2020 2020 6966                if
+-00017d30: 2073 6f72 745f 2069 6e20 2822 6e61 6d65   sort_ in ("name
+-00017d40: 222c 2022 6e22 293a 0a20 2020 2020 2020  ", "n"):.       
+-00017d50: 2020 2020 2020 2020 2020 2020 2073 6f72               sor
+-00017d60: 745f 6b65 7920 3d20 6c61 6d62 6461 2074  t_key = lambda t
+-00017d70: 3a20 745b 305d 0a20 2020 2020 2020 2020  : t[0].         
+-00017d80: 2020 2020 2020 2065 6c69 6620 736f 7274         elif sort
+-00017d90: 5f20 696e 2028 2273 6563 732d 6c69 7374  _ in ("secs-list
+-00017da0: 656e 6564 222c 2022 7322 293a 0a20 2020  ened", "s"):.   
++00017b80: 2020 2073 6f6e 6773 5f6e 6f74 5f66 6f75     songs_not_fou
++00017b90: 6e64 2e61 7070 656e 6428 2873 6f6e 675f  nd.append((song_
++00017ba0: 6964 2c20 736f 6e67 5f6e 616d 6529 290a  id, song_name)).
++00017bb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017bc0: 2020 2020 636f 6e74 696e 7565 0a20 2020      continue.   
++00017bd0: 2020 2020 2020 2020 2020 2020 2073 6f6e               son
++00017be0: 675f 6964 203d 2069 6e74 2873 6f6e 675f  g_id = int(song_
++00017bf0: 6964 290a 2020 2020 2020 2020 2020 2020  id).            
++00017c00: 2020 2020 6966 2074 6167 5f73 7472 696e      if tag_strin
++00017c10: 673a 0a20 2020 2020 2020 2020 2020 2020  g:.             
++00017c20: 2020 2020 2020 2066 6f72 2074 6167 2069         for tag i
++00017c30: 6e20 7461 675f 7374 7269 6e67 2e73 706c  n tag_string.spl
++00017c40: 6974 2822 2c22 293a 0a20 2020 2020 2020  it(","):.       
++00017c50: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017c60: 2069 6620 6e6f 7420 7365 6172 6368 5f74   if not search_t
++00017c70: 6167 7320 6f72 2074 6167 2069 6e20 7365  ags or tag in se
++00017c80: 6172 6368 5f74 6167 733a 0a20 2020 2020  arch_tags:.     
++00017c90: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017ca0: 2020 2020 2020 2074 6167 735b 7461 675d         tags[tag]
++00017cb0: 203d 2028 0a20 2020 2020 2020 2020 2020   = (.           
++00017cc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017cd0: 2020 2020 2074 6167 735b 7461 675d 5b30       tags[tag][0
++00017ce0: 5d20 2b20 7374 6174 735b 736f 6e67 5f69  ] + stats[song_i
++00017cf0: 645d 2c0a 2020 2020 2020 2020 2020 2020  d],.            
++00017d00: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017d10: 2020 2020 7461 6773 5b74 6167 5d5b 315d      tags[tag][1]
++00017d20: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00017d30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017d40: 202b 206d 7573 6963 5f74 6167 2e6c 6f61   + music_tag.loa
++00017d50: 645f 6669 6c65 280a 2020 2020 2020 2020  d_file(.        
++00017d60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017d70: 2020 2020 2020 2020 2020 2020 6f73 2e70              os.p
++00017d80: 6174 682e 6a6f 696e 2863 6f6e 6669 672e  ath.join(config.
++00017d90: 534f 4e47 535f 4449 522c 2073 6f6e 675f  SONGS_DIR, song_
++00017da0: 6e61 6d65 290a 2020 2020 2020 2020 2020  name).          
+ 00017db0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017dc0: 2073 6f72 745f 6b65 7920 3d20 6c61 6d62   sort_key = lamb
+-00017dd0: 6461 2074 3a20 745b 315d 5b30 5d0a 2020  da t: t[1][0].  
+-00017de0: 2020 2020 2020 2020 2020 2020 2020 656c                el
+-00017df0: 6966 2073 6f72 745f 2069 6e20 2822 6475  if sort_ in ("du
+-00017e00: 7261 7469 6f6e 222c 2022 6422 293a 0a20  ration", "d"):. 
+-00017e10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017e20: 2020 2073 6f72 745f 6b65 7920 3d20 6c61     sort_key = la
+-00017e30: 6d62 6461 2074 3a20 745b 315d 5b31 5d0a  mbda t: t[1][1].
+-00017e40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017e50: 656c 6966 2073 6f72 745f 2069 6e20 2822  elif sort_ in ("
+-00017e60: 7469 6d65 732d 6c69 7374 656e 6564 222c  times-listened",
+-00017e70: 2022 7422 293a 0a20 2020 2020 2020 2020   "t"):.         
+-00017e80: 2020 2020 2020 2020 2020 2073 6f72 745f             sort_
+-00017e90: 6b65 7920 3d20 6c61 6d62 6461 2074 3a20  key = lambda t: 
+-00017ea0: 745b 315d 5b30 5d20 2f20 745b 315d 5b31  t[1][0] / t[1][1
+-00017eb0: 5d0a 2020 2020 2020 2020 2020 2020 2020  ].              
+-00017ec0: 2020 7461 675f 6974 656d 732e 736f 7274    tag_items.sort
+-00017ed0: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-00017ee0: 2020 2020 2020 6b65 793d 736f 7274 5f6b        key=sort_k
+-00017ef0: 6579 2c0a 2020 2020 2020 2020 2020 2020  ey,.            
+-00017f00: 2020 2020 2020 2020 7265 7665 7273 653d          reverse=
+-00017f10: 6e6f 7420 7265 7665 7273 655f 2c0a 2020  not reverse_,.  
+-00017f20: 2020 2020 2020 2020 2020 2020 2020 290a                ).
+-00017f30: 2020 2020 2020 2020 2020 2020 656c 7365              else
+-00017f40: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-00017f50: 2020 6966 206e 6f74 2072 6576 6572 7365    if not reverse
+-00017f60: 5f3a 0a20 2020 2020 2020 2020 2020 2020  _:.             
+-00017f70: 2020 2020 2020 2074 6167 5f69 7465 6d73         tag_items
+-00017f80: 2e72 6576 6572 7365 2829 0a0a 2020 2020  .reverse()..    
+-00017f90: 2020 2020 2020 2020 666f 7220 7461 672c          for tag,
+-00017fa0: 2028 6c69 7374 656e 5f74 696d 652c 2074   (listen_time, t
+-00017fb0: 6f74 616c 5f64 7572 6174 696f 6e29 2069  otal_duration) i
+-00017fc0: 6e20 7461 675f 6974 656d 733a 0a20 2020  n tag_items:.   
+-00017fd0: 2020 2020 2020 2020 2020 2020 2063 6c69               cli
+-00017fe0: 636b 2e65 6368 6f28 0a20 2020 2020 2020  ck.echo(.       
+-00017ff0: 2020 2020 2020 2020 2020 2020 2066 227b               f"{
+-00018000: 7461 677d 207b 636c 6963 6b2e 7374 796c  tag} {click.styl
+-00018010: 6528 6865 6c70 6572 732e 666f 726d 6174  e(helpers.format
+-00018020: 5f73 6563 6f6e 6473 2874 6f74 616c 5f64  _seconds(total_d
+-00018030: 7572 6174 696f 6e2c 2073 686f 775f 6465  uration, show_de
+-00018040: 6369 6d61 6c3d 5472 7565 292c 2066 673d  cimal=True), fg=
+-00018050: 2762 7269 6768 745f 626c 6163 6b27 297d  'bright_black')}
+-00018060: 207b 636c 6963 6b2e 7374 796c 6528 6865   {click.style(he
+-00018070: 6c70 6572 732e 666f 726d 6174 5f73 6563  lpers.format_sec
+-00018080: 6f6e 6473 286c 6973 7465 6e5f 7469 6d65  onds(listen_time
+-00018090: 2c20 7368 6f77 5f64 6563 696d 616c 3d54  , show_decimal=T
+-000180a0: 7275 6529 2c20 6667 3d27 7965 6c6c 6f77  rue), fg='yellow
+-000180b0: 2729 7d20 7b63 6c69 636b 2e73 7479 6c65  ')} {click.style
+-000180c0: 2827 252e 3266 2725 286c 6973 7465 6e5f  ('%.2f'%(listen_
+-000180d0: 7469 6d65 2f74 6f74 616c 5f64 7572 6174  time/total_durat
+-000180e0: 696f 6e29 2c20 6667 3d27 6772 6565 6e27  ion), fg='green'
+-000180f0: 297d 220a 2020 2020 2020 2020 2020 2020  )}".            
+-00018100: 2020 2020 290a 2020 2020 2020 2020 2020      ).          
+-00018110: 2020 2020 2020 6e75 6d5f 6c69 6e65 7320        num_lines 
+-00018120: 2b3d 2031 0a20 2020 2020 2020 2020 2020  += 1.           
+-00018130: 2020 2020 2069 6620 746f 7020 6973 206e       if top is n
+-00018140: 6f74 204e 6f6e 6520 616e 6420 6e75 6d5f  ot None and num_
+-00018150: 6c69 6e65 7320 3d3d 2074 6f70 3a0a 2020  lines == top:.  
+-00018160: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018170: 2020 6272 6561 6b0a 2020 2020 2020 2020    break.        
+-00018180: 2020 2020 6966 2073 6f6e 6773 5f6e 6f74      if songs_not
+-00018190: 5f66 6f75 6e64 3a0a 2020 2020 2020 2020  _found:.        
+-000181a0: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
+-000181b0: 6368 6f28 2253 6f6e 6720 6669 6c65 7320  cho("Song files 
+-000181c0: 6e6f 7420 666f 756e 643a 222c 2066 673d  not found:", fg=
+-000181d0: 2272 6564 2229 0a20 2020 2020 2020 2020  "red").         
+-000181e0: 2020 2020 2020 2066 6f72 2073 6f6e 675f         for song_
+-000181f0: 6964 2c20 736f 6e67 5f6e 616d 6520 696e  id, song_name in
+-00018200: 2073 6f6e 6773 5f6e 6f74 5f66 6f75 6e64   songs_not_found
+-00018210: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-00018220: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
+-00018230: 6f28 6622 5c74 7b73 6f6e 675f 6e61 6d65  o(f"\t{song_name
+-00018240: 7d20 2849 4420 7b73 6f6e 675f 6964 7d29  } (ID {song_id})
+-00018250: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
+-00018260: 2020 2020 2072 6574 7572 6e0a 0a20 2020       return..   
+-00018270: 206e 6f5f 7265 7375 6c74 7320 3d20 5472   no_results = Tr
+-00018280: 7565 0a20 2020 2077 6974 6820 280a 2020  ue.    with (.  
+-00018290: 2020 2020 2020 6f70 656e 2863 6f6e 6669        open(confi
+-000182a0: 672e 534f 4e47 535f 494e 464f 5f50 4154  g.SONGS_INFO_PAT
+-000182b0: 482c 2022 7222 2c20 656e 636f 6469 6e67  H, "r", encoding
+-000182c0: 3d22 7574 662d 3822 2920 6173 2073 6f6e  ="utf-8") as son
+-000182d0: 6773 5f66 696c 652c 0a20 2020 2020 2020  gs_file,.       
+-000182e0: 206f 7065 6e28 7374 6174 735f 7061 7468   open(stats_path
+-000182f0: 2c20 2272 222c 2065 6e63 6f64 696e 673d  , "r", encoding=
+-00018300: 2275 7466 2d38 2229 2061 7320 7374 6174  "utf-8") as stat
+-00018310: 735f 6669 6c65 2c0a 2020 2020 293a 0a0a  s_file,.    ):..
+-00018320: 2020 2020 2020 2020 6465 6620 6368 6563          def chec
+-00018330: 6b5f 6966 5f66 696c 655f 6578 6973 7473  k_if_file_exists
+-00018340: 2864 6574 6169 6c5f 7374 7269 6e67 293a  (detail_string):
+-00018350: 0a20 2020 2020 2020 2020 2020 2064 6574  .            det
+-00018360: 6169 6c73 203d 2064 6574 6169 6c5f 7374  ails = detail_st
+-00018370: 7269 6e67 2e73 7472 6970 2829 2e73 706c  ring.strip().spl
+-00018380: 6974 2822 7c22 290a 2020 2020 2020 2020  it("|").        
+-00018390: 2020 2020 6966 206e 6f74 206f 732e 7061      if not os.pa
+-000183a0: 7468 2e65 7869 7374 7328 6f73 2e70 6174  th.exists(os.pat
+-000183b0: 682e 6a6f 696e 2863 6f6e 6669 672e 534f  h.join(config.SO
+-000183c0: 4e47 535f 4449 522c 2064 6574 6169 6c73  NGS_DIR, details
+-000183d0: 5b31 5d29 293a 0a20 2020 2020 2020 2020  [1])):.         
+-000183e0: 2020 2020 2020 2073 6f6e 6773 5f6e 6f74         songs_not
+-000183f0: 5f66 6f75 6e64 2e61 7070 656e 6428 6465  _found.append(de
+-00018400: 7461 696c 7329 0a20 2020 2020 2020 2020  tails).         
+-00018410: 2020 2020 2020 2072 6574 7572 6e20 4661         return Fa
+-00018420: 6c73 650a 2020 2020 2020 2020 2020 2020  lse.            
+-00018430: 7265 7475 726e 2054 7275 650a 0a20 2020  return True..   
+-00018440: 2020 2020 206c 696e 6573 203d 206c 6973       lines = lis
+-00018450: 7428 6669 6c74 6572 2863 6865 636b 5f69  t(filter(check_i
+-00018460: 665f 6669 6c65 5f65 7869 7374 732c 2073  f_file_exists, s
+-00018470: 6f6e 6773 5f66 696c 652e 7265 6164 6c69  ongs_file.readli
+-00018480: 6e65 7328 2929 290a 0a20 2020 2020 2020  nes()))..       
+-00018490: 2073 7461 7473 203d 2064 6963 7428 0a20   stats = dict(. 
+-000184a0: 2020 2020 2020 2020 2020 206d 6170 280a             map(.
+-000184b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000184c0: 6c61 6d62 6461 2074 3a20 2869 6e74 2874  lambda t: (int(t
+-000184d0: 5b30 5d29 2c29 202b 2074 5b31 3a5d 2c0a  [0]),) + t[1:],.
+-000184e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000184f0: 6d61 7028 0a20 2020 2020 2020 2020 2020  map(.           
+-00018500: 2020 2020 2020 2020 206c 616d 6264 6120           lambda 
+-00018510: 783a 2074 7570 6c65 286d 6170 2866 6c6f  x: tuple(map(flo
+-00018520: 6174 2c20 782e 7374 7269 7028 292e 7370  at, x.strip().sp
+-00018530: 6c69 7428 227c 2229 2929 2c0a 2020 2020  lit("|"))),.    
+-00018540: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018550: 7374 6174 735f 6669 6c65 2e72 6561 646c  stats_file.readl
+-00018560: 696e 6573 2829 2c0a 2020 2020 2020 2020  ines(),.        
+-00018570: 2020 2020 2020 2020 292c 0a20 2020 2020          ),.     
+-00018580: 2020 2020 2020 2029 0a20 2020 2020 2020         ).       
+-00018590: 2029 0a0a 2020 2020 2020 2020 666f 7220   )..        for 
+-000185a0: 6920 696e 2072 616e 6765 286c 656e 286c  i in range(len(l
+-000185b0: 696e 6573 2929 3a0a 2020 2020 2020 2020  ines)):.        
+-000185c0: 2020 2020 6465 7461 696c 7320 3d20 6c69      details = li
+-000185d0: 6e65 735b 695d 2e73 7472 6970 2829 2e73  nes[i].strip().s
+-000185e0: 706c 6974 2822 7c22 290a 2020 2020 2020  plit("|").      
+-000185f0: 2020 2020 2020 736f 6e67 5f69 6420 3d20        song_id = 
+-00018600: 696e 7428 6465 7461 696c 735b 305d 290a  int(details[0]).
+-00018610: 0a20 2020 2020 2020 2020 2020 2074 6167  .            tag
+-00018620: 7320 3d20 7365 7428 6465 7461 696c 735b  s = set(details[
+-00018630: 325d 2e73 706c 6974 2822 2c22 2929 0a20  2].split(",")). 
+-00018640: 2020 2020 2020 2020 2020 2069 6620 7365             if se
+-00018650: 6172 6368 5f74 6167 733a 0a20 2020 2020  arch_tags:.     
+-00018660: 2020 2020 2020 2020 2020 2069 6620 6d61             if ma
+-00018670: 7463 685f 616c 6c3a 0a20 2020 2020 2020  tch_all:.       
+-00018680: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-00018690: 6e6f 7420 7365 6172 6368 5f74 6167 7320  not search_tags 
+-000186a0: 3c3d 2074 6167 733a 2020 2320 7375 6273  <= tags:  # subs
+-000186b0: 6574 0a20 2020 2020 2020 2020 2020 2020  et.             
+-000186c0: 2020 2020 2020 2020 2020 206c 696e 6573             lines
+-000186d0: 5b69 5d20 3d20 2222 0a20 2020 2020 2020  [i] = "".       
+-000186e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000186f0: 2063 6f6e 7469 6e75 650a 2020 2020 2020   continue.      
+-00018700: 2020 2020 2020 2020 2020 656c 7365 3a0a            else:.
+-00018710: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018720: 2020 2020 6966 206e 6f74 2073 6561 7263      if not searc
+-00018730: 685f 7461 6773 2026 2074 6167 733a 2020  h_tags & tags:  
+-00018740: 2320 696e 7465 7273 6563 7469 6f6e 0a20  # intersection. 
+-00018750: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018760: 2020 2020 2020 206c 696e 6573 5b69 5d20         lines[i] 
+-00018770: 3d20 2222 0a20 2020 2020 2020 2020 2020  = "".           
+-00018780: 2020 2020 2020 2020 2020 2020 2063 6f6e               con
+-00018790: 7469 6e75 650a 0a20 2020 2020 2020 2020  tinue..         
+-000187a0: 2020 2074 696d 655f 6c69 7374 656e 6564     time_listened
+-000187b0: 203d 2073 7461 7473 5b73 6f6e 675f 6964   = stats[song_id
+-000187c0: 5d0a 2020 2020 2020 2020 2020 2020 6c69  ].            li
+-000187d0: 6e65 735b 695d 203d 2074 7570 6c65 2864  nes[i] = tuple(d
+-000187e0: 6574 6169 6c73 2920 2b20 280a 2020 2020  etails) + (.    
+-000187f0: 2020 2020 2020 2020 2020 2020 7469 6d65              time
+-00018800: 5f6c 6973 7465 6e65 642c 0a20 2020 2020  _listened,.     
+-00018810: 2020 2020 2020 2020 2020 206d 7573 6963             music
+-00018820: 5f74 6167 2e6c 6f61 645f 6669 6c65 286f  _tag.load_file(o
+-00018830: 732e 7061 7468 2e6a 6f69 6e28 636f 6e66  s.path.join(conf
+-00018840: 6967 2e53 4f4e 4753 5f44 4952 2c20 6465  ig.SONGS_DIR, de
+-00018850: 7461 696c 735b 315d 2929 5b0a 2020 2020  tails[1]))[.    
+-00018860: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018870: 2223 6c65 6e67 7468 220a 2020 2020 2020  "#length".      
+-00018880: 2020 2020 2020 2020 2020 5d2e 7661 6c75            ].valu
+-00018890: 652c 0a20 2020 2020 2020 2020 2020 2029  e,.            )
+-000188a0: 0a0a 2020 2020 2020 2020 6c69 6e65 7320  ..        lines 
+-000188b0: 3d20 5b6c 696e 6520 666f 7220 6c69 6e65  = [line for line
+-000188c0: 2069 6e20 6c69 6e65 7320 6966 206c 696e   in lines if lin
+-000188d0: 655d 0a0a 2020 2020 2020 2020 6966 2073  e]..        if s
+-000188e0: 6f72 745f 2021 3d20 226e 6f6e 6522 3a0a  ort_ != "none":.
+-000188f0: 2020 2020 2020 2020 2020 2020 6966 2073              if s
+-00018900: 6f72 745f 2069 6e20 2822 6e61 6d65 222c  ort_ in ("name",
+-00018910: 2022 6e22 293a 0a20 2020 2020 2020 2020   "n"):.         
+-00018920: 2020 2020 2020 2073 6f72 745f 6b65 7920         sort_key 
+-00018930: 3d20 6c61 6d62 6461 2074 3a20 745b 315d  = lambda t: t[1]
+-00018940: 0a20 2020 2020 2020 2020 2020 2065 6c69  .            eli
+-00018950: 6620 736f 7274 5f20 696e 2028 2273 6563  f sort_ in ("sec
+-00018960: 732d 6c69 7374 656e 6564 222c 2022 7322  s-listened", "s"
+-00018970: 293a 0a20 2020 2020 2020 2020 2020 2020  ):.             
+-00018980: 2020 2073 6f72 745f 6b65 7920 3d20 6c61     sort_key = la
+-00018990: 6d62 6461 2074 3a20 666c 6f61 7428 745b  mbda t: float(t[
+-000189a0: 2d32 5d29 0a20 2020 2020 2020 2020 2020  -2]).           
+-000189b0: 2065 6c69 6620 736f 7274 5f20 696e 2028   elif sort_ in (
+-000189c0: 2264 7572 6174 696f 6e22 2c20 2264 2229  "duration", "d")
+-000189d0: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
+-000189e0: 2020 736f 7274 5f6b 6579 203d 206c 616d    sort_key = lam
+-000189f0: 6264 6120 743a 2066 6c6f 6174 2874 5b2d  bda t: float(t[-
+-00018a00: 315d 290a 2020 2020 2020 2020 2020 2020  1]).            
+-00018a10: 656c 6966 2073 6f72 745f 2069 6e20 2822  elif sort_ in ("
+-00018a20: 7469 6d65 732d 6c69 7374 656e 6564 222c  times-listened",
+-00018a30: 2022 7422 293a 0a20 2020 2020 2020 2020   "t"):.         
+-00018a40: 2020 2020 2020 2073 6f72 745f 6b65 7920         sort_key 
+-00018a50: 3d20 6c61 6d62 6461 2074 3a20 666c 6f61  = lambda t: floa
+-00018a60: 7428 745b 2d32 5d29 202f 2066 6c6f 6174  t(t[-2]) / float
+-00018a70: 2874 5b2d 315d 290a 2020 2020 2020 2020  (t[-1]).        
+-00018a80: 2020 2020 6c69 6e65 732e 736f 7274 280a      lines.sort(.
+-00018a90: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018aa0: 6b65 793d 736f 7274 5f6b 6579 2c0a 2020  key=sort_key,.  
+-00018ab0: 2020 2020 2020 2020 2020 2020 2020 7265                re
+-00018ac0: 7665 7273 653d 6e6f 7420 7265 7665 7273  verse=not revers
+-00018ad0: 655f 2c0a 2020 2020 2020 2020 2020 2020  e_,.            
+-00018ae0: 290a 2020 2020 2020 2020 656c 7365 3a0a  ).        else:.
+-00018af0: 2020 2020 2020 2020 2020 2020 6966 206e              if n
+-00018b00: 6f74 2072 6576 6572 7365 5f3a 0a20 2020  ot reverse_:.   
+-00018b10: 2020 2020 2020 2020 2020 2020 206c 696e               lin
+-00018b20: 6573 2e72 6576 6572 7365 2829 0a0a 2020  es.reverse()..  
+-00018b30: 2020 2020 2020 666f 7220 6465 7461 696c        for detail
+-00018b40: 7320 696e 206c 696e 6573 3a0a 2020 2020  s in lines:.    
+-00018b50: 2020 2020 2020 2020 6865 6c70 6572 732e          helpers.
+-00018b60: 7072 696e 745f 656e 7472 7928 6465 7461  print_entry(deta
+-00018b70: 696c 7329 0a20 2020 2020 2020 2020 2020  ils).           
+-00018b80: 206e 756d 5f6c 696e 6573 202b 3d20 310a   num_lines += 1.
+-00018b90: 2020 2020 2020 2020 2020 2020 6e6f 5f72              no_r
+-00018ba0: 6573 756c 7473 203d 2046 616c 7365 0a20  esults = False. 
+-00018bb0: 2020 2020 2020 2020 2020 2069 6620 746f             if to
+-00018bc0: 7020 6973 206e 6f74 204e 6f6e 6520 616e  p is not None an
+-00018bd0: 6420 6e75 6d5f 6c69 6e65 7320 3d3d 2074  d num_lines == t
+-00018be0: 6f70 3a0a 2020 2020 2020 2020 2020 2020  op:.            
+-00018bf0: 2020 2020 6272 6561 6b0a 0a20 2020 2069      break..    i
+-00018c00: 6620 736f 6e67 735f 6e6f 745f 666f 756e  f songs_not_foun
+-00018c10: 643a 0a20 2020 2020 2020 2063 6c69 636b  d:.        click
+-00018c20: 2e73 6563 686f 2822 536f 6e67 2066 696c  .secho("Song fil
+-00018c30: 6573 206e 6f74 2066 6f75 6e64 3a22 2c20  es not found:", 
+-00018c40: 6667 3d22 7265 6422 290a 2020 2020 2020  fg="red").      
+-00018c50: 2020 666f 7220 6465 7461 696c 7320 696e    for details in
+-00018c60: 2073 6f6e 6773 5f6e 6f74 5f66 6f75 6e64   songs_not_found
+-00018c70: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
+-00018c80: 6963 6b2e 7365 6368 6f28 6622 5c74 7b64  ick.secho(f"\t{d
+-00018c90: 6574 6169 6c73 5b31 5d7d 2028 4944 207b  etails[1]} (ID {
+-00018ca0: 6465 7461 696c 735b 305d 7d29 222c 2066  details[0]})", f
+-00018cb0: 673d 2272 6564 2229 0a20 2020 2065 6c69  g="red").    eli
+-00018cc0: 6620 6e6f 5f72 6573 756c 7473 2061 6e64  f no_results and
+-00018cd0: 2073 6561 7263 685f 7461 6773 3a0a 2020   search_tags:.  
+-00018ce0: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
+-00018cf0: 6f28 224e 6f20 736f 6e67 7320 666f 756e  o("No songs foun
+-00018d00: 6420 6d61 7463 6869 6e67 2074 6167 732e  d matching tags.
+-00018d10: 222c 2066 673d 2272 6564 2229 0a20 2020  ", fg="red").   
+-00018d20: 2065 6c69 6620 6e6f 5f72 6573 756c 7473   elif no_results
+-00018d30: 3a0a 2020 2020 2020 2020 636c 6963 6b2e  :.        click.
+-00018d40: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
+-00018d50: 2020 2022 4e6f 2073 6f6e 6773 2066 6f75     "No songs fou
+-00018d60: 6e64 2e20 5573 6520 276d 6165 7374 726f  nd. Use 'maestro
+-00018d70: 2061 6464 2720 746f 2061 6464 2061 2073   add' to add a s
+-00018d80: 6f6e 672e 222c 2066 673d 2272 6564 220a  ong.", fg="red".
+-00018d90: 2020 2020 2020 2020 290a 0a0a 4063 6c69          )...@cli
+-00018da0: 2e63 6f6d 6d61 6e64 2829 0a40 636c 6963  .command().@clic
+-00018db0: 6b2e 6f70 7469 6f6e 280a 2020 2020 222d  k.option(.    "-
+-00018dc0: 7922 2c0a 2020 2020 222d 2d79 6561 7222  y",.    "--year"
+-00018dd0: 2c0a 2020 2020 2279 6561 7222 2c0a 2020  ,.    "year",.  
+-00018de0: 2020 6865 6c70 3d22 5368 6f77 2074 696d    help="Show tim
+-00018df0: 6520 6c69 7374 656e 6564 2066 6f72 2061  e listened for a
+-00018e00: 2073 7065 6369 6669 6320 7965 6172 2c20   specific year, 
+-00018e10: 696e 7374 6561 6420 6f66 2074 6865 2074  instead of the t
+-00018e20: 6f74 616c 2e20 5061 7373 696e 6720 2763  otal. Passing 'c
+-00018e30: 7572 2720 7769 6c6c 2073 686f 7720 7468  ur' will show th
+-00018e40: 6520 7469 6d65 206c 6973 7465 6e65 6420  e time listened 
+-00018e50: 666f 7220 7468 6520 6375 7272 656e 7420  for the current 
+-00018e60: 7965 6172 2e22 2c0a 290a 4063 6c69 636b  year.",.).@click
+-00018e70: 2e6f 7074 696f 6e28 0a20 2020 2022 2d49  .option(.    "-I
+-00018e80: 2f2d 6e49 222c 0a20 2020 2022 2d2d 736f  /-nI",.    "--so
+-00018e90: 6e67 2d69 6e66 6f2f 2d2d 6e6f 2d73 6f6e  ng-info/--no-son
+-00018ea0: 672d 696e 666f 222c 0a20 2020 2022 736f  g-info",.    "so
+-00018eb0: 6e67 5f69 6e66 6f22 2c0a 2020 2020 6465  ng_info",.    de
+-00018ec0: 6661 756c 743d 4661 6c73 652c 0a20 2020  fault=False,.   
+-00018ed0: 2068 656c 703d 2253 686f 7720 7468 6520   help="Show the 
+-00018ee0: 6172 7469 7374 2c20 616c 6275 6d2c 2061  artist, album, a
+-00018ef0: 6e64 2061 6c62 756d 2061 7274 6973 7420  nd album artist 
+-00018f00: 666f 7220 6561 6368 2073 6f6e 672e 222c  for each song.",
+-00018f10: 0a29 0a40 636c 6963 6b2e 6172 6775 6d65  .).@click.argume
+-00018f20: 6e74 2822 736f 6e67 5f69 6473 222c 2074  nt("song_ids", t
+-00018f30: 7970 653d 636c 6963 6b2e 494e 542c 206e  ype=click.INT, n
+-00018f40: 6172 6773 3d2d 312c 2072 6571 7569 7265  args=-1, require
+-00018f50: 643d 5472 7565 290a 6465 6620 656e 7472  d=True).def entr
+-00018f60: 7928 736f 6e67 5f69 6473 2c20 7965 6172  y(song_ids, year
+-00018f70: 2c20 736f 6e67 5f69 6e66 6f29 3a0a 2020  , song_info):.  
+-00018f80: 2020 2222 220a 2020 2020 5669 6577 2074    """.    View t
+-00018f90: 6865 2064 6574 6169 6c73 2066 6f72 2073  he details for s
+-00018fa0: 7065 6369 6669 6320 736f 6e67 2873 292e  pecific song(s).
+-00018fb0: 0a0a 2020 2020 5072 696e 7473 2074 6865  ..    Prints the
+-00018fc0: 2064 6574 6169 6c73 206f 6620 7468 6520   details of the 
+-00018fd0: 736f 6e67 2873 2920 7769 7468 2074 6865  song(s) with the
+-00018fe0: 2049 4428 7329 2053 4f4e 475f 4944 532e   ID(s) SONG_IDS.
+-00018ff0: 0a0a 2020 2020 5c62 0a20 2020 204f 7574  ..    \b.    Out
+-00019000: 7075 7420 666f 726d 6174 3a0a 2020 2020  put format:.    
+-00019010: 2020 2020 4944 2c20 6e61 6d65 2c20 6475      ID, name, du
+-00019020: 7261 7469 6f6e 2c20 6c69 7374 656e 2074  ration, listen t
+-00019030: 696d 652c 2074 696d 6573 206c 6973 7465  ime, times liste
+-00019040: 6e65 642c 205b 636c 6970 2d73 7461 7274  ned, [clip-start
+-00019050: 2c20 636c 6970 2d65 6e64 5d20 6966 2063  , clip-end] if c
+-00019060: 6c69 7020 6578 6973 7473 2c20 636f 6d6d  lip exists, comm
+-00019070: 612d 7365 7061 7261 7465 6420 7461 6773  a-separated tags
+-00019080: 2069 6620 616e 790a 2020 2020 2020 2020   if any.        
+-00019090: 6172 7469 7374 202d 2061 6c62 756d 2028  artist - album (
+-000190a0: 616c 6275 6d20 6172 7469 7374 2920 6966  album artist) if
+-000190b0: 202d 492f 2d2d 736f 6e67 2d69 6e66 6f20   -I/--song-info 
+-000190c0: 6973 2070 6173 7365 640a 2020 2020 2222  is passed.    ""
+-000190d0: 220a 2020 2020 736f 6e67 5f69 6473 203d  ".    song_ids =
+-000190e0: 2073 6574 2873 6f6e 675f 6964 7329 0a0a   set(song_ids)..
+-000190f0: 2020 2020 6966 2079 6561 7220 6973 204e      if year is N
+-00019100: 6f6e 653a 0a20 2020 2020 2020 2073 7461  one:.        sta
+-00019110: 7473 5f70 6174 6820 3d20 636f 6e66 6967  ts_path = config
+-00019120: 2e54 4f54 414c 5f53 5441 5453 5f50 4154  .TOTAL_STATS_PAT
+-00019130: 480a 2020 2020 656c 7365 3a0a 2020 2020  H.    else:.    
+-00019140: 2020 2020 6966 2079 6561 7220 3d3d 2022      if year == "
+-00019150: 6375 7222 3a0a 2020 2020 2020 2020 2020  cur":.          
+-00019160: 2020 7965 6172 203d 2063 6f6e 6669 672e    year = config.
+-00019170: 4355 525f 5945 4152 0a20 2020 2020 2020  CUR_YEAR.       
+-00019180: 2020 2020 2073 7461 7473 5f70 6174 6820       stats_path 
+-00019190: 3d20 636f 6e66 6967 2e43 5552 5f59 4541  = config.CUR_YEA
+-000191a0: 525f 5354 4154 535f 5041 5448 0a20 2020  R_STATS_PATH.   
+-000191b0: 2020 2020 2065 6c73 653a 0a20 2020 2020       else:.     
+-000191c0: 2020 2020 2020 2069 6620 6e6f 7420 7965         if not ye
+-000191d0: 6172 2e69 7364 6967 6974 2829 3a0a 2020  ar.isdigit():.  
+-000191e0: 2020 2020 2020 2020 2020 2020 2020 636c                cl
+-000191f0: 6963 6b2e 7365 6368 6f28 2259 6561 7220  ick.secho("Year 
+-00019200: 6d75 7374 2062 6520 6120 6e75 6d62 6572  must be a number
+-00019210: 2e22 2c20 6667 3d22 7265 6422 290a 2020  .", fg="red").  
+-00019220: 2020 2020 2020 2020 2020 2020 2020 7265                re
+-00019230: 7475 726e 0a20 2020 2020 2020 2020 2020  turn.           
+-00019240: 2073 7461 7473 5f70 6174 6820 3d20 6f73   stats_path = os
+-00019250: 2e70 6174 682e 6a6f 696e 2863 6f6e 6669  .path.join(confi
+-00019260: 672e 5354 4154 535f 4449 522c 2066 227b  g.STATS_DIR, f"{
+-00019270: 7965 6172 7d2e 7478 7422 290a 0a20 2020  year}.txt")..   
+-00019280: 2074 7279 3a0a 2020 2020 2020 2020 7769   try:.        wi
+-00019290: 7468 2028 0a20 2020 2020 2020 2020 2020  th (.           
+-000192a0: 206f 7065 6e28 636f 6e66 6967 2e53 4f4e   open(config.SON
+-000192b0: 4753 5f49 4e46 4f5f 5041 5448 2c20 2272  GS_INFO_PATH, "r
+-000192c0: 222c 2065 6e63 6f64 696e 673d 2275 7466  ", encoding="utf
+-000192d0: 2d38 2229 2061 7320 736f 6e67 735f 6669  -8") as songs_fi
+-000192e0: 6c65 2c0a 2020 2020 2020 2020 2020 2020  le,.            
+-000192f0: 6f70 656e 2873 7461 7473 5f70 6174 682c  open(stats_path,
+-00019300: 2022 7222 2c20 656e 636f 6469 6e67 3d22   "r", encoding="
+-00019310: 7574 662d 3822 2920 6173 2073 7461 7473  utf-8") as stats
+-00019320: 5f66 696c 652c 0a20 2020 2020 2020 2029  _file,.        )
+-00019330: 3a0a 2020 2020 2020 2020 2020 2020 6c69  :.            li
+-00019340: 6e65 7320 3d20 736f 6e67 735f 6669 6c65  nes = songs_file
+-00019350: 2e72 6561 646c 696e 6573 2829 0a20 2020  .readlines().   
+-00019360: 2020 2020 2020 2020 2073 7461 7473 203d           stats =
+-00019370: 2064 6963 7428 0a20 2020 2020 2020 2020   dict(.         
+-00019380: 2020 2020 2020 206d 6170 280a 2020 2020         map(.    
+-00019390: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000193a0: 6c61 6d62 6461 2074 3a20 2869 6e74 2874  lambda t: (int(t
+-000193b0: 5b30 5d29 2c29 202b 2074 5b31 3a5d 2c20  [0]),) + t[1:], 
+-000193c0: 2023 2063 6f6e 7665 7274 206b 6579 2074   # convert key t
+-000193d0: 6f20 696e 740a 2020 2020 2020 2020 2020  o int.          
+-000193e0: 2020 2020 2020 2020 2020 6d61 7028 0a20            map(. 
+-000193f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019400: 2020 2020 2020 206c 616d 6264 6120 783a         lambda x:
+-00019410: 2074 7570 6c65 286d 6170 2866 6c6f 6174   tuple(map(float
+-00019420: 2c20 782e 7374 7269 7028 292e 7370 6c69  , x.strip().spli
+-00019430: 7428 227c 2229 2929 2c0a 2020 2020 2020  t("|"))),.      
+-00019440: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019450: 2020 7374 6174 735f 6669 6c65 2e72 6561    stats_file.rea
+-00019460: 646c 696e 6573 2829 2c0a 2020 2020 2020  dlines(),.      
+-00019470: 2020 2020 2020 2020 2020 2020 2020 292c                ),
+-00019480: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00019490: 2029 0a20 2020 2020 2020 2020 2020 2029   ).            )
+-000194a0: 0a20 2020 2020 2020 2020 2020 2066 6f72  .            for
+-000194b0: 2069 2069 6e20 7261 6e67 6528 6c65 6e28   i in range(len(
+-000194c0: 6c69 6e65 7329 293a 0a20 2020 2020 2020  lines)):.       
+-000194d0: 2020 2020 2020 2020 2064 6574 6169 6c73           details
+-000194e0: 203d 206c 696e 6573 5b69 5d2e 7374 7269   = lines[i].stri
+-000194f0: 7028 292e 7370 6c69 7428 227c 2229 0a20  p().split("|"). 
+-00019500: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-00019510: 6f6e 675f 6964 203d 2069 6e74 2864 6574  ong_id = int(det
+-00019520: 6169 6c73 5b30 5d29 0a20 2020 2020 2020  ails[0]).       
+-00019530: 2020 2020 2020 2020 2069 6620 736f 6e67           if song
+-00019540: 5f69 6420 696e 2073 6f6e 675f 6964 733a  _id in song_ids:
+-00019550: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00019560: 2020 2020 2069 6620 6e6f 7420 6f73 2e70       if not os.p
+-00019570: 6174 682e 6578 6973 7473 286f 732e 7061  ath.exists(os.pa
+-00019580: 7468 2e6a 6f69 6e28 636f 6e66 6967 2e53  th.join(config.S
+-00019590: 4f4e 4753 5f44 4952 2c20 6465 7461 696c  ONGS_DIR, detail
+-000195a0: 735b 315d 2929 3a0a 2020 2020 2020 2020  s[1])):.        
+-000195b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000195c0: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
+-000195d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000195e0: 2020 2020 2020 2020 2066 2253 6f6e 6720           f"Song 
+-000195f0: 6669 6c65 2077 6974 6820 4944 207b 736f  file with ID {so
+-00019600: 6e67 5f69 647d 206e 6f74 2066 6f75 6e64  ng_id} not found
+-00019610: 2e22 2c20 6667 3d22 7265 6422 0a20 2020  .", fg="red".   
+-00019620: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019630: 2020 2020 2029 0a20 2020 2020 2020 2020       ).         
+-00019640: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-00019650: 6f6e 675f 6964 732e 7265 6d6f 7665 2873  ong_ids.remove(s
+-00019660: 6f6e 675f 6964 290a 2020 2020 2020 2020  ong_id).        
+-00019670: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019680: 636f 6e74 696e 7565 0a20 2020 2020 2020  continue.       
+-00019690: 2020 2020 2020 2020 2020 2020 2068 656c               hel
+-000196a0: 7065 7273 2e70 7269 6e74 5f65 6e74 7279  pers.print_entry
+-000196b0: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-000196c0: 2020 2020 2020 2020 2020 6465 7461 696c            detail
+-000196d0: 730a 2020 2020 2020 2020 2020 2020 2020  s.              
+-000196e0: 2020 2020 2020 2020 2020 2b20 5b0a 2020            + [.  
+-000196f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019700: 2020 2020 2020 2020 2020 7374 6174 735b            stats[
+-00019710: 736f 6e67 5f69 645d 2c0a 2020 2020 2020  song_id],.      
+-00019720: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019730: 2020 2020 2020 6d75 7369 635f 7461 672e        music_tag.
+-00019740: 6c6f 6164 5f66 696c 6528 0a20 2020 2020  load_file(.     
+-00019750: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019760: 2020 2020 2020 2020 2020 206f 732e 7061             os.pa
+-00019770: 7468 2e6a 6f69 6e28 636f 6e66 6967 2e53  th.join(config.S
+-00019780: 4f4e 4753 5f44 4952 2c20 6465 7461 696c  ONGS_DIR, detail
+-00019790: 735b 315d 290a 2020 2020 2020 2020 2020  s[1]).          
+-000197a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000197b0: 2020 295b 2223 6c65 6e67 7468 225d 2e76    )["#length"].v
+-000197c0: 616c 7565 2c0a 2020 2020 2020 2020 2020  alue,.          
+-000197d0: 2020 2020 2020 2020 2020 2020 2020 5d2c                ],
+-000197e0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000197f0: 2020 2020 2020 2020 2073 686f 775f 736f           show_so
+-00019800: 6e67 5f69 6e66 6f3d 736f 6e67 5f69 6e66  ng_info=song_inf
+-00019810: 6f2c 0a20 2020 2020 2020 2020 2020 2020  o,.             
+-00019820: 2020 2020 2020 2029 0a20 2020 2020 2020         ).       
+-00019830: 2020 2020 2020 2020 2020 2020 2073 6f6e               son
+-00019840: 675f 6964 732e 7265 6d6f 7665 2873 6f6e  g_ids.remove(son
+-00019850: 675f 6964 290a 2020 2020 6578 6365 7074  g_id).    except
+-00019860: 2046 696c 654e 6f74 466f 756e 6445 7272   FileNotFoundErr
+-00019870: 6f72 3a0a 2020 2020 2020 2020 636c 6963  or:.        clic
+-00019880: 6b2e 7365 6368 6f28 6622 4e6f 2073 7461  k.secho(f"No sta
+-00019890: 7473 2066 6f75 6e64 2066 6f72 2079 6561  ts found for yea
+-000198a0: 7220 7b79 6561 727d 2e22 2c20 6667 3d22  r {year}.", fg="
+-000198b0: 7265 6422 290a 0a20 2020 2069 6620 736f  red")..    if so
+-000198c0: 6e67 5f69 6473 3a0a 2020 2020 2020 2020  ng_ids:.        
+-000198d0: 736f 6e67 5f69 6473 203d 205b 7374 7228  song_ids = [str(
+-000198e0: 6964 5f29 2066 6f72 2069 645f 2069 6e20  id_) for id_ in 
+-000198f0: 736f 6e67 5f69 6473 5d0a 2020 2020 2020  song_ids].      
+-00019900: 2020 636c 6963 6b2e 7365 6368 6f28 0a20    click.secho(. 
+-00019910: 2020 2020 2020 2020 2020 2066 224e 6f20             f"No 
+-00019920: 736f 6e67 7320 666f 756e 6420 7769 7468  songs found with
+-00019930: 2049 4473 3a20 7b27 2c20 272e 6a6f 696e   IDs: {', '.join
+-00019940: 2873 6f6e 675f 6964 7329 7d2e 222c 2066  (song_ids)}.", f
+-00019950: 673d 2272 6564 220a 2020 2020 2020 2020  g="red".        
+-00019960: 290a 0a0a 4063 6c69 2e63 6f6d 6d61 6e64  )...@cli.command
+-00019970: 2829 0a40 636c 6963 6b2e 6172 6775 6d65  ().@click.argume
+-00019980: 6e74 2822 736f 6e67 222c 2072 6571 7569  nt("song", requi
+-00019990: 7265 643d 5472 7565 290a 4063 6c69 636b  red=True).@click
+-000199a0: 2e6f 7074 696f 6e28 0a20 2020 2022 2d4e  .option(.    "-N
+-000199b0: 2f2d 6e4e 222c 0a20 2020 2022 2d2d 6e61  /-nN",.    "--na
+-000199c0: 6d65 2f2d 2d6e 6f2d 6e61 6d65 222c 0a20  me/--no-name",. 
+-000199d0: 2020 2022 7469 746c 6522 2c0a 2020 2020     "title",.    
+-000199e0: 6465 6661 756c 743d 4661 6c73 652c 0a20  default=False,. 
+-000199f0: 2020 2068 656c 703d 2254 7265 6174 2053     help="Treat S
+-00019a00: 4f4e 4720 6173 2061 2073 6f6e 6720 6e61  ONG as a song na
+-00019a10: 6d65 2069 6e73 7465 6164 206f 6620 616e  me instead of an
+-00019a20: 2049 442e 222c 0a29 0a64 6566 2072 6563   ID.",.).def rec
+-00019a30: 6f6d 6d65 6e64 2873 6f6e 672c 2074 6974  ommend(song, tit
+-00019a40: 6c65 293a 0a20 2020 2022 2222 0a20 2020  le):.    """.   
+-00019a50: 2047 6574 2072 6563 6f6d 6d65 6e64 6174   Get recommendat
+-00019a60: 696f 6e73 2066 726f 6d20 5954 204d 7573  ions from YT Mus
+-00019a70: 6963 2062 6173 6564 206f 6e20 736f 6e67  ic based on song
+-00019a80: 2074 6974 6c65 732e 204e 6f74 653a 2074   titles. Note: t
+-00019a90: 6869 7320 6665 6174 7572 650a 2020 2020  his feature.    
+-00019aa0: 6973 2065 7870 6572 696d 656e 7461 6c2e  is experimental.
+-00019ab0: 0a0a 2020 2020 5265 636f 6d6d 656e 6473  ..    Recommends
+-00019ac0: 2073 6f6e 6773 2028 706f 7373 6962 6c79   songs (possibly
+-00019ad0: 2065 7870 6c69 6369 7429 2075 7369 6e67   explicit) using
+-00019ae0: 2074 6865 2059 6f75 5475 6265 204d 7573   the YouTube Mus
+-00019af0: 6963 2041 5049 2073 696d 696c 6172 0a20  ic API similar. 
+-00019b00: 2020 2074 6f20 7468 6520 736f 6e67 2077     to the song w
+-00019b10: 6974 6820 4944 2053 4f4e 4720 746f 206c  ith ID SONG to l
+-00019b20: 6973 7465 6e20 746f 2e0a 0a20 2020 2049  isten to...    I
+-00019b30: 6620 7468 6520 272d 4e27 2066 6c61 6720  f the '-N' flag 
+-00019b40: 6973 2070 6173 7365 642c 2053 4f4e 4720  is passed, SONG 
+-00019b50: 6973 2074 7265 6174 6564 2061 7320 6120  is treated as a 
+-00019b60: 736f 6e67 206e 616d 6520 746f 2073 6561  song name to sea
+-00019b70: 7263 6820 666f 720a 2020 2020 6f6e 2059  rch for.    on Y
+-00019b80: 6f75 5475 6265 204d 7573 6963 2e22 2222  ouTube Music."""
+-00019b90: 0a20 2020 2074 7279 3a0a 2020 2020 2020  .    try:.      
+-00019ba0: 2020 6672 6f6d 2079 746d 7573 6963 6170    from ytmusicap
+-00019bb0: 6920 696d 706f 7274 2059 544d 7573 6963  i import YTMusic
+-00019bc0: 0a20 2020 2065 7863 6570 7420 496d 706f  .    except Impo
+-00019bd0: 7274 4572 726f 723a 0a20 2020 2020 2020  rtError:.       
+-00019be0: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
+-00019bf0: 2020 2020 2020 2020 2020 2254 6865 2027            "The '
+-00019c00: 7265 636f 6d6d 656e 6427 2063 6f6d 6d61  recommend' comma
+-00019c10: 6e64 2072 6571 7569 7265 7320 7468 6520  nd requires the 
+-00019c20: 2779 746d 7573 6963 6170 6927 2070 6163  'ytmusicapi' pac
+-00019c30: 6b61 6765 2074 6f20 6265 2069 6e73 7461  kage to be insta
+-00019c40: 6c6c 6564 2e20 5275 6e20 2770 6970 2069  lled. Run 'pip i
+-00019c50: 6e73 7461 6c6c 2079 746d 7573 6963 6170  nstall ytmusicap
+-00019c60: 6927 2074 6f20 696e 7374 616c 6c20 6974  i' to install it
+-00019c70: 2e22 2c0a 2020 2020 2020 2020 2020 2020  .",.            
+-00019c80: 6667 3d22 7265 6422 2c0a 2020 2020 2020  fg="red",.      
+-00019c90: 2020 290a 2020 2020 2020 2020 7265 7475    ).        retu
+-00019ca0: 726e 0a0a 2020 2020 7974 6d75 7369 6320  rn..    ytmusic 
+-00019cb0: 3d20 5954 4d75 7369 6328 290a 0a20 2020  = YTMusic()..   
+-00019cc0: 2069 6620 7469 746c 653a 0a20 2020 2020   if title:.     
+-00019cd0: 2020 2072 6573 756c 7473 203d 2079 746d     results = ytm
+-00019ce0: 7573 6963 2e73 6561 7263 6828 736f 6e67  usic.search(song
+-00019cf0: 2c20 6669 6c74 6572 3d22 736f 6e67 7322  , filter="songs"
+-00019d00: 290a 2020 2020 656c 7365 3a0a 2020 2020  ).    else:.    
+-00019d10: 2020 2020 6966 206e 6f74 2073 6f6e 672e      if not song.
+-00019d20: 6973 6469 6769 7428 293a 0a20 2020 2020  isdigit():.     
+-00019d30: 2020 2020 2020 2063 6c69 636b 2e73 6563         click.sec
+-00019d40: 686f 280a 2020 2020 2020 2020 2020 2020  ho(.            
+-00019d50: 2020 2020 2253 6f6e 6720 4944 206d 7573      "Song ID mus
+-00019d60: 7420 6265 2061 206e 756d 6265 722e 2054  t be a number. T
+-00019d70: 6f20 6765 7420 7265 636f 6d6d 656e 6461  o get recommenda
+-00019d80: 7469 6f6e 7320 6279 206e 616d 652c 2070  tions by name, p
+-00019d90: 6173 7320 7468 6520 272d 4e2f 2d2d 6e61  ass the '-N/--na
+-00019da0: 6d65 2720 666c 6167 2e22 2c0a 2020 2020  me' flag.",.    
+-00019db0: 2020 2020 2020 2020 2020 2020 6667 3d22              fg="
+-00019dc0: 7265 6422 2c0a 2020 2020 2020 2020 2020  red",.          
+-00019dd0: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
+-00019de0: 7265 7475 726e 0a0a 2020 2020 2020 2020  return..        
+-00019df0: 7769 7468 206f 7065 6e28 636f 6e66 6967  with open(config
+-00019e00: 2e53 4f4e 4753 5f49 4e46 4f5f 5041 5448  .SONGS_INFO_PATH
+-00019e10: 2c20 2272 222c 2065 6e63 6f64 696e 673d  , "r", encoding=
+-00019e20: 2275 7466 2d38 2229 2061 7320 736f 6e67  "utf-8") as song
+-00019e30: 735f 6669 6c65 3a0a 2020 2020 2020 2020  s_file:.        
+-00019e40: 2020 2020 666f 7220 6c69 6e65 2069 6e20      for line in 
+-00019e50: 736f 6e67 735f 6669 6c65 3a0a 2020 2020  songs_file:.    
+-00019e60: 2020 2020 2020 2020 2020 2020 6465 7461              deta
+-00019e70: 696c 7320 3d20 6c69 6e65 2e73 7472 6970  ils = line.strip
+-00019e80: 2829 2e73 706c 6974 2822 7c22 290a 2020  ().split("|").  
+-00019e90: 2020 2020 2020 2020 2020 2020 2020 6966                if
+-00019ea0: 2064 6574 6169 6c73 5b30 5d20 3d3d 2073   details[0] == s
+-00019eb0: 6f6e 673a 0a20 2020 2020 2020 2020 2020  ong:.           
+-00019ec0: 2020 2020 2020 2020 2072 6573 756c 7473           results
+-00019ed0: 203d 2079 746d 7573 6963 2e73 6561 7263   = ytmusic.searc
+-00019ee0: 6828 0a20 2020 2020 2020 2020 2020 2020  h(.             
+-00019ef0: 2020 2020 2020 2020 2020 206f 732e 7061             os.pa
+-00019f00: 7468 2e73 706c 6974 6578 7428 6465 7461  th.splitext(deta
+-00019f10: 696c 735b 315d 295b 305d 2c20 6669 6c74  ils[1])[0], filt
+-00019f20: 6572 3d22 736f 6e67 7322 0a20 2020 2020  er="songs".     
+-00019f30: 2020 2020 2020 2020 2020 2020 2020 2029                 )
+-00019f40: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00019f50: 2020 2020 2062 7265 616b 0a20 2020 2020       break.     
+-00019f60: 2020 2020 2020 2065 6c73 653a 0a20 2020         else:.   
+-00019f70: 2020 2020 2020 2020 2020 2020 2063 6c69               cli
+-00019f80: 636b 2e73 6563 686f 2866 224e 6f20 736f  ck.secho(f"No so
+-00019f90: 6e67 2066 6f75 6e64 2077 6974 6820 4944  ng found with ID
+-00019fa0: 207b 736f 6e67 7d2e 222c 2066 673d 2272   {song}.", fg="r
+-00019fb0: 6564 2229 0a20 2020 2020 2020 2020 2020  ed").           
+-00019fc0: 2020 2020 2072 6574 7572 6e0a 0a20 2020       return..   
+-00019fd0: 2079 745f 6d75 7369 635f 706c 6179 6c69   yt_music_playli
+-00019fe0: 7374 203d 2079 746d 7573 6963 2e67 6574  st = ytmusic.get
+-00019ff0: 5f77 6174 6368 5f70 6c61 796c 6973 7428  _watch_playlist(
+-0001a000: 7265 7375 6c74 735b 305d 5b22 7669 6465  results[0]["vide
+-0001a010: 6f49 6422 5d29 0a0a 2020 2020 636c 6963  oId"])..    clic
+-0001a020: 6b2e 6563 686f 2822 5265 636f 6d6d 656e  k.echo("Recommen
+-0001a030: 6461 7469 6f6e 7320 666f 7220 222c 206e  dations for ", n
+-0001a040: 6c3d 4661 6c73 6529 0a20 2020 2063 6c69  l=False).    cli
+-0001a050: 636b 2e73 6563 686f 280a 2020 2020 2020  ck.secho(.      
+-0001a060: 2020 7974 5f6d 7573 6963 5f70 6c61 796c    yt_music_playl
+-0001a070: 6973 745b 2274 7261 636b 7322 5d5b 305d  ist["tracks"][0]
+-0001a080: 5b22 7469 746c 6522 5d20 2b20 2220 222c  ["title"] + " ",
+-0001a090: 0a20 2020 2020 2020 2066 673d 2262 6c75  .        fg="blu
+-0001a0a0: 6522 2c0a 2020 2020 2020 2020 6e6c 3d46  e",.        nl=F
+-0001a0b0: 616c 7365 2c0a 2020 2020 290a 2020 2020  alse,.    ).    
+-0001a0c0: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
+-0001a0d0: 2020 2020 2066 2228 6874 7470 733a 2f2f       f"(https://
+-0001a0e0: 6d75 7369 632e 796f 7574 7562 652e 636f  music.youtube.co
+-0001a0f0: 6d2f 7761 7463 683f 763d 7b79 745f 6d75  m/watch?v={yt_mu
+-0001a100: 7369 635f 706c 6179 6c69 7374 5b27 7472  sic_playlist['tr
+-0001a110: 6163 6b73 275d 5b30 5d5b 2776 6964 656f  acks'][0]['video
+-0001a120: 4964 275d 7d29 222c 0a20 2020 2020 2020  Id']})",.       
+-0001a130: 2066 673d 2262 7269 6768 745f 626c 6163   fg="bright_blac
+-0001a140: 6b22 2c0a 2020 2020 2020 2020 6e6c 3d46  k",.        nl=F
+-0001a150: 616c 7365 2c0a 2020 2020 290a 2020 2020  alse,.    ).    
+-0001a160: 636c 6963 6b2e 6563 686f 2822 3a22 290a  click.echo(":").
+-0001a170: 2020 2020 666f 7220 7472 6163 6b20 696e      for track in
+-0001a180: 2079 745f 6d75 7369 635f 706c 6179 6c69   yt_music_playli
+-0001a190: 7374 5b22 7472 6163 6b73 225d 5b31 3a5d  st["tracks"][1:]
+-0001a1a0: 3a0a 2020 2020 2020 2020 636c 6963 6b2e  :.        click.
+-0001a1b0: 7365 6368 6f28 7472 6163 6b5b 2274 6974  secho(track["tit
+-0001a1c0: 6c65 225d 202b 2022 2022 2c20 6667 3d22  le"] + " ", fg="
+-0001a1d0: 626c 7565 222c 2062 6f6c 643d 5472 7565  blue", bold=True
+-0001a1e0: 2c20 6e6c 3d46 616c 7365 290a 2020 2020  , nl=False).    
+-0001a1f0: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
+-0001a200: 0a20 2020 2020 2020 2020 2020 2066 2268  .            f"h
+-0001a210: 7474 7073 3a2f 2f6d 7573 6963 2e79 6f75  ttps://music.you
+-0001a220: 7475 6265 2e63 6f6d 2f77 6174 6368 3f76  tube.com/watch?v
+-0001a230: 3d7b 7472 6163 6b5b 2776 6964 656f 4964  ={track['videoId
+-0001a240: 275d 7d22 2c0a 2020 2020 2020 2020 2020  ']}",.          
+-0001a250: 2020 6667 3d22 6272 6967 6874 5f62 6c61    fg="bright_bla
+-0001a260: 636b 222c 0a20 2020 2020 2020 2029 0a0a  ck",.        )..
+-0001a270: 0a40 636c 692e 636f 6d6d 616e 6428 290a  .@cli.command().
+-0001a280: 4063 6c69 636b 2e61 7267 756d 656e 7428  @click.argument(
+-0001a290: 2273 6f6e 675f 6964 7322 2c20 7265 7175  "song_ids", requ
+-0001a2a0: 6972 6564 3d54 7275 652c 2074 7970 653d  ired=True, type=
+-0001a2b0: 696e 742c 206e 6172 6773 3d2d 3129 0a40  int, nargs=-1).@
+-0001a2c0: 636c 6963 6b2e 6f70 7469 6f6e 2822 2d42  click.option("-B
+-0001a2d0: 2f2d 6e42 222c 2022 2d2d 626f 7474 6f6d  /-nB", "--bottom
+-0001a2e0: 2f2d 2d6e 6f2d 626f 7474 6f6d 222c 2022  /--no-bottom", "
+-0001a2f0: 626f 7474 6f6d 222c 2064 6566 6175 6c74  bottom", default
+-0001a300: 3d46 616c 7365 290a 6465 6620 7075 7368  =False).def push
+-0001a310: 2873 6f6e 675f 6964 732c 2062 6f74 746f  (song_ids, botto
+-0001a320: 6d29 3a0a 2020 2020 2222 220a 2020 2020  m):.    """.    
+-0001a330: 4d6f 7665 2073 6f6e 6773 2061 726f 756e  Move songs aroun
+-0001a340: 6420 746f 2074 6865 2062 6f74 746f 6d20  d to the bottom 
+-0001a350: 6f72 2074 6f70 206f 6620 7468 6520 6461  or top of the da
+-0001a360: 7461 6261 7365 2e0a 0a20 2020 2050 7573  tabase...    Pus
+-0001a370: 6820 7468 6520 736f 6e67 2873 2920 7769  h the song(s) wi
+-0001a380: 7468 2049 4428 7329 2053 4f4e 475f 4944  th ID(s) SONG_ID
+-0001a390: 5320 746f 2074 6865 2074 6f70 206f 6620  S to the top of 
+-0001a3a0: 7468 6520 6461 7461 6261 7365 2028 6173  the database (as
+-0001a3b0: 2069 6620 7468 6579 0a20 2020 2077 6572   if they.    wer
+-0001a3c0: 6520 7468 6520 736f 6e67 7320 6d6f 7374  e the songs most
+-0001a3d0: 2072 6563 656e 746c 7920 6164 6465 6429   recently added)
+-0001a3e0: 2069 6e20 7468 6520 6f72 6465 7220 7468   in the order th
+-0001a3f0: 6579 2061 7265 2070 6173 7365 6420 2865  ey are passed (e
+-0001a400: 2e67 2e0a 2020 2020 276d 6165 7374 726f  .g..    'maestro
+-0001a410: 2070 7573 6820 3120 3220 3327 2077 696c   push 1 2 3' wil
+-0001a420: 6c20 6d61 6b65 2074 6865 206d 6f73 7420  l make the most 
+-0001a430: 7265 6365 6e74 2073 6f6e 6720 6265 2033  recent song be 3
+-0001a440: 292e 0a0a 2020 2020 4966 2074 6865 2027  )...    If the '
+-0001a450: 2d42 2720 666c 6167 2069 7320 7061 7373  -B' flag is pass
+-0001a460: 6564 2c20 7468 6520 736f 6e67 2873 2920  ed, the song(s) 
+-0001a470: 7769 6c6c 2062 6520 7075 7368 6564 2074  will be pushed t
+-0001a480: 6f20 7468 6520 626f 7474 6f6d 206f 6620  o the bottom of 
+-0001a490: 7468 650a 2020 2020 6c69 7374 2069 6e73  the.    list ins
+-0001a4a0: 7465 6164 2e0a 2020 2020 2222 220a 2020  tead..    """.  
+-0001a4b0: 2020 7769 7468 206f 7065 6e28 636f 6e66    with open(conf
+-0001a4c0: 6967 2e53 4f4e 4753 5f49 4e46 4f5f 5041  ig.SONGS_INFO_PA
+-0001a4d0: 5448 2c20 2272 2b22 2c20 656e 636f 6469  TH, "r+", encodi
+-0001a4e0: 6e67 3d22 7574 662d 3822 2920 6173 2073  ng="utf-8") as s
+-0001a4f0: 6f6e 6773 5f66 696c 653a 0a20 2020 2020  ongs_file:.     
+-0001a500: 2020 206c 696e 6573 203d 2073 6f6e 6773     lines = songs
+-0001a510: 5f66 696c 652e 7265 6164 6c69 6e65 7328  _file.readlines(
+-0001a520: 290a 0a20 2020 2020 2020 206c 696e 6573  )..        lines
+-0001a530: 5f74 6f5f 6d6f 7665 203d 205b 5d0a 2020  _to_move = [].  
+-0001a540: 2020 2020 2020 666f 7220 6920 696e 2072        for i in r
+-0001a550: 616e 6765 286c 656e 286c 696e 6573 2929  ange(len(lines))
+-0001a560: 3a0a 2020 2020 2020 2020 2020 2020 6966  :.            if
+-0001a570: 2069 6e74 286c 696e 6573 5b69 5d2e 7370   int(lines[i].sp
+-0001a580: 6c69 7428 227c 2229 5b30 5d29 2069 6e20  lit("|")[0]) in 
+-0001a590: 736f 6e67 5f69 6473 3a0a 2020 2020 2020  song_ids:.      
+-0001a5a0: 2020 2020 2020 2020 2020 6c69 6e65 735f            lines_
+-0001a5b0: 746f 5f6d 6f76 652e 6170 7065 6e64 2828  to_move.append((
+-0001a5c0: 692c 206c 696e 6573 5b69 5d29 290a 0a20  i, lines[i])).. 
+-0001a5d0: 2020 2020 2020 2066 6f72 2069 2c20 5f20         for i, _ 
+-0001a5e0: 696e 2072 6576 6572 7365 6428 6c69 6e65  in reversed(line
+-0001a5f0: 735f 746f 5f6d 6f76 6529 3a0a 2020 2020  s_to_move):.    
+-0001a600: 2020 2020 2020 2020 6c69 6e65 732e 706f          lines.po
+-0001a610: 7028 6929 0a0a 2020 2020 2020 2020 736f  p(i)..        so
+-0001a620: 6e67 5f69 6473 5f77 6974 685f 6f72 6465  ng_ids_with_orde
+-0001a630: 7220 3d20 6469 6374 280a 2020 2020 2020  r = dict(.      
+-0001a640: 2020 2020 2020 6d61 7028 6c61 6d62 6461        map(lambda
+-0001a650: 2078 3a20 2878 5b31 5d2c 2078 5b30 5d29   x: (x[1], x[0])
+-0001a660: 2c20 656e 756d 6572 6174 6528 736f 6e67  , enumerate(song
+-0001a670: 5f69 6473 2929 0a20 2020 2020 2020 2029  _ids)).        )
+-0001a680: 0a0a 2020 2020 2020 2020 666f 7220 6920  ..        for i 
+-0001a690: 696e 2072 616e 6765 286c 656e 286c 696e  in range(len(lin
+-0001a6a0: 6573 5f74 6f5f 6d6f 7665 2929 3a0a 2020  es_to_move)):.  
+-0001a6b0: 2020 2020 2020 2020 2020 6c69 6e65 735f            lines_
+-0001a6c0: 746f 5f6d 6f76 655b 695d 203d 2028 0a20  to_move[i] = (. 
+-0001a6d0: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-0001a6e0: 6f6e 675f 6964 735f 7769 7468 5f6f 7264  ong_ids_with_ord
+-0001a6f0: 6572 5b69 6e74 286c 696e 6573 5f74 6f5f  er[int(lines_to_
+-0001a700: 6d6f 7665 5b69 5d5b 315d 2e73 706c 6974  move[i][1].split
+-0001a710: 2822 7c22 295b 305d 295d 2c0a 2020 2020  ("|")[0])],.    
+-0001a720: 2020 2020 2020 2020 2020 2020 2a6c 696e              *lin
+-0001a730: 6573 5f74 6f5f 6d6f 7665 5b69 5d2c 0a20  es_to_move[i],. 
+-0001a740: 2020 2020 2020 2020 2020 2029 0a0a 2020             )..  
+-0001a750: 2020 2020 2020 6c69 6e65 735f 746f 5f6d        lines_to_m
+-0001a760: 6f76 652e 736f 7274 286b 6579 3d6c 616d  ove.sort(key=lam
+-0001a770: 6264 6120 783a 2078 5b30 5d2c 2072 6576  bda x: x[0], rev
+-0001a780: 6572 7365 3d62 6f74 746f 6d29 0a0a 2020  erse=bottom)..  
+-0001a790: 2020 2020 2020 6966 206e 6f74 2062 6f74        if not bot
+-0001a7a0: 746f 6d3a 0a20 2020 2020 2020 2020 2020  tom:.           
+-0001a7b0: 206c 696e 6573 202b 3d20 5b74 5b32 5d20   lines += [t[2] 
+-0001a7c0: 666f 7220 7420 696e 206c 696e 6573 5f74  for t in lines_t
+-0001a7d0: 6f5f 6d6f 7665 5d0a 2020 2020 2020 2020  o_move].        
+-0001a7e0: 656c 7365 3a0a 2020 2020 2020 2020 2020  else:.          
+-0001a7f0: 2020 6c69 6e65 7320 3d20 5b74 5b32 5d20    lines = [t[2] 
+-0001a800: 666f 7220 7420 696e 206c 696e 6573 5f74  for t in lines_t
+-0001a810: 6f5f 6d6f 7665 5d20 2b20 6c69 6e65 730a  o_move] + lines.
+-0001a820: 0a20 2020 2020 2020 2073 6f6e 6773 5f66  .        songs_f
+-0001a830: 696c 652e 7365 656b 2830 290a 2020 2020  ile.seek(0).    
+-0001a840: 2020 2020 736f 6e67 735f 6669 6c65 2e77      songs_file.w
+-0001a850: 7269 7465 2822 222e 6a6f 696e 286c 696e  rite("".join(lin
+-0001a860: 6573 2929 0a20 2020 2020 2020 2073 6f6e  es)).        son
+-0001a870: 6773 5f66 696c 652e 7472 756e 6361 7465  gs_file.truncate
+-0001a880: 2829 0a0a 0a40 636c 692e 636f 6d6d 616e  ()...@cli.comman
+-0001a890: 6428 6e61 6d65 3d22 636c 6970 2229 0a40  d(name="clip").@
+-0001a8a0: 636c 6963 6b2e 6172 6775 6d65 6e74 2822  click.argument("
+-0001a8b0: 736f 6e67 5f69 6422 2c20 7265 7175 6972  song_id", requir
+-0001a8c0: 6564 3d54 7275 652c 2074 7970 653d 696e  ed=True, type=in
+-0001a8d0: 7429 0a40 636c 6963 6b2e 6172 6775 6d65  t).@click.argume
+-0001a8e0: 6e74 2822 7374 6172 7422 2c20 7265 7175  nt("start", requ
+-0001a8f0: 6972 6564 3d46 616c 7365 2c20 7479 7065  ired=False, type
+-0001a900: 3d66 6c6f 6174 2c20 6465 6661 756c 743d  =float, default=
+-0001a910: 4e6f 6e65 290a 4063 6c69 636b 2e61 7267  None).@click.arg
+-0001a920: 756d 656e 7428 2265 6e64 222c 2072 6571  ument("end", req
+-0001a930: 7569 7265 643d 4661 6c73 652c 2074 7970  uired=False, typ
+-0001a940: 653d 666c 6f61 742c 2064 6566 6175 6c74  e=float, default
+-0001a950: 3d4e 6f6e 6529 0a64 6566 2063 6c69 705f  =None).def clip_
+-0001a960: 2873 6f6e 675f 6964 2c20 7374 6172 742c  (song_id, start,
+-0001a970: 2065 6e64 293a 0a20 2020 2022 2222 0a20   end):.    """. 
+-0001a980: 2020 2043 7265 6174 6520 6f72 2065 6469     Create or edi
+-0001a990: 7420 7468 6520 636c 6970 2066 6f72 2061  t the clip for a
+-0001a9a0: 2073 6f6e 672e 0a0a 2020 2020 5365 7473   song...    Sets
+-0001a9b0: 2074 6865 2063 6c69 7020 666f 7220 7468   the clip for th
+-0001a9c0: 6520 736f 6e67 2077 6974 6820 4944 2053  e song with ID S
+-0001a9d0: 4f4e 475f 4944 2074 6f20 7468 6520 7469  ONG_ID to the ti
+-0001a9e0: 6d65 2072 616e 6765 2053 5441 5254 2074  me range START t
+-0001a9f0: 6f20 454e 440a 2020 2020 2869 6e20 7365  o END.    (in se
+-0001aa00: 636f 6e64 7329 2e0a 0a20 2020 2049 6620  conds)...    If 
+-0001aa10: 454e 4420 6973 206e 6f74 2070 6173 7365  END is not passe
+-0001aa20: 642c 2074 6865 2063 6c69 7020 7769 6c6c  d, the clip will
+-0001aa30: 2062 6520 6672 6f6d 2053 5441 5254 2074   be from START t
+-0001aa40: 6f20 7468 6520 656e 6420 6f66 2074 6865  o the end of the
+-0001aa50: 2073 6f6e 672e 0a0a 2020 2020 4966 206e   song...    If n
+-0001aa60: 6569 7468 6572 2053 5441 5254 206e 6f72  either START nor
+-0001aa70: 2045 4e44 2061 7265 2070 6173 7365 642c   END are passed,
+-0001aa80: 2061 2063 6c69 7020 6564 6974 6f72 2077   a clip editor w
+-0001aa90: 696c 6c20 6265 206f 7065 6e65 642c 2069  ill be opened, i
+-0001aaa0: 6e20 7768 6963 680a 2020 2020 796f 7520  n which.    you 
+-0001aab0: 6361 6e20 6d6f 7665 2074 6865 2073 7461  can move the sta
+-0001aac0: 7274 2061 6e64 2065 6e64 206f 6620 7468  rt and end of th
+-0001aad0: 6520 636c 6970 2061 726f 756e 6420 7573  e clip around us
+-0001aae0: 696e 6720 7468 6520 6172 726f 7720 6b65  ing the arrow ke
+-0001aaf0: 7973 2077 6869 6c65 0a20 2020 206c 6973  ys while.    lis
+-0001ab00: 7465 6e69 6e67 2074 6f20 7468 6520 736f  tening to the so
+-0001ab10: 6e67 2028 616c 736f 2073 686f 7773 2077  ng (also shows w
+-0001ab20: 6176 6566 6f72 6d29 2e0a 0a20 2020 205c  aveform)...    \
+-0001ab30: 620a 2020 2020 5468 6520 6564 6974 6f72  b.    The editor
+-0001ab40: 2073 7461 7274 7320 6f75 7420 6564 6974   starts out edit
+-0001ab50: 696e 6720 7468 6520 7374 6172 7420 6f66  ing the start of
+-0001ab60: 2074 6865 2063 6c69 702e 0a20 2020 205c   the clip..    \
+-0001ab70: 7831 625b 316d 745c 7831 625b 306d 2074  x1b[1mt\x1b[0m t
+-0001ab80: 6f20 746f 6767 6c65 2062 6574 7765 656e  o toggle between
+-0001ab90: 2065 6469 7469 6e67 2074 6865 2073 7461   editing the sta
+-0001aba0: 7274 2061 6e64 2065 6e64 206f 6620 7468  rt and end of th
+-0001abb0: 6520 636c 6970 2e0a 2020 2020 5c78 3162  e clip..    \x1b
+-0001abc0: 5b31 6d53 4849 4654 2b4c 4546 542f 5249  [1mSHIFT+LEFT/RI
+-0001abd0: 4748 545c 7831 625b 306d 2077 696c 6c20  GHT\x1b[0m will 
+-0001abe0: 6d6f 7665 2077 6869 6368 6576 6572 2063  move whichever c
+-0001abf0: 6c69 7020 656e 6420 796f 7520 6172 6520  lip end you are 
+-0001ac00: 6564 6974 696e 670a 2020 2020 2020 2020  editing.        
+-0001ac10: 6279 2030 2e31 2073 6563 6f6e 6473 2c20  by 0.1 seconds, 
+-0001ac20: 736e 6170 2074 6865 2063 7572 7265 6e74  snap the current
+-0001ac30: 2070 6c61 7962 6163 6b20 746f 2074 6861   playback to tha
+-0001ac40: 7420 636c 6970 2065 6e64 2028 746f 2065  t clip end (to e
+-0001ac50: 7861 6374 6c79 0a20 2020 2020 2020 2074  xactly.        t
+-0001ac60: 6865 2063 6c69 7020 7374 6172 7420 6966  he clip start if
+-0001ac70: 2065 6469 7469 6e67 2073 7461 7274 2c20   editing start, 
+-0001ac80: 656e 642d 3120 6966 2065 6469 7469 6e67  end-1 if editing
+-0001ac90: 2065 6e64 292c 2061 6e64 2070 6175 7365   end), and pause
+-0001aca0: 2e0a 2020 2020 5c78 3162 5b31 6d4c 4546  ..    \x1b[1mLEF
+-0001acb0: 542f 5249 4748 545c 7831 625b 306d 2077  T/RIGHT\x1b[0m w
+-0001acc0: 696c 6c20 6d6f 7665 2077 6869 6368 6576  ill move whichev
+-0001acd0: 6572 2063 6c69 7020 656e 6420 796f 7520  er clip end you 
+-0001ace0: 6172 6520 6564 6974 696e 6720 6279 2031  are editing by 1
+-0001acf0: 0a20 2020 2020 2020 2073 6563 6f6e 642c  .        second,
+-0001ad00: 2073 6e61 7020 7468 6520 6375 7272 656e   snap the curren
+-0001ad10: 7420 706c 6179 6261 636b 2074 6f20 7468  t playback to th
+-0001ad20: 6174 2063 6c69 7020 656e 642c 2061 6e64  at clip end, and
+-0001ad30: 2070 6175 7365 2e0a 2020 2020 5c78 3162   pause..    \x1b
+-0001ad40: 5b31 6d45 4e54 4552 5c78 3162 5b30 6d20  [1mENTER\x1b[0m 
+-0001ad50: 7769 6c6c 2065 7869 7420 7468 6520 6564  will exit the ed
+-0001ad60: 6974 6f72 2061 6e64 2073 6176 6520 7468  itor and save th
+-0001ad70: 6520 636c 6970 2e0a 2020 2020 5c78 3162  e clip..    \x1b
+-0001ad80: 5b31 6d71 5c78 3162 5b30 6d20 7769 6c6c  [1mq\x1b[0m will
+-0001ad90: 2065 7869 7420 7468 6520 6564 6974 6f72   exit the editor
+-0001ada0: 2077 6974 686f 7574 2073 6176 696e 6720   without saving 
+-0001adb0: 7468 6520 636c 6970 2e0a 2020 2020 2222  the clip..    ""
+-0001adc0: 220a 2020 2020 6966 2073 7461 7274 2069  ".    if start i
+-0001add0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0001ade0: 2020 2020 6966 2073 7461 7274 203c 2030      if start < 0
+-0001adf0: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
+-0001ae00: 6963 6b2e 7365 6368 6f28 2253 5441 5254  ick.secho("START
+-0001ae10: 206d 7573 7420 6265 2061 2070 6f73 6974   must be a posit
+-0001ae20: 6976 6520 6e75 6d62 6572 2e22 2c20 6667  ive number.", fg
+-0001ae30: 3d22 7265 6422 290a 2020 2020 2020 2020  ="red").        
+-0001ae40: 2020 2020 7265 7475 726e 0a20 2020 2020      return.     
+-0001ae50: 2020 2069 6620 656e 6420 6973 206e 6f74     if end is not
+-0001ae60: 204e 6f6e 6520 616e 6420 656e 6420 3c20   None and end < 
+-0001ae70: 303a 0a20 2020 2020 2020 2020 2020 2063  0:.            c
+-0001ae80: 6c69 636b 2e73 6563 686f 2822 454e 4420  lick.secho("END 
+-0001ae90: 6d75 7374 2062 6520 6120 706f 7369 7469  must be a positi
+-0001aea0: 7665 206e 756d 6265 722e 222c 2066 673d  ve number.", fg=
+-0001aeb0: 2272 6564 2229 0a20 2020 2020 2020 2020  "red").         
+-0001aec0: 2020 2072 6574 7572 6e0a 0a20 2020 2077     return..    w
+-0001aed0: 6974 6820 6f70 656e 2863 6f6e 6669 672e  ith open(config.
+-0001aee0: 534f 4e47 535f 494e 464f 5f50 4154 482c  SONGS_INFO_PATH,
+-0001aef0: 2022 722b 222c 2065 6e63 6f64 696e 673d   "r+", encoding=
+-0001af00: 2275 7466 2d38 2229 2061 7320 736f 6e67  "utf-8") as song
+-0001af10: 735f 6669 6c65 3a0a 2020 2020 2020 2020  s_file:.        
+-0001af20: 6c69 6e65 7320 3d20 736f 6e67 735f 6669  lines = songs_fi
+-0001af30: 6c65 2e72 6561 646c 696e 6573 2829 0a0a  le.readlines()..
+-0001af40: 2020 2020 2020 2020 666f 7220 6920 696e          for i in
+-0001af50: 2072 616e 6765 286c 656e 286c 696e 6573   range(len(lines
+-0001af60: 2929 3a0a 2020 2020 2020 2020 2020 2020  )):.            
+-0001af70: 6465 7461 696c 7320 3d20 6c69 6e65 735b  details = lines[
+-0001af80: 695d 2e73 7472 6970 2829 2e73 706c 6974  i].strip().split
+-0001af90: 2822 7c22 290a 2020 2020 2020 2020 2020  ("|").          
+-0001afa0: 2020 6966 2069 6e74 2864 6574 6169 6c73    if int(details
+-0001afb0: 5b30 5d29 203d 3d20 736f 6e67 5f69 643a  [0]) == song_id:
+-0001afc0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-0001afd0: 2062 7265 616b 0a20 2020 2020 2020 2065   break.        e
+-0001afe0: 6c73 653a 0a20 2020 2020 2020 2020 2020  lse:.           
+-0001aff0: 2063 6c69 636b 2e73 6563 686f 2866 224e   click.secho(f"N
+-0001b000: 6f20 736f 6e67 2066 6f75 6e64 2077 6974  o song found wit
+-0001b010: 6820 4944 207b 736f 6e67 5f69 647d 2e22  h ID {song_id}."
+-0001b020: 2c20 6667 3d22 7265 6422 290a 2020 2020  , fg="red").    
+-0001b030: 2020 2020 2020 2020 7265 7475 726e 0a0a          return..
+-0001b040: 2020 2020 2020 2020 736f 6e67 5f6e 616d          song_nam
+-0001b050: 6520 3d20 6465 7461 696c 735b 315d 0a20  e = details[1]. 
+-0001b060: 2020 2020 2020 2069 6620 6e6f 7420 6f73         if not os
+-0001b070: 2e70 6174 682e 6578 6973 7473 286f 732e  .path.exists(os.
+-0001b080: 7061 7468 2e6a 6f69 6e28 636f 6e66 6967  path.join(config
+-0001b090: 2e53 4f4e 4753 5f44 4952 2c20 736f 6e67  .SONGS_DIR, song
+-0001b0a0: 5f6e 616d 6529 293a 0a20 2020 2020 2020  _name)):.       
+-0001b0b0: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
+-0001b0c0: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-0001b0d0: 2020 6622 536f 6e67 2066 696c 6520 7b73    f"Song file {s
+-0001b0e0: 6f6e 675f 6e61 6d65 7d20 2849 4420 7b73  ong_name} (ID {s
+-0001b0f0: 6f6e 675f 6964 7d29 206e 6f74 2066 6f75  ong_id}) not fou
+-0001b100: 6e64 2e22 2c0a 2020 2020 2020 2020 2020  nd.",.          
+-0001b110: 2020 2020 2020 6667 3d22 7265 6422 2c0a        fg="red",.
+-0001b120: 2020 2020 2020 2020 2020 2020 290a 2020              ).  
+-0001b130: 2020 2020 2020 2020 2020 7265 7475 726e            return
+-0001b140: 0a0a 2020 2020 2020 2020 6966 2073 7461  ..        if sta
+-0001b150: 7274 2069 7320 4e6f 6e65 3a20 2023 2063  rt is None:  # c
+-0001b160: 6c69 7020 6564 6974 6f72 0a20 2020 2020  lip editor.     
+-0001b170: 2020 2020 2020 2073 7461 7274 2c20 656e         start, en
+-0001b180: 6420 3d20 6375 7273 6573 2e77 7261 7070  d = curses.wrapp
+-0001b190: 6572 2868 656c 7065 7273 2e63 6c69 705f  er(helpers.clip_
+-0001b1a0: 6564 6974 6f72 2c20 6465 7461 696c 7329  editor, details)
+-0001b1b0: 0a20 2020 2020 2020 2020 2020 2069 6620  .            if 
+-0001b1c0: 7374 6172 7420 6973 204e 6f6e 653a 0a20  start is None:. 
+-0001b1d0: 2020 2020 2020 2020 2020 2020 2020 2063                 c
+-0001b1e0: 6c69 636b 2e73 6563 686f 2866 224e 6f20  lick.secho(f"No 
+-0001b1f0: 6368 616e 6765 2069 6e20 636c 6970 2066  change in clip f
+-0001b200: 6f72 207b 736f 6e67 5f6e 616d 657d 2e22  or {song_name}."
+-0001b210: 2c20 6667 3d22 6772 6565 6e22 290a 2020  , fg="green").  
+-0001b220: 2020 2020 2020 2020 2020 2020 2020 7265                re
+-0001b230: 7475 726e 0a0a 2020 2020 2020 2020 736f  turn..        so
+-0001b240: 6e67 5f70 6174 6820 3d20 6f73 2e70 6174  ng_path = os.pat
+-0001b250: 682e 6a6f 696e 2863 6f6e 6669 672e 534f  h.join(config.SO
+-0001b260: 4e47 535f 4449 522c 2073 6f6e 675f 6e61  NGS_DIR, song_na
+-0001b270: 6d65 290a 2020 2020 2020 2020 6475 7261  me).        dura
+-0001b280: 7469 6f6e 203d 206d 7573 6963 5f74 6167  tion = music_tag
+-0001b290: 2e6c 6f61 645f 6669 6c65 2873 6f6e 675f  .load_file(song_
+-0001b2a0: 7061 7468 295b 2223 6c65 6e67 7468 225d  path)["#length"]
+-0001b2b0: 2e76 616c 7565 0a0a 2020 2020 2020 2020  .value..        
+-0001b2c0: 6966 2065 6e64 2069 7320 4e6f 6e65 3a0a  if end is None:.
+-0001b2d0: 2020 2020 2020 2020 2020 2020 656e 6420              end 
+-0001b2e0: 3d20 6475 7261 7469 6f6e 0a0a 2020 2020  = duration..    
+-0001b2f0: 2020 2020 6966 2073 7461 7274 203e 2064      if start > d
+-0001b300: 7572 6174 696f 6e3a 0a20 2020 2020 2020  uration:.       
+-0001b310: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
+-0001b320: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-0001b330: 2020 2253 5441 5254 206d 7573 7420 6e6f    "START must no
+-0001b340: 7420 6265 206d 6f72 6520 7468 616e 2074  t be more than t
+-0001b350: 6865 2073 6f6e 6720 6475 7261 7469 6f6e  he song duration
+-0001b360: 2e22 2c20 6667 3d22 7265 6422 0a20 2020  .", fg="red".   
+-0001b370: 2020 2020 2020 2020 2029 0a20 2020 2020           ).     
+-0001b380: 2020 2020 2020 2072 6574 7572 6e0a 2020         return.  
+-0001b390: 2020 2020 2020 6966 2065 6e64 203e 2064        if end > d
+-0001b3a0: 7572 6174 696f 6e3a 0a20 2020 2020 2020  uration:.       
+-0001b3b0: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
+-0001b3c0: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-0001b3d0: 2020 2245 4e44 206d 7573 7420 6e6f 7420    "END must not 
+-0001b3e0: 6265 206d 6f72 6520 7468 616e 2074 6865  be more than the
+-0001b3f0: 2073 6f6e 6720 6475 7261 7469 6f6e 2e22   song duration."
+-0001b400: 2c20 6667 3d22 7265 6422 0a20 2020 2020  , fg="red".     
+-0001b410: 2020 2020 2020 2029 0a20 2020 2020 2020         ).       
+-0001b420: 2020 2020 2072 6574 7572 6e0a 2020 2020       return.    
+-0001b430: 2020 2020 6966 2073 7461 7274 203e 2065      if start > e
+-0001b440: 6e64 3a0a 2020 2020 2020 2020 2020 2020  nd:.            
+-0001b450: 636c 6963 6b2e 7365 6368 6f28 2253 5441  click.secho("STA
+-0001b460: 5254 206d 7573 7420 6e6f 7420 6265 206d  RT must not be m
+-0001b470: 6f72 6520 7468 616e 2045 4e44 2e22 2c20  ore than END.", 
+-0001b480: 6667 3d22 7265 6422 290a 2020 2020 2020  fg="red").      
+-0001b490: 2020 2020 2020 7265 7475 726e 0a0a 2020        return..  
+-0001b4a0: 2020 2020 2020 6c69 6e65 735b 695d 203d        lines[i] =
+-0001b4b0: 2028 0a20 2020 2020 2020 2020 2020 2022   (.            "
+-0001b4c0: 7c22 2e6a 6f69 6e28 6465 7461 696c 735b  |".join(details[
+-0001b4d0: 3a33 5d20 2b20 5b73 7472 2873 7461 7274  :3] + [str(start
+-0001b4e0: 2920 2b20 2220 2220 2b20 7374 7228 656e  ) + " " + str(en
+-0001b4f0: 6429 5d20 2b20 6465 7461 696c 735b 353a  d)] + details[5:
+-0001b500: 5d29 0a20 2020 2020 2020 2020 2020 202b  ]).            +
+-0001b510: 2022 5c6e 220a 2020 2020 2020 2020 290a   "\n".        ).
+-0001b520: 0a20 2020 2020 2020 2073 6f6e 6773 5f66  .        songs_f
+-0001b530: 696c 652e 7365 656b 2830 290a 2020 2020  ile.seek(0).    
+-0001b540: 2020 2020 736f 6e67 735f 6669 6c65 2e77      songs_file.w
+-0001b550: 7269 7465 2822 222e 6a6f 696e 286c 696e  rite("".join(lin
+-0001b560: 6573 2929 0a20 2020 2020 2020 2073 6f6e  es)).        son
+-0001b570: 6773 5f66 696c 652e 7472 756e 6361 7465  gs_file.truncate
+-0001b580: 2829 0a0a 2020 2020 2020 2020 636c 6963  ()..        clic
+-0001b590: 6b2e 7365 6368 6f28 6622 436c 6970 7065  k.secho(f"Clippe
+-0001b5a0: 6420 7b73 6f6e 675f 6e61 6d65 7d20 6672  d {song_name} fr
+-0001b5b0: 6f6d 207b 7374 6172 747d 2074 6f20 7b65  om {start} to {e
+-0001b5c0: 6e64 7d2e 222c 2066 673d 2267 7265 656e  nd}.", fg="green
+-0001b5d0: 2229 0a0a 0a40 636c 692e 636f 6d6d 616e  ")...@cli.comman
+-0001b5e0: 6428 290a 4063 6c69 636b 2e61 7267 756d  d().@click.argum
+-0001b5f0: 656e 7428 2273 6f6e 675f 6964 7322 2c20  ent("song_ids", 
+-0001b600: 7479 7065 3d69 6e74 2c20 6e61 7267 733d  type=int, nargs=
+-0001b610: 2d31 2c20 7265 7175 6972 6564 3d46 616c  -1, required=Fal
+-0001b620: 7365 290a 4063 6c69 636b 2e6f 7074 696f  se).@click.optio
+-0001b630: 6e28 0a20 2020 2022 2d41 2f2d 6e41 222c  n(.    "-A/-nA",
+-0001b640: 0a20 2020 2022 2d2d 616c 6c2f 2d2d 6e6f  .    "--all/--no
+-0001b650: 2d61 6c6c 222c 0a20 2020 2022 616c 6c5f  -all",.    "all_
+-0001b660: 222c 0a20 2020 2064 6566 6175 6c74 3d46  ",.    default=F
+-0001b670: 616c 7365 2c0a 2020 2020 6865 6c70 3d22  alse,.    help="
+-0001b680: 5265 6d6f 7665 2063 6c69 7073 2066 6f72  Remove clips for
+-0001b690: 2061 6c6c 2073 6f6e 6773 2e20 4967 6e6f   all songs. Igno
+-0001b6a0: 7265 7320 534f 4e47 5f49 4453 2e22 2c0a  res SONG_IDS.",.
+-0001b6b0: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
+-0001b6c0: 222d 462f 2d6e 4622 2c20 222d 2d66 6f72  "-F/-nF", "--for
+-0001b6d0: 6365 2f2d 2d6e 6f2d 666f 7263 6522 2c20  ce/--no-force", 
+-0001b6e0: 2266 6f72 6365 222c 2064 6566 6175 6c74  "force", default
+-0001b6f0: 3d46 616c 7365 290a 6465 6620 756e 636c  =False).def uncl
+-0001b700: 6970 2873 6f6e 675f 6964 732c 2061 6c6c  ip(song_ids, all
+-0001b710: 5f2c 2066 6f72 6365 293a 0a20 2020 2022  _, force):.    "
+-0001b720: 2222 0a20 2020 2052 656d 6f76 6520 636c  "".    Remove cl
+-0001b730: 6970 7320 666f 7220 7370 6563 6966 6963  ips for specific
+-0001b740: 2073 6f6e 6728 7329 2e0a 0a20 2020 2052   song(s)...    R
+-0001b750: 656d 6f76 6573 2063 6c69 7020 666f 7220  emoves clip for 
+-0001b760: 7468 6520 736f 6e67 2873 2920 7769 7468  the song(s) with
+-0001b770: 2049 4428 7329 2053 4f4e 475f 4944 532e   ID(s) SONG_IDS.
+-0001b780: 0a0a 2020 2020 4966 2074 6865 2027 2d41  ..    If the '-A
+-0001b790: 2f2d 2d61 6c6c 2720 666c 6167 2069 7320  /--all' flag is 
+-0001b7a0: 7061 7373 6564 2c20 7468 6520 636c 6970  passed, the clip
+-0001b7b0: 7320 666f 7220 616c 6c20 736f 6e67 7320  s for all songs 
+-0001b7c0: 7769 6c6c 2062 6520 7265 6d6f 7665 642c  will be removed,
+-0001b7d0: 0a20 2020 2069 676e 6f72 696e 6720 534f  .    ignoring SO
+-0001b7e0: 4e47 5f49 4453 2e20 5468 6973 2070 726f  NG_IDS. This pro
+-0001b7f0: 6d70 7473 2066 6f72 2063 6f6e 6669 726d  mpts for confirm
+-0001b800: 6174 696f 6e20 756e 6c65 7373 2074 6865  ation unless the
+-0001b810: 2027 2d46 2f2d 2d66 6f72 6365 270a 2020   '-F/--force'.  
+-0001b820: 2020 666c 6167 2069 7320 7061 7373 6564    flag is passed
+-0001b830: 2e0a 2020 2020 2222 220a 2020 2020 6966  ..    """.    if
+-0001b840: 206e 6f74 2061 6c6c 5f3a 0a20 2020 2020   not all_:.     
+-0001b850: 2020 2069 6620 736f 6e67 5f69 6473 3a0a     if song_ids:.
+-0001b860: 2020 2020 2020 2020 2020 2020 736f 6e67              song
+-0001b870: 5f69 6473 203d 2073 6574 2873 6f6e 675f  _ids = set(song_
+-0001b880: 6964 7329 0a20 2020 2020 2020 2065 6c73  ids).        els
+-0001b890: 653a 0a20 2020 2020 2020 2020 2020 2063  e:.            c
+-0001b8a0: 6c69 636b 2e73 6563 686f 280a 2020 2020  lick.secho(.    
+-0001b8b0: 2020 2020 2020 2020 2020 2020 224e 6f20              "No 
+-0001b8c0: 736f 6e67 2049 4473 2070 6173 7365 642e  song IDs passed.
+-0001b8d0: 2054 6f20 7265 6d6f 7665 2063 6c69 7073   To remove clips
+-0001b8e0: 2066 6f72 2061 6c6c 2073 6f6e 6773 2c20   for all songs, 
+-0001b8f0: 7061 7373 2074 6865 2027 2d41 2f2d 2d61  pass the '-A/--a
+-0001b900: 6c6c 2720 666c 6167 2e22 2c0a 2020 2020  ll' flag.",.    
+-0001b910: 2020 2020 2020 2020 2020 2020 6667 3d22              fg="
+-0001b920: 7265 6422 2c0a 2020 2020 2020 2020 2020  red",.          
+-0001b930: 2020 290a 2020 2020 2020 2020 2020 2020    ).            
+-0001b940: 7265 7475 726e 0a0a 2020 2020 6966 2061  return..    if a
+-0001b950: 6c6c 5f20 616e 6420 6e6f 7420 666f 7263  ll_ and not forc
+-0001b960: 653a 0a20 2020 2020 2020 2063 6c69 636b  e:.        click
+-0001b970: 2e65 6368 6f28 0a20 2020 2020 2020 2020  .echo(.         
+-0001b980: 2020 2022 4172 6520 796f 7520 7375 7265     "Are you sure
+-0001b990: 2079 6f75 2077 616e 7420 746f 2072 656d   you want to rem
+-0001b9a0: 6f76 6520 636c 6970 7320 666f 7220 616c  ove clips for al
+-0001b9b0: 6c20 736f 6e67 733f 2054 6869 7320 6361  l songs? This ca
+-0001b9c0: 6e6e 6f74 2062 6520 756e 646f 6e65 2e20  nnot be undone. 
+-0001b9d0: 5b79 2f6e 5d20 222c 0a20 2020 2020 2020  [y/n] ",.       
+-0001b9e0: 2029 0a20 2020 2020 2020 2069 6620 696e   ).        if in
+-0001b9f0: 7075 7428 292e 6c6f 7765 7228 2920 213d  put().lower() !=
+-0001ba00: 2022 7922 3a0a 2020 2020 2020 2020 2020   "y":.          
+-0001ba10: 2020 7265 7475 726e 0a0a 2020 2020 7769    return..    wi
+-0001ba20: 7468 206f 7065 6e28 636f 6e66 6967 2e53  th open(config.S
+-0001ba30: 4f4e 4753 5f49 4e46 4f5f 5041 5448 2c20  ONGS_INFO_PATH, 
+-0001ba40: 2272 2b22 2c20 656e 636f 6469 6e67 3d22  "r+", encoding="
+-0001ba50: 7574 662d 3822 2920 6173 2073 6f6e 6773  utf-8") as songs
+-0001ba60: 5f66 696c 653a 0a20 2020 2020 2020 206c  _file:.        l
+-0001ba70: 696e 6573 203d 2073 6f6e 6773 5f66 696c  ines = songs_fil
+-0001ba80: 652e 7265 6164 6c69 6e65 7328 290a 0a20  e.readlines().. 
+-0001ba90: 2020 2020 2020 2066 6f72 2069 2069 6e20         for i in 
+-0001baa0: 7261 6e67 6528 6c65 6e28 6c69 6e65 7329  range(len(lines)
+-0001bab0: 293a 0a20 2020 2020 2020 2020 2020 2064  ):.            d
+-0001bac0: 6574 6169 6c73 203d 206c 696e 6573 5b69  etails = lines[i
+-0001bad0: 5d2e 7374 7269 7028 292e 7370 6c69 7428  ].strip().split(
+-0001bae0: 227c 2229 0a20 2020 2020 2020 2020 2020  "|").           
+-0001baf0: 2069 6620 616c 6c5f 206f 7220 696e 7428   if all_ or int(
+-0001bb00: 6465 7461 696c 735b 305d 2920 696e 2073  details[0]) in s
+-0001bb10: 6f6e 675f 6964 733a 0a20 2020 2020 2020  ong_ids:.       
+-0001bb20: 2020 2020 2020 2020 206c 696e 6573 5b69           lines[i
+-0001bb30: 5d20 3d20 227c 222e 6a6f 696e 2864 6574  ] = "|".join(det
+-0001bb40: 6169 6c73 5b3a 335d 202b 205b 2222 5d20  ails[:3] + [""] 
+-0001bb50: 2b20 6465 7461 696c 735b 353a 5d29 202b  + details[5:]) +
+-0001bb60: 2022 5c6e 220a 0a20 2020 2020 2020 2073   "\n"..        s
+-0001bb70: 6f6e 6773 5f66 696c 652e 7365 656b 2830  ongs_file.seek(0
+-0001bb80: 290a 2020 2020 2020 2020 736f 6e67 735f  ).        songs_
+-0001bb90: 6669 6c65 2e77 7269 7465 2822 222e 6a6f  file.write("".jo
+-0001bba0: 696e 286c 696e 6573 2929 0a20 2020 2020  in(lines)).     
+-0001bbb0: 2020 2073 6f6e 6773 5f66 696c 652e 7472     songs_file.tr
+-0001bbc0: 756e 6361 7465 2829 0a0a 2020 2020 6966  uncate()..    if
+-0001bbd0: 2061 6c6c 5f3a 0a20 2020 2020 2020 2063   all_:.        c
+-0001bbe0: 6c69 636b 2e73 6563 686f 2822 5265 6d6f  lick.secho("Remo
+-0001bbf0: 7665 6420 636c 6970 7320 666f 7220 616c  ved clips for al
+-0001bc00: 6c20 736f 6e67 732e 222c 2066 673d 2267  l songs.", fg="g
+-0001bc10: 7265 656e 2229 0a20 2020 2065 6c73 653a  reen").    else:
+-0001bc20: 0a20 2020 2020 2020 2063 6c69 636b 2e73  .        click.s
+-0001bc30: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
+-0001bc40: 2020 6622 5265 6d6f 7665 6420 636c 6970    f"Removed clip
+-0001bc50: 2873 2920 666f 7220 736f 6e67 2873 2920  (s) for song(s) 
+-0001bc60: 7769 7468 2049 4428 7329 207b 272c 2027  with ID(s) {', '
+-0001bc70: 2e6a 6f69 6e28 6d61 7028 7374 722c 2073  .join(map(str, s
+-0001bc80: 6f6e 675f 6964 7329 297d 2e22 2c0a 2020  ong_ids))}.",.  
+-0001bc90: 2020 2020 2020 2020 2020 6667 3d22 6772            fg="gr
+-0001bca0: 6565 6e22 2c0a 2020 2020 2020 2020 290a  een",.        ).
+-0001bcb0: 0a0a 4063 6c69 2e63 6f6d 6d61 6e64 2829  ..@cli.command()
+-0001bcc0: 0a40 636c 6963 6b2e 6172 6775 6d65 6e74  .@click.argument
+-0001bcd0: 2822 736f 6e67 5f69 6422 2c20 7479 7065  ("song_id", type
+-0001bce0: 3d69 6e74 2c20 7265 7175 6972 6564 3d54  =int, required=T
+-0001bcf0: 7275 6529 0a40 636c 6963 6b2e 6172 6775  rue).@click.argu
+-0001bd00: 6d65 6e74 2822 7061 6972 7322 2c20 7479  ment("pairs", ty
+-0001bd10: 7065 3d73 7472 2c20 7265 7175 6972 6564  pe=str, required
+-0001bd20: 3d46 616c 7365 290a 6465 6620 6d65 7461  =False).def meta
+-0001bd30: 6461 7461 2873 6f6e 675f 6964 2c20 7061  data(song_id, pa
+-0001bd40: 6972 7329 3a0a 2020 2020 2222 220a 2020  irs):.    """.  
+-0001bd50: 2020 5669 6577 206f 7220 6564 6974 2074    View or edit t
+-0001bd60: 6865 206d 6574 6164 6174 6120 666f 7220  he metadata for 
+-0001bd70: 6120 736f 6e67 2e0a 0a20 2020 2049 6620  a song...    If 
+-0001bd80: 6e6f 2050 4149 5253 2061 7265 2070 6173  no PAIRS are pas
+-0001bd90: 7365 642c 2070 7269 6e74 7320 7468 6520  sed, prints the 
+-0001bda0: 6d65 7461 6461 7461 2066 6f72 2074 6865  metadata for the
+-0001bdb0: 2073 6f6e 6720 7769 7468 2049 4420 534f   song with ID SO
+-0001bdc0: 4e47 5f49 442e 0a0a 2020 2020 4966 2050  NG_ID...    If P
+-0001bdd0: 4149 5253 2061 7265 2070 6173 7365 642c  AIRS are passed,
+-0001bde0: 2073 6574 7320 7468 6520 6d65 7461 6461   sets the metada
+-0001bdf0: 7461 2066 6f72 2074 6865 2073 6f6e 6720  ta for the song 
+-0001be00: 7769 7468 2049 4420 534f 4e47 5f49 4420  with ID SONG_ID 
+-0001be10: 746f 2074 6865 0a20 2020 206b 6579 2d76  to the.    key-v
+-0001be20: 616c 7565 2070 6169 7273 2069 6e20 5041  alue pairs in PA
+-0001be30: 4952 532e 2050 4149 5253 2073 686f 756c  IRS. PAIRS shoul
+-0001be40: 6420 6265 2061 2073 7472 696e 6720 6f66  d be a string of
+-0001be50: 2074 6865 2066 6f72 6d0a 2020 2020 276b   the form.    'k
+-0001be60: 6579 313a 7661 6c75 6531 7c6b 6579 323a  ey1:value1|key2:
+-0001be70: 7661 6c75 6532 7c2e 2e2e 272e 0a0a 2020  value2|...'...  
+-0001be80: 2020 506f 7373 6962 6c65 2065 6469 7461    Possible edita
+-0001be90: 626c 6520 6d65 7461 6461 7461 206b 6579  ble metadata key
+-0001bea0: 7320 6172 653a 2061 6c62 756d 2c20 616c  s are: album, al
+-0001beb0: 6275 6d61 7274 6973 742c 2061 7274 6973  bumartist, artis
+-0001bec0: 742c 2061 7274 776f 726b 2c0a 2020 2020  t, artwork,.    
+-0001bed0: 636f 6d6d 656e 742c 2063 6f6d 7069 6c61  comment, compila
+-0001bee0: 7469 6f6e 2c20 636f 6d70 6f73 6572 2c20  tion, composer, 
+-0001bef0: 6469 7363 6e75 6d62 6572 2c20 6765 6e72  discnumber, genr
+-0001bf00: 652c 206c 7972 6963 732c 2074 6f74 616c  e, lyrics, total
+-0001bf10: 6469 7363 732c 0a20 2020 2074 6f74 616c  discs,.    total
+-0001bf20: 7472 6163 6b73 2c20 7472 6163 6b6e 756d  tracks, tracknum
+-0001bf30: 6265 722c 2074 7261 636b 7469 746c 652c  ber, tracktitle,
+-0001bf40: 2079 6561 722c 2069 7372 630a 0a20 2020   year, isrc..   
+-0001bf50: 204b 6579 7320 6172 6520 6e6f 7420 6361   Keys are not ca
+-0001bf60: 7365 2073 656e 7369 7469 7665 2061 6e64  se sensitive and
+-0001bf70: 2063 616e 2063 6f6e 7461 696e 2061 7262   can contain arb
+-0001bf80: 6974 7261 7279 2077 6869 7465 7370 6163  itrary whitespac
+-0001bf90: 652c 2027 2d27 2c20 616e 640a 2020 2020  e, '-', and.    
+-0001bfa0: 275f 2720 6368 6172 6163 7465 7273 2e20  '_' characters. 
+-0001bfb0: 496e 206f 7468 6572 2077 6f72 6473 2c20  In other words, 
+-0001bfc0: 2741 6c62 756d 2041 7274 6973 7427 2c20  'Album Artist', 
+-0001bfd0: 2761 6c62 756d 2d61 7274 6973 7427 2c20  'album-artist', 
+-0001bfe0: 616e 640a 2020 2020 2761 6c62 756d 5f61  and.    'album_a
+-0001bff0: 7274 6973 7427 2061 7265 2061 6c6c 2073  rtist' are all s
+-0001c000: 796e 6f6e 796d 7320 666f 7220 2761 6c62  ynonyms for 'alb
+-0001c010: 756d 6172 7469 7374 272e 2041 6c73 6f2c  umartist'. Also,
+-0001c020: 2027 6469 736b 2720 6973 0a20 2020 2073   'disk' is.    s
+-0001c030: 796e 6f6e 796d 6f75 7320 7769 7468 2027  ynonymous with '
+-0001c040: 6469 7363 272e 0a20 2020 2022 2222 0a0a  disc'..    """..
+-0001c050: 2020 2020 7769 7468 206f 7065 6e28 636f      with open(co
+-0001c060: 6e66 6967 2e53 4f4e 4753 5f49 4e46 4f5f  nfig.SONGS_INFO_
+-0001c070: 5041 5448 2c20 2272 222c 2065 6e63 6f64  PATH, "r", encod
+-0001c080: 696e 673d 2275 7466 2d38 2229 2061 7320  ing="utf-8") as 
+-0001c090: 736f 6e67 735f 6669 6c65 3a0a 2020 2020  songs_file:.    
+-0001c0a0: 2020 2020 6c69 6e65 7320 3d20 736f 6e67      lines = song
+-0001c0b0: 735f 6669 6c65 2e72 6561 646c 696e 6573  s_file.readlines
+-0001c0c0: 2829 0a0a 2020 2020 2020 2020 666f 7220  ()..        for 
+-0001c0d0: 6920 696e 2072 616e 6765 286c 656e 286c  i in range(len(l
+-0001c0e0: 696e 6573 2929 3a0a 2020 2020 2020 2020  ines)):.        
+-0001c0f0: 2020 2020 6465 7461 696c 7320 3d20 6c69      details = li
+-0001c100: 6e65 735b 695d 2e73 7472 6970 2829 2e73  nes[i].strip().s
+-0001c110: 706c 6974 2822 7c22 290a 2020 2020 2020  plit("|").      
+-0001c120: 2020 2020 2020 6966 2069 6e74 2864 6574        if int(det
+-0001c130: 6169 6c73 5b30 5d29 203d 3d20 736f 6e67  ails[0]) == song
+-0001c140: 5f69 643a 0a20 2020 2020 2020 2020 2020  _id:.           
+-0001c150: 2020 2020 2073 6f6e 675f 7061 7468 203d       song_path =
+-0001c160: 206f 732e 7061 7468 2e6a 6f69 6e28 636f   os.path.join(co
+-0001c170: 6e66 6967 2e53 4f4e 4753 5f44 4952 2c20  nfig.SONGS_DIR, 
+-0001c180: 6465 7461 696c 735b 315d 290a 2020 2020  details[1]).    
+-0001c190: 2020 2020 2020 2020 2020 2020 736f 6e67              song
+-0001c1a0: 5f6e 616d 6520 3d20 6465 7461 696c 735b  _name = details[
+-0001c1b0: 315d 0a20 2020 2020 2020 2020 2020 2020  1].             
+-0001c1c0: 2020 2069 6620 6e6f 7420 6f73 2e70 6174     if not os.pat
+-0001c1d0: 682e 6578 6973 7473 2873 6f6e 675f 7061  h.exists(song_pa
+-0001c1e0: 7468 293a 0a20 2020 2020 2020 2020 2020  th):.           
+-0001c1f0: 2020 2020 2020 2020 2063 6c69 636b 2e73           click.s
+-0001c200: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
+-0001c210: 2020 2020 2020 2020 2020 2020 2020 6622                f"
+-0001c220: 536f 6e67 2066 696c 6520 7b73 6f6e 675f  Song file {song_
+-0001c230: 6e61 6d65 7d20 2849 4420 7b73 6f6e 675f  name} (ID {song_
+-0001c240: 6964 7d29 206e 6f74 2066 6f75 6e64 2e22  id}) not found."
+-0001c250: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
+-0001c260: 2020 2020 2020 2020 2020 6667 3d22 7265            fg="re
+-0001c270: 6422 2c0a 2020 2020 2020 2020 2020 2020  d",.            
+-0001c280: 2020 2020 2020 2020 290a 2020 2020 2020          ).      
+-0001c290: 2020 2020 2020 2020 2020 2020 2020 7265                re
+-0001c2a0: 7475 726e 0a20 2020 2020 2020 2020 2020  turn.           
+-0001c2b0: 2020 2020 2062 7265 616b 0a20 2020 2020       break.     
+-0001c2c0: 2020 2065 6c73 653a 0a20 2020 2020 2020     else:.       
+-0001c2d0: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
+-0001c2e0: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
+-0001c2f0: 2020 6622 4e6f 2073 6f6e 6720 7769 7468    f"No song with
+-0001c300: 2049 4420 7b73 6f6e 675f 6964 7d20 666f   ID {song_id} fo
+-0001c310: 756e 642e 222c 0a20 2020 2020 2020 2020  und.",.         
+-0001c320: 2020 2020 2020 2066 673d 2272 6564 222c         fg="red",
+-0001c330: 0a20 2020 2020 2020 2020 2020 2029 0a20  .            ). 
+-0001c340: 2020 2020 2020 2020 2020 2072 6574 7572             retur
+-0001c350: 6e0a 0a20 2020 2069 6620 7061 6972 733a  n..    if pairs:
+-0001c360: 0a20 2020 2020 2020 2070 6169 7273 203d  .        pairs =
+-0001c370: 205b 7475 706c 6528 7061 6972 2e73 7472   [tuple(pair.str
+-0001c380: 6970 2829 2e73 706c 6974 2822 3a22 2929  ip().split(":"))
+-0001c390: 2066 6f72 2070 6169 7220 696e 2070 6169   for pair in pai
+-0001c3a0: 7273 2e73 706c 6974 2822 7c22 295d 0a0a  rs.split("|")]..
+-0001c3b0: 2020 2020 2020 2020 736f 6e67 5f64 6174          song_dat
+-0001c3c0: 6120 3d20 6d75 7369 635f 7461 672e 6c6f  a = music_tag.lo
+-0001c3d0: 6164 5f66 696c 6528 736f 6e67 5f70 6174  ad_file(song_pat
+-0001c3e0: 6829 0a20 2020 2020 2020 2076 616c 6964  h).        valid
+-0001c3f0: 5f70 6169 7273 203d 2070 6169 7273 5b3a  _pairs = pairs[:
+-0001c400: 5d0a 2020 2020 2020 2020 666f 7220 6b65  ].        for ke
+-0001c410: 792c 2076 616c 7565 2069 6e20 7061 6972  y, value in pair
+-0001c420: 733a 0a20 2020 2020 2020 2020 2020 2069  s:.            i
+-0001c430: 6620 6b65 7920 6e6f 7420 696e 2063 6f6e  f key not in con
+-0001c440: 6669 672e 4d45 5441 4441 5441 5f4b 4559  fig.METADATA_KEY
+-0001c450: 5320 6f72 206b 6579 2e73 7461 7274 7377  S or key.startsw
+-0001c460: 6974 6828 2223 2229 3a0a 2020 2020 2020  ith("#"):.      
+-0001c470: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
+-0001c480: 7365 6368 6f28 0a20 2020 2020 2020 2020  secho(.         
+-0001c490: 2020 2020 2020 2020 2020 2066 2227 7b6b             f"'{k
+-0001c4a0: 6579 7d27 2069 7320 6e6f 7420 6120 7661  ey}' is not a va
+-0001c4b0: 6c69 6420 6564 6974 6162 6c65 206d 6574  lid editable met
+-0001c4c0: 6164 6174 6120 6b65 792e 222c 2066 673d  adata key.", fg=
+-0001c4d0: 2272 6564 220a 2020 2020 2020 2020 2020  "red".          
+-0001c4e0: 2020 2020 2020 290a 2020 2020 2020 2020        ).        
+-0001c4f0: 2020 2020 2020 2020 7661 6c69 645f 7061          valid_pa
+-0001c500: 6972 732e 7265 6d6f 7665 2828 6b65 792c  irs.remove((key,
+-0001c510: 2076 616c 7565 2929 0a20 2020 2020 2020   value)).       
+-0001c520: 2020 2020 2020 2020 2063 6f6e 7469 6e75           continu
+-0001c530: 650a 2020 2020 2020 2020 2020 2020 736f  e.            so
+-0001c540: 6e67 5f64 6174 615b 6b65 795d 203d 2076  ng_data[key] = v
+-0001c550: 616c 7565 0a0a 2020 2020 2020 2020 736f  alue..        so
+-0001c560: 6e67 5f64 6174 612e 7361 7665 2829 0a0a  ng_data.save()..
+-0001c570: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
+-0001c580: 6368 6f28 0a20 2020 2020 2020 2020 2020  cho(.           
+-0001c590: 2066 2253 6574 206d 6574 6164 6174 6120   f"Set metadata 
+-0001c5a0: 666f 7220 277b 736f 6e67 5f6e 616d 657d  for '{song_name}
+-0001c5b0: 2720 7769 7468 2049 4420 7b73 6f6e 675f  ' with ID {song_
+-0001c5c0: 6964 7d20 746f 207b 7661 6c69 645f 7061  id} to {valid_pa
+-0001c5d0: 6972 737d 2e22 2c0a 2020 2020 2020 2020  irs}.",.        
+-0001c5e0: 2020 2020 6667 3d22 6772 6565 6e22 2c0a      fg="green",.
+-0001c5f0: 2020 2020 2020 2020 290a 2020 2020 656c          ).    el
+-0001c600: 7365 3a0a 2020 2020 2020 2020 736f 6e67  se:.        song
+-0001c610: 5f64 6174 6120 3d20 6d75 7369 635f 7461  _data = music_ta
+-0001c620: 672e 6c6f 6164 5f66 696c 6528 736f 6e67  g.load_file(song
+-0001c630: 5f70 6174 6829 0a20 2020 2020 2020 2063  _path).        c
+-0001c640: 6c69 636b 2e65 6368 6f28 224d 6574 6164  lick.echo("Metad
+-0001c650: 6174 6120 666f 7220 222c 206e 6c3d 4661  ata for ", nl=Fa
+-0001c660: 6c73 6529 0a20 2020 2020 2020 2063 6c69  lse).        cli
+-0001c670: 636b 2e73 6563 686f 2873 6f6e 675f 6e61  ck.secho(song_na
+-0001c680: 6d65 2c20 6667 3d22 626c 7565 222c 2062  me, fg="blue", b
+-0001c690: 6f6c 643d 5472 7565 2c20 6e6c 3d46 616c  old=True, nl=Fal
+-0001c6a0: 7365 290a 2020 2020 2020 2020 636c 6963  se).        clic
+-0001c6b0: 6b2e 6563 686f 2866 2220 7769 7468 2049  k.echo(f" with I
+-0001c6c0: 4420 7b73 6f6e 675f 6964 7d3a 2229 0a0a  D {song_id}:")..
+-0001c6d0: 2020 2020 2020 2020 666f 7220 6b65 7920          for key 
+-0001c6e0: 696e 2063 6f6e 6669 672e 4d45 5441 4441  in config.METADA
+-0001c6f0: 5441 5f4b 4559 533a 0a20 2020 2020 2020  TA_KEYS:.       
+-0001c700: 2020 2020 2074 7279 3a0a 2020 2020 2020       try:.      
+-0001c710: 2020 2020 2020 2020 2020 636c 6963 6b2e            click.
+-0001c720: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
+-0001c730: 2020 2020 2020 2020 2020 6622 5c74 7b6b            f"\t{k
+-0001c740: 6579 2069 6620 6e6f 7420 6b65 792e 7374  ey if not key.st
+-0001c750: 6172 7473 7769 7468 2827 2327 2920 656c  artswith('#') el
+-0001c760: 7365 206b 6579 5b31 3a5d 7d3a 207b 736f  se key[1:]}: {so
+-0001c770: 6e67 5f64 6174 615b 6b65 795d 2e76 616c  ng_data[key].val
+-0001c780: 7565 7d22 0a20 2020 2020 2020 2020 2020  ue}".           
+-0001c790: 2020 2020 2029 0a20 2020 2020 2020 2020       ).         
+-0001c7a0: 2020 2065 7863 6570 743a 2020 2320 7079     except:  # py
+-0001c7b0: 6c69 6e74 3a20 6469 7361 626c 653d 6261  lint: disable=ba
+-0001c7c0: 7265 2d65 7863 6570 740a 2020 2020 2020  re-except.      
+-0001c7d0: 2020 2020 2020 2020 2020 7061 7373 0a0a            pass..
+-0001c7e0: 0a40 636c 692e 636f 6d6d 616e 6428 6e61  .@cli.command(na
+-0001c7f0: 6d65 3d22 6469 7222 290a 4063 6c69 636b  me="dir").@click
+-0001c800: 2e61 7267 756d 656e 7428 2264 6972 6563  .argument("direc
+-0001c810: 746f 7279 222c 2074 7970 653d 636c 6963  tory", type=clic
+-0001c820: 6b2e 5061 7468 2866 696c 655f 6f6b 6179  k.Path(file_okay
+-0001c830: 3d46 616c 7365 292c 2072 6571 7569 7265  =False), require
+-0001c840: 643d 4661 6c73 6529 0a64 6566 2064 6972  d=False).def dir
+-0001c850: 5f28 6469 7265 6374 6f72 7929 3a0a 2020  _(directory):.  
+-0001c860: 2020 2222 220a 2020 2020 4368 616e 6765    """.    Change
+-0001c870: 2074 6865 2064 6972 6563 746f 7279 2077   the directory w
+-0001c880: 6865 7265 206d 6165 7374 726f 206c 6f6f  here maestro loo
+-0001c890: 6b73 2066 6f72 2073 6f6e 6773 2e0a 2020  ks for songs..  
+-0001c8a0: 2020 4e4f 5445 3a20 5468 6973 2064 6f65    NOTE: This doe
+-0001c8b0: 7320 6e6f 7420 6d6f 7665 2061 6e79 2073  s not move any s
+-0001c8c0: 6f6e 6773 2e20 4974 206f 6e6c 7920 6368  ongs. It only ch
+-0001c8d0: 616e 6765 7320 7768 6572 6520 6d61 6573  anges where maes
+-0001c8e0: 7472 6f20 6c6f 6f6b 7320 666f 720a 2020  tro looks for.  
+-0001c8f0: 2020 736f 6e67 732e 2059 6f75 2077 696c    songs. You wil
+-0001c900: 6c20 6861 7665 2074 6f20 6d6f 7665 2074  l have to move t
+-0001c910: 6865 2073 6f6e 6773 2079 6f75 7273 656c  he songs yoursel
+-0001c920: 662e 0a0a 2020 2020 4966 206e 6f20 6172  f...    If no ar
+-0001c930: 6775 6d65 6e74 2069 7320 7061 7373 6564  gument is passed
+-0001c940: 2c20 7072 696e 7473 2074 6865 2063 7572  , prints the cur
+-0001c950: 7265 6e74 2064 6972 6563 746f 7279 2e0a  rent directory..
+-0001c960: 2020 2020 2222 220a 0a20 2020 2069 6620      """..    if 
+-0001c970: 6469 7265 6374 6f72 7920 6973 204e 6f6e  directory is Non
+-0001c980: 653a 0a20 2020 2020 2020 2063 6c69 636b  e:.        click
+-0001c990: 2e65 6368 6f28 636f 6e66 6967 2e53 4f4e  .echo(config.SON
+-0001c9a0: 4753 5f44 4952 290a 2020 2020 2020 2020  GS_DIR).        
+-0001c9b0: 7265 7475 726e 0a0a 2020 2020 6966 206e  return..    if n
+-0001c9c0: 6f74 206f 732e 7061 7468 2e65 7869 7374  ot os.path.exist
+-0001c9d0: 7328 6469 7265 6374 6f72 7929 3a0a 2020  s(directory):.  
+-0001c9e0: 2020 2020 2020 6f73 2e6d 616b 6564 6972        os.makedir
+-0001c9f0: 7328 6469 7265 6374 6f72 7929 0a0a 2020  s(directory)..  
+-0001ca00: 2020 7769 7468 206f 7065 6e28 636f 6e66    with open(conf
+-0001ca10: 6967 2e53 4554 5449 4e47 535f 4649 4c45  ig.SETTINGS_FILE
+-0001ca20: 2c20 2272 2b22 2c20 656e 636f 6469 6e67  , "r+", encoding
+-0001ca30: 3d22 7574 662d 3822 2920 6173 2073 6574  ="utf-8") as set
+-0001ca40: 7469 6e67 735f 6669 6c65 3a0a 2020 2020  tings_file:.    
+-0001ca50: 2020 2020 7365 7474 696e 6773 203d 206a      settings = j
+-0001ca60: 736f 6e2e 6c6f 6164 2873 6574 7469 6e67  son.load(setting
+-0001ca70: 735f 6669 6c65 290a 2020 2020 2020 2020  s_file).        
+-0001ca80: 7365 7474 696e 6773 5b22 736f 6e67 5f64  settings["song_d
+-0001ca90: 6972 6563 746f 7279 225d 203d 2064 6972  irectory"] = dir
+-0001caa0: 6563 746f 7279 0a20 2020 2020 2020 2073  ectory.        s
+-0001cab0: 6574 7469 6e67 735f 6669 6c65 2e73 6565  ettings_file.see
+-0001cac0: 6b28 3029 0a20 2020 2020 2020 206a 736f  k(0).        jso
+-0001cad0: 6e2e 6475 6d70 2873 6574 7469 6e67 732c  n.dump(settings,
+-0001cae0: 2073 6574 7469 6e67 735f 6669 6c65 290a   settings_file).
+-0001caf0: 2020 2020 2020 2020 7365 7474 696e 6773          settings
+-0001cb00: 5f66 696c 652e 7472 756e 6361 7465 2829  _file.truncate()
+-0001cb10: 0a0a 2020 2020 636c 6963 6b2e 7365 6368  ..    click.sech
+-0001cb20: 6f28 6622 4368 616e 6765 6420 736f 6e67  o(f"Changed song
+-0001cb30: 2064 6972 6563 746f 7279 2074 6f20 7b64   directory to {d
+-0001cb40: 6972 6563 746f 7279 7d2e 222c 2066 673d  irectory}.", fg=
+-0001cb50: 2267 7265 656e 2229                      "green")
++00017dc0: 2020 2020 2020 295b 2223 6c65 6e67 7468        )["#length
++00017dd0: 225d 2e76 616c 7565 2c0a 2020 2020 2020  "].value,.      
++00017de0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017df0: 2020 2020 2020 290a 0a20 2020 2020 2020        )..       
++00017e00: 2020 2020 2074 6167 5f69 7465 6d73 203d       tag_items =
++00017e10: 206c 6973 7428 7461 6773 2e69 7465 6d73   list(tags.items
++00017e20: 2829 290a 0a20 2020 2020 2020 2020 2020  ())..           
++00017e30: 2069 6620 736f 7274 5f20 213d 2022 6e6f   if sort_ != "no
++00017e40: 6e65 223a 0a20 2020 2020 2020 2020 2020  ne":.           
++00017e50: 2020 2020 2069 6620 736f 7274 5f20 696e       if sort_ in
++00017e60: 2028 226e 616d 6522 2c20 226e 2229 3a0a   ("name", "n"):.
++00017e70: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017e80: 2020 2020 736f 7274 5f6b 6579 203d 206c      sort_key = l
++00017e90: 616d 6264 6120 743a 2074 5b30 5d0a 2020  ambda t: t[0].  
++00017ea0: 2020 2020 2020 2020 2020 2020 2020 656c                el
++00017eb0: 6966 2073 6f72 745f 2069 6e20 2822 7365  if sort_ in ("se
++00017ec0: 6373 2d6c 6973 7465 6e65 6422 2c20 2273  cs-listened", "s
++00017ed0: 2229 3a0a 2020 2020 2020 2020 2020 2020  "):.            
++00017ee0: 2020 2020 2020 2020 736f 7274 5f6b 6579          sort_key
++00017ef0: 203d 206c 616d 6264 6120 743a 2074 5b31   = lambda t: t[1
++00017f00: 5d5b 305d 0a20 2020 2020 2020 2020 2020  ][0].           
++00017f10: 2020 2020 2065 6c69 6620 736f 7274 5f20       elif sort_ 
++00017f20: 696e 2028 2264 7572 6174 696f 6e22 2c20  in ("duration", 
++00017f30: 2264 2229 3a0a 2020 2020 2020 2020 2020  "d"):.          
++00017f40: 2020 2020 2020 2020 2020 736f 7274 5f6b            sort_k
++00017f50: 6579 203d 206c 616d 6264 6120 743a 2074  ey = lambda t: t
++00017f60: 5b31 5d5b 315d 0a20 2020 2020 2020 2020  [1][1].         
++00017f70: 2020 2020 2020 2065 6c69 6620 736f 7274         elif sort
++00017f80: 5f20 696e 2028 2274 696d 6573 2d6c 6973  _ in ("times-lis
++00017f90: 7465 6e65 6422 2c20 2274 2229 3a0a 2020  tened", "t"):.  
++00017fa0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017fb0: 2020 736f 7274 5f6b 6579 203d 206c 616d    sort_key = lam
++00017fc0: 6264 6120 743a 2074 5b31 5d5b 305d 202f  bda t: t[1][0] /
++00017fd0: 2074 5b31 5d5b 315d 0a20 2020 2020 2020   t[1][1].       
++00017fe0: 2020 2020 2020 2020 2074 6167 5f69 7465           tag_ite
++00017ff0: 6d73 2e73 6f72 7428 0a20 2020 2020 2020  ms.sort(.       
++00018000: 2020 2020 2020 2020 2020 2020 206b 6579               key
++00018010: 3d73 6f72 745f 6b65 792c 0a20 2020 2020  =sort_key,.     
++00018020: 2020 2020 2020 2020 2020 2020 2020 2072                 r
++00018030: 6576 6572 7365 3d6e 6f74 2072 6576 6572  everse=not rever
++00018040: 7365 5f2c 0a20 2020 2020 2020 2020 2020  se_,.           
++00018050: 2020 2020 2029 0a20 2020 2020 2020 2020       ).         
++00018060: 2020 2065 6c73 653a 0a20 2020 2020 2020     else:.       
++00018070: 2020 2020 2020 2020 2069 6620 6e6f 7420           if not 
++00018080: 7265 7665 7273 655f 3a0a 2020 2020 2020  reverse_:.      
++00018090: 2020 2020 2020 2020 2020 2020 2020 7461                ta
++000180a0: 675f 6974 656d 732e 7265 7665 7273 6528  g_items.reverse(
++000180b0: 290a 0a20 2020 2020 2020 2020 2020 2066  )..            f
++000180c0: 6f72 2074 6167 2c20 286c 6973 7465 6e5f  or tag, (listen_
++000180d0: 7469 6d65 2c20 746f 7461 6c5f 6475 7261  time, total_dura
++000180e0: 7469 6f6e 2920 696e 2074 6167 5f69 7465  tion) in tag_ite
++000180f0: 6d73 3a0a 2020 2020 2020 2020 2020 2020  ms:.            
++00018100: 2020 2020 636c 6963 6b2e 6563 686f 280a      click.echo(.
++00018110: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018120: 2020 2020 6622 7b74 6167 7d20 7b63 6c69      f"{tag} {cli
++00018130: 636b 2e73 7479 6c65 2868 656c 7065 7273  ck.style(helpers
++00018140: 2e66 6f72 6d61 745f 7365 636f 6e64 7328  .format_seconds(
++00018150: 746f 7461 6c5f 6475 7261 7469 6f6e 2c20  total_duration, 
++00018160: 7368 6f77 5f64 6563 696d 616c 3d54 7275  show_decimal=Tru
++00018170: 6529 2c20 6667 3d27 6272 6967 6874 5f62  e), fg='bright_b
++00018180: 6c61 636b 2729 7d20 7b63 6c69 636b 2e73  lack')} {click.s
++00018190: 7479 6c65 2868 656c 7065 7273 2e66 6f72  tyle(helpers.for
++000181a0: 6d61 745f 7365 636f 6e64 7328 6c69 7374  mat_seconds(list
++000181b0: 656e 5f74 696d 652c 2073 686f 775f 6465  en_time, show_de
++000181c0: 6369 6d61 6c3d 5472 7565 292c 2066 673d  cimal=True), fg=
++000181d0: 2779 656c 6c6f 7727 297d 207b 636c 6963  'yellow')} {clic
++000181e0: 6b2e 7374 796c 6528 2725 2e32 6627 2528  k.style('%.2f'%(
++000181f0: 6c69 7374 656e 5f74 696d 652f 746f 7461  listen_time/tota
++00018200: 6c5f 6475 7261 7469 6f6e 292c 2066 673d  l_duration), fg=
++00018210: 2767 7265 656e 2729 7d22 0a20 2020 2020  'green')}".     
++00018220: 2020 2020 2020 2020 2020 2029 0a20 2020             ).   
++00018230: 2020 2020 2020 2020 2020 2020 206e 756d               num
++00018240: 5f6c 696e 6573 202b 3d20 310a 2020 2020  _lines += 1.    
++00018250: 2020 2020 2020 2020 2020 2020 6966 2074              if t
++00018260: 6f70 2069 7320 6e6f 7420 4e6f 6e65 2061  op is not None a
++00018270: 6e64 206e 756d 5f6c 696e 6573 203d 3d20  nd num_lines == 
++00018280: 746f 703a 0a20 2020 2020 2020 2020 2020  top:.           
++00018290: 2020 2020 2020 2020 2062 7265 616b 0a20           break. 
++000182a0: 2020 2020 2020 2020 2020 2069 6620 736f             if so
++000182b0: 6e67 735f 6e6f 745f 666f 756e 643a 0a20  ngs_not_found:. 
++000182c0: 2020 2020 2020 2020 2020 2020 2020 2063                 c
++000182d0: 6c69 636b 2e73 6563 686f 2822 536f 6e67  lick.secho("Song
++000182e0: 2066 696c 6573 206e 6f74 2066 6f75 6e64   files not found
++000182f0: 3a22 2c20 6667 3d22 7265 6422 290a 2020  :", fg="red").  
++00018300: 2020 2020 2020 2020 2020 2020 2020 666f                fo
++00018310: 7220 736f 6e67 5f69 642c 2073 6f6e 675f  r song_id, song_
++00018320: 6e61 6d65 2069 6e20 736f 6e67 735f 6e6f  name in songs_no
++00018330: 745f 666f 756e 643a 0a20 2020 2020 2020  t_found:.       
++00018340: 2020 2020 2020 2020 2020 2020 2063 6c69               cli
++00018350: 636b 2e73 6563 686f 2866 225c 747b 736f  ck.secho(f"\t{so
++00018360: 6e67 5f6e 616d 657d 2028 4944 207b 736f  ng_name} (ID {so
++00018370: 6e67 5f69 647d 2922 2c20 6667 3d22 7265  ng_id})", fg="re
++00018380: 6422 290a 2020 2020 2020 2020 7265 7475  d").        retu
++00018390: 726e 0a0a 2020 2020 6e6f 5f72 6573 756c  rn..    no_resul
++000183a0: 7473 203d 2054 7275 650a 2020 2020 7769  ts = True.    wi
++000183b0: 7468 2028 0a20 2020 2020 2020 206f 7065  th (.        ope
++000183c0: 6e28 636f 6e66 6967 2e53 4f4e 4753 5f49  n(config.SONGS_I
++000183d0: 4e46 4f5f 5041 5448 2c20 2272 222c 2065  NFO_PATH, "r", e
++000183e0: 6e63 6f64 696e 673d 2275 7466 2d38 2229  ncoding="utf-8")
++000183f0: 2061 7320 736f 6e67 735f 6669 6c65 2c0a   as songs_file,.
++00018400: 2020 2020 2020 2020 6f70 656e 2873 7461          open(sta
++00018410: 7473 5f70 6174 682c 2022 7222 2c20 656e  ts_path, "r", en
++00018420: 636f 6469 6e67 3d22 7574 662d 3822 2920  coding="utf-8") 
++00018430: 6173 2073 7461 7473 5f66 696c 652c 0a20  as stats_file,. 
++00018440: 2020 2029 3a0a 0a20 2020 2020 2020 2064     ):..        d
++00018450: 6566 2063 6865 636b 5f69 665f 6669 6c65  ef check_if_file
++00018460: 5f65 7869 7374 7328 6465 7461 696c 5f73  _exists(detail_s
++00018470: 7472 696e 6729 3a0a 2020 2020 2020 2020  tring):.        
++00018480: 2020 2020 6465 7461 696c 7320 3d20 6465      details = de
++00018490: 7461 696c 5f73 7472 696e 672e 7374 7269  tail_string.stri
++000184a0: 7028 292e 7370 6c69 7428 227c 2229 0a20  p().split("|"). 
++000184b0: 2020 2020 2020 2020 2020 2069 6620 6e6f             if no
++000184c0: 7420 6f73 2e70 6174 682e 6578 6973 7473  t os.path.exists
++000184d0: 286f 732e 7061 7468 2e6a 6f69 6e28 636f  (os.path.join(co
++000184e0: 6e66 6967 2e53 4f4e 4753 5f44 4952 2c20  nfig.SONGS_DIR, 
++000184f0: 6465 7461 696c 735b 315d 2929 3a0a 2020  details[1])):.  
++00018500: 2020 2020 2020 2020 2020 2020 2020 736f                so
++00018510: 6e67 735f 6e6f 745f 666f 756e 642e 6170  ngs_not_found.ap
++00018520: 7065 6e64 2864 6574 6169 6c73 290a 2020  pend(details).  
++00018530: 2020 2020 2020 2020 2020 2020 2020 7265                re
++00018540: 7475 726e 2046 616c 7365 0a20 2020 2020  turn False.     
++00018550: 2020 2020 2020 2072 6574 7572 6e20 5472         return Tr
++00018560: 7565 0a0a 2020 2020 2020 2020 6c69 6e65  ue..        line
++00018570: 7320 3d20 6c69 7374 2866 696c 7465 7228  s = list(filter(
++00018580: 6368 6563 6b5f 6966 5f66 696c 655f 6578  check_if_file_ex
++00018590: 6973 7473 2c20 736f 6e67 735f 6669 6c65  ists, songs_file
++000185a0: 2e72 6561 646c 696e 6573 2829 2929 0a0a  .readlines()))..
++000185b0: 2020 2020 2020 2020 7374 6174 7320 3d20          stats = 
++000185c0: 6469 6374 280a 2020 2020 2020 2020 2020  dict(.          
++000185d0: 2020 6d61 7028 0a20 2020 2020 2020 2020    map(.         
++000185e0: 2020 2020 2020 206c 616d 6264 6120 743a         lambda t:
++000185f0: 2028 696e 7428 745b 305d 292c 2920 2b20   (int(t[0]),) + 
++00018600: 745b 313a 5d2c 0a20 2020 2020 2020 2020  t[1:],.         
++00018610: 2020 2020 2020 206d 6170 280a 2020 2020         map(.    
++00018620: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018630: 6c61 6d62 6461 2078 3a20 7475 706c 6528  lambda x: tuple(
++00018640: 6d61 7028 666c 6f61 742c 2078 2e73 7472  map(float, x.str
++00018650: 6970 2829 2e73 706c 6974 2822 7c22 2929  ip().split("|"))
++00018660: 292c 0a20 2020 2020 2020 2020 2020 2020  ),.             
++00018670: 2020 2020 2020 2073 7461 7473 5f66 696c         stats_fil
++00018680: 652e 7265 6164 6c69 6e65 7328 292c 0a20  e.readlines(),. 
++00018690: 2020 2020 2020 2020 2020 2020 2020 2029                 )
++000186a0: 2c0a 2020 2020 2020 2020 2020 2020 290a  ,.            ).
++000186b0: 2020 2020 2020 2020 290a 0a20 2020 2020          )..     
++000186c0: 2020 2066 6f72 2069 2069 6e20 7261 6e67     for i in rang
++000186d0: 6528 6c65 6e28 6c69 6e65 7329 293a 0a20  e(len(lines)):. 
++000186e0: 2020 2020 2020 2020 2020 2064 6574 6169             detai
++000186f0: 6c73 203d 206c 696e 6573 5b69 5d2e 7374  ls = lines[i].st
++00018700: 7269 7028 292e 7370 6c69 7428 227c 2229  rip().split("|")
++00018710: 0a20 2020 2020 2020 2020 2020 2073 6f6e  .            son
++00018720: 675f 6964 203d 2069 6e74 2864 6574 6169  g_id = int(detai
++00018730: 6c73 5b30 5d29 0a0a 2020 2020 2020 2020  ls[0])..        
++00018740: 2020 2020 7461 6773 203d 2073 6574 2864      tags = set(d
++00018750: 6574 6169 6c73 5b32 5d2e 7370 6c69 7428  etails[2].split(
++00018760: 222c 2229 290a 2020 2020 2020 2020 2020  ",")).          
++00018770: 2020 6966 2073 6561 7263 685f 7461 6773    if search_tags
++00018780: 3a0a 2020 2020 2020 2020 2020 2020 2020  :.              
++00018790: 2020 6966 206d 6174 6368 5f61 6c6c 3a0a    if match_all:.
++000187a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000187b0: 2020 2020 6966 206e 6f74 2073 6561 7263      if not searc
++000187c0: 685f 7461 6773 203c 3d20 7461 6773 3a20  h_tags <= tags: 
++000187d0: 2023 2073 7562 7365 740a 2020 2020 2020   # subset.      
++000187e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000187f0: 2020 6c69 6e65 735b 695d 203d 2022 220a    lines[i] = "".
++00018800: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018810: 2020 2020 2020 2020 636f 6e74 696e 7565          continue
++00018820: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00018830: 2065 6c73 653a 0a20 2020 2020 2020 2020   else:.         
++00018840: 2020 2020 2020 2020 2020 2069 6620 6e6f             if no
++00018850: 7420 7365 6172 6368 5f74 6167 7320 2620  t search_tags & 
++00018860: 7461 6773 3a20 2023 2069 6e74 6572 7365  tags:  # interse
++00018870: 6374 696f 6e0a 2020 2020 2020 2020 2020  ction.          
++00018880: 2020 2020 2020 2020 2020 2020 2020 6c69                li
++00018890: 6e65 735b 695d 203d 2022 220a 2020 2020  nes[i] = "".    
++000188a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000188b0: 2020 2020 636f 6e74 696e 7565 0a0a 2020      continue..  
++000188c0: 2020 2020 2020 2020 2020 7469 6d65 5f6c            time_l
++000188d0: 6973 7465 6e65 6420 3d20 7374 6174 735b  istened = stats[
++000188e0: 736f 6e67 5f69 645d 0a20 2020 2020 2020  song_id].       
++000188f0: 2020 2020 206c 696e 6573 5b69 5d20 3d20       lines[i] = 
++00018900: 7475 706c 6528 6465 7461 696c 7329 202b  tuple(details) +
++00018910: 2028 0a20 2020 2020 2020 2020 2020 2020   (.             
++00018920: 2020 2074 696d 655f 6c69 7374 656e 6564     time_listened
++00018930: 2c0a 2020 2020 2020 2020 2020 2020 2020  ,.              
++00018940: 2020 6d75 7369 635f 7461 672e 6c6f 6164    music_tag.load
++00018950: 5f66 696c 6528 6f73 2e70 6174 682e 6a6f  _file(os.path.jo
++00018960: 696e 2863 6f6e 6669 672e 534f 4e47 535f  in(config.SONGS_
++00018970: 4449 522c 2064 6574 6169 6c73 5b31 5d29  DIR, details[1])
++00018980: 295b 0a20 2020 2020 2020 2020 2020 2020  )[.             
++00018990: 2020 2020 2020 2022 236c 656e 6774 6822         "#length"
++000189a0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000189b0: 205d 2e76 616c 7565 2c0a 2020 2020 2020   ].value,.      
++000189c0: 2020 2020 2020 290a 0a20 2020 2020 2020        )..       
++000189d0: 206c 696e 6573 203d 205b 6c69 6e65 2066   lines = [line f
++000189e0: 6f72 206c 696e 6520 696e 206c 696e 6573  or line in lines
++000189f0: 2069 6620 6c69 6e65 5d0a 0a20 2020 2020   if line]..     
++00018a00: 2020 2069 6620 736f 7274 5f20 213d 2022     if sort_ != "
++00018a10: 6e6f 6e65 223a 0a20 2020 2020 2020 2020  none":.         
++00018a20: 2020 2069 6620 736f 7274 5f20 696e 2028     if sort_ in (
++00018a30: 226e 616d 6522 2c20 226e 2229 3a0a 2020  "name", "n"):.  
++00018a40: 2020 2020 2020 2020 2020 2020 2020 736f                so
++00018a50: 7274 5f6b 6579 203d 206c 616d 6264 6120  rt_key = lambda 
++00018a60: 743a 2074 5b31 5d0a 2020 2020 2020 2020  t: t[1].        
++00018a70: 2020 2020 656c 6966 2073 6f72 745f 2069      elif sort_ i
++00018a80: 6e20 2822 7365 6373 2d6c 6973 7465 6e65  n ("secs-listene
++00018a90: 6422 2c20 2273 2229 3a0a 2020 2020 2020  d", "s"):.      
++00018aa0: 2020 2020 2020 2020 2020 736f 7274 5f6b            sort_k
++00018ab0: 6579 203d 206c 616d 6264 6120 743a 2066  ey = lambda t: f
++00018ac0: 6c6f 6174 2874 5b2d 325d 290a 2020 2020  loat(t[-2]).    
++00018ad0: 2020 2020 2020 2020 656c 6966 2073 6f72          elif sor
++00018ae0: 745f 2069 6e20 2822 6475 7261 7469 6f6e  t_ in ("duration
++00018af0: 222c 2022 6422 293a 0a20 2020 2020 2020  ", "d"):.       
++00018b00: 2020 2020 2020 2020 2073 6f72 745f 6b65           sort_ke
++00018b10: 7920 3d20 6c61 6d62 6461 2074 3a20 666c  y = lambda t: fl
++00018b20: 6f61 7428 745b 2d31 5d29 0a20 2020 2020  oat(t[-1]).     
++00018b30: 2020 2020 2020 2065 6c69 6620 736f 7274         elif sort
++00018b40: 5f20 696e 2028 2274 696d 6573 2d6c 6973  _ in ("times-lis
++00018b50: 7465 6e65 6422 2c20 2274 2229 3a0a 2020  tened", "t"):.  
++00018b60: 2020 2020 2020 2020 2020 2020 2020 736f                so
++00018b70: 7274 5f6b 6579 203d 206c 616d 6264 6120  rt_key = lambda 
++00018b80: 743a 2066 6c6f 6174 2874 5b2d 325d 2920  t: float(t[-2]) 
++00018b90: 2f20 666c 6f61 7428 745b 2d31 5d29 0a20  / float(t[-1]). 
++00018ba0: 2020 2020 2020 2020 2020 206c 696e 6573             lines
++00018bb0: 2e73 6f72 7428 0a20 2020 2020 2020 2020  .sort(.         
++00018bc0: 2020 2020 2020 206b 6579 3d73 6f72 745f         key=sort_
++00018bd0: 6b65 792c 0a20 2020 2020 2020 2020 2020  key,.           
++00018be0: 2020 2020 2072 6576 6572 7365 3d6e 6f74       reverse=not
++00018bf0: 2072 6576 6572 7365 5f2c 0a20 2020 2020   reverse_,.     
++00018c00: 2020 2020 2020 2029 0a20 2020 2020 2020         ).       
++00018c10: 2065 6c73 653a 0a20 2020 2020 2020 2020   else:.         
++00018c20: 2020 2069 6620 6e6f 7420 7265 7665 7273     if not revers
++00018c30: 655f 3a0a 2020 2020 2020 2020 2020 2020  e_:.            
++00018c40: 2020 2020 6c69 6e65 732e 7265 7665 7273      lines.revers
++00018c50: 6528 290a 0a20 2020 2020 2020 2066 6f72  e()..        for
++00018c60: 2064 6574 6169 6c73 2069 6e20 6c69 6e65   details in line
++00018c70: 733a 0a20 2020 2020 2020 2020 2020 2068  s:.            h
++00018c80: 656c 7065 7273 2e70 7269 6e74 5f65 6e74  elpers.print_ent
++00018c90: 7279 2864 6574 6169 6c73 290a 2020 2020  ry(details).    
++00018ca0: 2020 2020 2020 2020 6e75 6d5f 6c69 6e65          num_line
++00018cb0: 7320 2b3d 2031 0a20 2020 2020 2020 2020  s += 1.         
++00018cc0: 2020 206e 6f5f 7265 7375 6c74 7320 3d20     no_results = 
++00018cd0: 4661 6c73 650a 2020 2020 2020 2020 2020  False.          
++00018ce0: 2020 6966 2074 6f70 2069 7320 6e6f 7420    if top is not 
++00018cf0: 4e6f 6e65 2061 6e64 206e 756d 5f6c 696e  None and num_lin
++00018d00: 6573 203d 3d20 746f 703a 0a20 2020 2020  es == top:.     
++00018d10: 2020 2020 2020 2020 2020 2062 7265 616b             break
++00018d20: 0a0a 2020 2020 6966 2073 6f6e 6773 5f6e  ..    if songs_n
++00018d30: 6f74 5f66 6f75 6e64 3a0a 2020 2020 2020  ot_found:.      
++00018d40: 2020 636c 6963 6b2e 7365 6368 6f28 2253    click.secho("S
++00018d50: 6f6e 6720 6669 6c65 7320 6e6f 7420 666f  ong files not fo
++00018d60: 756e 643a 222c 2066 673d 2272 6564 2229  und:", fg="red")
++00018d70: 0a20 2020 2020 2020 2066 6f72 2064 6574  .        for det
++00018d80: 6169 6c73 2069 6e20 736f 6e67 735f 6e6f  ails in songs_no
++00018d90: 745f 666f 756e 643a 0a20 2020 2020 2020  t_found:.       
++00018da0: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
++00018db0: 2866 225c 747b 6465 7461 696c 735b 315d  (f"\t{details[1]
++00018dc0: 7d20 2849 4420 7b64 6574 6169 6c73 5b30  } (ID {details[0
++00018dd0: 5d7d 2922 2c20 6667 3d22 7265 6422 290a  ]})", fg="red").
++00018de0: 2020 2020 656c 6966 206e 6f5f 7265 7375      elif no_resu
++00018df0: 6c74 7320 616e 6420 7365 6172 6368 5f74  lts and search_t
++00018e00: 6167 733a 0a20 2020 2020 2020 2063 6c69  ags:.        cli
++00018e10: 636b 2e73 6563 686f 2822 4e6f 2073 6f6e  ck.secho("No son
++00018e20: 6773 2066 6f75 6e64 206d 6174 6368 696e  gs found matchin
++00018e30: 6720 7461 6773 2e22 2c20 6667 3d22 7265  g tags.", fg="re
++00018e40: 6422 290a 2020 2020 656c 6966 206e 6f5f  d").    elif no_
++00018e50: 7265 7375 6c74 733a 0a20 2020 2020 2020  results:.       
++00018e60: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
++00018e70: 2020 2020 2020 2020 2020 224e 6f20 736f            "No so
++00018e80: 6e67 7320 666f 756e 642e 2055 7365 2027  ngs found. Use '
++00018e90: 6d61 6573 7472 6f20 6164 6427 2074 6f20  maestro add' to 
++00018ea0: 6164 6420 6120 736f 6e67 2e22 2c20 6667  add a song.", fg
++00018eb0: 3d22 7265 6422 0a20 2020 2020 2020 2029  ="red".        )
++00018ec0: 0a0a 0a40 636c 692e 636f 6d6d 616e 6428  ...@cli.command(
++00018ed0: 290a 4063 6c69 636b 2e6f 7074 696f 6e28  ).@click.option(
++00018ee0: 0a20 2020 2022 2d79 222c 0a20 2020 2022  .    "-y",.    "
++00018ef0: 2d2d 7965 6172 222c 0a20 2020 2022 7965  --year",.    "ye
++00018f00: 6172 222c 0a20 2020 2068 656c 703d 2253  ar",.    help="S
++00018f10: 686f 7720 7469 6d65 206c 6973 7465 6e65  how time listene
++00018f20: 6420 666f 7220 6120 7370 6563 6966 6963  d for a specific
++00018f30: 2079 6561 722c 2069 6e73 7465 6164 206f   year, instead o
++00018f40: 6620 7468 6520 746f 7461 6c2e 2050 6173  f the total. Pas
++00018f50: 7369 6e67 2027 6375 7227 2077 696c 6c20  sing 'cur' will 
++00018f60: 7368 6f77 2074 6865 2074 696d 6520 6c69  show the time li
++00018f70: 7374 656e 6564 2066 6f72 2074 6865 2063  stened for the c
++00018f80: 7572 7265 6e74 2079 6561 722e 222c 0a29  urrent year.",.)
++00018f90: 0a40 636c 6963 6b2e 6f70 7469 6f6e 280a  .@click.option(.
++00018fa0: 2020 2020 222d 492f 2d6e 4922 2c0a 2020      "-I/-nI",.  
++00018fb0: 2020 222d 2d73 6f6e 672d 696e 666f 2f2d    "--song-info/-
++00018fc0: 2d6e 6f2d 736f 6e67 2d69 6e66 6f22 2c0a  -no-song-info",.
++00018fd0: 2020 2020 2273 6f6e 675f 696e 666f 222c      "song_info",
++00018fe0: 0a20 2020 2064 6566 6175 6c74 3d46 616c  .    default=Fal
++00018ff0: 7365 2c0a 2020 2020 6865 6c70 3d22 5368  se,.    help="Sh
++00019000: 6f77 2074 6865 2061 7274 6973 742c 2061  ow the artist, a
++00019010: 6c62 756d 2c20 616e 6420 616c 6275 6d20  lbum, and album 
++00019020: 6172 7469 7374 2066 6f72 2065 6163 6820  artist for each 
++00019030: 736f 6e67 2e22 2c0a 290a 4063 6c69 636b  song.",.).@click
++00019040: 2e61 7267 756d 656e 7428 2273 6f6e 675f  .argument("song_
++00019050: 6964 7322 2c20 7479 7065 3d63 6c69 636b  ids", type=click
++00019060: 2e49 4e54 2c20 6e61 7267 733d 2d31 2c20  .INT, nargs=-1, 
++00019070: 7265 7175 6972 6564 3d54 7275 6529 0a64  required=True).d
++00019080: 6566 2065 6e74 7279 2873 6f6e 675f 6964  ef entry(song_id
++00019090: 732c 2079 6561 722c 2073 6f6e 675f 696e  s, year, song_in
++000190a0: 666f 293a 0a20 2020 2022 2222 0a20 2020  fo):.    """.   
++000190b0: 2056 6965 7720 7468 6520 6465 7461 696c   View the detail
++000190c0: 7320 666f 7220 7370 6563 6966 6963 2073  s for specific s
++000190d0: 6f6e 6728 7329 2e0a 0a20 2020 2050 7269  ong(s)...    Pri
++000190e0: 6e74 7320 7468 6520 6465 7461 696c 7320  nts the details 
++000190f0: 6f66 2074 6865 2073 6f6e 6728 7329 2077  of the song(s) w
++00019100: 6974 6820 7468 6520 4944 2873 2920 534f  ith the ID(s) SO
++00019110: 4e47 5f49 4453 2e0a 0a20 2020 205c 620a  NG_IDS...    \b.
++00019120: 2020 2020 4f75 7470 7574 2066 6f72 6d61      Output forma
++00019130: 743a 0a20 2020 2020 2020 2049 442c 206e  t:.        ID, n
++00019140: 616d 652c 2064 7572 6174 696f 6e2c 206c  ame, duration, l
++00019150: 6973 7465 6e20 7469 6d65 2c20 7469 6d65  isten time, time
++00019160: 7320 6c69 7374 656e 6564 2c20 5b63 6c69  s listened, [cli
++00019170: 702d 7374 6172 742c 2063 6c69 702d 656e  p-start, clip-en
++00019180: 645d 2069 6620 636c 6970 2065 7869 7374  d] if clip exist
++00019190: 732c 2063 6f6d 6d61 2d73 6570 6172 6174  s, comma-separat
++000191a0: 6564 2074 6167 7320 6966 2061 6e79 0a20  ed tags if any. 
++000191b0: 2020 2020 2020 2061 7274 6973 7420 2d20         artist - 
++000191c0: 616c 6275 6d20 2861 6c62 756d 2061 7274  album (album art
++000191d0: 6973 7429 2069 6620 2d49 2f2d 2d73 6f6e  ist) if -I/--son
++000191e0: 672d 696e 666f 2069 7320 7061 7373 6564  g-info is passed
++000191f0: 0a20 2020 2022 2222 0a20 2020 2073 6f6e  .    """.    son
++00019200: 675f 6964 7320 3d20 7365 7428 736f 6e67  g_ids = set(song
++00019210: 5f69 6473 290a 0a20 2020 2069 6620 7965  _ids)..    if ye
++00019220: 6172 2069 7320 4e6f 6e65 3a0a 2020 2020  ar is None:.    
++00019230: 2020 2020 7374 6174 735f 7061 7468 203d      stats_path =
++00019240: 2063 6f6e 6669 672e 544f 5441 4c5f 5354   config.TOTAL_ST
++00019250: 4154 535f 5041 5448 0a20 2020 2065 6c73  ATS_PATH.    els
++00019260: 653a 0a20 2020 2020 2020 2069 6620 7965  e:.        if ye
++00019270: 6172 203d 3d20 2263 7572 223a 0a20 2020  ar == "cur":.   
++00019280: 2020 2020 2020 2020 2079 6561 7220 3d20           year = 
++00019290: 636f 6e66 6967 2e43 5552 5f59 4541 520a  config.CUR_YEAR.
++000192a0: 2020 2020 2020 2020 2020 2020 7374 6174              stat
++000192b0: 735f 7061 7468 203d 2063 6f6e 6669 672e  s_path = config.
++000192c0: 4355 525f 5945 4152 5f53 5441 5453 5f50  CUR_YEAR_STATS_P
++000192d0: 4154 480a 2020 2020 2020 2020 656c 7365  ATH.        else
++000192e0: 3a0a 2020 2020 2020 2020 2020 2020 6966  :.            if
++000192f0: 206e 6f74 2079 6561 722e 6973 6469 6769   not year.isdigi
++00019300: 7428 293a 0a20 2020 2020 2020 2020 2020  t():.           
++00019310: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
++00019320: 2822 5965 6172 206d 7573 7420 6265 2061  ("Year must be a
++00019330: 206e 756d 6265 722e 222c 2066 673d 2272   number.", fg="r
++00019340: 6564 2229 0a20 2020 2020 2020 2020 2020  ed").           
++00019350: 2020 2020 2072 6574 7572 6e0a 2020 2020       return.    
++00019360: 2020 2020 2020 2020 7374 6174 735f 7061          stats_pa
++00019370: 7468 203d 206f 732e 7061 7468 2e6a 6f69  th = os.path.joi
++00019380: 6e28 636f 6e66 6967 2e53 5441 5453 5f44  n(config.STATS_D
++00019390: 4952 2c20 6622 7b79 6561 727d 2e74 7874  IR, f"{year}.txt
++000193a0: 2229 0a0a 2020 2020 7472 793a 0a20 2020  ")..    try:.   
++000193b0: 2020 2020 2077 6974 6820 280a 2020 2020       with (.    
++000193c0: 2020 2020 2020 2020 6f70 656e 2863 6f6e          open(con
++000193d0: 6669 672e 534f 4e47 535f 494e 464f 5f50  fig.SONGS_INFO_P
++000193e0: 4154 482c 2022 7222 2c20 656e 636f 6469  ATH, "r", encodi
++000193f0: 6e67 3d22 7574 662d 3822 2920 6173 2073  ng="utf-8") as s
++00019400: 6f6e 6773 5f66 696c 652c 0a20 2020 2020  ongs_file,.     
++00019410: 2020 2020 2020 206f 7065 6e28 7374 6174         open(stat
++00019420: 735f 7061 7468 2c20 2272 222c 2065 6e63  s_path, "r", enc
++00019430: 6f64 696e 673d 2275 7466 2d38 2229 2061  oding="utf-8") a
++00019440: 7320 7374 6174 735f 6669 6c65 2c0a 2020  s stats_file,.  
++00019450: 2020 2020 2020 293a 0a20 2020 2020 2020        ):.       
++00019460: 2020 2020 206c 696e 6573 203d 2073 6f6e       lines = son
++00019470: 6773 5f66 696c 652e 7265 6164 6c69 6e65  gs_file.readline
++00019480: 7328 290a 2020 2020 2020 2020 2020 2020  s().            
++00019490: 7374 6174 7320 3d20 6469 6374 280a 2020  stats = dict(.  
++000194a0: 2020 2020 2020 2020 2020 2020 2020 6d61                ma
++000194b0: 7028 0a20 2020 2020 2020 2020 2020 2020  p(.             
++000194c0: 2020 2020 2020 206c 616d 6264 6120 743a         lambda t:
++000194d0: 2028 696e 7428 745b 305d 292c 2920 2b20   (int(t[0]),) + 
++000194e0: 745b 313a 5d2c 2020 2320 636f 6e76 6572  t[1:],  # conver
++000194f0: 7420 6b65 7920 746f 2069 6e74 0a20 2020  t key to int.   
++00019500: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019510: 206d 6170 280a 2020 2020 2020 2020 2020   map(.          
++00019520: 2020 2020 2020 2020 2020 2020 2020 6c61                la
++00019530: 6d62 6461 2078 3a20 7475 706c 6528 6d61  mbda x: tuple(ma
++00019540: 7028 666c 6f61 742c 2078 2e73 7472 6970  p(float, x.strip
++00019550: 2829 2e73 706c 6974 2822 7c22 2929 292c  ().split("|"))),
++00019560: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00019570: 2020 2020 2020 2020 2073 7461 7473 5f66           stats_f
++00019580: 696c 652e 7265 6164 6c69 6e65 7328 292c  ile.readlines(),
++00019590: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000195a0: 2020 2020 2029 2c0a 2020 2020 2020 2020       ),.        
++000195b0: 2020 2020 2020 2020 290a 2020 2020 2020          ).      
++000195c0: 2020 2020 2020 290a 2020 2020 2020 2020        ).        
++000195d0: 2020 2020 666f 7220 6920 696e 2072 616e      for i in ran
++000195e0: 6765 286c 656e 286c 696e 6573 2929 3a0a  ge(len(lines)):.
++000195f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019600: 6465 7461 696c 7320 3d20 6c69 6e65 735b  details = lines[
++00019610: 695d 2e73 7472 6970 2829 2e73 706c 6974  i].strip().split
++00019620: 2822 7c22 290a 2020 2020 2020 2020 2020  ("|").          
++00019630: 2020 2020 2020 736f 6e67 5f69 6420 3d20        song_id = 
++00019640: 696e 7428 6465 7461 696c 735b 305d 290a  int(details[0]).
++00019650: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019660: 6966 2073 6f6e 675f 6964 2069 6e20 736f  if song_id in so
++00019670: 6e67 5f69 6473 3a0a 2020 2020 2020 2020  ng_ids:.        
++00019680: 2020 2020 2020 2020 2020 2020 6966 206e              if n
++00019690: 6f74 206f 732e 7061 7468 2e65 7869 7374  ot os.path.exist
++000196a0: 7328 6f73 2e70 6174 682e 6a6f 696e 2863  s(os.path.join(c
++000196b0: 6f6e 6669 672e 534f 4e47 535f 4449 522c  onfig.SONGS_DIR,
++000196c0: 2064 6574 6169 6c73 5b31 5d29 293a 0a20   details[1])):. 
++000196d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000196e0: 2020 2020 2020 2063 6c69 636b 2e73 6563         click.sec
++000196f0: 686f 280a 2020 2020 2020 2020 2020 2020  ho(.            
++00019700: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019710: 6622 536f 6e67 2066 696c 6520 7769 7468  f"Song file with
++00019720: 2049 4420 7b73 6f6e 675f 6964 7d20 6e6f   ID {song_id} no
++00019730: 7420 666f 756e 642e 222c 2066 673d 2272  t found.", fg="r
++00019740: 6564 220a 2020 2020 2020 2020 2020 2020  ed".            
++00019750: 2020 2020 2020 2020 2020 2020 290a 2020              ).  
++00019760: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019770: 2020 2020 2020 736f 6e67 5f69 6473 2e72        song_ids.r
++00019780: 656d 6f76 6528 736f 6e67 5f69 6429 0a20  emove(song_id). 
++00019790: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000197a0: 2020 2020 2020 2063 6f6e 7469 6e75 650a         continue.
++000197b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000197c0: 2020 2020 6865 6c70 6572 732e 7072 696e      helpers.prin
++000197d0: 745f 656e 7472 7928 0a20 2020 2020 2020  t_entry(.       
++000197e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000197f0: 2064 6574 6169 6c73 0a20 2020 2020 2020   details.       
++00019800: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019810: 202b 205b 0a20 2020 2020 2020 2020 2020   + [.           
++00019820: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019830: 2073 7461 7473 5b73 6f6e 675f 6964 5d2c   stats[song_id],
++00019840: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00019850: 2020 2020 2020 2020 2020 2020 206d 7573               mus
++00019860: 6963 5f74 6167 2e6c 6f61 645f 6669 6c65  ic_tag.load_file
++00019870: 280a 2020 2020 2020 2020 2020 2020 2020  (.              
++00019880: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019890: 2020 6f73 2e70 6174 682e 6a6f 696e 2863    os.path.join(c
++000198a0: 6f6e 6669 672e 534f 4e47 535f 4449 522c  onfig.SONGS_DIR,
++000198b0: 2064 6574 6169 6c73 5b31 5d29 0a20 2020   details[1]).   
++000198c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000198d0: 2020 2020 2020 2020 2029 5b22 236c 656e           )["#len
++000198e0: 6774 6822 5d2e 7661 6c75 652c 0a20 2020  gth"].value,.   
++000198f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019900: 2020 2020 205d 2c0a 2020 2020 2020 2020       ],.        
++00019910: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019920: 7368 6f77 5f73 6f6e 675f 696e 666f 3d73  show_song_info=s
++00019930: 6f6e 675f 696e 666f 2c0a 2020 2020 2020  ong_info,.      
++00019940: 2020 2020 2020 2020 2020 2020 2020 290a                ).
++00019950: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019960: 2020 2020 736f 6e67 5f69 6473 2e72 656d      song_ids.rem
++00019970: 6f76 6528 736f 6e67 5f69 6429 0a20 2020  ove(song_id).   
++00019980: 2065 7863 6570 7420 4669 6c65 4e6f 7446   except FileNotF
++00019990: 6f75 6e64 4572 726f 723a 0a20 2020 2020  oundError:.     
++000199a0: 2020 2063 6c69 636b 2e73 6563 686f 2866     click.secho(f
++000199b0: 224e 6f20 7374 6174 7320 666f 756e 6420  "No stats found 
++000199c0: 666f 7220 7965 6172 207b 7965 6172 7d2e  for year {year}.
++000199d0: 222c 2066 673d 2272 6564 2229 0a0a 2020  ", fg="red")..  
++000199e0: 2020 6966 2073 6f6e 675f 6964 733a 0a20    if song_ids:. 
++000199f0: 2020 2020 2020 2073 6f6e 675f 6964 7320         song_ids 
++00019a00: 3d20 5b73 7472 2869 645f 2920 666f 7220  = [str(id_) for 
++00019a10: 6964 5f20 696e 2073 6f6e 675f 6964 735d  id_ in song_ids]
++00019a20: 0a20 2020 2020 2020 2063 6c69 636b 2e73  .        click.s
++00019a30: 6563 686f 280a 2020 2020 2020 2020 2020  echo(.          
++00019a40: 2020 6622 4e6f 2073 6f6e 6773 2066 6f75    f"No songs fou
++00019a50: 6e64 2077 6974 6820 4944 733a 207b 272c  nd with IDs: {',
++00019a60: 2027 2e6a 6f69 6e28 736f 6e67 5f69 6473   '.join(song_ids
++00019a70: 297d 2e22 2c20 6667 3d22 7265 6422 0a20  )}.", fg="red". 
++00019a80: 2020 2020 2020 2029 0a0a 0a40 636c 692e         )...@cli.
++00019a90: 636f 6d6d 616e 6428 290a 4063 6c69 636b  command().@click
++00019aa0: 2e61 7267 756d 656e 7428 2273 6f6e 6722  .argument("song"
++00019ab0: 2c20 7265 7175 6972 6564 3d54 7275 6529  , required=True)
++00019ac0: 0a40 636c 6963 6b2e 6f70 7469 6f6e 280a  .@click.option(.
++00019ad0: 2020 2020 222d 4e2f 2d6e 4e22 2c0a 2020      "-N/-nN",.  
++00019ae0: 2020 222d 2d6e 616d 652f 2d2d 6e6f 2d6e    "--name/--no-n
++00019af0: 616d 6522 2c0a 2020 2020 2274 6974 6c65  ame",.    "title
++00019b00: 222c 0a20 2020 2064 6566 6175 6c74 3d46  ",.    default=F
++00019b10: 616c 7365 2c0a 2020 2020 6865 6c70 3d22  alse,.    help="
++00019b20: 5472 6561 7420 534f 4e47 2061 7320 6120  Treat SONG as a 
++00019b30: 736f 6e67 206e 616d 6520 696e 7374 6561  song name instea
++00019b40: 6420 6f66 2061 6e20 4944 2e22 2c0a 290a  d of an ID.",.).
++00019b50: 6465 6620 7265 636f 6d6d 656e 6428 736f  def recommend(so
++00019b60: 6e67 2c20 7469 746c 6529 3a0a 2020 2020  ng, title):.    
++00019b70: 2222 220a 2020 2020 4765 7420 7265 636f  """.    Get reco
++00019b80: 6d6d 656e 6461 7469 6f6e 7320 6672 6f6d  mmendations from
++00019b90: 2059 5420 4d75 7369 6320 6261 7365 6420   YT Music based 
++00019ba0: 6f6e 2073 6f6e 6720 7469 746c 6573 2e20  on song titles. 
++00019bb0: 4e6f 7465 3a20 7468 6973 2066 6561 7475  Note: this featu
++00019bc0: 7265 0a20 2020 2069 7320 6578 7065 7269  re.    is experi
++00019bd0: 6d65 6e74 616c 2e0a 0a20 2020 2052 6563  mental...    Rec
++00019be0: 6f6d 6d65 6e64 7320 736f 6e67 7320 2870  ommends songs (p
++00019bf0: 6f73 7369 626c 7920 6578 706c 6963 6974  ossibly explicit
++00019c00: 2920 7573 696e 6720 7468 6520 596f 7554  ) using the YouT
++00019c10: 7562 6520 4d75 7369 6320 4150 4920 7369  ube Music API si
++00019c20: 6d69 6c61 720a 2020 2020 746f 2074 6865  milar.    to the
++00019c30: 2073 6f6e 6720 7769 7468 2049 4420 534f   song with ID SO
++00019c40: 4e47 2074 6f20 6c69 7374 656e 2074 6f2e  NG to listen to.
++00019c50: 0a0a 2020 2020 4966 2074 6865 2027 2d4e  ..    If the '-N
++00019c60: 2720 666c 6167 2069 7320 7061 7373 6564  ' flag is passed
++00019c70: 2c20 534f 4e47 2069 7320 7472 6561 7465  , SONG is treate
++00019c80: 6420 6173 2061 2073 6f6e 6720 6e61 6d65  d as a song name
++00019c90: 2074 6f20 7365 6172 6368 2066 6f72 0a20   to search for. 
++00019ca0: 2020 206f 6e20 596f 7554 7562 6520 4d75     on YouTube Mu
++00019cb0: 7369 632e 2222 220a 2020 2020 7472 793a  sic.""".    try:
++00019cc0: 0a20 2020 2020 2020 2066 726f 6d20 7974  .        from yt
++00019cd0: 6d75 7369 6361 7069 2069 6d70 6f72 7420  musicapi import 
++00019ce0: 5954 4d75 7369 630a 2020 2020 6578 6365  YTMusic.    exce
++00019cf0: 7074 2049 6d70 6f72 7445 7272 6f72 3a0a  pt ImportError:.
++00019d00: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
++00019d10: 6368 6f28 0a20 2020 2020 2020 2020 2020  cho(.           
++00019d20: 2022 5468 6520 2772 6563 6f6d 6d65 6e64   "The 'recommend
++00019d30: 2720 636f 6d6d 616e 6420 7265 7175 6972  ' command requir
++00019d40: 6573 2074 6865 2027 7974 6d75 7369 6361  es the 'ytmusica
++00019d50: 7069 2720 7061 636b 6167 6520 746f 2062  pi' package to b
++00019d60: 6520 696e 7374 616c 6c65 642e 2052 756e  e installed. Run
++00019d70: 2027 7069 7020 696e 7374 616c 6c20 7974   'pip install yt
++00019d80: 6d75 7369 6361 7069 2720 746f 2069 6e73  musicapi' to ins
++00019d90: 7461 6c6c 2069 742e 222c 0a20 2020 2020  tall it.",.     
++00019da0: 2020 2020 2020 2066 673d 2272 6564 222c         fg="red",
++00019db0: 0a20 2020 2020 2020 2029 0a20 2020 2020  .        ).     
++00019dc0: 2020 2072 6574 7572 6e0a 0a20 2020 2079     return..    y
++00019dd0: 746d 7573 6963 203d 2059 544d 7573 6963  tmusic = YTMusic
++00019de0: 2829 0a0a 2020 2020 6966 2074 6974 6c65  ()..    if title
++00019df0: 3a0a 2020 2020 2020 2020 7265 7375 6c74  :.        result
++00019e00: 7320 3d20 7974 6d75 7369 632e 7365 6172  s = ytmusic.sear
++00019e10: 6368 2873 6f6e 672c 2066 696c 7465 723d  ch(song, filter=
++00019e20: 2273 6f6e 6773 2229 0a20 2020 2065 6c73  "songs").    els
++00019e30: 653a 0a20 2020 2020 2020 2069 6620 6e6f  e:.        if no
++00019e40: 7420 736f 6e67 2e69 7364 6967 6974 2829  t song.isdigit()
++00019e50: 3a0a 2020 2020 2020 2020 2020 2020 636c  :.            cl
++00019e60: 6963 6b2e 7365 6368 6f28 0a20 2020 2020  ick.secho(.     
++00019e70: 2020 2020 2020 2020 2020 2022 536f 6e67             "Song
++00019e80: 2049 4420 6d75 7374 2062 6520 6120 6e75   ID must be a nu
++00019e90: 6d62 6572 2e20 546f 2067 6574 2072 6563  mber. To get rec
++00019ea0: 6f6d 6d65 6e64 6174 696f 6e73 2062 7920  ommendations by 
++00019eb0: 6e61 6d65 2c20 7061 7373 2074 6865 2027  name, pass the '
++00019ec0: 2d4e 2f2d 2d6e 616d 6527 2066 6c61 672e  -N/--name' flag.
++00019ed0: 222c 0a20 2020 2020 2020 2020 2020 2020  ",.             
++00019ee0: 2020 2066 673d 2272 6564 222c 0a20 2020     fg="red",.   
++00019ef0: 2020 2020 2020 2020 2029 0a20 2020 2020           ).     
++00019f00: 2020 2020 2020 2072 6574 7572 6e0a 0a20         return.. 
++00019f10: 2020 2020 2020 2077 6974 6820 6f70 656e         with open
++00019f20: 2863 6f6e 6669 672e 534f 4e47 535f 494e  (config.SONGS_IN
++00019f30: 464f 5f50 4154 482c 2022 7222 2c20 656e  FO_PATH, "r", en
++00019f40: 636f 6469 6e67 3d22 7574 662d 3822 2920  coding="utf-8") 
++00019f50: 6173 2073 6f6e 6773 5f66 696c 653a 0a20  as songs_file:. 
++00019f60: 2020 2020 2020 2020 2020 2066 6f72 206c             for l
++00019f70: 696e 6520 696e 2073 6f6e 6773 5f66 696c  ine in songs_fil
++00019f80: 653a 0a20 2020 2020 2020 2020 2020 2020  e:.             
++00019f90: 2020 2064 6574 6169 6c73 203d 206c 696e     details = lin
++00019fa0: 652e 7374 7269 7028 292e 7370 6c69 7428  e.strip().split(
++00019fb0: 227c 2229 0a20 2020 2020 2020 2020 2020  "|").           
++00019fc0: 2020 2020 2069 6620 6465 7461 696c 735b       if details[
++00019fd0: 305d 203d 3d20 736f 6e67 3a0a 2020 2020  0] == song:.    
++00019fe0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019ff0: 7265 7375 6c74 7320 3d20 7974 6d75 7369  results = ytmusi
++0001a000: 632e 7365 6172 6368 280a 2020 2020 2020  c.search(.      
++0001a010: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001a020: 2020 6f73 2e70 6174 682e 7370 6c69 7465    os.path.splite
++0001a030: 7874 2864 6574 6169 6c73 5b31 5d29 5b30  xt(details[1])[0
++0001a040: 5d2c 2066 696c 7465 723d 2273 6f6e 6773  ], filter="songs
++0001a050: 220a 2020 2020 2020 2020 2020 2020 2020  ".              
++0001a060: 2020 2020 2020 290a 2020 2020 2020 2020        ).        
++0001a070: 2020 2020 2020 2020 2020 2020 6272 6561              brea
++0001a080: 6b0a 2020 2020 2020 2020 2020 2020 656c  k.            el
++0001a090: 7365 3a0a 2020 2020 2020 2020 2020 2020  se:.            
++0001a0a0: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
++0001a0b0: 6622 4e6f 2073 6f6e 6720 666f 756e 6420  f"No song found 
++0001a0c0: 7769 7468 2049 4420 7b73 6f6e 677d 2e22  with ID {song}."
++0001a0d0: 2c20 6667 3d22 7265 6422 290a 2020 2020  , fg="red").    
++0001a0e0: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++0001a0f0: 726e 0a0a 2020 2020 7974 5f6d 7573 6963  rn..    yt_music
++0001a100: 5f70 6c61 796c 6973 7420 3d20 7974 6d75  _playlist = ytmu
++0001a110: 7369 632e 6765 745f 7761 7463 685f 706c  sic.get_watch_pl
++0001a120: 6179 6c69 7374 2872 6573 756c 7473 5b30  aylist(results[0
++0001a130: 5d5b 2276 6964 656f 4964 225d 290a 0a20  ]["videoId"]).. 
++0001a140: 2020 2063 6c69 636b 2e65 6368 6f28 2252     click.echo("R
++0001a150: 6563 6f6d 6d65 6e64 6174 696f 6e73 2066  ecommendations f
++0001a160: 6f72 2022 2c20 6e6c 3d46 616c 7365 290a  or ", nl=False).
++0001a170: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
++0001a180: 0a20 2020 2020 2020 2079 745f 6d75 7369  .        yt_musi
++0001a190: 635f 706c 6179 6c69 7374 5b22 7472 6163  c_playlist["trac
++0001a1a0: 6b73 225d 5b30 5d5b 2274 6974 6c65 225d  ks"][0]["title"]
++0001a1b0: 202b 2022 2022 2c0a 2020 2020 2020 2020   + " ",.        
++0001a1c0: 6667 3d22 626c 7565 222c 0a20 2020 2020  fg="blue",.     
++0001a1d0: 2020 206e 6c3d 4661 6c73 652c 0a20 2020     nl=False,.   
++0001a1e0: 2029 0a20 2020 2063 6c69 636b 2e73 6563   ).    click.sec
++0001a1f0: 686f 280a 2020 2020 2020 2020 6622 2868  ho(.        f"(h
++0001a200: 7474 7073 3a2f 2f6d 7573 6963 2e79 6f75  ttps://music.you
++0001a210: 7475 6265 2e63 6f6d 2f77 6174 6368 3f76  tube.com/watch?v
++0001a220: 3d7b 7974 5f6d 7573 6963 5f70 6c61 796c  ={yt_music_playl
++0001a230: 6973 745b 2774 7261 636b 7327 5d5b 305d  ist['tracks'][0]
++0001a240: 5b27 7669 6465 6f49 6427 5d7d 2922 2c0a  ['videoId']})",.
++0001a250: 2020 2020 2020 2020 6667 3d22 6272 6967          fg="brig
++0001a260: 6874 5f62 6c61 636b 222c 0a20 2020 2020  ht_black",.     
++0001a270: 2020 206e 6c3d 4661 6c73 652c 0a20 2020     nl=False,.   
++0001a280: 2029 0a20 2020 2063 6c69 636b 2e65 6368   ).    click.ech
++0001a290: 6f28 223a 2229 0a20 2020 2066 6f72 2074  o(":").    for t
++0001a2a0: 7261 636b 2069 6e20 7974 5f6d 7573 6963  rack in yt_music
++0001a2b0: 5f70 6c61 796c 6973 745b 2274 7261 636b  _playlist["track
++0001a2c0: 7322 5d5b 313a 5d3a 0a20 2020 2020 2020  s"][1:]:.       
++0001a2d0: 2063 6c69 636b 2e73 6563 686f 2874 7261   click.secho(tra
++0001a2e0: 636b 5b22 7469 746c 6522 5d20 2b20 2220  ck["title"] + " 
++0001a2f0: 222c 2066 673d 2262 6c75 6522 2c20 626f  ", fg="blue", bo
++0001a300: 6c64 3d54 7275 652c 206e 6c3d 4661 6c73  ld=True, nl=Fals
++0001a310: 6529 0a20 2020 2020 2020 2063 6c69 636b  e).        click
++0001a320: 2e73 6563 686f 280a 2020 2020 2020 2020  .secho(.        
++0001a330: 2020 2020 6622 6874 7470 733a 2f2f 6d75      f"https://mu
++0001a340: 7369 632e 796f 7574 7562 652e 636f 6d2f  sic.youtube.com/
++0001a350: 7761 7463 683f 763d 7b74 7261 636b 5b27  watch?v={track['
++0001a360: 7669 6465 6f49 6427 5d7d 222c 0a20 2020  videoId']}",.   
++0001a370: 2020 2020 2020 2020 2066 673d 2262 7269           fg="bri
++0001a380: 6768 745f 626c 6163 6b22 2c0a 2020 2020  ght_black",.    
++0001a390: 2020 2020 290a 0a0a 4063 6c69 2e63 6f6d      )...@cli.com
++0001a3a0: 6d61 6e64 2829 0a40 636c 6963 6b2e 6172  mand().@click.ar
++0001a3b0: 6775 6d65 6e74 2822 736f 6e67 5f69 6473  gument("song_ids
++0001a3c0: 222c 2072 6571 7569 7265 643d 5472 7565  ", required=True
++0001a3d0: 2c20 7479 7065 3d69 6e74 2c20 6e61 7267  , type=int, narg
++0001a3e0: 733d 2d31 290a 4063 6c69 636b 2e6f 7074  s=-1).@click.opt
++0001a3f0: 696f 6e28 222d 422f 2d6e 4222 2c20 222d  ion("-B/-nB", "-
++0001a400: 2d62 6f74 746f 6d2f 2d2d 6e6f 2d62 6f74  -bottom/--no-bot
++0001a410: 746f 6d22 2c20 2262 6f74 746f 6d22 2c20  tom", "bottom", 
++0001a420: 6465 6661 756c 743d 4661 6c73 6529 0a64  default=False).d
++0001a430: 6566 2070 7573 6828 736f 6e67 5f69 6473  ef push(song_ids
++0001a440: 2c20 626f 7474 6f6d 293a 0a20 2020 2022  , bottom):.    "
++0001a450: 2222 0a20 2020 204d 6f76 6520 736f 6e67  "".    Move song
++0001a460: 7320 6172 6f75 6e64 2074 6f20 7468 6520  s around to the 
++0001a470: 626f 7474 6f6d 206f 7220 746f 7020 6f66  bottom or top of
++0001a480: 2074 6865 2064 6174 6162 6173 652e 0a0a   the database...
++0001a490: 2020 2020 5075 7368 2074 6865 2073 6f6e      Push the son
++0001a4a0: 6728 7329 2077 6974 6820 4944 2873 2920  g(s) with ID(s) 
++0001a4b0: 534f 4e47 5f49 4453 2074 6f20 7468 6520  SONG_IDS to the 
++0001a4c0: 746f 7020 6f66 2074 6865 2064 6174 6162  top of the datab
++0001a4d0: 6173 6520 2861 7320 6966 2074 6865 790a  ase (as if they.
++0001a4e0: 2020 2020 7765 7265 2074 6865 2073 6f6e      were the son
++0001a4f0: 6773 206d 6f73 7420 7265 6365 6e74 6c79  gs most recently
++0001a500: 2061 6464 6564 2920 696e 2074 6865 206f   added) in the o
++0001a510: 7264 6572 2074 6865 7920 6172 6520 7061  rder they are pa
++0001a520: 7373 6564 2028 652e 672e 0a20 2020 2027  ssed (e.g..    '
++0001a530: 6d61 6573 7472 6f20 7075 7368 2031 2032  maestro push 1 2
++0001a540: 2033 2720 7769 6c6c 206d 616b 6520 7468   3' will make th
++0001a550: 6520 6d6f 7374 2072 6563 656e 7420 736f  e most recent so
++0001a560: 6e67 2062 6520 3329 2e0a 0a20 2020 2049  ng be 3)...    I
++0001a570: 6620 7468 6520 272d 4227 2066 6c61 6720  f the '-B' flag 
++0001a580: 6973 2070 6173 7365 642c 2074 6865 2073  is passed, the s
++0001a590: 6f6e 6728 7329 2077 696c 6c20 6265 2070  ong(s) will be p
++0001a5a0: 7573 6865 6420 746f 2074 6865 2062 6f74  ushed to the bot
++0001a5b0: 746f 6d20 6f66 2074 6865 0a20 2020 206c  tom of the.    l
++0001a5c0: 6973 7420 696e 7374 6561 642e 0a20 2020  ist instead..   
++0001a5d0: 2022 2222 0a20 2020 2077 6974 6820 6f70   """.    with op
++0001a5e0: 656e 2863 6f6e 6669 672e 534f 4e47 535f  en(config.SONGS_
++0001a5f0: 494e 464f 5f50 4154 482c 2022 722b 222c  INFO_PATH, "r+",
++0001a600: 2065 6e63 6f64 696e 673d 2275 7466 2d38   encoding="utf-8
++0001a610: 2229 2061 7320 736f 6e67 735f 6669 6c65  ") as songs_file
++0001a620: 3a0a 2020 2020 2020 2020 6c69 6e65 7320  :.        lines 
++0001a630: 3d20 736f 6e67 735f 6669 6c65 2e72 6561  = songs_file.rea
++0001a640: 646c 696e 6573 2829 0a0a 2020 2020 2020  dlines()..      
++0001a650: 2020 6c69 6e65 735f 746f 5f6d 6f76 6520    lines_to_move 
++0001a660: 3d20 5b5d 0a20 2020 2020 2020 2066 6f72  = [].        for
++0001a670: 2069 2069 6e20 7261 6e67 6528 6c65 6e28   i in range(len(
++0001a680: 6c69 6e65 7329 293a 0a20 2020 2020 2020  lines)):.       
++0001a690: 2020 2020 2069 6620 696e 7428 6c69 6e65       if int(line
++0001a6a0: 735b 695d 2e73 706c 6974 2822 7c22 295b  s[i].split("|")[
++0001a6b0: 305d 2920 696e 2073 6f6e 675f 6964 733a  0]) in song_ids:
++0001a6c0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++0001a6d0: 206c 696e 6573 5f74 6f5f 6d6f 7665 2e61   lines_to_move.a
++0001a6e0: 7070 656e 6428 2869 2c20 6c69 6e65 735b  ppend((i, lines[
++0001a6f0: 695d 2929 0a0a 2020 2020 2020 2020 666f  i]))..        fo
++0001a700: 7220 692c 205f 2069 6e20 7265 7665 7273  r i, _ in revers
++0001a710: 6564 286c 696e 6573 5f74 6f5f 6d6f 7665  ed(lines_to_move
++0001a720: 293a 0a20 2020 2020 2020 2020 2020 206c  ):.            l
++0001a730: 696e 6573 2e70 6f70 2869 290a 0a20 2020  ines.pop(i)..   
++0001a740: 2020 2020 2073 6f6e 675f 6964 735f 7769       song_ids_wi
++0001a750: 7468 5f6f 7264 6572 203d 2064 6963 7428  th_order = dict(
++0001a760: 0a20 2020 2020 2020 2020 2020 206d 6170  .            map
++0001a770: 286c 616d 6264 6120 783a 2028 785b 315d  (lambda x: (x[1]
++0001a780: 2c20 785b 305d 292c 2065 6e75 6d65 7261  , x[0]), enumera
++0001a790: 7465 2873 6f6e 675f 6964 7329 290a 2020  te(song_ids)).  
++0001a7a0: 2020 2020 2020 290a 0a20 2020 2020 2020        )..       
++0001a7b0: 2066 6f72 2069 2069 6e20 7261 6e67 6528   for i in range(
++0001a7c0: 6c65 6e28 6c69 6e65 735f 746f 5f6d 6f76  len(lines_to_mov
++0001a7d0: 6529 293a 0a20 2020 2020 2020 2020 2020  e)):.           
++0001a7e0: 206c 696e 6573 5f74 6f5f 6d6f 7665 5b69   lines_to_move[i
++0001a7f0: 5d20 3d20 280a 2020 2020 2020 2020 2020  ] = (.          
++0001a800: 2020 2020 2020 736f 6e67 5f69 6473 5f77        song_ids_w
++0001a810: 6974 685f 6f72 6465 725b 696e 7428 6c69  ith_order[int(li
++0001a820: 6e65 735f 746f 5f6d 6f76 655b 695d 5b31  nes_to_move[i][1
++0001a830: 5d2e 7370 6c69 7428 227c 2229 5b30 5d29  ].split("|")[0])
++0001a840: 5d2c 0a20 2020 2020 2020 2020 2020 2020  ],.             
++0001a850: 2020 202a 6c69 6e65 735f 746f 5f6d 6f76     *lines_to_mov
++0001a860: 655b 695d 2c0a 2020 2020 2020 2020 2020  e[i],.          
++0001a870: 2020 290a 0a20 2020 2020 2020 206c 696e    )..        lin
++0001a880: 6573 5f74 6f5f 6d6f 7665 2e73 6f72 7428  es_to_move.sort(
++0001a890: 6b65 793d 6c61 6d62 6461 2078 3a20 785b  key=lambda x: x[
++0001a8a0: 305d 2c20 7265 7665 7273 653d 626f 7474  0], reverse=bott
++0001a8b0: 6f6d 290a 0a20 2020 2020 2020 2069 6620  om)..        if 
++0001a8c0: 6e6f 7420 626f 7474 6f6d 3a0a 2020 2020  not bottom:.    
++0001a8d0: 2020 2020 2020 2020 6c69 6e65 7320 2b3d          lines +=
++0001a8e0: 205b 745b 325d 2066 6f72 2074 2069 6e20   [t[2] for t in 
++0001a8f0: 6c69 6e65 735f 746f 5f6d 6f76 655d 0a20  lines_to_move]. 
++0001a900: 2020 2020 2020 2065 6c73 653a 0a20 2020         else:.   
++0001a910: 2020 2020 2020 2020 206c 696e 6573 203d           lines =
++0001a920: 205b 745b 325d 2066 6f72 2074 2069 6e20   [t[2] for t in 
++0001a930: 6c69 6e65 735f 746f 5f6d 6f76 655d 202b  lines_to_move] +
++0001a940: 206c 696e 6573 0a0a 2020 2020 2020 2020   lines..        
++0001a950: 736f 6e67 735f 6669 6c65 2e73 6565 6b28  songs_file.seek(
++0001a960: 3029 0a20 2020 2020 2020 2073 6f6e 6773  0).        songs
++0001a970: 5f66 696c 652e 7772 6974 6528 2222 2e6a  _file.write("".j
++0001a980: 6f69 6e28 6c69 6e65 7329 290a 2020 2020  oin(lines)).    
++0001a990: 2020 2020 736f 6e67 735f 6669 6c65 2e74      songs_file.t
++0001a9a0: 7275 6e63 6174 6528 290a 0a0a 4063 6c69  runcate()...@cli
++0001a9b0: 2e63 6f6d 6d61 6e64 286e 616d 653d 2263  .command(name="c
++0001a9c0: 6c69 7022 290a 4063 6c69 636b 2e61 7267  lip").@click.arg
++0001a9d0: 756d 656e 7428 2273 6f6e 675f 6964 222c  ument("song_id",
++0001a9e0: 2072 6571 7569 7265 643d 5472 7565 2c20   required=True, 
++0001a9f0: 7479 7065 3d69 6e74 290a 4063 6c69 636b  type=int).@click
++0001aa00: 2e61 7267 756d 656e 7428 2273 7461 7274  .argument("start
++0001aa10: 222c 2072 6571 7569 7265 643d 4661 6c73  ", required=Fals
++0001aa20: 652c 2074 7970 653d 666c 6f61 742c 2064  e, type=float, d
++0001aa30: 6566 6175 6c74 3d4e 6f6e 6529 0a40 636c  efault=None).@cl
++0001aa40: 6963 6b2e 6172 6775 6d65 6e74 2822 656e  ick.argument("en
++0001aa50: 6422 2c20 7265 7175 6972 6564 3d46 616c  d", required=Fal
++0001aa60: 7365 2c20 7479 7065 3d66 6c6f 6174 2c20  se, type=float, 
++0001aa70: 6465 6661 756c 743d 4e6f 6e65 290a 6465  default=None).de
++0001aa80: 6620 636c 6970 5f28 736f 6e67 5f69 642c  f clip_(song_id,
++0001aa90: 2073 7461 7274 2c20 656e 6429 3a0a 2020   start, end):.  
++0001aaa0: 2020 2222 220a 2020 2020 4372 6561 7465    """.    Create
++0001aab0: 206f 7220 6564 6974 2074 6865 2063 6c69   or edit the cli
++0001aac0: 7020 666f 7220 6120 736f 6e67 2e0a 0a20  p for a song... 
++0001aad0: 2020 2053 6574 7320 7468 6520 636c 6970     Sets the clip
++0001aae0: 2066 6f72 2074 6865 2073 6f6e 6720 7769   for the song wi
++0001aaf0: 7468 2049 4420 534f 4e47 5f49 4420 746f  th ID SONG_ID to
++0001ab00: 2074 6865 2074 696d 6520 7261 6e67 6520   the time range 
++0001ab10: 5354 4152 5420 746f 2045 4e44 0a20 2020  START to END.   
++0001ab20: 2028 696e 2073 6563 6f6e 6473 292e 0a0a   (in seconds)...
++0001ab30: 2020 2020 4966 2045 4e44 2069 7320 6e6f      If END is no
++0001ab40: 7420 7061 7373 6564 2c20 7468 6520 636c  t passed, the cl
++0001ab50: 6970 2077 696c 6c20 6265 2066 726f 6d20  ip will be from 
++0001ab60: 5354 4152 5420 746f 2074 6865 2065 6e64  START to the end
++0001ab70: 206f 6620 7468 6520 736f 6e67 2e0a 0a20   of the song... 
++0001ab80: 2020 2049 6620 6e65 6974 6865 7220 5354     If neither ST
++0001ab90: 4152 5420 6e6f 7220 454e 4420 6172 6520  ART nor END are 
++0001aba0: 7061 7373 6564 2c20 6120 636c 6970 2065  passed, a clip e
++0001abb0: 6469 746f 7220 7769 6c6c 2062 6520 6f70  ditor will be op
++0001abc0: 656e 6564 2c20 696e 2077 6869 6368 0a20  ened, in which. 
++0001abd0: 2020 2079 6f75 2063 616e 206d 6f76 6520     you can move 
++0001abe0: 7468 6520 7374 6172 7420 616e 6420 656e  the start and en
++0001abf0: 6420 6f66 2074 6865 2063 6c69 7020 6172  d of the clip ar
++0001ac00: 6f75 6e64 2075 7369 6e67 2074 6865 2061  ound using the a
++0001ac10: 7272 6f77 206b 6579 7320 7768 696c 650a  rrow keys while.
++0001ac20: 2020 2020 6c69 7374 656e 696e 6720 746f      listening to
++0001ac30: 2074 6865 2073 6f6e 6720 2861 6c73 6f20   the song (also 
++0001ac40: 7368 6f77 7320 7761 7665 666f 726d 292e  shows waveform).
++0001ac50: 0a0a 2020 2020 5c62 0a20 2020 2054 6865  ..    \b.    The
++0001ac60: 2065 6469 746f 7220 7374 6172 7473 206f   editor starts o
++0001ac70: 7574 2065 6469 7469 6e67 2074 6865 2073  ut editing the s
++0001ac80: 7461 7274 206f 6620 7468 6520 636c 6970  tart of the clip
++0001ac90: 2e0a 2020 2020 5c78 3162 5b31 6d74 5c78  ..    \x1b[1mt\x
++0001aca0: 3162 5b30 6d20 746f 2074 6f67 676c 6520  1b[0m to toggle 
++0001acb0: 6265 7477 6565 6e20 6564 6974 696e 6720  between editing 
++0001acc0: 7468 6520 7374 6172 7420 616e 6420 656e  the start and en
++0001acd0: 6420 6f66 2074 6865 2063 6c69 702e 0a20  d of the clip.. 
++0001ace0: 2020 205c 7831 625b 316d 5348 4946 542b     \x1b[1mSHIFT+
++0001acf0: 4c45 4654 2f52 4947 4854 5c78 3162 5b30  LEFT/RIGHT\x1b[0
++0001ad00: 6d20 7769 6c6c 206d 6f76 6520 7768 6963  m will move whic
++0001ad10: 6865 7665 7220 636c 6970 2065 6e64 2079  hever clip end y
++0001ad20: 6f75 2061 7265 2065 6469 7469 6e67 0a20  ou are editing. 
++0001ad30: 2020 2020 2020 2062 7920 302e 3120 7365         by 0.1 se
++0001ad40: 636f 6e64 732c 2073 6e61 7020 7468 6520  conds, snap the 
++0001ad50: 6375 7272 656e 7420 706c 6179 6261 636b  current playback
++0001ad60: 2074 6f20 7468 6174 2063 6c69 7020 656e   to that clip en
++0001ad70: 6420 2874 6f20 6578 6163 746c 790a 2020  d (to exactly.  
++0001ad80: 2020 2020 2020 7468 6520 636c 6970 2073        the clip s
++0001ad90: 7461 7274 2069 6620 6564 6974 696e 6720  tart if editing 
++0001ada0: 7374 6172 742c 2065 6e64 2d31 2069 6620  start, end-1 if 
++0001adb0: 6564 6974 696e 6720 656e 6429 2c20 616e  editing end), an
++0001adc0: 6420 7061 7573 652e 0a20 2020 205c 7831  d pause..    \x1
++0001add0: 625b 316d 4c45 4654 2f52 4947 4854 5c78  b[1mLEFT/RIGHT\x
++0001ade0: 3162 5b30 6d20 7769 6c6c 206d 6f76 6520  1b[0m will move 
++0001adf0: 7768 6963 6865 7665 7220 636c 6970 2065  whichever clip e
++0001ae00: 6e64 2079 6f75 2061 7265 2065 6469 7469  nd you are editi
++0001ae10: 6e67 2062 7920 310a 2020 2020 2020 2020  ng by 1.        
++0001ae20: 7365 636f 6e64 2c20 736e 6170 2074 6865  second, snap the
++0001ae30: 2063 7572 7265 6e74 2070 6c61 7962 6163   current playbac
++0001ae40: 6b20 746f 2074 6861 7420 636c 6970 2065  k to that clip e
++0001ae50: 6e64 2c20 616e 6420 7061 7573 652e 0a20  nd, and pause.. 
++0001ae60: 2020 205c 7831 625b 316d 454e 5445 525c     \x1b[1mENTER\
++0001ae70: 7831 625b 306d 2077 696c 6c20 6578 6974  x1b[0m will exit
++0001ae80: 2074 6865 2065 6469 746f 7220 616e 6420   the editor and 
++0001ae90: 7361 7665 2074 6865 2063 6c69 702e 0a20  save the clip.. 
++0001aea0: 2020 205c 7831 625b 316d 715c 7831 625b     \x1b[1mq\x1b[
++0001aeb0: 306d 2077 696c 6c20 6578 6974 2074 6865  0m will exit the
++0001aec0: 2065 6469 746f 7220 7769 7468 6f75 7420   editor without 
++0001aed0: 7361 7669 6e67 2074 6865 2063 6c69 702e  saving the clip.
++0001aee0: 0a20 2020 2022 2222 0a20 2020 2069 6620  .    """.    if 
++0001aef0: 7374 6172 7420 6973 206e 6f74 204e 6f6e  start is not Non
++0001af00: 653a 0a20 2020 2020 2020 2069 6620 7374  e:.        if st
++0001af10: 6172 7420 3c20 303a 0a20 2020 2020 2020  art < 0:.       
++0001af20: 2020 2020 2063 6c69 636b 2e73 6563 686f       click.secho
++0001af30: 2822 5354 4152 5420 6d75 7374 2062 6520  ("START must be 
++0001af40: 6120 706f 7369 7469 7665 206e 756d 6265  a positive numbe
++0001af50: 722e 222c 2066 673d 2272 6564 2229 0a20  r.", fg="red"). 
++0001af60: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++0001af70: 6e0a 2020 2020 2020 2020 6966 2065 6e64  n.        if end
++0001af80: 2069 7320 6e6f 7420 4e6f 6e65 2061 6e64   is not None and
++0001af90: 2065 6e64 203c 2030 3a0a 2020 2020 2020   end < 0:.      
++0001afa0: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
++0001afb0: 6f28 2245 4e44 206d 7573 7420 6265 2061  o("END must be a
++0001afc0: 2070 6f73 6974 6976 6520 6e75 6d62 6572   positive number
++0001afd0: 2e22 2c20 6667 3d22 7265 6422 290a 2020  .", fg="red").  
++0001afe0: 2020 2020 2020 2020 2020 7265 7475 726e            return
++0001aff0: 0a0a 2020 2020 7769 7468 206f 7065 6e28  ..    with open(
++0001b000: 636f 6e66 6967 2e53 4f4e 4753 5f49 4e46  config.SONGS_INF
++0001b010: 4f5f 5041 5448 2c20 2272 2b22 2c20 656e  O_PATH, "r+", en
++0001b020: 636f 6469 6e67 3d22 7574 662d 3822 2920  coding="utf-8") 
++0001b030: 6173 2073 6f6e 6773 5f66 696c 653a 0a20  as songs_file:. 
++0001b040: 2020 2020 2020 206c 696e 6573 203d 2073         lines = s
++0001b050: 6f6e 6773 5f66 696c 652e 7265 6164 6c69  ongs_file.readli
++0001b060: 6e65 7328 290a 0a20 2020 2020 2020 2066  nes()..        f
++0001b070: 6f72 2069 2069 6e20 7261 6e67 6528 6c65  or i in range(le
++0001b080: 6e28 6c69 6e65 7329 293a 0a20 2020 2020  n(lines)):.     
++0001b090: 2020 2020 2020 2064 6574 6169 6c73 203d         details =
++0001b0a0: 206c 696e 6573 5b69 5d2e 7374 7269 7028   lines[i].strip(
++0001b0b0: 292e 7370 6c69 7428 227c 2229 0a20 2020  ).split("|").   
++0001b0c0: 2020 2020 2020 2020 2069 6620 696e 7428           if int(
++0001b0d0: 6465 7461 696c 735b 305d 2920 3d3d 2073  details[0]) == s
++0001b0e0: 6f6e 675f 6964 3a0a 2020 2020 2020 2020  ong_id:.        
++0001b0f0: 2020 2020 2020 2020 6272 6561 6b0a 2020          break.  
++0001b100: 2020 2020 2020 656c 7365 3a0a 2020 2020        else:.    
++0001b110: 2020 2020 2020 2020 636c 6963 6b2e 7365          click.se
++0001b120: 6368 6f28 6622 4e6f 2073 6f6e 6720 666f  cho(f"No song fo
++0001b130: 756e 6420 7769 7468 2049 4420 7b73 6f6e  und with ID {son
++0001b140: 675f 6964 7d2e 222c 2066 673d 2272 6564  g_id}.", fg="red
++0001b150: 2229 0a20 2020 2020 2020 2020 2020 2072  ").            r
++0001b160: 6574 7572 6e0a 0a20 2020 2020 2020 2073  eturn..        s
++0001b170: 6f6e 675f 6e61 6d65 203d 2064 6574 6169  ong_name = detai
++0001b180: 6c73 5b31 5d0a 2020 2020 2020 2020 6966  ls[1].        if
++0001b190: 206e 6f74 206f 732e 7061 7468 2e65 7869   not os.path.exi
++0001b1a0: 7374 7328 6f73 2e70 6174 682e 6a6f 696e  sts(os.path.join
++0001b1b0: 2863 6f6e 6669 672e 534f 4e47 535f 4449  (config.SONGS_DI
++0001b1c0: 522c 2073 6f6e 675f 6e61 6d65 2929 3a0a  R, song_name)):.
++0001b1d0: 2020 2020 2020 2020 2020 2020 636c 6963              clic
++0001b1e0: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
++0001b1f0: 2020 2020 2020 2020 2066 2253 6f6e 6720           f"Song 
++0001b200: 6669 6c65 207b 736f 6e67 5f6e 616d 657d  file {song_name}
++0001b210: 2028 4944 207b 736f 6e67 5f69 647d 2920   (ID {song_id}) 
++0001b220: 6e6f 7420 666f 756e 642e 222c 0a20 2020  not found.",.   
++0001b230: 2020 2020 2020 2020 2020 2020 2066 673d               fg=
++0001b240: 2272 6564 222c 0a20 2020 2020 2020 2020  "red",.         
++0001b250: 2020 2029 0a20 2020 2020 2020 2020 2020     ).           
++0001b260: 2072 6574 7572 6e0a 0a20 2020 2020 2020   return..       
++0001b270: 2069 6620 7374 6172 7420 6973 204e 6f6e   if start is Non
++0001b280: 653a 2020 2320 636c 6970 2065 6469 746f  e:  # clip edito
++0001b290: 720a 2020 2020 2020 2020 2020 2020 7374  r.            st
++0001b2a0: 6172 742c 2065 6e64 203d 2063 7572 7365  art, end = curse
++0001b2b0: 732e 7772 6170 7065 7228 6865 6c70 6572  s.wrapper(helper
++0001b2c0: 732e 636c 6970 5f65 6469 746f 722c 2064  s.clip_editor, d
++0001b2d0: 6574 6169 6c73 290a 2020 2020 2020 2020  etails).        
++0001b2e0: 2020 2020 6966 2073 7461 7274 2069 7320      if start is 
++0001b2f0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0001b300: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
++0001b310: 6f28 6622 4e6f 2063 6861 6e67 6520 696e  o(f"No change in
++0001b320: 2063 6c69 7020 666f 7220 7b73 6f6e 675f   clip for {song_
++0001b330: 6e61 6d65 7d2e 222c 2066 673d 2267 7265  name}.", fg="gre
++0001b340: 656e 2229 0a20 2020 2020 2020 2020 2020  en").           
++0001b350: 2020 2020 2072 6574 7572 6e0a 0a20 2020       return..   
++0001b360: 2020 2020 2073 6f6e 675f 7061 7468 203d       song_path =
++0001b370: 206f 732e 7061 7468 2e6a 6f69 6e28 636f   os.path.join(co
++0001b380: 6e66 6967 2e53 4f4e 4753 5f44 4952 2c20  nfig.SONGS_DIR, 
++0001b390: 736f 6e67 5f6e 616d 6529 0a20 2020 2020  song_name).     
++0001b3a0: 2020 2064 7572 6174 696f 6e20 3d20 6d75     duration = mu
++0001b3b0: 7369 635f 7461 672e 6c6f 6164 5f66 696c  sic_tag.load_fil
++0001b3c0: 6528 736f 6e67 5f70 6174 6829 5b22 236c  e(song_path)["#l
++0001b3d0: 656e 6774 6822 5d2e 7661 6c75 650a 0a20  ength"].value.. 
++0001b3e0: 2020 2020 2020 2069 6620 656e 6420 6973         if end is
++0001b3f0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0001b400: 2020 2065 6e64 203d 2064 7572 6174 696f     end = duratio
++0001b410: 6e0a 0a20 2020 2020 2020 2069 6620 7374  n..        if st
++0001b420: 6172 7420 3e20 6475 7261 7469 6f6e 3a0a  art > duration:.
++0001b430: 2020 2020 2020 2020 2020 2020 636c 6963              clic
++0001b440: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
++0001b450: 2020 2020 2020 2020 2022 5354 4152 5420           "START 
++0001b460: 6d75 7374 206e 6f74 2062 6520 6d6f 7265  must not be more
++0001b470: 2074 6861 6e20 7468 6520 736f 6e67 2064   than the song d
++0001b480: 7572 6174 696f 6e2e 222c 2066 673d 2272  uration.", fg="r
++0001b490: 6564 220a 2020 2020 2020 2020 2020 2020  ed".            
++0001b4a0: 290a 2020 2020 2020 2020 2020 2020 7265  ).            re
++0001b4b0: 7475 726e 0a20 2020 2020 2020 2069 6620  turn.        if 
++0001b4c0: 656e 6420 3e20 6475 7261 7469 6f6e 3a0a  end > duration:.
++0001b4d0: 2020 2020 2020 2020 2020 2020 636c 6963              clic
++0001b4e0: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
++0001b4f0: 2020 2020 2020 2020 2022 454e 4420 6d75           "END mu
++0001b500: 7374 206e 6f74 2062 6520 6d6f 7265 2074  st not be more t
++0001b510: 6861 6e20 7468 6520 736f 6e67 2064 7572  han the song dur
++0001b520: 6174 696f 6e2e 222c 2066 673d 2272 6564  ation.", fg="red
++0001b530: 220a 2020 2020 2020 2020 2020 2020 290a  ".            ).
++0001b540: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++0001b550: 726e 0a20 2020 2020 2020 2069 6620 7374  rn.        if st
++0001b560: 6172 7420 3e20 656e 643a 0a20 2020 2020  art > end:.     
++0001b570: 2020 2020 2020 2063 6c69 636b 2e73 6563         click.sec
++0001b580: 686f 2822 5354 4152 5420 6d75 7374 206e  ho("START must n
++0001b590: 6f74 2062 6520 6d6f 7265 2074 6861 6e20  ot be more than 
++0001b5a0: 454e 442e 222c 2066 673d 2272 6564 2229  END.", fg="red")
++0001b5b0: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++0001b5c0: 7572 6e0a 0a20 2020 2020 2020 206c 696e  urn..        lin
++0001b5d0: 6573 5b69 5d20 3d20 280a 2020 2020 2020  es[i] = (.      
++0001b5e0: 2020 2020 2020 227c 222e 6a6f 696e 2864        "|".join(d
++0001b5f0: 6574 6169 6c73 5b3a 335d 202b 205b 7374  etails[:3] + [st
++0001b600: 7228 7374 6172 7429 202b 2022 2022 202b  r(start) + " " +
++0001b610: 2073 7472 2865 6e64 295d 202b 2064 6574   str(end)] + det
++0001b620: 6169 6c73 5b35 3a5d 290a 2020 2020 2020  ails[5:]).      
++0001b630: 2020 2020 2020 2b20 225c 6e22 0a20 2020        + "\n".   
++0001b640: 2020 2020 2029 0a0a 2020 2020 2020 2020       )..        
++0001b650: 736f 6e67 735f 6669 6c65 2e73 6565 6b28  songs_file.seek(
++0001b660: 3029 0a20 2020 2020 2020 2073 6f6e 6773  0).        songs
++0001b670: 5f66 696c 652e 7772 6974 6528 2222 2e6a  _file.write("".j
++0001b680: 6f69 6e28 6c69 6e65 7329 290a 2020 2020  oin(lines)).    
++0001b690: 2020 2020 736f 6e67 735f 6669 6c65 2e74      songs_file.t
++0001b6a0: 7275 6e63 6174 6528 290a 0a20 2020 2020  runcate()..     
++0001b6b0: 2020 2063 6c69 636b 2e73 6563 686f 2866     click.secho(f
++0001b6c0: 2243 6c69 7070 6564 207b 736f 6e67 5f6e  "Clipped {song_n
++0001b6d0: 616d 657d 2066 726f 6d20 7b73 7461 7274  ame} from {start
++0001b6e0: 7d20 746f 207b 656e 647d 2e22 2c20 6667  } to {end}.", fg
++0001b6f0: 3d22 6772 6565 6e22 290a 0a0a 4063 6c69  ="green")...@cli
++0001b700: 2e63 6f6d 6d61 6e64 2829 0a40 636c 6963  .command().@clic
++0001b710: 6b2e 6172 6775 6d65 6e74 2822 736f 6e67  k.argument("song
++0001b720: 5f69 6473 222c 2074 7970 653d 696e 742c  _ids", type=int,
++0001b730: 206e 6172 6773 3d2d 312c 2072 6571 7569   nargs=-1, requi
++0001b740: 7265 643d 4661 6c73 6529 0a40 636c 6963  red=False).@clic
++0001b750: 6b2e 6f70 7469 6f6e 280a 2020 2020 222d  k.option(.    "-
++0001b760: 412f 2d6e 4122 2c0a 2020 2020 222d 2d61  A/-nA",.    "--a
++0001b770: 6c6c 2f2d 2d6e 6f2d 616c 6c22 2c0a 2020  ll/--no-all",.  
++0001b780: 2020 2261 6c6c 5f22 2c0a 2020 2020 6465    "all_",.    de
++0001b790: 6661 756c 743d 4661 6c73 652c 0a20 2020  fault=False,.   
++0001b7a0: 2068 656c 703d 2252 656d 6f76 6520 636c   help="Remove cl
++0001b7b0: 6970 7320 666f 7220 616c 6c20 736f 6e67  ips for all song
++0001b7c0: 732e 2049 676e 6f72 6573 2053 4f4e 475f  s. Ignores SONG_
++0001b7d0: 4944 532e 222c 0a29 0a40 636c 6963 6b2e  IDS.",.).@click.
++0001b7e0: 6f70 7469 6f6e 2822 2d46 2f2d 6e46 222c  option("-F/-nF",
++0001b7f0: 2022 2d2d 666f 7263 652f 2d2d 6e6f 2d66   "--force/--no-f
++0001b800: 6f72 6365 222c 2022 666f 7263 6522 2c20  orce", "force", 
++0001b810: 6465 6661 756c 743d 4661 6c73 6529 0a64  default=False).d
++0001b820: 6566 2075 6e63 6c69 7028 736f 6e67 5f69  ef unclip(song_i
++0001b830: 6473 2c20 616c 6c5f 2c20 666f 7263 6529  ds, all_, force)
++0001b840: 3a0a 2020 2020 2222 220a 2020 2020 5265  :.    """.    Re
++0001b850: 6d6f 7665 2063 6c69 7073 2066 6f72 2073  move clips for s
++0001b860: 7065 6369 6669 6320 736f 6e67 2873 292e  pecific song(s).
++0001b870: 0a0a 2020 2020 5265 6d6f 7665 7320 636c  ..    Removes cl
++0001b880: 6970 2066 6f72 2074 6865 2073 6f6e 6728  ip for the song(
++0001b890: 7329 2077 6974 6820 4944 2873 2920 534f  s) with ID(s) SO
++0001b8a0: 4e47 5f49 4453 2e0a 0a20 2020 2049 6620  NG_IDS...    If 
++0001b8b0: 7468 6520 272d 412f 2d2d 616c 6c27 2066  the '-A/--all' f
++0001b8c0: 6c61 6720 6973 2070 6173 7365 642c 2074  lag is passed, t
++0001b8d0: 6865 2063 6c69 7073 2066 6f72 2061 6c6c  he clips for all
++0001b8e0: 2073 6f6e 6773 2077 696c 6c20 6265 2072   songs will be r
++0001b8f0: 656d 6f76 6564 2c0a 2020 2020 6967 6e6f  emoved,.    igno
++0001b900: 7269 6e67 2053 4f4e 475f 4944 532e 2054  ring SONG_IDS. T
++0001b910: 6869 7320 7072 6f6d 7074 7320 666f 7220  his prompts for 
++0001b920: 636f 6e66 6972 6d61 7469 6f6e 2075 6e6c  confirmation unl
++0001b930: 6573 7320 7468 6520 272d 462f 2d2d 666f  ess the '-F/--fo
++0001b940: 7263 6527 0a20 2020 2066 6c61 6720 6973  rce'.    flag is
++0001b950: 2070 6173 7365 642e 0a20 2020 2022 2222   passed..    """
++0001b960: 0a20 2020 2069 6620 6e6f 7420 616c 6c5f  .    if not all_
++0001b970: 3a0a 2020 2020 2020 2020 6966 2073 6f6e  :.        if son
++0001b980: 675f 6964 733a 0a20 2020 2020 2020 2020  g_ids:.         
++0001b990: 2020 2073 6f6e 675f 6964 7320 3d20 7365     song_ids = se
++0001b9a0: 7428 736f 6e67 5f69 6473 290a 2020 2020  t(song_ids).    
++0001b9b0: 2020 2020 656c 7365 3a0a 2020 2020 2020      else:.      
++0001b9c0: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
++0001b9d0: 6f28 0a20 2020 2020 2020 2020 2020 2020  o(.             
++0001b9e0: 2020 2022 4e6f 2073 6f6e 6720 4944 7320     "No song IDs 
++0001b9f0: 7061 7373 6564 2e20 546f 2072 656d 6f76  passed. To remov
++0001ba00: 6520 636c 6970 7320 666f 7220 616c 6c20  e clips for all 
++0001ba10: 736f 6e67 732c 2070 6173 7320 7468 6520  songs, pass the 
++0001ba20: 272d 412f 2d2d 616c 6c27 2066 6c61 672e  '-A/--all' flag.
++0001ba30: 222c 0a20 2020 2020 2020 2020 2020 2020  ",.             
++0001ba40: 2020 2066 673d 2272 6564 222c 0a20 2020     fg="red",.   
++0001ba50: 2020 2020 2020 2020 2029 0a20 2020 2020           ).     
++0001ba60: 2020 2020 2020 2072 6574 7572 6e0a 0a20         return.. 
++0001ba70: 2020 2069 6620 616c 6c5f 2061 6e64 206e     if all_ and n
++0001ba80: 6f74 2066 6f72 6365 3a0a 2020 2020 2020  ot force:.      
++0001ba90: 2020 636c 6963 6b2e 6563 686f 280a 2020    click.echo(.  
++0001baa0: 2020 2020 2020 2020 2020 2241 7265 2079            "Are y
++0001bab0: 6f75 2073 7572 6520 796f 7520 7761 6e74  ou sure you want
++0001bac0: 2074 6f20 7265 6d6f 7665 2063 6c69 7073   to remove clips
++0001bad0: 2066 6f72 2061 6c6c 2073 6f6e 6773 3f20   for all songs? 
++0001bae0: 5468 6973 2063 616e 6e6f 7420 6265 2075  This cannot be u
++0001baf0: 6e64 6f6e 652e 205b 792f 6e5d 2022 2c0a  ndone. [y/n] ",.
++0001bb00: 2020 2020 2020 2020 290a 2020 2020 2020          ).      
++0001bb10: 2020 6966 2069 6e70 7574 2829 2e6c 6f77    if input().low
++0001bb20: 6572 2829 2021 3d20 2279 223a 0a20 2020  er() != "y":.   
++0001bb30: 2020 2020 2020 2020 2072 6574 7572 6e0a           return.
++0001bb40: 0a20 2020 2077 6974 6820 6f70 656e 2863  .    with open(c
++0001bb50: 6f6e 6669 672e 534f 4e47 535f 494e 464f  onfig.SONGS_INFO
++0001bb60: 5f50 4154 482c 2022 722b 222c 2065 6e63  _PATH, "r+", enc
++0001bb70: 6f64 696e 673d 2275 7466 2d38 2229 2061  oding="utf-8") a
++0001bb80: 7320 736f 6e67 735f 6669 6c65 3a0a 2020  s songs_file:.  
++0001bb90: 2020 2020 2020 6c69 6e65 7320 3d20 736f        lines = so
++0001bba0: 6e67 735f 6669 6c65 2e72 6561 646c 696e  ngs_file.readlin
++0001bbb0: 6573 2829 0a0a 2020 2020 2020 2020 666f  es()..        fo
++0001bbc0: 7220 6920 696e 2072 616e 6765 286c 656e  r i in range(len
++0001bbd0: 286c 696e 6573 2929 3a0a 2020 2020 2020  (lines)):.      
++0001bbe0: 2020 2020 2020 6465 7461 696c 7320 3d20        details = 
++0001bbf0: 6c69 6e65 735b 695d 2e73 7472 6970 2829  lines[i].strip()
++0001bc00: 2e73 706c 6974 2822 7c22 290a 2020 2020  .split("|").    
++0001bc10: 2020 2020 2020 2020 6966 2061 6c6c 5f20          if all_ 
++0001bc20: 6f72 2069 6e74 2864 6574 6169 6c73 5b30  or int(details[0
++0001bc30: 5d29 2069 6e20 736f 6e67 5f69 6473 3a0a  ]) in song_ids:.
++0001bc40: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001bc50: 6c69 6e65 735b 695d 203d 2022 7c22 2e6a  lines[i] = "|".j
++0001bc60: 6f69 6e28 6465 7461 696c 735b 3a33 5d20  oin(details[:3] 
++0001bc70: 2b20 5b22 225d 202b 2064 6574 6169 6c73  + [""] + details
++0001bc80: 5b35 3a5d 2920 2b20 225c 6e22 0a0a 2020  [5:]) + "\n"..  
++0001bc90: 2020 2020 2020 736f 6e67 735f 6669 6c65        songs_file
++0001bca0: 2e73 6565 6b28 3029 0a20 2020 2020 2020  .seek(0).       
++0001bcb0: 2073 6f6e 6773 5f66 696c 652e 7772 6974   songs_file.writ
++0001bcc0: 6528 2222 2e6a 6f69 6e28 6c69 6e65 7329  e("".join(lines)
++0001bcd0: 290a 2020 2020 2020 2020 736f 6e67 735f  ).        songs_
++0001bce0: 6669 6c65 2e74 7275 6e63 6174 6528 290a  file.truncate().
++0001bcf0: 0a20 2020 2069 6620 616c 6c5f 3a0a 2020  .    if all_:.  
++0001bd00: 2020 2020 2020 636c 6963 6b2e 7365 6368        click.sech
++0001bd10: 6f28 2252 656d 6f76 6564 2063 6c69 7073  o("Removed clips
++0001bd20: 2066 6f72 2061 6c6c 2073 6f6e 6773 2e22   for all songs."
++0001bd30: 2c20 6667 3d22 6772 6565 6e22 290a 2020  , fg="green").  
++0001bd40: 2020 656c 7365 3a0a 2020 2020 2020 2020    else:.        
++0001bd50: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
++0001bd60: 2020 2020 2020 2020 2066 2252 656d 6f76           f"Remov
++0001bd70: 6564 2063 6c69 7028 7329 2066 6f72 2073  ed clip(s) for s
++0001bd80: 6f6e 6728 7329 2077 6974 6820 4944 2873  ong(s) with ID(s
++0001bd90: 2920 7b27 2c20 272e 6a6f 696e 286d 6170  ) {', '.join(map
++0001bda0: 2873 7472 2c20 736f 6e67 5f69 6473 2929  (str, song_ids))
++0001bdb0: 7d2e 222c 0a20 2020 2020 2020 2020 2020  }.",.           
++0001bdc0: 2066 673d 2267 7265 656e 222c 0a20 2020   fg="green",.   
++0001bdd0: 2020 2020 2029 0a0a 0a40 636c 692e 636f       )...@cli.co
++0001bde0: 6d6d 616e 6428 290a 4063 6c69 636b 2e61  mmand().@click.a
++0001bdf0: 7267 756d 656e 7428 2273 6f6e 675f 6964  rgument("song_id
++0001be00: 222c 2074 7970 653d 696e 742c 2072 6571  ", type=int, req
++0001be10: 7569 7265 643d 5472 7565 290a 4063 6c69  uired=True).@cli
++0001be20: 636b 2e61 7267 756d 656e 7428 2270 6169  ck.argument("pai
++0001be30: 7273 222c 2074 7970 653d 7374 722c 2072  rs", type=str, r
++0001be40: 6571 7569 7265 643d 4661 6c73 6529 0a64  equired=False).d
++0001be50: 6566 206d 6574 6164 6174 6128 736f 6e67  ef metadata(song
++0001be60: 5f69 642c 2070 6169 7273 293a 0a20 2020  _id, pairs):.   
++0001be70: 2022 2222 0a20 2020 2056 6965 7720 6f72   """.    View or
++0001be80: 2065 6469 7420 7468 6520 6d65 7461 6461   edit the metada
++0001be90: 7461 2066 6f72 2061 2073 6f6e 672e 0a0a  ta for a song...
++0001bea0: 2020 2020 4966 206e 6f20 5041 4952 5320      If no PAIRS 
++0001beb0: 6172 6520 7061 7373 6564 2c20 7072 696e  are passed, prin
++0001bec0: 7473 2074 6865 206d 6574 6164 6174 6120  ts the metadata 
++0001bed0: 666f 7220 7468 6520 736f 6e67 2077 6974  for the song wit
++0001bee0: 6820 4944 2053 4f4e 475f 4944 2e0a 0a20  h ID SONG_ID... 
++0001bef0: 2020 2049 6620 5041 4952 5320 6172 6520     If PAIRS are 
++0001bf00: 7061 7373 6564 2c20 7365 7473 2074 6865  passed, sets the
++0001bf10: 206d 6574 6164 6174 6120 666f 7220 7468   metadata for th
++0001bf20: 6520 736f 6e67 2077 6974 6820 4944 2053  e song with ID S
++0001bf30: 4f4e 475f 4944 2074 6f20 7468 650a 2020  ONG_ID to the.  
++0001bf40: 2020 6b65 792d 7661 6c75 6520 7061 6972    key-value pair
++0001bf50: 7320 696e 2050 4149 5253 2e20 5041 4952  s in PAIRS. PAIR
++0001bf60: 5320 7368 6f75 6c64 2062 6520 6120 7374  S should be a st
++0001bf70: 7269 6e67 206f 6620 7468 6520 666f 726d  ring of the form
++0001bf80: 0a20 2020 2027 6b65 7931 3a76 616c 7565  .    'key1:value
++0001bf90: 317c 6b65 7932 3a76 616c 7565 327c 2e2e  1|key2:value2|..
++0001bfa0: 2e27 2e0a 0a20 2020 2050 6f73 7369 626c  .'...    Possibl
++0001bfb0: 6520 6564 6974 6162 6c65 206d 6574 6164  e editable metad
++0001bfc0: 6174 6120 6b65 7973 2061 7265 3a20 616c  ata keys are: al
++0001bfd0: 6275 6d2c 2061 6c62 756d 6172 7469 7374  bum, albumartist
++0001bfe0: 2c20 6172 7469 7374 2c20 6172 7477 6f72  , artist, artwor
++0001bff0: 6b2c 0a20 2020 2063 6f6d 6d65 6e74 2c20  k,.    comment, 
++0001c000: 636f 6d70 696c 6174 696f 6e2c 2063 6f6d  compilation, com
++0001c010: 706f 7365 722c 2064 6973 636e 756d 6265  poser, discnumbe
++0001c020: 722c 2067 656e 7265 2c20 6c79 7269 6373  r, genre, lyrics
++0001c030: 2c20 746f 7461 6c64 6973 6373 2c0a 2020  , totaldiscs,.  
++0001c040: 2020 746f 7461 6c74 7261 636b 732c 2074    totaltracks, t
++0001c050: 7261 636b 6e75 6d62 6572 2c20 7472 6163  racknumber, trac
++0001c060: 6b74 6974 6c65 2c20 7965 6172 2c20 6973  ktitle, year, is
++0001c070: 7263 0a0a 2020 2020 4b65 7973 2061 7265  rc..    Keys are
++0001c080: 206e 6f74 2063 6173 6520 7365 6e73 6974   not case sensit
++0001c090: 6976 6520 616e 6420 6361 6e20 636f 6e74  ive and can cont
++0001c0a0: 6169 6e20 6172 6269 7472 6172 7920 7768  ain arbitrary wh
++0001c0b0: 6974 6573 7061 6365 2c20 272d 272c 2061  itespace, '-', a
++0001c0c0: 6e64 0a20 2020 2027 5f27 2063 6861 7261  nd.    '_' chara
++0001c0d0: 6374 6572 732e 2049 6e20 6f74 6865 7220  cters. In other 
++0001c0e0: 776f 7264 732c 2027 416c 6275 6d20 4172  words, 'Album Ar
++0001c0f0: 7469 7374 272c 2027 616c 6275 6d2d 6172  tist', 'album-ar
++0001c100: 7469 7374 272c 2061 6e64 0a20 2020 2027  tist', and.    '
++0001c110: 616c 6275 6d5f 6172 7469 7374 2720 6172  album_artist' ar
++0001c120: 6520 616c 6c20 7379 6e6f 6e79 6d73 2066  e all synonyms f
++0001c130: 6f72 2027 616c 6275 6d61 7274 6973 7427  or 'albumartist'
++0001c140: 2e20 416c 736f 2c20 2764 6973 6b27 2069  . Also, 'disk' i
++0001c150: 730a 2020 2020 7379 6e6f 6e79 6d6f 7573  s.    synonymous
++0001c160: 2077 6974 6820 2764 6973 6327 2e0a 2020   with 'disc'..  
++0001c170: 2020 2222 220a 0a20 2020 2077 6974 6820    """..    with 
++0001c180: 6f70 656e 2863 6f6e 6669 672e 534f 4e47  open(config.SONG
++0001c190: 535f 494e 464f 5f50 4154 482c 2022 7222  S_INFO_PATH, "r"
++0001c1a0: 2c20 656e 636f 6469 6e67 3d22 7574 662d  , encoding="utf-
++0001c1b0: 3822 2920 6173 2073 6f6e 6773 5f66 696c  8") as songs_fil
++0001c1c0: 653a 0a20 2020 2020 2020 206c 696e 6573  e:.        lines
++0001c1d0: 203d 2073 6f6e 6773 5f66 696c 652e 7265   = songs_file.re
++0001c1e0: 6164 6c69 6e65 7328 290a 0a20 2020 2020  adlines()..     
++0001c1f0: 2020 2066 6f72 2069 2069 6e20 7261 6e67     for i in rang
++0001c200: 6528 6c65 6e28 6c69 6e65 7329 293a 0a20  e(len(lines)):. 
++0001c210: 2020 2020 2020 2020 2020 2064 6574 6169             detai
++0001c220: 6c73 203d 206c 696e 6573 5b69 5d2e 7374  ls = lines[i].st
++0001c230: 7269 7028 292e 7370 6c69 7428 227c 2229  rip().split("|")
++0001c240: 0a20 2020 2020 2020 2020 2020 2069 6620  .            if 
++0001c250: 696e 7428 6465 7461 696c 735b 305d 2920  int(details[0]) 
++0001c260: 3d3d 2073 6f6e 675f 6964 3a0a 2020 2020  == song_id:.    
++0001c270: 2020 2020 2020 2020 2020 2020 736f 6e67              song
++0001c280: 5f70 6174 6820 3d20 6f73 2e70 6174 682e  _path = os.path.
++0001c290: 6a6f 696e 2863 6f6e 6669 672e 534f 4e47  join(config.SONG
++0001c2a0: 535f 4449 522c 2064 6574 6169 6c73 5b31  S_DIR, details[1
++0001c2b0: 5d29 0a20 2020 2020 2020 2020 2020 2020  ]).             
++0001c2c0: 2020 2073 6f6e 675f 6e61 6d65 203d 2064     song_name = d
++0001c2d0: 6574 6169 6c73 5b31 5d0a 2020 2020 2020  etails[1].      
++0001c2e0: 2020 2020 2020 2020 2020 6966 206e 6f74            if not
++0001c2f0: 206f 732e 7061 7468 2e65 7869 7374 7328   os.path.exists(
++0001c300: 736f 6e67 5f70 6174 6829 3a0a 2020 2020  song_path):.    
++0001c310: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001c320: 636c 6963 6b2e 7365 6368 6f28 0a20 2020  click.secho(.   
++0001c330: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001c340: 2020 2020 2066 2253 6f6e 6720 6669 6c65       f"Song file
++0001c350: 207b 736f 6e67 5f6e 616d 657d 2028 4944   {song_name} (ID
++0001c360: 207b 736f 6e67 5f69 647d 2920 6e6f 7420   {song_id}) not 
++0001c370: 666f 756e 642e 222c 0a20 2020 2020 2020  found.",.       
++0001c380: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001c390: 2066 673d 2272 6564 222c 0a20 2020 2020   fg="red",.     
++0001c3a0: 2020 2020 2020 2020 2020 2020 2020 2029                 )
++0001c3b0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++0001c3c0: 2020 2020 2072 6574 7572 6e0a 2020 2020       return.    
++0001c3d0: 2020 2020 2020 2020 2020 2020 6272 6561              brea
++0001c3e0: 6b0a 2020 2020 2020 2020 656c 7365 3a0a  k.        else:.
++0001c3f0: 2020 2020 2020 2020 2020 2020 636c 6963              clic
++0001c400: 6b2e 7365 6368 6f28 0a20 2020 2020 2020  k.secho(.       
++0001c410: 2020 2020 2020 2020 2066 224e 6f20 736f           f"No so
++0001c420: 6e67 2077 6974 6820 4944 207b 736f 6e67  ng with ID {song
++0001c430: 5f69 647d 2066 6f75 6e64 2e22 2c0a 2020  _id} found.",.  
++0001c440: 2020 2020 2020 2020 2020 2020 2020 6667                fg
++0001c450: 3d22 7265 6422 2c0a 2020 2020 2020 2020  ="red",.        
++0001c460: 2020 2020 290a 2020 2020 2020 2020 2020      ).          
++0001c470: 2020 7265 7475 726e 0a0a 2020 2020 6966    return..    if
++0001c480: 2070 6169 7273 3a0a 2020 2020 2020 2020   pairs:.        
++0001c490: 7061 6972 7320 3d20 5b74 7570 6c65 2870  pairs = [tuple(p
++0001c4a0: 6169 722e 7374 7269 7028 292e 7370 6c69  air.strip().spli
++0001c4b0: 7428 223a 2229 2920 666f 7220 7061 6972  t(":")) for pair
++0001c4c0: 2069 6e20 7061 6972 732e 7370 6c69 7428   in pairs.split(
++0001c4d0: 227c 2229 5d0a 0a20 2020 2020 2020 2073  "|")]..        s
++0001c4e0: 6f6e 675f 6461 7461 203d 206d 7573 6963  ong_data = music
++0001c4f0: 5f74 6167 2e6c 6f61 645f 6669 6c65 2873  _tag.load_file(s
++0001c500: 6f6e 675f 7061 7468 290a 2020 2020 2020  ong_path).      
++0001c510: 2020 7661 6c69 645f 7061 6972 7320 3d20    valid_pairs = 
++0001c520: 7061 6972 735b 3a5d 0a20 2020 2020 2020  pairs[:].       
++0001c530: 2066 6f72 206b 6579 2c20 7661 6c75 6520   for key, value 
++0001c540: 696e 2070 6169 7273 3a0a 2020 2020 2020  in pairs:.      
++0001c550: 2020 2020 2020 6966 206b 6579 206e 6f74        if key not
++0001c560: 2069 6e20 636f 6e66 6967 2e4d 4554 4144   in config.METAD
++0001c570: 4154 415f 4b45 5953 206f 7220 6b65 792e  ATA_KEYS or key.
++0001c580: 7374 6172 7473 7769 7468 2822 2322 293a  startswith("#"):
++0001c590: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++0001c5a0: 2063 6c69 636b 2e73 6563 686f 280a 2020   click.secho(.  
++0001c5b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001c5c0: 2020 6622 277b 6b65 797d 2720 6973 206e    f"'{key}' is n
++0001c5d0: 6f74 2061 2076 616c 6964 2065 6469 7461  ot a valid edita
++0001c5e0: 626c 6520 6d65 7461 6461 7461 206b 6579  ble metadata key
++0001c5f0: 2e22 2c20 6667 3d22 7265 6422 0a20 2020  .", fg="red".   
++0001c600: 2020 2020 2020 2020 2020 2020 2029 0a20               ). 
++0001c610: 2020 2020 2020 2020 2020 2020 2020 2076                 v
++0001c620: 616c 6964 5f70 6169 7273 2e72 656d 6f76  alid_pairs.remov
++0001c630: 6528 286b 6579 2c20 7661 6c75 6529 290a  e((key, value)).
++0001c640: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001c650: 636f 6e74 696e 7565 0a20 2020 2020 2020  continue.       
++0001c660: 2020 2020 2073 6f6e 675f 6461 7461 5b6b       song_data[k
++0001c670: 6579 5d20 3d20 7661 6c75 650a 0a20 2020  ey] = value..   
++0001c680: 2020 2020 2073 6f6e 675f 6461 7461 2e73       song_data.s
++0001c690: 6176 6528 290a 0a20 2020 2020 2020 2063  ave()..        c
++0001c6a0: 6c69 636b 2e73 6563 686f 280a 2020 2020  lick.secho(.    
++0001c6b0: 2020 2020 2020 2020 6622 5365 7420 6d65          f"Set me
++0001c6c0: 7461 6461 7461 2066 6f72 2027 7b73 6f6e  tadata for '{son
++0001c6d0: 675f 6e61 6d65 7d27 2077 6974 6820 4944  g_name}' with ID
++0001c6e0: 207b 736f 6e67 5f69 647d 2074 6f20 7b76   {song_id} to {v
++0001c6f0: 616c 6964 5f70 6169 7273 7d2e 222c 0a20  alid_pairs}.",. 
++0001c700: 2020 2020 2020 2020 2020 2066 673d 2267             fg="g
++0001c710: 7265 656e 222c 0a20 2020 2020 2020 2029  reen",.        )
++0001c720: 0a20 2020 2065 6c73 653a 0a20 2020 2020  .    else:.     
++0001c730: 2020 2073 6f6e 675f 6461 7461 203d 206d     song_data = m
++0001c740: 7573 6963 5f74 6167 2e6c 6f61 645f 6669  usic_tag.load_fi
++0001c750: 6c65 2873 6f6e 675f 7061 7468 290a 2020  le(song_path).  
++0001c760: 2020 2020 2020 636c 6963 6b2e 6563 686f        click.echo
++0001c770: 2822 4d65 7461 6461 7461 2066 6f72 2022  ("Metadata for "
++0001c780: 2c20 6e6c 3d46 616c 7365 290a 2020 2020  , nl=False).    
++0001c790: 2020 2020 636c 6963 6b2e 7365 6368 6f28      click.secho(
++0001c7a0: 736f 6e67 5f6e 616d 652c 2066 673d 2262  song_name, fg="b
++0001c7b0: 6c75 6522 2c20 626f 6c64 3d54 7275 652c  lue", bold=True,
++0001c7c0: 206e 6c3d 4661 6c73 6529 0a20 2020 2020   nl=False).     
++0001c7d0: 2020 2063 6c69 636b 2e65 6368 6f28 6622     click.echo(f"
++0001c7e0: 2077 6974 6820 4944 207b 736f 6e67 5f69   with ID {song_i
++0001c7f0: 647d 3a22 290a 0a20 2020 2020 2020 2066  d}:")..        f
++0001c800: 6f72 206b 6579 2069 6e20 636f 6e66 6967  or key in config
++0001c810: 2e4d 4554 4144 4154 415f 4b45 5953 3a0a  .METADATA_KEYS:.
++0001c820: 2020 2020 2020 2020 2020 2020 7472 793a              try:
++0001c830: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++0001c840: 2063 6c69 636b 2e65 6368 6f28 0a20 2020   click.echo(.   
++0001c850: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001c860: 2066 225c 747b 6b65 7920 6966 206e 6f74   f"\t{key if not
++0001c870: 206b 6579 2e73 7461 7274 7377 6974 6828   key.startswith(
++0001c880: 2723 2729 2065 6c73 6520 6b65 795b 313a  '#') else key[1:
++0001c890: 5d7d 3a20 7b73 6f6e 675f 6461 7461 5b6b  ]}: {song_data[k
++0001c8a0: 6579 5d2e 7661 6c75 657d 220a 2020 2020  ey].value}".    
++0001c8b0: 2020 2020 2020 2020 2020 2020 290a 2020              ).  
++0001c8c0: 2020 2020 2020 2020 2020 6578 6365 7074            except
++0001c8d0: 3a20 2023 2070 796c 696e 743a 2064 6973  :  # pylint: dis
++0001c8e0: 6162 6c65 3d62 6172 652d 6578 6365 7074  able=bare-except
++0001c8f0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++0001c900: 2070 6173 730a 0a0a 4063 6c69 2e63 6f6d   pass...@cli.com
++0001c910: 6d61 6e64 286e 616d 653d 2264 6972 2229  mand(name="dir")
++0001c920: 0a40 636c 6963 6b2e 6172 6775 6d65 6e74  .@click.argument
++0001c930: 2822 6469 7265 6374 6f72 7922 2c20 7479  ("directory", ty
++0001c940: 7065 3d63 6c69 636b 2e50 6174 6828 6669  pe=click.Path(fi
++0001c950: 6c65 5f6f 6b61 793d 4661 6c73 6529 2c20  le_okay=False), 
++0001c960: 7265 7175 6972 6564 3d46 616c 7365 290a  required=False).
++0001c970: 6465 6620 6469 725f 2864 6972 6563 746f  def dir_(directo
++0001c980: 7279 293a 0a20 2020 2022 2222 0a20 2020  ry):.    """.   
++0001c990: 2043 6861 6e67 6520 7468 6520 6469 7265   Change the dire
++0001c9a0: 6374 6f72 7920 7768 6572 6520 6d61 6573  ctory where maes
++0001c9b0: 7472 6f20 6c6f 6f6b 7320 666f 7220 736f  tro looks for so
++0001c9c0: 6e67 732e 0a20 2020 204e 4f54 453a 2054  ngs..    NOTE: T
++0001c9d0: 6869 7320 646f 6573 206e 6f74 206d 6f76  his does not mov
++0001c9e0: 6520 616e 7920 736f 6e67 732e 2049 7420  e any songs. It 
++0001c9f0: 6f6e 6c79 2063 6861 6e67 6573 2077 6865  only changes whe
++0001ca00: 7265 206d 6165 7374 726f 206c 6f6f 6b73  re maestro looks
++0001ca10: 2066 6f72 0a20 2020 2073 6f6e 6773 2e20   for.    songs. 
++0001ca20: 596f 7520 7769 6c6c 2068 6176 6520 746f  You will have to
++0001ca30: 206d 6f76 6520 7468 6520 736f 6e67 7320   move the songs 
++0001ca40: 796f 7572 7365 6c66 2e0a 0a20 2020 2049  yourself...    I
++0001ca50: 6620 6e6f 2061 7267 756d 656e 7420 6973  f no argument is
++0001ca60: 2070 6173 7365 642c 2070 7269 6e74 7320   passed, prints 
++0001ca70: 7468 6520 6375 7272 656e 7420 6469 7265  the current dire
++0001ca80: 6374 6f72 792e 0a20 2020 2022 2222 0a0a  ctory..    """..
++0001ca90: 2020 2020 6966 2064 6972 6563 746f 7279      if directory
++0001caa0: 2069 7320 4e6f 6e65 3a0a 2020 2020 2020   is None:.      
++0001cab0: 2020 636c 6963 6b2e 6563 686f 2863 6f6e    click.echo(con
++0001cac0: 6669 672e 534f 4e47 535f 4449 5229 0a20  fig.SONGS_DIR). 
++0001cad0: 2020 2020 2020 2072 6574 7572 6e0a 0a20         return.. 
++0001cae0: 2020 2069 6620 6e6f 7420 6f73 2e70 6174     if not os.pat
++0001caf0: 682e 6578 6973 7473 2864 6972 6563 746f  h.exists(directo
++0001cb00: 7279 293a 0a20 2020 2020 2020 206f 732e  ry):.        os.
++0001cb10: 6d61 6b65 6469 7273 2864 6972 6563 746f  makedirs(directo
++0001cb20: 7279 290a 0a20 2020 2077 6974 6820 6f70  ry)..    with op
++0001cb30: 656e 2863 6f6e 6669 672e 5345 5454 494e  en(config.SETTIN
++0001cb40: 4753 5f46 494c 452c 2022 722b 222c 2065  GS_FILE, "r+", e
++0001cb50: 6e63 6f64 696e 673d 2275 7466 2d38 2229  ncoding="utf-8")
++0001cb60: 2061 7320 7365 7474 696e 6773 5f66 696c   as settings_fil
++0001cb70: 653a 0a20 2020 2020 2020 2073 6574 7469  e:.        setti
++0001cb80: 6e67 7320 3d20 6a73 6f6e 2e6c 6f61 6428  ngs = json.load(
++0001cb90: 7365 7474 696e 6773 5f66 696c 6529 0a20  settings_file). 
++0001cba0: 2020 2020 2020 2073 6574 7469 6e67 735b         settings[
++0001cbb0: 2273 6f6e 675f 6469 7265 6374 6f72 7922  "song_directory"
++0001cbc0: 5d20 3d20 6469 7265 6374 6f72 790a 2020  ] = directory.  
++0001cbd0: 2020 2020 2020 7365 7474 696e 6773 5f66        settings_f
++0001cbe0: 696c 652e 7365 656b 2830 290a 2020 2020  ile.seek(0).    
++0001cbf0: 2020 2020 6a73 6f6e 2e64 756d 7028 7365      json.dump(se
++0001cc00: 7474 696e 6773 2c20 7365 7474 696e 6773  ttings, settings
++0001cc10: 5f66 696c 6529 0a20 2020 2020 2020 2073  _file).        s
++0001cc20: 6574 7469 6e67 735f 6669 6c65 2e74 7275  ettings_file.tru
++0001cc30: 6e63 6174 6528 290a 0a20 2020 2063 6c69  ncate()..    cli
++0001cc40: 636b 2e73 6563 686f 2866 2243 6861 6e67  ck.secho(f"Chang
++0001cc50: 6564 2073 6f6e 6720 6469 7265 6374 6f72  ed song director
++0001cc60: 7920 746f 207b 6469 7265 6374 6f72 797d  y to {directory}
++0001cc70: 2e22 2c20 6667 3d22 6772 6565 6e22 29    .", fg="green")
+```
+
+### Comparing `maestro-music-1.0.8/maestro_music.egg-info/PKG-INFO` & `maestro-music-1.0.9/maestro_music.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: maestro-music
+-Version: 1.0.8
++Version: 1.0.9
+ Summary: A simple command line tool to play songs (or any audio files, really).
+ Home-page: https://github.com/PrajwalVandana/maestro-cli
+ Author: Prajwal Vandana
+ License: MIT
+ Keywords: music,sound,audio,music-player,cli,ogg,flac,mp3,wav,spotify,youtube,audio-visualization,audio-visualizer
+ Description-Content-Type: text/markdown
+ License-File: LICENSE
+```
+
+### Comparing `maestro-music-1.0.8/setup.py` & `maestro-music-1.0.9/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -12,15 +12,15 @@
+         "pyobjc-framework-MediaPlayer",
+         "pyobjc-framework-Quartz",
+     ]
+ ]
+ 
+ setup(
+     name="maestro-music",
+-    version="1.0.8",
++    version="1.0.9",
+     author="Prajwal Vandana",
+     url="https://github.com/PrajwalVandana/maestro-cli",
+     description="A simple command line tool to play songs (or any audio files, really).",
+     long_description=open("readme.md", encoding="utf-8").read(),
+     license="MIT",
+     license_files=["LICENSE"],
+     long_description_content_type="text/markdown",
+```
+
