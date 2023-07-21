@@ -9737,3 +9737,116 @@
 [2023-07-21 03:35:08] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
 [2023-07-21 03:35:08] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2023-07-21 03:35:08] INFO root fetch - main [MainThread]: Store serial: [18977272]
+[2023-07-21 03:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977272]
+[2023-07-21 03:40:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amaranth-yosys
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rubi
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fennel-ai
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Shimmy
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pytorch
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trgm
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyntone
+[2023-07-21 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-scipy
+[2023-07-21 03:40:20] INFO root fetch - processPackages [amaranth-yosys]: New version: [0.9.post3746.dev41] Old Version: [0.25.0.0.post74]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [rubi]: New version: [2.1.6b2] Old Version: [2.1.6b1]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [Shimmy]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-21 03:40:20] INFO root fetch - processPackages [pyntone]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-21 03:40:20] WARNING root fetch - processPackages [trgm]: Skipping, unable to determine old version
+[2023-07-21 03:40:20] INFO root fetch - processPackages [trgm]: Start processing: vocode-api
+[2023-07-21 03:40:20] INFO root fetch - main [MainThread]: End processing [trgm] error
+[2023-07-21 03:40:20] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-21 03:40:20] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-21 03:40:20] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-21 03:40:20] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/76/1d/bc4d1a828fd6846032c18684339f231df4526ade7fccf79bdbb4190c694b/amaranth_yosys-0.25.0.0.post74-py3-none-any.whl
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [vocode-api]: New version: [0.0.5a3] Old Version: [0.0.5a2]
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [Shimmy]: Downloading https://files.pythonhosted.org/packages/e2/7f/179552666186755ec26a966bbc61d82fab8b01864020713697bf43cc797a/Shimmy-1.1.0.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [pyntone]: Downloading https://files.pythonhosted.org/packages/e7/7e/cda9db2416b44e90ca7435051105100dca3282deb98e9587a9fc3efb8a77/pyntone-0.2.2.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [vocode-api]: Downloading https://files.pythonhosted.org/packages/ab/ed/e470bd69eb552234b2548864dd517b79f20909d52865f63395f0e610b66e/vocode_api-0.0.5a2.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/98/54/830ad4ff66ba60ca6602ebaed13f03569f46542ab21461789ccaccbdcfaf/rubi-2.1.6b2.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230721/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/86/9d/ea3cebfd7dfbf3473ee9845b9254e30f5c19a043da87ae83262e20207b1c/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230721/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [Shimmy]: Downloading https://files.pythonhosted.org/packages/4d/14/8b53bfdb18fe09229b2a15521bad31ee32acd27496f0b5a088da104fc550/Shimmy-1.2.0.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.1.6b1.tar.gz tmp/rubi-2.1.6b2.tar.gz --markdown 20230721/r/rubi/2.1.6b1-2.1.6b2/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230721/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230721/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [pyntone]: Downloading https://files.pythonhosted.org/packages/01/42/73aae6b3ef3584e727c79b690ffda5f2c8758edcdf5a482b8e7fd833c2c5/pyntone-0.3.0.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [Shimmy]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [Shimmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shimmy-1.1.0.tar.gz tmp/Shimmy-1.2.0.tar.gz --markdown 20230721/S/Shimmy/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230721/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [vocode-api]: Downloading https://files.pythonhosted.org/packages/5c/8b/81476b89a3a1c271f4784d0039693fca0d43340db7a24b3ccbb1df523a9d/vocode_api-0.0.5a3.tar.gz
+[2023-07-21 03:40:21] INFO root fetch - processPackages [pyntone]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [pyntone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntone-0.2.2.tar.gz tmp/pyntone-0.3.0.tar.gz --markdown 20230721/p/pyntone/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-21 03:40:21] INFO root fetch - processPackages [amaranth-yosys]: executing diffoscope
+[2023-07-21 03:40:21] INFO root fetch - processPackages [amaranth-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaranth_yosys-0.25.0.0.post74-py3-none-any.whl.zip tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip --markdown 20230721/a/amaranth-yosys/0.25.0.0.post74-0.9.post3746.dev41/diff.md --exclude *.pyd
+[2023-07-21 03:40:22] INFO root fetch - processPackages [vocode-api]: executing diffoscope
+[2023-07-21 03:40:22] INFO root fetch - processPackages [vocode-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode_api-0.0.5a2.tar.gz tmp/vocode_api-0.0.5a3.tar.gz --markdown 20230721/v/vocode-api/0.0.5a2-0.0.5a3/diff.md --exclude *.pyd
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: relevanceai
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.6b1.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.6b2.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [rubi]: Start processing: yowasp-runtime
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [yowasp-runtime]: New version: [1.7] Old Version: [1.6]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [relevanceai]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [Shimmy]: Remove: archive file [/home/abi/fetcher/tmp/Shimmy-1.1.0.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [Shimmy]: Remove: archive file [/home/abi/fetcher/tmp/Shimmy-1.2.0.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [Shimmy]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/e7/a1/907e6e8a79a56a85a8042c852e6071070625366072275b2f016b73f070ad/yowasp_runtime-1.6-py3-none-any.whl
+[2023-07-21 03:40:23] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/d7/44/3917674fd27819b5c77114619704a3f0c07cfa839e772ffdfd79e95f76b8/relevanceai-5.0.4.tar.gz
+[2023-07-21 03:40:23] INFO root fetch - processPackages [vocode-api]: Remove: archive file [/home/abi/fetcher/tmp/vocode_api-0.0.5a2.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [vocode-api]: Remove: archive file [/home/abi/fetcher/tmp/vocode_api-0.0.5a3.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [vocode-api]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [pyntone]: Remove: archive file [/home/abi/fetcher/tmp/pyntone-0.2.2.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [pyntone]: Remove: archive file [/home/abi/fetcher/tmp/pyntone-0.3.0.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [pyntone]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [relevanceai]: Downloading https://files.pythonhosted.org/packages/ed/f3/f15e6a8ac98d7f85e53fc37ffe3a5a82dec85adf2c2c0d14907c9302b7c2/relevanceai-5.0.5.tar.gz
+[2023-07-21 03:40:23] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-21 03:40:23] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-21 03:40:23] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/3f/e9/90cb3e0e2773737c930d8192b0232e03eee71f9ae918620a47be7815f379/yowasp_runtime-1.7-py3-none-any.whl
+[2023-07-21 03:40:24] INFO root fetch - processPackages [relevanceai]: executing diffoscope
+[2023-07-21 03:40:24] INFO root fetch - processPackages [relevanceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relevanceai-5.0.4.tar.gz tmp/relevanceai-5.0.5.tar.gz --markdown 20230721/r/relevanceai/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-07-21 03:40:24] INFO root fetch - processPackages [yowasp-runtime]: executing diffoscope
+[2023-07-21 03:40:24] INFO root fetch - processPackages [yowasp-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_runtime-1.6-py3-none-any.whl.zip tmp/yowasp_runtime-1.7-py3-none-any.whl.zip --markdown 20230721/y/yowasp-runtime/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-21 03:40:24] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.6-py3-none-any.whl.zip]
+[2023-07-21 03:40:24] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.7-py3-none-any.whl.zip]
+[2023-07-21 03:40:24] INFO root fetch - main [MainThread]: End processing [yowasp-runtime]: success
+[2023-07-21 03:40:24] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.4.tar.gz]
+[2023-07-21 03:40:24] INFO root fetch - processPackages [relevanceai]: Remove: archive file [/home/abi/fetcher/tmp/relevanceai-5.0.5.tar.gz]
+[2023-07-21 03:40:24] INFO root fetch - main [MainThread]: End processing [relevanceai]: success
+[2023-07-21 03:40:37] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.25.0.0.post74-py3-none-any.whl.zip]
+[2023-07-21 03:40:37] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip]
+[2023-07-21 03:40:37] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
+[2023-07-21 03:40:37] INFO root fetch - main [MainThread]: Store serial: [18977330]
