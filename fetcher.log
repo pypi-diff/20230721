@@ -13385,3 +13385,81 @@
 [2023-07-21 06:37:47] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
 [2023-07-21 06:37:47] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-07-21 06:37:47] INFO root fetch - main [MainThread]: Store serial: [18978662]
+[2023-07-21 06:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978662]
+[2023-07-21 06:42:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-SQL-Pro
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djackal
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PSIcheck
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxcoder
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-pos-event-sale
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-pos-partner-firstname
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-pos-partner-firstname
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AllyInvestPy
+[2023-07-21 06:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-pos-event-sale
+[2023-07-21 06:42:56] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 06:42:56] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo13-addon-pos-event-sale]: New version: [13.0.1.0.2.dev3] Old Version: [13.0.1.0.2.dev2]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [pyxcoder]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [PSIcheck]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [AllyInvestPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo12-addon-pos-partner-firstname]: New version: [12.0.1.1.1.99.dev4] Old Version: [12.0.1.1.1.99.dev3]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo-addon-pos-event-sale]: New version: [15.0.3.1.0.4] Old Version: [15.0.3.1.0.2]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [djackal]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-07-21 06:42:56] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/06/ca/4d4fe2fd7dff2d82a85bba3e3f1a5dc97d2fc35561bdadffcfac0c934ee9/PSIcheck-0.0.9.tar.gz
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo13-addon-pos-event-sale]: Downloading https://files.pythonhosted.org/packages/84/07/d39266f10eb8d814890f1d6369224d37f74bf435327989887cebe01aacaf/odoo13_addon_pos_event_sale-13.0.1.0.2.dev2-py3-none-any.whl
+[2023-07-21 06:42:56] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/67/1f/da8d0e1549000d866adf647d3d57b09b0c01fc3ff6fed99c8af2461b7d7f/AllyInvestPy-1.0.8.tar.gz
+[2023-07-21 06:42:56] INFO root fetch - processPackages [pyxcoder]: Downloading https://files.pythonhosted.org/packages/e1/5a/cd258a1307c8f205e4b3f0e289d27bb8618b2f6e19843bfe84b1820f114b/pyxcoder-0.1.0.tar.gz
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo12-addon-pos-partner-firstname]: Downloading https://files.pythonhosted.org/packages/bf/b0/16caf0fc0cfcc085acf738655ee63035176a14a33d14b139f8c41f7cf409/odoo12_addon_pos_partner_firstname-12.0.1.1.1.99.dev3-py3-none-any.whl
+[2023-07-21 06:42:56] INFO root fetch - processPackages [djackal]: Downloading https://files.pythonhosted.org/packages/89/3e/70afb9c28a58de55d807f63ec95fce2b634794125b6c1f0e137f7c4417b9/djackal-0.5.4.tar.gz
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo-addon-pos-event-sale]: Downloading https://files.pythonhosted.org/packages/21/25/8496e61deb34f6f7308313e49746a932c19e6f14aae4224054f67ba3ee2b/odoo_addon_pos_event_sale-15.0.3.1.0.2-py3-none-any.whl
+[2023-07-21 06:42:56] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Downloading https://files.pythonhosted.org/packages/7b/fb/4d0a5dd02a456f2b97b613d586a5b7b011bfa322676f3a709fde594c0a92/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-07-21 06:42:56] INFO root fetch - processPackages [AllyInvestPy]: Downloading https://files.pythonhosted.org/packages/d4/c9/0e5229dbc3dee942e41c231c49691c86c84144823f12cf43c1fe77f2a0db/AllyInvestPy-1.0.9.tar.gz
+[2023-07-21 06:42:56] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/b4/a4/a563bf8b8e3a4c8bc23c1aa3d67ab5fdc1c24a6a297980b41b528e04adef/PSIcheck-0.1.0.tar.gz
+[2023-07-21 06:42:56] INFO root fetch - processPackages [pyxcoder]: Downloading https://files.pythonhosted.org/packages/30/04/ee61335dde2abaf07e4d47f16eefc11ae16b62b069c2bd37e1f2537c1153/pyxcoder-0.1.1.tar.gz
+[2023-07-21 06:42:56] INFO root fetch - processPackages [PSIcheck]: executing diffoscope
+[2023-07-21 06:42:56] INFO root fetch - processPackages [PSIcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PSIcheck-0.0.9.tar.gz tmp/PSIcheck-0.1.0.tar.gz --markdown 20230721/P/PSIcheck/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-21 06:42:56] INFO root fetch - processPackages [AllyInvestPy]: executing diffoscope
+[2023-07-21 06:42:56] INFO root fetch - processPackages [AllyInvestPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AllyInvestPy-1.0.8.tar.gz tmp/AllyInvestPy-1.0.9.tar.gz --markdown 20230721/A/AllyInvestPy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo12-addon-pos-partner-firstname]: Downloading https://files.pythonhosted.org/packages/b2/d7/6e6cc029adbc4ac1ecabb04de61dd0b62a9780d8f465dd82b36436d267d7/odoo12_addon_pos_partner_firstname-12.0.1.1.1.99.dev4-py3-none-any.whl
+[2023-07-21 06:42:57] INFO root fetch - processPackages [djackal]: Downloading https://files.pythonhosted.org/packages/0b/77/470f577ab5115a73f168f0eb43cc6815446c28a8dc98da2d05f0800c9c45/djackal-0.6.0.tar.gz
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo13-addon-pos-event-sale]: Downloading https://files.pythonhosted.org/packages/b0/e3/071f5240f5768f72f10e607ee03aa5cc73e1b90674ac9c24dc6fe4580ad1/odoo13_addon_pos_event_sale-13.0.1.0.2.dev3-py3-none-any.whl
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Downloading https://files.pythonhosted.org/packages/53/31/d31033791e1810778bded0888a09f7a5d652370d05619099452f1f730d22/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-07-21 06:42:57] INFO root fetch - processPackages [djackal]: executing diffoscope
+[2023-07-21 06:42:57] INFO root fetch - processPackages [djackal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djackal-0.5.4.tar.gz tmp/djackal-0.6.0.tar.gz --markdown 20230721/d/djackal/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-07-21 06:42:57] INFO root fetch - processPackages [pyxcoder]: executing diffoscope
+[2023-07-21 06:42:57] INFO root fetch - processPackages [pyxcoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxcoder-0.1.0.tar.gz tmp/pyxcoder-0.1.1.tar.gz --markdown 20230721/p/pyxcoder/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo12-addon-pos-partner-firstname]: executing diffoscope
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo12-addon-pos-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_partner_firstname-12.0.1.1.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_pos_partner_firstname-12.0.1.1.1.99.dev4-py3-none-any.whl.zip --markdown 20230721/o/odoo12-addon-pos-partner-firstname/12.0.1.1.1.99.dev3-12.0.1.1.1.99.dev4/diff.md --exclude *.pyd
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: executing diffoscope
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-pos-partner-firstname/14.0.1.0.2.dev2-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo-addon-pos-event-sale]: Downloading https://files.pythonhosted.org/packages/d1/73/2e726b15fd47b80f3248f1a9c675de8b07c8c33100f8935a4ccf97ee9efa/odoo_addon_pos_event_sale-15.0.3.1.0.4-py3-none-any.whl
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo13-addon-pos-event-sale]: executing diffoscope
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo13-addon-pos-event-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_pos_event_sale-13.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_pos_event_sale-13.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230721/o/odoo13-addon-pos-event-sale/13.0.1.0.2.dev2-13.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo-addon-pos-event-sale]: executing diffoscope
+[2023-07-21 06:42:57] INFO root fetch - processPackages [odoo-addon-pos-event-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_event_sale-15.0.3.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_event_sale-15.0.3.1.0.4-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-pos-event-sale/15.0.3.1.0.2-15.0.3.1.0.4/diff.md --exclude *.pyd
+[2023-07-21 06:42:58] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.0.9.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.1.0.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [PSIcheck]: success
+[2023-07-21 06:42:58] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.8.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [AllyInvestPy]: Remove: archive file [/home/abi/fetcher/tmp/AllyInvestPy-1.0.9.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [AllyInvestPy]: success
+[2023-07-21 06:42:58] INFO root fetch - processPackages [pyxcoder]: Remove: archive file [/home/abi/fetcher/tmp/pyxcoder-0.1.0.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [pyxcoder]: Remove: archive file [/home/abi/fetcher/tmp/pyxcoder-0.1.1.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [pyxcoder]: success
+[2023-07-21 06:42:58] INFO root fetch - processPackages [djackal]: Remove: archive file [/home/abi/fetcher/tmp/djackal-0.5.4.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [djackal]: Remove: archive file [/home/abi/fetcher/tmp/djackal-0.6.0.tar.gz]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [djackal]: success
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo12-addon-pos-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_partner_firstname-12.0.1.1.1.99.dev3-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo12-addon-pos-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_partner_firstname-12.0.1.1.1.99.dev4-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-partner-firstname]: success
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo13-addon-pos-event-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_pos_event_sale-13.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo13-addon-pos-event-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_pos_event_sale-13.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [odoo13-addon-pos-event-sale]: success
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-partner-firstname]: success
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo-addon-pos-event-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_event_sale-15.0.3.1.0.2-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - processPackages [odoo-addon-pos-event-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_event_sale-15.0.3.1.0.4-py3-none-any.whl.zip]
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-event-sale]: success
+[2023-07-21 06:42:58] INFO root fetch - main [MainThread]: Store serial: [18978685]
