@@ -2585,3 +2585,60 @@
 [2023-07-21 01:56:57] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
 [2023-07-21 01:56:57] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
 [2023-07-21 01:56:57] INFO root fetch - main [MainThread]: Store serial: [18974542]
+[2023-07-21 02:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18974542]
+[2023-07-21 02:02:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-21 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aqueduct-py
+[2023-07-21 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bennycloth
+[2023-07-21 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-07-21 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seldonian-engine
+[2023-07-21 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sceptre
+[2023-07-21 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gigagan-pytorch
+[2023-07-21 02:02:06] INFO root fetch - processPackages [bennycloth]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-21 02:02:06] INFO root fetch - processPackages [seldonian-engine]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-21 02:02:06] INFO root fetch - processPackages [aqueduct-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-21 02:02:06] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 02:02:06] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 02:02:06] INFO root fetch - processPackages [sceptre]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-21 02:02:06] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/e0/b2934610f827a6e16444d91655fb41306e808620e7da2b2472801cfe1cfc/gigagan-pytorch-0.1.8.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [bennycloth]: Downloading https://files.pythonhosted.org/packages/e2/cb/7d2b2f709d0213340682278b25a0869d139e5dd85ef08c8f4f5504442926/bennycloth-0.0.6.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [aqueduct-py]: Downloading https://files.pythonhosted.org/packages/e9/03/025d92c52fb57d30263bad22d5987ac6bb1b48015a1ab556b93c59036bb6/aqueduct-py-0.0.2.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/be/b0/4d464405e8b805823829907ca5b9cc50aac0dca80644c3147d4146d45ecb/gigagan-pytorch-0.1.9.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [sceptre]: Downloading https://files.pythonhosted.org/packages/ff/ec/c2266893154a31c012dd2d1170306dbfab2410898319d412da7e2da249cf/sceptre-4.2.1.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [seldonian-engine]: Downloading https://files.pythonhosted.org/packages/3c/c3/be6e6af6a4a57df479fb908d8a91b1c34166275fc00149120f089bf6ea86/seldonian_engine-0.8.0.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-21 02:02:06] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.8.tar.gz tmp/gigagan-pytorch-0.1.9.tar.gz --markdown 20230721/g/gigagan-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 02:02:06] INFO root fetch - processPackages [aqueduct-py]: Downloading https://files.pythonhosted.org/packages/80/35/2fd75b916e7fff68c4639e0b730c4f73eda1195def9b68a338ac5754f435/aqueduct-py-0.0.3.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [bennycloth]: Downloading https://files.pythonhosted.org/packages/76/10/657d670628dd89119743da257187bed46cf6274b2708bbf8ecd8f378dc68/bennycloth-0.0.7.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [seldonian-engine]: Downloading https://files.pythonhosted.org/packages/96/49/9db38710f6bb1454d4355b9e963a77495fdba459dc395e6ff26b758b1e25/seldonian_engine-0.8.1.tar.gz
+[2023-07-21 02:02:06] INFO root fetch - processPackages [aqueduct-py]: executing diffoscope
+[2023-07-21 02:02:06] INFO root fetch - processPackages [aqueduct-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-py-0.0.2.tar.gz tmp/aqueduct-py-0.0.3.tar.gz --markdown 20230721/a/aqueduct-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 02:02:06] INFO root fetch - processPackages [sceptre]: Downloading https://files.pythonhosted.org/packages/05/cc/2ac3c8dd9323701b5ec61a58cc639a65cbada0ee539c837b4e78ccf54809/sceptre-4.2.2.tar.gz
+[2023-07-21 02:02:07] INFO root fetch - processPackages [seldonian-engine]: executing diffoscope
+[2023-07-21 02:02:07] INFO root fetch - processPackages [seldonian-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seldonian_engine-0.8.0.tar.gz tmp/seldonian_engine-0.8.1.tar.gz --markdown 20230721/s/seldonian-engine/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-21 02:02:07] INFO root fetch - processPackages [bennycloth]: executing diffoscope
+[2023-07-21 02:02:07] INFO root fetch - processPackages [bennycloth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bennycloth-0.0.6.tar.gz tmp/bennycloth-0.0.7.tar.gz --markdown 20230721/b/bennycloth/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-21 02:02:07] INFO root fetch - processPackages [sceptre]: executing diffoscope
+[2023-07-21 02:02:07] INFO root fetch - processPackages [sceptre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sceptre-4.2.1.tar.gz tmp/sceptre-4.2.2.tar.gz --markdown 20230721/s/sceptre/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-07-21 02:02:07] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.8.tar.gz]
+[2023-07-21 02:02:07] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.9.tar.gz]
+[2023-07-21 02:02:07] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-21 02:02:07] INFO root fetch - processPackages [bennycloth]: Remove: archive file [/home/abi/fetcher/tmp/bennycloth-0.0.6.tar.gz]
+[2023-07-21 02:02:07] INFO root fetch - processPackages [bennycloth]: Remove: archive file [/home/abi/fetcher/tmp/bennycloth-0.0.7.tar.gz]
+[2023-07-21 02:02:07] INFO root fetch - main [MainThread]: End processing [bennycloth]: success
+[2023-07-21 02:02:07] INFO root fetch - processPackages [aqueduct-py]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-py-0.0.2.tar.gz]
+[2023-07-21 02:02:07] INFO root fetch - processPackages [aqueduct-py]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-py-0.0.3.tar.gz]
+[2023-07-21 02:02:07] INFO root fetch - main [MainThread]: End processing [aqueduct-py]: success
+[2023-07-21 02:02:08] INFO root fetch - processPackages [sceptre]: Remove: archive file [/home/abi/fetcher/tmp/sceptre-4.2.1.tar.gz]
+[2023-07-21 02:02:08] INFO root fetch - processPackages [sceptre]: Remove: archive file [/home/abi/fetcher/tmp/sceptre-4.2.2.tar.gz]
+[2023-07-21 02:02:08] INFO root fetch - main [MainThread]: End processing [sceptre]: success
+[2023-07-21 02:02:08] INFO root fetch - processPackages [seldonian-engine]: Remove: archive file [/home/abi/fetcher/tmp/seldonian_engine-0.8.0.tar.gz]
+[2023-07-21 02:02:08] INFO root fetch - processPackages [seldonian-engine]: Remove: archive file [/home/abi/fetcher/tmp/seldonian_engine-0.8.1.tar.gz]
+[2023-07-21 02:02:08] INFO root fetch - main [MainThread]: End processing [seldonian-engine]: success
+[2023-07-21 02:02:09] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-21 02:02:12] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-21 02:02:12] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230721/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 02:02:16] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-21 02:02:16] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-21 02:02:16] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-21 02:02:16] INFO root fetch - main [MainThread]: Store serial: [18974560]
