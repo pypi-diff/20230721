@@ -14271,3 +14271,33 @@
 [2023-07-21 07:19:29] INFO root fetch - processPackages [JoshMokuro]: Remove: archive file [/home/abi/fetcher/tmp/JoshMokuro-0.2.tar.gz]
 [2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [JoshMokuro]: success
 [2023-07-21 07:19:29] INFO root fetch - main [MainThread]: Store serial: [18978950]
+[2023-07-21 07:24:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978950]
+[2023-07-21 07:24:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-21 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: athiruma-cloud-governance
+[2023-07-21 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynamicadaptor
+[2023-07-21 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes
+[2023-07-21 07:24:39] INFO root fetch - processPackages [dynamicadaptor]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-21 07:24:39] INFO root fetch - processPackages [athiruma-cloud-governance]: New version: [1.2.108] Old Version: [1.1.94]
+[2023-07-21 07:24:39] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.1.0a1689912856] Old Version: [4.1.0a1689813477]
+[2023-07-21 07:24:39] INFO root fetch - processPackages [dynamicadaptor]: Downloading https://files.pythonhosted.org/packages/e3/27/785942da4166b8fb2978208886781be5151d865baa6faa1fd94df7f347ea/dynamicadaptor-0.4.4.tar.gz
+[2023-07-21 07:24:39] INFO root fetch - processPackages [athiruma-cloud-governance]: Downloading https://files.pythonhosted.org/packages/ab/9d/2e8180213e903641603c4b4ff884fb65bad4d7d2d4ad892dbe7ef9f940bd/athiruma-cloud-governance-1.1.94.tar.gz
+[2023-07-21 07:24:39] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/fc/9f/3b0b64b992e7364e641f081d345a9b72b6e9f363211b866dee1844bda0f7/pulumi_kubernetes-4.1.0a1689813477.tar.gz
+[2023-07-21 07:24:39] INFO root fetch - processPackages [dynamicadaptor]: Downloading https://files.pythonhosted.org/packages/be/4f/548465c07c02a0ea5a04773002d4ecab487e3f5fdcbacfac0e9fb2318857/dynamicadaptor-0.4.5.tar.gz
+[2023-07-21 07:24:40] INFO root fetch - processPackages [dynamicadaptor]: executing diffoscope
+[2023-07-21 07:24:40] INFO root fetch - processPackages [dynamicadaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicadaptor-0.4.4.tar.gz tmp/dynamicadaptor-0.4.5.tar.gz --markdown 20230721/d/dynamicadaptor/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-21 07:24:40] INFO root fetch - processPackages [athiruma-cloud-governance]: Downloading https://files.pythonhosted.org/packages/ed/89/6fcdf6319ee98d85e395c8d18a444fa03df87052c4dd2f779aa30bc4bbd6/athiruma-cloud-governance-1.2.108.tar.gz
+[2023-07-21 07:24:40] INFO root fetch - processPackages [athiruma-cloud-governance]: executing diffoscope
+[2023-07-21 07:24:40] INFO root fetch - processPackages [athiruma-cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athiruma-cloud-governance-1.1.94.tar.gz tmp/athiruma-cloud-governance-1.2.108.tar.gz --markdown 20230721/a/athiruma-cloud-governance/1.1.94-1.2.108/diff.md --exclude *.pyd
+[2023-07-21 07:24:40] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/c9/13/07513953ad7faf4f8fe10ccb05e930b176590f7c11b8b17c8d319f62942b/pulumi_kubernetes-4.1.0a1689912856.tar.gz
+[2023-07-21 07:24:40] INFO root fetch - processPackages [dynamicadaptor]: Remove: archive file [/home/abi/fetcher/tmp/dynamicadaptor-0.4.4.tar.gz]
+[2023-07-21 07:24:40] INFO root fetch - processPackages [dynamicadaptor]: Remove: archive file [/home/abi/fetcher/tmp/dynamicadaptor-0.4.5.tar.gz]
+[2023-07-21 07:24:40] INFO root fetch - main [MainThread]: End processing [dynamicadaptor]: success
+[2023-07-21 07:24:41] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-07-21 07:24:41] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.1.0a1689813477.tar.gz tmp/pulumi_kubernetes-4.1.0a1689912856.tar.gz --markdown 20230721/p/pulumi-kubernetes/4.1.0a1689813477-4.1.0a1689912856/diff.md --exclude *.pyd
+[2023-07-21 07:24:41] INFO root fetch - processPackages [athiruma-cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/athiruma-cloud-governance-1.1.94.tar.gz]
+[2023-07-21 07:24:41] INFO root fetch - processPackages [athiruma-cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/athiruma-cloud-governance-1.2.108.tar.gz]
+[2023-07-21 07:24:41] INFO root fetch - main [MainThread]: End processing [athiruma-cloud-governance]: success
+[2023-07-21 07:24:45] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689813477.tar.gz]
+[2023-07-21 07:24:45] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689912856.tar.gz]
+[2023-07-21 07:24:45] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-07-21 07:24:45] INFO root fetch - main [MainThread]: Store serial: [18978959]
