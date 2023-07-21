@@ -17025,3 +17025,113 @@
 [2023-07-21 10:03:37] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
 [2023-07-21 10:03:37] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
 [2023-07-21 10:03:37] INFO root fetch - main [MainThread]: Store serial: [18980071]
+[2023-07-21 10:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980071]
+[2023-07-21 10:08:46] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notool
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cacholote
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sintef-pyshop
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bfgdealer
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rasa-sdk
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frictionless
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyglove
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flow.record
+[2023-07-21 10:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vlppy
+[2023-07-21 10:08:46] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [bfgdealer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [sintef-pyshop]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230721] Old Version: [0.4.1.dev20230720]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [notool]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [rasa-sdk]: New version: [3.8.0a1] Old Version: [3.7.0b1]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [cacholote]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [frictionless]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [vlppy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 10:08:46] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2023-07-21 10:08:46] INFO root fetch - processPackages [rasa-sdk]: Downloading https://files.pythonhosted.org/packages/6d/e7/dee82eaf3fc5441a6639af9d6f1d2d6fbc44607f3b8ce364931ba05db13a/rasa_sdk-3.7.0b1.tar.gz
+[2023-07-21 10:08:46] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/29/61/164c2041e3cafb49c13e2b531d004efc61b418ced4cd7955d11f7e37ea73/bfgdealer-0.0.8.tar.gz
+[2023-07-21 10:08:46] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/9f/70/7ba6e74b1be655bd3521fca02f845f0ca2eba2c1d6e05fd2115248abf00e/sintef-pyshop-1.4.3.tar.gz
+[2023-07-21 10:08:46] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/bb/21/594ecc59aeb890d31a476051eccbe37b4b6f1b946707e28c28ce38852f53/pyglove-0.4.1.dev20230720.tar.gz
+[2023-07-21 10:08:46] INFO root fetch - processPackages [notool]: Downloading https://files.pythonhosted.org/packages/91/0c/f04f319a96f9df42fb24ab7978939e44ce37c640680004358d05f8e95b86/notool-0.1.2-py3-none-any.whl
+[2023-07-21 10:08:46] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/4c/ce/190bdd3bdee44aa1b13e0125f2d7584a6ae8c8f8c53d1bf744e267b392a5/cacholote-0.3.4.tar.gz
+[2023-07-21 10:08:46] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/64/ee/14733c5b1fcd9a121c750af080aa978bfe1e801a9de882afa8cfe53382a6/frictionless-5.8.2.tar.gz
+[2023-07-21 10:08:46] INFO root fetch - processPackages [vlppy]: Downloading https://files.pythonhosted.org/packages/44/59/cfbaf7a9a903c2d17ad34c9a7cf96b22d1e58c3ccdd39573bab2df03eb6d/vlppy-0.1.0.tar.gz
+[2023-07-21 10:08:46] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-21 10:08:47] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-21 10:08:47] INFO root fetch - processPackages [chatllm]: Start processing: ans.protocol.amk
+[2023-07-21 10:08:47] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-21 10:08:47] INFO root fetch - processPackages [ans.protocol.amk]: New version: [0.1.0b7] Old Version: [0.1.0b6]
+[2023-07-21 10:08:47] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/99/86/6c103f95c144e270d0589c5fc06584e6ed67d55cbbf660d2adf493c58c69/sintef-pyshop-1.4.4.tar.gz
+[2023-07-21 10:08:47] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2023-07-21 10:08:47] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/36/f5/f58c8f837d9bbfb7c1edad11fc3502d4f1554b8a9820b768f3e45ed602ba/cacholote-0.4.0.tar.gz
+[2023-07-21 10:08:47] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a8/11/5a35f40c9d75bc9ec53cd57c13113fb6630f3e35df5a166e4922bf1ab54c/pyglove-0.4.1.dev20230721.tar.gz
+[2023-07-21 10:08:47] INFO root fetch - processPackages [vlppy]: Downloading https://files.pythonhosted.org/packages/05/69/42e505de0d044b3141733d1cef5ec5dc8c374cde85a20b0da06b86d5a8cb/vlppy-0.1.1.tar.gz
+[2023-07-21 10:08:47] INFO root fetch - processPackages [rasa-sdk]: Downloading https://files.pythonhosted.org/packages/13/07/e8fd984726eabbcf3af83f9550dcc99a41dcfca13ee07da7c1335be13bda/rasa_sdk-3.8.0a1.tar.gz
+[2023-07-21 10:08:47] INFO root fetch - processPackages [notool]: Downloading https://files.pythonhosted.org/packages/6f/df/90a34c3c8a58837aa0c298bc35ca61cace44c90b54ad067168df96465157/notool-0.1.3-py3-none-any.whl
+[2023-07-21 10:08:47] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/09/02/38bba01d72eee5fb40f7c982cc57bca68c5c7507fea61e3ccb20efa9695a/bfgdealer-0.0.9.tar.gz
+[2023-07-21 10:08:47] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/90/d2/f85c7cedee239a748294362c4c36984bc70e846a057ecc7f4ed136298a34/frictionless-5.8.3.tar.gz
+[2023-07-21 10:08:47] INFO root fetch - processPackages [ans.protocol.amk]: Downloading https://files.pythonhosted.org/packages/5a/98/c4893fa02cb03eabd29746f908447298b85f05eede0dc1c068a089c1bec2/ans.protocol.amk-0.1.0b6-py3-none-any.whl
+[2023-07-21 10:08:47] INFO root fetch - processPackages [sintef-pyshop]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [sintef-pyshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sintef-pyshop-1.4.3.tar.gz tmp/sintef-pyshop-1.4.4.tar.gz --markdown 20230721/s/sintef-pyshop/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20230721/f/flow.record/3.9.dev8-3.9.dev9/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [cacholote]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [cacholote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacholote-0.3.4.tar.gz tmp/cacholote-0.4.0.tar.gz --markdown 20230721/c/cacholote/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [vlppy]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [vlppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlppy-0.1.0.tar.gz tmp/vlppy-0.1.1.tar.gz --markdown 20230721/v/vlppy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [rasa-sdk]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [rasa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa_sdk-3.7.0b1.tar.gz tmp/rasa_sdk-3.8.0a1.tar.gz --markdown 20230721/r/rasa-sdk/3.7.0b1-3.8.0a1/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [notool]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [notool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notool-0.1.2-py3-none-any.whl.zip tmp/notool-0.1.3-py3-none-any.whl.zip --markdown 20230721/n/notool/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230720.tar.gz tmp/pyglove-0.4.1.dev20230721.tar.gz --markdown 20230721/p/pyglove/0.4.1.dev20230720-0.4.1.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [frictionless]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [frictionless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frictionless-5.8.2.tar.gz tmp/frictionless-5.8.3.tar.gz --markdown 20230721/f/frictionless/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-07-21 10:08:47] INFO root fetch - processPackages [bfgdealer]: executing diffoscope
+[2023-07-21 10:08:47] INFO root fetch - processPackages [bfgdealer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgdealer-0.0.8.tar.gz tmp/bfgdealer-0.0.9.tar.gz --markdown 20230721/b/bfgdealer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:08:48] INFO root fetch - processPackages [ans.protocol.amk]: Downloading https://files.pythonhosted.org/packages/16/f8/0de716854482b61b8f0d971d2f81a91b4611350e4456ceade24a5cb03494/ans.protocol.amk-0.1.0b7-py3-none-any.whl
+[2023-07-21 10:08:48] INFO root fetch - processPackages [ans.protocol.amk]: executing diffoscope
+[2023-07-21 10:08:48] INFO root fetch - processPackages [ans.protocol.amk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ans.protocol.amk-0.1.0b6-py3-none-any.whl.zip tmp/ans.protocol.amk-0.1.0b7-py3-none-any.whl.zip --markdown 20230721/a/ans.protocol.amk/0.1.0b6-0.1.0b7/diff.md --exclude *.pyd
+[2023-07-21 10:08:49] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.3.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.4.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [sintef-pyshop]: Start processing: drf-misc
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [sintef-pyshop]: success
+[2023-07-21 10:08:49] INFO root fetch - processPackages [drf-misc]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-0.3.4.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-0.4.0.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [cacholote]: Start processing: magic-number-guess
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [cacholote]: success
+[2023-07-21 10:08:49] INFO root fetch - processPackages [vlppy]: Remove: archive file [/home/abi/fetcher/tmp/vlppy-0.1.0.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [vlppy]: Remove: archive file [/home/abi/fetcher/tmp/vlppy-0.1.1.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [vlppy]: success
+[2023-07-21 10:08:49] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/06/61/26aa231b86150d86d5ab16914d32ef611d91a156878245edef482bdff39e/drf_misc-0.1.6.tar.gz
+[2023-07-21 10:08:49] INFO root fetch - processPackages [notool]: Remove: archive file [/home/abi/fetcher/tmp/notool-0.1.2-py3-none-any.whl.zip]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [notool]: Remove: archive file [/home/abi/fetcher/tmp/notool-0.1.3-py3-none-any.whl.zip]
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [notool]: success
+[2023-07-21 10:08:49] INFO root fetch - processPackages [rasa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rasa_sdk-3.7.0b1.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [rasa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rasa_sdk-3.8.0a1.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [rasa-sdk]: success
+[2023-07-21 10:08:49] WARNING root fetch - processPackages [magic-number-guess]: Skipping, unable to determine old version
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [magic-number-guess] error
+[2023-07-21 10:08:49] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.8.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.9.tar.gz]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev8-py3-none-any.whl.zip]
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [bfgdealer]: success
+[2023-07-21 10:08:49] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2023-07-21 10:08:49] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/de/f1/d797552925c87473c298187c35b14d8f856ad8da42e38da1b86b9546cd19/drf_misc-0.1.7.tar.gz
+[2023-07-21 10:08:49] INFO root fetch - processPackages [ans.protocol.amk]: Remove: archive file [/home/abi/fetcher/tmp/ans.protocol.amk-0.1.0b6-py3-none-any.whl.zip]
+[2023-07-21 10:08:49] INFO root fetch - processPackages [ans.protocol.amk]: Remove: archive file [/home/abi/fetcher/tmp/ans.protocol.amk-0.1.0b7-py3-none-any.whl.zip]
+[2023-07-21 10:08:49] INFO root fetch - main [MainThread]: End processing [ans.protocol.amk]: success
+[2023-07-21 10:08:49] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-21 10:08:49] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.1.6.tar.gz tmp/drf_misc-0.1.7.tar.gz --markdown 20230721/d/drf-misc/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-21 10:08:50] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230720.tar.gz]
+[2023-07-21 10:08:50] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230721.tar.gz]
+[2023-07-21 10:08:50] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-21 10:08:50] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.6.tar.gz]
+[2023-07-21 10:08:50] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.7.tar.gz]
+[2023-07-21 10:08:50] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-21 10:08:51] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.2.tar.gz]
+[2023-07-21 10:08:51] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
+[2023-07-21 10:08:51] INFO root fetch - main [MainThread]: End processing [frictionless]: success
+[2023-07-21 10:08:51] INFO root fetch - main [MainThread]: Store serial: [18980112]
