@@ -14489,3 +14489,63 @@
 [2023-07-21 07:40:19] INFO root fetch - processPackages [nonebot-plugin-memes]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_memes-0.4.7.tar.gz]
 [2023-07-21 07:40:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-memes]: success
 [2023-07-21 07:40:19] INFO root fetch - main [MainThread]: Store serial: [18979049]
+[2023-07-21 07:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979049]
+[2023-07-21 07:45:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-scrap-reason-code
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-scrap-reason-code
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-dogu-sdk
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatGPT-Cloud
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molgenis-py-bbmri-eric
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whatsapp-chatbot-python
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djgraphql
+[2023-07-21 07:45:28] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-07-21 07:45:28] INFO root fetch - processPackages [pytest-dogu-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 07:45:28] INFO root fetch - processPackages [odoo14-addon-scrap-reason-code]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1.dev1]
+[2023-07-21 07:45:28] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-21 07:45:28] WARNING root fetch - processPackages [djgraphql]: Skipping, unable to determine old version
+[2023-07-21 07:45:28] INFO root fetch - main [MainThread]: End processing [djgraphql] error
+[2023-07-21 07:45:28] INFO root fetch - processPackages [whatsapp-chatbot-python]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-21 07:45:28] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Downloading https://files.pythonhosted.org/packages/27/c3/5202dbdd0d3957c8fd4969eee7206123cbc3d903f712c07e8c44d6746a65/odoo_addon_scrap_reason_code-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-21 07:45:28] INFO root fetch - processPackages [pytest-dogu-sdk]: Downloading https://files.pythonhosted.org/packages/de/9d/3c35f06a41446cc470ad3e3e113ae53adaf7f9cedee1736d2e35f11a0f42/pytest_dogu_sdk-1.0.0.tar.gz
+[2023-07-21 07:45:28] INFO root fetch - processPackages [odoo14-addon-scrap-reason-code]: Downloading https://files.pythonhosted.org/packages/da/06/1358595750c67d733d5b4b327926b552a595119d9980e8eaec4934082afe/odoo14_addon_scrap_reason_code-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-21 07:45:28] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/5f/53/c979a97cdf69c442c19028caccd37dea646415200d345568de48b39bc8b4/ChatGPT-Cloud-0.6.5.tar.gz
+[2023-07-21 07:45:28] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/8a/af/dc0552831e629955fc1f3fd7aced76b4895999d99e370d01a84d28f8a963/whatsapp-chatbot-python-0.5.2.tar.gz
+[2023-07-21 07:45:28] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/55/e0/24290eb827939ce28ad443ab501a1de5c78477b51893febb32a6076230db/molgenis-py-bbmri-eric-1.8.0.tar.gz
+[2023-07-21 07:45:28] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Downloading https://files.pythonhosted.org/packages/f2/29/0422761031e2993e61770bfceea2baa3a673daf2d557b16c4a6778f450f2/odoo_addon_scrap_reason_code-16.0.1.1.0.2-py3-none-any.whl
+[2023-07-21 07:45:28] INFO root fetch - processPackages [pytest-dogu-sdk]: Downloading https://files.pythonhosted.org/packages/c1/32/6e10aed874b52e16952f9d105b258977dbfb939684cfd4943bb55f45a89c/pytest_dogu_sdk-1.0.1.tar.gz
+[2023-07-21 07:45:29] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/7f/f3/cda2cb6ea96f1dfc5bdb7b9f103110e057c1b5546326d1816755cc87a4da/whatsapp-chatbot-python-0.5.3.tar.gz
+[2023-07-21 07:45:29] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: executing diffoscope
+[2023-07-21 07:45:29] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_scrap_reason_code-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_scrap_reason_code-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-scrap-reason-code/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-07-21 07:45:29] INFO root fetch - processPackages [pytest-dogu-sdk]: executing diffoscope
+[2023-07-21 07:45:29] INFO root fetch - processPackages [pytest-dogu-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dogu_sdk-1.0.0.tar.gz tmp/pytest_dogu_sdk-1.0.1.tar.gz --markdown 20230721/p/pytest-dogu-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 07:45:29] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/ee/ef/8774990d6705a801984d389a57e049128ebc73589cc0603db60faec53789/ChatGPT-Cloud-0.6.6.tar.gz
+[2023-07-21 07:45:29] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/4f/1a/131ad33a5603630c7855f8913a04402a5d52300cfdfad2aa7cae84988fcf/molgenis-py-bbmri-eric-1.9.0.tar.gz
+[2023-07-21 07:45:29] INFO root fetch - processPackages [whatsapp-chatbot-python]: executing diffoscope
+[2023-07-21 07:45:29] INFO root fetch - processPackages [whatsapp-chatbot-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-chatbot-python-0.5.2.tar.gz tmp/whatsapp-chatbot-python-0.5.3.tar.gz --markdown 20230721/w/whatsapp-chatbot-python/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-21 07:45:29] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: executing diffoscope
+[2023-07-21 07:45:29] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz --markdown 20230721/m/molgenis-py-bbmri-eric/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-21 07:45:29] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-07-21 07:45:29] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPT-Cloud-0.6.5.tar.gz tmp/ChatGPT-Cloud-0.6.6.tar.gz --markdown 20230721/C/ChatGPT-Cloud/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-21 07:45:29] INFO root fetch - processPackages [pytest-dogu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_sdk-1.0.0.tar.gz]
+[2023-07-21 07:45:29] INFO root fetch - processPackages [pytest-dogu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_sdk-1.0.1.tar.gz]
+[2023-07-21 07:45:29] INFO root fetch - main [MainThread]: End processing [pytest-dogu-sdk]: success
+[2023-07-21 07:45:29] INFO root fetch - processPackages [odoo14-addon-scrap-reason-code]: Downloading https://files.pythonhosted.org/packages/39/ca/ee7491d16ba40e5c4ba0edd7bd413bd96fc6f28c6a4b487cb02eb93f0b25/odoo14_addon_scrap_reason_code-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-07-21 07:45:29] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scrap_reason_code-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-21 07:45:29] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scrap_reason_code-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-21 07:45:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-scrap-reason-code]: success
+[2023-07-21 07:45:30] INFO root fetch - processPackages [odoo14-addon-scrap-reason-code]: executing diffoscope
+[2023-07-21 07:45:30] INFO root fetch - processPackages [odoo14-addon-scrap-reason-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_scrap_reason_code-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_scrap_reason_code-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-scrap-reason-code/14.0.1.1.1.dev1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-07-21 07:45:30] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.5.2.tar.gz]
+[2023-07-21 07:45:30] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.5.3.tar.gz]
+[2023-07-21 07:45:30] INFO root fetch - main [MainThread]: End processing [whatsapp-chatbot-python]: success
+[2023-07-21 07:45:30] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz]
+[2023-07-21 07:45:30] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz]
+[2023-07-21 07:45:30] INFO root fetch - main [MainThread]: End processing [molgenis-py-bbmri-eric]: success
+[2023-07-21 07:45:30] INFO root fetch - processPackages [odoo14-addon-scrap-reason-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_scrap_reason_code-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-21 07:45:30] INFO root fetch - processPackages [odoo14-addon-scrap-reason-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_scrap_reason_code-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-21 07:45:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-scrap-reason-code]: success
+[2023-07-21 07:45:31] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.5.tar.gz]
+[2023-07-21 07:45:31] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.6.tar.gz]
+[2023-07-21 07:45:31] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-07-21 07:45:31] INFO root fetch - main [MainThread]: Store serial: [18979067]
