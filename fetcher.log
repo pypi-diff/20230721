@@ -20456,3 +20456,90 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:40:35] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2023-07-21 12:40:35] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-07-21 12:40:35] INFO root fetch - main [MainThread]: Store serial: [18981490]
+[2023-07-21 12:45:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981490]
+[2023-07-21 12:45:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vgs-api-client
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asynccore
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skypilot-nightly
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: covert-ots
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vaex
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3Dinterpolations
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: subproj
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loggingx-py
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lib-log-utils
+[2023-07-21 12:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pquisby
+[2023-07-21 12:45:45] WARNING root fetch - processPackages [subproj]: Skipping, unable to determine old version
+[2023-07-21 12:45:45] INFO root fetch - main [MainThread]: End processing [subproj] error
+[2023-07-21 12:45:45] INFO root fetch - processPackages [covert-ots]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230720] Old Version: [1.0.0.dev20230719]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [asynccore]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [py3Dinterpolations]: New version: [0.2.2] Old Version: [0.2]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [loggingx-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [vaex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [lib-log-utils]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [pquisby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:45:45] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/bd/07/1461d396ea01cbcaf6c88dc99470e788e7a7b02aae736d0a42c31cd35933/skypilot-nightly-1.0.0.dev20230719.tar.gz
+[2023-07-21 12:45:45] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/12/e2/25284e44c8485783a3ad1146586dd8d6b8e9dbef5d8a0b5a0ed57ce0127f/covert-ots-1.0.4.tar.gz
+[2023-07-21 12:45:45] INFO root fetch - processPackages [py3Dinterpolations]: Downloading https://files.pythonhosted.org/packages/1a/73/a7c4415436071317b2f4c2e4736e6ee21f6a05388fd097b522487028e62b/py3Dinterpolations-0.2.tar.gz
+[2023-07-21 12:45:45] INFO root fetch - processPackages [asynccore]: Downloading https://files.pythonhosted.org/packages/38/cd/3fff41137d3fa23b9692ffa45d7aa415b10f722ca068b3e89c76d5b625c9/asynccore-1.2.0.tar.gz
+[2023-07-21 12:45:45] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-07-21 12:45:45] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d6/f1/7aed93fd661f571cdbbe3669f13929d38cd97f0fadd0dbb35fe072e546f0/pquisby-0.0.8.tar.gz
+[2023-07-21 12:45:45] INFO root fetch - processPackages [lib-log-utils]: Downloading https://files.pythonhosted.org/packages/45/23/c0c1502b83db270297a37a39bee818a763e945fccf0a451badc1cc2fdcad/lib_log_utils-1.4.8.tar.gz
+[2023-07-21 12:45:45] INFO root fetch - processPackages [vaex]: Downloading https://files.pythonhosted.org/packages/b8/ff/0c38361f5b959d5cea6e58c7263ca4f4c1a16190b9951803271786eebe52/vaex-4.9.1.tar.gz
+[2023-07-21 12:45:45] INFO root fetch - processPackages [loggingx-py]: Downloading https://files.pythonhosted.org/packages/f7/fc/bac7244c16df1d583d0fcb1e08e1f353a685149b8456b014350416cc8bc3/loggingx_py-0.2.0.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/e7/95/322ea613369312d73ef1b3e5054c3d8ec70e20d7ff79b971fd0c8257b79b/skypilot-nightly-1.0.0.dev20230720.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/1c/04/c8757bfea477cc5be8ca6b7322feb9ce72d9ca8196f8d03f1c29fbc34326/covert-ots-1.0.5.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [py3Dinterpolations]: Downloading https://files.pythonhosted.org/packages/f7/a8/15da7311350db9d0debc0994ef2ec7f9f3fa5a50f76838d8dfde9beb8249/py3Dinterpolations-0.2.2.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-07-21 12:45:46] INFO root fetch - processPackages [asynccore]: Downloading https://files.pythonhosted.org/packages/28/4c/9c2af6bec442d97418eea30bd74c06dacce3d8043a1bc36e47b4d32f42f2/asynccore-1.2.1.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [covert-ots]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [covert-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covert-ots-1.0.4.tar.gz tmp/covert-ots-1.0.5.tar.gz --markdown 20230721/c/covert-ots/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-21 12:45:46] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d4/91/3e9961a55c54049d417b63c641b25bb1b00bc7235a425b5a0115b8e32455/pquisby-0.0.9.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [py3Dinterpolations]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [py3Dinterpolations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3Dinterpolations-0.2.tar.gz tmp/py3Dinterpolations-0.2.2.tar.gz --markdown 20230721/p/py3Dinterpolations/0.2-0.2.2/diff.md --exclude *.pyd
+[2023-07-21 12:45:46] INFO root fetch - processPackages [loggingx-py]: Downloading https://files.pythonhosted.org/packages/db/1e/766bacbfb6038c33c203e31931c8aed894ea0857ba657c572d6cde7917c2/loggingx-py-0.3.0.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230719.tar.gz tmp/skypilot-nightly-1.0.0.dev20230720.tar.gz --markdown 20230721/s/skypilot-nightly/1.0.0.dev20230719-1.0.0.dev20230720/diff.md --exclude *.pyd
+[2023-07-21 12:45:46] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230721/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-21 12:45:46] INFO root fetch - processPackages [vaex]: Downloading https://files.pythonhosted.org/packages/e3/2a/efdbaad9c7b0bbe5ab316b44bef6b08c4158133c56dbb9aae87af5a3e6c6/vaex-4.9.2.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [asynccore]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [asynccore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asynccore-1.2.0.tar.gz tmp/asynccore-1.2.1.tar.gz --markdown 20230721/a/asynccore/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-21 12:45:46] INFO root fetch - processPackages [lib-log-utils]: Downloading https://files.pythonhosted.org/packages/c3/22/bb4249dea5182301984b56caf81ca7e21c3cdf70e8ab4496c45b3a07627c/lib_log_utils-1.4.9.tar.gz
+[2023-07-21 12:45:46] INFO root fetch - processPackages [loggingx-py]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [loggingx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggingx_py-0.2.0.tar.gz tmp/loggingx-py-0.3.0.tar.gz --markdown 20230721/l/loggingx-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-21 12:45:46] INFO root fetch - processPackages [pquisby]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [pquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pquisby-0.0.8.tar.gz tmp/pquisby-0.0.9.tar.gz --markdown 20230721/p/pquisby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:45:46] INFO root fetch - processPackages [lib-log-utils]: executing diffoscope
+[2023-07-21 12:45:46] INFO root fetch - processPackages [lib-log-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_log_utils-1.4.8.tar.gz tmp/lib_log_utils-1.4.9.tar.gz --markdown 20230721/l/lib-log-utils/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-21 12:45:47] INFO root fetch - processPackages [covert-ots]: Remove: archive file [/home/abi/fetcher/tmp/covert-ots-1.0.4.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - processPackages [covert-ots]: Remove: archive file [/home/abi/fetcher/tmp/covert-ots-1.0.5.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - main [MainThread]: End processing [covert-ots]: success
+[2023-07-21 12:45:47] INFO root fetch - processPackages [vaex]: executing diffoscope
+[2023-07-21 12:45:47] INFO root fetch - processPackages [vaex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaex-4.9.1.tar.gz tmp/vaex-4.9.2.tar.gz --markdown 20230721/v/vaex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-21 12:45:47] INFO root fetch - processPackages [py3Dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3Dinterpolations-0.2.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - processPackages [py3Dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3Dinterpolations-0.2.2.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - main [MainThread]: End processing [py3Dinterpolations]: success
+[2023-07-21 12:45:47] INFO root fetch - processPackages [loggingx-py]: Remove: archive file [/home/abi/fetcher/tmp/loggingx_py-0.2.0.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - processPackages [loggingx-py]: Remove: archive file [/home/abi/fetcher/tmp/loggingx-py-0.3.0.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - main [MainThread]: End processing [loggingx-py]: success
+[2023-07-21 12:45:47] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.8.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.9.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - main [MainThread]: End processing [pquisby]: success
+[2023-07-21 12:45:47] INFO root fetch - processPackages [lib-log-utils]: Remove: archive file [/home/abi/fetcher/tmp/lib_log_utils-1.4.8.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - processPackages [lib-log-utils]: Remove: archive file [/home/abi/fetcher/tmp/lib_log_utils-1.4.9.tar.gz]
+[2023-07-21 12:45:47] INFO root fetch - main [MainThread]: End processing [lib-log-utils]: success
+[2023-07-21 12:45:48] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-07-21 12:45:48] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-07-21 12:45:48] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-07-21 12:45:48] INFO root fetch - processPackages [asynccore]: Remove: archive file [/home/abi/fetcher/tmp/asynccore-1.2.0.tar.gz]
+[2023-07-21 12:45:48] INFO root fetch - processPackages [asynccore]: Remove: archive file [/home/abi/fetcher/tmp/asynccore-1.2.1.tar.gz]
+[2023-07-21 12:45:48] INFO root fetch - main [MainThread]: End processing [asynccore]: success
+[2023-07-21 12:45:48] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230719.tar.gz]
+[2023-07-21 12:45:48] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230720.tar.gz]
+[2023-07-21 12:45:48] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-21 12:45:48] INFO root fetch - processPackages [vaex]: Remove: archive file [/home/abi/fetcher/tmp/vaex-4.9.1.tar.gz]
+[2023-07-21 12:45:48] INFO root fetch - processPackages [vaex]: Remove: archive file [/home/abi/fetcher/tmp/vaex-4.9.2.tar.gz]
+[2023-07-21 12:45:48] INFO root fetch - main [MainThread]: End processing [vaex]: success
+[2023-07-21 12:45:48] INFO root fetch - main [MainThread]: Store serial: [18981525]
