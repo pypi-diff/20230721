@@ -15268,3 +15268,67 @@
 [2023-07-21 08:33:13] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
 [2023-07-21 08:33:13] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
 [2023-07-21 08:33:13] INFO root fetch - main [MainThread]: Store serial: [18979346]
+[2023-07-21 08:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979346]
+[2023-07-21 08:38:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sn-test
+[2023-07-21 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PureCloudPlatformClientV2
+[2023-07-21 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-21 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geniusbot
+[2023-07-21 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioworkers
+[2023-07-21 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sn-test
+[2023-07-21 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: planqk-quantum
+[2023-07-21 08:38:23] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-07-21 08:38:23] INFO root fetch - processPackages [sn-test]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 08:38:23] INFO root fetch - processPackages [sn-test]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 08:38:23] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-21 08:38:23] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 08:38:23] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-21 08:38:23] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-21 08:38:23] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2023-07-21 08:38:23] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-07-21 08:38:23] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/71/ad/6c16e3f7c875f5ea97641fc56a68396cbac1c8aa8f8f287e7e3e80f51ae4/sn_test-1.0.2.tar.gz
+[2023-07-21 08:38:23] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/71/ad/6c16e3f7c875f5ea97641fc56a68396cbac1c8aa8f8f287e7e3e80f51ae4/sn_test-1.0.2.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2023-07-21 08:38:24] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2023-07-21 08:38:24] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/g/geniusbot/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 08:38:24] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/20/23/e6ef50efcd2da632d3293a28ca2d38b90483d551588972439b49f47975c1/sn_test-1.0.3-py3-none-any.whl
+[2023-07-21 08:38:24] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/20/23/e6ef50efcd2da632d3293a28ca2d38b90483d551588972439b49f47975c1/sn_test-1.0.3-py3-none-any.whl
+[2023-07-21 08:38:24] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-21 08:38:24] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-21 08:38:24] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-1.0.2.tar.gz tmp/sn_test-1.0.3-py3-none-any.whl.zip --markdown 20230721/s/sn-test/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:38:24] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-1.0.2.tar.gz tmp/sn_test-1.0.3-py3-none-any.whl.zip --markdown 20230721/s/sn-test/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:38:24] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-21 08:38:24] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-07-21 08:38:24] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230721/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-21 08:38:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-21 08:38:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230721/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-21 08:38:24] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-21 08:38:24] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230721/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-21 08:38:24] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-07-21 08:38:24] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230721/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-07-21 08:38:25] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 08:38:25] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 08:38:25] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2023-07-21 08:38:25] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.2.tar.gz]
+[2023-07-21 08:38:25] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.3-py3-none-any.whl.zip]
+[2023-07-21 08:38:25] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-21 08:38:25] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-21 08:38:25] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-21 08:38:25] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-21 08:38:25] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-21 08:38:25] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-07-21 08:38:25] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-07-21 08:38:25] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-07-21 08:38:26] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-21 08:38:26] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-21 08:38:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-21 08:38:43] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-07-21 08:38:43] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-07-21 08:38:43] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-07-21 08:38:43] INFO root fetch - main [MainThread]: Store serial: [18979365]
