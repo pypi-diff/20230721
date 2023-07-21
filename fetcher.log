@@ -16659,3 +16659,247 @@
 [2023-07-21 09:52:56] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.84.0.tar.gz]
 [2023-07-21 09:52:56] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-07-21 09:52:56] INFO root fetch - main [MainThread]: Store serial: [18979942]
+[2023-07-21 09:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979942]
+[2023-07-21 09:58:05] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: location-local
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reytool
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-bawiki
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-ipython-client
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-lib
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-scan-server
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-device-server
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-scan-bundler
+[2023-07-21 09:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-file-writer
+[2023-07-21 09:58:05] INFO root fetch - processPackages [location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [nonebot-plugin-bawiki]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [bec-scan-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [bec-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [bec-device-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [bec-file-writer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 09:58:05] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-21 09:58:06] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230721] Old Version: [2.14.0.dev20230720]
+[2023-07-21 09:58:06] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/6d/cb/4f9cf6ceeea5b094804c76a025ff71045e7480fc2b55dfa9d5790635d306/location-local-0.0.8.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/cb/64/51bf9809484a9277dceabf8baefa5d9d07f80218cb67d4eb998fd7a9473e/bec_scan_server-0.9.1.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/ac/05/5f6b89e7c070b65dc2962af1e4c4a5bc03a0ba4852b208b55252bc09faec/nonebot_plugin_bawiki-0.8.1.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/fb/88/7e9b38f57dbd367fc0b1f0cf660158da462175cf6c193945c6517f9a1cd0/bec_scan_bundler-0.9.1.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/e6/8d/a8a9a797f782350c5115f92cc8dc16531bb5d41e46e724845ccad8323099/bec_file_writer-0.9.1.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/80/1a/e0d2150fef3297ea426e95a559ee9e812ea471f758a1591a1e1a31c60bee/bec_ipython_client-0.9.1.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/10/72/fd70dd6de9ada1dbf36ab04b738aec40cce0fa10f4f1c12897646c491458/bec_lib-0.9.1.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/81/42/8e41bc83ee85380775dc7e9e78255b1af56834cd7a46730a17c4e265dbdc/bec_device_server-0.9.1.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/45/42/08c4a008c80167df86b5206c878ae837f14a2e441e80f98214c2c92d9966/tf_nightly_cpu-2.14.0.dev20230720-cp39-cp39-win_amd64.whl
+[2023-07-21 09:58:06] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-21 09:58:06] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/34/2a/fb42e220a0e2df4585b42e32e07079cfefac11c203461bffdb813267c647/location-local-0.0.9.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-21 09:58:06] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.8.tar.gz tmp/location-local-0.0.9.tar.gz --markdown 20230721/l/location-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 09:58:06] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-21 09:58:06] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230721/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/38/05/95cfc86a9861bf5c43f55cc0bcaec195e42103f67c68171ea89fb71499d2/bec_scan_server-0.9.2.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/d4/42/a52b278cd9b6356e2546adcdd8d6d35dcd87ac1f8c1e7ade834aacd70d99/bec_ipython_client-0.9.2.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/cd/e2/d981aa11cf19542a4a10271b46de366633f111d96196b24ab991430ce1a3/bec_scan_bundler-0.9.2.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/35/07/ef4b7da734470cb7d26a00dba0cd0319c44760d855741371f66e48f5fc45/bec_file_writer-0.9.2.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/78/1e/aa5c109600974fd33003b81f8b68eb3e2c963bd2dca7409845958312a685/tf_nightly_cpu-2.14.0.dev20230721-cp39-cp39-win_amd64.whl
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/76/7c/92a87c0d5f1866953ec124d11828df00cffb284813bda708dbf13c08f73d/bec_device_server-0.9.2.tar.gz
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.9.1.tar.gz tmp/bec_scan_server-0.9.2.tar.gz --markdown 20230721/b/bec-scan-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.9.1.tar.gz tmp/bec_ipython_client-0.9.2.tar.gz --markdown 20230721/b/bec-ipython-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-07-21 09:58:06] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.9.1.tar.gz tmp/bec_scan_bundler-0.9.2.tar.gz --markdown 20230721/b/bec-scan-bundler/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:07] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-07-21 09:58:07] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.9.1.tar.gz tmp/bec_device_server-0.9.2.tar.gz --markdown 20230721/b/bec-device-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:07] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-07-21 09:58:07] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.9.1.tar.gz tmp/bec_file_writer-0.9.2.tar.gz --markdown 20230721/b/bec-file-writer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:07] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-21 09:58:07] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230720-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230721-cp39-cp39-win_amd64.whl.zip --markdown 20230721/t/tf-nightly-cpu/2.14.0.dev20230720-2.14.0.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 09:58:07] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/dd/c5/38a98fc890f8b22277ab0fb7cb51c7a05de1297ae3097f45eb09f0449d10/nonebot_plugin_bawiki-0.8.2.tar.gz
+[2023-07-21 09:58:07] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/7f/ed/38cb719532c4fd836921020e92576363fd5cccb784d31938729ac9947764/bec_lib-0.9.2.tar.gz
+[2023-07-21 09:58:07] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-07-21 09:58:07] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.9.1.tar.gz tmp/bec_lib-0.9.2.tar.gz --markdown 20230721/b/bec-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:07] INFO root fetch - processPackages [nonebot-plugin-bawiki]: executing diffoscope
+[2023-07-21 09:58:07] INFO root fetch - processPackages [nonebot-plugin-bawiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bawiki-0.8.1.tar.gz tmp/nonebot_plugin_bawiki-0.8.2.tar.gz --markdown 20230721/n/nonebot-plugin-bawiki/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:08] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.8.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.9.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [location-local]: Start processing: bec-dap
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-dap]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [reytool]: Start processing: bec-scihub
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scihub]: New version: [0.13.2] Old Version: [0.13.1]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/95/df/2aaddc7df5119e32ae08438452d9bf5a8d6f2646a25b26b3969cbf8f3b2b/bec_dap-0.9.1.tar.gz
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/3c/ba/fdd1340ad851ecf38927c1c70c6d49c589a7dcb675d0169af332a152445d/bec_scihub-0.13.1.tar.gz
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.1.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.2.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scan-server]: Start processing: bec-server
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-server]: New version: [0.13.2] Old Version: [0.13.1]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.1.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.2.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scan-bundler]: Start processing: tftui
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230720-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230721-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: darwinio
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-21 09:58:08] WARNING root fetch - processPackages [tftui]: Skipping, unable to determine old version
+[2023-07-21 09:58:08] INFO root fetch - processPackages [tftui]: Start processing: reytool
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [tftui] error
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.1.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.2.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-device-server]: Start processing: wow-ai-ml
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [darwinio]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.1.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.2.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-ipython-client]: Start processing: cfstack
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.1.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.2.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-file-writer]: Start processing: pySAXS
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [cfstack]: New version: [1.1.7] Old Version: [1.1.4]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/9e/cb/cebc789cfe221793268158fde77b95fdfdacf62a5484ca68cda86b9eaf68/bec-server-0.13.1.tar.gz
+[2023-07-21 09:58:08] INFO root fetch - processPackages [pySAXS]: New version: [3.270] Old Version: [3.268]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.1.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.2.tar.gz]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-lib]: Start processing: timedctl
+[2023-07-21 09:58:08] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/82/ab/c66a690c813002dd285c0a4b874b05e93016ddacf9e837a9598f76d3dedf/bec_dap-0.9.2.tar.gz
+[2023-07-21 09:58:08] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/b6/e4/e3f987d1b85780726ef822a3525b674cc70a43d7c3b4a37de3fe75f10bf2/bec_scihub-0.13.2.tar.gz
+[2023-07-21 09:58:08] INFO root fetch - processPackages [timedctl]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-21 09:58:08] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/ff/6a/6abf97c5b3aa1abdcaaf6a2aabffbc6d52e26a404af78594b543ad2541e3/cfstack-1.1.4.tar.gz
+[2023-07-21 09:58:08] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/e8/2b/5eb63e4152eb3d4ef79b9ba6b71f643090e8f535dcaa9f4cd8087a0df8c4/wow_ai_ml-0.2.3.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [pySAXS]: Downloading https://files.pythonhosted.org/packages/0c/a6/39d67b95275bf61fda886d84d5d42f198d22d6529b636b997751ce172a64/pySAXS-3.268.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.9.1.tar.gz tmp/bec_dap-0.9.2.tar.gz --markdown 20230721/b/bec-dap/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] INFO root fetch - processPackages [bec-scihub]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [bec-scihub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scihub-0.13.1.tar.gz tmp/bec_scihub-0.13.2.tar.gz --markdown 20230721/b/bec-scihub/0.13.1-0.13.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-21 09:58:09] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/eb/5f/a0324ca25aaba99617ab3253744508916180aeb638171626ec4a0362e74a/bec-server-0.13.2.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/59/13/788b8d230131833210ce09dae9abd6453e1071b5dab25bce1843265d1eed/darwinio-0.7.0.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-0.13.1.tar.gz tmp/bec-server-0.13.2.tar.gz --markdown 20230721/b/bec-server/0.13.1-0.13.2/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bawiki-0.8.1.tar.gz]
+[2023-07-21 09:58:09] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bawiki-0.8.2.tar.gz]
+[2023-07-21 09:58:09] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Start processing: zpapollo
+[2023-07-21 09:58:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bawiki]: success
+[2023-07-21 09:58:09] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230721/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] WARNING root fetch - processPackages [pySAXS]: Skipping package: exceeds size limit 12997812>=10485760
+[2023-07-21 09:58:09] INFO root fetch - processPackages [pySAXS]: Start processing: fileformats
+[2023-07-21 09:58:09] INFO root fetch - main [MainThread]: End processing [pySAXS] error
+[2023-07-21 09:58:09] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/bc/4f/9ff0c1814ad87513c35c672b0f814c0ea2221ac61b6ed1639f1e6626cd44/timedctl-3.4.0.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [zpapollo]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-21 09:58:09] INFO root fetch - processPackages [fileformats]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-21 09:58:09] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.6.2.tar.gz tmp/darwinio-0.7.0.tar.gz --markdown 20230721/d/darwinio/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/be/b7/1f3d0632035f938e028e71fbe3e2af5e8897432a6e7196beaf821f796f4a/cfstack-1.1.7.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/ac/44/074b336c2535fa8e51664a26ecb35e8aadb9ce3b202a0885c7b839f0d692/wow_ai_ml-0.2.4.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [zpapollo]: Downloading https://files.pythonhosted.org/packages/45/67/4abc53eacf97e8123a7eeead0af924bf308a57e1b5488f61c65cc2619fcd/zpapollo-1.0.1.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [cfstack]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [cfstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfstack-1.1.4.tar.gz tmp/cfstack-1.1.7.tar.gz --markdown 20230721/c/cfstack/1.1.4-1.1.7/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.3.tar.gz tmp/wow_ai_ml-0.2.4.tar.gz --markdown 20230721/w/wow-ai-ml/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/45/63/0ccfe57d1023a83572a469401965a9a99d052470aa22c7afee3683ec6ac2/timedctl-3.5.0.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/11/1c/3c75f33e3c5b80a88b514f111f18c161478d64d8cc841d7dcd649773a500/fileformats-0.7.2.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-3.4.0.tar.gz tmp/timedctl-3.5.0.tar.gz --markdown 20230721/t/timedctl/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-21 09:58:09] INFO root fetch - processPackages [zpapollo]: Downloading https://files.pythonhosted.org/packages/fd/80/5bada8c28e77bb1b8c0dd8ed4ea2701f124a69138394f70c1864e2de37b4/zpapollo-1.1.0.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/e9/ae/44c1a771607b1d96833678cad4c06d53e0c653e01709930170bb763f299d/fileformats-0.8.0.tar.gz
+[2023-07-21 09:58:09] INFO root fetch - processPackages [zpapollo]: executing diffoscope
+[2023-07-21 09:58:09] INFO root fetch - processPackages [zpapollo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpapollo-1.0.1.tar.gz tmp/zpapollo-1.1.0.tar.gz --markdown 20230721/z/zpapollo/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 09:58:10] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-07-21 09:58:10] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.7.2.tar.gz tmp/fileformats-0.8.0.tar.gz --markdown 20230721/f/fileformats/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.13.1.tar.gz]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.13.2.tar.gz]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-scihub]: Start processing: discohooker
+[2023-07-21 09:58:10] INFO root fetch - main [MainThread]: End processing [bec-scihub]: success
+[2023-07-21 09:58:10] INFO root fetch - processPackages [discohooker]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.13.1.tar.gz]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.13.2.tar.gz]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-server]: Start processing: fileformats-extras
+[2023-07-21 09:58:10] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2023-07-21 09:58:10] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/42/01/57fe44d6cf80e00d932a8171c25d9368d2eeedaae1f3ae566dea401c8e12/discohooker-1.0.3.tar.gz
+[2023-07-21 09:58:10] INFO root fetch - processPackages [fileformats-extras]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [reytool]: Start processing: smatchpp
+[2023-07-21 09:58:10] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.1.tar.gz]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.2.tar.gz]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [bec-dap]: Start processing: reytool
+[2023-07-21 09:58:10] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-07-21 09:58:10] INFO root fetch - processPackages [smatchpp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-21 09:58:10] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/e7/76/015874e95fad53e4316dda7d36915581d949f56e08dbe8860469605d4f07/fileformats_extras-0.1.1.tar.gz
+[2023-07-21 09:58:10] INFO root fetch - processPackages [smatchpp]: Downloading https://files.pythonhosted.org/packages/6a/44/7ecaa1896a974a53c349378f758bfae4e30d4afed176016a294621dd550a/smatchpp-1.0.2.tar.gz
+[2023-07-21 09:58:10] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-21 09:58:10] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/f4/15/406854d5d2659c66c5656475e7e4d292211e3c44515c9d8ddf6459325490/discohooker-1.0.4.tar.gz
+[2023-07-21 09:58:10] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-21 09:58:10] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-1.0.3.tar.gz tmp/discohooker-1.0.4.tar.gz --markdown 20230721/d/discohooker/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-21 09:58:11] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-21 09:58:11] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.4.0.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.5.0.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [timedctl]: Start processing: DynamicForms
+[2023-07-21 09:58:11] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-21 09:58:11] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/b6/5f/8dcb9b4ea9a24a57c3bd474092cce47cc97be0b6be8768005a5e3eed4e37/fileformats_extras-0.2.0.tar.gz
+[2023-07-21 09:58:11] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-21 09:58:11] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230721/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-21 09:58:11] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.4.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.7.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [cfstack]: Start processing: dearpyapp
+[2023-07-21 09:58:11] INFO root fetch - main [MainThread]: End processing [cfstack]: success
+[2023-07-21 09:58:11] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.3.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.4.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-07-21 09:58:11] INFO root fetch - processPackages [smatchpp]: Downloading https://files.pythonhosted.org/packages/f8/88/b6149fa5868c9ebd53a5d4265516c2782b9a24d994e587c3c14fd75f4856/smatchpp-1.0.3.tar.gz
+[2023-07-21 09:58:11] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [dearpyapp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [fileformats-extras]: executing diffoscope
+[2023-07-21 09:58:11] INFO root fetch - processPackages [fileformats-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_extras-0.1.1.tar.gz tmp/fileformats_extras-0.2.0.tar.gz --markdown 20230721/f/fileformats-extras/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-21 09:58:11] INFO root fetch - processPackages [zpapollo]: Remove: archive file [/home/abi/fetcher/tmp/zpapollo-1.0.1.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [zpapollo]: Remove: archive file [/home/abi/fetcher/tmp/zpapollo-1.1.0.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - main [MainThread]: End processing [zpapollo]: success
+[2023-07-21 09:58:11] INFO root fetch - processPackages [smatchpp]: executing diffoscope
+[2023-07-21 09:58:11] INFO root fetch - processPackages [smatchpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smatchpp-1.0.2.tar.gz tmp/smatchpp-1.0.3.tar.gz --markdown 20230721/s/smatchpp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 09:58:11] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-07-21 09:58:11] INFO root fetch - processPackages [dearpyapp]: Downloading https://files.pythonhosted.org/packages/ad/3b/43a4d3564397d8de8b9881df79c5db7945bb36e533eb628fa0ee378ce401/dearpyapp-0.1.2-py3-none-win_amd64.whl
+[2023-07-21 09:58:11] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.7.2.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.8.0.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-07-21 09:58:11] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.6.2.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.7.0.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-07-21 09:58:11] INFO root fetch - processPackages [dearpyapp]: Downloading https://files.pythonhosted.org/packages/f5/72/78b54655994ff666eff34fffd85ad7dd65bb63957a17f6464693029de744/dearpyapp-0.1.3-py3-none-win_amd64.whl
+[2023-07-21 09:58:11] INFO root fetch - processPackages [dearpyapp]: executing diffoscope
+[2023-07-21 09:58:11] INFO root fetch - processPackages [dearpyapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearpyapp-0.1.2-py3-none-win_amd64.whl.zip tmp/dearpyapp-0.1.3-py3-none-win_amd64.whl.zip --markdown 20230721/d/dearpyapp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 09:58:11] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-1.0.3.tar.gz]
+[2023-07-21 09:58:11] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-1.0.4.tar.gz]
+[2023-07-21 09:58:12] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-21 09:58:12] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-07-21 09:58:12] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-21 09:58:12] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-21 09:58:12] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-21 09:58:12] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.1.1.tar.gz]
+[2023-07-21 09:58:12] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.2.0.tar.gz]
+[2023-07-21 09:58:12] INFO root fetch - main [MainThread]: End processing [fileformats-extras]: success
+[2023-07-21 09:58:12] INFO root fetch - processPackages [smatchpp]: Remove: archive file [/home/abi/fetcher/tmp/smatchpp-1.0.2.tar.gz]
+[2023-07-21 09:58:12] INFO root fetch - processPackages [smatchpp]: Remove: archive file [/home/abi/fetcher/tmp/smatchpp-1.0.3.tar.gz]
+[2023-07-21 09:58:12] INFO root fetch - main [MainThread]: End processing [smatchpp]: success
+[2023-07-21 09:58:12] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-07-21 09:58:12] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230721/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-21 09:58:12] INFO root fetch - processPackages [dearpyapp]: Remove: archive file [/home/abi/fetcher/tmp/dearpyapp-0.1.2-py3-none-win_amd64.whl.zip]
+[2023-07-21 09:58:12] INFO root fetch - processPackages [dearpyapp]: Remove: archive file [/home/abi/fetcher/tmp/dearpyapp-0.1.3-py3-none-win_amd64.whl.zip]
+[2023-07-21 09:58:12] INFO root fetch - main [MainThread]: End processing [dearpyapp]: success
+[2023-07-21 09:58:14] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-07-21 09:58:14] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-07-21 09:58:14] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-07-21 09:58:14] INFO root fetch - main [MainThread]: Store serial: [18980025]
