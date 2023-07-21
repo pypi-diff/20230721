@@ -22256,3 +22256,137 @@ AssertionError: tmp/ovos_audio_plugin_spotify-0.0.0a4-py3-none-any.whl.zip does 
 [2023-07-21 14:01:41] INFO root fetch - processPackages [snapml]: Remove: archive file [/home/abi/fetcher/tmp/snapml-1.9.7-cp39-cp39-win_amd64.whl.zip]
 [2023-07-21 14:01:41] INFO root fetch - main [MainThread]: End processing [snapml]: success
 [2023-07-21 14:01:41] INFO root fetch - main [MainThread]: Store serial: [18982217]
+[2023-07-21 14:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18982217]
+[2023-07-21 14:06:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hserv
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentf-toolkit-nightly
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: string-grab
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idbadapter
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lvx
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdf-tool
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: messageflux
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Katayoun-email-utils
+[2023-07-21 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boum
+[2023-07-21 14:06:51] INFO root fetch - processPackages [hserv]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [string-grab]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-07-21 14:06:51] WARNING root fetch - processPackages [lvx]: Skipping, unable to determine old version
+[2023-07-21 14:06:51] INFO root fetch - processPackages [lvx]: Start processing: pathway
+[2023-07-21 14:06:51] INFO root fetch - main [MainThread]: End processing [lvx] error
+[2023-07-21 14:06:51] INFO root fetch - processPackages [idbadapter]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [boum]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-21 14:06:51] WARNING root fetch - processPackages [tdf-tool]: Skipping, unable to determine old version
+[2023-07-21 14:06:51] INFO root fetch - processPackages [tdf-tool]: Start processing: fpingwrppr
+[2023-07-21 14:06:51] INFO root fetch - main [MainThread]: End processing [tdf-tool] error
+[2023-07-21 14:06:51] WARNING root fetch - processPackages [Katayoun-email-utils]: Skipping, unable to determine old version
+[2023-07-21 14:06:51] INFO root fetch - processPackages [Katayoun-email-utils]: Start processing: pyre-check-nightly
+[2023-07-21 14:06:51] INFO root fetch - main [MainThread]: End processing [Katayoun-email-utils] error
+[2023-07-21 14:06:51] INFO root fetch - processPackages [messageflux]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.50.0.dev644] Old Version: [0.50.0.dev641]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [pathway]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [fpingwrppr]: New version: [0.6] Old Version: [0.5]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/c8/42/df8602b3d0d0f8b9f09bb0cff481601646f5b4ed207821ad2da48482e34c/hserv-0.0.5.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [string-grab]: Downloading https://files.pythonhosted.org/packages/6d/c0/d2a2d5931ca75a657f07bb80303c446ec723f6fb97165f9d7676074db58f/string_grab-0.0.6.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/b6/7f/28ba8a41e0bf515ef73beff43f7068fec4fbe1215994a3e2405bbcb47d7b/idbadapter-1.9.4.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101689938323] Old Version: [0.0.101689860245]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/38/fe/afd7aa406a00ad44c26d707b75f9f2acd20130232d05deb1074d41959356/messageflux-0.2.5.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/4d/23/cc86032ac80fefd65d005b3af87bfde2f7defbd47c89728d773dbba1f3df/boum-1.0.1.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/87/46/8f3534ce02a5a0218894f917f9402145f3781705d5b8a38deb88649e9775/opentf_toolkit_nightly-0.50.0.dev641-py3-none-any.whl
+[2023-07-21 14:06:51] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/7a/20/df8d1fe9f685ffd49a143a04d4d63f486802473904b7ed7e7b6576cb61ee/Pathway-1.3.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/df/3b/ddbf73530bae8d7dc08d501e8eaa434fc860c4fefe55330bced5e1bfbf8c/fpingwrppr-0.5.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/0e/ec/455cd74ca13a205858b3919b3940415905694c927027a715e5a824fc7411/pyre-check-nightly-0.0.101689860245.tar.gz
+[2023-07-21 14:06:51] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23770428>=10485760
+[2023-07-21 14:06:51] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: gmltools
+[2023-07-21 14:06:51] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-21 14:06:51] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/02/ed/177bfcd7ae69479e6819eca8a53e86f66ab57ef884211fa085effed29d89/idbadapter-1.9.5.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/66/5b/d4e4f353f1d9b36f915d94be18b5f6e157a57426d44213d619461ffa97b5/hserv-0.0.6.tar.gz
+[2023-07-21 14:06:51] INFO root fetch - processPackages [gmltools]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-21 14:06:51] INFO root fetch - processPackages [string-grab]: Downloading https://files.pythonhosted.org/packages/6d/4f/f162c10f24516edccae8077890ca821cf261d548de50e025a040a3c126e1/string_grab-1.0.0.tar.gz
+[2023-07-21 14:06:52] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/ff/5b/867f667bffbeb46301f62763cf877aa19bad996d43efd35d474ade90aaa0/messageflux-0.2.6.tar.gz
+[2023-07-21 14:06:52] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/07/15/41f9fc3553f1ab3b169973f483c940aad86a797712bb222f6e33835bf770/fpingwrppr-0.6.tar.gz
+[2023-07-21 14:06:52] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230721/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/61/f0/271b2871b531c51058d8aca4ab750fe9b7608a1d965f1975e1415bede92e/gmltools-0.0.93.tar.gz
+[2023-07-21 14:06:52] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/aa/0e/987674921dd61daab3049e6bf9ba384b42933cd5351c1e71ba612cf79296/boum-1.1.0.tar.gz
+[2023-07-21 14:06:52] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-1.9.4.tar.gz tmp/idbadapter-1.9.5.tar.gz --markdown 20230721/i/idbadapter/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/6f/e5/029861006bfc082a3329a6b1fed3b1caed62fbae6ffd7d9761a8afdf8bfd/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl
+[2023-07-21 14:06:52] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.2.5.tar.gz tmp/messageflux-0.2.6.tar.gz --markdown 20230721/m/messageflux/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.5.tar.gz tmp/hserv-0.0.6.tar.gz --markdown 20230721/h/hserv/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/b0/84/a89c5a49c318c90c1a41f82539ee82ed3c921c3a2f7df886ee32e4217b4b/Pathway-1.3.1.tar.gz
+[2023-07-21 14:06:52] INFO root fetch - processPackages [string-grab]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [string-grab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string_grab-0.0.6.tar.gz tmp/string_grab-1.0.0.tar.gz --markdown 20230721/s/string-grab/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [boum]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [boum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boum-1.0.1.tar.gz tmp/boum-1.1.0.tar.gz --markdown 20230721/b/boum/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [fpingwrppr]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [fpingwrppr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpingwrppr-0.5.tar.gz tmp/fpingwrppr-0.6.tar.gz --markdown 20230721/f/fpingwrppr/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.50.0.dev641-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl.zip --markdown 20230721/o/opentf-toolkit-nightly/0.50.0.dev641-0.50.0.dev644/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [pathway]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pathway-1.3.tar.gz tmp/Pathway-1.3.1.tar.gz --markdown 20230721/p/pathway/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-21 14:06:52] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/7e/88/fbe33b13a10951f2947823688a529c4accace61a3e19b8a2775cd5deea4d/gmltools-0.0.94.tar.gz
+[2023-07-21 14:06:52] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-07-21 14:06:52] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.93.tar.gz tmp/gmltools-0.0.94.tar.gz --markdown 20230721/g/gmltools/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-21 14:06:53] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.4.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.5.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [idbadapter]: Start processing: taipy-rest
+[2023-07-21 14:06:53] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2023-07-21 14:06:53] INFO root fetch - processPackages [taipy-rest]: New version: [3.0.0.dev0] Old Version: [2.4.0.dev0]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.5.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.6.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [hserv]: Start processing: hkkang-utils
+[2023-07-21 14:06:53] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-21 14:06:53] INFO root fetch - processPackages [hkkang-utils]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [string-grab]: Remove: archive file [/home/abi/fetcher/tmp/string_grab-0.0.6.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [string-grab]: Remove: archive file [/home/abi/fetcher/tmp/string_grab-1.0.0.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.0.1.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.1.0.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [string-grab]: Start processing: hepfile
+[2023-07-21 14:06:53] INFO root fetch - main [MainThread]: End processing [string-grab]: success
+[2023-07-21 14:06:53] INFO root fetch - main [MainThread]: End processing [boum]: success
+[2023-07-21 14:06:53] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.5.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.6.tar.gz]
+[2023-07-21 14:06:53] INFO root fetch - main [MainThread]: End processing [fpingwrppr]: success
+[2023-07-21 14:06:53] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/43/e3/3c0b3ac22016fa5efed018a64090f6f508d0c4691b3c27030e3b1bca281a/taipy-rest-2.4.0.dev0.tar.gz
+[2023-07-21 14:06:53] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/87/1e/413a13578e18e9a4fc0f713cb600d79896374a9878310ba0c8d7ce652caf/hkkang_utils-0.2.3.tar.gz
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hepfile]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-21 14:06:54] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev641-py3-none-any.whl.zip]
+[2023-07-21 14:06:54] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl.zip]
+[2023-07-21 14:06:54] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2023-07-21 14:06:54] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-21 14:06:54] INFO root fetch - processPackages [messageflux]: Remove: archive file [/home/abi/fetcher/tmp/messageflux-0.2.5.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - processPackages [messageflux]: Remove: archive file [/home/abi/fetcher/tmp/messageflux-0.2.6.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-07-21 14:06:54] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/Pathway-1.3.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/Pathway-1.3.1.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - main [MainThread]: End processing [pathway]: success
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/cc/62/b5b5bb43265a55bed3fc762d91484e752187ab28064ea82093b0c41e3a80/hkkang_utils-0.2.4.tar.gz
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hepfile]: Downloading https://files.pythonhosted.org/packages/53/cb/57f57f58e47edb2578ce5f69b6b2a0b7a6a88ad50060d65fb7c2ff5a1753/hepfile-0.1.6.tar.gz
+[2023-07-21 14:06:54] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/2c/e8/986f6becdb75b44220bf78d059add0aedd5c304968535a00690b2596351c/taipy-rest-3.0.0.dev0.tar.gz
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.2.3.tar.gz tmp/hkkang_utils-0.2.4.tar.gz --markdown 20230721/h/hkkang-utils/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-21 14:06:54] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.93.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.94.tar.gz]
+[2023-07-21 14:06:54] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-07-21 14:06:54] INFO root fetch - processPackages [taipy-rest]: executing diffoscope
+[2023-07-21 14:06:54] INFO root fetch - processPackages [taipy-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-rest-2.4.0.dev0.tar.gz tmp/taipy-rest-3.0.0.dev0.tar.gz --markdown 20230721/t/taipy-rest/2.4.0.dev0-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hepfile]: Downloading https://files.pythonhosted.org/packages/e4/8d/e50dbb8983caaf58634dffaca41092a3b84d34315760785e97dcc7b4918f/hepfile-0.1.7.tar.gz
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hepfile]: executing diffoscope
+[2023-07-21 14:06:54] INFO root fetch - processPackages [hepfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepfile-0.1.6.tar.gz tmp/hepfile-0.1.7.tar.gz --markdown 20230721/h/hepfile/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-21 14:06:55] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.3.tar.gz]
+[2023-07-21 14:06:55] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.4.tar.gz]
+[2023-07-21 14:06:55] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-07-21 14:06:55] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-2.4.0.dev0.tar.gz]
+[2023-07-21 14:06:55] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-3.0.0.dev0.tar.gz]
+[2023-07-21 14:06:55] INFO root fetch - main [MainThread]: End processing [taipy-rest]: success
+[2023-07-21 14:06:55] INFO root fetch - processPackages [hepfile]: Remove: archive file [/home/abi/fetcher/tmp/hepfile-0.1.6.tar.gz]
+[2023-07-21 14:06:55] INFO root fetch - processPackages [hepfile]: Remove: archive file [/home/abi/fetcher/tmp/hepfile-0.1.7.tar.gz]
+[2023-07-21 14:06:55] INFO root fetch - main [MainThread]: End processing [hepfile]: success
+[2023-07-21 14:06:55] INFO root fetch - main [MainThread]: Store serial: [18982263]
