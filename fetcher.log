@@ -20282,3 +20282,42 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:30:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307211026-py3-none-any.whl.zip]
 [2023-07-21 12:30:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-21 12:30:10] INFO root fetch - main [MainThread]: Store serial: [18981410]
+[2023-07-21 12:35:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981410]
+[2023-07-21 12:35:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-21 12:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-07-21 12:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schemantic
+[2023-07-21 12:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyepic
+[2023-07-21 12:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plugin-pb-python
+[2023-07-21 12:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Hive-ML
+[2023-07-21 12:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vgs-api-client
+[2023-07-21 12:35:20] INFO root fetch - processPackages [kfish]: New version: [99.0.202307211030] Old Version: [99.0.202307211020]
+[2023-07-21 12:35:20] INFO root fetch - processPackages [pyepic]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 12:35:20] WARNING root fetch - processPackages [Hive-ML]: Skipping, unable to determine old version
+[2023-07-21 12:35:20] INFO root fetch - main [MainThread]: End processing [Hive-ML] error
+[2023-07-21 12:35:20] WARNING root fetch - processPackages [schemantic]: Skipping, unable to determine old version
+[2023-07-21 12:35:20] INFO root fetch - main [MainThread]: End processing [schemantic] error
+[2023-07-21 12:35:20] WARNING root fetch - processPackages [plugin-pb-python]: Skipping, unable to determine old version
+[2023-07-21 12:35:20] INFO root fetch - main [MainThread]: End processing [plugin-pb-python] error
+[2023-07-21 12:35:20] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-21 12:35:20] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-07-21 12:35:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b7/34/d0c145313bba2e75fd871cb6a3f23976b20379897dcbfcdcc0aa91257c1a/kfish-99.0.202307211020-py3-none-any.whl
+[2023-07-21 12:35:20] INFO root fetch - processPackages [pyepic]: Downloading https://files.pythonhosted.org/packages/ff/e0/58b60dcd9b8caacf55096e9c42a37e497e07e7f1fbe767da8f7c515acdf0/pyepic-1.0.8.tar.gz
+[2023-07-21 12:35:20] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-07-21 12:35:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c3/8d/277fc39eb3be08e682e168e20d3244887f9830c208e00212ac11f702984f/kfish-99.0.202307211030-py3-none-any.whl
+[2023-07-21 12:35:20] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-07-21 12:35:20] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230721/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-21 12:35:20] INFO root fetch - processPackages [pyepic]: Downloading https://files.pythonhosted.org/packages/3c/8a/81509452a068a89d49a65d218f76430f26db18a73c896dd8e29d87728f82/pyepic-1.0.9.tar.gz
+[2023-07-21 12:35:20] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 12:35:20] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307211020-py3-none-any.whl.zip tmp/kfish-99.0.202307211030-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307211020-99.0.202307211030/diff.md --exclude *.pyd
+[2023-07-21 12:35:20] INFO root fetch - processPackages [pyepic]: executing diffoscope
+[2023-07-21 12:35:20] INFO root fetch - processPackages [pyepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepic-1.0.8.tar.gz tmp/pyepic-1.0.9.tar.gz --markdown 20230721/p/pyepic/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:35:21] INFO root fetch - processPackages [pyepic]: Remove: archive file [/home/abi/fetcher/tmp/pyepic-1.0.8.tar.gz]
+[2023-07-21 12:35:21] INFO root fetch - processPackages [pyepic]: Remove: archive file [/home/abi/fetcher/tmp/pyepic-1.0.9.tar.gz]
+[2023-07-21 12:35:21] INFO root fetch - main [MainThread]: End processing [pyepic]: success
+[2023-07-21 12:35:21] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307211020-py3-none-any.whl.zip]
+[2023-07-21 12:35:21] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307211030-py3-none-any.whl.zip]
+[2023-07-21 12:35:21] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 12:35:21] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-07-21 12:35:21] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-07-21 12:35:21] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-07-21 12:35:21] INFO root fetch - main [MainThread]: Store serial: [18981436]
