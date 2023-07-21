@@ -20927,3 +20927,180 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 13:07:08] INFO root fetch - processPackages [mwdb-core]: Remove: archive file [/home/abi/fetcher/tmp/mwdb_core-2.9.0-py3-none-any.whl.zip]
 [2023-07-21 13:07:08] INFO root fetch - main [MainThread]: End processing [mwdb-core]: success
 [2023-07-21 13:07:08] INFO root fetch - main [MainThread]: Store serial: [18981720]
+[2023-07-21 13:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981720]
+[2023-07-21 13:12:18] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mse-cli
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trdate
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superagent-py
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiki-utils-api
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: database-without-orm-local
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ttcore
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timedctl
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ms-salesforce-api
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unigui
+[2023-07-21 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arcor2
+[2023-07-21 13:12:18] INFO root fetch - processPackages [database-without-orm-local]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-21 13:12:18] INFO root fetch - processPackages [superagent-py]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ms-salesforce-api]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ttcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [timedctl]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-07-21 13:12:19] WARNING root fetch - processPackages [trdate]: Skipping, unable to determine old version
+[2023-07-21 13:12:19] INFO root fetch - processPackages [trdate]: Start processing: arcor2-arserver
+[2023-07-21 13:12:19] INFO root fetch - main [MainThread]: End processing [trdate] error
+[2023-07-21 13:12:19] INFO root fetch - processPackages [mse-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [kiki-utils-api]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [unigui]: New version: [1.9.0] Old Version: [1.8.5]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [arcor2]: New version: [1.1.0] Old Version: [1.0.0rc1]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [arcor2-arserver]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-21 13:12:19] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/b8/7b/a8a16dd0115b381f21cc3eeb42373532b024c6962543d334a51d2102cde6/database-without-orm-local-0.0.13.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/45/63/0ccfe57d1023a83572a469401965a9a99d052470aa22c7afee3683ec6ac2/timedctl-3.5.0.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/51/1c/70d33d101f025bedf2fc3756d7a4fab630b1d605e1bf088f4a8c10697614/ttcore-0.1.8.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/91/51/eeaa45fee731c4ac623349561b1cb42bbd89304f328b632b71bc3da195e1/superagent_py-0.0.35.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/76/24/4954210df6ff389fc948ad281505c6cdf58595a30b11b1034e979e8f05a7/ms_salesforce_api-1.2.2.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [mse-cli]: Downloading https://files.pythonhosted.org/packages/5b/77/131e3d2689dc5106ec83da09b6c29550dde247d75f1fc0bafaef8d9fa6c2/mse_cli-1.0.0.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/58/c5/0ad2bbd8999f32b8935e7a5d7b7931c826b2c8bf89e6ef9b38c5987a0400/kiki_utils_api-1.4.8-py3-none-any.whl
+[2023-07-21 13:12:19] INFO root fetch - processPackages [arcor2]: Downloading https://files.pythonhosted.org/packages/29/12/f6f5044f093560e231eb8cb5f73ffafa2bc37f7a4aab4ac94daf4b84d395/arcor2-1.0.0rc1.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [arcor2-arserver]: Downloading https://files.pythonhosted.org/packages/fc/1c/2eaa46ed068b995d15972848ef1d1b9bbf64c1f879537ccb4255bbbe5b88/arcor2_arserver-1.0.0.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/b0/72/7a42832d8aa0572220d9eda50327fcc013f4b21f3a8df79d1116a33d371d/database-without-orm-local-0.0.14.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/25/49/2d0ebd026dc16c89ad4446114fedaac47552896dd89f330174a9e44023df/unigui-1.8.5.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/3f/46/0608e5be850842dbcb21cd1f71acb784b21570acd86223548ac7b762195f/ttcore-0.1.9.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/c0/72/32e9ca1bbf43a40f3dc2f976999aeb36bb89db50fa5c8e957be613b7bcf0/timedctl-3.5.1.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [database-without-orm-local]: executing diffoscope
+[2023-07-21 13:12:19] INFO root fetch - processPackages [database-without-orm-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-without-orm-local-0.0.13.tar.gz tmp/database-without-orm-local-0.0.14.tar.gz --markdown 20230721/d/database-without-orm-local/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-21 13:12:19] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/14/19/0856f408c77318850eccce525a01428c4a322da91e5abf9f3444385d5020/superagent_py-0.0.36.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/94/5c/b6727506347fe41bca23c2438942926e440828d7d837b4171fd226bb14ae/ms_salesforce_api-1.2.3.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ttcore]: executing diffoscope
+[2023-07-21 13:12:19] INFO root fetch - processPackages [ttcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcore-0.1.8.tar.gz tmp/ttcore-0.1.9.tar.gz --markdown 20230721/t/ttcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 13:12:19] INFO root fetch - processPackages [mse-cli]: Downloading https://files.pythonhosted.org/packages/e4/f3/af5ee6cc4d60147a0f5775c103067c077f631f41ca3e21abdb712b8a4d9f/mse_cli-1.0.1.tar.gz
+[2023-07-21 13:12:19] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-21 13:12:19] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-3.5.0.tar.gz tmp/timedctl-3.5.1.tar.gz --markdown 20230721/t/timedctl/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-07-21 13:12:19] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-07-21 13:12:19] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.35.tar.gz tmp/superagent_py-0.0.36.tar.gz --markdown 20230721/s/superagent-py/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-07-21 13:12:19] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/98/b6/6a664c50ad6b2c9a02426eae26e2f97c692d19b3bc0c89f69c84a139e5e5/kiki_utils_api-1.4.9-py3-none-any.whl
+[2023-07-21 13:12:20] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-07-21 13:12:20] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-1.2.2.tar.gz tmp/ms_salesforce_api-1.2.3.tar.gz --markdown 20230721/m/ms-salesforce-api/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-21 13:12:20] INFO root fetch - processPackages [arcor2-arserver]: Downloading https://files.pythonhosted.org/packages/6e/37/b8e5b42c1af947dccc6aefbc5b6775ec0659b72a1e016100b50a974c771f/arcor2_arserver-1.1.0.tar.gz
+[2023-07-21 13:12:20] INFO root fetch - processPackages [kiki-utils-api]: executing diffoscope
+[2023-07-21 13:12:20] INFO root fetch - processPackages [kiki-utils-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiki_utils_api-1.4.8-py3-none-any.whl.zip tmp/kiki_utils_api-1.4.9-py3-none-any.whl.zip --markdown 20230721/k/kiki-utils-api/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-21 13:12:20] INFO root fetch - processPackages [mse-cli]: executing diffoscope
+[2023-07-21 13:12:20] INFO root fetch - processPackages [mse-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli-1.0.0.tar.gz tmp/mse_cli-1.0.1.tar.gz --markdown 20230721/m/mse-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 13:12:20] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/86/d3/afec22f99e37dd8393d1ba7ac6a651ff613a276088926fe41f7cc9880a95/unigui-1.9.0.tar.gz
+[2023-07-21 13:12:20] INFO root fetch - processPackages [arcor2-arserver]: executing diffoscope
+[2023-07-21 13:12:20] INFO root fetch - processPackages [arcor2-arserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_arserver-1.0.0.tar.gz tmp/arcor2_arserver-1.1.0.tar.gz --markdown 20230721/a/arcor2-arserver/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:20] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-21 13:12:20] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.8.5.tar.gz tmp/unigui-1.9.0.tar.gz --markdown 20230721/u/unigui/1.8.5-1.9.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:20] INFO root fetch - processPackages [arcor2]: Downloading https://files.pythonhosted.org/packages/a2/04/ba7fb4a95721027ce8b5602ddbb85ef09ae6d5d86333b35eaf9af1d23bcb/arcor2-1.1.0.tar.gz
+[2023-07-21 13:12:20] INFO root fetch - processPackages [arcor2]: executing diffoscope
+[2023-07-21 13:12:20] INFO root fetch - processPackages [arcor2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2-1.0.0rc1.tar.gz tmp/arcor2-1.1.0.tar.gz --markdown 20230721/a/arcor2/1.0.0rc1-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:21] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.13.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.14.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [database-without-orm-local]: Start processing: arcor2-build
+[2023-07-21 13:12:21] INFO root fetch - main [MainThread]: End processing [database-without-orm-local]: success
+[2023-07-21 13:12:21] INFO root fetch - processPackages [arcor2-build]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.8.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.9.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [ttcore]: Start processing: arcor2-execution
+[2023-07-21 13:12:21] INFO root fetch - main [MainThread]: End processing [ttcore]: success
+[2023-07-21 13:12:21] INFO root fetch - processPackages [arcor2-execution]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.5.0.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.5.1.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [timedctl]: Start processing: arcor2-fit-demo
+[2023-07-21 13:12:21] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-21 13:12:21] INFO root fetch - processPackages [arcor2-build]: Downloading https://files.pythonhosted.org/packages/0b/d5/1b58eee0653ecb0c55e2aca65d93be220067abb7fe811725471f722b74ab/arcor2_build-1.0.2.tar.gz
+[2023-07-21 13:12:21] INFO root fetch - processPackages [arcor2-fit-demo]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.35.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.36.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [superagent-py]: Start processing: dl2050utils
+[2023-07-21 13:12:21] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-07-21 13:12:21] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [arcor2-execution]: Downloading https://files.pythonhosted.org/packages/ca/5e/339fc28240d07242344fa9822548290bde0db15db78ba54a2741ffc84c7b/arcor2_execution-1.0.0.tar.gz
+[2023-07-21 13:12:21] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.4.8-py3-none-any.whl.zip]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.4.9-py3-none-any.whl.zip]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [kiki-utils-api]: Start processing: pororo-versionUp
+[2023-07-21 13:12:21] INFO root fetch - main [MainThread]: End processing [kiki-utils-api]: success
+[2023-07-21 13:12:21] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-07-21 13:12:21] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.2.2.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.2.3.tar.gz]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [ms-salesforce-api]: Start processing: buscador
+[2023-07-21 13:12:21] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-07-21 13:12:21] INFO root fetch - processPackages [pororo-versionUp]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [arcor2-fit-demo]: Downloading https://files.pythonhosted.org/packages/f4/d3/1245ad320326b139a5ab6f142532b62b8a437f136aac0b836e4e3c6a84e9/arcor2_fit_demo-1.1.0.tar.gz
+[2023-07-21 13:12:21] INFO root fetch - processPackages [buscador]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 13:12:21] INFO root fetch - processPackages [arcor2-build]: Downloading https://files.pythonhosted.org/packages/cc/b9/093da7b50ff86a075937b56b504320292bf34324b176d0297f9939a2be91/arcor2_build-1.1.0.tar.gz
+[2023-07-21 13:12:21] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/60/9e/7afb05d47b6f9312c44273343faac00022a5e481f731d32fbbbb252080fe/buscador-0.8.tar.gz
+[2023-07-21 13:12:21] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-07-21 13:12:21] INFO root fetch - processPackages [pororo-versionUp]: Downloading https://files.pythonhosted.org/packages/c8/c8/ee65a3b766d08447ac65778b635a58822bbb2a20af458bf4e4ff985c7e94/pororo_versionUp-0.4.1.tar.gz
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-build]: executing diffoscope
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_build-1.0.2.tar.gz tmp/arcor2_build-1.1.0.tar.gz --markdown 20230721/a/arcor2-build/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:22] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-07-21 13:12:22] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230721/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-execution]: Downloading https://files.pythonhosted.org/packages/0a/00/d8aeec0a55d94e2a4a6e04de38aefe03ade08a438173ca1f9103a91eb2ca/arcor2_execution-1.1.0.tar.gz
+[2023-07-21 13:12:22] INFO root fetch - processPackages [mse-cli]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli-1.0.0.tar.gz]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [mse-cli]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli-1.0.1.tar.gz]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [mse-cli]: Start processing: divideandscan
+[2023-07-21 13:12:22] INFO root fetch - main [MainThread]: End processing [mse-cli]: success
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-arserver]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_arserver-1.0.0.tar.gz]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-arserver]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_arserver-1.1.0.tar.gz]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-arserver]: Start processing: st-track-analysis
+[2023-07-21 13:12:22] INFO root fetch - main [MainThread]: End processing [arcor2-arserver]: success
+[2023-07-21 13:12:22] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/b5/62/eb5bd505c711ca5eeea0f356eec0ba144109aa5de06831a07b99dcd04845/buscador-0.9.tar.gz
+[2023-07-21 13:12:22] INFO root fetch - processPackages [divideandscan]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-execution]: executing diffoscope
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_execution-1.0.0.tar.gz tmp/arcor2_execution-1.1.0.tar.gz --markdown 20230721/a/arcor2-execution/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:22] WARNING root fetch - processPackages [st-track-analysis]: Skipping, unable to determine old version
+[2023-07-21 13:12:22] INFO root fetch - processPackages [st-track-analysis]: Start processing: CF-ALGO-1609
+[2023-07-21 13:12:22] INFO root fetch - main [MainThread]: End processing [st-track-analysis] error
+[2023-07-21 13:12:22] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-21 13:12:22] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.8.tar.gz tmp/buscador-0.9.tar.gz --markdown 20230721/b/buscador/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 13:12:22] WARNING root fetch - processPackages [CF-ALGO-1609]: Skipping, unable to determine old version
+[2023-07-21 13:12:22] INFO root fetch - processPackages [CF-ALGO-1609]: Start processing: cylc-uiserver
+[2023-07-21 13:12:22] INFO root fetch - main [MainThread]: End processing [CF-ALGO-1609] error
+[2023-07-21 13:12:22] INFO root fetch - processPackages [pororo-versionUp]: Downloading https://files.pythonhosted.org/packages/56/30/d94837fb6768fd1ef3701f6522bae2eba20675370cf74165d24a877871b5/pororo_versionUp-0.5.0.tar.gz
+[2023-07-21 13:12:22] INFO root fetch - processPackages [divideandscan]: Downloading https://files.pythonhosted.org/packages/85/b9/8b514ab7adb15ea51a7b250c4190b31baa40213cfee7bf02c875b7c36df1/divideandscan-0.3.7.tar.gz
+[2023-07-21 13:12:22] INFO root fetch - processPackages [cylc-uiserver]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [pororo-versionUp]: executing diffoscope
+[2023-07-21 13:12:22] INFO root fetch - processPackages [pororo-versionUp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pororo_versionUp-0.4.1.tar.gz tmp/pororo_versionUp-0.5.0.tar.gz --markdown 20230721/p/pororo-versionUp/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2]: Remove: archive file [/home/abi/fetcher/tmp/arcor2-1.0.0rc1.tar.gz]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2]: Remove: archive file [/home/abi/fetcher/tmp/arcor2-1.1.0.tar.gz]
+[2023-07-21 13:12:22] INFO root fetch - processPackages [arcor2]: Start processing: eventdetector-ts
+[2023-07-21 13:12:22] INFO root fetch - main [MainThread]: End processing [arcor2]: success
+[2023-07-21 13:12:22] WARNING root fetch - processPackages [eventdetector-ts]: Skipping, unable to determine old version
+[2023-07-21 13:12:22] INFO root fetch - main [MainThread]: End processing [eventdetector-ts] error
+[2023-07-21 13:12:22] INFO root fetch - processPackages [divideandscan]: Downloading https://files.pythonhosted.org/packages/4d/e8/3f74fd21bde52d5bfce47e54429ce31959dffe9e7fe7d51ebd7c3fb0ef4d/divideandscan-0.3.8.tar.gz
+[2023-07-21 13:12:22] INFO root fetch - processPackages [cylc-uiserver]: Downloading https://files.pythonhosted.org/packages/67/47/45d085003f23abab2b056300ca13f5b1b40e5736bc806eeed9074ac60d21/cylc-uiserver-1.2.2.tar.gz
+[2023-07-21 13:12:22] INFO root fetch - processPackages [divideandscan]: executing diffoscope
+[2023-07-21 13:12:22] INFO root fetch - processPackages [divideandscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divideandscan-0.3.7.tar.gz tmp/divideandscan-0.3.8.tar.gz --markdown 20230721/d/divideandscan/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-21 13:12:23] INFO root fetch - processPackages [arcor2-fit-demo]: Downloading https://files.pythonhosted.org/packages/60/ce/6fc6f06b18c1d712432fe2ef8df2d8c291509f2de28bd66f077fa1495a3a/arcor2_fit_demo-1.2.0.tar.gz
+[2023-07-21 13:12:23] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-07-21 13:12:23] INFO root fetch - processPackages [cylc-uiserver]: Downloading https://files.pythonhosted.org/packages/5c/13/20c73cf09d0d7dffed693bb35776dc4087dee589ca0580e6b25686b8ab3b/cylc-uiserver-1.3.0.tar.gz
+[2023-07-21 13:12:23] INFO root fetch - processPackages [arcor2-fit-demo]: executing diffoscope
+[2023-07-21 13:12:23] INFO root fetch - processPackages [arcor2-fit-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_fit_demo-1.1.0.tar.gz tmp/arcor2_fit_demo-1.2.0.tar.gz --markdown 20230721/a/arcor2-fit-demo/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:23] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.8.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.9.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-21 13:12:23] INFO root fetch - processPackages [arcor2-build]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_build-1.0.2.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - processPackages [arcor2-build]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_build-1.1.0.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - main [MainThread]: End processing [arcor2-build]: success
+[2023-07-21 13:12:23] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.5.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.0.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-21 13:12:23] INFO root fetch - processPackages [arcor2-execution]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution-1.0.0.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - processPackages [arcor2-execution]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution-1.1.0.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - main [MainThread]: End processing [arcor2-execution]: success
+[2023-07-21 13:12:23] INFO root fetch - processPackages [cylc-uiserver]: executing diffoscope
+[2023-07-21 13:12:23] INFO root fetch - processPackages [cylc-uiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylc-uiserver-1.2.2.tar.gz tmp/cylc-uiserver-1.3.0.tar.gz --markdown 20230721/c/cylc-uiserver/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-21 13:12:23] INFO root fetch - processPackages [divideandscan]: Remove: archive file [/home/abi/fetcher/tmp/divideandscan-0.3.7.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - processPackages [divideandscan]: Remove: archive file [/home/abi/fetcher/tmp/divideandscan-0.3.8.tar.gz]
+[2023-07-21 13:12:23] INFO root fetch - main [MainThread]: End processing [divideandscan]: success
+[2023-07-21 13:12:24] INFO root fetch - processPackages [pororo-versionUp]: Remove: archive file [/home/abi/fetcher/tmp/pororo_versionUp-0.4.1.tar.gz]
+[2023-07-21 13:12:24] INFO root fetch - processPackages [pororo-versionUp]: Remove: archive file [/home/abi/fetcher/tmp/pororo_versionUp-0.5.0.tar.gz]
+[2023-07-21 13:12:24] INFO root fetch - main [MainThread]: End processing [pororo-versionUp]: success
+[2023-07-21 13:12:25] INFO root fetch - processPackages [arcor2-fit-demo]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_fit_demo-1.1.0.tar.gz]
+[2023-07-21 13:12:25] INFO root fetch - processPackages [arcor2-fit-demo]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_fit_demo-1.2.0.tar.gz]
+[2023-07-21 13:12:25] INFO root fetch - main [MainThread]: End processing [arcor2-fit-demo]: success
+[2023-07-21 13:12:36] INFO root fetch - processPackages [cylc-uiserver]: Remove: archive file [/home/abi/fetcher/tmp/cylc-uiserver-1.2.2.tar.gz]
+[2023-07-21 13:12:36] INFO root fetch - processPackages [cylc-uiserver]: Remove: archive file [/home/abi/fetcher/tmp/cylc-uiserver-1.3.0.tar.gz]
+[2023-07-21 13:12:36] INFO root fetch - main [MainThread]: End processing [cylc-uiserver]: success
+[2023-07-21 13:12:36] INFO root fetch - main [MainThread]: Store serial: [18981793]
