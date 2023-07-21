@@ -10174,3 +10174,57 @@
 [2023-07-21 04:01:29] INFO root fetch - processPackages [hcpdiff]: Remove: archive file [/home/abi/fetcher/tmp/hcpdiff-0.5.4.tar.gz]
 [2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [hcpdiff]: success
 [2023-07-21 04:01:29] INFO root fetch - main [MainThread]: Store serial: [18977498]
+[2023-07-21 04:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977498]
+[2023-07-21 04:06:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dyc-package
+[2023-07-21 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iflytekspark
+[2023-07-21 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bgolearn
+[2023-07-21 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inscode-api
+[2023-07-21 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-circular-progress
+[2023-07-21 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yxspkg
+[2023-07-21 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jzyRLjROXlCa
+[2023-07-21 04:06:39] INFO root fetch - processPackages [st-circular-progress]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 04:06:39] INFO root fetch - processPackages [iflytekspark]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-21 04:06:39] INFO root fetch - processPackages [Bgolearn]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-21 04:06:39] WARNING root fetch - processPackages [dyc-package]: Skipping, unable to determine old version
+[2023-07-21 04:06:39] INFO root fetch - main [MainThread]: End processing [dyc-package] error
+[2023-07-21 04:06:39] INFO root fetch - processPackages [inscode-api]: New version: [0.2] Old Version: [0.1]
+[2023-07-21 04:06:39] WARNING root fetch - processPackages [jzyRLjROXlCa]: Skipping, unable to determine old version
+[2023-07-21 04:06:39] INFO root fetch - main [MainThread]: End processing [jzyRLjROXlCa] error
+[2023-07-21 04:06:39] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-07-21 04:06:39] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/be/6c/3d27e562846f11e47431662c76422f1d74ffd5b55adb3d0aac10c440fa58/st_circular_progress-0.1.4.tar.gz
+[2023-07-21 04:06:39] INFO root fetch - processPackages [inscode-api]: Downloading https://files.pythonhosted.org/packages/d2/5c/1cc9858088f9996f5b7c47248e79e9472757029bba9ebcd94b74c6d533a1/inscode_api-0.1.tar.gz
+[2023-07-21 04:06:39] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-07-21 04:06:40] INFO root fetch - processPackages [iflytekspark]: Downloading https://files.pythonhosted.org/packages/86/3b/718df0c1886ad530a682579e34c5eebd4464e1277e40b7a19b51fe92716b/iflytekspark-0.0.1-py3-none-any.whl
+[2023-07-21 04:06:40] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/3e/66/b8004a60e6cfa0fcfb8db65a8fc4badeac4dc718a056d0eb450224d676bd/Bgolearn-2.2.1.tar.gz
+[2023-07-21 04:06:40] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/b9/9b/c314166a8d8527e35a68aaf298b9b0d9083124254d88d9dbc31bab5f133b/st_circular_progress-0.1.5.tar.gz
+[2023-07-21 04:06:40] INFO root fetch - processPackages [inscode-api]: Downloading https://files.pythonhosted.org/packages/5f/7c/336cbaae2d27a5a61c6ad8d9081cab85fa2f8a6599a344331dc44323ffbd/inscode_api-0.2.tar.gz
+[2023-07-21 04:06:40] INFO root fetch - processPackages [inscode-api]: executing diffoscope
+[2023-07-21 04:06:40] INFO root fetch - processPackages [inscode-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inscode_api-0.1.tar.gz tmp/inscode_api-0.2.tar.gz --markdown 20230721/i/inscode-api/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-21 04:06:40] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 04:06:40] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.1.4.tar.gz tmp/st_circular_progress-0.1.5.tar.gz --markdown 20230721/s/st-circular-progress/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 04:06:40] INFO root fetch - processPackages [iflytekspark]: Downloading https://files.pythonhosted.org/packages/4c/09/c76c2f03ca688ab05be336a8705edaa69356f60141599231274839f774f4/iflytekspark-0.0.3.tar.gz
+[2023-07-21 04:06:40] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/c7/c9/ab9792d809b703201b5a45ba1a24a9edafa95a06841f654e51b8a6126868/Bgolearn-2.2.2.tar.gz
+[2023-07-21 04:06:40] INFO root fetch - processPackages [iflytekspark]: executing diffoscope
+[2023-07-21 04:06:40] INFO root fetch - processPackages [iflytekspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iflytekspark-0.0.1-py3-none-any.whl.zip tmp/iflytekspark-0.0.3.tar.gz --markdown 20230721/i/iflytekspark/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 04:06:40] INFO root fetch - processPackages [Bgolearn]: executing diffoscope
+[2023-07-21 04:06:40] INFO root fetch - processPackages [Bgolearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bgolearn-2.2.1.tar.gz tmp/Bgolearn-2.2.2.tar.gz --markdown 20230721/B/Bgolearn/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-21 04:06:40] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-07-21 04:06:40] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-07-21 04:06:40] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230721/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-07-21 04:06:41] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.4.tar.gz]
+[2023-07-21 04:06:41] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.5.tar.gz]
+[2023-07-21 04:06:41] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 04:06:41] INFO root fetch - processPackages [inscode-api]: Remove: archive file [/home/abi/fetcher/tmp/inscode_api-0.1.tar.gz]
+[2023-07-21 04:06:41] INFO root fetch - processPackages [inscode-api]: Remove: archive file [/home/abi/fetcher/tmp/inscode_api-0.2.tar.gz]
+[2023-07-21 04:06:41] INFO root fetch - main [MainThread]: End processing [inscode-api]: success
+[2023-07-21 04:06:41] INFO root fetch - processPackages [iflytekspark]: Remove: archive file [/home/abi/fetcher/tmp/iflytekspark-0.0.1-py3-none-any.whl.zip]
+[2023-07-21 04:06:41] INFO root fetch - processPackages [iflytekspark]: Remove: archive file [/home/abi/fetcher/tmp/iflytekspark-0.0.3.tar.gz]
+[2023-07-21 04:06:41] INFO root fetch - main [MainThread]: End processing [iflytekspark]: success
+[2023-07-21 04:06:41] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.2.1.tar.gz]
+[2023-07-21 04:06:41] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.2.2.tar.gz]
+[2023-07-21 04:06:41] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
+[2023-07-21 04:06:41] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-07-21 04:06:41] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-07-21 04:06:41] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-07-21 04:06:41] INFO root fetch - main [MainThread]: Store serial: [18977528]
