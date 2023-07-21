@@ -10098,3 +10098,79 @@
 [2023-07-21 03:56:18] INFO root fetch - processPackages [pxgpt]: Remove: archive file [/home/abi/fetcher/tmp/pxgpt-0.0.0rc1.tar.gz]
 [2023-07-21 03:56:18] INFO root fetch - main [MainThread]: End processing [pxgpt]: success
 [2023-07-21 03:56:18] INFO root fetch - main [MainThread]: Store serial: [18977441]
+[2023-07-21 04:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977441]
+[2023-07-21 04:01:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genai
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inscode-api
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: workadays
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ray
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toRST
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lite-tools
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-pairecservice
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcpdiff
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: duckdb
+[2023-07-21 04:01:27] INFO root fetch - processPackages [workadays]: New version: [2023.7.20] Old Version: [2023.5.25]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [genai]: New version: [2.1.0] Old Version: [2.0.0a4]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [aliyun-python-sdk-pairecservice]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [toRST]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [inscode-api]: New version: [0.2] Old Version: [0.1]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [hcpdiff]: New version: [0.5.4] Old Version: [0.4.2]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ray]: New version: [2.6.0] Old Version: [2.5.1]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/ac/e2/32bee2229b06a97204e00b2c745ded093d8c87139060cc291c6f19788b61/toRST-0.0.4.tar.gz
+[2023-07-21 04:01:27] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1968] Old Version: [0.8.2.dev1862]
+[2023-07-21 04:01:27] INFO root fetch - processPackages [hcpdiff]: Downloading https://files.pythonhosted.org/packages/04/7d/2a6ae047fe89e447c564c08e3031d9a7980561a513dc6a25c488a2a31f26/hcpdiff-0.4.2.tar.gz
+[2023-07-21 04:01:27] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-07-21 04:01:27] INFO root fetch - processPackages [ray]: Downloading https://files.pythonhosted.org/packages/f8/21/a933c94a6c5e665933c7e24b94901f068742e09b894c2e737e6729eb0c13/ray-2.5.1-cp39-cp39-win_amd64.whl
+[2023-07-21 04:01:27] INFO root fetch - processPackages [aliyun-python-sdk-pairecservice]: Downloading https://files.pythonhosted.org/packages/99/de/133c38ded792f16a13b56b9b1f64ac9114c0b27e44653ac8a56061b3f6ac/aliyun-python-sdk-pairecservice-1.0.0.tar.gz
+[2023-07-21 04:01:27] INFO root fetch - processPackages [inscode-api]: Downloading https://files.pythonhosted.org/packages/d2/5c/1cc9858088f9996f5b7c47248e79e9472757029bba9ebcd94b74c6d533a1/inscode_api-0.1.tar.gz
+[2023-07-21 04:01:27] INFO root fetch - processPackages [workadays]: Downloading https://files.pythonhosted.org/packages/6a/00/9d157de1fc0e91b231955f449332c8a64a02ef7feb7b311beded66256c0f/workadays-2023.5.25.tar.gz
+[2023-07-21 04:01:27] INFO root fetch - processPackages [genai]: Downloading https://files.pythonhosted.org/packages/75/7a/59a46261380e1f5f1a359640eb679c20b0b427d6244a83236244e59bca1b/genai-2.0.0a4.tar.gz
+[2023-07-21 04:01:27] WARNING root fetch - processPackages [ray]: Skipping package: exceeds size limit 21959999>=10485760
+[2023-07-21 04:01:27] INFO root fetch - main [MainThread]: End processing [ray] error
+[2023-07-21 04:01:27] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/50/56/b17e05c084d68a4be6b9d48a9cbe740eab891d1b18d2ed5d4826858bb08f/duckdb-0.8.2.dev1862.tar.gz
+[2023-07-21 04:01:27] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-07-21 04:01:27] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/39/75/6ded5fcc300a7d1ee7621af3a83dca4bb604bef5ce1c7e087903ccb91da4/toRST-0.0.5.tar.gz
+[2023-07-21 04:01:27] INFO root fetch - processPackages [hcpdiff]: Downloading https://files.pythonhosted.org/packages/7f/d0/426b99066b9cf405a96fe35b5fba6a8bcc26008130a4688bb6ac45379cd0/hcpdiff-0.5.4.tar.gz
+[2023-07-21 04:01:27] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10493221>=10485760
+[2023-07-21 04:01:27] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-21 04:01:27] INFO root fetch - processPackages [toRST]: executing diffoscope
+[2023-07-21 04:01:27] INFO root fetch - processPackages [toRST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toRST-0.0.4.tar.gz tmp/toRST-0.0.5.tar.gz --markdown 20230721/t/toRST/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-21 04:01:27] INFO root fetch - processPackages [inscode-api]: Downloading https://files.pythonhosted.org/packages/5f/7c/336cbaae2d27a5a61c6ad8d9081cab85fa2f8a6599a344331dc44323ffbd/inscode_api-0.2.tar.gz
+[2023-07-21 04:01:28] INFO root fetch - processPackages [aliyun-python-sdk-pairecservice]: Downloading https://files.pythonhosted.org/packages/35/5d/2af66e2e7094921abfebc937cae55ec71f41b7e59ada456c210ae172af3a/aliyun-python-sdk-pairecservice-1.0.1.tar.gz
+[2023-07-21 04:01:28] INFO root fetch - processPackages [inscode-api]: executing diffoscope
+[2023-07-21 04:01:28] INFO root fetch - processPackages [inscode-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inscode_api-0.1.tar.gz tmp/inscode_api-0.2.tar.gz --markdown 20230721/i/inscode-api/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-21 04:01:28] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-07-21 04:01:28] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230721/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-07-21 04:01:28] INFO root fetch - processPackages [hcpdiff]: executing diffoscope
+[2023-07-21 04:01:28] INFO root fetch - processPackages [hcpdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcpdiff-0.4.2.tar.gz tmp/hcpdiff-0.5.4.tar.gz --markdown 20230721/h/hcpdiff/0.4.2-0.5.4/diff.md --exclude *.pyd
+[2023-07-21 04:01:28] INFO root fetch - processPackages [workadays]: Downloading https://files.pythonhosted.org/packages/47/8f/770b47398a4d73be387c2fc60b963d706a01ee0ba9ae36f6765619877ab2/workadays-2023.7.20.tar.gz
+[2023-07-21 04:01:28] INFO root fetch - processPackages [aliyun-python-sdk-pairecservice]: executing diffoscope
+[2023-07-21 04:01:28] INFO root fetch - processPackages [aliyun-python-sdk-pairecservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-pairecservice-1.0.0.tar.gz tmp/aliyun-python-sdk-pairecservice-1.0.1.tar.gz --markdown 20230721/a/aliyun-python-sdk-pairecservice/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 04:01:28] INFO root fetch - processPackages [workadays]: executing diffoscope
+[2023-07-21 04:01:28] INFO root fetch - processPackages [workadays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workadays-2023.5.25.tar.gz tmp/workadays-2023.7.20.tar.gz --markdown 20230721/w/workadays/2023.5.25-2023.7.20/diff.md --exclude *.pyd
+[2023-07-21 04:01:28] INFO root fetch - processPackages [genai]: Downloading https://files.pythonhosted.org/packages/be/28/ff0de84f38a579b6db12ef003fcc710d4fcc49ad6534fdb7d74d4959d751/genai-2.1.0.tar.gz
+[2023-07-21 04:01:28] INFO root fetch - processPackages [genai]: executing diffoscope
+[2023-07-21 04:01:28] INFO root fetch - processPackages [genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai-2.0.0a4.tar.gz tmp/genai-2.1.0.tar.gz --markdown 20230721/g/genai/2.0.0a4-2.1.0/diff.md --exclude *.pyd
+[2023-07-21 04:01:29] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.4.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.5.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [toRST]: success
+[2023-07-21 04:01:29] INFO root fetch - processPackages [inscode-api]: Remove: archive file [/home/abi/fetcher/tmp/inscode_api-0.1.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - processPackages [inscode-api]: Remove: archive file [/home/abi/fetcher/tmp/inscode_api-0.2.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [inscode-api]: success
+[2023-07-21 04:01:29] INFO root fetch - processPackages [workadays]: Remove: archive file [/home/abi/fetcher/tmp/workadays-2023.5.25.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - processPackages [workadays]: Remove: archive file [/home/abi/fetcher/tmp/workadays-2023.7.20.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [workadays]: success
+[2023-07-21 04:01:29] INFO root fetch - processPackages [genai]: Remove: archive file [/home/abi/fetcher/tmp/genai-2.0.0a4.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - processPackages [genai]: Remove: archive file [/home/abi/fetcher/tmp/genai-2.1.0.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [genai]: success
+[2023-07-21 04:01:29] INFO root fetch - processPackages [aliyun-python-sdk-pairecservice]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-pairecservice-1.0.0.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - processPackages [aliyun-python-sdk-pairecservice]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-pairecservice-1.0.1.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-pairecservice]: success
+[2023-07-21 04:01:29] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-07-21 04:01:29] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-07-21 04:01:29] INFO root fetch - processPackages [hcpdiff]: Remove: archive file [/home/abi/fetcher/tmp/hcpdiff-0.4.2.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - processPackages [hcpdiff]: Remove: archive file [/home/abi/fetcher/tmp/hcpdiff-0.5.4.tar.gz]
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: End processing [hcpdiff]: success
+[2023-07-21 04:01:29] INFO root fetch - main [MainThread]: Store serial: [18977498]
