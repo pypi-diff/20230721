@@ -15332,3 +15332,88 @@
 [2023-07-21 08:38:43] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-07-21 08:38:43] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-07-21 08:38:43] INFO root fetch - main [MainThread]: Store serial: [18979365]
+[2023-07-21 08:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979365]
+[2023-07-21 08:43:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geniusbot
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Giraffe-View
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-memes-api
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bfgcardplay
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Arvixgpt
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Arvixgpt
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: string-grab
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kubernetes
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudfront-signed-cookies
+[2023-07-21 08:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nicescad
+[2023-07-21 08:43:52] INFO root fetch - processPackages [Giraffe-View]: New version: [0.0.9.2] Old Version: [0.0.9.1]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [Arvixgpt]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [bfgcardplay]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [cloudfront-signed-cookies]: New version: [1.1] Old Version: [1.0]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [string-grab]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [Arvixgpt]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.1.0a1689918291] Old Version: [4.1.0a1689912856]
+[2023-07-21 08:43:52] WARNING root fetch - processPackages [nicescad]: Skipping, unable to determine old version
+[2023-07-21 08:43:52] INFO root fetch - main [MainThread]: End processing [nicescad] error
+[2023-07-21 08:43:52] INFO root fetch - processPackages [nonebot-plugin-memes-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-21 08:43:52] INFO root fetch - processPackages [string-grab]: Downloading https://files.pythonhosted.org/packages/8f/c1/9e6685d16b879eb676d3cb5af803a17cc6781b5f5117637a2a063dfc05c3/string_grab-0.0.5.tar.gz
+[2023-07-21 08:43:52] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/c9/13/07513953ad7faf4f8fe10ccb05e930b176590f7c11b8b17c8d319f62942b/pulumi_kubernetes-4.1.0a1689912856.tar.gz
+[2023-07-21 08:43:52] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/47/10/22e595c524fa44db554d08d70db43536c6b4bfc2f09dfd6fa29eb6585a4f/Giraffe_View-0.0.9.1.tar.gz
+[2023-07-21 08:43:52] INFO root fetch - processPackages [Arvixgpt]: Downloading https://files.pythonhosted.org/packages/a3/03/2d4d367fe48dcaee157635424cff40b1b957aa5444fdf1fe538f7b92b4ad/Arvixgpt-0.0.0.2-py3-none-any.whl
+[2023-07-21 08:43:52] INFO root fetch - processPackages [Arvixgpt]: Downloading https://files.pythonhosted.org/packages/a3/03/2d4d367fe48dcaee157635424cff40b1b957aa5444fdf1fe538f7b92b4ad/Arvixgpt-0.0.0.2-py3-none-any.whl
+[2023-07-21 08:43:52] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2023-07-21 08:43:52] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/c6/b4/85ab17805dd28ca0dcb3e08653e8e792f5362f94463eb7f8ac02cd3f5cc4/bfgcardplay-1.0.8.tar.gz
+[2023-07-21 08:43:52] INFO root fetch - processPackages [cloudfront-signed-cookies]: Downloading https://files.pythonhosted.org/packages/27/3d/d65b1e6726512acc3379bc742f04ffac143c9766fa6fc17c3a19c7383d0a/cloudfront_signed_cookies-1.0.tar.gz
+[2023-07-21 08:43:52] INFO root fetch - processPackages [nonebot-plugin-memes-api]: Downloading https://files.pythonhosted.org/packages/2e/b6/afb81ec0f9a099ec9a49bff0724ea3cd239b4cdfaa8e635d78a50b8c35d9/nonebot_plugin_memes_api-0.1.4.tar.gz
+[2023-07-21 08:43:53] INFO root fetch - processPackages [string-grab]: Downloading https://files.pythonhosted.org/packages/6d/c0/d2a2d5931ca75a657f07bb80303c446ec723f6fb97165f9d7676074db58f/string_grab-0.0.6.tar.gz
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/ef/92/a219db7b2cc9d537059edd628e35c744fa7227844b7e36611d8f0bd3b283/Giraffe_View-0.0.9.2.tar.gz
+[2023-07-21 08:43:53] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/a4/b3/17075c0eddb552d4c4063971f7f01489f498850f3bd25367f044ff3bf5d3/pulumi_kubernetes-4.1.0a1689918291.tar.gz
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Arvixgpt]: Downloading https://files.pythonhosted.org/packages/64/a1/bd359a371005154affba01ea44a188eaad6f4ab7fd2d9ae85d6059eac7c6/Arvixgpt-0.0.0.3-py3-none-any.whl
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Arvixgpt]: Downloading https://files.pythonhosted.org/packages/64/a1/bd359a371005154affba01ea44a188eaad6f4ab7fd2d9ae85d6059eac7c6/Arvixgpt-0.0.0.3-py3-none-any.whl
+[2023-07-21 08:43:53] INFO root fetch - processPackages [string-grab]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [string-grab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string_grab-0.0.5.tar.gz tmp/string_grab-0.0.6.tar.gz --markdown 20230721/s/string-grab/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.0.9.1.tar.gz tmp/Giraffe_View-0.0.9.2.tar.gz --markdown 20230721/G/Giraffe-View/0.0.9.1-0.0.9.2/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2023-07-21 08:43:53] INFO root fetch - processPackages [cloudfront-signed-cookies]: Downloading https://files.pythonhosted.org/packages/38/22/4b67230dadab86c22b2c1941cd3393453a9acc077b61ab2c0658113de476/cloudfront_signed_cookies-1.1.tar.gz
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Arvixgpt]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Arvixgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Arvixgpt-0.0.0.2-py3-none-any.whl.zip tmp/Arvixgpt-0.0.0.3-py3-none-any.whl.zip --markdown 20230721/A/Arvixgpt/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [nonebot-plugin-memes-api]: Downloading https://files.pythonhosted.org/packages/d2/79/778c1a6a6890fbd9da4fd0cdacf23474f12b97d5922296abb9c1bb2f7bf1/nonebot_plugin_memes_api-0.1.5.tar.gz
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Arvixgpt]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [Arvixgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Arvixgpt-0.0.0.2-py3-none-any.whl.zip tmp/Arvixgpt-0.0.0.3-py3-none-any.whl.zip --markdown 20230721/A/Arvixgpt/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/da/18/444f9d7b0e9ab2bd209590967158be7d5a0afd26f9af0133591dc7247f0b/bfgcardplay-1.0.9.tar.gz
+[2023-07-21 08:43:53] INFO root fetch - processPackages [cloudfront-signed-cookies]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [cloudfront-signed-cookies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudfront_signed_cookies-1.0.tar.gz tmp/cloudfront_signed_cookies-1.1.tar.gz --markdown 20230721/c/cloudfront-signed-cookies/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/g/geniusbot/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [nonebot-plugin-memes-api]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [nonebot-plugin-memes-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_memes_api-0.1.4.tar.gz tmp/nonebot_plugin_memes_api-0.1.5.tar.gz --markdown 20230721/n/nonebot-plugin-memes-api/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.1.0a1689912856.tar.gz tmp/pulumi_kubernetes-4.1.0a1689918291.tar.gz --markdown 20230721/p/pulumi-kubernetes/4.1.0a1689912856-4.1.0a1689918291/diff.md --exclude *.pyd
+[2023-07-21 08:43:53] INFO root fetch - processPackages [bfgcardplay]: executing diffoscope
+[2023-07-21 08:43:53] INFO root fetch - processPackages [bfgcardplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgcardplay-1.0.8.tar.gz tmp/bfgcardplay-1.0.9.tar.gz --markdown 20230721/b/bfgcardplay/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 08:43:54] INFO root fetch - processPackages [Arvixgpt]: Remove: archive file [/home/abi/fetcher/tmp/Arvixgpt-0.0.0.2-py3-none-any.whl.zip]
+[2023-07-21 08:43:54] INFO root fetch - processPackages [Arvixgpt]: Remove: archive file [/home/abi/fetcher/tmp/Arvixgpt-0.0.0.3-py3-none-any.whl.zip]
+[2023-07-21 08:43:54] INFO root fetch - main [MainThread]: End processing [Arvixgpt]: success
+[2023-07-21 08:43:54] INFO root fetch - processPackages [string-grab]: Remove: archive file [/home/abi/fetcher/tmp/string_grab-0.0.5.tar.gz]
+[2023-07-21 08:43:54] INFO root fetch - processPackages [string-grab]: Remove: archive file [/home/abi/fetcher/tmp/string_grab-0.0.6.tar.gz]
+[2023-07-21 08:43:54] INFO root fetch - main [MainThread]: End processing [string-grab]: success
+[2023-07-21 08:43:54] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.1.tar.gz]
+[2023-07-21 08:43:54] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.2.tar.gz]
+[2023-07-21 08:43:54] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2023-07-21 08:43:55] INFO root fetch - main [MainThread]: End processing [Arvixgpt]: success
+[2023-07-21 08:43:55] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 08:43:55] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 08:43:55] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2023-07-21 08:43:55] INFO root fetch - processPackages [nonebot-plugin-memes-api]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_memes_api-0.1.4.tar.gz]
+[2023-07-21 08:43:55] INFO root fetch - processPackages [nonebot-plugin-memes-api]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_memes_api-0.1.5.tar.gz]
+[2023-07-21 08:43:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-memes-api]: success
+[2023-07-21 08:43:55] INFO root fetch - processPackages [cloudfront-signed-cookies]: Remove: archive file [/home/abi/fetcher/tmp/cloudfront_signed_cookies-1.0.tar.gz]
+[2023-07-21 08:43:55] INFO root fetch - processPackages [cloudfront-signed-cookies]: Remove: archive file [/home/abi/fetcher/tmp/cloudfront_signed_cookies-1.1.tar.gz]
+[2023-07-21 08:43:55] INFO root fetch - main [MainThread]: End processing [cloudfront-signed-cookies]: success
+[2023-07-21 08:43:55] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.8.tar.gz]
+[2023-07-21 08:43:55] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.9.tar.gz]
+[2023-07-21 08:43:55] INFO root fetch - main [MainThread]: End processing [bfgcardplay]: success
+[2023-07-21 08:43:58] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689912856.tar.gz]
+[2023-07-21 08:43:58] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689918291.tar.gz]
+[2023-07-21 08:43:58] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-07-21 08:43:58] INFO root fetch - main [MainThread]: Store serial: [18979396]
