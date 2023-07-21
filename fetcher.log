@@ -13027,3 +13027,49 @@
 [2023-07-21 06:06:30] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.380.0.tar.gz]
 [2023-07-21 06:06:30] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-21 06:06:30] INFO root fetch - main [MainThread]: Store serial: [18978471]
+[2023-07-21 06:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978471]
+[2023-07-21 06:11:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-21 06:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: verify4py
+[2023-07-21 06:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-07-21 06:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretext
+[2023-07-21 06:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: verify4py
+[2023-07-21 06:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trongrid-extractor
+[2023-07-21 06:11:39] INFO root fetch - processPackages [trongrid-extractor]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-07-21 06:11:39] INFO root fetch - processPackages [verify4py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 06:11:39] INFO root fetch - processPackages [verify4py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 06:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.1] Old Version: [16.0.1.3.0]
+[2023-07-21 06:11:39] INFO root fetch - processPackages [pretext]: New version: [1.7.1.dev20230720] Old Version: [1.7.1]
+[2023-07-21 06:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/dc/b1/4825bb34bb46de835ddc9fe82d13a0684ebdb4bfacc424e0d618d37d5d09/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl
+[2023-07-21 06:11:39] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/07/86/3761e2a1f0bbe695ac8a05c1a493568b1baf64e4c9c0f59cf4e2f5797582/verify4py-1.0.0.tar.gz
+[2023-07-21 06:11:39] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/07/86/3761e2a1f0bbe695ac8a05c1a493568b1baf64e4c9c0f59cf4e2f5797582/verify4py-1.0.0.tar.gz
+[2023-07-21 06:11:39] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/9e/53/3a63b4e935b2cbd5b9472aba9455732ce3cf2223f12c3130e1ccdd849360/pretext-1.7.1.tar.gz
+[2023-07-21 06:11:39] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/88/f9/bc6aac01b62f17119b89052274bdf7a0391816c3a9984d69d9a710c8d027/trongrid_extractor-0.4.0.tar.gz
+[2023-07-21 06:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/40/3f/6507a40a2b7c28c76b87c5c1a167ebe91fb68b890e36eadc35df33e5f2a8/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl
+[2023-07-21 06:11:39] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/af/29/747609d4db37f662da6d18bab7378b70a2295745d6a870f9d48dd25619ee/trongrid_extractor-1.0.0.tar.gz
+[2023-07-21 06:11:40] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-07-21 06:11:40] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.0-16.0.1.3.1/diff.md --exclude *.pyd
+[2023-07-21 06:11:40] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/06/be/3682ad3caff5ff0447575287d54ba55e1c8074dcce14027342873ce38d50/verify4py-1.0.1.tar.gz
+[2023-07-21 06:11:40] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/06/be/3682ad3caff5ff0447575287d54ba55e1c8074dcce14027342873ce38d50/verify4py-1.0.1.tar.gz
+[2023-07-21 06:11:40] INFO root fetch - processPackages [trongrid-extractor]: executing diffoscope
+[2023-07-21 06:11:40] INFO root fetch - processPackages [trongrid-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trongrid_extractor-0.4.0.tar.gz tmp/trongrid_extractor-1.0.0.tar.gz --markdown 20230721/t/trongrid-extractor/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-21 06:11:40] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/17/f1/2825944c17bba98048c894d9facc49f50c02dbe34c65fff245ee3d14d0e7/pretext-1.7.1.dev20230720.tar.gz
+[2023-07-21 06:11:40] INFO root fetch - processPackages [verify4py]: executing diffoscope
+[2023-07-21 06:11:40] INFO root fetch - processPackages [verify4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-1.0.0.tar.gz tmp/verify4py-1.0.1.tar.gz --markdown 20230721/v/verify4py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 06:11:40] INFO root fetch - processPackages [verify4py]: executing diffoscope
+[2023-07-21 06:11:40] INFO root fetch - processPackages [verify4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-1.0.0.tar.gz tmp/verify4py-1.0.1.tar.gz --markdown 20230721/v/verify4py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 06:11:40] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-21 06:11:40] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.1.tar.gz tmp/pretext-1.7.1.dev20230720.tar.gz --markdown 20230721/p/pretext/1.7.1-1.7.1.dev20230720/diff.md --exclude *.pyd
+[2023-07-21 06:11:40] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.4.0.tar.gz]
+[2023-07-21 06:11:40] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-1.0.0.tar.gz]
+[2023-07-21 06:11:40] INFO root fetch - main [MainThread]: End processing [trongrid-extractor]: success
+[2023-07-21 06:11:41] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-1.0.0.tar.gz]
+[2023-07-21 06:11:41] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-1.0.1.tar.gz]
+[2023-07-21 06:11:41] INFO root fetch - main [MainThread]: End processing [verify4py]: success
+[2023-07-21 06:11:41] INFO root fetch - main [MainThread]: End processing [verify4py]: success
+[2023-07-21 06:11:41] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-21 06:11:41] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip]
+[2023-07-21 06:11:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-07-21 06:11:43] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.1.tar.gz]
+[2023-07-21 06:11:43] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.1.dev20230720.tar.gz]
+[2023-07-21 06:11:43] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-21 06:11:43] INFO root fetch - main [MainThread]: Store serial: [18978483]
