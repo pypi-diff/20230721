@@ -12817,3 +12817,33 @@
 [2023-07-21 05:47:27] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_chatgpt-0.6.2.tar.gz]
 [2023-07-21 05:47:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-chatgpt]: success
 [2023-07-21 05:47:27] INFO root fetch - main [MainThread]: Store serial: [18978366]
+[2023-07-21 05:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978366]
+[2023-07-21 05:52:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-21 05:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-l10n-fr-ecotaxe
+[2023-07-21 05:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: griptape
+[2023-07-21 05:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nids-datasets
+[2023-07-21 05:52:36] INFO root fetch - processPackages [nids-datasets]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 05:52:36] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-21 05:52:36] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-07-21 05:52:36] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-07-21 05:52:36] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/05/68/74bebcab6f623b2d9bf5e09ee6f88569bda4ca2a8b0d06dd9794fb447727/nids_datasets-0.1.2.tar.gz
+[2023-07-21 05:52:36] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/17/23/e8e04b31f95fcbfc5dff1b0856ed815fc133a84d13c679042dec20523a7e/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-07-21 05:52:36] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-07-21 05:52:36] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/f3/af/26095ac1507e759e082fa0ea0f4e409fe71310da6092fe9b23071b191a6b/nids_datasets-0.1.3.tar.gz
+[2023-07-21 05:52:36] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-07-21 05:52:36] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230721/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 05:52:36] INFO root fetch - processPackages [nids-datasets]: executing diffoscope
+[2023-07-21 05:52:36] INFO root fetch - processPackages [nids-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_datasets-0.1.2.tar.gz tmp/nids_datasets-0.1.3.tar.gz --markdown 20230721/n/nids-datasets/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 05:52:36] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/26/fa/a2676a3f8337adec55f347482564885afb6b38e6c8ece3f51c72027b49c9/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-07-21 05:52:36] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: executing diffoscope
+[2023-07-21 05:52:36] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230721/o/odoo8-addon-l10n-fr-ecotaxe/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-21 05:52:37] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.2.tar.gz]
+[2023-07-21 05:52:37] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.3.tar.gz]
+[2023-07-21 05:52:37] INFO root fetch - main [MainThread]: End processing [nids-datasets]: success
+[2023-07-21 05:52:37] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-07-21 05:52:37] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-07-21 05:52:37] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-07-21 05:52:37] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-21 05:52:37] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-21 05:52:37] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-fr-ecotaxe]: success
+[2023-07-21 05:52:37] INFO root fetch - main [MainThread]: Store serial: [18978376]
