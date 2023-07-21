@@ -9972,3 +9972,65 @@
 [2023-07-21 03:45:52] WARNING root fetch - processPackages [theos-ai]: Skipping package: exceeds size limit 11962740>=10485760
 [2023-07-21 03:45:52] INFO root fetch - main [MainThread]: End processing [theos-ai] error
 [2023-07-21 03:45:52] INFO root fetch - main [MainThread]: Store serial: [18977368]
+[2023-07-21 03:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977368]
+[2023-07-21 03:51:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-rdma-qe
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inscode-api
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geometria
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: niche-cv
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GAO
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-circular-progress
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volttron-lib-tagging
+[2023-07-21 03:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: centralcli
+[2023-07-21 03:51:01] INFO root fetch - processPackages [st-circular-progress]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-21 03:51:02] INFO root fetch - processPackages [volttron-lib-tagging]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-07-21 03:51:02] INFO root fetch - processPackages [python-rdma-qe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 03:51:02] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-21 03:51:02] WARNING root fetch - processPackages [geometria]: Skipping, unable to determine old version
+[2023-07-21 03:51:02] INFO root fetch - main [MainThread]: End processing [geometria] error
+[2023-07-21 03:51:02] WARNING root fetch - processPackages [inscode-api]: Skipping, unable to determine old version
+[2023-07-21 03:51:02] INFO root fetch - main [MainThread]: End processing [inscode-api] error
+[2023-07-21 03:51:02] WARNING root fetch - processPackages [GAO]: Skipping, unable to determine old version
+[2023-07-21 03:51:02] INFO root fetch - main [MainThread]: End processing [GAO] error
+[2023-07-21 03:51:02] INFO root fetch - processPackages [niche-cv]: New version: [0.0.2] Old Version: [0.0.11]
+[2023-07-21 03:51:02] INFO root fetch - processPackages [centralcli]: New version: [1.9] Old Version: [1.8]
+[2023-07-21 03:51:02] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/33/56/6d8f650620c91c077fb165e6d87ae17c204f20b8ef19b5f3a895ba3d8e58/st_circular_progress-0.1.3.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [volttron-lib-tagging]: Downloading https://files.pythonhosted.org/packages/d5/e8/8a95b1722c6f8c5e5258828466ea10e93ffb6a4ecc5c5172eb378537b7c3/volttron_lib_tagging-0.1.1a2.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [niche-cv]: Downloading https://files.pythonhosted.org/packages/ce/fd/c921bcf1a645b77a731e507cb26bdc717414e1a4a0aedcb989970a4feeac/niche_cv-0.0.11.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/ac/2c/8971ad083c228473dee1b89729468b3aec1908d2a673f6a1c7ae247bc697/centralcli-1.8.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/d0/76/8818287b11cd5aa99bcf0fc9ab7ab61b8c717dbd537c792caa59d09826e9/python_rdma_qe-0.0.9.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/be/6c/3d27e562846f11e47431662c76422f1d74ffd5b55adb3d0aac10c440fa58/st_circular_progress-0.1.4.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [volttron-lib-tagging]: Downloading https://files.pythonhosted.org/packages/1c/22/a8f6692b45b30101fa911c2bbb75ca29e88fc316eddefb56ab7a359b297b/volttron_lib_tagging-0.1.1a3.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [niche-cv]: Downloading https://files.pythonhosted.org/packages/7b/56/f95d0aaef4e8ddc19caa107f0a76d617034b538b56bea473fa79a9628e96/niche_cv-0.0.2.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-21 03:51:02] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 03:51:02] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.1.3.tar.gz tmp/st_circular_progress-0.1.4.tar.gz --markdown 20230721/s/st-circular-progress/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-21 03:51:02] WARNING root fetch - processPackages [python-rdma-qe]: Skipping package: exceeds size limit 14063526>=10485760
+[2023-07-21 03:51:02] INFO root fetch - main [MainThread]: End processing [python-rdma-qe] error
+[2023-07-21 03:51:02] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-21 03:51:02] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230721/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-21 03:51:02] INFO root fetch - processPackages [volttron-lib-tagging]: executing diffoscope
+[2023-07-21 03:51:02] INFO root fetch - processPackages [volttron-lib-tagging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_tagging-0.1.1a2.tar.gz tmp/volttron_lib_tagging-0.1.1a3.tar.gz --markdown 20230721/v/volttron-lib-tagging/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-07-21 03:51:02] INFO root fetch - processPackages [niche-cv]: executing diffoscope
+[2023-07-21 03:51:02] INFO root fetch - processPackages [niche-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niche_cv-0.0.11.tar.gz tmp/niche_cv-0.0.2.tar.gz --markdown 20230721/n/niche-cv/0.0.11-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 03:51:02] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/44/28/a40ea20815bee95db9b68238b92b40a3eaa4da3bb83bca0cfba0869c3406/centralcli-1.9.tar.gz
+[2023-07-21 03:51:03] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2023-07-21 03:51:03] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-1.8.tar.gz tmp/centralcli-1.9.tar.gz --markdown 20230721/c/centralcli/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-21 03:51:03] INFO root fetch - processPackages [volttron-lib-tagging]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_tagging-0.1.1a2.tar.gz]
+[2023-07-21 03:51:03] INFO root fetch - processPackages [volttron-lib-tagging]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_tagging-0.1.1a3.tar.gz]
+[2023-07-21 03:51:03] INFO root fetch - main [MainThread]: End processing [volttron-lib-tagging]: success
+[2023-07-21 03:51:03] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.3.tar.gz]
+[2023-07-21 03:51:03] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.4.tar.gz]
+[2023-07-21 03:51:03] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 03:51:03] INFO root fetch - processPackages [niche-cv]: Remove: archive file [/home/abi/fetcher/tmp/niche_cv-0.0.11.tar.gz]
+[2023-07-21 03:51:03] INFO root fetch - processPackages [niche-cv]: Remove: archive file [/home/abi/fetcher/tmp/niche_cv-0.0.2.tar.gz]
+[2023-07-21 03:51:03] INFO root fetch - main [MainThread]: End processing [niche-cv]: success
+[2023-07-21 03:51:04] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-21 03:51:04] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-21 03:51:04] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-21 03:51:04] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.8.tar.gz]
+[2023-07-21 03:51:04] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.9.tar.gz]
+[2023-07-21 03:51:04] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2023-07-21 03:51:04] INFO root fetch - main [MainThread]: Store serial: [18977420]
