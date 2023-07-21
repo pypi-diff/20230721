@@ -1,4 +1,4 @@
-# Comparing `tmp/botocore-a-la-carte-elastictranscoder-1.31.6.tar.gz` & `tmp/botocore_a_la_carte_elastictranscoder-1.31.8-py3-none-any.whl.zip`
+# Comparing `tmp/botocore-a-la-carte-elastictranscoder-1.31.6.tar.gz` & `tmp/botocore-a-la-carte-elastictranscoder-1.31.8.tar.gz`
 
 ## filetype from file(1)
 
