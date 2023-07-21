@@ -19962,3 +19962,93 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:14:28] INFO root fetch - processPackages [azureml-infra-tools]: Remove: archive file [/home/abi/fetcher/tmp/azureml_infra_tools-0.1.0a1.tar.gz]
 [2023-07-21 12:14:28] INFO root fetch - main [MainThread]: End processing [azureml-infra-tools]: success
 [2023-07-21 12:14:28] INFO root fetch - main [MainThread]: Store serial: [18981260]
+[2023-07-21 12:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981260]
+[2023-07-21 12:19:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titan-iris
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zerocap-websocket-test
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythoncoin
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idbadapter
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axa-fr-splitter
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mly-pipeline
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iotlab-mqtt-bridge
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: one-api-tool
+[2023-07-21 12:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uncertainty-datatypes
+[2023-07-21 12:19:37] INFO root fetch - processPackages [pythoncoin]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 12:19:37] INFO root fetch - processPackages [axa-fr-splitter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 12:19:37] WARNING root fetch - processPackages [iotlab-mqtt-bridge]: Skipping, unable to determine old version
+[2023-07-21 12:19:37] INFO root fetch - processPackages [iotlab-mqtt-bridge]: Start processing: hello-world-iddy
+[2023-07-21 12:19:37] INFO root fetch - main [MainThread]: End processing [iotlab-mqtt-bridge] error
+[2023-07-21 12:19:37] INFO root fetch - processPackages [idbadapter]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-21 12:19:37] INFO root fetch - processPackages [zerocap-websocket-test]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 12:19:37] INFO root fetch - processPackages [mly-pipeline]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-21 12:19:37] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 12:19:37] INFO root fetch - processPackages [one-api-tool]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-21 12:19:37] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-21 12:19:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202307211017] Old Version: [99.0.202307210940]
+[2023-07-21 12:19:37] WARNING root fetch - processPackages [hello-world-iddy]: Skipping, unable to determine old version
+[2023-07-21 12:19:37] INFO root fetch - main [MainThread]: End processing [hello-world-iddy] error
+[2023-07-21 12:19:37] INFO root fetch - processPackages [axa-fr-splitter]: Downloading https://files.pythonhosted.org/packages/cb/a2/b153b0790b520f8cec217bf3fc1e861366a84e27f6cdd71f0ed36951d76c/axa-fr-splitter-0.1.0.tar.gz
+[2023-07-21 12:19:37] INFO root fetch - processPackages [pythoncoin]: Downloading https://files.pythonhosted.org/packages/27/09/87122b8a6df6fd4bfe8aa95ba528693c68a096e9ccb66c37efaea235f6f5/pythoncoin-1.0.1.tar.gz
+[2023-07-21 12:19:37] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-21 12:19:37] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/8a/2d/9e387c108c0ec9b9ef0eec8808bf116e31c997f4b0cf1ef9daa0977db034/one-api-tool-0.4.7.tar.gz
+[2023-07-21 12:19:37] INFO root fetch - processPackages [zerocap-websocket-test]: Downloading https://files.pythonhosted.org/packages/39/a6/654432155296a5cac3b7cedf50d92e919d09623d68e5e9887e59b0d06bae/zerocap_websocket_test-1.0.0.tar.gz
+[2023-07-21 12:19:37] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/17/41/140a53c5cc071f923bffc86a58344a39ec8c867af803d18b7bfe2cb32497/idbadapter-1.9.3.tar.gz
+[2023-07-21 12:19:37] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/75/0b/329ce2d840557c79c05d830a13ded3421003cdff4a4dfb386ae002b262f0/mly_pipeline-0.5.8.tar.gz
+[2023-07-21 12:19:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3c/07/19288e219300bf3395ae005336ba87c31cb3f79674d4ec8d1f9643397d39/kcli-99.0.202307210940-py3-none-any.whl
+[2023-07-21 12:19:37] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/47/63/9686e1e4a70487f9723de948b123cc39a4acbc9e1dfbbb400a0a5e107698/uncertainty-datatypes-1.0.8.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [axa-fr-splitter]: Downloading https://files.pythonhosted.org/packages/95/38/dc47bc1919a5f9082c0b1ddb4e9119edb77963a595586187139d04763fcf/axa-fr-splitter-0.1.1.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [pythoncoin]: Downloading https://files.pythonhosted.org/packages/c7/7a/8e8d8df200a061f9e8dc3e130b10eaa170154cd2b5466e72ddf4dc1d066e/pythoncoin-1.0.2.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/01/bd/9aaa0c46d20ceba26f6bc2c103fd6b97389fbafefe5e72e44c5b267e139a/one-api-tool-0.4.8.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/a2/0e/68bea11827fa0851563450359afc1526f80bfff934f592a362c8e9c4e660/uncertainty-datatypes-1.0.9.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [axa-fr-splitter]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [axa-fr-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axa-fr-splitter-0.1.0.tar.gz tmp/axa-fr-splitter-0.1.1.tar.gz --markdown 20230721/a/axa-fr-splitter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230721/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [zerocap-websocket-test]: Downloading https://files.pythonhosted.org/packages/d5/2b/7f8d521d8a4081d862853e490efdaa916ed5c8bdc3b05dac501f7568441d/zerocap_websocket_test-1.0.1.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [pythoncoin]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [pythoncoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncoin-1.0.1.tar.gz tmp/pythoncoin-1.0.2.tar.gz --markdown 20230721/p/pythoncoin/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/9c/40/c2df1bd599a5e1ca542cb7f8109975406facfdb725ec9dfc5132cdd44a99/mly_pipeline-0.5.9.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.4.7.tar.gz tmp/one-api-tool-0.4.8.tar.gz --markdown 20230721/o/one-api-tool/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/5e/71/7cbe5166f40ad3a0d57a2261c270880ed09b420de30382ae26c7539eea8a/kcli-99.0.202307211017-py3-none-any.whl
+[2023-07-21 12:19:38] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.8.tar.gz tmp/uncertainty-datatypes-1.0.9.tar.gz --markdown 20230721/u/uncertainty-datatypes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [zerocap-websocket-test]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [zerocap-websocket-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_websocket_test-1.0.0.tar.gz tmp/zerocap_websocket_test-1.0.1.tar.gz --markdown 20230721/z/zerocap-websocket-test/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [mly-pipeline]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [mly-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly_pipeline-0.5.8.tar.gz tmp/mly_pipeline-0.5.9.tar.gz --markdown 20230721/m/mly-pipeline/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307210940-py3-none-any.whl.zip tmp/kcli-99.0.202307211017-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307210940-99.0.202307211017/diff.md --exclude *.pyd
+[2023-07-21 12:19:38] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/b6/7f/28ba8a41e0bf515ef73beff43f7068fec4fbe1215994a3e2405bbcb47d7b/idbadapter-1.9.4.tar.gz
+[2023-07-21 12:19:38] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2023-07-21 12:19:38] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-1.9.3.tar.gz tmp/idbadapter-1.9.4.tar.gz --markdown 20230721/i/idbadapter/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-21 12:19:39] INFO root fetch - processPackages [axa-fr-splitter]: Remove: archive file [/home/abi/fetcher/tmp/axa-fr-splitter-0.1.0.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - processPackages [axa-fr-splitter]: Remove: archive file [/home/abi/fetcher/tmp/axa-fr-splitter-0.1.1.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - main [MainThread]: End processing [axa-fr-splitter]: success
+[2023-07-21 12:19:39] INFO root fetch - processPackages [zerocap-websocket-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_websocket_test-1.0.0.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - processPackages [zerocap-websocket-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_websocket_test-1.0.1.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - main [MainThread]: End processing [zerocap-websocket-test]: success
+[2023-07-21 12:19:39] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-21 12:19:39] INFO root fetch - processPackages [pythoncoin]: Remove: archive file [/home/abi/fetcher/tmp/pythoncoin-1.0.1.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - processPackages [pythoncoin]: Remove: archive file [/home/abi/fetcher/tmp/pythoncoin-1.0.2.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - main [MainThread]: End processing [pythoncoin]: success
+[2023-07-21 12:19:39] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.7.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.8.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-21 12:19:39] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.3.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.4.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2023-07-21 12:19:39] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.8.tar.gz]
+[2023-07-21 12:19:39] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.9.tar.gz]
+[2023-07-21 12:19:40] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-21 12:19:40] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.5.8.tar.gz]
+[2023-07-21 12:19:40] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.5.9.tar.gz]
+[2023-07-21 12:19:40] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
+[2023-07-21 12:19:42] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307210940-py3-none-any.whl.zip]
+[2023-07-21 12:19:42] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307211017-py3-none-any.whl.zip]
+[2023-07-21 12:19:42] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 12:19:42] INFO root fetch - main [MainThread]: Store serial: [18981308]
