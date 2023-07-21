@@ -15183,3 +15183,88 @@
 [2023-07-21 08:27:53] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230721.tar.gz]
 [2023-07-21 08:27:53] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-21 08:27:53] INFO root fetch - main [MainThread]: Store serial: [18979315]
+[2023-07-21 08:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979315]
+[2023-07-21 08:33:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phonenumberslite
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-account-document-reversal
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phonenumbers
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ArXixLatestArticle
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reytool
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geniusbot
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oarepo-cli
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neurotechdevkit
+[2023-07-21 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-bmc
+[2023-07-21 08:33:05] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: New version: [13.0.1.0.4] Old Version: [13.0.1.0.3]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [streamlit-bmc]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [phonenumbers]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-07-21 08:33:05] WARNING root fetch - processPackages [ArXixLatestArticle]: Skipping, unable to determine old version
+[2023-07-21 08:33:05] INFO root fetch - main [MainThread]: End processing [ArXixLatestArticle] error
+[2023-07-21 08:33:05] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev3] Old Version: [0.9.0]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [phonenumberslite]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-07-21 08:33:05] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2023-07-21 08:33:05] INFO root fetch - processPackages [streamlit-bmc]: Downloading https://files.pythonhosted.org/packages/d8/1e/1aaa08d781411e0abb4744bf27584a19961109045ea580c683ac189aae77/streamlit_bmc-0.0.2.tar.gz
+[2023-07-21 08:33:05] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/e0/4c/4f5ae735aa89b4d4efb4f07e0ac9af0c4701ab0e9461e40fee6fe663e3ae/odoo13_addon_account_document_reversal-13.0.1.0.3-py3-none-any.whl
+[2023-07-21 08:33:05] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-21 08:33:05] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/b8/fb4e12ac0dbef9f09269129e711644206cda96ed897d9cf29c5a06f4ae33/khoj_assistant-0.9.0.tar.gz
+[2023-07-21 08:33:05] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/2a/34/673df63018e24dd0e697c0c1d47fbaab6775c15d1798ed9e0b834b78ac65/phonenumberslite-8.9.8.tar.gz
+[2023-07-21 08:33:05] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/61/7b/90d90d52bf1a407405c8b13f5701c40d4ed9574fa05f456f232296b5390d/phonenumbers-8.9.8.tar.gz
+[2023-07-21 08:33:05] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/db/f6/597faf63b329c051d4c1dbe2ba189b8fd30c0cb5a722d56b70c43e9522d8/neurotechdevkit-0.2.2.tar.gz
+[2023-07-21 08:33:05] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-21 08:33:05] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230721/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-21 08:33:05] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2023-07-21 08:33:05] INFO root fetch - processPackages [streamlit-bmc]: Downloading https://files.pythonhosted.org/packages/d7/5e/9b14864b4d509b710166ee4d4e8d053648a34d5cb944cd546d924649f689/streamlit_bmc-0.0.3.tar.gz
+[2023-07-21 08:33:06] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/03/6f/9e5077a94836ed55a64523b28935ad49f05edc10e9f1d1cb05ab1dcd44bb/odoo13_addon_account_document_reversal-13.0.1.0.4-py3-none-any.whl
+[2023-07-21 08:33:06] INFO root fetch - processPackages [streamlit-bmc]: executing diffoscope
+[2023-07-21 08:33:06] INFO root fetch - processPackages [streamlit-bmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_bmc-0.0.2.tar.gz tmp/streamlit_bmc-0.0.3.tar.gz --markdown 20230721/s/streamlit-bmc/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:33:06] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-21 08:33:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/e7/2f/cf8f83f7f3bd6f2615d481dedda44f2d39233cd3f804825672e8fcd7b4ae/khoj_assistant-0.9.1.dev3.tar.gz
+[2023-07-21 08:33:06] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: executing diffoscope
+[2023-07-21 08:33:06] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_document_reversal-13.0.1.0.3-py3-none-any.whl.zip tmp/odoo13_addon_account_document_reversal-13.0.1.0.4-py3-none-any.whl.zip --markdown 20230721/o/odoo13-addon-account-document-reversal/13.0.1.0.3-13.0.1.0.4/diff.md --exclude *.pyd
+[2023-07-21 08:33:06] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/1b/d2/a02b729fceb0f6e61adf61ac7dc258345c724815ff446e3d8204cae3e838/phonenumberslite-8.9.9.tar.gz
+[2023-07-21 08:33:06] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/57/f5/164ca807b04e81a705dc909c0772efc06ca4e3ea4784684f54996c79a673/neurotechdevkit-0.2.3.tar.gz
+[2023-07-21 08:33:06] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-21 08:33:06] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.0.tar.gz tmp/khoj_assistant-0.9.1.dev3.tar.gz --markdown 20230721/k/khoj-assistant/0.9.0-0.9.1.dev3/diff.md --exclude *.pyd
+[2023-07-21 08:33:06] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-21 08:33:06] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230721/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-21 08:33:06] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-21 08:33:06] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-21 08:33:06] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-21 08:33:06] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-07-21 08:33:06] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.2.2.tar.gz tmp/neurotechdevkit-0.2.3.tar.gz --markdown 20230721/n/neurotechdevkit/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-21 08:33:06] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2023-07-21 08:33:06] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/g/geniusbot/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 08:33:07] INFO root fetch - processPackages [phonenumberslite]: executing diffoscope
+[2023-07-21 08:33:07] INFO root fetch - processPackages [phonenumberslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumberslite-8.9.8.tar.gz tmp/phonenumberslite-8.9.9.tar.gz --markdown 20230721/p/phonenumberslite/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-07-21 08:33:07] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/bc/2a/0ad24a36f6763be01df1b427f23a38456a351fdf205b0c19041499a9f82c/phonenumbers-8.9.9.tar.gz
+[2023-07-21 08:33:07] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-21 08:33:07] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.4-py3-none-any.whl.zip]
+[2023-07-21 08:33:07] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-document-reversal]: success
+[2023-07-21 08:33:07] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 08:33:07] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 08:33:07] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2023-07-21 08:33:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.0.tar.gz]
+[2023-07-21 08:33:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev3.tar.gz]
+[2023-07-21 08:33:08] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-21 08:33:08] INFO root fetch - processPackages [neurotechdevkit]: Remove: archive file [/home/abi/fetcher/tmp/neurotechdevkit-0.2.2.tar.gz]
+[2023-07-21 08:33:08] INFO root fetch - processPackages [neurotechdevkit]: Remove: archive file [/home/abi/fetcher/tmp/neurotechdevkit-0.2.3.tar.gz]
+[2023-07-21 08:33:08] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-07-21 08:33:08] INFO root fetch - processPackages [phonenumbers]: executing diffoscope
+[2023-07-21 08:33:08] INFO root fetch - processPackages [phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumbers-8.9.8.tar.gz tmp/phonenumbers-8.9.9.tar.gz --markdown 20230721/p/phonenumbers/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-07-21 08:33:09] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-21 08:33:09] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-21 08:33:09] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-21 08:33:10] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.8.tar.gz]
+[2023-07-21 08:33:10] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.9.tar.gz]
+[2023-07-21 08:33:10] INFO root fetch - main [MainThread]: End processing [phonenumberslite]: success
+[2023-07-21 08:33:12] INFO root fetch - processPackages [streamlit-bmc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bmc-0.0.2.tar.gz]
+[2023-07-21 08:33:12] INFO root fetch - processPackages [streamlit-bmc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bmc-0.0.3.tar.gz]
+[2023-07-21 08:33:12] INFO root fetch - main [MainThread]: End processing [streamlit-bmc]: success
+[2023-07-21 08:33:13] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.8.tar.gz]
+[2023-07-21 08:33:13] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
+[2023-07-21 08:33:13] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
+[2023-07-21 08:33:13] INFO root fetch - main [MainThread]: Store serial: [18979346]
