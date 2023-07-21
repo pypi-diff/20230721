@@ -19016,3 +19016,67 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 11:30:22] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post901-py3-none-any.whl.zip]
 [2023-07-21 11:30:22] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-21 11:30:22] INFO root fetch - main [MainThread]: Store serial: [18980909]
+[2023-07-21 11:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980909]
+[2023-07-21 11:35:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlx-exec
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tagmaps
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IMSmartFinderNinja
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-email-parser
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jampy
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqtorch
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sifflet-sdk
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: insight-python-win
+[2023-07-21 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: insight-python-linux
+[2023-07-21 11:35:32] INFO root fetch - processPackages [sqlx-exec]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 11:35:32] INFO root fetch - processPackages [tagmaps]: New version: [0.22.4] Old Version: [0.22.3]
+[2023-07-21 11:35:32] INFO root fetch - processPackages [IMSmartFinderNinja]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 11:35:32] INFO root fetch - processPackages [pyqtorch]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-21 11:35:32] WARNING root fetch - processPackages [my-email-parser]: Skipping, unable to determine old version
+[2023-07-21 11:35:32] INFO root fetch - main [MainThread]: End processing [my-email-parser] error
+[2023-07-21 11:35:32] INFO root fetch - processPackages [jampy]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-21 11:35:32] INFO root fetch - processPackages [insight-python-linux]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-07-21 11:35:32] WARNING root fetch - processPackages [sifflet-sdk]: Skipping, unable to determine old version
+[2023-07-21 11:35:32] INFO root fetch - main [MainThread]: End processing [sifflet-sdk] error
+[2023-07-21 11:35:32] INFO root fetch - processPackages [insight-python-win]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-07-21 11:35:32] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/d2/b7/55194b7120c5b62de2be75ba13c1a3053408b15a59c850f18a7e05146f2c/IMSmartFinderNinja-0.1.1.tar.gz
+[2023-07-21 11:35:32] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/cd/1b/7a1f26bd3dac67e9c5a050b9aac508be2fc99f6a9198c243a2d2fa67d5ec/sqlx-exec-1.0.2.tar.gz
+[2023-07-21 11:35:32] INFO root fetch - processPackages [jampy]: Downloading https://files.pythonhosted.org/packages/53/8f/2719fcea6fe730819d441e1dad3042a3c61ee0cc39d008854bb6eebf6789/jampy-7.2.0.tar.gz
+[2023-07-21 11:35:32] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/a0/1d/f0a6a0edf44e68e137a086e3bb63d2de0e4dbed8e3fdb7792b7a4b201f72/pyqtorch-0.3.3.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [tagmaps]: Downloading https://files.pythonhosted.org/packages/2d/5d/21f10f06a5322d5ff3185c76d8e5d07d2b9b1e657c865ffcd17163f9e093/tagmaps-0.22.3.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [insight-python-linux]: Downloading https://files.pythonhosted.org/packages/68/fa/21216f680f45dcf04d94e56a514290acf62dc782d37fe0de4e28956a1c70/insight_python_linux-4.5.0.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [insight-python-win]: Downloading https://files.pythonhosted.org/packages/62/5a/a72fd345f252ad9ebab65082b515d05c25c1dac6aa6b6af6767ec574ceb7/insight_python_win-4.5.0.tar.gz
+[2023-07-21 11:35:33] WARNING root fetch - processPackages [insight-python-win]: Skipping package: exceeds size limit 18508996>=10485760
+[2023-07-21 11:35:33] INFO root fetch - main [MainThread]: End processing [insight-python-win] error
+[2023-07-21 11:35:33] WARNING root fetch - processPackages [insight-python-linux]: Skipping package: exceeds size limit 103699601>=10485760
+[2023-07-21 11:35:33] INFO root fetch - main [MainThread]: End processing [insight-python-linux] error
+[2023-07-21 11:35:33] INFO root fetch - processPackages [IMSmartFinderNinja]: Downloading https://files.pythonhosted.org/packages/19/80/57ab38091d46157d9977b8204c6579307a2eb062fbb54dc015924a23894e/IMSmartFinderNinja-0.1.2.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/a1/dd/aaff504235d710ef8345f4ac9c46e18efaf203185820ca6e1942482b4348/sqlx-exec-1.0.3.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [jampy]: Downloading https://files.pythonhosted.org/packages/9c/36/f4b12c8f60afbb1fe80d9b8199e512492227ba1d420a026641a6eac533dd/jampy-7.2.1.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [tagmaps]: Downloading https://files.pythonhosted.org/packages/1b/05/fc3e1b5a2ac179fde379d3d3d8ed4a2b8c38aef9875e43ac4f74bafe09ef/tagmaps-0.22.4.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [IMSmartFinderNinja]: executing diffoscope
+[2023-07-21 11:35:33] INFO root fetch - processPackages [IMSmartFinderNinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMSmartFinderNinja-0.1.1.tar.gz tmp/IMSmartFinderNinja-0.1.2.tar.gz --markdown 20230721/I/IMSmartFinderNinja/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 11:35:33] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/3a/9d/568712450b368f21c71371cbc0e4b25e9a1a1938deb0bfde97088535bf16/pyqtorch-0.4.0.tar.gz
+[2023-07-21 11:35:33] INFO root fetch - processPackages [tagmaps]: executing diffoscope
+[2023-07-21 11:35:33] INFO root fetch - processPackages [tagmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagmaps-0.22.3.tar.gz tmp/tagmaps-0.22.4.tar.gz --markdown 20230721/t/tagmaps/0.22.3-0.22.4/diff.md --exclude *.pyd
+[2023-07-21 11:35:33] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-21 11:35:33] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.2.tar.gz tmp/sqlx-exec-1.0.3.tar.gz --markdown 20230721/s/sqlx-exec/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 11:35:33] INFO root fetch - processPackages [jampy]: executing diffoscope
+[2023-07-21 11:35:33] INFO root fetch - processPackages [jampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jampy-7.2.0.tar.gz tmp/jampy-7.2.1.tar.gz --markdown 20230721/j/jampy/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-21 11:35:33] INFO root fetch - processPackages [pyqtorch]: executing diffoscope
+[2023-07-21 11:35:33] INFO root fetch - processPackages [pyqtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtorch-0.3.3.tar.gz tmp/pyqtorch-0.4.0.tar.gz --markdown 20230721/p/pyqtorch/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-21 11:35:34] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.1.1.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - processPackages [IMSmartFinderNinja]: Remove: archive file [/home/abi/fetcher/tmp/IMSmartFinderNinja-0.1.2.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja]: success
+[2023-07-21 11:35:34] INFO root fetch - processPackages [jampy]: Remove: archive file [/home/abi/fetcher/tmp/jampy-7.2.0.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - processPackages [jampy]: Remove: archive file [/home/abi/fetcher/tmp/jampy-7.2.1.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - main [MainThread]: End processing [jampy]: success
+[2023-07-21 11:35:34] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.2.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.3.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-21 11:35:34] INFO root fetch - processPackages [tagmaps]: Remove: archive file [/home/abi/fetcher/tmp/tagmaps-0.22.3.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - processPackages [tagmaps]: Remove: archive file [/home/abi/fetcher/tmp/tagmaps-0.22.4.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - main [MainThread]: End processing [tagmaps]: success
+[2023-07-21 11:35:34] INFO root fetch - processPackages [pyqtorch]: Remove: archive file [/home/abi/fetcher/tmp/pyqtorch-0.3.3.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - processPackages [pyqtorch]: Remove: archive file [/home/abi/fetcher/tmp/pyqtorch-0.4.0.tar.gz]
+[2023-07-21 11:35:34] INFO root fetch - main [MainThread]: End processing [pyqtorch]: success
+[2023-07-21 11:35:34] INFO root fetch - main [MainThread]: Store serial: [18980940]
