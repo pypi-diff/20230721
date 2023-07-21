@@ -20052,3 +20052,104 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:19:42] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307211017-py3-none-any.whl.zip]
 [2023-07-21 12:19:42] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-21 12:19:42] INFO root fetch - main [MainThread]: Store serial: [18981308]
+[2023-07-21 12:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981308]
+[2023-07-21 12:24:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gym-saturation
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttcore
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-serve
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-exec
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiara
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mvt
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: radarr-py
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythoncoin
+[2023-07-21 12:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TDCRPy
+[2023-07-21 12:24:52] INFO root fetch - processPackages [mvt]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [pythoncoin]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [radarr-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [ttcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [kfish]: New version: [99.0.202307211020] Old Version: [99.0.202307210943]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.7.dev45] Old Version: [0.0.6.dev5]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [sqlx-exec]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [gym-saturation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [kiara]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-21 12:24:52] INFO root fetch - processPackages [pythoncoin]: Downloading https://files.pythonhosted.org/packages/c7/7a/8e8d8df200a061f9e8dc3e130b10eaa170154cd2b5466e72ddf4dc1d066e/pythoncoin-1.0.2.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/97/70/65016ceea1d3fe197438d01bc2796a941fac3b4c88cd719cf47665e3b3bc/kfish-99.0.202307210943-py3-none-any.whl
+[2023-07-21 12:24:52] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/51/1c/70d33d101f025bedf2fc3756d7a4fab630b1d605e1bf088f4a8c10697614/ttcore-0.1.8.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [mvt]: Downloading https://files.pythonhosted.org/packages/4e/d0/df44528d859e8ad7153e9fe358b8394ec13c421a0a70425ebfc591700728/mvt-2.3.0.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/cb/68/a2882bad98dec1a9bd100a3e2dd4840e202f44a6a243d15a1079ab592267/sqlx-exec-1.0.6.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [radarr-py]: Downloading https://files.pythonhosted.org/packages/b2/cb/3372973800b858ab2e03e2923ca2df0590c07e18c791d6e868cd3d70d864/radarr-py-0.3.0.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/f6/60/03591e7387dc07e9b959f6d8a12e14a845f995c218a976af168a97aaf8fa/fastapi-serve-0.0.6.dev5.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [gym-saturation]: Downloading https://files.pythonhosted.org/packages/a1/28/ff4b16cdf85c4a62f8ac5d0965076231ba341bb8627385755e30800edc2d/gym_saturation-0.9.2.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/3f/79/fa4e8a6826f113046ada93d9b667f72636d2aff88f86e3f02e892002926a/kiara-0.4.8.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [pythoncoin]: Downloading https://files.pythonhosted.org/packages/d0/ef/d136aea8cf46ad8c459fb9cd5187cc5250bd9d7200770318d341f43d6be2/pythoncoin-1.0.3.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b7/34/d0c145313bba2e75fd871cb6a3f23976b20379897dcbfcdcc0aa91257c1a/kfish-99.0.202307211020-py3-none-any.whl
+[2023-07-21 12:24:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-21 12:24:52] INFO root fetch - processPackages [mvt]: Downloading https://files.pythonhosted.org/packages/af/dd/2340f05c3cfd46a99433c06b85aab3578d17ff3cb957d90f64240857ae5d/mvt-2.4.0.tar.gz
+[2023-07-21 12:24:53] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/3f/46/0608e5be850842dbcb21cd1f71acb784b21570acd86223548ac7b762195f/ttcore-0.1.9.tar.gz
+[2023-07-21 12:24:53] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/9a/6d/2a317f39a0e980730f8101dc454ed497738faae82c6289fffdbd7cec0803/sqlx-exec-1.0.7.tar.gz
+[2023-07-21 12:24:53] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/63/9f/3788f7e2234598f4ca90065ffc2d2e238606f950615c657460d34d7f8192/fastapi-serve-0.0.7.dev45.tar.gz
+[2023-07-21 12:24:53] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230721/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [radarr-py]: Downloading https://files.pythonhosted.org/packages/8d/9a/af290e1bc9aab9babc7a6cd462bf48fe413536d7015f9ab2a1f83b9b7ce5/radarr-py-0.3.1.tar.gz
+[2023-07-21 12:24:53] INFO root fetch - processPackages [pythoncoin]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [pythoncoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncoin-1.0.2.tar.gz tmp/pythoncoin-1.0.3.tar.gz --markdown 20230721/p/pythoncoin/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307210943-py3-none-any.whl.zip tmp/kfish-99.0.202307211020-py3-none-any.whl.zip --markdown 20230721/k/kfish/99.0.202307210943-99.0.202307211020/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [ttcore]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [ttcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcore-0.1.8.tar.gz tmp/ttcore-0.1.9.tar.gz --markdown 20230721/t/ttcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [mvt]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [mvt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvt-2.3.0.tar.gz tmp/mvt-2.4.0.tar.gz --markdown 20230721/m/mvt/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.6.dev5.tar.gz tmp/fastapi-serve-0.0.7.dev45.tar.gz --markdown 20230721/f/fastapi-serve/0.0.6.dev5-0.0.7.dev45/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.6.tar.gz tmp/sqlx-exec-1.0.7.tar.gz --markdown 20230721/s/sqlx-exec/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/05/0e/69cf34a19959bde095398297ff33bcf2421ec3ddc0ae7bafe46183d25333/kiara-0.4.9.tar.gz
+[2023-07-21 12:24:53] INFO root fetch - processPackages [radarr-py]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [radarr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radarr-py-0.3.0.tar.gz tmp/radarr-py-0.3.1.tar.gz --markdown 20230721/r/radarr-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [gym-saturation]: Downloading https://files.pythonhosted.org/packages/72/43/ead26fdc1c43cba43dcebaaa10e41fb56239fa33e174049c222d2e3eec2b/gym_saturation-0.9.3.tar.gz
+[2023-07-21 12:24:53] INFO root fetch - processPackages [kiara]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [kiara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara-0.4.8.tar.gz tmp/kiara-0.4.9.tar.gz --markdown 20230721/k/kiara/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-21 12:24:53] INFO root fetch - processPackages [gym-saturation]: executing diffoscope
+[2023-07-21 12:24:53] INFO root fetch - processPackages [gym-saturation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_saturation-0.9.2.tar.gz tmp/gym_saturation-0.9.3.tar.gz --markdown 20230721/g/gym-saturation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-21 12:24:54] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307210943-py3-none-any.whl.zip]
+[2023-07-21 12:24:54] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307211020-py3-none-any.whl.zip]
+[2023-07-21 12:24:54] INFO root fetch - processPackages [kfish]: Start processing: pytorch-eo
+[2023-07-21 12:24:54] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-21 12:24:54] INFO root fetch - processPackages [pytorch-eo]: New version: [22.6.17] Old Version: [22.2.25]
+[2023-07-21 12:24:54] INFO root fetch - processPackages [pythoncoin]: Remove: archive file [/home/abi/fetcher/tmp/pythoncoin-1.0.2.tar.gz]
+[2023-07-21 12:24:54] INFO root fetch - processPackages [pythoncoin]: Remove: archive file [/home/abi/fetcher/tmp/pythoncoin-1.0.3.tar.gz]
+[2023-07-21 12:24:54] INFO root fetch - processPackages [pythoncoin]: Start processing: odoo-addon-business-requirement-crm
+[2023-07-21 12:24:54] INFO root fetch - main [MainThread]: End processing [pythoncoin]: success
+[2023-07-21 12:24:54] INFO root fetch - processPackages [pytorch-eo]: Downloading https://files.pythonhosted.org/packages/37/c7/3ade751935778a683ade33a21e2451b909fb7f7e6b1e4ff2cd8dd57a7e5c/pytorch_eo-22.2.25.tar.gz
+[2023-07-21 12:24:54] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.8.tar.gz]
+[2023-07-21 12:24:54] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.9.tar.gz]
+[2023-07-21 12:24:54] INFO root fetch - main [MainThread]: End processing [ttcore]: success
+[2023-07-21 12:24:54] WARNING root fetch - processPackages [odoo-addon-business-requirement-crm]: Skipping, unable to determine old version
+[2023-07-21 12:24:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement-crm] error
+[2023-07-21 12:24:54] WARNING root fetch - processPackages [pytorch-eo]: Skipping package: exceeds size limit 27051634>=10485760
+[2023-07-21 12:24:54] INFO root fetch - main [MainThread]: End processing [pytorch-eo] error
+[2023-07-21 12:24:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-21 12:24:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-21 12:24:54] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-21 12:24:55] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.6.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.7.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-21 12:24:55] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.6.dev5.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.7.dev45.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-21 12:24:55] INFO root fetch - processPackages [gym-saturation]: Remove: archive file [/home/abi/fetcher/tmp/gym_saturation-0.9.2.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - processPackages [gym-saturation]: Remove: archive file [/home/abi/fetcher/tmp/gym_saturation-0.9.3.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - main [MainThread]: End processing [gym-saturation]: success
+[2023-07-21 12:24:55] INFO root fetch - processPackages [mvt]: Remove: archive file [/home/abi/fetcher/tmp/mvt-2.3.0.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - processPackages [mvt]: Remove: archive file [/home/abi/fetcher/tmp/mvt-2.4.0.tar.gz]
+[2023-07-21 12:24:55] INFO root fetch - main [MainThread]: End processing [mvt]: success
+[2023-07-21 12:24:56] INFO root fetch - processPackages [radarr-py]: Remove: archive file [/home/abi/fetcher/tmp/radarr-py-0.3.0.tar.gz]
+[2023-07-21 12:24:56] INFO root fetch - processPackages [radarr-py]: Remove: archive file [/home/abi/fetcher/tmp/radarr-py-0.3.1.tar.gz]
+[2023-07-21 12:24:56] INFO root fetch - main [MainThread]: End processing [radarr-py]: success
+[2023-07-21 12:24:56] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.8.tar.gz]
+[2023-07-21 12:24:56] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.9.tar.gz]
+[2023-07-21 12:24:56] INFO root fetch - main [MainThread]: End processing [kiara]: success
+[2023-07-21 12:24:56] INFO root fetch - main [MainThread]: Store serial: [18981360]
