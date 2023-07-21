@@ -6045,3 +6045,95 @@
 [2023-07-21 03:01:23] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-21 03:01:23] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-21 03:01:23] INFO root fetch - main [MainThread]: Store serial: [18975904]
+[2023-07-21 03:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18975904]
+[2023-07-21 03:06:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nids-datasets
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moabdb
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchapp
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: executor-engine
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aemcmc-nightly
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-curl
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Simplex
+[2023-07-21 03:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spluscalib
+[2023-07-21 03:06:33] INFO root fetch - processPackages [openllm]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [nids-datasets]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [executor-engine]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [spluscalib]: New version: [0.3.21] Old Version: [0.3.2]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.1.1rc1] Old Version: [6.1.1]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [torchapp]: New version: [0.3.1] Old Version: [0.2.3]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230721] Old Version: [0.0.8.dev20230720]
+[2023-07-21 03:06:33] INFO root fetch - processPackages [spluscalib]: Downloading https://files.pythonhosted.org/packages/82/6f/76329999ad518e90dbe0a69fa18c1db8c32992797df38f70f09f1802c6eb/spluscalib-0.3.2.tar.gz
+[2023-07-21 03:06:33] INFO root fetch - processPackages [executor-engine]: Downloading https://files.pythonhosted.org/packages/05/35/e7eae7f2625bdc7fb2b160904a4cc5d485d93bf1e21e869f694e477b2fb0/executor-engine-0.2.1.tar.gz
+[2023-07-21 03:06:33] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-21 03:06:33] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/66/c7/ca02e5b23387d13adbac67b975a9e3950b8abd6547c09e2607e874a899df/openllm-0.2.1.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/2e/41/0370ed207f23d89f07d8d6c79c8df31d96fa498a2e5f220c54cc34dcc4a6/Geode_Simplex-6.1.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-21 03:06:34] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [torchapp]: Downloading https://files.pythonhosted.org/packages/8f/bb/a40aa28d16c2a3cbb060185230d0ce82fe76c207517b1202eac595dc120b/torchapp-0.2.3.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/36/98/bb4e7c9905a1064d3bb06ea297eca88697a82b0d8e65858ab2a1baa4b7a0/aemcmc-nightly-0.0.8.dev20230720.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [spluscalib]: Downloading https://files.pythonhosted.org/packages/cd/aa/a54cff204f2baee2157c5cdd7f0d4c332cc4451b02955965186483a985ab/spluscalib-0.3.21.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/ed/89/d58cdd231d6da5ed7777566ee96420c08974eb7a7d5b19686bb24e51087e/nids_datasets-0.0.9.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [spluscalib]: executing diffoscope
+[2023-07-21 03:06:34] INFO root fetch - processPackages [spluscalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spluscalib-0.3.2.tar.gz tmp/spluscalib-0.3.21.tar.gz --markdown 20230721/s/spluscalib/0.3.2-0.3.21/diff.md --exclude *.pyd
+[2023-07-21 03:06:34] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-21 03:06:34] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230721/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 03:06:34] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/f3/87/ee36e783391b5c4baf6f78b62837f83431a7bfb2f436d818224fac750158/openllm-0.2.2.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [executor-engine]: Downloading https://files.pythonhosted.org/packages/f5/20/fc01fcc7290fa8f124e65f6bd35bb4ca6be27a801a8cc212d012e85db288/executor-engine-0.2.2.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [nids-datasets]: executing diffoscope
+[2023-07-21 03:06:34] INFO root fetch - processPackages [nids-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_datasets-0.0.8.tar.gz tmp/nids_datasets-0.0.9.tar.gz --markdown 20230721/n/nids-datasets/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 03:06:34] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-07-21 03:06:34] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.1.tar.gz tmp/openllm-0.2.2.tar.gz --markdown 20230721/o/openllm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-21 03:06:34] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/d6/3b/bab5f6e9e36b7f025c7fe51a8d35163fe9d1e387de3c4c11ceecbdc34dd0/Geode_Simplex-6.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-21 03:06:34] INFO root fetch - processPackages [executor-engine]: executing diffoscope
+[2023-07-21 03:06:34] INFO root fetch - processPackages [executor-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/executor-engine-0.2.1.tar.gz tmp/executor-engine-0.2.2.tar.gz --markdown 20230721/e/executor-engine/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-21 03:06:34] INFO root fetch - processPackages [torchapp]: Downloading https://files.pythonhosted.org/packages/33/09/d55bfcf3c6597fad5bda4394fea33fa6bf2726c74748a488e7e23283a489/torchapp-0.3.1.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/85/14/07d57c6a592dbf41315a5c515db06923677fc10c3a400fd090e7b2914ca1/aemcmc-nightly-0.0.8.dev20230721.tar.gz
+[2023-07-21 03:06:34] INFO root fetch - processPackages [torchapp]: executing diffoscope
+[2023-07-21 03:06:34] INFO root fetch - processPackages [torchapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchapp-0.2.3.tar.gz tmp/torchapp-0.3.1.tar.gz --markdown 20230721/t/torchapp/0.2.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-21 03:06:35] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-21 03:06:35] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230720.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230721.tar.gz --markdown 20230721/a/aemcmc-nightly/0.0.8.dev20230720-0.0.8.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 03:06:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-21 03:06:35] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.0.8.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.0.9.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-21 03:06:35] INFO root fetch - main [MainThread]: End processing [nids-datasets]: success
+[2023-07-21 03:06:35] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-07-21 03:06:35] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Simplex-6.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230721/G/Geode-Simplex/6.1.1-6.1.1rc1/diff.md --exclude *.pyd
+[2023-07-21 03:06:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-21 03:06:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230721/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:06:35] INFO root fetch - processPackages [spluscalib]: Remove: archive file [/home/abi/fetcher/tmp/spluscalib-0.3.2.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - processPackages [spluscalib]: Remove: archive file [/home/abi/fetcher/tmp/spluscalib-0.3.21.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - main [MainThread]: End processing [spluscalib]: success
+[2023-07-21 03:06:35] INFO root fetch - processPackages [executor-engine]: Remove: archive file [/home/abi/fetcher/tmp/executor-engine-0.2.1.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - processPackages [executor-engine]: Remove: archive file [/home/abi/fetcher/tmp/executor-engine-0.2.2.tar.gz]
+[2023-07-21 03:06:35] INFO root fetch - main [MainThread]: End processing [executor-engine]: success
+[2023-07-21 03:06:36] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-21 03:06:36] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230720.tar.gz]
+[2023-07-21 03:06:36] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230721.tar.gz]
+[2023-07-21 03:06:36] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-21 03:06:36] INFO root fetch - processPackages [torchapp]: Remove: archive file [/home/abi/fetcher/tmp/torchapp-0.2.3.tar.gz]
+[2023-07-21 03:06:36] INFO root fetch - processPackages [torchapp]: Remove: archive file [/home/abi/fetcher/tmp/torchapp-0.3.1.tar.gz]
+[2023-07-21 03:06:36] INFO root fetch - main [MainThread]: End processing [torchapp]: success
+[2023-07-21 03:06:36] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.1.tar.gz]
+[2023-07-21 03:06:36] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.2.tar.gz]
+[2023-07-21 03:06:36] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-07-21 03:06:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-21 03:06:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-21 03:06:37] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-21 03:06:37] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-21 03:06:37] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 03:06:37] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-07-21 03:06:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-21 03:06:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230721/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:06:38] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-21 03:06:38] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-21 03:06:38] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-21 03:06:38] INFO root fetch - main [MainThread]: Store serial: [18975951]
