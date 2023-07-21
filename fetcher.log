@@ -21615,3 +21615,120 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 13:34:26] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1108-py3-none-any.whl.zip]
 [2023-07-21 13:34:26] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
 [2023-07-21 13:34:26] INFO root fetch - main [MainThread]: Store serial: [18981973]
+[2023-07-21 13:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981973]
+[2023-07-21 13:39:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prowlarr-py
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whisparr-py
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buscador
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readarr-py
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: konfuzio-sdk
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logger-local
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lidarr-py
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sonarr-py
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ms-salesforce-api
+[2023-07-21 13:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meta-core
+[2023-07-21 13:39:36] INFO root fetch - processPackages [whisparr-py]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [buscador]: New version: [0.9] Old Version: [0.8]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [sonarr-py]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [prowlarr-py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [ms-salesforce-api]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-21 13:39:36] WARNING root fetch - processPackages [meta-core]: Skipping, unable to determine old version
+[2023-07-21 13:39:36] INFO root fetch - processPackages [meta-core]: Start processing: xcube-4d-viewer
+[2023-07-21 13:39:36] INFO root fetch - main [MainThread]: End processing [meta-core] error
+[2023-07-21 13:39:36] INFO root fetch - processPackages [lidarr-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [readarr-py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [xcube-4d-viewer]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-21 13:39:36] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/60/9e/7afb05d47b6f9312c44273343faac00022a5e481f731d32fbbbb252080fe/buscador-0.8.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/94/5c/b6727506347fe41bca23c2438942926e440828d7d837b4171fd226bb14ae/ms_salesforce_api-1.2.3.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [whisparr-py]: Downloading https://files.pythonhosted.org/packages/df/f4/220000cb82c54a886cc6d8462a5275df68dbe0ccbea0ef3d186fdf48a3f8/whisparr-py-0.2.2.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [sonarr-py]: Downloading https://files.pythonhosted.org/packages/41/81/a465afa359b5bc2fdb89fb10386ae430038d0e682eb0603f0f11f0fb81b6/sonarr-py-0.7.0.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [readarr-py]: Downloading https://files.pythonhosted.org/packages/26/d5/b0a4faf9732e6961cbefc60819038e1a2bed7c168b5820a9589ad9ecb74d/readarr-py-0.4.0.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [prowlarr-py]: Downloading https://files.pythonhosted.org/packages/60/10/8028bbec07fd889d85b1318546ba2f48ef63fc0d8652c8ffddc4ef3f153c/prowlarr-py-0.4.0.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [lidarr-py]: Downloading https://files.pythonhosted.org/packages/d2/d7/15c68a271c04f334332563013bb4b16bc1a2e0b4f006155f01821a291ecd/lidarr-py-0.3.0.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [xcube-4d-viewer]: Downloading https://files.pythonhosted.org/packages/e9/f9/c3fd98373ef9ae77ff7706ba26dace380794ecd29a08a59354e92731d395/xcube_4d_viewer-1.0.5.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/b5/62/eb5bd505c711ca5eeea0f356eec0ba144109aa5de06831a07b99dcd04845/buscador-0.9.tar.gz
+[2023-07-21 13:39:36] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/d9/23/a6103df27ad779ea45490b5b196e9b12504dfdfe1e31090da5318b8d8dc3/ms_salesforce_api-1.2.4.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [sonarr-py]: Downloading https://files.pythonhosted.org/packages/80/24/4ad3e986cfab3dc846deb8f395ba1506da65d0678df1aec2ddd3856b43a0/sonarr-py-0.8.0.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230721/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.8.tar.gz tmp/buscador-0.9.tar.gz --markdown 20230721/b/buscador/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [xcube-4d-viewer]: Downloading https://files.pythonhosted.org/packages/4c/69/9afc8e19a948a2add39735cf5596c0d56d6d8d1d8ba6816a9a9e0651cbfe/xcube_4d_viewer-1.0.6.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [readarr-py]: Downloading https://files.pythonhosted.org/packages/3b/35/c7ae4ee8e93fbb1a6b62e9ff9eff2f3bc043a3b2cce8d193702407c2f78d/readarr-py-0.4.1.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [lidarr-py]: Downloading https://files.pythonhosted.org/packages/4c/8e/15e5f254ab79d359b4d131e5c30355172f42952c8be835417ec8eba48efc/lidarr-py-0.3.1.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [prowlarr-py]: Downloading https://files.pythonhosted.org/packages/52/ab/20331713d6645485494c81ae0688ece4c525bc1550bf41cc4b685554828c/prowlarr-py-0.4.1.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [whisparr-py]: Downloading https://files.pythonhosted.org/packages/bd/70/9c58a900deae90284b1fcd25ceec0cd998cb6898a9072075cf6a483a99cc/whisparr-py-0.3.0.tar.gz
+[2023-07-21 13:39:37] INFO root fetch - processPackages [sonarr-py]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [sonarr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonarr-py-0.7.0.tar.gz tmp/sonarr-py-0.8.0.tar.gz --markdown 20230721/s/sonarr-py/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-1.2.3.tar.gz tmp/ms_salesforce_api-1.2.4.tar.gz --markdown 20230721/m/ms-salesforce-api/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230721/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [readarr-py]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [readarr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readarr-py-0.4.0.tar.gz tmp/readarr-py-0.4.1.tar.gz --markdown 20230721/r/readarr-py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [xcube-4d-viewer]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [xcube-4d-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcube_4d_viewer-1.0.5.tar.gz tmp/xcube_4d_viewer-1.0.6.tar.gz --markdown 20230721/x/xcube-4d-viewer/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [prowlarr-py]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [prowlarr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowlarr-py-0.4.0.tar.gz tmp/prowlarr-py-0.4.1.tar.gz --markdown 20230721/p/prowlarr-py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [whisparr-py]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [whisparr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisparr-py-0.2.2.tar.gz tmp/whisparr-py-0.3.0.tar.gz --markdown 20230721/w/whisparr-py/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-21 13:39:37] INFO root fetch - processPackages [lidarr-py]: executing diffoscope
+[2023-07-21 13:39:37] INFO root fetch - processPackages [lidarr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lidarr-py-0.3.0.tar.gz tmp/lidarr-py-0.3.1.tar.gz --markdown 20230721/l/lidarr-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-21 13:39:38] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.8.tar.gz]
+[2023-07-21 13:39:38] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.9.tar.gz]
+[2023-07-21 13:39:38] INFO root fetch - processPackages [buscador]: Start processing: django-open-ai
+[2023-07-21 13:39:38] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-21 13:39:38] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-21 13:39:38] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-21 13:39:38] INFO root fetch - processPackages [logger-local]: Start processing: eventdetector-ts
+[2023-07-21 13:39:38] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-21 13:39:38] WARNING root fetch - processPackages [django-open-ai]: Skipping, unable to determine old version
+[2023-07-21 13:39:38] INFO root fetch - processPackages [django-open-ai]: Start processing: servicefoundry
+[2023-07-21 13:39:38] INFO root fetch - main [MainThread]: End processing [django-open-ai] error
+[2023-07-21 13:39:38] INFO root fetch - processPackages [eventdetector-ts]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 13:39:38] INFO root fetch - processPackages [eventdetector-ts]: Downloading https://files.pythonhosted.org/packages/81/00/d85ce616b67e46ca4b313934a138afd2231195983f4759e0edd2995d4c32/eventdetector_ts-1.0.2.tar.gz
+[2023-07-21 13:39:38] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2023-07-21 13:39:39] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2023-07-21 13:39:39] INFO root fetch - processPackages [xcube-4d-viewer]: Remove: archive file [/home/abi/fetcher/tmp/xcube_4d_viewer-1.0.5.tar.gz]
+[2023-07-21 13:39:39] INFO root fetch - processPackages [xcube-4d-viewer]: Remove: archive file [/home/abi/fetcher/tmp/xcube_4d_viewer-1.0.6.tar.gz]
+[2023-07-21 13:39:39] INFO root fetch - main [MainThread]: End processing [xcube-4d-viewer]: success
+[2023-07-21 13:39:39] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.2.3.tar.gz]
+[2023-07-21 13:39:39] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.2.4.tar.gz]
+[2023-07-21 13:39:39] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-07-21 13:39:39] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-21 13:39:39] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-21 13:39:39] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-21 13:39:39] INFO root fetch - processPackages [eventdetector-ts]: Downloading https://files.pythonhosted.org/packages/c6/40/d398503eaed1ed61e3bc55d4229f5b6974af877552c36076804118bdd68c/eventdetector_ts-1.0.3.tar.gz
+[2023-07-21 13:39:39] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2023-07-21 13:39:39] INFO root fetch - processPackages [eventdetector-ts]: executing diffoscope
+[2023-07-21 13:39:39] INFO root fetch - processPackages [eventdetector-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventdetector_ts-1.0.2.tar.gz tmp/eventdetector_ts-1.0.3.tar.gz --markdown 20230721/e/eventdetector-ts/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 13:39:39] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-07-21 13:39:39] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20230721/s/servicefoundry/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2023-07-21 13:39:40] INFO root fetch - processPackages [prowlarr-py]: Remove: archive file [/home/abi/fetcher/tmp/prowlarr-py-0.4.0.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - processPackages [prowlarr-py]: Remove: archive file [/home/abi/fetcher/tmp/prowlarr-py-0.4.1.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - main [MainThread]: End processing [prowlarr-py]: success
+[2023-07-21 13:39:40] INFO root fetch - processPackages [readarr-py]: Remove: archive file [/home/abi/fetcher/tmp/readarr-py-0.4.0.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - processPackages [readarr-py]: Remove: archive file [/home/abi/fetcher/tmp/readarr-py-0.4.1.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - main [MainThread]: End processing [readarr-py]: success
+[2023-07-21 13:39:40] INFO root fetch - processPackages [sonarr-py]: Remove: archive file [/home/abi/fetcher/tmp/sonarr-py-0.7.0.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - processPackages [sonarr-py]: Remove: archive file [/home/abi/fetcher/tmp/sonarr-py-0.8.0.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - main [MainThread]: End processing [sonarr-py]: success
+[2023-07-21 13:39:40] INFO root fetch - processPackages [whisparr-py]: Remove: archive file [/home/abi/fetcher/tmp/whisparr-py-0.2.2.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - processPackages [whisparr-py]: Remove: archive file [/home/abi/fetcher/tmp/whisparr-py-0.3.0.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - main [MainThread]: End processing [whisparr-py]: success
+[2023-07-21 13:39:40] INFO root fetch - processPackages [eventdetector-ts]: Remove: archive file [/home/abi/fetcher/tmp/eventdetector_ts-1.0.2.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - processPackages [eventdetector-ts]: Remove: archive file [/home/abi/fetcher/tmp/eventdetector_ts-1.0.3.tar.gz]
+[2023-07-21 13:39:40] INFO root fetch - main [MainThread]: End processing [eventdetector-ts]: success
+[2023-07-21 13:39:41] INFO root fetch - processPackages [lidarr-py]: Remove: archive file [/home/abi/fetcher/tmp/lidarr-py-0.3.0.tar.gz]
+[2023-07-21 13:39:41] INFO root fetch - processPackages [lidarr-py]: Remove: archive file [/home/abi/fetcher/tmp/lidarr-py-0.3.1.tar.gz]
+[2023-07-21 13:39:41] INFO root fetch - main [MainThread]: End processing [lidarr-py]: success
+[2023-07-21 13:39:41] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2023-07-21 13:39:41] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2023-07-21 13:39:41] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-07-21 13:39:41] INFO root fetch - main [MainThread]: Store serial: [18982020]
