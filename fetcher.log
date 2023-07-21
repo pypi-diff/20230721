@@ -14549,3 +14549,49 @@
 [2023-07-21 07:45:31] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.6.tar.gz]
 [2023-07-21 07:45:31] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
 [2023-07-21 07:45:31] INFO root fetch - main [MainThread]: Store serial: [18979067]
+[2023-07-21 07:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979067]
+[2023-07-21 07:50:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-21 07:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baimomcsm-api
+[2023-07-21 07:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sn-test
+[2023-07-21 07:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-data-client
+[2023-07-21 07:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-client
+[2023-07-21 07:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baimomcsm-api
+[2023-07-21 07:50:40] INFO root fetch - processPackages [sn-test]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.25] Old Version: [0.1.24]
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 07:50:40] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/fb/e3/a79c38deb0115d4f3771fc73defdbac4f76891b8431966ec06ec3a69c0a1/sn_test-0.1.1.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/e3/77/4899e8cb48285b35efc9bfe48bda13755f8db3d56b714200129ab8c1f30c/threemystic_cloud_client-0.1.42.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/33/56/a1b407b2194b0d80f364f2d18e05f8c7fb2b10ffcede2527c3b19edada7b/threemystic_cloud_data_client-0.1.24.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/29/6f/55bd78af8f4322a9ef4fd7e1673b287f5b17bb5e10debf597c36c2d1eaa3/baimomcsm_api-0.0.1.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/29/6f/55bd78af8f4322a9ef4fd7e1673b287f5b17bb5e10debf597c36c2d1eaa3/baimomcsm_api-0.0.1.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/19/76/cdca246f6853813e78617f4d2f2a13610b66edbcd7f128f4479060b342f1/sn_test-0.1.2.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/c0/c1/5628fb6b2b22d826e9b3b2fffc8bb75080323f79f5c349fcceefee800ba5/threemystic_cloud_data_client-0.1.25.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/9a/08/c9d2673556f89641200964144c12234ef7e3ed3351429c5069bbb69e077c/threemystic_cloud_client-0.1.43.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-21 07:50:40] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-0.1.1.tar.gz tmp/sn_test-0.1.2.tar.gz --markdown 20230721/s/sn-test/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/ce/e4/cee614ff7348f456d2838258077788f5d0c8194285b69a5cfd9ae3777420/baimomcsm_api-0.0.2.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/ce/e4/cee614ff7348f456d2838258077788f5d0c8194285b69a5cfd9ae3777420/baimomcsm_api-0.0.2.tar.gz
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.24.tar.gz tmp/threemystic_cloud_data_client-0.1.25.tar.gz --markdown 20230721/t/threemystic-cloud-data-client/0.1.24-0.1.25/diff.md --exclude *.pyd
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-21 07:50:40] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.42.tar.gz tmp/threemystic_cloud_client-0.1.43.tar.gz --markdown 20230721/t/threemystic-cloud-client/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: executing diffoscope
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baimomcsm_api-0.0.1.tar.gz tmp/baimomcsm_api-0.0.2.tar.gz --markdown 20230721/b/baimomcsm-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: executing diffoscope
+[2023-07-21 07:50:40] INFO root fetch - processPackages [baimomcsm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baimomcsm_api-0.0.1.tar.gz tmp/baimomcsm_api-0.0.2.tar.gz --markdown 20230721/b/baimomcsm-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 07:50:41] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-0.1.1.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-0.1.2.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-21 07:50:41] INFO root fetch - processPackages [baimomcsm-api]: Remove: archive file [/home/abi/fetcher/tmp/baimomcsm_api-0.0.1.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - processPackages [baimomcsm-api]: Remove: archive file [/home/abi/fetcher/tmp/baimomcsm_api-0.0.2.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - main [MainThread]: End processing [baimomcsm-api]: success
+[2023-07-21 07:50:41] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.24.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.25.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-21 07:50:41] INFO root fetch - main [MainThread]: End processing [baimomcsm-api]: success
+[2023-07-21 07:50:41] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.42.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.43.tar.gz]
+[2023-07-21 07:50:41] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-21 07:50:41] INFO root fetch - main [MainThread]: Store serial: [18979081]
