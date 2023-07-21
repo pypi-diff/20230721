@@ -14301,3 +14301,84 @@
 [2023-07-21 07:24:45] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689912856.tar.gz]
 [2023-07-21 07:24:45] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-07-21 07:24:45] INFO root fetch - main [MainThread]: Store serial: [18978959]
+[2023-07-21 07:29:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978959]
+[2023-07-21 07:29:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-cloud-client
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geocode-adi
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-data-client
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sn-test
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RACS-tools
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-tier-validation
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fschat
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crazy-thursday
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: red-config
+[2023-07-21 07:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Akatosh
+[2023-07-21 07:29:55] INFO root fetch - processPackages [geocode-adi]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-07-21 07:29:55] WARNING root fetch - processPackages [sn-test]: Skipping, unable to determine old version
+[2023-07-21 07:29:55] INFO root fetch - main [MainThread]: End processing [sn-test] error
+[2023-07-21 07:29:55] INFO root fetch - processPackages [RACS-tools]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.24] Old Version: [0.1.23]
+[2023-07-21 07:29:55] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.5.6] Old Version: [16.0.1.0.5.2]
+[2023-07-21 07:29:55] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 07:29:55] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-21 07:29:55] WARNING root fetch - processPackages [red-config]: Skipping, unable to determine old version
+[2023-07-21 07:29:55] INFO root fetch - main [MainThread]: End processing [red-config] error
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/dd/3e/52363e4c11174fbefe85e3a9f5adb64f6e8ee5ad19b85ac1aecdfd249aa3/threemystic_cloud_client-0.1.41.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [Akatosh]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/62/7a/5fe164bc0421999814e40f55996a73fb7ee4cf8a03ea1eb69a5919b18ff0/threemystic_cloud_data_client-0.1.23.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [geocode-adi]: Downloading https://files.pythonhosted.org/packages/ea/fc/d414ecf2137fa0a99009e45e606f3b09ec7cbb92f850cffba3d11be82701/geocode-adi-2.0.0.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [RACS-tools]: Downloading https://files.pythonhosted.org/packages/4d/22/ddaa3289264ab2a949e68580aa370860be9f929914ad1e44ef6dc702c0b8/RACS-tools-2.2.4.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/ac/64/4f3adf91e84a168535063126182ab9725f2d01737794fca1654e6c0ef9c4/odoo_addon_base_tier_validation-16.0.1.0.5.2-py3-none-any.whl
+[2023-07-21 07:29:55] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/87/62/b4da7a5a785f37c352f8353cd89801af7ae84d326d5f4edc3084d11032dd/fschat-0.2.8.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/a2/ac/c73f601058bb6d26dabb2bd47c5cf0e5cfc7065e9b6ced42ad8b22cef8e4/Akatosh-2.1.6.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/e3/77/4899e8cb48285b35efc9bfe48bda13755f8db3d56b714200129ab8c1f30c/threemystic_cloud_client-0.1.42.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/33/56/a1b407b2194b0d80f364f2d18e05f8c7fb2b10ffcede2527c3b19edada7b/threemystic_cloud_data_client-0.1.24.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-21 07:29:55] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230721/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-21 07:29:55] INFO root fetch - processPackages [RACS-tools]: Downloading https://files.pythonhosted.org/packages/c5/a8/29bf031d4c62fffd3bdffa2d8220c36328fe24c74627406ddb9c0f931420/RACS-tools-2.2.5.tar.gz
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-21 07:29:55] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.41.tar.gz tmp/threemystic_cloud_client-0.1.42.tar.gz --markdown 20230721/t/threemystic-cloud-client/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-07-21 07:29:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-21 07:29:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.23.tar.gz tmp/threemystic_cloud_data_client-0.1.24.tar.gz --markdown 20230721/t/threemystic-cloud-data-client/0.1.23-0.1.24/diff.md --exclude *.pyd
+[2023-07-21 07:29:56] INFO root fetch - processPackages [RACS-tools]: executing diffoscope
+[2023-07-21 07:29:56] INFO root fetch - processPackages [RACS-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RACS-tools-2.2.4.tar.gz tmp/RACS-tools-2.2.5.tar.gz --markdown 20230721/R/RACS-tools/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-21 07:29:56] INFO root fetch - processPackages [geocode-adi]: Downloading https://files.pythonhosted.org/packages/6d/04/c0a00a0f4c16812ba611dbb6d31fcf889d385078ea5e60d08e2de8eee2a0/geocode-adi-2.1.0.tar.gz
+[2023-07-21 07:29:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/70/96/5709a9ced706eb55b8c389cbecf00aad8163e05a7551c3c0c882359fb3d2/odoo_addon_base_tier_validation-16.0.1.0.5.6-py3-none-any.whl
+[2023-07-21 07:29:56] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/78/6f/8197550d102be5ec72010343d9ecc9ca91d64e6cfa09466aff3fe44b6f67/Akatosh-2.1.7.tar.gz
+[2023-07-21 07:29:56] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-07-21 07:29:56] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-07-21 07:29:56] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230721/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 07:29:56] INFO root fetch - processPackages [geocode-adi]: executing diffoscope
+[2023-07-21 07:29:56] INFO root fetch - processPackages [geocode-adi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocode-adi-2.0.0.tar.gz tmp/geocode-adi-2.1.0.tar.gz --markdown 20230721/g/geocode-adi/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-21 07:29:56] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-21 07:29:56] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.1.6.tar.gz tmp/Akatosh-2.1.7.tar.gz --markdown 20230721/A/Akatosh/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-07-21 07:29:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-07-21 07:29:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.5.2-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.5.6-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-base-tier-validation/16.0.1.0.5.2-16.0.1.0.5.6/diff.md --exclude *.pyd
+[2023-07-21 07:29:57] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-21 07:29:57] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.41.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.42.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-21 07:29:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.23.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.24.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-21 07:29:57] INFO root fetch - processPackages [RACS-tools]: Remove: archive file [/home/abi/fetcher/tmp/RACS-tools-2.2.4.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [RACS-tools]: Remove: archive file [/home/abi/fetcher/tmp/RACS-tools-2.2.5.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [RACS-tools]: success
+[2023-07-21 07:29:57] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.6.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.7.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-21 07:29:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.5.2-py3-none-any.whl.zip]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.5.6-py3-none-any.whl.zip]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-07-21 07:29:57] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.8.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-07-21 07:29:57] INFO root fetch - processPackages [geocode-adi]: Remove: archive file [/home/abi/fetcher/tmp/geocode-adi-2.0.0.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - processPackages [geocode-adi]: Remove: archive file [/home/abi/fetcher/tmp/geocode-adi-2.1.0.tar.gz]
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: End processing [geocode-adi]: success
+[2023-07-21 07:29:57] INFO root fetch - main [MainThread]: Store serial: [18978991]
