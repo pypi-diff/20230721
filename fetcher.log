@@ -11174,3 +11174,81 @@
 [2023-07-21 04:43:45] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a7.tar.gz]
 [2023-07-21 04:43:45] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
 [2023-07-21 04:43:45] INFO root fetch - main [MainThread]: Store serial: [18977844]
+[2023-07-21 04:48:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977844]
+[2023-07-21 04:48:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-account-group-invoice-line
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcpandas
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystring
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zkf-package
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlforecast
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-account-due-list
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo10-addon-account-due-list
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mojo-xmodules
+[2023-07-21 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raindrop-io-py
+[2023-07-21 04:48:54] INFO root fetch - processPackages [odoo12-addon-account-group-invoice-line]: New version: [12.0.1.0.1.99.dev1] Old Version: [12.0.1.0.1]
+[2023-07-21 04:48:54] INFO root fetch - processPackages [mlforecast]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-21 04:48:54] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 04:48:54] INFO root fetch - processPackages [odoo8-addon-account-due-list]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-07-21 04:48:54] INFO root fetch - processPackages [odoo10-addon-account-due-list]: New version: [10.0.2.0.0.99.dev4] Old Version: [10.0.2.0.0.99.dev3]
+[2023-07-21 04:48:54] INFO root fetch - processPackages [raindrop-io-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 04:48:54] WARNING root fetch - processPackages [zkf-package]: Skipping, unable to determine old version
+[2023-07-21 04:48:54] INFO root fetch - main [MainThread]: End processing [zkf-package] error
+[2023-07-21 04:48:54] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 04:48:54] INFO root fetch - processPackages [bcpandas]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-21 04:48:54] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/71/a9/fd1354446cd2695063ce2b06df716e789083d4423d45e8168df55d71d048/mlforecast-0.8.0.tar.gz
+[2023-07-21 04:48:54] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-07-21 04:48:54] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-21 04:48:54] INFO root fetch - processPackages [odoo12-addon-account-group-invoice-line]: Downloading https://files.pythonhosted.org/packages/be/f9/9f8f2f2d571d3ca9406fbba1a691c69bed04e037b66bbf9733d3be9f8250/odoo12_addon_account_group_invoice_line-12.0.1.0.1-py3-none-any.whl
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo8-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/4f/39/49880e52ce9dfd1f1a17be04fe0adf257acbfffe313076ab90061d479452/odoo8_addon_account_due_list-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo10-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/a5/e3/ba59217c36ace5b5643f18a715364b08c79a4791a5762957b5b2272fbae8/odoo10_addon_account_due_list-10.0.2.0.0.99.dev3-py2-none-any.whl
+[2023-07-21 04:48:55] INFO root fetch - processPackages [bcpandas]: Downloading https://files.pythonhosted.org/packages/2a/17/6ff40f3623a473481cb57870aa35f2838615af002a01b7d830c9b2a13b9c/bcpandas-2.4.1.tar.gz
+[2023-07-21 04:48:55] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/ef/f2/eba9c7c2bf3bba06c767f3fa6c1a325e464c2927548bcc2f8386f8a95d87/raindrop_io_py-0.1.2.tar.gz
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/a3/03/000565fb7428994b26abe5d7bbbc4ff00664676db8cb052f42e87bfdc34e/mlforecast-0.8.1.tar.gz
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230721/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo12-addon-account-group-invoice-line]: Downloading https://files.pythonhosted.org/packages/1c/1a/6ccfc8926cfe6f141f05fb057abfff4f8715950aa03ef69b4707c86c213d/odoo12_addon_account_group_invoice_line-12.0.1.0.1.99.dev1-py3-none-any.whl
+[2023-07-21 04:48:55] INFO root fetch - processPackages [bcpandas]: Downloading https://files.pythonhosted.org/packages/e4/d6/ac76933fc035cbd64c07fcb0946b136bc98bf374a3e1284bd3cdb8a2c1c3/bcpandas-2.4.2.tar.gz
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mlforecast]: executing diffoscope
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mlforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforecast-0.8.0.tar.gz tmp/mlforecast-0.8.1.tar.gz --markdown 20230721/m/mlforecast/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo12-addon-account-group-invoice-line]: executing diffoscope
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo12-addon-account-group-invoice-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_group_invoice_line-12.0.1.0.1-py3-none-any.whl.zip tmp/odoo12_addon_account_group_invoice_line-12.0.1.0.1.99.dev1-py3-none-any.whl.zip --markdown 20230721/o/odoo12-addon-account-group-invoice-line/12.0.1.0.1-12.0.1.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-07-21 04:48:55] INFO root fetch - processPackages [bcpandas]: executing diffoscope
+[2023-07-21 04:48:55] INFO root fetch - processPackages [bcpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcpandas-2.4.1.tar.gz tmp/bcpandas-2.4.2.tar.gz --markdown 20230721/b/bcpandas/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-21 04:48:55] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/31/ea/82bc6d28ef71c220f8026491e6e8ec5adbbf1f6f4694a646871078e861fa/raindrop_io_py-0.1.3.tar.gz
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo8-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/a9/9b/51c4b0e3791d343fa9460d071c884566b81a080533b221e762920b47514b/odoo8_addon_account_due_list-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-21 04:48:55] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230721/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 04:48:55] INFO root fetch - processPackages [raindrop-io-py]: executing diffoscope
+[2023-07-21 04:48:55] INFO root fetch - processPackages [raindrop-io-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindrop_io_py-0.1.2.tar.gz tmp/raindrop_io_py-0.1.3.tar.gz --markdown 20230721/r/raindrop-io-py/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo8-addon-account-due-list]: executing diffoscope
+[2023-07-21 04:48:55] INFO root fetch - processPackages [odoo8-addon-account-due-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_due_list-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_account_due_list-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230721/o/odoo8-addon-account-due-list/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-21 04:48:56] INFO root fetch - processPackages [odoo10-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/f7/3b/092a15d8b26be654f4a6661206c58d01ec28c1125e29e324c46a465221f7/odoo10_addon_account_due_list-10.0.2.0.0.99.dev4-py2-none-any.whl
+[2023-07-21 04:48:56] INFO root fetch - processPackages [odoo10-addon-account-due-list]: executing diffoscope
+[2023-07-21 04:48:56] INFO root fetch - processPackages [odoo10-addon-account-due-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_account_due_list-10.0.2.0.0.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_account_due_list-10.0.2.0.0.99.dev4-py2-none-any.whl.zip --markdown 20230721/o/odoo10-addon-account-due-list/10.0.2.0.0.99.dev3-10.0.2.0.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-21 04:48:56] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-07-21 04:48:56] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-07-21 04:48:56] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-07-21 04:48:57] INFO root fetch - processPackages [mlforecast]: Remove: archive file [/home/abi/fetcher/tmp/mlforecast-0.8.0.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - processPackages [mlforecast]: Remove: archive file [/home/abi/fetcher/tmp/mlforecast-0.8.1.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
+[2023-07-21 04:48:57] INFO root fetch - processPackages [odoo12-addon-account-group-invoice-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_group_invoice_line-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-21 04:48:57] INFO root fetch - processPackages [odoo12-addon-account-group-invoice-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_group_invoice_line-12.0.1.0.1.99.dev1-py3-none-any.whl.zip]
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-group-invoice-line]: success
+[2023-07-21 04:48:57] INFO root fetch - processPackages [bcpandas]: Remove: archive file [/home/abi/fetcher/tmp/bcpandas-2.4.1.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - processPackages [bcpandas]: Remove: archive file [/home/abi/fetcher/tmp/bcpandas-2.4.2.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: End processing [bcpandas]: success
+[2023-07-21 04:48:57] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.1.2.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.1.3.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: End processing [raindrop-io-py]: success
+[2023-07-21 04:48:57] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-21 04:48:57] INFO root fetch - processPackages [odoo10-addon-account-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_due_list-10.0.2.0.0.99.dev3-py2-none-any.whl.zip]
+[2023-07-21 04:48:57] INFO root fetch - processPackages [odoo10-addon-account-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_due_list-10.0.2.0.0.99.dev4-py2-none-any.whl.zip]
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-due-list]: success
+[2023-07-21 04:48:57] INFO root fetch - processPackages [odoo8-addon-account-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_due_list-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-21 04:48:57] INFO root fetch - processPackages [odoo8-addon-account-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_due_list-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-due-list]: success
+[2023-07-21 04:48:57] INFO root fetch - main [MainThread]: Store serial: [18977869]
