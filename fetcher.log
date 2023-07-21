@@ -6176,3 +6176,69 @@
 [2023-07-21 03:11:49] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
 [2023-07-21 03:11:49] INFO root fetch - main [MainThread]: End processing [kfsd]: success
 [2023-07-21 03:11:49] INFO root fetch - main [MainThread]: Store serial: [18976011]
+[2023-07-21 03:16:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18976011]
+[2023-07-21 03:16:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-sql-pro
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmldb-tool
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djgraphql
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brish
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlitopencvplayer
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-hugo-deploy
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moku
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-sql-pro
+[2023-07-21 03:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyepp
+[2023-07-21 03:16:58] INFO root fetch - processPackages [moku]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-21 03:16:58] INFO root fetch - processPackages [brish]: New version: [0.3.4.4] Old Version: [0.3.4.3]
+[2023-07-21 03:16:58] WARNING root fetch - processPackages [flask-sql-pro]: Skipping, unable to determine old version
+[2023-07-21 03:16:58] INFO root fetch - main [MainThread]: End processing [flask-sql-pro] error
+[2023-07-21 03:16:58] WARNING root fetch - processPackages [pyepp]: Skipping, unable to determine old version
+[2023-07-21 03:16:58] INFO root fetch - main [MainThread]: End processing [pyepp] error
+[2023-07-21 03:16:58] INFO root fetch - processPackages [openmldb-tool]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-21 03:16:58] INFO root fetch - processPackages [djgraphql]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 03:16:58] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-21 03:16:58] WARNING root fetch - processPackages [flask-sql-pro]: Skipping, unable to determine old version
+[2023-07-21 03:16:58] INFO root fetch - main [MainThread]: End processing [flask-sql-pro] error
+[2023-07-21 03:16:58] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 03:16:58] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/e6/ac/aa57b2b6ed517219aa010adcbe623fd88da98ed2023b18b91e2e68d9c0aa/streamlitopencvplayer-1.4.3.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/e8/6e/62c6863740fa748f3eb32235f5b068a884cbb42eb1e2fc5f7fa0b3312709/djgraphql-1.0.1.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [openmldb-tool]: Downloading https://files.pythonhosted.org/packages/b3/6e/6fd84fb46ca4b263c0ee68c53a0783e0d60e03ee7eac9c9b946d36003b6e/openmldb_tool-0.8.1-py3-none-any.whl
+[2023-07-21 03:16:58] INFO root fetch - processPackages [brish]: Downloading https://files.pythonhosted.org/packages/a6/be/d187b239fe26d9db72bbd53916a4a2c5fdd711c1c91f00bb8a82e557eef9/brish-0.3.4.3.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [moku]: Downloading https://files.pythonhosted.org/packages/03/46/be5d2e1dfb9cda7e464fc746b7906730cfe54fee81ae6633a204efbc3a80/moku-3.0.0.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/eb/a2/96b51c1383bd769fdfe2c5abd5010b78122ea1bc09e481899d27748739bf/streamlitopencvplayer-1.4.4.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/69/3d/b8ac5f27924eff91db702d9362ed617dd031c08707dab2429da526a9b38d/djgraphql-1.0.2.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [brish]: Downloading https://files.pythonhosted.org/packages/eb/c6/64ade6cf423040d804db0a3eecc82dd9bae1506af82787a6c7195a7b5097/brish-0.3.4.4.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-21 03:16:58] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.4.3.tar.gz tmp/streamlitopencvplayer-1.4.4.tar.gz --markdown 20230721/s/streamlitopencvplayer/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-21 03:16:58] INFO root fetch - processPackages [openmldb-tool]: Downloading https://files.pythonhosted.org/packages/86/5c/cd4a8c1e323b30861581085ef1975bbc2fbe1aa5c4e208995eb582f49cb9/openmldb_tool-0.8.2-py3-none-any.whl
+[2023-07-21 03:16:58] INFO root fetch - processPackages [brish]: executing diffoscope
+[2023-07-21 03:16:58] INFO root fetch - processPackages [brish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brish-0.3.4.3.tar.gz tmp/brish-0.3.4.4.tar.gz --markdown 20230721/b/brish/0.3.4.3-0.3.4.4/diff.md --exclude *.pyd
+[2023-07-21 03:16:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-21 03:16:58] INFO root fetch - processPackages [djgraphql]: executing diffoscope
+[2023-07-21 03:16:58] INFO root fetch - processPackages [djgraphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgraphql-1.0.1.tar.gz tmp/djgraphql-1.0.2.tar.gz --markdown 20230721/d/djgraphql/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 03:16:58] INFO root fetch - processPackages [moku]: Downloading https://files.pythonhosted.org/packages/49/18/8f7c60b16739a068a93602430308aa6d1ad28f887dd4cc72fc701490cf5a/moku-3.1.0.tar.gz
+[2023-07-21 03:16:59] INFO root fetch - processPackages [openmldb-tool]: executing diffoscope
+[2023-07-21 03:16:59] INFO root fetch - processPackages [openmldb-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmldb_tool-0.8.1-py3-none-any.whl.zip tmp/openmldb_tool-0.8.2-py3-none-any.whl.zip --markdown 20230721/o/openmldb-tool/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-21 03:16:59] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-21 03:16:59] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230721/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:16:59] INFO root fetch - processPackages [moku]: executing diffoscope
+[2023-07-21 03:16:59] INFO root fetch - processPackages [moku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moku-3.0.0.tar.gz tmp/moku-3.1.0.tar.gz --markdown 20230721/m/moku/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-21 03:16:59] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.3.tar.gz]
+[2023-07-21 03:16:59] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.4.tar.gz]
+[2023-07-21 03:16:59] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-21 03:16:59] INFO root fetch - processPackages [brish]: Remove: archive file [/home/abi/fetcher/tmp/brish-0.3.4.3.tar.gz]
+[2023-07-21 03:16:59] INFO root fetch - processPackages [brish]: Remove: archive file [/home/abi/fetcher/tmp/brish-0.3.4.4.tar.gz]
+[2023-07-21 03:16:59] INFO root fetch - main [MainThread]: End processing [brish]: success
+[2023-07-21 03:17:00] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-21 03:17:00] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-21 03:17:00] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-21 03:17:00] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.1.tar.gz]
+[2023-07-21 03:17:00] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.2.tar.gz]
+[2023-07-21 03:17:00] INFO root fetch - main [MainThread]: End processing [djgraphql]: success
+[2023-07-21 03:17:00] INFO root fetch - processPackages [openmldb-tool]: Remove: archive file [/home/abi/fetcher/tmp/openmldb_tool-0.8.1-py3-none-any.whl.zip]
+[2023-07-21 03:17:00] INFO root fetch - processPackages [openmldb-tool]: Remove: archive file [/home/abi/fetcher/tmp/openmldb_tool-0.8.2-py3-none-any.whl.zip]
+[2023-07-21 03:17:00] INFO root fetch - main [MainThread]: End processing [openmldb-tool]: success
+[2023-07-21 03:17:00] INFO root fetch - processPackages [moku]: Remove: archive file [/home/abi/fetcher/tmp/moku-3.0.0.tar.gz]
+[2023-07-21 03:17:00] INFO root fetch - processPackages [moku]: Remove: archive file [/home/abi/fetcher/tmp/moku-3.1.0.tar.gz]
+[2023-07-21 03:17:00] INFO root fetch - main [MainThread]: End processing [moku]: success
+[2023-07-21 03:17:00] INFO root fetch - main [MainThread]: Store serial: [18976068]
