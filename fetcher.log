@@ -12930,3 +12930,100 @@
 [2023-07-21 06:00:50] ERROR root fetch - processPackages [bioregistry]: Timeout during execution of pkgdiff
 [2023-07-21 06:00:50] INFO root fetch - main [MainThread]: End processing [bioregistry] error
 [2023-07-21 06:00:50] INFO root fetch - main [MainThread]: Store serial: [18978404]
+[2023-07-21 06:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978404]
+[2023-07-21 06:05:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bamboo-pipeline
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: healdata-utils
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ponder
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Flask-SQL-Pro
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evals-nightly
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-SQL-Pro
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: verify4py-test1
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-07-21 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dlnpyutils
+[2023-07-21 06:05:59] INFO root fetch - processPackages [healdata-utils]: New version: [0.1.3a0] Old Version: [0.1.1a0]
+[2023-07-21 06:05:59] INFO root fetch - processPackages [bamboo-pipeline]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 06:05:59] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.87]
+[2023-07-21 06:05:59] INFO root fetch - processPackages [dlnpyutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 06:05:59] WARNING root fetch - processPackages [verify4py-test1]: Skipping, unable to determine old version
+[2023-07-21 06:05:59] INFO root fetch - processPackages [verify4py-test1]: Start processing: swaggerfy
+[2023-07-21 06:05:59] INFO root fetch - main [MainThread]: End processing [verify4py-test1] error
+[2023-07-21 06:05:59] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 06:05:59] INFO root fetch - processPackages [Flask-SQL-Pro]: Start processing: swaggerify
+[2023-07-21 06:05:59] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 06:05:59] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 06:05:59] INFO root fetch - processPackages [Flask-SQL-Pro]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-07-21 06:05:59] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 06:05:59] INFO root fetch - processPackages [policyengine-us]: New version: [0.380.0] Old Version: [0.379.0]
+[2023-07-21 06:05:59] INFO root fetch - processPackages [ponder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 06:05:59] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230720] Old Version: [1.0.3.dev20230719]
+[2023-07-21 06:05:59] WARNING root fetch - processPackages [swaggerfy]: Skipping, unable to determine old version
+[2023-07-21 06:05:59] INFO root fetch - processPackages [swaggerfy]: Start processing: alibabacloud-btripopen20220520
+[2023-07-21 06:05:59] INFO root fetch - main [MainThread]: End processing [swaggerfy] error
+[2023-07-21 06:05:59] WARNING root fetch - processPackages [swaggerify]: Skipping, unable to determine old version
+[2023-07-21 06:05:59] INFO root fetch - main [MainThread]: End processing [swaggerify] error
+[2023-07-21 06:05:59] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-21 06:05:59] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-21 06:05:59] INFO root fetch - processPackages [healdata-utils]: Downloading https://files.pythonhosted.org/packages/39/73/460b53c8f469f6540a764633ca3bc6e8c62318f911b4c3152212424b15fa/healdata_utils-0.1.1a0.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/cb/a1/e46878c1a6b435969d65265f995a2459ffb09ce5484f4c21422152bec6f0/bamboo-pipeline-3.9.0.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/d0/29/082a95f5dc5efa12e24888012a4c17d992e35d9f48ce3c76431db8b6f2d9/mecord-cli-0.1.87.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e8/98/fbe5fe4b79d09e326cabbfd98b776597567a46d08a739d33ed03f557a298/policyengine-us-0.379.0.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [dlnpyutils]: Downloading https://files.pythonhosted.org/packages/b0/8d/5434db397bde5ab0305c41ff48c32eb75cbb65805028cce27cd8c2306009/dlnpyutils-1.0.8.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/df/71/00351343d592685a94483cb1c062b57f0935ed2beb95d26351c73065530b/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/4a/ab/e012af806ab602f7321f2bf53a834cd4066d3b15dac9e79f71427a23cf19/evals-nightly-1.0.3.dev20230719.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/de/98/73d05a28563088141efbde506f59660d05d8ff2d2909b19659857aeae99b/alibabacloud_btripopen20220520-1.1.8.tar.gz
+[2023-07-21 06:05:59] INFO root fetch - processPackages [ponder]: executing diffoscope
+[2023-07-21 06:05:59] INFO root fetch - processPackages [ponder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ponder-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/ponder-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230721/p/ponder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [healdata-utils]: Downloading https://files.pythonhosted.org/packages/58/59/2767e8d11df00af3964ae3e82ae346493a573e545bc6aafd520cc024ff8c/healdata_utils-0.1.3a0.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/17/2f/b1114b5515489315daea25d9c2eaf4226b72feaf0ab33a369c0f381ce001/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/b0/27/cdec0ebe98fcd2295d04a6e01415de51666143e8424c3063c27d8f56d3f3/bamboo-pipeline-3.9.1.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/94/e4/dc33e5009c82c26463d897279e9ab315d11e8a80f61f68c97383f8ee5a5b/evals-nightly-1.0.3.dev20230720.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/2d/24/09ddee056c42d0ef3e09708b70d75b41d70852534554d69fd5f5f3a55abe/policyengine-us-0.380.0.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [healdata-utils]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [healdata-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healdata_utils-0.1.1a0.tar.gz tmp/healdata_utils-0.1.3a0.tar.gz --markdown 20230721/h/healdata-utils/0.1.1a0-0.1.3a0/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz --markdown 20230721/a/alibabacloud-btripopen20220520-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/45/bb/bde80949695da61ededa0597d7ddadb0ec652b26252e61e97727130da792/alibabacloud_btripopen20220520-1.1.9.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230719.tar.gz tmp/evals-nightly-1.0.3.dev20230720.tar.gz --markdown 20230721/e/evals-nightly/1.0.3.dev20230719-1.0.3.dev20230720/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.87.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230721/m/mecord-cli/0.1.87-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [bamboo-pipeline]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [bamboo-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo-pipeline-3.9.0.tar.gz tmp/bamboo-pipeline-3.9.1.tar.gz --markdown 20230721/b/bamboo-pipeline/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz --markdown 20230721/a/alibabacloud-btripopen20220520/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [dlnpyutils]: Downloading https://files.pythonhosted.org/packages/48/bd/886f6575107a139585e4b43388785b3520866e8f702bd0e0e4a982d566ba/dlnpyutils-1.0.9.tar.gz
+[2023-07-21 06:06:00] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.379.0.tar.gz tmp/policyengine-us-0.380.0.tar.gz --markdown 20230721/p/policyengine-us/0.379.0-0.380.0/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [dlnpyutils]: executing diffoscope
+[2023-07-21 06:06:00] INFO root fetch - processPackages [dlnpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlnpyutils-1.0.8.tar.gz tmp/dlnpyutils-1.0.9.tar.gz --markdown 20230721/d/dlnpyutils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 06:06:00] INFO root fetch - processPackages [ponder]: Remove: archive file [/home/abi/fetcher/tmp/ponder-0.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 06:06:00] INFO root fetch - processPackages [ponder]: Remove: archive file [/home/abi/fetcher/tmp/ponder-0.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 06:06:00] INFO root fetch - main [MainThread]: End processing [ponder]: success
+[2023-07-21 06:06:01] INFO root fetch - processPackages [healdata-utils]: Remove: archive file [/home/abi/fetcher/tmp/healdata_utils-0.1.1a0.tar.gz]
+[2023-07-21 06:06:01] INFO root fetch - processPackages [healdata-utils]: Remove: archive file [/home/abi/fetcher/tmp/healdata_utils-0.1.3a0.tar.gz]
+[2023-07-21 06:06:01] INFO root fetch - main [MainThread]: End processing [healdata-utils]: success
+[2023-07-21 06:06:01] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.87.tar.gz]
+[2023-07-21 06:06:01] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-21 06:06:01] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-21 06:06:02] INFO root fetch - processPackages [dlnpyutils]: Remove: archive file [/home/abi/fetcher/tmp/dlnpyutils-1.0.8.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - processPackages [dlnpyutils]: Remove: archive file [/home/abi/fetcher/tmp/dlnpyutils-1.0.9.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - main [MainThread]: End processing [dlnpyutils]: success
+[2023-07-21 06:06:02] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-07-21 06:06:02] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-07-21 06:06:02] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230719.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230720.tar.gz]
+[2023-07-21 06:06:02] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-21 06:06:03] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.0.tar.gz]
+[2023-07-21 06:06:03] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.1.tar.gz]
+[2023-07-21 06:06:03] INFO root fetch - main [MainThread]: End processing [bamboo-pipeline]: success
+[2023-07-21 06:06:30] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.379.0.tar.gz]
+[2023-07-21 06:06:30] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.380.0.tar.gz]
+[2023-07-21 06:06:30] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-21 06:06:30] INFO root fetch - main [MainThread]: Store serial: [18978471]
