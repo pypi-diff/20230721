@@ -14692,3 +14692,72 @@
 [2023-07-21 08:01:03] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
 [2023-07-21 08:01:03] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-event-register-free]: success
 [2023-07-21 08:01:03] INFO root fetch - main [MainThread]: Store serial: [18979115]
+[2023-07-21 08:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979115]
+[2023-07-21 08:06:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syntaxlight
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiscalsim-us
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djgraphql
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rondsspark
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sn-test
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sicore
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyneople
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nncase
+[2023-07-21 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Clone-ChatGPT
+[2023-07-21 08:06:12] INFO root fetch - processPackages [fiscalsim-us]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 08:06:12] WARNING root fetch - processPackages [sicore]: Skipping, unable to determine old version
+[2023-07-21 08:06:12] INFO root fetch - main [MainThread]: End processing [sicore] error
+[2023-07-21 08:06:12] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.2.9.3] Old Version: [1.2.9.2]
+[2023-07-21 08:06:12] INFO root fetch - processPackages [djgraphql]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-21 08:06:12] INFO root fetch - processPackages [sn-test]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-21 08:06:12] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-07-21 08:06:12] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-21 08:06:12] WARNING root fetch - processPackages [pyneople]: Skipping, unable to determine old version
+[2023-07-21 08:06:12] INFO root fetch - main [MainThread]: End processing [pyneople] error
+[2023-07-21 08:06:12] INFO root fetch - processPackages [nncase]: New version: [2.1.0.20230703] Old Version: [2.0.0.20230602]
+[2023-07-21 08:06:13] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/9b/75/9516ece3fe47084b72900bff11532ef6446d728295284ee3cb016a1f6190/Clone-ChatGPT-1.2.9.2.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/7a/14/ef743d02ae1bc90373ab4947de2932ec61902fbc172e54caaa2fe07e6795/rondsspark-0.0.4.7.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/8d/51/ce335fb11c8fd59298b381a966fcc2241591ea5c11298656818c36a2bd47/sn_test-0.1.3.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/bb/af/1b96bd502fdcd10f610c68f5aafefcdc3de8e76cfe1b9b1bf71cf40744c0/syntaxlight-0.0.3.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/00/e5/a11538190c300afa6058d7414cc7b6041b8467d8a56071be8c826aa1a66b/fiscalsim-us-0.1.0.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/ed/b2/4d7ef30523a87b7dfedccf03a0a6c48d6d00a80d1b8fa8cf40a5103ac762/djgraphql-1.0.7.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/8f/dd/26723462be36e80e4d0f840c173f7e2781b8aaed07e41c4b64e72db8e169/nncase-2.0.0.20230602-cp39-cp39-win_amd64.whl
+[2023-07-21 08:06:13] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/70/43/0d45f8925a09c136a190403f027cd4691beab3a6c5b1fc352b79f898ac69/rondsspark-0.0.4.8.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/94/34/d26685a10642cdb58bf9583cfe1a4af2780259ed9baea5d8154abc322b82/syntaxlight-0.0.4.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/9c/b3/6bc12c0bb177342dc8997f3e77b01b6d7aa130f9be63f1d9a6845edc48b9/Clone-ChatGPT-1.2.9.3.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-21 08:06:13] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.7.tar.gz tmp/rondsspark-0.0.4.8.tar.gz --markdown 20230721/r/rondsspark/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-07-21 08:06:13] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/68/f6/72bf9975609189e2ac53e02e1d2d15d7824c788f504644a1eccd0ef76c3e/sn_test-0.1.4.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/2b/fa/060876f45e8aa420201c904a86ebf6a3378395662bb622ba62b5b3fce89f/djgraphql-1.0.8.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-21 08:06:13] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.3.tar.gz tmp/syntaxlight-0.0.4.tar.gz --markdown 20230721/s/syntaxlight/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-21 08:06:13] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-21 08:06:13] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-0.1.3.tar.gz tmp/sn_test-0.1.4.tar.gz --markdown 20230721/s/sn-test/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-21 08:06:13] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-07-21 08:06:13] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.9.2.tar.gz tmp/Clone-ChatGPT-1.2.9.3.tar.gz --markdown 20230721/C/Clone-ChatGPT/1.2.9.2-1.2.9.3/diff.md --exclude *.pyd
+[2023-07-21 08:06:13] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/16/de/3c07a2adcdb879a0767c6309a6e6c6f4183eb092a674d122a77c0b356ae5/fiscalsim-us-0.1.1.tar.gz
+[2023-07-21 08:06:13] INFO root fetch - processPackages [djgraphql]: executing diffoscope
+[2023-07-21 08:06:13] INFO root fetch - processPackages [djgraphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgraphql-1.0.7.tar.gz tmp/djgraphql-1.0.8.tar.gz --markdown 20230721/d/djgraphql/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-21 08:06:14] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/f8/3a/00b713b364724981f1edcd7fc2e38c67f9505f0d596d32d62ef557292070/nncase-2.1.0.20230703-cp39-cp39-win_amd64.whl
+[2023-07-21 08:06:14] INFO root fetch - processPackages [fiscalsim-us]: executing diffoscope
+[2023-07-21 08:06:14] INFO root fetch - processPackages [fiscalsim-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiscalsim-us-0.1.0.tar.gz tmp/fiscalsim-us-0.1.1.tar.gz --markdown 20230721/f/fiscalsim-us/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 08:06:14] WARNING root fetch - processPackages [nncase]: Skipping package: exceeds size limit 19199148>=10485760
+[2023-07-21 08:06:14] INFO root fetch - main [MainThread]: End processing [nncase] error
+[2023-07-21 08:06:14] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.7.tar.gz]
+[2023-07-21 08:06:14] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.8.tar.gz]
+[2023-07-21 08:06:14] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-21 08:06:14] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-0.1.3.tar.gz]
+[2023-07-21 08:06:14] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-0.1.4.tar.gz]
+[2023-07-21 08:06:14] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-21 08:06:14] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.3.tar.gz]
+[2023-07-21 08:06:14] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.4.tar.gz]
+[2023-07-21 08:06:14] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-21 08:06:14] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.7.tar.gz]
+[2023-07-21 08:06:14] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.8.tar.gz]
+[2023-07-21 08:06:15] INFO root fetch - main [MainThread]: End processing [djgraphql]: success
+[2023-07-21 08:06:15] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.2.tar.gz]
+[2023-07-21 08:06:15] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.3.tar.gz]
+[2023-07-21 08:06:15] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-07-21 08:06:36] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.1.0.tar.gz]
+[2023-07-21 08:06:36] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.1.1.tar.gz]
+[2023-07-21 08:06:36] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
+[2023-07-21 08:06:36] INFO root fetch - main [MainThread]: Store serial: [18979148]
