@@ -17135,3 +17135,131 @@
 [2023-07-21 10:08:51] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
 [2023-07-21 10:08:51] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-07-21 10:08:51] INFO root fetch - main [MainThread]: Store serial: [18980112]
+[2023-07-21 10:13:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980112]
+[2023-07-21 10:13:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rradd
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panther
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argilla
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlitopencvplayer
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdal2numpy
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trisicell
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aurornis
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exonviz
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2023-07-21 10:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lesscode-py
+[2023-07-21 10:14:00] INFO root fetch - processPackages [exonviz]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [argilla]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [panther]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [aurornis]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-21 10:14:00] WARNING root fetch - processPackages [rradd]: Skipping, unable to determine old version
+[2023-07-21 10:14:00] INFO root fetch - processPackages [rradd]: Start processing: one-api-tool
+[2023-07-21 10:14:00] INFO root fetch - main [MainThread]: End processing [rradd] error
+[2023-07-21 10:14:00] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.91] Old Version: [1.0.90]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [trisicell]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [exonviz]: Downloading https://files.pythonhosted.org/packages/97/81/d6b9a5ab0e22a6fa823e7915d9986e40a7069f0fbaa6308e20b1f5579faf/exonviz-0.1.1.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/eb/a2/96b51c1383bd769fdfe2c5abd5010b78122ea1bc09e481899d27748739bf/streamlitopencvplayer-1.4.4.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/db/d2/1807a27e022f01a3f9281c8ee7cfc5a33cf1d6d5db9d61f9693743c4003b/seven_cloudapp_frame-1.0.90.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [one-api-tool]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/63/3c/2adc8bbdc37604d3bfc0eea97ee56d1ba2d7463315123d81f7065ab57e47/argilla-1.8.0.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/22/7f/e45916f90c729b991d5fb68083607ae07c06576b188b70d69c1e2344301a/panther-1.7.8.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [aurornis]: Downloading https://files.pythonhosted.org/packages/d5/4d/5b2192a4c69ffdbe7d9c3070eedfae987b66ccc10e1a862d1d6bf81ff55d/aurornis-1.4.0.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [trisicell]: Downloading https://files.pythonhosted.org/packages/38/bc/fc01229c47cd5bd5c5e92134b793f8846fb44fe04654a3ee296125d41973/trisicell-0.2.1.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/8a/2d/9e387c108c0ec9b9ef0eec8808bf116e31c997f4b0cf1ef9daa0977db034/one-api-tool-0.4.7.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-21 10:14:00] WARNING root fetch - processPackages [trisicell]: Skipping package: exceeds size limit 21819656>=10485760
+[2023-07-21 10:14:00] INFO root fetch - processPackages [trisicell]: Start processing: streamlitopencvplayer
+[2023-07-21 10:14:00] INFO root fetch - main [MainThread]: End processing [trisicell] error
+[2023-07-21 10:14:00] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/de/5d/455227d60c65731d4e6fc64aa05d3e6f76b0f8baba9b2e7f60c87f7dbb87/streamlitopencvplayer-1.4.5.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [exonviz]: Downloading https://files.pythonhosted.org/packages/37/fa/d0d11f4faa1a0092a95ffb1260afed0ef31653c16fa7622f106adabb0d51/exonviz-0.1.2.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/62/93/730b0436c75a8a915782a59911d94a0c75c23d296035919ced3a18ef2de7/seven_cloudapp_frame-1.0.91.tar.gz
+[2023-07-21 10:14:00] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-21 10:14:00] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-21 10:14:00] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230721/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 10:14:00] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/26/b4/a11d5e9201570ef6c49a09335ff86fdedfb67593aafcf07712d13a04dcef/panther-1.7.9.tar.gz
+[2023-07-21 10:14:01] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.4.4.tar.gz tmp/streamlitopencvplayer-1.4.5.tar.gz --markdown 20230721/s/streamlitopencvplayer/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [exonviz]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [exonviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exonviz-0.1.1.tar.gz tmp/exonviz-0.1.2.tar.gz --markdown 20230721/e/exonviz/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [aurornis]: Downloading https://files.pythonhosted.org/packages/46/1f/4d988aedee6b44607eab83754355f30852d15f3f2a2b4db1128045b7004c/aurornis-1.5.0.tar.gz
+[2023-07-21 10:14:01] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.90.tar.gz tmp/seven_cloudapp_frame-1.0.91.tar.gz --markdown 20230721/s/seven-cloudapp-frame/1.0.90-1.0.91/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [panther]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [panther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther-1.7.8.tar.gz tmp/panther-1.7.9.tar.gz --markdown 20230721/p/panther/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-21 10:14:01] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/01/bd/9aaa0c46d20ceba26f6bc2c103fd6b97389fbafefe5e72e44c5b267e139a/one-api-tool-0.4.8.tar.gz
+[2023-07-21 10:14:01] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/5a/13/1e3a20aa64cc9067faaa8b7e4dc14754a468f034b4438878437dc0ad7605/streamlitopencvplayer-1.4.6.tar.gz
+[2023-07-21 10:14:01] INFO root fetch - processPackages [aurornis]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [aurornis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurornis-1.4.0.tar.gz tmp/aurornis-1.5.0.tar.gz --markdown 20230721/a/aurornis/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230721/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.4.7.tar.gz tmp/one-api-tool-0.4.8.tar.gz --markdown 20230721/o/one-api-tool/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/d5/65/f5260906481f183068fa89f4a369f0d6b322e536cb0b5aa12eedb16fe91d/argilla-1.9.0.tar.gz
+[2023-07-21 10:14:01] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.4.5.tar.gz tmp/streamlitopencvplayer-1.4.6.tar.gz --markdown 20230721/s/streamlitopencvplayer/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-21 10:14:01] INFO root fetch - processPackages [argilla]: executing diffoscope
+[2023-07-21 10:14:01] INFO root fetch - processPackages [argilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla-1.8.0.tar.gz tmp/argilla-1.9.0.tar.gz --markdown 20230721/a/argilla/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-21 10:14:02] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [gdal2numpy]: Start processing: certbot-dns-multi
+[2023-07-21 10:14:02] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-21 10:14:02] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.4.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.5.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-21 10:14:02] INFO root fetch - processPackages [certbot-dns-multi]: New version: [4.9.1.dev0] Old Version: [4.9.1]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [exonviz]: Remove: archive file [/home/abi/fetcher/tmp/exonviz-0.1.1.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [exonviz]: Remove: archive file [/home/abi/fetcher/tmp/exonviz-0.1.2.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - main [MainThread]: End processing [exonviz]: success
+[2023-07-21 10:14:02] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/cc/f4/18f66a710e1ecf267ee6643f474609f74951c84f127f2a7bb12646e8a3aa/certbot-dns-multi-4.9.1.tar.gz
+[2023-07-21 10:14:02] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.8.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.9.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - main [MainThread]: End processing [panther]: success
+[2023-07-21 10:14:02] ERROR root fetch - processPackages [streamlitopencvplayer]: Diffoscope failed: time="2023-07-21T10:14:01+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
+
+[2023-07-21 10:14:02] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer] error
+[2023-07-21 10:14:02] INFO root fetch - processPackages [aurornis]: Remove: archive file [/home/abi/fetcher/tmp/aurornis-1.4.0.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [aurornis]: Remove: archive file [/home/abi/fetcher/tmp/aurornis-1.5.0.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - main [MainThread]: End processing [aurornis]: success
+[2023-07-21 10:14:02] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.7.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.8.tar.gz]
+[2023-07-21 10:14:02] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-21 10:14:03] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-21 10:14:03] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-21 10:14:03] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-21 10:14:03] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/0b/db/5ad2d4770403ae3a748f7a984f6c03cb6dc95ab6f3302589fcda0d427b30/certbot-dns-multi-4.9.1.dev0.tar.gz
+[2023-07-21 10:14:03] INFO root fetch - processPackages [certbot-dns-multi]: executing diffoscope
+[2023-07-21 10:14:03] INFO root fetch - processPackages [certbot-dns-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-multi-4.9.1.tar.gz tmp/certbot-dns-multi-4.9.1.dev0.tar.gz --markdown 20230721/c/certbot-dns-multi/4.9.1-4.9.1.dev0/diff.md --exclude *.pyd
+[2023-07-21 10:14:03] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.90.tar.gz]
+[2023-07-21 10:14:03] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.91.tar.gz]
+[2023-07-21 10:14:03] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-21 10:14:04] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.tar.gz]
+[2023-07-21 10:14:04] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.dev0.tar.gz]
+[2023-07-21 10:14:04] INFO root fetch - main [MainThread]: End processing [certbot-dns-multi]: success
+[2023-07-21 10:15:07] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.8.0.tar.gz]
+[2023-07-21 10:15:07] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.9.0.tar.gz]
+[2023-07-21 10:15:07] INFO root fetch - main [MainThread]: End processing [argilla]: success
+[2023-07-21 10:15:07] INFO root fetch - main [MainThread]: Store serial: [18980171]
