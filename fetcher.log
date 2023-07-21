@@ -11753,3 +11753,153 @@
 [2023-07-21 05:09:54] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2023-07-21 05:09:54] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-07-21 05:09:54] INFO root fetch - main [MainThread]: Store serial: [18978014]
+[2023-07-21 05:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978014]
+[2023-07-21 05:15:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-currency-rate-update
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imsosorry
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nids-datasets
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dyc-package
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llfn
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mec
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-ddmrp
+[2023-07-21 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-ddmrp
+[2023-07-21 05:15:03] INFO root fetch - processPackages [dyc-package]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [nids-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [odoo11-addon-ddmrp]: New version: [11.0.1.3.2.99.dev2] Old Version: [11.0.1.3.2.99.dev14]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [16.0.1.1.1.5] Old Version: [16.0.1.1.1.4]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [mec]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [imsosorry]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-21 05:15:03] INFO root fetch - processPackages [llfn]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-21 05:15:04] INFO root fetch - processPackages [policyengine-us]: New version: [0.378.0] Old Version: [0.377.1]
+[2023-07-21 05:15:04] INFO root fetch - processPackages [dyc-package]: Downloading https://files.pythonhosted.org/packages/df/71/2f262e4cb0a111aa9ae6a2370fa036c535c873dc786542a9f1ecb80f7030/dyc_package-1.0.2.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/fa/60/5d0d5e6aae4b025ecc74cd9c23256016bb351028acb2f438c70735accd49/nids_datasets-0.1.0.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [odoo11-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/38/6dbf509e1b7d44a019445c5ff590ea7f03f72a88a29489faf0f10196fa38/odoo11_addon_ddmrp-11.0.1.3.2.99.dev14-py2.py3-none-any.whl
+[2023-07-21 05:15:04] INFO root fetch - processPackages [mec]: Downloading https://files.pythonhosted.org/packages/d8/81/0dfd884385ebfafe9ae521ecc986ea2f1d97c99661e6b82a2f7af3ed4599/mec-0.0.1.3.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/12/64/594d2b107423f7afe4293438bf679236cce4351c647462cb4388391ef3db/policyengine-us-0.377.1.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/2a/ba/29d7d04a73c2237707e1d10b810e8318136e955f20914a84a5da743f8738/llfn-0.1.3.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/dc/95/950a4a2a5a258222e5237488d199eb7d07de47b5f5c6474af8b60e6a7a69/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl
+[2023-07-21 05:15:04] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/32/d5/b234a88eb15f1858b6d449cc2c3662f906b0b0a356a45e4f316954b57467/odoo_addon_currency_rate_update-16.0.1.1.1.4-py3-none-any.whl
+[2023-07-21 05:15:04] INFO root fetch - processPackages [imsosorry]: Downloading https://files.pythonhosted.org/packages/c4/06/54353565df004c7237ad3f6289fd7bd5bc85d303c6f106c04e794237fa32/imsosorry-1.2.0.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [dyc-package]: Downloading https://files.pythonhosted.org/packages/7e/c6/f1e07e665128979124ea78ebd1242988e17149f6b21e170b6822afa6a6d5/dyc_package-1.0.3.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/a1/f4/b480f389a4b7a10cf833c3a588684cd6f3572b1bc2b1de297ebc5026d055/nids_datasets-0.1.1.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/11/8d/cdf8abc41960acc167ae00990a49a63ef612d71c80924e9813c82a5f7180/policyengine-us-0.378.0.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [mec]: Downloading https://files.pythonhosted.org/packages/8f/63/e814274db588e8c13233f44c5a7730360353fe9fd3078c5c2cfe97ca7969/mec-0.0.1.4.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/1d/71/71b86281957f2bfec7b7c4bfb988383392298b00d86be30a37cb1e33b4aa/llfn-0.1.4.tar.gz
+[2023-07-21 05:15:04] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-21 05:15:04] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230721/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-21 05:15:04] INFO root fetch - processPackages [dyc-package]: executing diffoscope
+[2023-07-21 05:15:04] INFO root fetch - processPackages [dyc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyc_package-1.0.2.tar.gz tmp/dyc_package-1.0.3.tar.gz --markdown 20230721/d/dyc-package/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 05:15:04] INFO root fetch - processPackages [nids-datasets]: executing diffoscope
+[2023-07-21 05:15:04] INFO root fetch - processPackages [nids-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_datasets-0.1.0.tar.gz tmp/nids_datasets-0.1.1.tar.gz --markdown 20230721/n/nids-datasets/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 05:15:04] INFO root fetch - processPackages [odoo11-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/e1/81/720aae3168ba8d8738cdbf6c2fe286616fa793205b2992afe7d44c548d4a/odoo11_addon_ddmrp-11.0.1.3.2.99.dev2-py2.py3-none-any.whl
+[2023-07-21 05:15:04] INFO root fetch - processPackages [mec]: executing diffoscope
+[2023-07-21 05:15:04] INFO root fetch - processPackages [mec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mec-0.0.1.3.tar.gz tmp/mec-0.0.1.4.tar.gz --markdown 20230721/m/mec/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-07-21 05:15:05] INFO root fetch - processPackages [llfn]: executing diffoscope
+[2023-07-21 05:15:05] INFO root fetch - processPackages [llfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llfn-0.1.3.tar.gz tmp/llfn-0.1.4.tar.gz --markdown 20230721/l/llfn/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-21 05:15:05] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-21 05:15:05] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.377.1.tar.gz tmp/policyengine-us-0.378.0.tar.gz --markdown 20230721/p/policyengine-us/0.377.1-0.378.0/diff.md --exclude *.pyd
+[2023-07-21 05:15:05] INFO root fetch - processPackages [imsosorry]: Downloading https://files.pythonhosted.org/packages/0e/64/2682a20b458a5f6da5e2ca0dc1d8976824a3b3bcdd871546d23ebaf7de36/imsosorry-1.2.1.tar.gz
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/5a/f1/e682a43d6521ca41456243a79d1e5d7102f586e0b44f357ad5a1b8a40965/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/9c/a8/8330340b8028990b5e2e9607b596cd41d3ffef6ac82216a37cfb1ad1294b/odoo_addon_currency_rate_update-16.0.1.1.1.5-py3-none-any.whl
+[2023-07-21 05:15:05] INFO root fetch - processPackages [imsosorry]: executing diffoscope
+[2023-07-21 05:15:05] INFO root fetch - processPackages [imsosorry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsosorry-1.2.0.tar.gz tmp/imsosorry-1.2.1.tar.gz --markdown 20230721/i/imsosorry/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo11-addon-ddmrp]: executing diffoscope
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo11-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_ddmrp-11.0.1.3.2.99.dev14-py2.py3-none-any.whl.zip tmp/odoo11_addon_ddmrp-11.0.1.3.2.99.dev2-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-ddmrp/11.0.1.3.2.99.dev14-11.0.1.3.2.99.dev2/diff.md --exclude *.pyd
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230721/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2023-07-21 05:15:05] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-16.0.1.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-16.0.1.1.1.5-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-currency-rate-update/16.0.1.1.1.4-16.0.1.1.1.5/diff.md --exclude *.pyd
+[2023-07-21 05:15:06] INFO root fetch - processPackages [dyc-package]: Remove: archive file [/home/abi/fetcher/tmp/dyc_package-1.0.2.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [dyc-package]: Remove: archive file [/home/abi/fetcher/tmp/dyc_package-1.0.3.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [dyc-package]: Start processing: austrakka
+[2023-07-21 05:15:06] INFO root fetch - main [MainThread]: End processing [dyc-package]: success
+[2023-07-21 05:15:06] INFO root fetch - processPackages [austrakka]: New version: [0.32.2] Old Version: [0.32.1]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [mec]: Remove: archive file [/home/abi/fetcher/tmp/mec-0.0.1.3.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [mec]: Remove: archive file [/home/abi/fetcher/tmp/mec-0.0.1.4.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [mec]: Start processing: GANDLF
+[2023-07-21 05:15:06] INFO root fetch - main [MainThread]: End processing [mec]: success
+[2023-07-21 05:15:06] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.0.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.1.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [nids-datasets]: Start processing: odoo14-addon-ddmrp
+[2023-07-21 05:15:06] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - main [MainThread]: End processing [nids-datasets]: success
+[2023-07-21 05:15:06] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [roblox-pyc]: Start processing: odoo-addon-ddmrp
+[2023-07-21 05:15:06] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-21 05:15:06] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.3.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.4.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [llfn]: Start processing: coconut-develop
+[2023-07-21 05:15:06] INFO root fetch - main [MainThread]: End processing [llfn]: success
+[2023-07-21 05:15:06] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230721] Old Version: [0.0.17.dev20230720]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [imsosorry]: Remove: archive file [/home/abi/fetcher/tmp/imsosorry-1.2.0.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [imsosorry]: Remove: archive file [/home/abi/fetcher/tmp/imsosorry-1.2.1.tar.gz]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [imsosorry]: Start processing: nids-datasets
+[2023-07-21 05:15:06] INFO root fetch - main [MainThread]: End processing [imsosorry]: success
+[2023-07-21 05:15:06] INFO root fetch - processPackages [nids-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/e3/69/9abe2a6c2010ab733c344bf95c7441a423eab74419c94c65ca03314de79c/austrakka-0.32.1-py3-none-any.whl
+[2023-07-21 05:15:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.9.3.1] Old Version: [15.0.1.9.3]
+[2023-07-21 05:15:06] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/fa/60/5d0d5e6aae4b025ecc74cd9c23256016bb351028acb2f438c70735accd49/nids_datasets-0.1.0.tar.gz
+[2023-07-21 05:15:06] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-07-21 05:15:06] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/d4/a3/0e4718172f98ee009f9c70c97752b18a466001f1dfe00fbb6afd54131e23/GANDLF-0.0.17.dev20230720.tar.gz
+[2023-07-21 05:15:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/d4/11/353841b9584dd485465de4a95aad7c534802c2f0e6a6cba93390e0f15383/odoo_addon_ddmrp-15.0.1.9.3-py3-none-any.whl
+[2023-07-21 05:15:07] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo11-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_ddmrp-11.0.1.3.2.99.dev14-py2.py3-none-any.whl.zip]
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo11-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_ddmrp-11.0.1.3.2.99.dev2-py2.py3-none-any.whl.zip]
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo11-addon-ddmrp]: Start processing: zkf-package
+[2023-07-21 05:15:07] INFO root fetch - main [MainThread]: End processing [odoo11-addon-ddmrp]: success
+[2023-07-21 05:15:07] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/a1/f4/b480f389a4b7a10cf833c3a588684cd6f3572b1bc2b1de297ebc5026d055/nids_datasets-0.1.1.tar.gz
+[2023-07-21 05:15:07] ERROR root fetch - processPackages [zkf-package]: Unable to get metadata: No such project 'zkf-package'
+[2023-07-21 05:15:07] INFO root fetch - main [MainThread]: End processing [zkf-package] error
+[2023-07-21 05:15:07] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/9f/38/42594f4011be53a7d08e3006cfe0f19150fa89489bdc7b7ef98acafc2be8/austrakka-0.32.2-py3-none-any.whl
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.5-py3-none-any.whl.zip]
+[2023-07-21 05:15:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-21 05:15:07] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-07-21 05:15:07] INFO root fetch - processPackages [nids-datasets]: executing diffoscope
+[2023-07-21 05:15:07] INFO root fetch - processPackages [nids-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_datasets-0.1.0.tar.gz tmp/nids_datasets-0.1.1.tar.gz --markdown 20230721/n/nids-datasets/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 05:15:07] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-07-21 05:15:07] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.32.1-py3-none-any.whl.zip tmp/austrakka-0.32.2-py3-none-any.whl.zip --markdown 20230721/a/austrakka/0.32.1-0.32.2/diff.md --exclude *.pyd
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-21 05:15:07] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/be/b2/3ccc4cc903e2bdd09e36ceee13ffcdcc1902e295307a202e3401f72a0a59/GANDLF-0.0.17.dev20230721.tar.gz
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/3d/41/2e33b7577ad0e806ded85dfc771c367f0ad9bd1d11d79439cb8f6b13ae91/odoo_addon_ddmrp-15.0.1.9.3.1-py3-none-any.whl
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.9.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.9.3.1-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-ddmrp/15.0.1.9.3-15.0.1.9.3.1/diff.md --exclude *.pyd
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-07-21 05:15:07] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-07-21 05:15:07] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-21 05:15:07] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230720.tar.gz tmp/GANDLF-0.0.17.dev20230721.tar.gz --markdown 20230721/G/GANDLF/0.0.17.dev20230720-0.0.17.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 05:15:07] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-21 05:15:07] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-21 05:15:07] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230721/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-21 05:15:08] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.0.tar.gz]
+[2023-07-21 05:15:08] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.1.1.tar.gz]
+[2023-07-21 05:15:08] INFO root fetch - main [MainThread]: End processing [nids-datasets]: success
+[2023-07-21 05:15:08] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.1-py3-none-any.whl.zip]
+[2023-07-21 05:15:08] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.2-py3-none-any.whl.zip]
+[2023-07-21 05:15:08] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-07-21 05:15:09] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.3-py3-none-any.whl.zip]
+[2023-07-21 05:15:09] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.3.1-py3-none-any.whl.zip]
+[2023-07-21 05:15:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-07-21 05:15:09] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-21 05:15:09] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-21 05:15:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-07-21 05:15:09] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230720.tar.gz]
+[2023-07-21 05:15:09] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230721.tar.gz]
+[2023-07-21 05:15:09] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-21 05:15:09] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-21 05:15:09] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-21 05:15:09] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-21 05:15:35] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.377.1.tar.gz]
+[2023-07-21 05:15:35] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.378.0.tar.gz]
+[2023-07-21 05:15:35] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-21 05:15:35] INFO root fetch - main [MainThread]: Store serial: [18978075]
