@@ -14827,3 +14827,126 @@
 [2023-07-21 08:11:52] INFO root fetch - processPackages [nncase-kpu]: Remove: archive file [/home/abi/fetcher/tmp/nncase_kpu-2.1.1.20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-21 08:11:52] INFO root fetch - main [MainThread]: End processing [nncase-kpu]: success
 [2023-07-21 08:11:52] INFO root fetch - main [MainThread]: Store serial: [18979179]
+[2023-07-21 08:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979179]
+[2023-07-21 08:17:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otx
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sn-test
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cn-bing-translator
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turing-sdk
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Giraffe-View
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretext
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: operatorio
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dspawpy
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyg-nightly
+[2023-07-21 08:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: document-detection
+[2023-07-21 08:17:04] INFO root fetch - processPackages [otx]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [Giraffe-View]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [sn-test]: New version: [1.0.1] Old Version: [0.1.3]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [dspawpy]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-21 08:17:04] WARNING root fetch - processPackages [document-detection]: Skipping, unable to determine old version
+[2023-07-21 08:17:04] INFO root fetch - processPackages [document-detection]: Start processing: djgraphql
+[2023-07-21 08:17:04] INFO root fetch - main [MainThread]: End processing [document-detection] error
+[2023-07-21 08:17:04] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [operatorio]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [cn-bing-translator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [pretext]: New version: [1.7.2.dev20230721] Old Version: [1.7.1.dev20230720]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [djgraphql]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230721] Old Version: [2.4.0.dev20230720]
+[2023-07-21 08:17:04] INFO root fetch - processPackages [operatorio]: Downloading https://files.pythonhosted.org/packages/55/dd/a933fd8b25080ad5925c6063c54d3664c872289020bd2a63f13aa403c0c8/operatorio-0.1.2.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [cn-bing-translator]: Downloading https://files.pythonhosted.org/packages/d6/55/89ab54a37ffef592c1d31cb8f200c7b7a83e9fca2fc0de8aebe59d7f8706/cn_bing_translator-0.0.2.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/17/f1/2825944c17bba98048c894d9facc49f50c02dbe34c65fff245ee3d14d0e7/pretext-1.7.1.dev20230720.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/54/e9/5ddfcbffb6f630f6630b56dbafac66596823dc53335085d9218b0beb2eea/dspawpy-1.0.3-py3-none-any.whl
+[2023-07-21 08:17:04] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/2b/fa/060876f45e8aa420201c904a86ebf6a3378395662bb622ba62b5b3fce89f/djgraphql-1.0.8.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/8d/51/ce335fb11c8fd59298b381a966fcc2241591ea5c11298656818c36a2bd47/sn_test-0.1.3.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/74/f2/d37439f49591f95c1648dc871a26133bbc0e877d0bf2bf5d7af7dcd16823/otx-1.4.0rc3.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/31/61/4a76827069f49fd45bc2290b029ede645ca86551ef045e4cba0bdb6af12c/Giraffe_View-0.0.8.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d9/8f/aebcf9ff1fbdafa5c27d80046b341ddbc1ee99174290312213acc910333b/pyg_nightly-2.4.0.dev20230720.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [cn-bing-translator]: Downloading https://files.pythonhosted.org/packages/35/bd/4366321414955e3a6bf593c96909018924ec4a30661766b85f9eff5ad941/cn_bing_translator-0.0.3.tar.gz
+[2023-07-21 08:17:04] INFO root fetch - processPackages [operatorio]: Downloading https://files.pythonhosted.org/packages/bb/07/465043703b24b8e2112ae8c82929925cf8e361acf0abec0259159f42fab4/operatorio-0.1.3.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/37/27/21e018cc7b7df1b5b5a82ff954c28e2ba3a5aac0f91ba33e1ff32e163e99/sn_test-1.0.1.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/c4/dd/86691e68059fcfab19c414be5d49689552c1e44e13ee494ab8487fef7590/djgraphql-1.1.0.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/e8/02/88d50406fd290d6dd4c64312cf628246f637116f95a7186092526c3f6c5f/Giraffe_View-0.0.9.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f4/05/c07aff22f379d2ac72e3c9a25ba679f24f32a58091c102b24fdf18b16f1c/pretext-1.7.2.dev20230721.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/2b/d7/c14735b0615617b0896914e1f5d07a93ce1eb806e3a6acf6d12e0337dff0/dspawpy-1.0.4.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [operatorio]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [operatorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operatorio-0.1.2.tar.gz tmp/operatorio-0.1.3.tar.gz --markdown 20230721/o/operatorio/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.0.8.tar.gz tmp/Giraffe_View-0.0.9.tar.gz --markdown 20230721/G/Giraffe-View/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [cn-bing-translator]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [cn-bing-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cn_bing_translator-0.0.2.tar.gz tmp/cn_bing_translator-0.0.3.tar.gz --markdown 20230721/c/cn-bing-translator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-0.1.3.tar.gz tmp/sn_test-1.0.1.tar.gz --markdown 20230721/s/sn-test/0.1.3-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/2d/ff/d3b618586eb0ac11d36e9027ecbd3201b2a991a6f9504008ee0f7cac19c0/turing-sdk-0.9.1.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-1.0.3-py3-none-any.whl.zip tmp/dspawpy-1.0.4.tar.gz --markdown 20230721/d/dspawpy/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/38/6e/adf7e5adfdcd4f583a4b56887ce2467d0f7f476b8dc0a62eda10c41448a4/pyg_nightly-2.4.0.dev20230721.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [djgraphql]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [djgraphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgraphql-1.0.8.tar.gz tmp/djgraphql-1.1.0.tar.gz --markdown 20230721/d/djgraphql/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/a6/d2/fd6e46667b88639b255332bb9a67388d1a7b0ca7365ef6694f1da922b381/otx-1.4.0rc4.tar.gz
+[2023-07-21 08:17:05] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.9.0rc1.tar.gz tmp/turing-sdk-0.9.1.tar.gz --markdown 20230721/t/turing-sdk/0.9.0rc1-0.9.1/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.1.dev20230720.tar.gz tmp/pretext-1.7.2.dev20230721.tar.gz --markdown 20230721/p/pretext/1.7.1.dev20230720-1.7.2.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 08:17:05] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-21 08:17:05] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230720.tar.gz tmp/pyg_nightly-2.4.0.dev20230721.tar.gz --markdown 20230721/p/pyg-nightly/2.4.0.dev20230720-2.4.0.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 08:17:06] INFO root fetch - processPackages [operatorio]: Remove: archive file [/home/abi/fetcher/tmp/operatorio-0.1.2.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [operatorio]: Remove: archive file [/home/abi/fetcher/tmp/operatorio-0.1.3.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [operatorio]: Start processing: threemystic-cloud-client
+[2023-07-21 08:17:06] INFO root fetch - main [MainThread]: End processing [operatorio]: success
+[2023-07-21 08:17:06] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.8.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [Giraffe-View]: Start processing: threemystic-cloud-data-client
+[2023-07-21 08:17:06] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2023-07-21 08:17:06] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.44] Old Version: [0.1.43]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/9a/08/c9d2673556f89641200964144c12234ef7e3ed3351429c5069bbb69e077c/threemystic_cloud_client-0.1.43.tar.gz
+[2023-07-21 08:17:06] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/c0/c1/5628fb6b2b22d826e9b3b2fffc8bb75080323f79f5c349fcceefee800ba5/threemystic_cloud_data_client-0.1.25.tar.gz
+[2023-07-21 08:17:06] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.0.3-py3-none-any.whl.zip]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.0.4.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [dspawpy]: Start processing: Giraffe-View
+[2023-07-21 08:17:06] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-07-21 08:17:06] INFO root fetch - processPackages [cn-bing-translator]: Remove: archive file [/home/abi/fetcher/tmp/cn_bing_translator-0.0.2.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [cn-bing-translator]: Remove: archive file [/home/abi/fetcher/tmp/cn_bing_translator-0.0.3.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - main [MainThread]: End processing [cn-bing-translator]: success
+[2023-07-21 08:17:06] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-0.1.3.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.1.tar.gz]
+[2023-07-21 08:17:06] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-21 08:17:06] INFO root fetch - processPackages [Giraffe-View]: New version: [0.0.9.1] Old Version: [0.0.9]
+[2023-07-21 08:17:06] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/e8/02/88d50406fd290d6dd4c64312cf628246f637116f95a7186092526c3f6c5f/Giraffe_View-0.0.9.tar.gz
+[2023-07-21 08:17:07] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.8.tar.gz]
+[2023-07-21 08:17:07] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.1.0.tar.gz]
+[2023-07-21 08:17:07] INFO root fetch - main [MainThread]: End processing [djgraphql]: success
+[2023-07-21 08:17:07] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/18/46/5d90495c61eb6923b9508fe658e10428cf2835ef27dfc7c678da02b3e5be/threemystic_cloud_client-0.1.44.tar.gz
+[2023-07-21 08:17:07] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-07-21 08:17:07] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.4.0rc3.tar.gz tmp/otx-1.4.0rc4.tar.gz --markdown 20230721/o/otx/1.4.0rc3-1.4.0rc4/diff.md --exclude *.pyd
+[2023-07-21 08:17:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/95/9c/cab02f6f1ad75acd35abbf4a54c8e017ca8b7e4437313026e16beb2738fa/threemystic_cloud_data_client-0.1.26.tar.gz
+[2023-07-21 08:17:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-21 08:17:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.25.tar.gz tmp/threemystic_cloud_data_client-0.1.26.tar.gz --markdown 20230721/t/threemystic-cloud-data-client/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-07-21 08:17:07] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/47/10/22e595c524fa44db554d08d70db43536c6b4bfc2f09dfd6fa29eb6585a4f/Giraffe_View-0.0.9.1.tar.gz
+[2023-07-21 08:17:07] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-21 08:17:07] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.43.tar.gz tmp/threemystic_cloud_client-0.1.44.tar.gz --markdown 20230721/t/threemystic-cloud-client/0.1.43-0.1.44/diff.md --exclude *.pyd
+[2023-07-21 08:17:07] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.0rc1.tar.gz]
+[2023-07-21 08:17:07] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.1.tar.gz]
+[2023-07-21 08:17:07] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2023-07-21 08:17:07] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2023-07-21 08:17:07] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.0.9.tar.gz tmp/Giraffe_View-0.0.9.1.tar.gz --markdown 20230721/G/Giraffe-View/0.0.9-0.0.9.1/diff.md --exclude *.pyd
+[2023-07-21 08:17:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.25.tar.gz]
+[2023-07-21 08:17:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.26.tar.gz]
+[2023-07-21 08:17:08] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-21 08:17:08] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.tar.gz]
+[2023-07-21 08:17:08] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.1.tar.gz]
+[2023-07-21 08:17:08] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2023-07-21 08:17:08] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.43.tar.gz]
+[2023-07-21 08:17:08] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.44.tar.gz]
+[2023-07-21 08:17:08] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-21 08:17:09] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230720.tar.gz]
+[2023-07-21 08:17:09] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230721.tar.gz]
+[2023-07-21 08:17:09] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-21 08:17:09] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.1.dev20230720.tar.gz]
+[2023-07-21 08:17:09] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.2.dev20230721.tar.gz]
+[2023-07-21 08:17:09] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-21 08:17:22] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc3.tar.gz]
+[2023-07-21 08:17:22] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc4.tar.gz]
+[2023-07-21 08:17:22] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-07-21 08:17:22] INFO root fetch - main [MainThread]: Store serial: [18979224]
