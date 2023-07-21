@@ -9850,3 +9850,125 @@
 [2023-07-21 03:40:37] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip]
 [2023-07-21 03:40:37] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
 [2023-07-21 03:40:37] INFO root fetch - main [MainThread]: Store serial: [18977330]
+[2023-07-21 03:45:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18977330]
+[2023-07-21 03:45:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devpm
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive-jupyter-kernel
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rondsspark
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shillelagh
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benimang
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hype-html
+[2023-07-21 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-apl
+[2023-07-21 03:45:48] INFO root fetch - processPackages [hype-html]: New version: [2.0.0] Old Version: [1.1.3]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [devpm]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [shillelagh]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [benimang]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.907] Old Version: [0.0.906]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 03:45:48] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/51/44/5d85e48353b75b3114c768f854a6a877a634d97aae0a451a2a20d16dc79a/nbdev-apl-0.0.906.tar.gz
+[2023-07-21 03:45:48] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/01/11/8ecfa400ab1f3c601354b9c87919cee0a890790d2e531bf6f23895f19a72/benimang-0.4.1.tar.gz
+[2023-07-21 03:45:48] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/89/ba/3a9b235dc3881daf4d962a637682100ee89c0a3fcecc77b9f2f020024606/hype-html-1.1.3.tar.gz
+[2023-07-21 03:45:48] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-21 03:45:48] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-21 03:45:48] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/7a/14/ef743d02ae1bc90373ab4947de2932ec61902fbc172e54caaa2fe07e6795/rondsspark-0.0.4.7.tar.gz
+[2023-07-21 03:45:48] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/4a/71/0bceb744ac3fe3049e542227522e89cecb82817482d06d710dfce4b7a3ae/devpm-1.0.4.tar.gz
+[2023-07-21 03:45:48] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/ca/32/14ef007004cc4f6c8757da66f2d10afb1f24fd462ff6c6390f0194d4df80/shillelagh-1.2.5.tar.gz
+[2023-07-21 03:45:48] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-21 03:45:48] INFO root fetch - processPackages [proactive]: Start processing: pairguy
+[2023-07-21 03:45:48] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-21 03:45:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [pairguy]: New version: [1.2] Old Version: [1.1]
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/c4/2d/ff67ec63c457237b711dc795d1db4101bc52c14c2fd2091c45ce846d8d5b/nbdev-apl-0.0.907.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/df/f8/6627d1751ed081f90cfd83ea4d33b2dab513ab57712152d5e0f1a79de3e0/benimang-0.4.2.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [pairguy]: Downloading https://files.pythonhosted.org/packages/a9/50/87cf6329f2128a3a18bf5293db486645597da5557b119b7dab7713c400b1/pairguy-1.1.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/06/56/5d8919dd8fffcf01869a75f71314a18a602913251bd1e047b1209f033321/hype_html-2.0.0.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/ca/70/163f5566c9c5de79fe2d11e0353f890f2324836580a830bd5de36329cc0c/devpm-1.1.0.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230721/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/70/43/0d45f8925a09c136a190403f027cd4691beab3a6c5b1fc352b79f898ac69/rondsspark-0.0.4.8.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-21 03:45:49] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.1.tar.gz tmp/benimang-0.4.2.tar.gz --markdown 20230721/b/benimang/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.906.tar.gz tmp/nbdev-apl-0.0.907.tar.gz --markdown 20230721/n/nbdev-apl/0.0.906-0.0.907/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [hype-html]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [hype-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hype-html-1.1.3.tar.gz tmp/hype_html-2.0.0.tar.gz --markdown 20230721/h/hype-html/1.1.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [devpm]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [devpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpm-1.0.4.tar.gz tmp/devpm-1.1.0.tar.gz --markdown 20230721/d/devpm/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.7.tar.gz tmp/rondsspark-0.0.4.8.tar.gz --markdown 20230721/r/rondsspark/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230721/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230721/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-21 03:45:49] INFO root fetch - processPackages [pairguy]: Downloading https://files.pythonhosted.org/packages/2f/8d/59e2733f963f2ce5fdd37028bd1ddc4b25552abe18a3be7f2dc4dab04bdc/pairguy-1.2.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/ca/c3/004920f54f5ab2539d53db4e8585084002b289309e1ee3c4092dcc9dc959/shillelagh-1.2.6.tar.gz
+[2023-07-21 03:45:49] INFO root fetch - processPackages [pairguy]: executing diffoscope
+[2023-07-21 03:45:49] INFO root fetch - processPackages [pairguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pairguy-1.1.tar.gz tmp/pairguy-1.2.tar.gz --markdown 20230721/p/pairguy/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-21 03:45:50] INFO root fetch - processPackages [shillelagh]: executing diffoscope
+[2023-07-21 03:45:50] INFO root fetch - processPackages [shillelagh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shillelagh-1.2.5.tar.gz tmp/shillelagh-1.2.6.tar.gz --markdown 20230721/s/shillelagh/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-21 03:45:50] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-21 03:45:50] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-21 03:45:50] INFO root fetch - processPackages [nbdev-django]: Start processing: odoo14-addon-ssi-master-data-mixin
+[2023-07-21 03:45:50] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-21 03:45:50] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: New version: [14.0.3.0.0] Old Version: [14.0.2.0.0]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.906.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.907.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [nbdev-apl]: Start processing: theos-ai
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.1.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.2.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [benimang]: Start processing: st-circular-progress
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [st-circular-progress]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Downloading https://files.pythonhosted.org/packages/ed/dd/ceff1d66dd2daaab53bdbf79905adcd208abc1b57a60bee4829991c898c4/odoo14-addon-ssi_master_data_mixin-14.0.2.0.0.tar.gz
+[2023-07-21 03:45:51] INFO root fetch - processPackages [hype-html]: Remove: archive file [/home/abi/fetcher/tmp/hype-html-1.1.3.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [hype-html]: Remove: archive file [/home/abi/fetcher/tmp/hype_html-2.0.0.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [hype-html]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/68/a8/800913b7f8ff30179cce0686752b2cfd9f7e190e6868f12319c31d0fddbb/st_circular_progress-0.1.1.tar.gz
+[2023-07-21 03:45:51] INFO root fetch - processPackages [theos-ai]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.7.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.8.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [pairguy]: Remove: archive file [/home/abi/fetcher/tmp/pairguy-1.1.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [pairguy]: Remove: archive file [/home/abi/fetcher/tmp/pairguy-1.2.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [pairguy]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/80/4d/bd6b61d05115d0bed0b9ae998dfd3e8832ed29d4239b6795a3dda9e928a6/st_circular_progress-0.1.2.tar.gz
+[2023-07-21 03:45:51] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.0.4.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.1.0.tar.gz]
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [devpm]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-21 03:45:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-21 03:45:51] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-21 03:45:51] INFO root fetch - processPackages [theos-ai]: Downloading https://files.pythonhosted.org/packages/af/40/58bc4697b6cd10c0b1c207f77b4120f60a5f9d794c8ca04364b8739453bd/theos_ai-0.0.28-cp39-cp39-win_amd64.whl
+[2023-07-21 03:45:51] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 03:45:51] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.1.1.tar.gz tmp/st_circular_progress-0.1.2.tar.gz --markdown 20230721/s/st-circular-progress/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-21 03:45:51] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Downloading https://files.pythonhosted.org/packages/0b/aa/fb3ecd2b294b1bae43f4911d30bdc9c35ea4715da74d1d9023a3c1ce905b/odoo14_addon_ssi_master_data_mixin-14.0.3.0.0-py3-none-any.whl
+[2023-07-21 03:45:51] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: executing diffoscope
+[2023-07-21 03:45:51] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-ssi_master_data_mixin-14.0.2.0.0.tar.gz tmp/odoo14_addon_ssi_master_data_mixin-14.0.3.0.0-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-ssi-master-data-mixin/14.0.2.0.0-14.0.3.0.0/diff.md --exclude *.pyd
+[2023-07-21 03:45:52] INFO root fetch - processPackages [theos-ai]: Downloading https://files.pythonhosted.org/packages/54/6e/34754ab372482d0218e9ab0177565e8956175c012b30268546ef501a49af/theos_ai-0.0.29-cp310-cp310-musllinux_1_1_x86_64.whl
+[2023-07-21 03:45:52] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.1.tar.gz]
+[2023-07-21 03:45:52] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.1.2.tar.gz]
+[2023-07-21 03:45:52] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 03:45:52] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-ssi_master_data_mixin-14.0.2.0.0.tar.gz]
+[2023-07-21 03:45:52] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_master_data_mixin-14.0.3.0.0-py3-none-any.whl.zip]
+[2023-07-21 03:45:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-master-data-mixin]: success
+[2023-07-21 03:45:52] INFO root fetch - processPackages [shillelagh]: Remove: archive file [/home/abi/fetcher/tmp/shillelagh-1.2.5.tar.gz]
+[2023-07-21 03:45:52] INFO root fetch - processPackages [shillelagh]: Remove: archive file [/home/abi/fetcher/tmp/shillelagh-1.2.6.tar.gz]
+[2023-07-21 03:45:52] INFO root fetch - main [MainThread]: End processing [shillelagh]: success
+[2023-07-21 03:45:52] WARNING root fetch - processPackages [theos-ai]: Skipping package: exceeds size limit 11962740>=10485760
+[2023-07-21 03:45:52] INFO root fetch - main [MainThread]: End processing [theos-ai] error
+[2023-07-21 03:45:52] INFO root fetch - main [MainThread]: Store serial: [18977368]
