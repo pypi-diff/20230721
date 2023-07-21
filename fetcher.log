@@ -6242,3 +6242,96 @@
 [2023-07-21 03:17:00] INFO root fetch - processPackages [moku]: Remove: archive file [/home/abi/fetcher/tmp/moku-3.1.0.tar.gz]
 [2023-07-21 03:17:00] INFO root fetch - main [MainThread]: End processing [moku]: success
 [2023-07-21 03:17:00] INFO root fetch - main [MainThread]: Store serial: [18976068]
+[2023-07-21 03:22:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18976068]
+[2023-07-21 03:22:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isogrids
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jamofetch
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: install-jdk
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tccli-intl-en
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Flask-SQL-Pro
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kingunit
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reczoo
+[2023-07-21 03:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bokehmol
+[2023-07-21 03:22:09] INFO root fetch - processPackages [isogrids]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-21 03:22:09] INFO root fetch - processPackages [jamofetch]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-07-21 03:22:09] WARNING root fetch - processPackages [reczoo]: Skipping, unable to determine old version
+[2023-07-21 03:22:09] INFO root fetch - processPackages [reczoo]: Start processing: botocore-a-la-carte-support-app
+[2023-07-21 03:22:09] INFO root fetch - main [MainThread]: End processing [reczoo] error
+[2023-07-21 03:22:09] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-21 03:22:09] INFO root fetch - processPackages [install-jdk]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-21 03:22:09] INFO root fetch - processPackages [bokehmol]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-07-21 03:22:09] WARNING root fetch - processPackages [kingunit]: Skipping, unable to determine old version
+[2023-07-21 03:22:09] INFO root fetch - processPackages [kingunit]: Start processing: botocore-a-la-carte-mediaconnect
+[2023-07-21 03:22:09] INFO root fetch - main [MainThread]: End processing [kingunit] error
+[2023-07-21 03:22:09] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 03:22:09] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 03:22:09] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-21 03:22:09] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-21 03:22:09] INFO root fetch - processPackages [isogrids]: Downloading https://files.pythonhosted.org/packages/38/3a/64a52ed75692e50b9d31e054b407aeee99f0fb4afeb3f3969f3a9c5546f3/isogrids-0.0.3.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: New version: [1.31.6] Old Version: [1.31.5]
+[2023-07-21 03:22:09] INFO root fetch - processPackages [botocore-a-la-carte-mediaconnect]: New version: [1.31.6] Old Version: [1.31.5]
+[2023-07-21 03:22:09] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [bokehmol]: Downloading https://files.pythonhosted.org/packages/da/9d/e92fe745c3353894d808b99495c71b6aa1a7432e8c2748b92f6f32178cfb/bokehmol-0.1.0a2.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/f4/d5/4af235db53e0ee9140d2b3e3f805887269b319104e0a8cb73ba116307666/jamofetch-3.4.0.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [install-jdk]: Downloading https://files.pythonhosted.org/packages/34/d2/b1f7dfcba325cdc8af3d7920d08323814e1ba8013cee35d662137291e79a/install_jdk-1.0.4.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Downloading https://files.pythonhosted.org/packages/44/78/446bd1d5b1928930bbc40b811f2f03e837d8a4859774a24bbb5548a3dffd/botocore-a-la-carte-support-app-1.31.5.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [botocore-a-la-carte-mediaconnect]: Downloading https://files.pythonhosted.org/packages/67/d1/1b639dfac73579d14d3ca52e01a116109019843e68f5937b678abfa713bd/botocore-a-la-carte-mediaconnect-1.31.5.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [bokehmol]: Downloading https://files.pythonhosted.org/packages/8a/ab/32bc15e03b8d008d29f18ea7b642c1bbe366a37e58c2976efdce579914d6/bokehmol-0.1.0a3.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [isogrids]: Downloading https://files.pythonhosted.org/packages/a0/64/6efbcbd594ae96a1daea9581305da9e783f13d13a2a6767ed9857b5c9958/isogrids-0.0.4.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/29/83/50fae89bc1518fdd2406fe87d3b9804622f060d97362876f7ebd0ad4085c/jamofetch-3.4.1.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [bokehmol]: executing diffoscope
+[2023-07-21 03:22:09] INFO root fetch - processPackages [bokehmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokehmol-0.1.0a2.tar.gz tmp/bokehmol-0.1.0a3.tar.gz --markdown 20230721/b/bokehmol/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-07-21 03:22:09] INFO root fetch - processPackages [install-jdk]: Downloading https://files.pythonhosted.org/packages/cf/67/502a753533e9b4deb691f3f7ba6303682494f2d8ee651d6253cd78045b66/install_jdk-1.1.0.tar.gz
+[2023-07-21 03:22:09] INFO root fetch - processPackages [isogrids]: executing diffoscope
+[2023-07-21 03:22:09] INFO root fetch - processPackages [isogrids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isogrids-0.0.3.tar.gz tmp/isogrids-0.0.4.tar.gz --markdown 20230721/i/isogrids/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-21 03:22:09] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-21 03:22:10] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-21 03:22:10] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.4.0.tar.gz tmp/jamofetch-3.4.1.tar.gz --markdown 20230721/j/jamofetch/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-07-21 03:22:10] INFO root fetch - processPackages [botocore-a-la-carte-mediaconnect]: Downloading https://files.pythonhosted.org/packages/0c/87/66b82d7d66bb191489b0cb0d93194d9ca90a2fed554eb06923d403c8eac8/botocore-a-la-carte-mediaconnect-1.31.6.tar.gz
+[2023-07-21 03:22:10] INFO root fetch - processPackages [install-jdk]: executing diffoscope
+[2023-07-21 03:22:10] INFO root fetch - processPackages [install-jdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install_jdk-1.0.4.tar.gz tmp/install_jdk-1.1.0.tar.gz --markdown 20230721/i/install-jdk/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 03:22:10] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Downloading https://files.pythonhosted.org/packages/63/ed/9ade26f3b84d6aa807b2a9d22749f06217de08194006517d825193edac4b/botocore-a-la-carte-support-app-1.31.6.tar.gz
+[2023-07-21 03:22:10] INFO root fetch - processPackages [botocore-a-la-carte-mediaconnect]: executing diffoscope
+[2023-07-21 03:22:10] INFO root fetch - processPackages [botocore-a-la-carte-mediaconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mediaconnect-1.31.5.tar.gz tmp/botocore-a-la-carte-mediaconnect-1.31.6.tar.gz --markdown 20230721/b/botocore-a-la-carte-mediaconnect/1.31.5-1.31.6/diff.md --exclude *.pyd
+[2023-07-21 03:22:10] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-21 03:22:10] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: executing diffoscope
+[2023-07-21 03:22:10] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-support-app-1.31.5.tar.gz tmp/botocore-a-la-carte-support-app-1.31.6.tar.gz --markdown 20230721/b/botocore-a-la-carte-support-app/1.31.5-1.31.6/diff.md --exclude *.pyd
+[2023-07-21 03:22:10] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-21 03:22:10] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-21 03:22:10] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230721/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-21 03:22:10] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-21 03:22:10] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230721/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-21 03:22:11] INFO root fetch - processPackages [bokehmol]: Remove: archive file [/home/abi/fetcher/tmp/bokehmol-0.1.0a2.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - processPackages [bokehmol]: Remove: archive file [/home/abi/fetcher/tmp/bokehmol-0.1.0a3.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - main [MainThread]: End processing [bokehmol]: success
+[2023-07-21 03:22:11] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.4.0.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.4.1.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-21 03:22:11] INFO root fetch - processPackages [install-jdk]: Remove: archive file [/home/abi/fetcher/tmp/install_jdk-1.0.4.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - processPackages [install-jdk]: Remove: archive file [/home/abi/fetcher/tmp/install_jdk-1.1.0.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - main [MainThread]: End processing [install-jdk]: success
+[2023-07-21 03:22:11] INFO root fetch - processPackages [isogrids]: Remove: archive file [/home/abi/fetcher/tmp/isogrids-0.0.3.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - processPackages [isogrids]: Remove: archive file [/home/abi/fetcher/tmp/isogrids-0.0.4.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - main [MainThread]: End processing [isogrids]: success
+[2023-07-21 03:22:11] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-support-app-1.31.5.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-support-app-1.31.6.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-support-app]: success
+[2023-07-21 03:22:11] INFO root fetch - processPackages [botocore-a-la-carte-mediaconnect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediaconnect-1.31.5.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - processPackages [botocore-a-la-carte-mediaconnect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediaconnect-1.31.6.tar.gz]
+[2023-07-21 03:22:11] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mediaconnect]: success
+[2023-07-21 03:22:11] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-21 03:22:11] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230721/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-21 03:22:12] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-21 03:22:12] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-21 03:22:12] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-21 03:22:12] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-21 03:22:12] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-21 03:22:12] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-21 03:22:13] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-21 03:22:13] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-21 03:22:13] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-21 03:22:13] INFO root fetch - main [MainThread]: Store serial: [18976115]
