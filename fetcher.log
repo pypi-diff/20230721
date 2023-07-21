@@ -13568,3 +13568,112 @@
 [2023-07-21 06:48:11] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.9.tar.gz]
 [2023-07-21 06:48:11] INFO root fetch - main [MainThread]: End processing [msgtools]: success
 [2023-07-21 06:48:11] INFO root fetch - main [MainThread]: Store serial: [18978715]
+[2023-07-21 06:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978715]
+[2023-07-21 06:53:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-SQL-Pro
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discohooker
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: operatorio
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-project-task-default-stage
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizlib
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlflowops
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genius-chatbot
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-SQL-Pro
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-07-21 06:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: genius-chatbot
+[2023-07-21 06:53:20] INFO root fetch - processPackages [odoo12-addon-project-task-default-stage]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-07-21 06:53:20] INFO root fetch - processPackages [wizlib]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-21 06:53:20] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 06:53:20] INFO root fetch - processPackages [Flask-SQL-Pro]: Start processing: nonebot-plugin-autoreply
+[2023-07-21 06:53:20] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 06:53:20] INFO root fetch - processPackages [genius-chatbot]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-07-21 06:53:20] WARNING root fetch - processPackages [operatorio]: Skipping, unable to determine old version
+[2023-07-21 06:53:20] INFO root fetch - processPackages [operatorio]: Start processing: xklb
+[2023-07-21 06:53:20] INFO root fetch - main [MainThread]: End processing [operatorio] error
+[2023-07-21 06:53:20] INFO root fetch - processPackages [mlflowops]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 06:53:20] INFO root fetch - processPackages [discohooker]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 06:53:20] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-21 06:53:20] INFO root fetch - processPackages [Flask-SQL-Pro]: Start processing: odoo10-addon-purchase-landed-cost
+[2023-07-21 06:53:20] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-21 06:53:20] INFO root fetch - processPackages [genius-chatbot]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-07-21 06:53:20] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-21 06:53:20] INFO root fetch - processPackages [nonebot-plugin-autoreply]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 06:53:21] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-21 06:53:21] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/cd/1c/5041d363b22abe72bc268286e032e969b4a8c6e39d217741e188edf6e902/discohooker-1.0.0.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/ae/8b/6e2f4ceaf650b897adfbf0fabe8864860c4b03fe535fd4c9dcdcdfbd7a13/genius_chatbot-0.6.0-py2.py3-none-any.whl
+[2023-07-21 06:53:21] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/ae/8b/6e2f4ceaf650b897adfbf0fabe8864860c4b03fe535fd4c9dcdcdfbd7a13/genius_chatbot-0.6.0-py2.py3-none-any.whl
+[2023-07-21 06:53:21] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: New version: [10.0.2.0.0.99.dev9] Old Version: [10.0.2.0.0.99.dev8]
+[2023-07-21 06:53:21] INFO root fetch - processPackages [odoo12-addon-project-task-default-stage]: Downloading https://files.pythonhosted.org/packages/18/93/f906f3679f256b795a8a9eae83622a1706c4e29cb50999808e117ec9fb36/odoo12_addon_project_task_default_stage-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-07-21 06:53:21] INFO root fetch - processPackages [mlflowops]: Downloading https://files.pythonhosted.org/packages/87/ce/a6392cb30a2bb1dad7113c9c295513a982948c2b9b4684d2f14226c4b465/mlflowops-0.1.0.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/58/ae/9d889c54aa29ab9d733607c69cfb945c4dde6dbfffe9a1c61dc5259fe1ba/wizlib-0.7.0.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Downloading https://files.pythonhosted.org/packages/e8/11/33f134f6980d5c84c8b6bbb85960bd9b82d7641cdc27396bb0207e153dc6/nonebot_plugin_autoreply-0.2.8.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/3d/70/5d05e8ab7da8ed2255a917efaa6d108da43ec6aecac94121e2ecbb3792f6/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-07-21 06:53:21] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/c2/39/97ec9478781d9254d97752c28a8fd7481f38a0199b21f82d320010250887/genius_chatbot-0.9.0-py2.py3-none-any.whl
+[2023-07-21 06:53:21] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/4f/37/deede25aa8beca738fccc71c768f9167755cac2137202300329fbc6523bc/discohooker-1.0.1.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/c2/39/97ec9478781d9254d97752c28a8fd7481f38a0199b21f82d320010250887/genius_chatbot-0.9.0-py2.py3-none-any.whl
+[2023-07-21 06:53:21] INFO root fetch - processPackages [mlflowops]: Downloading https://files.pythonhosted.org/packages/f9/2b/0dda5bd2786513aca412855f9e4313fbeed59072a438ec50e9fd9e177277/mlflowops-0.1.1.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/4e/96/26ffdff843fd4881c6f8ed3bd9c35753c28a3568d39a1b8623b0a3033e77/wizlib-0.7.1.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-21 06:53:21] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230721/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: executing diffoscope
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230721/g/genius-chatbot/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 06:53:21] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-21 06:53:21] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-1.0.0.tar.gz tmp/discohooker-1.0.1.tar.gz --markdown 20230721/d/discohooker/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 06:53:21] INFO root fetch - processPackages [odoo12-addon-project-task-default-stage]: Downloading https://files.pythonhosted.org/packages/29/a4/e4a5f56af8e366d1a797bea3c24b6e765a964451e76c7d9d31d88a202537/odoo12_addon_project_task_default_stage-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-07-21 06:53:21] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Downloading https://files.pythonhosted.org/packages/e2/19/b8ccce38e0b3473f73d69b0d6806bbb222ae1041631716c06e1630b4267a/nonebot_plugin_autoreply-0.2.9.tar.gz
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: executing diffoscope
+[2023-07-21 06:53:21] INFO root fetch - processPackages [genius-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230721/g/genius-chatbot/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 06:53:21] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-21 06:53:21] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.7.0.tar.gz tmp/wizlib-0.7.1.tar.gz --markdown 20230721/w/wizlib/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-21 06:53:21] INFO root fetch - processPackages [mlflowops]: executing diffoscope
+[2023-07-21 06:53:21] INFO root fetch - processPackages [mlflowops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflowops-0.1.0.tar.gz tmp/mlflowops-0.1.1.tar.gz --markdown 20230721/m/mlflowops/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 06:53:21] INFO root fetch - processPackages [odoo12-addon-project-task-default-stage]: executing diffoscope
+[2023-07-21 06:53:21] INFO root fetch - processPackages [odoo12-addon-project-task-default-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_project_task_default_stage-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_project_task_default_stage-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230721/o/odoo12-addon-project-task-default-stage/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-21 06:53:21] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-21 06:53:22] INFO root fetch - processPackages [nonebot-plugin-autoreply]: executing diffoscope
+[2023-07-21 06:53:22] INFO root fetch - processPackages [nonebot-plugin-autoreply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_autoreply-0.2.8.tar.gz tmp/nonebot_plugin_autoreply-0.2.9.tar.gz --markdown 20230721/n/nonebot-plugin-autoreply/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 06:53:22] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/c9/c0/56f0571940d31c8c570e04ca04cbac58449c9a4c035568e003d635aa2806/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-07-21 06:53:22] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-21 06:53:22] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230721/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-21 06:53:22] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: executing diffoscope
+[2023-07-21 06:53:22] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230721/o/odoo10-addon-purchase-landed-cost/10.0.2.0.0.99.dev8-10.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-21 06:53:23] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.6.0-py2.py3-none-any.whl.zip]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-0.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [genius-chatbot]: Start processing: odoo11-addon-purchase-landed-cost
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [genius-chatbot]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-1.0.0.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-1.0.1.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.7.0.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.7.1.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [genius-chatbot]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_autoreply-0.2.8.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_autoreply-0.2.9.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-autoreply]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [mlflowops]: Remove: archive file [/home/abi/fetcher/tmp/mlflowops-0.1.0.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [mlflowops]: Remove: archive file [/home/abi/fetcher/tmp/mlflowops-0.1.1.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [mlflowops]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/d2/94/7488779ec60658b0802ca31113e0ae918fc6c732ef6118c6af21ce96ef43/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-07-21 06:53:23] INFO root fetch - processPackages [odoo12-addon-project-task-default-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_default_stage-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [odoo12-addon-project-task-default-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_default_stage-12.0.1.0.0.99.dev9-py3-none-any.whl.zip]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-project-task-default-stage]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-21 06:53:23] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-21 06:53:23] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-21 06:53:23] INFO root fetch - main [MainThread]: End processing [odoo10-addon-purchase-landed-cost]: success
+[2023-07-21 06:53:24] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/ad/34/4e84e200314e02d4a78f74433bf6c59e0bb18e0ecb801d61793e3563757d/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-07-21 06:53:24] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: executing diffoscope
+[2023-07-21 06:53:24] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-purchase-landed-cost/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-21 06:53:25] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-07-21 06:53:25] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-07-21 06:53:25] INFO root fetch - main [MainThread]: End processing [odoo11-addon-purchase-landed-cost]: success
+[2023-07-21 06:53:25] INFO root fetch - main [MainThread]: Store serial: [18978756]
