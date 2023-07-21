@@ -20153,3 +20153,132 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:24:56] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.9.tar.gz]
 [2023-07-21 12:24:56] INFO root fetch - main [MainThread]: End processing [kiara]: success
 [2023-07-21 12:24:56] INFO root fetch - main [MainThread]: Store serial: [18981360]
+[2023-07-21 12:30:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981360]
+[2023-07-21 12:30:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-infra-tools
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vgs-api-client
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycalaos
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newpreProcessingGEP
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vulcan-app
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napari-matplotlib
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccwriter
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nicescad
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mayfpayapi
+[2023-07-21 12:30:05] INFO root fetch - processPackages [mayfpayapi]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [nicescad]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-21 12:30:05] WARNING root fetch - processPackages [newpreProcessingGEP]: Skipping, unable to determine old version
+[2023-07-21 12:30:05] WARNING root fetch - processPackages [ccwriter]: Skipping, unable to determine old version
+[2023-07-21 12:30:05] INFO root fetch - processPackages [newpreProcessingGEP]: Start processing: kiara-plugin.service
+[2023-07-21 12:30:05] INFO root fetch - processPackages [ccwriter]: Start processing: napari-boxmanager
+[2023-07-21 12:30:05] INFO root fetch - main [MainThread]: End processing [newpreProcessingGEP] error
+[2023-07-21 12:30:05] INFO root fetch - main [MainThread]: End processing [ccwriter] error
+[2023-07-21 12:30:05] INFO root fetch - processPackages [pycalaos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [napari-matplotlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [azureml-infra-tools]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [vulcan-app]: New version: [1.2] Old Version: [1.1]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [kcli]: New version: [99.0.202307211026] Old Version: [99.0.202307211017]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [kiara-plugin.service]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-21 12:30:05] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/5e/71/7cbe5166f40ad3a0d57a2261c270880ed09b420de30382ae26c7539eea8a/kcli-99.0.202307211017-py3-none-any.whl
+[2023-07-21 12:30:05] INFO root fetch - processPackages [mayfpayapi]: Downloading https://files.pythonhosted.org/packages/49/af/f9658015964a0cbfbf9a8508ec0ddf72af6dff47869874cd4163be5296d6/mayfpayapi-1.5.1.tar.gz
+[2023-07-21 12:30:05] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/2b/08/a12677ae251c782954d3cad5c10ef01505acc3dfc02640c898b5baf96ac9/nicescad-0.0.1.tar.gz
+[2023-07-21 12:30:05] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/71/55/ab4d6c1541ca3b0072b0723068a8dfbcfb85cc6fdff68fb1c3550c2e656d/napari_boxmanager-0.4.1.tar.gz
+[2023-07-21 12:30:05] INFO root fetch - processPackages [pycalaos]: Downloading https://files.pythonhosted.org/packages/4e/d7/754f5d355c624e3c132fcac8ebea0b5d4ee87fc9e99728fc46fef3e08fe2/pycalaos-0.0.8.tar.gz
+[2023-07-21 12:30:05] INFO root fetch - processPackages [azureml-infra-tools]: Downloading https://files.pythonhosted.org/packages/f6/c1/1c021dd8d93e358f3365984d88dfd66680c83662e94bd652d31d273a21de/azureml_infra_tools-0.1.0a1.tar.gz
+[2023-07-21 12:30:05] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-07-21 12:30:05] INFO root fetch - processPackages [vulcan-app]: Downloading https://files.pythonhosted.org/packages/f3/7d/6eafb8adab1de7db6f6205dd9c72fe470593deac025f3a06af2d8b1218bf/vulcan-app-1.1.tar.gz
+[2023-07-21 12:30:05] INFO root fetch - processPackages [napari-matplotlib]: Downloading https://files.pythonhosted.org/packages/51/00/2a440016f9fb151a909f6309593df3e64b73b40502ffb9e9624394cdebf3/napari_matplotlib-1.0.0.tar.gz
+[2023-07-21 12:30:05] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/df/bc/59d964d91f5f33790674546c6790aa8469172b3c25392d7dff456b64334e/kiara_plugin.service-0.4.6.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [mayfpayapi]: Downloading https://files.pythonhosted.org/packages/7c/02/a2f9fc02f6675c1719bc3676709e155e16881b612a09c4169452a731b807/mayfpayapi-1.5.2.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [azureml-infra-tools]: Downloading https://files.pythonhosted.org/packages/99/78/f6b0bf1d41acaae4a4932c4218b9fbe80a453a5e18bbf5fe1a70ed346a4f/azureml_infra_tools-0.1.0a2.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/6f/10/d27c10a1566f774a765d4788849ab3f4c595d4e22bd981c5b36cd1ff10b9/nicescad-0.0.2.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [vulcan-app]: Downloading https://files.pythonhosted.org/packages/27/9e/d4b27455f407f8f4c0ea6cf9337290bac7bda8ff446717b72f98432adf1a/vulcan-app-1.2.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [pycalaos]: Downloading https://files.pythonhosted.org/packages/b4/8d/d48356d769e3b5939905e0f4c5e2ee9bae064dcfa4103cfa97616ac462e4/pycalaos-0.0.9.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-07-21 12:30:06] INFO root fetch - processPackages [mayfpayapi]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [mayfpayapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayfpayapi-1.5.1.tar.gz tmp/mayfpayapi-1.5.2.tar.gz --markdown 20230721/m/mayfpayapi/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [azureml-infra-tools]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [azureml-infra-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_infra_tools-0.1.0a1.tar.gz tmp/azureml_infra_tools-0.1.0a2.tar.gz --markdown 20230721/a/azureml-infra-tools/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/92/6e/4dd4424df59902d959da2ae1d63285fe675c952a7acb975bd68dc5b2b720/kiara_plugin.service-0.4.7.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [nicescad]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [nicescad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicescad-0.0.1.tar.gz tmp/nicescad-0.0.2.tar.gz --markdown 20230721/n/nicescad/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [vulcan-app]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [vulcan-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-app-1.1.tar.gz tmp/vulcan-app-1.2.tar.gz --markdown 20230721/v/vulcan-app/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/0a/39/279e74f5f164ef982a33660aba7e0ebe9ee0baff13dc9eed0790c7139bfe/napari_boxmanager-0.4.2.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [pycalaos]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [pycalaos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycalaos-0.0.8.tar.gz tmp/pycalaos-0.0.9.tar.gz --markdown 20230721/p/pycalaos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/51/b9/3c0a7d12fd2b62ac8aad018ad277a7b64a875c7a0e8193596d48cf8cf17f/kcli-99.0.202307211026-py3-none-any.whl
+[2023-07-21 12:30:06] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230721/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [napari-matplotlib]: Downloading https://files.pythonhosted.org/packages/60/4c/8d823bfe327885dd44c8f02cfb7b1c192cb406a1a7bcdac252f94348201f/napari_matplotlib-1.0.1.tar.gz
+[2023-07-21 12:30:06] INFO root fetch - processPackages [kiara-plugin.service]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [kiara-plugin.service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.service-0.4.6.tar.gz tmp/kiara_plugin.service-0.4.7.tar.gz --markdown 20230721/k/kiara-plugin.service/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307211017-py3-none-any.whl.zip tmp/kcli-99.0.202307211026-py3-none-any.whl.zip --markdown 20230721/k/kcli/99.0.202307211017-99.0.202307211026/diff.md --exclude *.pyd
+[2023-07-21 12:30:06] INFO root fetch - processPackages [napari-matplotlib]: executing diffoscope
+[2023-07-21 12:30:06] INFO root fetch - processPackages [napari-matplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_matplotlib-1.0.0.tar.gz tmp/napari_matplotlib-1.0.1.tar.gz --markdown 20230721/n/napari-matplotlib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 12:30:07] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-07-21 12:30:07] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.4.1.tar.gz tmp/napari_boxmanager-0.4.2.tar.gz --markdown 20230721/n/napari-boxmanager/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-21 12:30:07] INFO root fetch - processPackages [mayfpayapi]: Remove: archive file [/home/abi/fetcher/tmp/mayfpayapi-1.5.1.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [mayfpayapi]: Remove: archive file [/home/abi/fetcher/tmp/mayfpayapi-1.5.2.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [mayfpayapi]: Start processing: uagents-twilio-test-dummy
+[2023-07-21 12:30:07] INFO root fetch - main [MainThread]: End processing [mayfpayapi]: success
+[2023-07-21 12:30:07] INFO root fetch - processPackages [azureml-infra-tools]: Remove: archive file [/home/abi/fetcher/tmp/azureml_infra_tools-0.1.0a1.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [azureml-infra-tools]: Remove: archive file [/home/abi/fetcher/tmp/azureml_infra_tools-0.1.0a2.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [azureml-infra-tools]: Start processing: taipy-config
+[2023-07-21 12:30:07] INFO root fetch - main [MainThread]: End processing [azureml-infra-tools]: success
+[2023-07-21 12:30:07] INFO root fetch - processPackages [uagents-twilio-test-dummy]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [pycalaos]: Remove: archive file [/home/abi/fetcher/tmp/pycalaos-0.0.8.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [pycalaos]: Remove: archive file [/home/abi/fetcher/tmp/pycalaos-0.0.9.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [pycalaos]: Start processing: wigm-fastapi-offline
+[2023-07-21 12:30:07] INFO root fetch - main [MainThread]: End processing [pycalaos]: success
+[2023-07-21 12:30:07] INFO root fetch - processPackages [vulcan-app]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-app-1.1.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [vulcan-app]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-app-1.2.tar.gz]
+[2023-07-21 12:30:07] INFO root fetch - processPackages [vulcan-app]: Start processing: dl2050utils
+[2023-07-21 12:30:07] INFO root fetch - main [MainThread]: End processing [vulcan-app]: success
+[2023-07-21 12:30:07] INFO root fetch - processPackages [taipy-config]: New version: [3.0.0.dev0] Old Version: [2.4.0.dev0]
+[2023-07-21 12:30:08] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.1.tar.gz]
+[2023-07-21 12:30:08] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.2.tar.gz]
+[2023-07-21 12:30:08] INFO root fetch - main [MainThread]: End processing [nicescad]: success
+[2023-07-21 12:30:08] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-21 12:30:08] WARNING root fetch - processPackages [wigm-fastapi-offline]: Skipping, unable to determine old version
+[2023-07-21 12:30:08] INFO root fetch - main [MainThread]: End processing [wigm-fastapi-offline] error
+[2023-07-21 12:30:08] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Downloading https://files.pythonhosted.org/packages/4d/5f/7c7fdb193a67cb5c0b4c43d670b76e33a6d682d3f774b5b864fe4b4e7631/uagents_twilio_test_dummy-1.0.0.tar.gz
+[2023-07-21 12:30:08] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-07-21 12:30:08] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/83/2e/09cba349930d766e939aa4dbd995bb9f9fd0c042aa1adc00cdc795f97c21/taipy-config-2.4.0.dev0.tar.gz
+[2023-07-21 12:30:08] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-07-21 12:30:08] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-07-21 12:30:08] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-07-21 12:30:08] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-07-21 12:30:08] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.6.tar.gz]
+[2023-07-21 12:30:08] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.7.tar.gz]
+[2023-07-21 12:30:08] INFO root fetch - main [MainThread]: End processing [kiara-plugin.service]: success
+[2023-07-21 12:30:08] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Downloading https://files.pythonhosted.org/packages/48/32/cfb49269f4500489c108a5d1364a89cdda573b37ec46269efe4f0d81e096/uagents_twilio_test_dummy-1.0.3.tar.gz
+[2023-07-21 12:30:08] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-07-21 12:30:08] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230721/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-21 12:30:08] INFO root fetch - processPackages [uagents-twilio-test-dummy]: executing diffoscope
+[2023-07-21 12:30:08] INFO root fetch - processPackages [uagents-twilio-test-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_twilio_test_dummy-1.0.0.tar.gz tmp/uagents_twilio_test_dummy-1.0.3.tar.gz --markdown 20230721/u/uagents-twilio-test-dummy/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-07-21 12:30:08] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/e4/00/59e6cd9b5798d6aafcc7392a096f633fb41fa5a137ad31e98c37dc5cf954/taipy-config-3.0.0.dev0.tar.gz
+[2023-07-21 12:30:08] INFO root fetch - processPackages [napari-matplotlib]: Remove: archive file [/home/abi/fetcher/tmp/napari_matplotlib-1.0.0.tar.gz]
+[2023-07-21 12:30:08] INFO root fetch - processPackages [napari-matplotlib]: Remove: archive file [/home/abi/fetcher/tmp/napari_matplotlib-1.0.1.tar.gz]
+[2023-07-21 12:30:08] INFO root fetch - main [MainThread]: End processing [napari-matplotlib]: success
+[2023-07-21 12:30:08] INFO root fetch - processPackages [taipy-config]: executing diffoscope
+[2023-07-21 12:30:08] INFO root fetch - processPackages [taipy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-config-2.4.0.dev0.tar.gz tmp/taipy-config-3.0.0.dev0.tar.gz --markdown 20230721/t/taipy-config/2.4.0.dev0-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-07-21 12:30:09] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.1.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.2.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-07-21 12:30:09] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-07-21 12:30:09] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio_test_dummy-1.0.0.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio_test_dummy-1.0.3.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - main [MainThread]: End processing [uagents-twilio-test-dummy]: success
+[2023-07-21 12:30:09] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-2.4.0.dev0.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-3.0.0.dev0.tar.gz]
+[2023-07-21 12:30:09] INFO root fetch - main [MainThread]: End processing [taipy-config]: success
+[2023-07-21 12:30:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307211017-py3-none-any.whl.zip]
+[2023-07-21 12:30:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307211026-py3-none-any.whl.zip]
+[2023-07-21 12:30:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-21 12:30:10] INFO root fetch - main [MainThread]: Store serial: [18981410]
