@@ -17483,3 +17483,51 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 10:25:36] INFO root fetch - processPackages [D47crunch]: Remove: archive file [/home/abi/fetcher/tmp/D47crunch-2.2.1.tar.gz]
 [2023-07-21 10:25:36] INFO root fetch - main [MainThread]: End processing [D47crunch]: success
 [2023-07-21 10:25:36] INFO root fetch - main [MainThread]: Store serial: [18980258]
+[2023-07-21 10:30:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980258]
+[2023-07-21 10:30:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-21 10:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meta-core
+[2023-07-21 10:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svbench
+[2023-07-21 10:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor
+[2023-07-21 10:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightning-template
+[2023-07-21 10:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: configuraptor
+[2023-07-21 10:30:46] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2023-07-21 10:30:46] INFO root fetch - processPackages [svbench]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-21 10:30:46] INFO root fetch - processPackages [meta-core]: New version: [3.7.20] Old Version: [3.7.19]
+[2023-07-21 10:30:46] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-21 10:30:46] INFO root fetch - processPackages [lightning-template]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-21 10:30:46] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/70/6c/a2c34c95fb6ff2277ca5614d85229e4ae34bc5777d77db7152930a424723/lightning-template-1.1.1.tar.gz
+[2023-07-21 10:30:46] INFO root fetch - processPackages [svbench]: Downloading https://files.pythonhosted.org/packages/74/d3/89505c1b57e73b1abd2c1e4391dc0e44aae5c386207f0073d88567950d3d/svbench-0.7.2.tar.gz
+[2023-07-21 10:30:46] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/57/0a/0fd57156bde0acd11e85a2234db5e7270c33b9fc66244294d4e9a5b39ab5/meta-core-3.7.19.tar.gz
+[2023-07-21 10:30:46] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2023-07-21 10:30:46] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-07-21 10:30:47] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/72/e6/74c4ce23497700d3a0b4af6bc28675d63ed397b7f488846c47969591761e/lightning-template-1.1.2.tar.gz
+[2023-07-21 10:30:47] INFO root fetch - processPackages [svbench]: Downloading https://files.pythonhosted.org/packages/9c/d1/ef6f29fb62641ef8be6fe093288f7f176a759c54c18026429a55ad757a0f/svbench-0.7.3.tar.gz
+[2023-07-21 10:30:47] INFO root fetch - processPackages [svbench]: executing diffoscope
+[2023-07-21 10:30:47] INFO root fetch - processPackages [svbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svbench-0.7.2.tar.gz tmp/svbench-0.7.3.tar.gz --markdown 20230721/s/svbench/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-21 10:30:47] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-21 10:30:47] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.1.1.tar.gz tmp/lightning-template-1.1.2.tar.gz --markdown 20230721/l/lightning-template/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-21 10:30:47] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2023-07-21 10:30:47] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/76/57/0d4b5fb15f7629cd94b314854a38748e3f7c0142bf1c4a745aa98d894ced/meta-core-3.7.20.tar.gz
+[2023-07-21 10:30:47] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-07-21 10:30:47] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20230721/c/configuraptor/1.8.0-1.9.2/diff.md --exclude *.pyd
+[2023-07-21 10:30:47] INFO root fetch - processPackages [meta-core]: executing diffoscope
+[2023-07-21 10:30:47] INFO root fetch - processPackages [meta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-core-3.7.19.tar.gz tmp/meta-core-3.7.20.tar.gz --markdown 20230721/m/meta-core/3.7.19-3.7.20/diff.md --exclude *.pyd
+[2023-07-21 10:30:47] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-07-21 10:30:47] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-07-21 10:30:47] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230721/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-21 10:30:48] INFO root fetch - processPackages [svbench]: Remove: archive file [/home/abi/fetcher/tmp/svbench-0.7.2.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - processPackages [svbench]: Remove: archive file [/home/abi/fetcher/tmp/svbench-0.7.3.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - main [MainThread]: End processing [svbench]: success
+[2023-07-21 10:30:48] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.1.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.2.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-21 10:30:48] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-07-21 10:30:48] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.19.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.20.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - main [MainThread]: End processing [meta-core]: success
+[2023-07-21 10:30:48] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-07-21 10:30:48] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-07-21 10:30:48] INFO root fetch - main [MainThread]: Store serial: [18980272]
