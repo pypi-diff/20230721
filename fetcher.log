@@ -20321,3 +20321,138 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 12:35:21] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
 [2023-07-21 12:35:21] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
 [2023-07-21 12:35:21] INFO root fetch - main [MainThread]: Store serial: [18981436]
+[2023-07-21 12:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981436]
+[2023-07-21 12:40:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chellow
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextflowpy
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoamp
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odhpy
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vango
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wiremind-kubernetes
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hytato
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vaex-server
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sherpa-onnx
+[2023-07-21 12:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: get-chrome-driver
+[2023-07-21 12:40:30] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [nextflowpy]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [scoamp]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [wiremind-kubernetes]: New version: [7.3.0] Old Version: [7.2.0]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [odhpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [get-chrome-driver]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [vango]: New version: [1.1.5] Old Version: [1.1.1]
+[2023-07-21 12:40:30] WARNING root fetch - processPackages [hytato]: Skipping, unable to determine old version
+[2023-07-21 12:40:30] INFO root fetch - processPackages [hytato]: Start processing: goldretriever
+[2023-07-21 12:40:30] INFO root fetch - main [MainThread]: End processing [hytato] error
+[2023-07-21 12:40:30] INFO root fetch - processPackages [vaex-server]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/d3/4b/8454f2e6479b4494155a2fa75dbf37a4ed834271526a16e2be238065cede/get-chrome-driver-1.3.8.tar.gz
+[2023-07-21 12:40:30] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-07-21 12:40:30] INFO root fetch - processPackages [goldretriever]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-21 12:40:31] INFO root fetch - processPackages [nextflowpy]: Downloading https://files.pythonhosted.org/packages/57/8d/1bee1762e479db97b6571d173317f98051100ecd1ac751c7a54fb1bf00a9/nextflowpy-0.6.1-py3-none-any.whl
+[2023-07-21 12:40:31] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/2a/75/3ff5845d10de67eb898f25bee85c28cd6d0f1f1f038df3ab7e2852a8f6d9/scoamp-0.4.0a2-py3-none-any.whl
+[2023-07-21 12:40:31] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/ce/fa/530068525259e84af03539bacc2116d30cc1fc086ebd4004d39687844c73/sherpa-onnx-1.5.3.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/eb/15/27b82a6bdc88bd363bad389d093cc391cc39de7bdba8e1baf5968329faf2/odhpy-0.0.8.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [wiremind-kubernetes]: Downloading https://files.pythonhosted.org/packages/93/94/49798269c6b379ee9cc2a89f0e7ea2061085ae80f6f2c734c515cd74d463/wiremind-kubernetes-7.2.0.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/f5/1f/401d689edcf0210796e6f03e2acfdf7b5fd9b97bd07b854116303d9c34a2/get-chrome-driver-1.3.9.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [vaex-server]: Downloading https://files.pythonhosted.org/packages/c4/08/196efcc8e8133d82d02fe147d263c2150182db8d9c1ca25b94d241bb01bc/vaex-server-0.8.1.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [goldretriever]: Downloading https://files.pythonhosted.org/packages/ad/0b/d80ba052315d691ed6c0bbf07d8b635c255eead0607ecb743c50e3dbb88c/goldretriever-0.1.3.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/7f/05/4f468b7f2db3e95c5d04f3a509c262c93b760023cb217261a9102c59da69/vango-1.1.1.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [get-chrome-driver]: executing diffoscope
+[2023-07-21 12:40:31] INFO root fetch - processPackages [get-chrome-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-chrome-driver-1.3.8.tar.gz tmp/get-chrome-driver-1.3.9.tar.gz --markdown 20230721/g/get-chrome-driver/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-21 12:40:31] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/c2/e2/1d4f6834f810a345ef140814803c6777bc7e7f1a77c9650210ba96a658f8/sherpa-onnx-1.5.4.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [nextflowpy]: Downloading https://files.pythonhosted.org/packages/17/91/ff793e7653b12a634170fd21a1c8c85968505ddd661e9a7062403e3b89ef/nextflowpy-0.6.2-py3-none-any.whl
+[2023-07-21 12:40:31] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/e4/b0/6021984c957c9923f5c1da919944c82611e05f7b33c69dad91ad27afe1e9/scoamp-0.4.0a3-py3-none-any.whl
+[2023-07-21 12:40:31] INFO root fetch - processPackages [wiremind-kubernetes]: Downloading https://files.pythonhosted.org/packages/35/03/7a25adaf5ccfcd9fa7a6f52fc0efc6547f2933eae31dcd2763a0d16f6ab6/wiremind-kubernetes-7.3.0.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-07-21 12:40:31] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.5.3.tar.gz tmp/sherpa-onnx-1.5.4.tar.gz --markdown 20230721/s/sherpa-onnx/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-21 12:40:31] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/1f/b6/86e1abc2e31b1dce791d9bdbbf5bb9b15ca8380e201ac02f6ef9a2f49b92/odhpy-0.0.9.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [nextflowpy]: executing diffoscope
+[2023-07-21 12:40:31] INFO root fetch - processPackages [nextflowpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextflowpy-0.6.1-py3-none-any.whl.zip tmp/nextflowpy-0.6.2-py3-none-any.whl.zip --markdown 20230721/n/nextflowpy/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-21 12:40:31] INFO root fetch - processPackages [vaex-server]: Downloading https://files.pythonhosted.org/packages/91/d2/56cc73f1df20b45057e7e5a0e16663ef61e269a536f0cd9feaf04f2365fd/vaex-server-0.9.0.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [goldretriever]: Downloading https://files.pythonhosted.org/packages/5c/cc/6cba51b0c7162932c47564f649071c27fae9a41376f4c386bafa8af742ce/goldretriever-0.1.4.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [wiremind-kubernetes]: executing diffoscope
+[2023-07-21 12:40:31] INFO root fetch - processPackages [wiremind-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiremind-kubernetes-7.2.0.tar.gz tmp/wiremind-kubernetes-7.3.0.tar.gz --markdown 20230721/w/wiremind-kubernetes/7.2.0-7.3.0/diff.md --exclude *.pyd
+[2023-07-21 12:40:31] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/54/09/ce0bba158bf3662d9b3b4e1c0a3c38f9decd4ac4758eeed6670a159f9a96/vango-1.1.5.tar.gz
+[2023-07-21 12:40:31] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-07-21 12:40:31] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.4.0a2-py3-none-any.whl.zip tmp/scoamp-0.4.0a3-py3-none-any.whl.zip --markdown 20230721/s/scoamp/0.4.0a2-0.4.0a3/diff.md --exclude *.pyd
+[2023-07-21 12:40:31] INFO root fetch - processPackages [vaex-server]: executing diffoscope
+[2023-07-21 12:40:31] INFO root fetch - processPackages [vaex-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaex-server-0.8.1.tar.gz tmp/vaex-server-0.9.0.tar.gz --markdown 20230721/v/vaex-server/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-21 12:40:31] INFO root fetch - processPackages [odhpy]: executing diffoscope
+[2023-07-21 12:40:31] INFO root fetch - processPackages [odhpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odhpy-0.0.8.tar.gz tmp/odhpy-0.0.9.tar.gz --markdown 20230721/o/odhpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 12:40:32] INFO root fetch - processPackages [goldretriever]: executing diffoscope
+[2023-07-21 12:40:32] INFO root fetch - processPackages [goldretriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldretriever-0.1.3.tar.gz tmp/goldretriever-0.1.4.tar.gz --markdown 20230721/g/goldretriever/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-21 12:40:32] INFO root fetch - processPackages [vango]: executing diffoscope
+[2023-07-21 12:40:32] INFO root fetch - processPackages [vango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vango-1.1.1.tar.gz tmp/vango-1.1.5.tar.gz --markdown 20230721/v/vango/1.1.1-1.1.5/diff.md --exclude *.pyd
+[2023-07-21 12:40:32] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.8.tar.gz]
+[2023-07-21 12:40:32] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.9.tar.gz]
+[2023-07-21 12:40:32] INFO root fetch - processPackages [get-chrome-driver]: Start processing: vgs-api-client
+[2023-07-21 12:40:32] INFO root fetch - main [MainThread]: End processing [get-chrome-driver]: success
+[2023-07-21 12:40:32] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-21 12:40:32] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-07-21 12:40:32] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-07-21 12:40:32] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230721/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-07-21 12:40:32] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.3.tar.gz]
+[2023-07-21 12:40:32] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.4.tar.gz]
+[2023-07-21 12:40:32] INFO root fetch - processPackages [sherpa-onnx]: Start processing: odoo-addon-crm-project-task
+[2023-07-21 12:40:32] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-07-21 12:40:33] WARNING root fetch - processPackages [odoo-addon-crm-project-task]: Skipping, unable to determine old version
+[2023-07-21 12:40:33] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Start processing: vaex-jupyter
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-project-task] error
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-jupyter]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [nextflowpy]: Remove: archive file [/home/abi/fetcher/tmp/nextflowpy-0.6.1-py3-none-any.whl.zip]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [nextflowpy]: Remove: archive file [/home/abi/fetcher/tmp/nextflowpy-0.6.2-py3-none-any.whl.zip]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [nextflowpy]: Start processing: vaex-ml
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [nextflowpy]: success
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-ml]: New version: [1.0.0a1] Old Version: [0.9.0]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230721/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-jupyter]: Downloading https://files.pythonhosted.org/packages/7b/f7/6ac4aa93e06c956489b0bdd215ef171d1823b91f9fb9f2e3e4ad9bf0adf7/vaex-jupyter-0.8.1.tar.gz
+[2023-07-21 12:40:33] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.8.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.9.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [odhpy]: Start processing: telebot-components
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [odhpy]: success
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-ml]: Downloading https://files.pythonhosted.org/packages/8a/f3/ab96a6af6e7d54506ce387b337881a61841ec54b675173edad00fe997127/vaex-ml-0.9.0.tar.gz
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-server]: Remove: archive file [/home/abi/fetcher/tmp/vaex-server-0.8.1.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-server]: Remove: archive file [/home/abi/fetcher/tmp/vaex-server-0.9.0.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [vaex-server]: success
+[2023-07-21 12:40:33] INFO root fetch - processPackages [telebot-components]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [wiremind-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/wiremind-kubernetes-7.2.0.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [wiremind-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/wiremind-kubernetes-7.3.0.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [wiremind-kubernetes]: success
+[2023-07-21 12:40:33] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.4.0a2-py3-none-any.whl.zip]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.4.0a3-py3-none-any.whl.zip]
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.1.1.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.1.5.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [vango]: success
+[2023-07-21 12:40:33] INFO root fetch - processPackages [goldretriever]: Remove: archive file [/home/abi/fetcher/tmp/goldretriever-0.1.3.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - processPackages [goldretriever]: Remove: archive file [/home/abi/fetcher/tmp/goldretriever-0.1.4.tar.gz]
+[2023-07-21 12:40:33] INFO root fetch - main [MainThread]: End processing [goldretriever]: success
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-jupyter]: Downloading https://files.pythonhosted.org/packages/d9/5d/2785dba0b7ec078d5e5ec4230b94156c12a2590af7a97a3386af8eb87d87/vaex-jupyter-0.8.2.tar.gz
+[2023-07-21 12:40:33] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/fb/23/cd5704df83fc37ad6b64b1565fd12e1c10aab201ef5cbc5801bc47d77b3e/telebot_components-0.8.8.tar.gz
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-jupyter]: executing diffoscope
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaex-jupyter-0.8.1.tar.gz tmp/vaex-jupyter-0.8.2.tar.gz --markdown 20230721/v/vaex-jupyter/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-21 12:40:33] INFO root fetch - processPackages [vaex-ml]: Downloading https://files.pythonhosted.org/packages/a3/20/a955b0b2afb0ecb53588d63235bbc43d6fe96bff7ac03363634d283eb4c5/vaex-ml-1.0.0a1.tar.gz
+[2023-07-21 12:40:34] INFO root fetch - processPackages [vaex-ml]: executing diffoscope
+[2023-07-21 12:40:34] INFO root fetch - processPackages [vaex-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaex-ml-0.9.0.tar.gz tmp/vaex-ml-1.0.0a1.tar.gz --markdown 20230721/v/vaex-ml/0.9.0-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-21 12:40:34] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/3a/da/e1a7548f1c8197cc3f9e3f2536ffb60ff45538ac1b8299ad48cbc0442a41/telebot_components-0.8.9.tar.gz
+[2023-07-21 12:40:34] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-07-21 12:40:34] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.8.tar.gz tmp/telebot_components-0.8.9.tar.gz --markdown 20230721/t/telebot-components/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-21 12:40:34] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-07-21 12:40:34] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-07-21 12:40:34] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-07-21 12:40:34] INFO root fetch - processPackages [vaex-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vaex-jupyter-0.8.1.tar.gz]
+[2023-07-21 12:40:34] INFO root fetch - processPackages [vaex-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vaex-jupyter-0.8.2.tar.gz]
+[2023-07-21 12:40:34] INFO root fetch - main [MainThread]: End processing [vaex-jupyter]: success
+[2023-07-21 12:40:35] INFO root fetch - processPackages [vaex-ml]: Remove: archive file [/home/abi/fetcher/tmp/vaex-ml-0.9.0.tar.gz]
+[2023-07-21 12:40:35] INFO root fetch - processPackages [vaex-ml]: Remove: archive file [/home/abi/fetcher/tmp/vaex-ml-1.0.0a1.tar.gz]
+[2023-07-21 12:40:35] INFO root fetch - main [MainThread]: End processing [vaex-ml]: success
+[2023-07-21 12:40:35] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.8.tar.gz]
+[2023-07-21 12:40:35] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.9.tar.gz]
+[2023-07-21 12:40:35] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-07-21 12:40:35] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2023-07-21 12:40:35] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2023-07-21 12:40:35] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-07-21 12:40:35] INFO root fetch - main [MainThread]: Store serial: [18981490]
