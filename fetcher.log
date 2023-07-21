@@ -14205,3 +14205,69 @@
 [2023-07-21 07:14:18] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1.1-py3-none-any.whl.zip]
 [2023-07-21 07:14:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-cancel-reason]: success
 [2023-07-21 07:14:18] INFO root fetch - main [MainThread]: Store serial: [18978934]
+[2023-07-21 07:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978934]
+[2023-07-21 07:19:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 07:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-payment-sheet
+[2023-07-21 07:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-sale-workflow
+[2023-07-21 07:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djgraphql
+[2023-07-21 07:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-advance-payment
+[2023-07-21 07:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-recommendation
+[2023-07-21 07:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapidpe-rift-pipe
+[2023-07-21 07:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JoshMokuro
+[2023-07-21 07:19:26] INFO root fetch - processPackages [aws-recommendation]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-21 07:19:26] INFO root fetch - processPackages [djgraphql]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-21 07:19:26] INFO root fetch - processPackages [JoshMokuro]: New version: [0.2] Old Version: [0.1.8]
+[2023-07-21 07:19:26] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: New version: [15.0.1.2.0.2] Old Version: [15.0.1.2.0.1]
+[2023-07-21 07:19:26] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230712.0] Old Version: [16.0.20230628.1]
+[2023-07-21 07:19:26] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: New version: [14.0.1.1.4.dev4] Old Version: [14.0.1.1.4.dev3]
+[2023-07-21 07:19:26] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230721] Old Version: [0.5.4.dev20230720]
+[2023-07-21 07:19:27] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/0a/46/e5aa30072bebc17678da8b35173ddb415e5d9267defc2a1e2a86ec9341e0/djgraphql-1.0.4.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [JoshMokuro]: Downloading https://files.pythonhosted.org/packages/60/2d/50de15541cbcfdf85c76fba82e80a716dfe54cfc0ecc14f59e3dfc887369/JoshMokuro-0.1.8.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [aws-recommendation]: Downloading https://files.pythonhosted.org/packages/ea/c0/bbdeceee93dde886c3306152f3ceec3d9ec2bc91c46f7a6afe72db8c4a57/aws_recommendation-0.2.6.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/af/77/3e97b49853e62f51963b05059a7f774df28a9482088710e067ef9b746994/odoo_addon_sale_payment_sheet-15.0.1.2.0.1-py3-none-any.whl
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/d1/6c/491dea1c102ee7fb3dc871c0db5f62e6cb21415cf0b992d60db678deae76/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev3-py3-none-any.whl
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/76/2e/14010eebb38dc61046591d706fec340bdec7607febecc6526073174f78d0/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl
+[2023-07-21 07:19:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/38/8c/33ce42ee86db7a2ca12509d6d81d4359cc0ad738b3675408506f4f7c2cc8/rapidpe_rift_pipe-0.5.4.dev20230720.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/4b/04/b2ead4429ba8c8988129d5d0eaa862a003c068c756e7130445ae1b3d8c21/djgraphql-1.0.5.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [JoshMokuro]: Downloading https://files.pythonhosted.org/packages/c1/64/10582460927c3ed70e1a025937c2b528076202f998ddf67871552dba28c8/JoshMokuro-0.2.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [aws-recommendation]: Downloading https://files.pythonhosted.org/packages/90/ca/85412a48a71707b687f7a7dec7398f7c575a492672b291e6f81de93da22c/aws_recommendation-0.2.7.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/6e/f0/967fba47179fad38cc258921f70ec7d3e8427228e13ae8d88211b89d7565/odoo_addon_sale_payment_sheet-15.0.1.2.0.2-py3-none-any.whl
+[2023-07-21 07:19:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/db/3c/d59821d61cf3d5bedaee3a25ca8083716600976036c67c76b7468a49f64d/rapidpe_rift_pipe-0.5.4.dev20230721.tar.gz
+[2023-07-21 07:19:27] INFO root fetch - processPackages [djgraphql]: executing diffoscope
+[2023-07-21 07:19:27] INFO root fetch - processPackages [djgraphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgraphql-1.0.4.tar.gz tmp/djgraphql-1.0.5.tar.gz --markdown 20230721/d/djgraphql/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-21 07:19:27] INFO root fetch - processPackages [JoshMokuro]: executing diffoscope
+[2023-07-21 07:19:27] INFO root fetch - processPackages [JoshMokuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JoshMokuro-0.1.8.tar.gz tmp/JoshMokuro-0.2.tar.gz --markdown 20230721/J/JoshMokuro/0.1.8-0.2/diff.md --exclude *.pyd
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/5b/11/51fda56eb46e6d2d2644f0e2d898b33abe25919e7c5258a586c12b3759bb/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev4-py3-none-any.whl
+[2023-07-21 07:19:27] INFO root fetch - processPackages [aws-recommendation]: executing diffoscope
+[2023-07-21 07:19:27] INFO root fetch - processPackages [aws-recommendation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_recommendation-0.2.6.tar.gz tmp/aws_recommendation-0.2.7.tar.gz --markdown 20230721/a/aws-recommendation/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: executing diffoscope
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0.2-py3-none-any.whl.zip --markdown 20230721/o/odoo-addon-sale-payment-sheet/15.0.1.2.0.1-15.0.1.2.0.2/diff.md --exclude *.pyd
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/0a/9f/6f301813857304bf696eb8142c0448b72655ece3df43ef45dcf026c0f5c3/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl
+[2023-07-21 07:19:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-21 07:19:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230720.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230721.tar.gz --markdown 20230721/r/rapidpe-rift-pipe/0.5.4.dev20230720-0.5.4.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: executing diffoscope
+[2023-07-21 07:19:27] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev4-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-sale-advance-payment/14.0.1.1.4.dev3-14.0.1.1.4.dev4/diff.md --exclude *.pyd
+[2023-07-21 07:19:28] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-07-21 07:19:28] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230721/o/odoo-addons-oca-sale-workflow/16.0.20230628.1-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-21 07:19:29] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-07-21 07:19:29] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-07-21 07:19:29] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.4.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.5.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [djgraphql]: success
+[2023-07-21 07:19:29] INFO root fetch - processPackages [aws-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/aws_recommendation-0.2.6.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - processPackages [aws-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/aws_recommendation-0.2.7.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [aws-recommendation]: success
+[2023-07-21 07:19:29] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev3-py3-none-any.whl.zip]
+[2023-07-21 07:19:29] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev4-py3-none-any.whl.zip]
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-advance-payment]: success
+[2023-07-21 07:19:29] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230720.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230721.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-21 07:19:29] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-21 07:19:29] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0.2-py3-none-any.whl.zip]
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-payment-sheet]: success
+[2023-07-21 07:19:29] INFO root fetch - processPackages [JoshMokuro]: Remove: archive file [/home/abi/fetcher/tmp/JoshMokuro-0.1.8.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - processPackages [JoshMokuro]: Remove: archive file [/home/abi/fetcher/tmp/JoshMokuro-0.2.tar.gz]
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: End processing [JoshMokuro]: success
+[2023-07-21 07:19:29] INFO root fetch - main [MainThread]: Store serial: [18978950]
