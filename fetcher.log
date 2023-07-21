@@ -12663,3 +12663,94 @@
 [2023-07-21 05:37:02] INFO root fetch - processPackages [lib-agent]: Remove: archive file [/home/abi/fetcher/tmp/lib-agent-1.0.6.tar.gz]
 [2023-07-21 05:37:02] INFO root fetch - main [MainThread]: End processing [lib-agent]: success
 [2023-07-21 05:37:02] INFO root fetch - main [MainThread]: Store serial: [18978303]
+[2023-07-21 05:42:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978303]
+[2023-07-21 05:42:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shaku-database
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazysdk
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GAO
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onlykey-agent
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hype-html
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-document-page
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataset.sh
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataset.sh
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mine
+[2023-07-21 05:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nanoprep-ffm
+[2023-07-21 05:42:11] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [hype-html]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [shaku-database]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [onlykey-agent]: New version: [1.1.9] Old Version: [1.1.15]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [GAO]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [mine]: New version: [4.0a3] Old Version: [4.0a2]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [dataset.sh]: New version: [1.0] Old Version: [0.0.1]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [dataset.sh]: New version: [1.0] Old Version: [0.0.1]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [odoo14-addon-document-page]: New version: [14.0.1.2.4.dev3] Old Version: [14.0.1.2.4.dev2]
+[2023-07-21 05:42:11] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/41/14/7e8071666d416049e6ba639840e5d0889e22a4fdd85ef4e7fe82361f9507/nanoprep-ffm-0.0.8.tar.gz
+[2023-07-21 05:42:11] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-21 05:42:11] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/06/56/5d8919dd8fffcf01869a75f71314a18a602913251bd1e047b1209f033321/hype_html-2.0.0.tar.gz
+[2023-07-21 05:42:11] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/3c/b1/5972feeff273852198e4699bef3231f69be4cd079452960af8deff3d163d/mine-4.0a2.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [onlykey-agent]: Downloading https://files.pythonhosted.org/packages/68/80/e89b6c3680bedb1e14e99f0539ac805bddc7d8dd87c58805c64484966b7c/onlykey-agent-1.1.15.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [GAO]: Downloading https://files.pythonhosted.org/packages/e0/70/b2c1640071c80fd274f33ff1a21c6f6a8ce42c20da247a74d4e0bb781f4e/GAO-0.1.0.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/f5/6d/76a947fc54ff18ce91a3d783541eea11484f61ca4a31b69f07b2db9ed10b/shaku-database-1.1.5.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: Downloading https://files.pythonhosted.org/packages/d7/52/70e63f53912064de5da3a72b6cd0b03f76eb8e22d71f1beadbf2d573e943/dataset.sh-0.0.1.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: Downloading https://files.pythonhosted.org/packages/d7/52/70e63f53912064de5da3a72b6cd0b03f76eb8e22d71f1beadbf2d573e943/dataset.sh-0.0.1.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/8b/01/87c080cbc256bb88cacc5dbc8d180f60e1e989aff6295d8f090e5552053f/odoo14_addon_document_page-14.0.1.2.4.dev2-py3-none-any.whl
+[2023-07-21 05:42:12] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/39/b5/ffdc4b6a746556d4e5b3f4d2b834a5a8b74bb23852f492280c37d2a0c30e/nanoprep-ffm-0.0.9.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/57/c8/e4ff88f352b785883b3a9dc26798a04bcf556917a8572ad9046c2593c320/mine-4.0a3.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep-ffm-0.0.8.tar.gz tmp/nanoprep-ffm-0.0.9.tar.gz --markdown 20230721/n/nanoprep-ffm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/fc/da/bf60ec03eaa4deadc155564f9a4efdb163ca42c78547678ad5cbc6805a45/hype_html-2.0.1.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [GAO]: Downloading https://files.pythonhosted.org/packages/5b/69/12251ba9d054baf79fbdbeae2ec15f880247397500f2f1b7bc2af448e085/GAO-0.1.1.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [onlykey-agent]: Downloading https://files.pythonhosted.org/packages/09/d1/ba91adbfd3d6e3457244a2f81a82b4290b3962388af82bb4a71fdf6c407c/onlykey-agent-1.1.9.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230721/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/36/5a/d6f22376a6c4f5c47051a5753f0e8c0710396fac6c5c014e9b4b7f35dda7/shaku-database-1.1.6.tar.gz
+[2023-07-21 05:42:12] INFO root fetch - processPackages [mine]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mine-4.0a2.tar.gz tmp/mine-4.0a3.tar.gz --markdown 20230721/m/mine/4.0a2-4.0a3/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: Downloading https://files.pythonhosted.org/packages/4e/76/393377756a4d487a76362bbce476bbd1523664690e57c53d08a0ed7639c7/dataset.sh-1.0-py3-none-any.whl
+[2023-07-21 05:42:12] INFO root fetch - processPackages [GAO]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [GAO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GAO-0.1.0.tar.gz tmp/GAO-0.1.1.tar.gz --markdown 20230721/G/GAO/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [hype-html]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [hype-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hype_html-2.0.0.tar.gz tmp/hype_html-2.0.1.tar.gz --markdown 20230721/h/hype-html/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.1.5.tar.gz tmp/shaku-database-1.1.6.tar.gz --markdown 20230721/s/shaku-database/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: Downloading https://files.pythonhosted.org/packages/4e/76/393377756a4d487a76362bbce476bbd1523664690e57c53d08a0ed7639c7/dataset.sh-1.0-py3-none-any.whl
+[2023-07-21 05:42:12] INFO root fetch - processPackages [onlykey-agent]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [onlykey-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlykey-agent-1.1.15.tar.gz tmp/onlykey-agent-1.1.9.tar.gz --markdown 20230721/o/onlykey-agent/1.1.15-1.1.9/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/6c/3d/2ac310c21cc83793ee672102cd9889e291f371979b46e5fb50a5b83cdb96/odoo14_addon_document_page-14.0.1.2.4.dev3-py3-none-any.whl
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: executing diffoscope
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset.sh-0.0.1.tar.gz tmp/dataset.sh-1.0-py3-none-any.whl.zip --markdown 20230721/d/dataset.sh/0.0.1-1.0/diff.md --exclude *.pyd
+[2023-07-21 05:42:12] INFO root fetch - processPackages [dataset.sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset.sh-0.0.1.tar.gz tmp/dataset.sh-1.0-py3-none-any.whl.zip --markdown 20230721/d/dataset.sh/0.0.1-1.0/diff.md --exclude *.pyd
+[2023-07-21 05:42:13] INFO root fetch - processPackages [odoo14-addon-document-page]: executing diffoscope
+[2023-07-21 05:42:13] INFO root fetch - processPackages [odoo14-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_document_page-14.0.1.2.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_document_page-14.0.1.2.4.dev3-py3-none-any.whl.zip --markdown 20230721/o/odoo14-addon-document-page/14.0.1.2.4.dev2-14.0.1.2.4.dev3/diff.md --exclude *.pyd
+[2023-07-21 05:42:13] INFO root fetch - processPackages [nanoprep-ffm]: Remove: archive file [/home/abi/fetcher/tmp/nanoprep-ffm-0.0.8.tar.gz]
+[2023-07-21 05:42:13] INFO root fetch - processPackages [nanoprep-ffm]: Remove: archive file [/home/abi/fetcher/tmp/nanoprep-ffm-0.0.9.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [GAO]: Remove: archive file [/home/abi/fetcher/tmp/GAO-0.1.0.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [GAO]: Remove: archive file [/home/abi/fetcher/tmp/GAO-0.1.1.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [GAO]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [hype-html]: Remove: archive file [/home/abi/fetcher/tmp/hype_html-2.0.0.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [hype-html]: Remove: archive file [/home/abi/fetcher/tmp/hype_html-2.0.1.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [hype-html]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [dataset.sh]: Remove: archive file [/home/abi/fetcher/tmp/dataset.sh-0.0.1.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [dataset.sh]: Remove: archive file [/home/abi/fetcher/tmp/dataset.sh-1.0-py3-none-any.whl.zip]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [dataset.sh]: success
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [dataset.sh]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.5.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.6.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.0a2.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.0a3.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [mine]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [onlykey-agent]: Remove: archive file [/home/abi/fetcher/tmp/onlykey-agent-1.1.15.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [onlykey-agent]: Remove: archive file [/home/abi/fetcher/tmp/onlykey-agent-1.1.9.tar.gz]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [onlykey-agent]: success
+[2023-07-21 05:42:14] INFO root fetch - processPackages [odoo14-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page-14.0.1.2.4.dev2-py3-none-any.whl.zip]
+[2023-07-21 05:42:14] INFO root fetch - processPackages [odoo14-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page-14.0.1.2.4.dev3-py3-none-any.whl.zip]
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page]: success
+[2023-07-21 05:42:14] INFO root fetch - main [MainThread]: Store serial: [18978332]
