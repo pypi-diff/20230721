@@ -15739,3 +15739,87 @@
 [2023-07-21 09:05:06] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.3.tar.gz]
 [2023-07-21 09:05:06] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
 [2023-07-21 09:05:06] INFO root fetch - main [MainThread]: Store serial: [18979524]
+[2023-07-21 09:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979524]
+[2023-07-21 09:10:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: novel-dl
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cell-value
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geniusbot
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polly-python
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pospell
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anyon
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-template
+[2023-07-21 09:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-base-extras
+[2023-07-21 09:10:17] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [irisml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [cell-value]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [polly-python]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [pospell]: New version: [1.3] Old Version: [1.2]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [novel-dl]: New version: [1.6.2] Old Version: [1.5.5]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [anyon]: New version: [3.7.9] Old Version: [3.6.3]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-21 09:10:17] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2023-07-21 09:10:17] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [irisml]: Downloading https://files.pythonhosted.org/packages/d4/77/8fe10cadf12b529cfcb45955279bced0df877351825f09eec8e8e3dc70cc/irisml-0.0.8.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [cell-value]: Downloading https://files.pythonhosted.org/packages/54/8d/1ac33db1f6649c54ee14981f1cc5a5e0cbb4cb65c694660ce143c39ee110/cell_value-1.1.0.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/89/ed/902cfa5989dfbd99bd777fb4b8af25c468acaae85655b295cac150d6e04a/polly-python-0.3.2.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [pospell]: Downloading https://files.pythonhosted.org/packages/f5/90/873336ed099334ab262230e248e269696205ae60e5f1881b55da204bf2e0/pospell-1.2.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/7f/d0/05abd12ed01e4e2885ad51f0601d68b25c709e08963bcb3cb0346e21ccd0/anyon-3.6.3-cp311-none-win_amd64.whl
+[2023-07-21 09:10:17] INFO root fetch - processPackages [novel-dl]: Downloading https://files.pythonhosted.org/packages/cc/07/cf3f1c32bb7721aa86d1b8a297eb0f03176ce11f57ce3110425d11d80c25/novel_dl-1.5.5.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2023-07-21 09:10:17] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-07-21 09:10:17] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230721/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-21 09:10:17] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2023-07-21 09:10:17] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20230721/g/geniusbot/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-21 09:10:17] INFO root fetch - processPackages [cell-value]: Downloading https://files.pythonhosted.org/packages/86/b6/c9036e7bfa751da501c6fc93084ce0020e99d9be9afdeb78b3da20545695/cell_value-1.1.1.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [pospell]: Downloading https://files.pythonhosted.org/packages/fe/99/6f867bbe463924a1d8f56ffcf8f289540a70d6df0c43116eaf1f6244ae95/pospell-1.3.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/fb/bd/de0a48596eb40401f5a5924d914d036f5253463966d59c90d5f27afabb6d/polly-python-0.4.0.tar.gz
+[2023-07-21 09:10:17] INFO root fetch - processPackages [cell-value]: executing diffoscope
+[2023-07-21 09:10:17] INFO root fetch - processPackages [cell-value]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cell_value-1.1.0.tar.gz tmp/cell_value-1.1.1.tar.gz --markdown 20230721/c/cell-value/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-21 09:10:17] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/5e/df/1387d51aefb5f4ac114833610f96bfd6448725e49c28752e2ef3ce352773/anyon-3.7.9-cp311-none-win_amd64.whl
+[2023-07-21 09:10:18] INFO root fetch - processPackages [pospell]: executing diffoscope
+[2023-07-21 09:10:18] INFO root fetch - processPackages [pospell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pospell-1.2.tar.gz tmp/pospell-1.3.tar.gz --markdown 20230721/p/pospell/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-21 09:10:18] INFO root fetch - processPackages [polly-python]: executing diffoscope
+[2023-07-21 09:10:18] INFO root fetch - processPackages [polly-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polly-python-0.3.2.tar.gz tmp/polly-python-0.4.0.tar.gz --markdown 20230721/p/polly-python/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-21 09:10:18] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-07-21 09:10:18] INFO root fetch - processPackages [novel-dl]: Downloading https://files.pythonhosted.org/packages/89/47/593c41573ad96c09e013694a85fe6705bd89957a98e6698fc927681a5e7f/novel_dl-1.6.2.tar.gz
+[2023-07-21 09:10:18] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-21 09:10:18] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230721/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-21 09:10:18] INFO root fetch - processPackages [novel-dl]: executing diffoscope
+[2023-07-21 09:10:18] INFO root fetch - processPackages [novel-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novel_dl-1.5.5.tar.gz tmp/novel_dl-1.6.2.tar.gz --markdown 20230721/n/novel-dl/1.5.5-1.6.2/diff.md --exclude *.pyd
+[2023-07-21 09:10:18] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-21 09:10:18] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.6.3-cp311-none-win_amd64.whl.zip tmp/anyon-3.7.9-cp311-none-win_amd64.whl.zip --markdown 20230721/a/anyon/3.6.3-3.7.9/diff.md --exclude *.pyd
+[2023-07-21 09:10:18] INFO root fetch - processPackages [irisml]: Downloading https://files.pythonhosted.org/packages/89/fc/e470679233b923db63ba24ec0fe777e6ba04634022230150073d36bfe279/irisml-0.0.9.tar.gz
+[2023-07-21 09:10:18] INFO root fetch - processPackages [irisml]: executing diffoscope
+[2023-07-21 09:10:18] INFO root fetch - processPackages [irisml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-0.0.8.tar.gz tmp/irisml-0.0.9.tar.gz --markdown 20230721/i/irisml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 09:10:19] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2023-07-21 09:10:19] INFO root fetch - processPackages [cell-value]: Remove: archive file [/home/abi/fetcher/tmp/cell_value-1.1.0.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [cell-value]: Remove: archive file [/home/abi/fetcher/tmp/cell_value-1.1.1.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [cell-value]: success
+[2023-07-21 09:10:19] INFO root fetch - processPackages [pospell]: Remove: archive file [/home/abi/fetcher/tmp/pospell-1.2.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [pospell]: Remove: archive file [/home/abi/fetcher/tmp/pospell-1.3.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [pospell]: success
+[2023-07-21 09:10:19] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-07-21 09:10:19] INFO root fetch - processPackages [polly-python]: Remove: archive file [/home/abi/fetcher/tmp/polly-python-0.3.2.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [polly-python]: Remove: archive file [/home/abi/fetcher/tmp/polly-python-0.4.0.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [polly-python]: success
+[2023-07-21 09:10:19] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-21 09:10:19] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.6.3-cp311-none-win_amd64.whl.zip]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.9-cp311-none-win_amd64.whl.zip]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-21 09:10:19] INFO root fetch - processPackages [irisml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-0.0.8.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - processPackages [irisml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-0.0.9.tar.gz]
+[2023-07-21 09:10:19] INFO root fetch - main [MainThread]: End processing [irisml]: success
+[2023-07-21 09:10:26] INFO root fetch - processPackages [novel-dl]: Remove: archive file [/home/abi/fetcher/tmp/novel_dl-1.5.5.tar.gz]
+[2023-07-21 09:10:26] INFO root fetch - processPackages [novel-dl]: Remove: archive file [/home/abi/fetcher/tmp/novel_dl-1.6.2.tar.gz]
+[2023-07-21 09:10:26] INFO root fetch - main [MainThread]: End processing [novel-dl]: success
+[2023-07-21 09:10:26] INFO root fetch - main [MainThread]: Store serial: [18979552]
