@@ -13947,3 +13947,55 @@
 [2023-07-21 06:58:41] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_delivery_split_date-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-07-21 06:58:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-delivery-split-date]: success
 [2023-07-21 06:58:41] INFO root fetch - main [MainThread]: Store serial: [18978828]
+[2023-07-21 07:03:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978828]
+[2023-07-21 07:03:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-api-client
+[2023-07-21 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-social-laws
+[2023-07-21 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-sparse
+[2023-07-21 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hellodemo123
+[2023-07-21 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-product-warranty
+[2023-07-21 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-product-warranty
+[2023-07-21 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: marqo
+[2023-07-21 07:03:51] WARNING root fetch - processPackages [up-social-laws]: Skipping, unable to determine old version
+[2023-07-21 07:03:51] INFO root fetch - main [MainThread]: End processing [up-social-laws] error
+[2023-07-21 07:03:51] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo9-addon-product-warranty]: New version: [9.0.1.0.0.99.dev6] Old Version: [9.0.1.0.0.99.dev5]
+[2023-07-21 07:03:51] WARNING root fetch - processPackages [hellodemo123]: Skipping, unable to determine old version
+[2023-07-21 07:03:51] INFO root fetch - main [MainThread]: End processing [hellodemo123] error
+[2023-07-21 07:03:51] INFO root fetch - processPackages [scikit-sparse]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo11-addon-product-warranty]: New version: [11.0.1.0.0.99.dev7] Old Version: [11.0.1.0.0.99.dev6]
+[2023-07-21 07:03:51] INFO root fetch - processPackages [scikit-sparse]: Downloading https://files.pythonhosted.org/packages/b9/80/2b5629fec3a56bb5597f36642c6a95918105bb8c98044d458a9a91d9d439/scikit-sparse-0.4.7.tar.gz
+[2023-07-21 07:03:51] INFO root fetch - processPackages [marqo]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo9-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/2c/13/58c481a2df817a9deeea2f3d05eb384a6028cd28c6e7e778270db0f93111/odoo9_addon_product_warranty-9.0.1.0.0.99.dev5-py2-none-any.whl
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo11-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/d9/a4/6741cfe33f8d343c85d0d066ef2587cd789adceca21ce1b963b52e9cf840/odoo11_addon_product_warranty-11.0.1.0.0.99.dev6-py2.py3-none-any.whl
+[2023-07-21 07:03:51] INFO root fetch - processPackages [scikit-sparse]: Downloading https://files.pythonhosted.org/packages/b9/e8/1fe87f92779a1c0392eea70ddcd9f50bea9255b9b6dabc206467a2a15925/scikit-sparse-0.4.8.tar.gz
+[2023-07-21 07:03:51] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-07-21 07:03:51] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230721/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-21 07:03:51] INFO root fetch - processPackages [scikit-sparse]: executing diffoscope
+[2023-07-21 07:03:51] INFO root fetch - processPackages [scikit-sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-sparse-0.4.7.tar.gz tmp/scikit-sparse-0.4.8.tar.gz --markdown 20230721/s/scikit-sparse/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-21 07:03:51] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/f7/82/999dd0035a5acf765ac6ee2d29f6c771832fbf1efe18f4d13d09fc6c1cbf/marqo-0.9.6.tar.gz
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo9-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/47/43/b3e17a0d132b238f8e0ec7361f7dcb1e171f49c57af899707240bf9cb7b4/odoo9_addon_product_warranty-9.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo11-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/28/99/aad7430319c19fd386cc98e1c20130de035f96dc6989fafcb7714169d5b8/odoo11_addon_product_warranty-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo9-addon-product-warranty]: executing diffoscope
+[2023-07-21 07:03:51] INFO root fetch - processPackages [odoo9-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_product_warranty-9.0.1.0.0.99.dev5-py2-none-any.whl.zip tmp/odoo9_addon_product_warranty-9.0.1.0.0.99.dev6-py2-none-any.whl.zip --markdown 20230721/o/odoo9-addon-product-warranty/9.0.1.0.0.99.dev5-9.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-07-21 07:03:52] INFO root fetch - processPackages [odoo11-addon-product-warranty]: executing diffoscope
+[2023-07-21 07:03:52] INFO root fetch - processPackages [odoo11-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_product_warranty-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_product_warranty-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-product-warranty/11.0.1.0.0.99.dev6-11.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-21 07:03:52] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/a9/4f/52470408280525c909720ecfb47956f6aea81474442228a4ad8c454ea132/marqo-1.0.0.tar.gz
+[2023-07-21 07:03:52] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-07-21 07:03:52] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-07-21 07:03:52] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-07-21 07:03:52] INFO root fetch - processPackages [scikit-sparse]: Remove: archive file [/home/abi/fetcher/tmp/scikit-sparse-0.4.7.tar.gz]
+[2023-07-21 07:03:52] INFO root fetch - processPackages [scikit-sparse]: Remove: archive file [/home/abi/fetcher/tmp/scikit-sparse-0.4.8.tar.gz]
+[2023-07-21 07:03:52] INFO root fetch - main [MainThread]: End processing [scikit-sparse]: success
+[2023-07-21 07:03:52] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-07-21 07:03:52] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-0.9.6.tar.gz tmp/marqo-1.0.0.tar.gz --markdown 20230721/m/marqo/0.9.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-21 07:03:52] INFO root fetch - processPackages [odoo9-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_product_warranty-9.0.1.0.0.99.dev5-py2-none-any.whl.zip]
+[2023-07-21 07:03:52] INFO root fetch - processPackages [odoo9-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_product_warranty-9.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-07-21 07:03:52] INFO root fetch - main [MainThread]: End processing [odoo9-addon-product-warranty]: success
+[2023-07-21 07:03:53] INFO root fetch - processPackages [odoo11-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_product_warranty-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-07-21 07:03:53] INFO root fetch - processPackages [odoo11-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_product_warranty-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-21 07:03:53] INFO root fetch - main [MainThread]: End processing [odoo11-addon-product-warranty]: success
+[2023-07-21 07:03:53] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-0.9.6.tar.gz]
+[2023-07-21 07:03:53] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.0.0.tar.gz]
+[2023-07-21 07:03:53] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-07-21 07:03:53] INFO root fetch - main [MainThread]: Store serial: [18978850]
