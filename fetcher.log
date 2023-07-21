@@ -21318,3 +21318,190 @@ AssertionError: tmp/sqlx-exec-1.0.5.tar.gz does not exist
 [2023-07-21 13:23:37] INFO root fetch - processPackages [streamlit-editable-dataframe]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-editable-dataframe-1.0.0.tar.gz]
 [2023-07-21 13:23:37] INFO root fetch - main [MainThread]: End processing [streamlit-editable-dataframe]: success
 [2023-07-21 13:23:37] INFO root fetch - main [MainThread]: Store serial: [18981868]
+[2023-07-21 13:28:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18981868]
+[2023-07-21 13:28:48] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meta-core
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchrl-nightly
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CF-Algorithm
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-client
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2023-07-21 13:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2023-07-21 13:28:48] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [meta-core]: New version: [3.7.25] Old Version: [3.7.24]
+[2023-07-21 13:28:48] WARNING root fetch - processPackages [CF-Algorithm]: Skipping, unable to determine old version
+[2023-07-21 13:28:48] INFO root fetch - processPackages [CF-Algorithm]: Start processing: nucliadb-utils
+[2023-07-21 13:28:48] INFO root fetch - main [MainThread]: End processing [CF-Algorithm] error
+[2023-07-21 13:28:48] INFO root fetch - processPackages [cg]: New version: [40.1.1] Old Version: [40.1.0]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-21 13:28:48] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/fd/ca/0ea8d953e869efb47607063e5f9e0fa67b1260162cd54b358f5c93c6f486/meta-core-3.7.24.tar.gz
+[2023-07-21 13:28:49] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/31/5b/8a82606e9c95ba87e3848c77c3867df7696426781aa46ae275e352a3100d/cg-40.1.0.tar.gz
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/33/4b/eb14221303beffa5a6819c45214aa1ea8da4dbcf4da3c2693e3d51434551/meta-core-3.7.25.tar.gz
+[2023-07-21 13:28:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0c/a3/a48be7cffdb243c8334e5e49e7580619ff1113b9e25cf49f9a5a2d0ff966/cg-40.1.1.tar.gz
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230721/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-21 13:28:49] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230721/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-21 13:28:50] INFO root fetch - processPackages [meta-core]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [meta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-core-3.7.24.tar.gz tmp/meta-core-3.7.25.tar.gz --markdown 20230721/m/meta-core/3.7.24-3.7.25/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230721/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230721/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230721/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230721/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230721/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.1.0.tar.gz tmp/cg-40.1.1.tar.gz --markdown 20230721/c/cg/40.1.0-40.1.1/diff.md --exclude *.pyd
+[2023-07-21 13:28:50] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-21 13:28:50] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230721/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: eventdetector-ts
+[2023-07-21 13:28:51] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-21 13:28:51] INFO root fetch - processPackages [eventdetector-ts]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-client]: Start processing: torchserve-nightly
+[2023-07-21 13:28:51] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-21 13:28:51] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [eventdetector-ts]: Downloading https://files.pythonhosted.org/packages/b6/b0/6c9b5633df48710de4e70afcb57cfe25a1ca0dbf3cd246f4a2a78d3f4934/eventdetector_ts-1.0.1.tar.gz
+[2023-07-21 13:28:51] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-21 13:28:51] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-21 13:28:51] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-07-21 13:28:51] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.24.tar.gz]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.25.tar.gz]
+[2023-07-21 13:28:51] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: torch-workflow-archiver-nightly
+[2023-07-21 13:28:51] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-21 13:28:51] INFO root fetch - processPackages [meta-core]: Start processing: titan-iris
+[2023-07-21 13:28:51] INFO root fetch - main [MainThread]: End processing [meta-core]: success
+[2023-07-21 13:28:52] INFO root fetch - processPackages [eventdetector-ts]: Downloading https://files.pythonhosted.org/packages/81/00/d85ce616b67e46ca4b313934a138afd2231195983f4759e0edd2995d4c32/eventdetector_ts-1.0.2.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-models]: Start processing: emark
+[2023-07-21 13:28:52] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [emark]: New version: [1.1rc3] Old Version: [1.1rc2]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-protos]: Start processing: moptipyapps
+[2023-07-21 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: Start processing: robotframework-reportportal-updated
+[2023-07-21 13:28:52] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-21 13:28:52] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-21 13:28:52] INFO root fetch - processPackages [eventdetector-ts]: executing diffoscope
+[2023-07-21 13:28:52] INFO root fetch - processPackages [eventdetector-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventdetector_ts-1.0.1.tar.gz tmp/eventdetector_ts-1.0.2.tar.gz --markdown 20230721/e/eventdetector-ts/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-21 13:28:52] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [moptipyapps]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-21 13:28:52] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/1e/ce/5a336dbde023903ef16b3f1386ec97cac934d86b66fcbc1a01104f993aee/robotframework-reportportal_updated-1.1.8.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/09/a6/097789bc9e61bdfe46a0102ab5cff8342c7b32f20392b77be7b88f523ab7/emark-1.1rc2.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/dd/b4/372f1e1ae19b5e3f8b5e9be2bda60edf1667543cd5ae4b16fbd6408c9958/moptipyapps-0.8.8.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-21 13:28:52] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230721/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-21 13:28:52] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/d6/a2/f414f7b98e9fe65e0ae2a0d9c6f413bb989f0fa2eb504cb56d4aa0d2b299/robotframework-reportportal_updated-1.1.9.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torchrl-nightly]: Start processing: meent
+[2023-07-21 13:28:52] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-21 13:28:52] INFO root fetch - processPackages [meent]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-21 13:28:52] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/78/ee/b19b71924b78d9d55c3c4052d15f126a2831a058c1f26281053e788463ce/emark-1.1rc3.tar.gz
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-21 13:28:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230721/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-21 13:28:52] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-07-21 13:28:52] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.1.8.tar.gz tmp/robotframework-reportportal_updated-1.1.9.tar.gz --markdown 20230721/r/robotframework-reportportal-updated/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-21 13:28:53] INFO root fetch - processPackages [emark]: executing diffoscope
+[2023-07-21 13:28:53] INFO root fetch - processPackages [emark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emark-1.1rc2.tar.gz tmp/emark-1.1rc3.tar.gz --markdown 20230721/e/emark/1.1rc2-1.1rc3/diff.md --exclude *.pyd
+[2023-07-21 13:28:53] INFO root fetch - processPackages [meent]: Downloading https://files.pythonhosted.org/packages/cf/29/0a2760e9811adbf9faa5b7a741df74327499232af673e0bc852d81a0eef2/meent-0.9.4.tar.gz
+[2023-07-21 13:28:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-21 13:28:53] INFO root fetch - processPackages [eventdetector-ts]: Remove: archive file [/home/abi/fetcher/tmp/eventdetector_ts-1.0.1.tar.gz]
+[2023-07-21 13:28:53] INFO root fetch - processPackages [eventdetector-ts]: Remove: archive file [/home/abi/fetcher/tmp/eventdetector_ts-1.0.2.tar.gz]
+[2023-07-21 13:28:53] INFO root fetch - processPackages [eventdetector-ts]: Start processing: ninjakiwi-api
+[2023-07-21 13:28:53] INFO root fetch - main [MainThread]: End processing [eventdetector-ts]: success
+[2023-07-21 13:28:53] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-21 13:28:53] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/99/84/e6a54ea53992f0d12000f77a325b6ffd82fd0a9248f130f966739810c773/moptipyapps-0.8.9.tar.gz
+[2023-07-21 13:28:53] INFO root fetch - processPackages [meent]: Downloading https://files.pythonhosted.org/packages/d1/66/8b8bffbc924312564a7d733fef50d9718943beeedeea0be058dc6d20581f/meent-0.9.5.tar.gz
+[2023-07-21 13:28:53] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-21 13:28:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-21 13:28:53] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-21 13:28:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230721/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-21 13:28:53] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-21 13:28:53] INFO root fetch - processPackages [nucliadb]: Start processing: metabolabpy
+[2023-07-21 13:28:53] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-21 13:28:53] INFO root fetch - processPackages [moptipyapps]: executing diffoscope
+[2023-07-21 13:28:53] INFO root fetch - processPackages [moptipyapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipyapps-0.8.8.tar.gz tmp/moptipyapps-0.8.9.tar.gz --markdown 20230721/m/moptipyapps/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-21 13:28:53] INFO root fetch - processPackages [meent]: executing diffoscope
+[2023-07-21 13:28:53] INFO root fetch - processPackages [meent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meent-0.9.4.tar.gz tmp/meent-0.9.5.tar.gz --markdown 20230721/m/meent/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-21 13:28:53] INFO root fetch - processPackages [metabolabpy]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-07-21 13:28:53] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-21 13:28:53] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-21 13:28:53] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230721/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-21 13:28:53] INFO root fetch - processPackages [metabolabpy]: Downloading https://files.pythonhosted.org/packages/a9/7b/698995558a9d43dcb57bebc3acc00da8cb8de7338d090f811cfb0a51bbd1/metabolabpy-0.9.2.tar.gz
+[2023-07-21 13:28:54] WARNING root fetch - processPackages [metabolabpy]: Skipping package: exceeds size limit 54160168>=10485760
+[2023-07-21 13:28:54] INFO root fetch - main [MainThread]: End processing [metabolabpy] error
+[2023-07-21 13:28:54] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-21 13:28:54] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-21 13:28:54] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-21 13:28:54] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-21 13:28:54] INFO root fetch - processPackages [emark]: Remove: archive file [/home/abi/fetcher/tmp/emark-1.1rc2.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - processPackages [emark]: Remove: archive file [/home/abi/fetcher/tmp/emark-1.1rc3.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - main [MainThread]: End processing [emark]: success
+[2023-07-21 13:28:54] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.8.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.9.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-07-21 13:28:54] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-21 13:28:54] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-21 13:28:54] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-21 13:28:54] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-21 13:28:54] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-21 13:28:55] INFO root fetch - processPackages [meent]: Remove: archive file [/home/abi/fetcher/tmp/meent-0.9.4.tar.gz]
+[2023-07-21 13:28:55] INFO root fetch - processPackages [meent]: Remove: archive file [/home/abi/fetcher/tmp/meent-0.9.5.tar.gz]
+[2023-07-21 13:28:55] INFO root fetch - main [MainThread]: End processing [meent]: success
+[2023-07-21 13:28:55] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.8.tar.gz]
+[2023-07-21 13:28:55] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
+[2023-07-21 13:28:55] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
+[2023-07-21 13:28:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.0.tar.gz]
+[2023-07-21 13:28:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.1.tar.gz]
+[2023-07-21 13:28:57] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-21 13:28:57] INFO root fetch - main [MainThread]: Store serial: [18981932]
