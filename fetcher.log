@@ -15417,3 +15417,69 @@
 [2023-07-21 08:43:58] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.1.0a1689918291.tar.gz]
 [2023-07-21 08:43:58] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-07-21 08:43:58] INFO root fetch - main [MainThread]: Store serial: [18979396]
+[2023-07-21 08:49:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18979396]
+[2023-07-21 08:49:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-21 08:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arctix
+[2023-07-21 08:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wolkenatlas
+[2023-07-21 08:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kudio
+[2023-07-21 08:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phanos
+[2023-07-21 08:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nrsdk
+[2023-07-21 08:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrolite
+[2023-07-21 08:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msgtools
+[2023-07-21 08:49:06] INFO root fetch - processPackages [kudio]: New version: [1.1.4.4] Old Version: [1.1.4.3]
+[2023-07-21 08:49:06] INFO root fetch - processPackages [pyrolite]: New version: [0.3.4] Old Version: [0.3.3.post0]
+[2023-07-21 08:49:06] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-21 08:49:06] INFO root fetch - processPackages [wolkenatlas]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-21 08:49:06] INFO root fetch - processPackages [nrsdk]: New version: [1.1.3b1] Old Version: [1.1.3.3]
+[2023-07-21 08:49:06] INFO root fetch - processPackages [arctix]: New version: [0.0.2a17] Old Version: [0.0.1]
+[2023-07-21 08:49:06] INFO root fetch - processPackages [msgtools]: New version: [0.37.9] Old Version: [0.37.8]
+[2023-07-21 08:49:06] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-21 08:49:06] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/7d/59/9696702004790478037795e29ddee31ec985188032bea29a55bd2b57a49f/msgtools-0.37.8.tar.gz
+[2023-07-21 08:49:06] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/42/f9/75c59611bcb2f8db6cf0e1e7515e514e87f798779f883c3a0da2550e94c1/nrsdk-1.1.3.3.tar.gz
+[2023-07-21 08:49:06] INFO root fetch - processPackages [kudio]: Downloading https://files.pythonhosted.org/packages/2f/e1/c756da78ce076a73142a386bc754c2c9bc1625027792ac2859b4e9845fa2/kudio-1.1.4.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 08:49:07] INFO root fetch - processPackages [pyrolite]: Downloading https://files.pythonhosted.org/packages/bc/4b/34173cb8981ff131551d07a88b44e3276859542cb5eaf6897e97a4b883e2/pyrolite-0.3.3.post0.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [wolkenatlas]: Downloading https://files.pythonhosted.org/packages/84/28/44e129e52d88ce87bf5c98a91a0e3a36c02a9827c62ad38ca16b96ed45f9/wolkenatlas-0.2.2.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/4a/5c/cad86ecff1d81b338ae4b47414795d78b44c30d700887acd511431ea5aa0/arctix-0.0.1.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/d3/70/2af7ea5f6cf914e873391bbc1a91d620ec0350535ff65d69e6bc6c108d4a/msgtools-0.37.9.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-21 08:49:07] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230721/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-21 08:49:07] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/d3/a3/e75a53241f511a07297c9618e647b76037e4341bbb542a80bff616af153a/nrsdk-1.1.3b1.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [msgtools]: executing diffoscope
+[2023-07-21 08:49:07] INFO root fetch - processPackages [msgtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgtools-0.37.8.tar.gz tmp/msgtools-0.37.9.tar.gz --markdown 20230721/m/msgtools/0.37.8-0.37.9/diff.md --exclude *.pyd
+[2023-07-21 08:49:07] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/d9/a2/bd40eff5b7effc9de9cbd731606ad5e05ac13b1b7d94b0ca08c4107d76f9/arctix-0.0.2a17.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [wolkenatlas]: Downloading https://files.pythonhosted.org/packages/8d/10/b937ec1b5d4e243644e98af81d83340048b7e40ade2b05f206d132515d6d/wolkenatlas-0.2.3.tar.gz
+[2023-07-21 08:49:07] INFO root fetch - processPackages [wolkenatlas]: executing diffoscope
+[2023-07-21 08:49:07] INFO root fetch - processPackages [wolkenatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolkenatlas-0.2.2.tar.gz tmp/wolkenatlas-0.2.3.tar.gz --markdown 20230721/w/wolkenatlas/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-21 08:49:07] INFO root fetch - processPackages [nrsdk]: executing diffoscope
+[2023-07-21 08:49:07] INFO root fetch - processPackages [nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrsdk-1.1.3.3.tar.gz tmp/nrsdk-1.1.3b1.tar.gz --markdown 20230721/n/nrsdk/1.1.3.3-1.1.3b1/diff.md --exclude *.pyd
+[2023-07-21 08:49:07] INFO root fetch - processPackages [arctix]: executing diffoscope
+[2023-07-21 08:49:07] INFO root fetch - processPackages [arctix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctix-0.0.1.tar.gz tmp/arctix-0.0.2a17.tar.gz --markdown 20230721/a/arctix/0.0.1-0.0.2a17/diff.md --exclude *.pyd
+[2023-07-21 08:49:08] INFO root fetch - processPackages [kudio]: Downloading https://files.pythonhosted.org/packages/71/20/7a00955b677c9fe52d729015255985d32ad3bd02314f9936da08094189e6/kudio-1.1.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-21 08:49:08] INFO root fetch - processPackages [kudio]: executing diffoscope
+[2023-07-21 08:49:08] INFO root fetch - processPackages [kudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kudio-1.1.4.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/kudio-1.1.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230721/k/kudio/1.1.4.3-1.1.4.4/diff.md --exclude *.pyd
+[2023-07-21 08:49:08] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-21 08:49:08] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-21 08:49:08] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-21 08:49:08] INFO root fetch - processPackages [wolkenatlas]: Remove: archive file [/home/abi/fetcher/tmp/wolkenatlas-0.2.2.tar.gz]
+[2023-07-21 08:49:08] INFO root fetch - processPackages [wolkenatlas]: Remove: archive file [/home/abi/fetcher/tmp/wolkenatlas-0.2.3.tar.gz]
+[2023-07-21 08:49:08] INFO root fetch - main [MainThread]: End processing [wolkenatlas]: success
+[2023-07-21 08:49:08] INFO root fetch - processPackages [pyrolite]: Downloading https://files.pythonhosted.org/packages/dc/a8/10abc98c253f2e3ba7b99e47f0be59ec16c0e81ce199e0e28ccde834c477/pyrolite-0.3.4.tar.gz
+[2023-07-21 08:49:08] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.1.tar.gz]
+[2023-07-21 08:49:08] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.2a17.tar.gz]
+[2023-07-21 08:49:08] INFO root fetch - main [MainThread]: End processing [arctix]: success
+[2023-07-21 08:49:08] INFO root fetch - processPackages [pyrolite]: executing diffoscope
+[2023-07-21 08:49:08] INFO root fetch - processPackages [pyrolite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrolite-0.3.3.post0.tar.gz tmp/pyrolite-0.3.4.tar.gz --markdown 20230721/p/pyrolite/0.3.3.post0-0.3.4/diff.md --exclude *.pyd
+[2023-07-21 08:49:09] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.8.tar.gz]
+[2023-07-21 08:49:09] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.9.tar.gz]
+[2023-07-21 08:49:09] INFO root fetch - main [MainThread]: End processing [msgtools]: success
+[2023-07-21 08:49:09] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3.3.tar.gz]
+[2023-07-21 08:49:09] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3b1.tar.gz]
+[2023-07-21 08:49:09] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
+[2023-07-21 08:49:11] INFO root fetch - processPackages [pyrolite]: Remove: archive file [/home/abi/fetcher/tmp/pyrolite-0.3.3.post0.tar.gz]
+[2023-07-21 08:49:11] INFO root fetch - processPackages [pyrolite]: Remove: archive file [/home/abi/fetcher/tmp/pyrolite-0.3.4.tar.gz]
+[2023-07-21 08:49:11] INFO root fetch - main [MainThread]: End processing [pyrolite]: success
+[2023-07-21 08:49:18] INFO root fetch - processPackages [kudio]: Remove: archive file [/home/abi/fetcher/tmp/kudio-1.1.4.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-21 08:49:18] INFO root fetch - processPackages [kudio]: Remove: archive file [/home/abi/fetcher/tmp/kudio-1.1.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-21 08:49:18] INFO root fetch - main [MainThread]: End processing [kudio]: success
+[2023-07-21 08:49:18] INFO root fetch - main [MainThread]: Store serial: [18979421]
