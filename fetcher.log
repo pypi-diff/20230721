@@ -12621,3 +12621,45 @@
 [2023-07-21 05:31:52] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
 [2023-07-21 05:31:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
 [2023-07-21 05:31:52] INFO root fetch - main [MainThread]: Store serial: [18978291]
+[2023-07-21 05:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18978291]
+[2023-07-21 05:37:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-21 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-agent
+[2023-07-21 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo11-addon-hr-employee-calendar-planning
+[2023-07-21 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-hr-personal-equipment-request
+[2023-07-21 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbat
+[2023-07-21 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickzetta-migration
+[2023-07-21 05:37:00] INFO root fetch - processPackages [odoo13-addon-hr-personal-equipment-request]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-07-21 05:37:00] WARNING root fetch - processPackages [bbat]: Skipping, unable to determine old version
+[2023-07-21 05:37:00] INFO root fetch - main [MainThread]: End processing [bbat] error
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo11-addon-hr-employee-calendar-planning]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev7]
+[2023-07-21 05:37:01] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-07-21 05:37:01] INFO root fetch - processPackages [lib-agent]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-21 05:37:01] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/0e/ff/ed96bb595fa618194f007af31232eb1444deb3895214aedbe83b2bfb4871/clickzetta-migration-0.0.0.8.tar.gz
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo11-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/f4/c5/5aa723fe3f62838f56af43e3b5bae1e3152f075bd7375e6d391ec45277bc/odoo11_addon_hr_employee_calendar_planning-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo13-addon-hr-personal-equipment-request]: Downloading https://files.pythonhosted.org/packages/22/f0/36a9da99e5dc1ab3ce8ed5f55dc4c537c52f3b1d0396c30a835f77bbee81/odoo13_addon_hr_personal_equipment_request-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-21 05:37:01] INFO root fetch - processPackages [lib-agent]: Downloading https://files.pythonhosted.org/packages/3c/0b/d084adec9efa8170b200e2a98d311e5703b3986a6bb049d871402dfc9607/lib-agent-1.0.5.tar.gz
+[2023-07-21 05:37:01] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/54/f8/ad112bd82d34d061cc7ebd0d2849d125f7bc21c1e24e4c9cafe0482dda15/clickzetta-migration-0.0.0.9.tar.gz
+[2023-07-21 05:37:01] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-21 05:37:01] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.8.tar.gz tmp/clickzetta-migration-0.0.0.9.tar.gz --markdown 20230721/c/clickzetta-migration/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo11-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/9c/d7/a1746e2975d396691ab43944dc8c9865f28cbdb77a1997a0be34d5d7e238/odoo11_addon_hr_employee_calendar_planning-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-07-21 05:37:01] INFO root fetch - processPackages [lib-agent]: Downloading https://files.pythonhosted.org/packages/96/65/453f7b077b55610ad46a7018027af44d39e3affa56950d67dc1fdbfdc622/lib-agent-1.0.6.tar.gz
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo13-addon-hr-personal-equipment-request]: Downloading https://files.pythonhosted.org/packages/26/6c/ec20706837ec2da9e9e8f7f6a783fb3516ad3e9d901014cdcf4f7d5891f5/odoo13_addon_hr_personal_equipment_request-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-21 05:37:01] INFO root fetch - processPackages [lib-agent]: executing diffoscope
+[2023-07-21 05:37:01] INFO root fetch - processPackages [lib-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-agent-1.0.5.tar.gz tmp/lib-agent-1.0.6.tar.gz --markdown 20230721/l/lib-agent/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo11-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo11-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_hr_employee_calendar_planning-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_hr_employee_calendar_planning-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230721/o/odoo11-addon-hr-employee-calendar-planning/11.0.1.0.0.99.dev7-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo13-addon-hr-personal-equipment-request]: executing diffoscope
+[2023-07-21 05:37:01] INFO root fetch - processPackages [odoo13-addon-hr-personal-equipment-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_personal_equipment_request-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_hr_personal_equipment_request-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230721/o/odoo13-addon-hr-personal-equipment-request/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-21 05:37:02] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.8.tar.gz]
+[2023-07-21 05:37:02] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.9.tar.gz]
+[2023-07-21 05:37:02] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-21 05:37:02] INFO root fetch - processPackages [odoo13-addon-hr-personal-equipment-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_personal_equipment_request-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-21 05:37:02] INFO root fetch - processPackages [odoo13-addon-hr-personal-equipment-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_personal_equipment_request-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-21 05:37:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-personal-equipment-request]: success
+[2023-07-21 05:37:02] INFO root fetch - processPackages [odoo11-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_employee_calendar_planning-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-21 05:37:02] INFO root fetch - processPackages [odoo11-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_employee_calendar_planning-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-07-21 05:37:02] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-employee-calendar-planning]: success
+[2023-07-21 05:37:02] INFO root fetch - processPackages [lib-agent]: Remove: archive file [/home/abi/fetcher/tmp/lib-agent-1.0.5.tar.gz]
+[2023-07-21 05:37:02] INFO root fetch - processPackages [lib-agent]: Remove: archive file [/home/abi/fetcher/tmp/lib-agent-1.0.6.tar.gz]
+[2023-07-21 05:37:02] INFO root fetch - main [MainThread]: End processing [lib-agent]: success
+[2023-07-21 05:37:02] INFO root fetch - main [MainThread]: Store serial: [18978303]
