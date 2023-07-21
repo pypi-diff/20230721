@@ -4588,3 +4588,60 @@
 [2023-07-21 02:34:11] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.4.tar.gz]
 [2023-07-21 02:34:11] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2023-07-21 02:34:11] INFO root fetch - main [MainThread]: Store serial: [18975346]
+[2023-07-21 02:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18975346]
+[2023-07-21 02:39:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-21 02:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2023-07-21 02:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SBMLDiagrams
+[2023-07-21 02:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynaconf-aws-loader
+[2023-07-21 02:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otx
+[2023-07-21 02:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylitterbot
+[2023-07-21 02:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-circular-progress
+[2023-07-21 02:39:19] INFO root fetch - processPackages [SBMLDiagrams]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-21 02:39:19] INFO root fetch - processPackages [st-circular-progress]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-21 02:39:19] INFO root fetch - processPackages [dynaconf-aws-loader]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-21 02:39:19] INFO root fetch - processPackages [otx]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-07-21 02:39:19] INFO root fetch - processPackages [pylitterbot]: New version: [2023.4.3] Old Version: [2023.4.2]
+[2023-07-21 02:39:20] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230721] Old Version: [0.1.5.dev20230720]
+[2023-07-21 02:39:20] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/64/52/de37c70380efeb6a740ec5d5e793a276c40dbd64696b49135948b1fcac38/st_circular_progress-0.0.4.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [SBMLDiagrams]: Downloading https://files.pythonhosted.org/packages/dd/fb/f49c23053ad585d14a8dbf30e86f886563bad44fa53a48ba7fcb4386bcb0/SBMLDiagrams-1.3.7.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/dd/1a/068929a821a76bf9210c668e0c952872d9db17d7668f07f1da786bb6ad4f/otx-1.4.0rc2.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/2b/26/1b0dd0d751c81f40675e632bd520c54fe71aa490200320dce9bb7939fb1c/pylitterbot-2023.4.2.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [dynaconf-aws-loader]: Downloading https://files.pythonhosted.org/packages/9c/3f/4c309449230a40b851db368241c21f8602c2773ec6414e06211d6be196a5/dynaconf_aws_loader-0.4.0.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/c2/c5/64e9536abcdbf5100bc947c13c67d6228c15b271154c70aa75f4db50232b/aeppl-nightly-0.1.5.dev20230720.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [st-circular-progress]: Downloading https://files.pythonhosted.org/packages/48/70/275a1e0530fbb02927b9f0fa9fd05cea39ebd27645c52e17ae71c42c6498/st_circular_progress-0.0.5.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [st-circular-progress]: executing diffoscope
+[2023-07-21 02:39:20] INFO root fetch - processPackages [st-circular-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_circular_progress-0.0.4.tar.gz tmp/st_circular_progress-0.0.5.tar.gz --markdown 20230721/s/st-circular-progress/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-21 02:39:20] INFO root fetch - processPackages [SBMLDiagrams]: Downloading https://files.pythonhosted.org/packages/f7/8b/d4a1b8e4284244d2b16fec7a3631c7685dc8ee1b19da2c8fe0a697c0efd9/SBMLDiagrams-1.3.8.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/c6/22/57bfa883920aa60e3bb54bad9c78cd2181482069044f478873923afc05ba/pylitterbot-2023.4.3.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [dynaconf-aws-loader]: Downloading https://files.pythonhosted.org/packages/83/ee/f0839e4b634b78a029ef877e69300aba21fef818bd9e6e819fc1b4241db3/dynaconf_aws_loader-0.5.0.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/21/45/4145ae5cab9ad42ee3c58250d290d964621b89965fa68b960058f9fe828f/aeppl-nightly-0.1.5.dev20230721.tar.gz
+[2023-07-21 02:39:20] INFO root fetch - processPackages [SBMLDiagrams]: executing diffoscope
+[2023-07-21 02:39:20] INFO root fetch - processPackages [SBMLDiagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBMLDiagrams-1.3.7.tar.gz tmp/SBMLDiagrams-1.3.8.tar.gz --markdown 20230721/S/SBMLDiagrams/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-21 02:39:20] INFO root fetch - processPackages [pylitterbot]: executing diffoscope
+[2023-07-21 02:39:20] INFO root fetch - processPackages [pylitterbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylitterbot-2023.4.2.tar.gz tmp/pylitterbot-2023.4.3.tar.gz --markdown 20230721/p/pylitterbot/2023.4.2-2023.4.3/diff.md --exclude *.pyd
+[2023-07-21 02:39:20] INFO root fetch - processPackages [dynaconf-aws-loader]: executing diffoscope
+[2023-07-21 02:39:20] INFO root fetch - processPackages [dynaconf-aws-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynaconf_aws_loader-0.4.0.tar.gz tmp/dynaconf_aws_loader-0.5.0.tar.gz --markdown 20230721/d/dynaconf-aws-loader/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-21 02:39:21] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-21 02:39:21] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230720.tar.gz tmp/aeppl-nightly-0.1.5.dev20230721.tar.gz --markdown 20230721/a/aeppl-nightly/0.1.5.dev20230720-0.1.5.dev20230721/diff.md --exclude *.pyd
+[2023-07-21 02:39:21] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.0.4.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - processPackages [st-circular-progress]: Remove: archive file [/home/abi/fetcher/tmp/st_circular_progress-0.0.5.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - main [MainThread]: End processing [st-circular-progress]: success
+[2023-07-21 02:39:21] INFO root fetch - processPackages [pylitterbot]: Remove: archive file [/home/abi/fetcher/tmp/pylitterbot-2023.4.2.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - processPackages [pylitterbot]: Remove: archive file [/home/abi/fetcher/tmp/pylitterbot-2023.4.3.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - main [MainThread]: End processing [pylitterbot]: success
+[2023-07-21 02:39:21] INFO root fetch - processPackages [dynaconf-aws-loader]: Remove: archive file [/home/abi/fetcher/tmp/dynaconf_aws_loader-0.4.0.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - processPackages [dynaconf-aws-loader]: Remove: archive file [/home/abi/fetcher/tmp/dynaconf_aws_loader-0.5.0.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - main [MainThread]: End processing [dynaconf-aws-loader]: success
+[2023-07-21 02:39:21] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230720.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230721.tar.gz]
+[2023-07-21 02:39:21] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-21 02:39:22] INFO root fetch - processPackages [SBMLDiagrams]: Remove: archive file [/home/abi/fetcher/tmp/SBMLDiagrams-1.3.7.tar.gz]
+[2023-07-21 02:39:22] INFO root fetch - processPackages [SBMLDiagrams]: Remove: archive file [/home/abi/fetcher/tmp/SBMLDiagrams-1.3.8.tar.gz]
+[2023-07-21 02:39:22] INFO root fetch - main [MainThread]: End processing [SBMLDiagrams]: success
+[2023-07-21 02:39:22] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/74/f2/d37439f49591f95c1648dc871a26133bbc0e877d0bf2bf5d7af7dcd16823/otx-1.4.0rc3.tar.gz
+[2023-07-21 02:39:23] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-07-21 02:39:23] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.4.0rc2.tar.gz tmp/otx-1.4.0rc3.tar.gz --markdown 20230721/o/otx/1.4.0rc2-1.4.0rc3/diff.md --exclude *.pyd
+[2023-07-21 02:39:39] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc2.tar.gz]
+[2023-07-21 02:39:39] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc3.tar.gz]
+[2023-07-21 02:39:39] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-07-21 02:39:39] INFO root fetch - main [MainThread]: Store serial: [18975380]
