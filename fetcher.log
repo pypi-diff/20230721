@@ -17620,3 +17620,93 @@ AssertionError: tmp/streamlitopencvplayer-1.4.5.tar.gz does not exist
 [2023-07-21 10:36:09] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.6.4.tar.gz]
 [2023-07-21 10:36:09] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-07-21 10:36:09] INFO root fetch - main [MainThread]: Store serial: [18980334]
+[2023-07-21 10:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18980334]
+[2023-07-21 10:41:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsrs4anki-optimizer
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funding-service-design-utils
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-estimator-nightly
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-bili-push
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idf-build-apps
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretix-sumup
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openeo-processes-dask
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dve-lumipy-preview
+[2023-07-21 10:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-tempfile
+[2023-07-21 10:41:19] ERROR root fetch - processPackages [nonebot-plugin-tempfile]: Unable to get metadata: No such project 'nonebot-plugin-tempfile'
+[2023-07-21 10:41:19] INFO root fetch - processPackages [nonebot-plugin-tempfile]: Start processing: py-draughts
+[2023-07-21 10:41:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tempfile] error
+[2023-07-21 10:41:19] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [openeo-processes-dask]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [idf-build-apps]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [pretix-sumup]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [py-draughts]: New version: [1.1.7] Old Version: [1.1.61]
+[2023-07-21 10:41:19] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/c5/86/9bc3f79b593de75d73f4b0d5d5af8566330340255331cc3607b9da6a22a1/openeo_processes_dask-2023.7.2.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/0b/03/48a3eee6a6d63e1c15603704727ed2837276a8c363c78fcc7638ae7a4d29/idf_build_apps-1.0.4.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/a8/48/b00f70f9aff0374bb892e12e0f8443bdf4652caed22aab723f0a6d60cbba/fsrs4anki_optimizer-4.3.0.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-21 10:41:19] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/4d/01/25a40cb9533e0f44f35e835c83ee068d0758bd6fa4d25b077864dcbfa470/pretix-sumup-1.0.0.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/4e/10/69cbeab49541bf36ccd0871c424228c3af9d678a88706247a63a02b56276/py-draughts-1.1.61.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-21 10:41:19] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/2e/d6/338cba4ccae582b1eac54230eb7e9ae378c7153ccef8367c14b26f1c7176/openeo_processes_dask-2023.7.3.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/59/ff/5ce20607f6131e4b1d0aec36a5b5bf1c3a90e5fc09e39dd73362eb9e1c63/fsrs4anki_optimizer-4.3.1.tar.gz
+[2023-07-21 10:41:19] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/eb/8d/059b0de3a81675d022e481070c8fb5591f406dfe968ee1a375ca803e1586/idf_build_apps-1.1.0.tar.gz
+[2023-07-21 10:41:20] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/8f/b0/d24c8eaf1a6f6c54920b2c742c115fadf2b3127e1cc392c4a3248fb35794/pretix-sumup-1.0.1.tar.gz
+[2023-07-21 10:41:20] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/64/dd/5468aa90577e921b62adb3b2a2ce40bcdbcbdf4133e3ffe35bab68233cc6/funding-service-design-utils-2.0.9.tar.gz
+[2023-07-21 10:41:20] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230721/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-21 10:41:20] INFO root fetch - processPackages [openeo-processes-dask]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [openeo-processes-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_processes_dask-2023.7.2.tar.gz tmp/openeo_processes_dask-2023.7.3.tar.gz --markdown 20230721/o/openeo-processes-dask/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-4.3.0.tar.gz tmp/fsrs4anki_optimizer-4.3.1.tar.gz --markdown 20230721/f/fsrs4anki-optimizer/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/3c/e6/7f58ef7798ce116477b25ab57b4a3b012f9a94a3702e9fceb5736f1a090c/py-draughts-1.1.7.tar.gz
+[2023-07-21 10:41:20] INFO root fetch - processPackages [idf-build-apps]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [idf-build-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf_build_apps-1.0.4.tar.gz tmp/idf_build_apps-1.1.0.tar.gz --markdown 20230721/i/idf-build-apps/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [pretix-sumup]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [pretix-sumup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-sumup-1.0.0.tar.gz tmp/pretix-sumup-1.0.1.tar.gz --markdown 20230721/p/pretix-sumup/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230721/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.8.tar.gz tmp/funding-service-design-utils-2.0.9.tar.gz --markdown 20230721/f/funding-service-design-utils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230721/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] INFO root fetch - processPackages [py-draughts]: executing diffoscope
+[2023-07-21 10:41:20] INFO root fetch - processPackages [py-draughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230721:/home/abi/fetcher/20230721:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-draughts-1.1.61.tar.gz tmp/py-draughts-1.1.7.tar.gz --markdown 20230721/p/py-draughts/1.1.61-1.1.7/diff.md --exclude *.pyd
+[2023-07-21 10:41:20] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-21 10:41:20] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-21 10:41:21] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-07-21 10:41:21] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-07-21 10:41:21] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.3.0.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.3.1.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-21 10:41:21] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.0.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.1.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - main [MainThread]: End processing [pretix-sumup]: success
+[2023-07-21 10:41:21] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.9.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-07-21 10:41:21] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.1.61.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.1.7.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-21 10:41:21] INFO root fetch - main [MainThread]: End processing [py-draughts]: success
+[2023-07-21 10:41:21] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.4.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.1.0.tar.gz]
+[2023-07-21 10:41:21] INFO root fetch - main [MainThread]: End processing [idf-build-apps]: success
+[2023-07-21 10:41:22] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2023.7.2.tar.gz]
+[2023-07-21 10:41:22] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2023.7.3.tar.gz]
+[2023-07-21 10:41:22] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
+[2023-07-21 10:41:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-21 10:41:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-21 10:41:22] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-21 10:41:22] INFO root fetch - main [MainThread]: Store serial: [18980403]
